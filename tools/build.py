@@ -213,6 +213,7 @@ def load_pages():
             "tags": meta.get("tags", []),
             "sources": meta.get("sources", []),
             "level": meta.get("level", "basic"),
+            "group": meta.get("group", ""),   # top-level branches only: the cluster it sits in on the map
             # Cartography of Wealth fields (optional)
             "tier": meta.get("tier", ""),
             "killer": meta.get("killer", ""),
@@ -435,6 +436,21 @@ def main():
             cur = pages[cur]["parent"] if cur in pages else ""
         p["path"] = list(reversed(path))
         p["branch"] = p["path"][1] if len(p["path"]) > 1 else p["id"]
+
+    # groups: every top-level branch has one (or none do), each group is one unbroken run, and only branches have them
+    branches = sorted((p for p in pages.values() if p["parent"] == root_id), key=lambda p: p["order"])
+    grouped = [p for p in branches if p["group"]]
+    if grouped and len(grouped) != len(branches):
+        errors.append(f"top-level branches without a group: {[p['id'] for p in branches if not p['group']]}")
+    seen_groups = []
+    for p in branches:
+        if p["group"] and (not seen_groups or seen_groups[-1] != p["group"]):
+            if p["group"] in seen_groups:
+                errors.append(f"group '{p['group']}' is split: its branches must sit next to each other in order")
+            seen_groups.append(p["group"])
+    for p in pages.values():
+        if p["group"] and p["parent"] != root_id:
+            errors.append(f"{p['id']}: only top-level branches can have a group")
 
     # advanced level is inherited: anything under an advanced page is advanced too
     for p in pages.values():
