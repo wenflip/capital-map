@@ -1,6 +1,6 @@
 # The Capital Map — Scope
 
-*Status: every branch written (no stubs). Live (open, unlisted: no password, search engines blocked). Next: the failure ladder. Last updated 2026-10-25.*
+*Status: every branch written (no stubs); the failure ladder has its first rungs. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-25.*
 
 ## What it is
 
@@ -23,7 +23,7 @@ Education only. Not financial advice.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
 
-## Top-level branches (v2: twelve branches in four groups)
+## Top-level branches (v3: thirteen branches in four groups)
 
 Groups are labels drawn as clusters on the map, not a tree level (decided 2026-10-25). Inside *What you can own*, branches run from inside you to fully on the record, following the Cartography of Wealth.
 
@@ -38,13 +38,14 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | What you can own | Equities | **Written.** Shares, indices, funds and ETFs, financial statements, valuation, private business |
 | Putting it together | Derivatives | **Written.** Futures, options, perpetuals, leverage |
 | Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, rebalancing, market regimes |
+| Putting it together | When Things Fail | **Written (first rungs).** The failure ladder hub, broker failure, capital controls, financial repression, currency failure, sovereign default. Still to write: insurers, clearing houses, ratings, confiscation, the market itself |
 | How it runs | Markets & Plumbing | **Written.** Exchanges, brokers, custody, settlement |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
 
 ## Cross-cutting views
 
-- **Flows:** built. *Where money comes from* (money created layer by layer) and *When a bank fails* (the backstops tested one by one).
+- **Flows:** built. *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one) and *When a country fails* (a debt crisis climbing the failure ladder).
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Regimes:** a page for now (Market Regimes).
 - **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
@@ -79,6 +80,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Geography (2026-10-25):** In Practice is written country-neutral: it explains how tax and accounts work, with a few labelled examples from large markets, and tells readers to check local rules.
 - **T-codes (2026-10-25):** dropped. They're a Supply Map feature (logistics transaction codes); the engine hides the index when no page has any.
 - **Launch gate:** settled. With every page written, the public test suite passes.
+- **Failure ladder (2026-10-25):** a 13th branch, *When Things Fail*, in *Putting it together* after Portfolio & Risk. Rung pages use one template (what fails, the backstop, where it runs out, cases, what it kills). Existing pages keep their parents; the ladder links to them rather than duplicating them (the bank rung is the Backstops page).
 - **Neutrality (2026-10-25):** every store of wealth shows how it has failed in history, so the site doesn't read as favouring any one store.
 - **Testing (2026-10-25):** 80/20. Content-only branches run their own suite plus a smoke set at desktop width; engine or layout changes run everything at all widths. Suites run in parallel.
 - **Outside sources (2026-10-25):** ideas from paid or copyrighted material can be used only in our own words, structure and names, with public cases, credited as `Study notes`. The source's wording, images and named metrics are never used; `test_backstops` guards the bank-failure material.
