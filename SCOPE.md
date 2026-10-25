@@ -32,7 +32,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | Foundations | Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
 | Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, eurodollars, liquidity, money creation |
 | What you can own | Human & Social Capital | Human capital, social capital |
-| What you can own | Digital Assets | Bitcoin, smart-contract platforms, stablecoins, memecoins, self-custody, custodial crypto |
+| What you can own | Digital Assets | **Written.** Six clusters: how blockchains work (consensus, keys, forks), native coins (Bitcoin, smart-contract platforms), tokens (stablecoins, memecoins, governance, wrapped), bridges and layer 2s, DeFi, holding crypto (self-custody, custodial) |
 | What you can own | Real Assets | Real estate, REITs, commodities, collectibles |
 | What you can own | Fixed Income | T-bills, bonds, yield curve, duration |
 | What you can own | Equities | Shares, indices, funds and ETFs, valuation, private business |
@@ -74,7 +74,8 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Commit identity:** all commits use the same public identity as The Supply Map. The first `SCOPE.md` commit on `main` predates this and still carries a personal address in its metadata; fixing it means rewriting `main`, which is the owner's call.
 - **Hub standard:** written top-level branches follow the hub rules in the README, checked by the hubs test suite.
 - **Access:** the site is open (no password or Zero Trust) but stays out of search engines: the `noindex` tag, `robots.txt` and `X-Robots-Tag` stay until the owner says otherwise.
-- **Branch order:** Foundation → Fixed Income → Digital Assets → the Cartography view.
+- **Branch order:** Foundation → Digital Assets → Fixed Income → the Cartography view.
+- **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel
 
