@@ -26,7 +26,7 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 - [[cash-and-fiat]] — currencies and what gives them value
 
 ## CFA1-FSA — Financial Statement Analysis
-> Not mapped yet: the map has no pages on reading financial statements. A gap to fill in Equities.
+- [[financial-statements]] — the income statement, balance sheet and cash flow statement
 
 ## CFA1-CF — Corporate Finance
 - [[claims-and-liabilities]] — creditors and owners: who has a claim on a company, and in what order
