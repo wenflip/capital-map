@@ -20,6 +20,7 @@ It lays the whole system out as one connected map. Each concept has one page. Ev
 ## Ways in
 - **Map** — the system as a tree. Start at [[capital-system]] and expand any branch.
 - **Flows** — money followed step by step, such as where a dollar comes from.
+- **Quals** — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.
 - **Index and search** — every page. Press `/` to search, `H` to go home. Ctrl+click any link to open it in a new tab.
 - **Depth** — *Core* for the essentials, *Everything* to add the advanced layer (marked ◆) and the "Going deeper" sections.
 - **Welcome guide** — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.
@@ -35,6 +36,8 @@ Pages are checked against reliable sources and reviewed for accuracy, and worked
 
 ## Independence
 The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.
+
+CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.
 
 ## Privacy
 The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the [Privacy](#/privacy) page.
