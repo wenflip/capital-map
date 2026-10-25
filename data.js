@@ -4,7 +4,7 @@ window.MUDMAP = {
  "about": {
   "title": "About The Capital Map",
   "summary": "A free, independent reference to money, markets and assets, on one connected map.",
-  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
+  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
  },
  "privacy": {
   "title": "Privacy",
@@ -212,8 +212,11 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "foundation",
     "hierarchy-of-money",
-    "money"
+    "inflation",
+    "money",
+    "time-value-of-money"
    ],
    "backlinksAdv": []
   },
@@ -343,7 +346,7 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A mental model, not measured data. It maps stores of wealth on two axes:</p>\n<ul>\n<li><strong>Inside you → outside you:</strong> how embodied the store is.</li>\n<li><strong>Hidden → recorded by authority:</strong> how visible it is to the state.</li>\n</ul>\n<p>Each store gets one <strong>killer</strong>: the single failure most likely to send it to zero.</p>\n<blockquote>\n<p><strong>Key rule:</strong> risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together.</p>\n</blockquote>\n<h2>The three tiers</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Tier</th>\n<th>Protected from…</th>\n<th>Exposed to…</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1 · Inside you</strong></td>\n<td>Freezing, theft, inflation</td>\n<td>Dying with you; barely transfers to heirs</td>\n</tr>\n<tr>\n<td><strong>2 · Private / bearer</strong></td>\n<td>The state</td>\n<td>Theft and your own mistakes, with no one to call</td>\n</tr>\n<tr>\n<td><strong>3 · Legible / state-visible</strong></td>\n<td>Theft, via courts, police and insurance</td>\n<td>The state itself</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The ten stores</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Store</th>\n<th>Tier</th>\n<th>Killer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a></td>\n<td>1</td>\n<td>Death or incapacity</td>\n</tr>\n<tr>\n<td>2</td>\n<td><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a></td>\n<td>1</td>\n<td>Betrayal or reputation collapse</td>\n</tr>\n<tr>\n<td>3</td>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Precious metals</a></td>\n<td>2</td>\n<td>Physical theft</td>\n</tr>\n<tr>\n<td>4</td>\n<td><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-custodied crypto</a></td>\n<td>2</td>\n<td>Key loss and protocol failure</td>\n</tr>\n<tr>\n<td>5</td>\n<td><a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a></td>\n<td>2</td>\n<td>Illiquidity and subjective value</td>\n</tr>\n<tr>\n<td>6</td>\n<td><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a></td>\n<td>2–3</td>\n<td>Inflation</td>\n</tr>\n<tr>\n<td>7</td>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>3</td>\n<td>Counterparty default</td>\n</tr>\n<tr>\n<td>8</td>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Public equity</a></td>\n<td>3</td>\n<td>Custodian and market risk</td>\n</tr>\n<tr>\n<td>9</td>\n<td><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a></td>\n<td>3</td>\n<td>Concentration and management</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>3</td>\n<td>Immobility</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for these stores carry their tier and killer in a box under the title.</p>\n<h2>What the map shows</h2>\n<ul>\n<li><strong>Stores cluster on a diagonal.</strong> What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state.</li>\n<li><strong>Moving down the diagonal trades one risk for another:</strong> theft and self-error for state and counterparty risk. You never escape both.</li>\n<li><strong>The enemy is correlation, not risk.</strong> Spread across the axes so that no single disaster clears the board. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Tier 1 is the root store.</strong> Skills and relationships are the only stores that can rebuild the others from zero.</li>\n</ul>\n<h2>The link to claims</h2>\n<p>The visibility axis lines up closely with <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible.</p>\n<h2>Limits of the model</h2>\n<ul>\n<li>Placements are <strong>judgments</strong>. Reasonable people would move some dots.</li>\n<li>It is <strong>one lens</strong> among several. It emphasises seizure, theft and failure; it says little about expected returns.</li>\n<li>Some forms break the quadrants and are worth studying for that reason: <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> (a private dollar promise).</li>\n</ul>",
+   "html": "<h2>What it is</h2>\n<p>A mental model, not measured data. It maps stores of wealth on two axes:</p>\n<ul>\n<li><strong>Inside you → outside you:</strong> how embodied the store is.</li>\n<li><strong>Hidden → recorded by authority:</strong> how visible it is to the state.</li>\n</ul>\n<p>Each store gets one <strong>killer</strong>: the single failure most likely to send it to zero.</p>\n<blockquote>\n<p><strong>Key rule:</strong> risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together.</p>\n</blockquote>\n<h2>The three tiers</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Tier</th>\n<th>Protected from…</th>\n<th>Exposed to…</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1 · Inside you</strong></td>\n<td>Freezing, theft, inflation</td>\n<td>Dying with you; barely transfers to heirs</td>\n</tr>\n<tr>\n<td><strong>2 · Private / bearer</strong></td>\n<td>The state</td>\n<td>Theft and your own mistakes, with no one to call</td>\n</tr>\n<tr>\n<td><strong>3 · Legible / state-visible</strong></td>\n<td>Theft, via courts, police and insurance</td>\n<td>The state itself</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The ten stores</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Store</th>\n<th>Tier</th>\n<th>Killer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a></td>\n<td>1</td>\n<td>Death or incapacity</td>\n</tr>\n<tr>\n<td>2</td>\n<td><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a></td>\n<td>1</td>\n<td>Betrayal or reputation collapse</td>\n</tr>\n<tr>\n<td>3</td>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Precious metals</a></td>\n<td>2</td>\n<td>Physical theft</td>\n</tr>\n<tr>\n<td>4</td>\n<td><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-custodied crypto</a></td>\n<td>2</td>\n<td>Key loss and protocol failure</td>\n</tr>\n<tr>\n<td>5</td>\n<td><a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a></td>\n<td>2</td>\n<td>Illiquidity and subjective value</td>\n</tr>\n<tr>\n<td>6</td>\n<td><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a></td>\n<td>2–3</td>\n<td>Inflation</td>\n</tr>\n<tr>\n<td>7</td>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>3</td>\n<td>Counterparty default</td>\n</tr>\n<tr>\n<td>8</td>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Public equity</a></td>\n<td>3</td>\n<td>Custodian and market risk</td>\n</tr>\n<tr>\n<td>9</td>\n<td><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a></td>\n<td>3</td>\n<td>Concentration and management</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>3</td>\n<td>Immobility</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for these stores carry their tier and killer in a box under the title.</p>\n<h2>What the map shows</h2>\n<ul>\n<li><strong>Stores cluster on a diagonal.</strong> What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state.</li>\n<li><strong>Moving down the diagonal trades one risk for another:</strong> theft and self-error for state and counterparty risk. You never escape both.</li>\n<li><strong>The enemy is correlation, not risk.</strong> Spread across the axes so that no single disaster clears the board. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Tier 1 is the root store.</strong> Skills and relationships are the only stores that can rebuild the others from zero.</li>\n</ul>\n<h2>The link to claims</h2>\n<p>The visibility axis lines up closely with <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible.</p>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers?</p><details><summary>Show answer</summary><p>Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers.</p></details></div>\n<div class=\"qa\"><p class=\"q\">According to the model, why is spreading money across many shares not enough on its own?</p><details><summary>Show answer</summary><p>Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one.</p></details></div>\n<h2>Limits of the model</h2>\n<ul>\n<li>Placements are <strong>judgments</strong>. Reasonable people would move some dots.</li>\n<li>It is <strong>one lens</strong> among several. It emphasises seizure, theft and failure; it says little about expected returns.</li>\n<li>Some forms break the quadrants and are worth studying for that reason: <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> (a private dollar promise).</li>\n</ul>",
    "deep": "",
    "links": [
     "bonds",
@@ -363,7 +366,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A mental model, not measured data. It maps stores of wealth on two axes: Inside you → outside you: how embodied the store is. Hidden → recorded by authority: how visible it is to the state. Each store gets one killer : the single failure most likely to send it to zero. Key rule: risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together. The three tiers Tier Protected from… Exposed to… 1 · Inside you Freezing, theft, inflation Dying with you; barely transfers to heirs 2 · Private / bearer The state Theft and your own mistakes, with no one to call 3 · Legible / state visible Theft, via courts, police and insurance The state itself The ten stores Store Tier Killer 1 human capital 1 Death or incapacity 2 social capital 1 Betrayal or reputation collapse 3 Precious metals 2 Physical theft 4 Self custodied crypto 2 Key loss and protocol failure 5 collectibles 2 Illiquidity and subjective value 6 cash and fiat 2–3 Inflation 7 bonds 3 Counterparty default 8 Public equity 3 Custodian and market risk 9 private business 3 Concentration and management 10 real estate 3 Immobility Pages for these stores carry their tier and killer in a box under the title. What the map shows Stores cluster on a diagonal. What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state. Moving down the diagonal trades one risk for another: theft and self error for state and counterparty risk. You never escape both. The enemy is correlation, not risk. Spread across the axes so that no single disaster clears the board. See diversification and correlation. Tier 1 is the root store. Skills and relationships are the only stores that can rebuild the others from zero. The link to claims The visibility axis lines up closely with claims and liabilities. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible. Limits of the model Placements are judgments . Reasonable people would move some dots. It is one lens among several. It emphasises seizure, theft and failure; it says little about expected returns. Some forms break the quadrants and are worth studying for that reason: custodial crypto (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and stablecoins (a private dollar promise).",
+   "text": "What it is A mental model, not measured data. It maps stores of wealth on two axes: Inside you → outside you: how embodied the store is. Hidden → recorded by authority: how visible it is to the state. Each store gets one killer : the single failure most likely to send it to zero. Key rule: risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together. The three tiers Tier Protected from… Exposed to… 1 · Inside you Freezing, theft, inflation Dying with you; barely transfers to heirs 2 · Private / bearer The state Theft and your own mistakes, with no one to call 3 · Legible / state visible Theft, via courts, police and insurance The state itself The ten stores Store Tier Killer 1 human capital 1 Death or incapacity 2 social capital 1 Betrayal or reputation collapse 3 Precious metals 2 Physical theft 4 Self custodied crypto 2 Key loss and protocol failure 5 collectibles 2 Illiquidity and subjective value 6 cash and fiat 2–3 Inflation 7 bonds 3 Counterparty default 8 Public equity 3 Custodian and market risk 9 private business 3 Concentration and management 10 real estate 3 Immobility Pages for these stores carry their tier and killer in a box under the title. What the map shows Stores cluster on a diagonal. What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state. Moving down the diagonal trades one risk for another: theft and self error for state and counterparty risk. You never escape both. The enemy is correlation, not risk. Spread across the axes so that no single disaster clears the board. See diversification and correlation. Tier 1 is the root store. Skills and relationships are the only stores that can rebuild the others from zero. The link to claims The visibility axis lines up closely with claims and liabilities. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible. Check yourself Q: Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers? A: Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers. Q: According to the model, why is spreading money across many shares not enough on its own? A: Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one. Limits of the model Placements are judgments . Reasonable people would move some dots. It is one lens among several. It emphasises seizure, theft and failure; it says little about expected returns. Some forms break the quadrants and are worth studying for that reason: custodial crypto (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and stablecoins (a private dollar promise).",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -372,8 +375,11 @@ window.MUDMAP = {
     "capital-system",
     "cash-and-fiat",
     "claims-and-liabilities",
+    "foundation",
     "gold",
-    "money"
+    "inflation",
+    "money",
+    "risk-and-return"
    ],
    "backlinksAdv": []
   },
@@ -425,6 +431,7 @@ window.MUDMAP = {
     "bank-deposits",
     "cartography-of-wealth",
     "flow:where-money-comes-from",
+    "inflation",
     "money"
    ],
    "backlinksAdv": []
@@ -477,6 +484,7 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
+    "inflation",
     "liquidity",
     "money"
    ],
@@ -541,7 +549,7 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>claim</strong> is a right to receive something from someone. The other side of every claim is a <strong>liability</strong>: the duty to pay. Your bank deposit is your claim and the bank's liability. A bond is your claim and the borrower's liability.</p>\n<p>Some assets are <strong>nobody's liability</strong>. Gold, land, bearer crypto and your own skills don't depend on anyone keeping a promise.</p>\n<h2>Why it matters</h2>\n<p>\"Is it backed?\" is a weak test. Almost no modern money can be redeemed for anything. The stronger test is two questions:</p>\n<ol>\n<li><strong>Whose liability is it?</strong> That tells you who has to stay solvent and honest for it to keep its value.</li>\n<li><strong>What is it a claim on?</strong> That tells you what you actually get if it pays.</li>\n</ol>\n<h2>How it sorts the assets</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Asset</th>\n<th>Whose liability?</th>\n<th>Claim on</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a></td>\n<td>Nobody's</td>\n<td>— (it is the asset)</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a></td>\n<td>The central bank's</td>\n<td>Nothing redeemable</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a></td>\n<td>Your bank's</td>\n<td>Central bank money</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n<td>The issuing company's</td>\n<td>Dollars held in reserve</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>A government or company</td>\n<td>Future money</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a></td>\n<td>The company (as the residual owner)</td>\n<td>Future profits, after everyone else</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>Nobody's</td>\n<td>Use and rent</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a></td>\n<td>Nobody's</td>\n<td>—</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a></td>\n<td>Nobody's</td>\n<td>— (attention only)</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The link to visibility</h2>\n<p>Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability <em>can</em> be held privately. This is the same divide the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> draws between legible and bearer assets.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a claim is only as good as the party who owes it. Being nobody's liability removes that risk, but replaces it with others: theft, loss and no one to call.</p>\n</blockquote>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>claim</strong> is a right to receive something from someone. The other side of every claim is a <strong>liability</strong>: the duty to pay. Your bank deposit is your claim and the bank's liability. A bond is your claim and the borrower's liability.</p>\n<p>Some assets are <strong>nobody's liability</strong>. Gold, land, bearer crypto and your own skills don't depend on anyone keeping a promise.</p>\n<h2>Why it matters</h2>\n<p>\"Is it backed?\" is a weak test. Almost no modern money can be redeemed for anything. The stronger test is two questions:</p>\n<ol>\n<li><strong>Whose liability is it?</strong> That tells you who has to stay solvent and honest for it to keep its value.</li>\n<li><strong>What is it a claim on?</strong> That tells you what you actually get if it pays.</li>\n</ol>\n<h2>How it sorts the assets</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Asset</th>\n<th>Whose liability?</th>\n<th>Claim on</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a></td>\n<td>Nobody's</td>\n<td>— (it is the asset)</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a></td>\n<td>The central bank's</td>\n<td>Nothing redeemable</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a></td>\n<td>Your bank's</td>\n<td>Central bank money</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n<td>The issuing company's</td>\n<td>Dollars held in reserve</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>A government or company</td>\n<td>Future money</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a></td>\n<td>The company (as the residual owner)</td>\n<td>Future profits, after everyone else</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>Nobody's</td>\n<td>Use and rent</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a></td>\n<td>Nobody's</td>\n<td>—</td>\n</tr>\n<tr>\n<td><a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a></td>\n<td>Nobody's</td>\n<td>— (attention only)</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The link to visibility</h2>\n<p>Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability <em>can</em> be held privately. This is the same divide the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> draws between legible and bearer assets.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a claim is only as good as the party who owes it. Being nobody's liability removes that risk, but replaces it with others: theft, loss and no one to call.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold a stablecoin, a gold bar and a government bond. Which of them is nobody's liability?</p><details><summary>Show answer</summary><p>Only the gold bar. The stablecoin is a claim on the company that issued it, and the bond is a claim on the government. The gold bar depends on no one keeping a promise, but it can be stolen or lost.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why is \"is it backed?\" a weaker test than \"whose liability is it?\"</p><details><summary>Show answer</summary><p>Because almost no modern money can be redeemed for anything, so nearly everything fails the \"backed\" test. Asking whose liability it is shows who must stay solvent and honest for it to hold value.</p></details></div>",
    "deep": "",
    "links": [
     "bank-deposits",
@@ -556,7 +564,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A claim is a right to receive something from someone. The other side of every claim is a liability : the duty to pay. Your bank deposit is your claim and the bank's liability. A bond is your claim and the borrower's liability. Some assets are nobody's liability . Gold, land, bearer crypto and your own skills don't depend on anyone keeping a promise. Why it matters \"Is it backed?\" is a weak test. Almost no modern money can be redeemed for anything. The stronger test is two questions: 1. Whose liability is it? That tells you who has to stay solvent and honest for it to keep its value. 2. What is it a claim on? That tells you what you actually get if it pays. How it sorts the assets Asset Whose liability? Claim on gold Nobody's — (it is the asset) central bank money The central bank's Nothing redeemable bank deposits Your bank's Central bank money stablecoins The issuing company's Dollars held in reserve bonds A government or company Future money shares The company (as the residual owner) Future profits, after everyone else real estate Nobody's Use and rent bitcoin Nobody's — memecoins Nobody's — (attention only) The link to visibility Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability can be held privately. This is the same divide the Cartography of Wealth draws between legible and bearer assets. Key rule: a claim is only as good as the party who owes it. Being nobody's liability removes that risk, but replaces it with others: theft, loss and no one to call.",
+   "text": "What it is A claim is a right to receive something from someone. The other side of every claim is a liability : the duty to pay. Your bank deposit is your claim and the bank's liability. A bond is your claim and the borrower's liability. Some assets are nobody's liability . Gold, land, bearer crypto and your own skills don't depend on anyone keeping a promise. Why it matters \"Is it backed?\" is a weak test. Almost no modern money can be redeemed for anything. The stronger test is two questions: 1. Whose liability is it? That tells you who has to stay solvent and honest for it to keep its value. 2. What is it a claim on? That tells you what you actually get if it pays. How it sorts the assets Asset Whose liability? Claim on gold Nobody's — (it is the asset) central bank money The central bank's Nothing redeemable bank deposits Your bank's Central bank money stablecoins The issuing company's Dollars held in reserve bonds A government or company Future money shares The company (as the residual owner) Future profits, after everyone else real estate Nobody's Use and rent bitcoin Nobody's — memecoins Nobody's — (attention only) The link to visibility Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability can be held privately. This is the same divide the Cartography of Wealth draws between legible and bearer assets. Key rule: a claim is only as good as the party who owes it. Being nobody's liability removes that risk, but replaces it with others: theft, loss and no one to call. Check yourself Q: You hold a stablecoin, a gold bar and a government bond. Which of them is nobody's liability? A: Only the gold bar. The stablecoin is a claim on the company that issued it, and the bond is a claim on the government. The gold bar depends on no one keeping a promise, but it can be stolen or lost. Q: Why is \"is it backed?\" a weaker test than \"whose liability is it?\" A: Because almost no modern money can be redeemed for anything, so nearly everything fails the \"backed\" test. Asking whose liability it is shows who must stay solvent and honest for it to hold value.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -564,6 +572,7 @@ window.MUDMAP = {
    "backlinks": [
     "capital-system",
     "cartography-of-wealth",
+    "foundation",
     "hierarchy-of-money",
     "money",
     "what-is-money"
@@ -686,10 +695,13 @@ window.MUDMAP = {
    "short": "",
    "parent": "foundation",
    "order": 4.0,
-   "summary": "Returns earning returns: why time matters more than timing.",
+   "summary": "Returns earning returns: why time matters more than timing, and why small fees grow large.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "foundation",
+    "returns"
+   ],
    "sources": [],
    "level": "basic",
    "tier": "",
@@ -702,16 +714,25 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<p>Returns earning returns: why time matters more than timing.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Compounding</strong> means each period's return is added to the balance, so the next period's return is earned on a bigger amount. Growth builds on growth.</p>\n<h2>Why it matters</h2>\n<p>Compounding is why the length of time money stays invested often matters more than the exact moment it goes in, and why small differences in rates — including fees — become large over decades.</p>\n<h2>How it works</h2>\n<p><strong>Simple versus compound (fictional figures):</strong> 1,000 at 5% a year for 10 years.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Method</th>\n<th>Interest is earned on</th>\n<th>Value after 10 years</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Simple</td>\n<td>The original 1,000 only</td>\n<td>1,500.00</td>\n</tr>\n<tr>\n<td>Compound</td>\n<td>The growing balance</td>\n<td>1,628.89</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Small differences grow large.</strong> 10,000 for 30 years:</p>\n<ul>\n<li>at 7% a year it grows to about <strong>76,122.55</strong>;</li>\n<li>at 6% a year (the same return less a 1% annual fee) it grows to about <strong>57,434.91</strong>.</li>\n</ul>\n<p>The fee looks like 1%, but it removes about <strong>a quarter</strong> of the final value.</p>\n<p><strong>The rule of 72.</strong> Divide 72 by the percentage rate to estimate how many years it takes money to double. At 6%, 72 ÷ 6 = 12 years; the exact answer is about 11.9. It's a quick check, and it is most accurate for rates between roughly 4% and 12%.</p>\n<p><strong>Compounding frequency.</strong> The more often returns are added, the higher the effective yearly rate. A 12% rate added monthly works out to about 12.68% a year.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Compounding works on costs too:</strong> fees, inflation and interest on debt all compound against you.</li>\n<li><strong>Losses interrupt it.</strong> A large fall shrinks the base that future returns grow from. See <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n<li><strong>Taking money out early</strong> stops the later, largest years of growth from happening.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> in compounding, the last years do most of the work — so time in the market, low costs and avoiding large losses matter more than clever timing.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the same formula, run forwards.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the compounding that runs against cash.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — how annualised (compound) returns are measured.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Using the rule of 72, roughly how long does money take to double at 9% a year?</p><details><summary>Show answer</summary><p>About 8 years (72 ÷ 9). The exact figure is a little over 8.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does a 1% annual fee cost far more than 1% of the final value over 30 years?</p><details><summary>Show answer</summary><p>Because each year's fee also removes the future returns that money would have earned. Over 30 years at these rates it removes about a quarter of the final value.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Returns earning returns: why time matters more than timing.",
+   "links": [
+    "inflation",
+    "returns",
+    "risk-and-return",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Compounding means each period's return is added to the balance, so the next period's return is earned on a bigger amount. Growth builds on growth. Why it matters Compounding is why the length of time money stays invested often matters more than the exact moment it goes in, and why small differences in rates — including fees — become large over decades. How it works Simple versus compound (fictional figures): 1,000 at 5% a year for 10 years. Method Interest is earned on Value after 10 years Simple The original 1,000 only 1,500.00 Compound The growing balance 1,628.89 Small differences grow large. 10,000 for 30 years: at 7% a year it grows to about 76,122.55 ; at 6% a year (the same return less a 1% annual fee) it grows to about 57,434.91 . The fee looks like 1%, but it removes about a quarter of the final value. The rule of 72. Divide 72 by the percentage rate to estimate how many years it takes money to double. At 6%, 72 ÷ 6 = 12 years; the exact answer is about 11.9. It's a quick check, and it is most accurate for rates between roughly 4% and 12%. Compounding frequency. The more often returns are added, the higher the effective yearly rate. A 12% rate added monthly works out to about 12.68% a year. What goes wrong Compounding works on costs too: fees, inflation and interest on debt all compound against you. Losses interrupt it. A large fall shrinks the base that future returns grow from. See risk and return. Taking money out early stops the later, largest years of growth from happening. Key rule: in compounding, the last years do most of the work — so time in the market, low costs and avoiding large losses matter more than clever timing. Connects to time value of money — the same formula, run forwards. inflation — the compounding that runs against cash. returns — how annualised (compound) returns are measured. Check yourself Q: Using the rule of 72, roughly how long does money take to double at 9% a year? A: About 8 years (72 ÷ 9). The exact figure is a little over 8. Q: Why does a 1% annual fee cost far more than 1% of the final value over 30 years? A: Because each year's fee also removes the future returns that money would have earned. Over 30 years at these rates it removes about a quarter of the final value.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "foundation",
+    "inflation",
+    "time-value-of-money"
+   ],
    "backlinksAdv": []
   },
   "correlation": {
@@ -746,7 +767,9 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "foundation",
+    "risk-and-return"
    ],
    "backlinksAdv": []
   },
@@ -972,7 +995,9 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "foundation",
+    "risk-and-return"
    ],
    "backlinksAdv": []
   },
@@ -1007,7 +1032,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "risk-and-return"
+   ],
    "backlinksAdv": []
   },
   "duration": {
@@ -1212,10 +1239,12 @@ window.MUDMAP = {
    "short": "",
    "parent": "capital-system",
    "order": 1.0,
-   "summary": "The ideas everything else rests on: claims and liabilities, time value, risk and return.",
+   "summary": "The ideas everything else rests on: claims and liabilities, time value, compounding, risk and return, and inflation.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "foundation"
+   ],
    "sources": [],
    "level": "basic",
    "tier": "",
@@ -1227,12 +1256,26 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<p>The ideas everything else rests on: claims and liabilities, time value, risk and return.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The ideas everything else rests on: claims and liabilities, time value, risk and return.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p>The handful of ideas that every other branch of the map uses. They don't depend on any particular asset. A bond, a house and a Bitcoin are all judged with the same tools: who owes what, what money is worth over time, how returns build up, how wide the range of outcomes is, and what rising prices do to it all.</p>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't about picking the wrong asset. They come from misreading one of these basics:</p>\n<ul>\n<li>treating a promise as if it were the thing itself;</li>\n<li>comparing money today with money in ten years as if they were equal;</li>\n<li>underestimating what small differences in return or fees do over decades;</li>\n<li>confusing a smooth ride with a safe one;</li>\n<li>forgetting that a 5% return in a year of 4% inflation is barely a gain.</li>\n</ul>\n<h2>How it works</h2>\n<p>Two pages sort the things you can own:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — most financial assets are someone else's promise. Ask whose, and a promise of what.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — ten stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it.</li>\n</ul>\n<p>Four pages explain how value moves through time:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — why a dollar today is worth more than a dollar later, and how to convert one into the other.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — returns earning returns: why time matters more than timing, and why fees matter more than they look.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the general rise in prices, and the difference between a nominal return and a real one.</li>\n</ul>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Mistake</th>\n<th>What it looks like</th>\n<th>The fix</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Ignoring whose promise it is</td>\n<td>\"Money in the bank is safe, full stop\"</td>\n<td>Ask who owes it and what happens if they can't pay</td>\n</tr>\n<tr>\n<td>Adding up money from different years</td>\n<td>\"I paid 200,000 and sold for 300,000, so I made 100,000\"</td>\n<td>Discount or adjust for inflation before comparing</td>\n</tr>\n<tr>\n<td>Underrating small percentages</td>\n<td>\"A 1% fee is nothing\"</td>\n<td>Compound it over the holding period</td>\n</tr>\n<tr>\n<td>Treating low volatility as low risk</td>\n<td>\"It never moves, so it can't fail\"</td>\n<td>Look for the killer, not just the wobble</td>\n</tr>\n<tr>\n<td>Quoting nominal returns</td>\n<td>\"Cash paid 4% this year\"</td>\n<td>Subtract inflation to get the real return</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> compare like with like. Money at different times, in different units or with different risks isn't the same money until you adjust for it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">Money &amp; Liquidity</a> — what the unit of account itself is, and why it loses value.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — where time value is applied to real cash flows.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — how risk is combined across assets.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> and <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — how results and risk are measured.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investments both return 7% a year. One charges a 1% annual fee, the other 0.2%. Why does the gap matter more over 30 years than over 1 year?</p><details><summary>Show answer</summary><p>Because the fee comes out every year, and each year's lost money would itself have earned returns. Over one year the gap is under 1% of the balance; over 30 years it compounds into a much larger share of the final value. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Your savings earned 3% last year while prices rose 5%. Did your wealth grow?</p><details><summary>Show answer</summary><p>In dollars, yes; in what those dollars can buy, no. The real return was about −2%, so your purchasing power fell. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Every valuation is time value plus risk.</strong> A price is the future cash an asset is expected to pay, discounted at a rate that reflects both waiting and uncertainty. The pages on <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> and <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> are the two halves of that rate.</li>\n<li><strong>Losses and gains aren't symmetrical.</strong> A fall of 50% needs a rise of 100% to recover. This is why the spread of outcomes, not just the average, decides long-run results; see the advanced section on <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n</ul></section>",
+   "links": [
+    "bonds",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "compounding",
+    "correlation",
+    "diversification",
+    "inflation",
+    "money",
+    "returns",
+    "risk-and-return",
+    "time-value-of-money",
+    "valuation",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is The handful of ideas that every other branch of the map uses. They don't depend on any particular asset. A bond, a house and a Bitcoin are all judged with the same tools: who owes what, what money is worth over time, how returns build up, how wide the range of outcomes is, and what rising prices do to it all. Why it exists Most costly money mistakes aren't about picking the wrong asset. They come from misreading one of these basics: treating a promise as if it were the thing itself; comparing money today with money in ten years as if they were equal; underestimating what small differences in return or fees do over decades; confusing a smooth ride with a safe one; forgetting that a 5% return in a year of 4% inflation is barely a gain. How it works Two pages sort the things you can own: claims and liabilities — most financial assets are someone else's promise. Ask whose, and a promise of what. The Cartography of Wealth — ten stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it. Four pages explain how value moves through time: time value of money — why a dollar today is worth more than a dollar later, and how to convert one into the other. compounding — returns earning returns: why time matters more than timing, and why fees matter more than they look. risk and return — why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help. inflation — the general rise in prices, and the difference between a nominal return and a real one. What goes wrong Mistake What it looks like The fix Ignoring whose promise it is \"Money in the bank is safe, full stop\" Ask who owes it and what happens if they can't pay Adding up money from different years \"I paid 200,000 and sold for 300,000, so I made 100,000\" Discount or adjust for inflation before comparing Underrating small percentages \"A 1% fee is nothing\" Compound it over the holding period Treating low volatility as low risk \"It never moves, so it can't fail\" Look for the killer, not just the wobble Quoting nominal returns \"Cash paid 4% this year\" Subtract inflation to get the real return Key rule: compare like with like. Money at different times, in different units or with different risks isn't the same money until you adjust for it. Connects to money — what the unit of account itself is, and why it loses value. bonds and valuation — where time value is applied to real cash flows. diversification and correlation — how risk is combined across assets. returns and volatility — how results and risk are measured. Check yourself Q: Two investments both return 7% a year. One charges a 1% annual fee, the other 0.2%. Why does the gap matter more over 30 years than over 1 year? A: Because the fee comes out every year, and each year's lost money would itself have earned returns. Over one year the gap is under 1% of the balance; over 30 years it compounds into a much larger share of the final value. See compounding. Q: Your savings earned 3% last year while prices rose 5%. Did your wealth grow? A: In dollars, yes; in what those dollars can buy, no. The real return was about −2%, so your purchasing power fell. See inflation.",
+   "textDeep": "Going deeper Every valuation is time value plus risk. A price is the future cash an asset is expected to pay, discounted at a rate that reflects both waiting and uncertainty. The pages on time value of money and risk and return are the two halves of that rate. Losses and gains aren't symmetrical. A fall of 50% needs a rise of 100% to recover. This is why the spread of outcomes, not just the average, decides long run results; see the advanced section on risk and return.",
    "children": [
     "claims-and-liabilities",
     "cartography-of-wealth",
@@ -1423,6 +1466,7 @@ window.MUDMAP = {
     "central-bank-money",
     "eurodollars",
     "gold",
+    "inflation",
     "money",
     "what-is-money"
    ],
@@ -1510,10 +1554,14 @@ window.MUDMAP = {
    "short": "",
    "parent": "foundation",
    "order": 6.0,
-   "summary": "A general rise in prices: the built-in bleed on cash.",
+   "summary": "A general rise in prices: the built-in bleed on cash, and the difference between a nominal return and a real one.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "foundation",
+    "money",
+    "macro"
+   ],
    "sources": [],
    "level": "basic",
    "tier": "",
@@ -1526,11 +1574,21 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<p>A general rise in prices: the built-in bleed on cash.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Inflation</strong> is a general rise in prices across the economy, so each unit of money buys less. It is usually measured with a price index that tracks the cost of a typical basket of goods and services, such as a consumer price index.</p>\n<h2>Why it matters</h2>\n<p>Inflation is the killer of <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">cash</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>. It also changes how every other return should be read: a gain only counts if it beats the rise in prices.</p>\n<p><strong>Worked example (fictional figures):</strong> at 3% inflation a year, after 20 years each unit of money buys only about <strong>55%</strong> of what it did at the start.</p>\n<h2>How it works</h2>\n<p><strong>Nominal versus real.</strong></p>\n<ul>\n<li>A <strong>nominal</strong> return is the number on the statement.</li>\n<li>A <strong>real</strong> return is what's left after inflation: the change in what your money can actually buy.</li>\n</ul>\n<p>A quick estimate is <em>real ≈ nominal − inflation</em>. The exact figure is (1 + nominal) ÷ (1 + inflation) − 1. At 5% nominal and 3% inflation the real return is about <strong>1.94%</strong>.</p>\n<p><strong>What drives it.</strong> Economists point to several causes, often acting together:</p>\n<ul>\n<li><strong>Demand-pull:</strong> spending grows faster than the economy can supply goods.</li>\n<li><strong>Cost-push:</strong> a key cost such as energy or wages rises and is passed on.</li>\n<li><strong>Money and credit growth</strong> outpacing output. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> and <a class=\"wl\" href=\"#/map/p/money-creation\" data-page=\"money-creation\" data-adv=\"1\">How Banks Create Money</a>.</li>\n<li><strong>Expectations:</strong> if people expect higher prices, they ask for higher wages and set higher prices, which helps make it happen.</li>\n</ul>\n<p><strong>The policy response.</strong> Many central banks aim for low, stable inflation, often around 2% a year, mainly by raising or lowering interest rates.</p>\n<h2>Who wins and who loses</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Usually loses</th>\n<th>Usually gains or is protected</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Holders of cash and fixed-rate savings</td>\n<td>Borrowers with fixed-rate debt (repaid in cheaper money)</td>\n</tr>\n<tr>\n<td>Lenders and holders of fixed-rate <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>Owners of assets whose income can rise with prices, such as some <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> and businesses</td>\n</tr>\n<tr>\n<td>People on fixed incomes</td>\n<td>Holders of inflation-linked bonds</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Reading nominal gains as real ones.</strong> A house that \"doubled\" over a long period may have gained little after inflation.</li>\n<li><strong>High and unstable inflation</strong> makes planning, pricing and saving hard, and can end in a currency crisis.</li>\n<li><strong>Deflation</strong>, a general fall in prices, causes its own problems: debts become heavier in real terms, and people delay spending.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> always ask whether a return is nominal or real. Only the real return tells you whether you are richer.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — inflation is one reason money later is worth less.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — inflation compounds too, against cash.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — loss of trust in a currency pushes people towards assets lower in the hierarchy.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your savings account paid 4% while inflation was 6%. What was your approximate real return?</p><details><summary>Show answer</summary><p>About −2% (the exact figure is about −1.9%). You have more money, but it buys less.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do fixed-rate borrowers tend to benefit from unexpected inflation?</p><details><summary>Show answer</summary><p>Because the debt is fixed in money terms. Inflation reduces what that money is worth, so the real burden of the debt falls.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A general rise in prices: the built in bleed on cash.",
+   "links": [
+    "bonds",
+    "cartography-of-wealth",
+    "cash-and-fiat",
+    "central-bank-money",
+    "compounding",
+    "hierarchy-of-money",
+    "money-creation",
+    "real-estate",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Inflation is a general rise in prices across the economy, so each unit of money buys less. It is usually measured with a price index that tracks the cost of a typical basket of goods and services, such as a consumer price index. Why it matters Inflation is the killer of cash on the Cartography of Wealth. It also changes how every other return should be read: a gain only counts if it beats the rise in prices. Worked example (fictional figures): at 3% inflation a year, after 20 years each unit of money buys only about 55% of what it did at the start. How it works Nominal versus real. A nominal return is the number on the statement. A real return is what's left after inflation: the change in what your money can actually buy. A quick estimate is real ≈ nominal − inflation . The exact figure is (1 + nominal) ÷ (1 + inflation) − 1. At 5% nominal and 3% inflation the real return is about 1.94% . What drives it. Economists point to several causes, often acting together: Demand pull: spending grows faster than the economy can supply goods. Cost push: a key cost such as energy or wages rises and is passed on. Money and credit growth outpacing output. See central bank money and money creation. Expectations: if people expect higher prices, they ask for higher wages and set higher prices, which helps make it happen. The policy response. Many central banks aim for low, stable inflation, often around 2% a year, mainly by raising or lowering interest rates. Who wins and who loses Usually loses Usually gains or is protected Holders of cash and fixed rate savings Borrowers with fixed rate debt (repaid in cheaper money) Lenders and holders of fixed rate bonds Owners of assets whose income can rise with prices, such as some real estate and businesses People on fixed incomes Holders of inflation linked bonds What goes wrong Reading nominal gains as real ones. A house that \"doubled\" over a long period may have gained little after inflation. High and unstable inflation makes planning, pricing and saving hard, and can end in a currency crisis. Deflation , a general fall in prices, causes its own problems: debts become heavier in real terms, and people delay spending. Key rule: always ask whether a return is nominal or real. Only the real return tells you whether you are richer. Connects to time value of money — inflation is one reason money later is worth less. compounding — inflation compounds too, against cash. hierarchy of money — loss of trust in a currency pushes people towards assets lower in the hierarchy. Check yourself Q: Your savings account paid 4% while inflation was 6%. What was your approximate real return? A: About −2% (the exact figure is about −1.9%). You have more money, but it buys less. Q: Why do fixed rate borrowers tend to benefit from unexpected inflation? A: Because the debt is fixed in money terms. Inflation reduces what that money is worth, so the real burden of the debt falls.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1538,6 +1596,9 @@ window.MUDMAP = {
    "backlinks": [
     "cash-and-fiat",
     "central-bank-money",
+    "compounding",
+    "foundation",
+    "time-value-of-money",
     "what-is-money"
    ],
    "backlinksAdv": []
@@ -1815,6 +1876,7 @@ window.MUDMAP = {
    "backlinks": [
     "bank-deposits",
     "flow:where-money-comes-from",
+    "inflation",
     "money"
    ],
    "backlinksAdv": [
@@ -1883,7 +1945,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "foundation"
    ],
    "backlinksAdv": []
   },
@@ -2066,7 +2129,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "risk-and-return"
+   ],
    "backlinksAdv": []
   },
   "practice": {
@@ -2226,7 +2291,8 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "claims-and-liabilities",
-    "hierarchy-of-money"
+    "hierarchy-of-money",
+    "inflation"
    ],
    "backlinksAdv": []
   },
@@ -2329,7 +2395,10 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "compounding",
+    "foundation"
+   ],
    "backlinksAdv": []
   },
   "risk-and-return": {
@@ -2338,10 +2407,13 @@ window.MUDMAP = {
    "short": "",
    "parent": "foundation",
    "order": 5.0,
-   "summary": "Why higher expected returns come with a wider spread of outcomes.",
+   "summary": "Why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "foundation",
+    "risk"
+   ],
    "sources": [],
    "level": "basic",
    "tier": "",
@@ -2354,16 +2426,29 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<p>Why higher expected returns come with a wider spread of outcomes.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Why higher expected returns come with a wider spread of outcomes.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Return</strong> is what an investment gains or loses. <strong>Risk</strong> is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are.</p>\n<h2>Why it exists</h2>\n<p>People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the <strong>risk premium</strong>.</p>\n<p>That is a statement about averages and expectations, not a promise. Taking more risk raises the <em>range</em> of outcomes, including the bad ones.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>The safe benchmark.</strong> Short-term government debt such as <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> is usually treated as the near risk-free rate. Everything else is judged against it.</li>\n<li><strong>Measuring the spread.</strong> The most common measure is <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>: how widely returns swing around their average. It is useful, but it isn't the whole story.</li>\n<li><strong>Two kinds of risk:</strong><ul>\n<li><em>Specific risk</em> belongs to one company or asset (a failed product, a fraud). It can be reduced by <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a>.</li>\n<li><em>Market-wide risk</em> hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded.</li>\n</ul>\n</li>\n<li><strong>Losses and gains aren't symmetrical.</strong></li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Fall</th>\n<th>Gain needed to get back to the start</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>−20%</td>\n<td>+25%</td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>+100%</td>\n</tr>\n<tr>\n<td>−80%</td>\n<td>+400%</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking a smooth ride for safety.</strong> An asset that rarely moves can still fail completely. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> names each store's killer for this reason.</li>\n<li><strong>Reaching for return</strong> without asking what extra risk comes with it.</li>\n<li><strong>Holding one big position</strong>, so a single failure decides everything. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — risk raises the discount rate.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — reducing risk you aren't paid for.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the loss you actually live through.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An investment rises 50% in year one and falls 50% in year two. What is the total result?</p><details><summary>Show answer</summary><p>A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why isn't company-specific risk usually rewarded with a higher expected return?</p><details><summary>Show answer</summary><p>Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Volatility drag.</strong> When returns vary, the compound (geometric) average return is lower than the simple (arithmetic) average. The bigger the swings, the bigger the gap. This is why two investments with the same average yearly return can end with very different wealth, and why reducing large losses can raise long-run growth.</li>\n<li><strong>Risk is a property of the whole portfolio.</strong> What matters is how an asset moves alongside everything else you own, not how risky it is alone. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n</ul></section>",
+   "links": [
+    "cartography-of-wealth",
+    "correlation",
+    "diversification",
+    "drawdown",
+    "position-sizing",
+    "t-bills",
+    "time-value-of-money",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Return is what an investment gains or loses. Risk is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are. Why it exists People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the risk premium . That is a statement about averages and expectations, not a promise. Taking more risk raises the range of outcomes, including the bad ones. How it works The safe benchmark. Short term government debt such as t bills is usually treated as the near risk free rate. Everything else is judged against it. Measuring the spread. The most common measure is volatility: how widely returns swing around their average. It is useful, but it isn't the whole story. Two kinds of risk: Specific risk belongs to one company or asset (a failed product, a fraud). It can be reduced by diversification. Market wide risk hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded. Losses and gains aren't symmetrical. Fall Gain needed to get back to the start −20% +25% −50% +100% −80% +400% What goes wrong Mistaking a smooth ride for safety. An asset that rarely moves can still fail completely. The Cartography of Wealth names each store's killer for this reason. Reaching for return without asking what extra risk comes with it. Holding one big position , so a single failure decides everything. See position sizing. Key rule: risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it. Connects to time value of money — risk raises the discount rate. diversification and correlation — reducing risk you aren't paid for. drawdown — the loss you actually live through. Check yourself Q: An investment rises 50% in year one and falls 50% in year two. What is the total result? A: A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative. Q: Why isn't company specific risk usually rewarded with a higher expected return? A: Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.",
+   "textDeep": "Going deeper Volatility drag. When returns vary, the compound (geometric) average return is lower than the simple (arithmetic) average. The bigger the swings, the bigger the gap. This is why two investments with the same average yearly return can end with very different wealth, and why reducing large losses can raise long run growth. Risk is a property of the whole portfolio. What matters is how an asset moves alongside everything else you own, not how risky it is alone. See correlation.",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "compounding",
+    "foundation",
+    "time-value-of-money"
+   ],
    "backlinksAdv": []
   },
   "self-custody": {
@@ -2664,7 +2749,9 @@ window.MUDMAP = {
    "backlinks": [
     "hierarchy-of-money",
     "liquidity",
-    "money"
+    "money",
+    "risk-and-return",
+    "time-value-of-money"
    ],
    "backlinksAdv": []
   },
@@ -2708,10 +2795,13 @@ window.MUDMAP = {
    "short": "",
    "parent": "foundation",
    "order": 3.0,
-   "summary": "A dollar today is worth more than a dollar later, and by how much.",
+   "summary": "A dollar today is worth more than a dollar later, and by how much: present value, future value and the discount rate.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "foundation",
+    "valuation"
+   ],
    "sources": [],
    "level": "basic",
    "tier": "",
@@ -2724,16 +2814,28 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<p>A dollar today is worth more than a dollar later, and by how much.</p>",
+   "html": "<h2>What it is</h2>\n<p>The idea that money available <strong>now</strong> is worth more than the same amount <strong>later</strong>. Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between.</p>\n<h2>Why it exists</h2>\n<p>Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time.</p>\n<h2>How it works</h2>\n<p>Two conversions, using an interest rate <em>r</em> per period and <em>n</em> periods:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Conversion</th>\n<th>Formula</th>\n<th>Question it answers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Future value</strong></td>\n<td>FV = PV × (1 + r)ⁿ</td>\n<td>What will this sum grow to?</td>\n</tr>\n<tr>\n<td><strong>Present value</strong></td>\n<td>PV = FV ÷ (1 + r)ⁿ</td>\n<td>What is a future sum worth today?</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Worked example (fictional figures):</strong> at 5% a year,</p>\n<ul>\n<li>1,000 today grows to about <strong>1,628.89</strong> in 10 years;</li>\n<li>1,000 received in 10 years is worth about <strong>613.91</strong> today.</li>\n</ul>\n<p>The rate used to bring future money back to today is the <strong>discount rate</strong>. It is made of two parts:</p>\n<ul>\n<li>the reward for <strong>waiting</strong>: roughly, the rate on the safest available asset, which already includes the inflation people expect;</li>\n<li>the reward for <strong>risk</strong>: the less certain the payment, the higher the rate and the lower the present value. See <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Adding amounts from different years</strong> as if they were the same money.</li>\n<li><strong>Using the wrong rate.</strong> A safe promise and a risky one should not be discounted at the same rate.</li>\n<li><strong>Forgetting inflation.</strong> A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> move every amount to the same date before you compare, add or subtract.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — the future-value formula is compounding.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — prices are present values of expected future cash.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — the usual stand-in for the reward for waiting.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today?</p><details><summary>Show answer</summary><p>The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A dollar today is worth more than a dollar later, and by how much.",
+   "links": [
+    "bonds",
+    "compounding",
+    "inflation",
+    "risk-and-return",
+    "t-bills",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is The idea that money available now is worth more than the same amount later . Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between. Why it exists Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time. How it works Two conversions, using an interest rate r per period and n periods: Conversion Formula Question it answers Future value FV = PV × (1 + r)ⁿ What will this sum grow to? Present value PV = FV ÷ (1 + r)ⁿ What is a future sum worth today? Worked example (fictional figures): at 5% a year, 1,000 today grows to about 1,628.89 in 10 years; 1,000 received in 10 years is worth about 613.91 today. The rate used to bring future money back to today is the discount rate . It is made of two parts: the reward for waiting : roughly, the rate on the safest available asset, which already includes the inflation people expect; the reward for risk : the less certain the payment, the higher the rate and the lower the present value. See risk and return. What goes wrong Adding amounts from different years as if they were the same money. Using the wrong rate. A safe promise and a risky one should not be discounted at the same rate. Forgetting inflation. A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See inflation. Key rule: move every amount to the same date before you compare, add or subtract. Connects to compounding — the future value formula is compounding. bonds and valuation — prices are present values of expected future cash. t bills — the usual stand in for the reward for waiting. Check yourself Q: A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today? A: The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "compounding",
+    "foundation",
+    "inflation",
+    "risk-and-return"
+   ],
    "backlinksAdv": []
   },
   "tools": {
@@ -2805,7 +2907,10 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "foundation",
+    "time-value-of-money"
+   ],
    "backlinksAdv": []
   },
   "volatility": {
@@ -2839,7 +2944,10 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "foundation",
+    "risk-and-return"
+   ],
    "backlinksAdv": []
   },
   "what-is-money": {
@@ -3022,5 +3130,5 @@ window.MUDMAP = {
   }
  ],
  "quals": {},
- "built": "2026-10-25 06:48 UTC"
+ "built": "2026-10-25 07:15 UTC"
 };
