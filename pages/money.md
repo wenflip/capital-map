@@ -26,9 +26,10 @@ Start with the jobs money does, then work down the layers from the most final fo
 - [[central-bank-money]] — the base of the modern system: banknotes and the reserves banks hold at the central bank.
 - [[cash-and-fiat]] — government currency, why people must hold it, and its built-in bleed.
 - [[bank-deposits]] — the money most people actually hold: a bank's promise to pay.
+- [[backstops]] — what stands behind that promise when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.
 - [[liquidity]] — how much money is available to flow into assets, and how analysts track it.
 
-Then follow one dollar from creation to your account in the flow *Where money comes from*.
+Then follow one dollar from creation to your account in the flow *Where money comes from*, and follow a bank failure through each backstop in *When a bank fails*.
 
 ## What goes wrong
 Each layer fails in its own way:

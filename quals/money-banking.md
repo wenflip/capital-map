@@ -18,6 +18,7 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 - [[money-creation]] — how lending creates deposits
 - [[eurodollars]] — the payment system extended offshore
 - [[liquidity]] — when settlement pressure becomes a squeeze
+- [[lender-of-last-resort]] — the central bank as the backstop for the clearing system
 
 ## MB3 — Banking as market making
 - [[liquidity]] — market liquidity: dealers absorbing imbalances for a price
@@ -37,3 +38,4 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 - [[hierarchy-of-money]] — the whole system in one picture
 - [[liquidity]] — how system liquidity moves markets
 - [[market-regimes]] — risk-on and risk-off as liquidity changes
+- [[backstops]] — what stands behind each layer when one fails
