@@ -8,6 +8,8 @@ tags: digital assets, custody, keys
 tier: 2
 killer: key loss and protocol failure — two separate roads to zero
 traits: private if done right, may yield, heirs need keys
+place: 82, 13
+killer_kind: Theft and self-error
 ---
 ## What it is
 **Self-custody** means holding the keys to your own coins in a wallet only you control. See [[keys-and-wallets]] for how keys work.

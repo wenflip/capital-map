@@ -8,6 +8,8 @@ tags: fixed income, bonds
 tier: 3
 killer: counterparty default — it is only someone else's promise to pay
 traits: legible, yields, transferable
+place: 84, 82
+killer_kind: Counterparty
 ---
 ## What it is
 A **bond** is a loan broken into tradable pieces. The borrower (the **issuer**) promises to pay interest at set times and repay the loan on a set date.

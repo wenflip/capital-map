@@ -4,7 +4,7 @@ window.MUDMAP = {
  "about": {
   "title": "About The Capital Map",
   "summary": "A free, independent reference to money, markets and assets, on one connected map.",
-  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
+  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Cartography</strong> — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
  },
  "privacy": {
   "title": "Privacy",
@@ -28,6 +28,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice",
@@ -63,6 +66,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -110,6 +116,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -172,6 +181,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -216,6 +228,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -269,6 +284,12 @@ window.MUDMAP = {
     "insured up to a limit",
     "can yield interest"
    ],
+   "place": [
+    66.0,
+    70.0
+   ],
+   "span": null,
+   "killerKind": "Counterparty",
    "path": [
     "capital-system",
     "money",
@@ -335,6 +356,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -388,6 +412,9 @@ window.MUDMAP = {
     "fixed supply",
     "no yield"
    ],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -453,6 +480,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -515,6 +545,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -572,6 +605,12 @@ window.MUDMAP = {
     "yields",
     "transferable"
    ],
+   "place": [
+    84.0,
+    82.0
+   ],
+   "span": null,
+   "killerKind": "Counterparty",
    "path": [
     "capital-system",
     "fixed-income",
@@ -638,6 +677,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -680,6 +722,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "markets",
@@ -724,6 +769,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system"
    ],
@@ -791,6 +839,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -798,7 +849,7 @@ window.MUDMAP = {
    ],
    "branch": "foundation",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A mental model, not measured data. It maps stores of wealth on two axes:</p>\n<ul>\n<li><strong>Inside you → outside you:</strong> how embodied the store is.</li>\n<li><strong>Hidden → recorded by authority:</strong> how visible it is to the state.</li>\n</ul>\n<p>Each store gets one <strong>killer</strong>: the single failure most likely to send it to zero.</p>\n<blockquote>\n<p><strong>Key rule:</strong> risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together.</p>\n</blockquote>\n<h2>The three tiers</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Tier</th>\n<th>Protected from…</th>\n<th>Exposed to…</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1 · Inside you</strong></td>\n<td>Freezing, theft, inflation</td>\n<td>Dying with you; barely transfers to heirs</td>\n</tr>\n<tr>\n<td><strong>2 · Private / bearer</strong></td>\n<td>The state</td>\n<td>Theft and your own mistakes, with no one to call</td>\n</tr>\n<tr>\n<td><strong>3 · Legible / state-visible</strong></td>\n<td>Theft, via courts, police and insurance</td>\n<td>The state itself</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The ten stores</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Store</th>\n<th>Tier</th>\n<th>Killer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a></td>\n<td>1</td>\n<td>Death or incapacity</td>\n</tr>\n<tr>\n<td>2</td>\n<td><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a></td>\n<td>1</td>\n<td>Betrayal or reputation collapse</td>\n</tr>\n<tr>\n<td>3</td>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Precious metals</a></td>\n<td>2</td>\n<td>Physical theft</td>\n</tr>\n<tr>\n<td>4</td>\n<td><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-custodied crypto</a></td>\n<td>2</td>\n<td>Key loss and protocol failure</td>\n</tr>\n<tr>\n<td>5</td>\n<td><a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a></td>\n<td>2</td>\n<td>Illiquidity and subjective value</td>\n</tr>\n<tr>\n<td>6</td>\n<td><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a></td>\n<td>2–3</td>\n<td>Inflation</td>\n</tr>\n<tr>\n<td>7</td>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>3</td>\n<td>Counterparty default</td>\n</tr>\n<tr>\n<td>8</td>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Public equity</a></td>\n<td>3</td>\n<td>Custodian and market risk</td>\n</tr>\n<tr>\n<td>9</td>\n<td><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a></td>\n<td>3</td>\n<td>Concentration and management</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>3</td>\n<td>Immobility</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for these stores carry their tier and killer in a box under the title.</p>\n<h2>What the map shows</h2>\n<ul>\n<li><strong>Stores cluster on a diagonal.</strong> What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state.</li>\n<li><strong>Moving down the diagonal trades one risk for another:</strong> theft and self-error for state and counterparty risk. You never escape both.</li>\n<li><strong>The enemy is correlation, not risk.</strong> Spread across the axes so that no single disaster clears the board. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Tier 1 is the root store.</strong> Skills and relationships are the only stores that can rebuild the others from zero.</li>\n</ul>\n<h2>The link to claims</h2>\n<p>The visibility axis lines up closely with <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible.</p>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers?</p><details><summary>Show answer</summary><p>Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers.</p></details></div>\n<div class=\"qa\"><p class=\"q\">According to the model, why is spreading money across many shares not enough on its own?</p><details><summary>Show answer</summary><p>Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one.</p></details></div>\n<h2>Limits of the model</h2>\n<ul>\n<li>Placements are <strong>judgments</strong>. Reasonable people would move some dots.</li>\n<li>It is <strong>one lens</strong> among several. It emphasises seizure, theft and failure; it says little about expected returns.</li>\n<li>Some forms break the quadrants and are worth studying for that reason: <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> (a private dollar promise).</li>\n</ul>",
+   "html": "<h2>What it is</h2>\n<p>A mental model, not measured data. It maps stores of wealth on two axes:</p>\n<ul>\n<li><strong>Inside you → outside you:</strong> how embodied the store is.</li>\n<li><strong>Hidden → recorded by authority:</strong> how visible it is to the state.</li>\n</ul>\n<p>Each store gets one <strong>killer</strong>: the single failure most likely to send it to zero.</p>\n<blockquote>\n<p><strong>Key rule:</strong> risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together.</p>\n</blockquote>\n<h2>The three tiers</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Tier</th>\n<th>Protected from…</th>\n<th>Exposed to…</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1 · Inside you</strong></td>\n<td>Freezing, theft, inflation</td>\n<td>Dying with you; barely transfers to heirs</td>\n</tr>\n<tr>\n<td><strong>2 · Private / bearer</strong></td>\n<td>The state</td>\n<td>Theft and your own mistakes, with no one to call</td>\n</tr>\n<tr>\n<td><strong>3 · Legible / state-visible</strong></td>\n<td>Theft, via courts, police and insurance</td>\n<td>The state itself</td>\n</tr>\n</tbody>\n</table></div>\n<h2>The ten stores</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Store</th>\n<th>Tier</th>\n<th>Killer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a></td>\n<td>1</td>\n<td>Death or incapacity</td>\n</tr>\n<tr>\n<td>2</td>\n<td><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a></td>\n<td>1</td>\n<td>Betrayal or reputation collapse</td>\n</tr>\n<tr>\n<td>3</td>\n<td><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Precious metals</a></td>\n<td>2</td>\n<td>Physical theft</td>\n</tr>\n<tr>\n<td>4</td>\n<td><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-custodied crypto</a></td>\n<td>2</td>\n<td>Key loss and protocol failure</td>\n</tr>\n<tr>\n<td>5</td>\n<td><a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a></td>\n<td>2</td>\n<td>Illiquidity and subjective value</td>\n</tr>\n<tr>\n<td>6</td>\n<td><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a></td>\n<td>2–3</td>\n<td>Inflation</td>\n</tr>\n<tr>\n<td>7</td>\n<td><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a></td>\n<td>3</td>\n<td>Counterparty default</td>\n</tr>\n<tr>\n<td>8</td>\n<td><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Public equity</a></td>\n<td>3</td>\n<td>Custodian and market risk</td>\n</tr>\n<tr>\n<td>9</td>\n<td><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a></td>\n<td>3</td>\n<td>Concentration and management</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a></td>\n<td>3</td>\n<td>Immobility</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for these stores carry their tier and killer in a box under the title. <a href=\"#/cartography\">See all of them on one chart</a>, filterable by tier and by kind of killer.</p>\n<h2>What the map shows</h2>\n<ul>\n<li><strong>Stores cluster on a diagonal.</strong> What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state.</li>\n<li><strong>Moving down the diagonal trades one risk for another:</strong> theft and self-error for state and counterparty risk. You never escape both.</li>\n<li><strong>The enemy is correlation, not risk.</strong> Spread across the axes so that no single disaster clears the board. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Tier 1 is the root store.</strong> Skills and relationships are the only stores that can rebuild the others from zero.</li>\n</ul>\n<h2>The link to claims</h2>\n<p>The visibility axis lines up closely with <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible.</p>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers?</p><details><summary>Show answer</summary><p>Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers.</p></details></div>\n<div class=\"qa\"><p class=\"q\">According to the model, why is spreading money across many shares not enough on its own?</p><details><summary>Show answer</summary><p>Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one.</p></details></div>\n<h2>Limits of the model</h2>\n<ul>\n<li>Placements are <strong>judgments</strong>. Reasonable people would move some dots.</li>\n<li>It is <strong>one lens</strong> among several. It emphasises seizure, theft and failure; it says little about expected returns.</li>\n<li>Some forms break the quadrants and are worth studying for that reason: <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> (a private dollar promise).</li>\n</ul>",
    "deep": "",
    "links": [
     "bonds",
@@ -818,7 +869,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A mental model, not measured data. It maps stores of wealth on two axes: Inside you → outside you: how embodied the store is. Hidden → recorded by authority: how visible it is to the state. Each store gets one killer : the single failure most likely to send it to zero. Key rule: risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together. The three tiers Tier Protected from… Exposed to… 1 · Inside you Freezing, theft, inflation Dying with you; barely transfers to heirs 2 · Private / bearer The state Theft and your own mistakes, with no one to call 3 · Legible / state visible Theft, via courts, police and insurance The state itself The ten stores Store Tier Killer 1 human capital 1 Death or incapacity 2 social capital 1 Betrayal or reputation collapse 3 Precious metals 2 Physical theft 4 Self custodied crypto 2 Key loss and protocol failure 5 collectibles 2 Illiquidity and subjective value 6 cash and fiat 2–3 Inflation 7 bonds 3 Counterparty default 8 Public equity 3 Custodian and market risk 9 private business 3 Concentration and management 10 real estate 3 Immobility Pages for these stores carry their tier and killer in a box under the title. What the map shows Stores cluster on a diagonal. What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state. Moving down the diagonal trades one risk for another: theft and self error for state and counterparty risk. You never escape both. The enemy is correlation, not risk. Spread across the axes so that no single disaster clears the board. See diversification and correlation. Tier 1 is the root store. Skills and relationships are the only stores that can rebuild the others from zero. The link to claims The visibility axis lines up closely with claims and liabilities. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible. Check yourself Q: Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers? A: Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers. Q: According to the model, why is spreading money across many shares not enough on its own? A: Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one. Limits of the model Placements are judgments . Reasonable people would move some dots. It is one lens among several. It emphasises seizure, theft and failure; it says little about expected returns. Some forms break the quadrants and are worth studying for that reason: custodial crypto (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and stablecoins (a private dollar promise).",
+   "text": "What it is A mental model, not measured data. It maps stores of wealth on two axes: Inside you → outside you: how embodied the store is. Hidden → recorded by authority: how visible it is to the state. Each store gets one killer : the single failure most likely to send it to zero. Key rule: risk can't be destroyed, only moved and reshaped. No asset is safe — only a spread across failures that don't strike together. The three tiers Tier Protected from… Exposed to… 1 · Inside you Freezing, theft, inflation Dying with you; barely transfers to heirs 2 · Private / bearer The state Theft and your own mistakes, with no one to call 3 · Legible / state visible Theft, via courts, police and insurance The state itself The ten stores Store Tier Killer 1 human capital 1 Death or incapacity 2 social capital 1 Betrayal or reputation collapse 3 Precious metals 2 Physical theft 4 Self custodied crypto 2 Key loss and protocol failure 5 collectibles 2 Illiquidity and subjective value 6 cash and fiat 2–3 Inflation 7 bonds 3 Counterparty default 8 Public equity 3 Custodian and market risk 9 private business 3 Concentration and management 10 real estate 3 Immobility Pages for these stores carry their tier and killer in a box under the title. [See all of them on one chart]( /cartography), filterable by tier and by kind of killer. What the map shows Stores cluster on a diagonal. What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state. Moving down the diagonal trades one risk for another: theft and self error for state and counterparty risk. You never escape both. The enemy is correlation, not risk. Spread across the axes so that no single disaster clears the board. See diversification and correlation. Tier 1 is the root store. Skills and relationships are the only stores that can rebuild the others from zero. The link to claims The visibility axis lines up closely with claims and liabilities. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible. Check yourself Q: Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers? A: Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers. Q: According to the model, why is spreading money across many shares not enough on its own? A: Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one. Limits of the model Placements are judgments . Reasonable people would move some dots. It is one lens among several. It emphasises seizure, theft and failure; it says little about expected returns. Some forms break the quadrants and are worth studying for that reason: custodial crypto (crypto held as a legible claim on an exchange), gold funds (paper gold, a claim), and stablecoins (a private dollar promise).",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -864,6 +915,15 @@ window.MUDMAP = {
     "spans private and legible",
     "negative real yield"
    ],
+   "place": [
+    58.0,
+    50.0
+   ],
+   "span": [
+    36.0,
+    63.0
+   ],
+   "killerKind": "Inflation",
    "path": [
     "capital-system",
     "money",
@@ -924,6 +984,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -989,6 +1052,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice",
@@ -1027,6 +1093,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -1097,6 +1166,12 @@ window.MUDMAP = {
     "no yield",
     "transferable"
    ],
+   "place": [
+    68.0,
+    38.0
+   ],
+   "span": null,
+   "killerKind": "Liquidity",
    "path": [
     "capital-system",
     "real-assets",
@@ -1134,6 +1209,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "real-assets",
@@ -1176,6 +1254,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice",
@@ -1214,6 +1295,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -1267,6 +1351,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -1325,6 +1412,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -1378,6 +1468,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -1435,6 +1528,12 @@ window.MUDMAP = {
     "counterparty risk",
     "convenient"
    ],
+   "place": [
+    76.0,
+    77.0
+   ],
+   "span": null,
+   "killerKind": "Counterparty",
    "path": [
     "capital-system",
     "digital-assets",
@@ -1490,6 +1589,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "markets",
@@ -1527,6 +1629,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice",
@@ -1566,6 +1671,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -1620,6 +1728,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -1662,6 +1773,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "derivatives"
@@ -1706,6 +1820,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets"
@@ -1763,6 +1880,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -1807,6 +1927,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "measure",
@@ -1849,6 +1972,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -1897,6 +2023,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "equities"
@@ -1943,6 +2072,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -1997,6 +2129,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "markets",
@@ -2040,6 +2175,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income"
@@ -2103,6 +2241,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -2158,6 +2299,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation"
@@ -2215,6 +2359,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "equities",
@@ -2255,6 +2402,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "derivatives",
@@ -2308,6 +2458,12 @@ window.MUDMAP = {
     "bearer",
     "transferable"
    ],
+   "place": [
+    72.0,
+    24.0
+   ],
+   "span": null,
+   "killerKind": "Theft and self-error",
    "path": [
     "capital-system",
     "money",
@@ -2358,6 +2514,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -2414,6 +2573,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -2493,6 +2655,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -2546,6 +2711,12 @@ window.MUDMAP = {
     "regenerates all others",
     "not inheritable"
    ],
+   "place": [
+    6.0,
+    7.0
+   ],
+   "span": null,
+   "killerKind": "Personal",
    "path": [
     "capital-system",
     "personal-capital",
@@ -2583,6 +2754,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "equities",
@@ -2626,6 +2800,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -2675,6 +2852,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -2739,6 +2919,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -2797,6 +2980,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -2846,6 +3032,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "derivatives",
@@ -2892,6 +3081,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -2948,6 +3140,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -2993,6 +3188,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "markets"
@@ -3034,6 +3232,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "measure"
@@ -3083,6 +3284,9 @@ window.MUDMAP = {
     "no cash flows",
     "often no supply cap"
    ],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -3136,6 +3340,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -3189,6 +3396,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money"
@@ -3257,6 +3467,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -3305,6 +3518,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "derivatives",
@@ -3345,6 +3561,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "derivatives",
@@ -3382,6 +3601,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "personal-capital"
@@ -3421,6 +3643,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio"
@@ -3464,6 +3689,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -3502,6 +3730,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice"
@@ -3548,6 +3779,12 @@ window.MUDMAP = {
     "highest upside",
     "hard to sell"
    ],
+   "place": [
+    44.0,
+    62.0
+   ],
+   "span": null,
+   "killerKind": "Concentration",
    "path": [
     "capital-system",
     "equities",
@@ -3594,6 +3831,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "real-assets"
@@ -3639,6 +3879,12 @@ window.MUDMAP = {
     "can yield rent",
     "transferable but fixed"
    ],
+   "place": [
+    95.0,
+    95.0
+   ],
+   "span": null,
+   "killerKind": "State",
    "path": [
     "capital-system",
     "real-assets",
@@ -3684,6 +3930,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "portfolio",
@@ -3724,6 +3973,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "real-assets",
@@ -3764,6 +4016,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "measure",
@@ -3810,6 +4065,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -3871,6 +4129,12 @@ window.MUDMAP = {
     "may yield",
     "heirs need keys"
    ],
+   "place": [
+    82.0,
+    13.0
+   ],
+   "span": null,
+   "killerKind": "Theft and self-error",
    "path": [
     "capital-system",
     "digital-assets",
@@ -3918,6 +4182,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "markets",
@@ -3962,6 +4229,12 @@ window.MUDMAP = {
     "yields or grows",
     "transferable"
    ],
+   "place": [
+    90.0,
+    88.0
+   ],
+   "span": null,
+   "killerKind": "Counterparty",
    "path": [
     "capital-system",
     "equities",
@@ -4010,6 +4283,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "measure",
@@ -4055,6 +4331,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -4120,6 +4399,12 @@ window.MUDMAP = {
     "no yield until used",
     "partly transferable"
    ],
+   "place": [
+    17.0,
+    18.0
+   ],
+   "span": null,
+   "killerKind": "Personal",
    "path": [
     "capital-system",
     "personal-capital",
@@ -4165,6 +4450,9 @@ window.MUDMAP = {
     "price-stable by design",
     "no yield to holders unless lent out"
    ],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -4224,6 +4512,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -4276,6 +4567,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "practice",
@@ -4314,6 +4608,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "foundation",
@@ -4375,6 +4672,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -4428,6 +4728,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "equities",
@@ -4471,6 +4774,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "measure",
@@ -4517,6 +4823,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "money",
@@ -4576,6 +4885,9 @@ window.MUDMAP = {
     "same ticker as the original",
     "a claim not the coin"
    ],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "digital-assets",
@@ -4632,6 +4944,9 @@ window.MUDMAP = {
    "tier": "",
    "killer": "",
    "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
    "path": [
     "capital-system",
     "fixed-income",
@@ -5788,5 +6103,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 10:16 UTC"
+ "built": "2026-10-25 10:25 UTC"
 };

@@ -8,6 +8,8 @@ tags: digital assets, custody, exchanges
 tier: 3
 killer: the custodian failing — you become an unsecured creditor
 traits: legible, counterparty risk, convenient
+place: 76, 77
+killer_kind: Counterparty
 ---
 ## What it is
 **Custodial crypto** is crypto held for you by a firm: an exchange account, a broker, or a fund that holds coins. The firm controls the keys. What you own is the firm's promise to give you the coins.

@@ -40,7 +40,7 @@ Each store gets one **killer**: the single failure most likely to send it to zer
 | 9 | [[private-business]] | 3 | Concentration and management |
 | 10 | [[real-estate]] | 3 | Immobility |
 
-Pages for these stores carry their tier and killer in a box under the title.
+Pages for these stores carry their tier and killer in a box under the title. [See all of them on one chart](#/cartography), filterable by tier and by kind of killer.
 
 ## What the map shows
 - **Stores cluster on a diagonal.** What is embodied tends to be hidden; what is external tends to be legible. Almost nothing is both inside you and visible to the state.

@@ -9,6 +9,9 @@ tags: money, cash, fiat
 tier: 2-3
 killer: inflation — the only store of wealth with a guaranteed built-in bleed
 traits: spans private and legible, negative real yield
+place: 58, 50
+span: 36, 63
+killer_kind: Inflation
 ---
 ## What it is
 **Fiat** money is currency that a government declares legal tender and that can't be exchanged for a fixed amount of anything else. Nearly every national currency today is fiat.

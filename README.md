@@ -49,6 +49,9 @@ sources: Author, Title       # optional, semicolon separated
 tier: 2                      # 1 inside you · 2 private/bearer · 3 legible; "2-3" for a store that spans tiers
 killer: physical theft — the simplest attack on a bearer asset
 traits: private, no yield, bearer, transferable
+place: 72, 24                # x inside you→outside you, y hidden→recorded; both 0–100. Plots the page on the Cartography view
+span: 36, 63                 # optional — a y range drawn as a whisker, for a store that spans tiers
+killer_kind: Theft and self-error   # the filter group for the killer; required with place
 ---
 ```
 

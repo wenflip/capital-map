@@ -21,6 +21,7 @@ It lays the whole system out as one connected map. Each concept has one page. Ev
 - **Map** — the system as a tree. Start at [[capital-system]] and expand any branch.
 - **Flows** — money followed step by step, such as where a dollar comes from.
 - **Quals** — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.
+- **Cartography** — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.
 - **Index and search** — every page. Press `/` to search, `H` to go home. Ctrl+click any link to open it in a new tab.
 - **Depth** — *Core* for the essentials, *Everything* to add the advanced layer (marked ◆) and the "Going deeper" sections.
 - **Welcome guide** — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.

@@ -620,3 +620,26 @@ a.wc-choice.primary { border-color: color-mix(in srgb, var(--accent) 55%, var(--
 .group-label { font-size: 12.5px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; fill: var(--text-3); pointer-events: none; dominant-baseline: middle; }
 .index-grouphead { column-span: all; margin: 14px 0 8px; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--text-3); }
 .index-grouphead:first-child { margin-top: 0; }
+
+/* Cartography view */
+.cart-filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.chip-btn { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip-btn:hover { border-color: var(--border-strong); }
+.chip-btn.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cart-chart { overflow-x: auto; margin: 6px 0 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.cart-chart svg { display: block; width: 100%; min-width: 640px; height: auto; }
+.cq-label { font-size: 15px; font-weight: 700; fill: var(--text-3); letter-spacing: .02em; }
+.c-axis { font-size: 16px; font-weight: 700; fill: var(--text-2); }
+.c-diag { stroke: var(--text-3); stroke-width: 1.5; stroke-dasharray: 3 6; }
+.c-span { stroke-width: 4; stroke-linecap: round; opacity: .55; }
+.cart-pt { cursor: pointer; }
+.cart-pt circle { stroke: var(--surface); stroke-width: 3; }
+.cart-pt .c-pt-label { font-size: 17px; font-weight: 700; fill: var(--text); dominant-baseline: middle; }
+.cart-pt:hover circle, .cart-pt:focus-visible circle { stroke: var(--text); }
+.cart-pt.off { opacity: .15; }
+.cart-table tr.off { opacity: .35; }
+.cart-table td:first-child { white-space: nowrap; }
+.cart-table .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; }
+.tab-short { display: none; }
+@media (max-width: 480px) { .tab-long { display: none; } .tab-short { display: inline; } }

@@ -7,5 +7,7 @@ summary: Owning a company directly: your own or a private stake.
 tier: 3
 killer: concentration and management — one decision or key-person event ends it
 traits: semi-legible, highest upside, hard to sell
+place: 44, 62
+killer_kind: Concentration
 ---
 Owning a company directly: your own or a private stake.
