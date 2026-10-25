@@ -3,7 +3,7 @@ id: capital-controls
 title: Capital Controls and Freezes
 short: Capital Controls
 parent: failure-modes
-order: 2
+order: 5
 summary: When a government limits how much money can leave the bank or the country, and how long such limits have lasted.
 tags: failure, capital controls, deposits, crisis
 sources: CNBC, Iceland ends capital controls more than eight years after 2008 crash (2017); Capital controls in Greece; Corralito (Argentina, 2001)

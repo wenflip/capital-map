@@ -3,7 +3,7 @@ id: sovereign-default
 title: Sovereign Default
 short: Sovereign Default
 parent: failure-modes
-order: 5
+order: 9
 summary: When a government stops paying its debts in full: how often it happens, how it's resolved, and who loses.
 tags: failure, government debt, default, restructuring
 sources: Carmen Reinhart and Kenneth Rogoff, This Time Is Different (2009); ESM, What was the private sector debt restructuring of March 2012?; 1998 Russian financial crisis; Sri Lanka sovereign default

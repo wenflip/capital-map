@@ -3,7 +3,7 @@ id: financial-repression
 title: Financial Repression
 short: Financial Repression
 parent: failure-modes
-order: 3
+order: 7
 summary: How governments have reduced their debts quietly, by holding interest rates below inflation for years.
 tags: failure, inflation, interest rates, government debt
 sources: Carmen Reinhart and M. Belen Sbrancia, The Liquidation of Government Debt (BIS Working Paper 363, 2011); Federal Reserve History, The Treasury-Fed Accord
