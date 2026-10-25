@@ -38,16 +38,25 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>Ordinary, tax-advantaged and retirement accounts.</p>",
+   "html": "<h2>What it is</h2>\n<p>The same fund can be held in different kinds of <strong>account</strong>, and the account decides how it is taxed, when you can take money out, and sometimes how much you can add. There are three broad kinds:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>Tax</th>\n<th>Access</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Ordinary (taxable)</strong></td>\n<td>Income and gains taxed as normal</td>\n<td>Any time</td>\n<td>A standard brokerage account</td>\n</tr>\n<tr>\n<td><strong>Tax-advantaged savings</strong></td>\n<td>Growth free of tax, or tax deferred</td>\n<td>Usually any time, within limits</td>\n<td>UK ISA, Canadian TFSA</td>\n</tr>\n<tr>\n<td><strong>Retirement</strong></td>\n<td>Tax relief going in or coming out</td>\n<td>Locked until a set age</td>\n<td>US 401(k) and IRA, UK workplace pensions</td>\n</tr>\n</tbody>\n</table></div>\n<p>Names, limits and rules vary by country and change over time.</p>\n<h2>Why it exists</h2>\n<p>Governments give tax breaks to encourage saving, especially for retirement. In return, they set limits on how much can go in and, for retirement accounts, when it can come out.</p>\n<h2>How it works</h2>\n<p><strong>Two ways retirement accounts give tax relief:</strong></p>\n<ul>\n<li><strong>Relief going in:</strong> contributions reduce your taxable income now; withdrawals are taxed later.</li>\n<li><strong>Relief coming out:</strong> contributions are made from taxed income; growth and withdrawals are tax-free.</li>\n</ul>\n<p><strong>Employer contributions.</strong> Many workplace retirement plans add money when you contribute, up to a limit. That is an immediate return before any investment growth, and missing it is one of the costliest mistakes. See <a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a>.</p>\n<p><strong>A common order of filling accounts:</strong> first any employer-matched retirement contribution, then tax-advantaged accounts up to their limits, then ordinary accounts. It's a rule of thumb, not advice for your situation.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Locking up money you'll need.</strong> Retirement accounts can charge penalties for early withdrawal.</li>\n<li><strong>Losing allowances.</strong> Some yearly limits can't be carried forward; unused room is gone.</li>\n<li><strong>Holding the wrong things in the wrong place.</strong> Assets that produce a lot of taxed income often belong in sheltered accounts.</li>\n<li><strong>Rule changes</strong> that alter the value of an account after you've chosen it.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the account is part of the investment. Use the tax breaks you're entitled to, but keep enough in accessible savings for emergencies.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/tax\" data-page=\"tax\">Tax</a> — what these accounts reduce.</li>\n<li><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> — retirement accounts turn working income into long-term savings.</li>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — who usually provides the accounts.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your employer adds 50 for every 100 you put in its retirement plan, up to a limit. What return have you made before any investment growth?</p><details><summary>Show answer</summary><p>50%. Every 100 you contribute immediately becomes 150.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Ordinary, tax advantaged and retirement accounts.",
+   "links": [
+    "brokers",
+    "common-mistakes",
+    "human-capital",
+    "tax"
+   ],
+   "stub": false,
+   "text": "What it is The same fund can be held in different kinds of account , and the account decides how it is taxed, when you can take money out, and sometimes how much you can add. There are three broad kinds: Kind Tax Access Examples Ordinary (taxable) Income and gains taxed as normal Any time A standard brokerage account Tax advantaged savings Growth free of tax, or tax deferred Usually any time, within limits UK ISA, Canadian TFSA Retirement Tax relief going in or coming out Locked until a set age US 401(k) and IRA, UK workplace pensions Names, limits and rules vary by country and change over time. Why it exists Governments give tax breaks to encourage saving, especially for retirement. In return, they set limits on how much can go in and, for retirement accounts, when it can come out. How it works Two ways retirement accounts give tax relief: Relief going in: contributions reduce your taxable income now; withdrawals are taxed later. Relief coming out: contributions are made from taxed income; growth and withdrawals are tax free. Employer contributions. Many workplace retirement plans add money when you contribute, up to a limit. That is an immediate return before any investment growth, and missing it is one of the costliest mistakes. See common mistakes. A common order of filling accounts: first any employer matched retirement contribution, then tax advantaged accounts up to their limits, then ordinary accounts. It's a rule of thumb, not advice for your situation. What goes wrong Locking up money you'll need. Retirement accounts can charge penalties for early withdrawal. Losing allowances. Some yearly limits can't be carried forward; unused room is gone. Holding the wrong things in the wrong place. Assets that produce a lot of taxed income often belong in sheltered accounts. Rule changes that alter the value of an account after you've chosen it. Key rule: the account is part of the investment. Use the tax breaks you're entitled to, but keep enough in accessible savings for emergencies. Connects to tax — what these accounts reduce. human capital — retirement accounts turn working income into long term savings. brokers — who usually provides the accounts. Check yourself Q: Your employer adds 50 for every 100 you put in its retirement plan, up to a limit. What return have you made before any investment growth? A: 50%. Every 100 you contribute immediately becomes 150.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "common-mistakes",
+    "practice",
+    "tax"
+   ],
    "backlinksAdv": []
   },
   "asset-allocation": {
@@ -268,7 +277,8 @@ window.MUDMAP = {
     "duration",
     "fixed-income",
     "flow:when-a-bank-fails",
-    "lender-of-last-resort"
+    "lender-of-last-resort",
+    "leverage"
    ],
    "backlinksAdv": [
     "duration"
@@ -534,6 +544,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "data-sources",
     "digital-assets"
    ],
    "backlinksAdv": []
@@ -668,6 +679,7 @@ window.MUDMAP = {
     "foundation",
     "hierarchy-of-money",
     "inflation",
+    "markets",
     "money",
     "time-value-of-money"
    ],
@@ -732,7 +744,10 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "SIPC, What SIPC Protects",
+    "CNBC, Robinhood CEO on trading restrictions (1 February 2021)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -748,11 +763,16 @@ window.MUDMAP = {
    ],
    "branch": "markets",
    "adv": false,
-   "html": "<p>The firm that places your orders and holds your account.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>broker</strong> is the firm that opens your investment account, takes your orders and sends them to the market, and usually holds your shares and cash on your behalf. Banks, specialist investment platforms, trading apps and full-service advisers can all act as brokers.</p>\n<h2>Why it exists</h2>\n<p>Individuals can't trade directly on an exchange; only member firms can. A broker gives you access, keeps records, handles dividends and tax paperwork, and arranges custody.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Routing orders.</strong> The broker sends your order to an exchange or another venue. In some markets, such as the US, brokers can be paid by trading firms to send orders to them (<strong>payment for order flow</strong>), which is how some apps offer \"zero commission\" trading.</li>\n<li><strong>Holding assets.</strong> Your shares are usually registered in the broker's name for your benefit, in a <strong>nominee</strong> or <strong>omnibus</strong> account. They should be kept separate from the broker's own money. See <a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a>.</li>\n<li><strong>Margin accounts.</strong> Brokers lend money against your holdings, which adds <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> and the risk of a margin call.</li>\n<li><strong>Protection schemes.</strong> Many countries cover customers if a broker fails and assets are missing, up to a limit. In the US, SIPC covers up to $500,000 per customer, including $250,000 of cash. None of these schemes cover a fall in prices.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Restrictions in a frenzy.</strong> In January 2021, Robinhood limited buying of GameStop after its clearing house demanded a deposit of about $3 billion, later cut to about $1.4 billion.</li>\n<li><strong>Outages</strong> when markets are busiest.</li>\n<li><strong>Missing customer assets</strong> if a broker misuses them, which is what protection schemes are for.</li>\n<li><strong>Hidden costs:</strong> wide spreads, currency charges and account fees can matter more than the headline commission.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> pick a broker for how it holds your assets and what protects them, not only for low fees.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where your orders go.</li>\n<li><a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — how your assets are held.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what most brokerage accounts hold.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A trading app charges no commission. How else might it be paid?</p><details><summary>Show answer</summary><p>Through payment for order flow, the spread on trades, interest on customers' cash, margin lending, or currency and account fees.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The firm that places your orders and holds your account.",
+   "links": [
+    "custody",
+    "exchanges",
+    "leverage",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What it is A broker is the firm that opens your investment account, takes your orders and sends them to the market, and usually holds your shares and cash on your behalf. Banks, specialist investment platforms, trading apps and full service advisers can all act as brokers. Why it exists Individuals can't trade directly on an exchange; only member firms can. A broker gives you access, keeps records, handles dividends and tax paperwork, and arranges custody. How it works Routing orders. The broker sends your order to an exchange or another venue. In some markets, such as the US, brokers can be paid by trading firms to send orders to them ( payment for order flow ), which is how some apps offer \"zero commission\" trading. Holding assets. Your shares are usually registered in the broker's name for your benefit, in a nominee or omnibus account. They should be kept separate from the broker's own money. See custody. Margin accounts. Brokers lend money against your holdings, which adds leverage and the risk of a margin call. Protection schemes. Many countries cover customers if a broker fails and assets are missing, up to a limit. In the US, SIPC covers up to $500,000 per customer, including $250,000 of cash. None of these schemes cover a fall in prices. What goes wrong Restrictions in a frenzy. In January 2021, Robinhood limited buying of GameStop after its clearing house demanded a deposit of about $3 billion, later cut to about $1.4 billion. Outages when markets are busiest. Missing customer assets if a broker misuses them, which is what protection schemes are for. Hidden costs: wide spreads, currency charges and account fees can matter more than the headline commission. Key rule: pick a broker for how it holds your assets and what protects them, not only for low fees. Connects to exchanges — where your orders go. custody — how your assets are held. shares — what most brokerage accounts hold. Check yourself Q: A trading app charges no commission. How else might it be paid? A: Through payment for order flow, the spread on trades, interest on customers' cash, margin lending, or currency and account fees.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -763,8 +783,13 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "account-types",
     "custodial-crypto",
+    "custody",
     "equities",
+    "exchanges",
+    "markets",
+    "settlement",
     "shares"
    ],
    "backlinksAdv": []
@@ -909,6 +934,7 @@ window.MUDMAP = {
     "holding-crypto",
     "human-capital",
     "inflation",
+    "markets",
     "money",
     "personal-capital",
     "portfolio",
@@ -1094,16 +1120,25 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>Reading price charts and what they can and can't tell you.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Charting</strong> means reading price charts: how a price has moved over time, often with lines and indicators added. Charts summarise a lot of information quickly. They are good at showing what happened and poor at predicting what happens next.</p>\n<h2>Why it exists</h2>\n<p>A chart shows at a glance the trend, the size of the swings and the drawdowns, things a table of numbers hides. Traders use charts to time decisions; long-term investors use them to understand history and risk.</p>\n<h2>How it works</h2>\n<p><strong>Line and candlestick charts.</strong> A line chart joins closing prices. A <strong>candlestick</strong> shows, for each period, the open, high, low and close: the \"body\" spans open to close, and thin \"wicks\" reach to the high and low.</p>\n<p><strong>Linear or log scale.</strong> On a linear scale, a rise from 100 to 200 looks ten times bigger than a rise from 10 to 20. On a <strong>log scale</strong>, both are doublings, so both look the same height. For long histories, log scale shows percentage changes honestly.</p>\n<p><strong>Moving averages</strong> smooth out noise. Fictional example: closing prices of 10, 11, 12, 13 and 14 over five days give a five-day moving average of <strong>12</strong>. A price above its long-term average is often read as an uptrend.</p>\n<p><strong>Volume</strong> shows how much traded, which helps judge whether a move had broad participation.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Seeing patterns in noise.</strong> Random price series produce shapes that look like trends, \"heads and shoulders\" and channels. Many chart patterns don't hold up when tested.</li>\n<li><strong>The wrong scale.</strong> Linear charts of long periods make early moves look tiny and recent ones huge.</li>\n<li><strong>Missing dividends.</strong> Price charts leave out income, which understates long-run returns. See <a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a>.</li>\n<li><strong>Cherry-picked windows.</strong> Where a chart starts and ends can change the story completely.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> use charts to see what happened and how bumpy it was. Be sceptical of any chart that claims to show what happens next.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a> — what charts are built from.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> and <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — what charts show at a glance.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — the conditions behind long trends.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">On a log-scale chart, a share's rise from 5 to 10 and its rise from 50 to 100 look the same height. Why?</p><details><summary>Show answer</summary><p>Because both are doublings. A log scale gives equal height to equal percentage changes, not equal amounts.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Reading price charts and what they can and can't tell you.",
+   "links": [
+    "data-sources",
+    "drawdown",
+    "market-regimes",
+    "returns",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Charting means reading price charts: how a price has moved over time, often with lines and indicators added. Charts summarise a lot of information quickly. They are good at showing what happened and poor at predicting what happens next. Why it exists A chart shows at a glance the trend, the size of the swings and the drawdowns, things a table of numbers hides. Traders use charts to time decisions; long term investors use them to understand history and risk. How it works Line and candlestick charts. A line chart joins closing prices. A candlestick shows, for each period, the open, high, low and close: the \"body\" spans open to close, and thin \"wicks\" reach to the high and low. Linear or log scale. On a linear scale, a rise from 100 to 200 looks ten times bigger than a rise from 10 to 20. On a log scale , both are doublings, so both look the same height. For long histories, log scale shows percentage changes honestly. Moving averages smooth out noise. Fictional example: closing prices of 10, 11, 12, 13 and 14 over five days give a five day moving average of 12 . A price above its long term average is often read as an uptrend. Volume shows how much traded, which helps judge whether a move had broad participation. What goes wrong Seeing patterns in noise. Random price series produce shapes that look like trends, \"heads and shoulders\" and channels. Many chart patterns don't hold up when tested. The wrong scale. Linear charts of long periods make early moves look tiny and recent ones huge. Missing dividends. Price charts leave out income, which understates long run returns. See returns. Cherry picked windows. Where a chart starts and ends can change the story completely. Key rule: use charts to see what happened and how bumpy it was. Be sceptical of any chart that claims to show what happens next. Connects to data sources — what charts are built from. volatility and drawdown — what charts show at a glance. market regimes — the conditions behind long trends. Check yourself Q: On a log scale chart, a share's rise from 5 to 10 and its rise from 50 to 100 look the same height. Why? A: Because both are doublings. A log scale gives equal height to equal percentage changes, not equal amounts.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "data-sources",
+    "practice"
+   ],
    "backlinksAdv": []
   },
   "claims-and-liabilities": {
@@ -1170,12 +1205,14 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "credit-risk",
     "custodial-crypto",
+    "custody",
     "digital-assets",
     "equities",
     "financial-statements",
     "foundation",
     "funds-and-etfs",
     "hierarchy-of-money",
+    "markets",
     "money",
     "real-assets",
     "reits",
@@ -1286,6 +1323,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "derivatives",
+    "futures",
     "gold",
     "real-assets"
    ],
@@ -1301,7 +1340,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Morningstar, Mind the Gap 2024"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -1317,16 +1358,29 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>The errors that cost the most, and how to avoid them.</p>",
+   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The errors that cost the most, and how to avoid them.",
+   "links": [
+    "account-types",
+    "drawdown",
+    "funds-and-etfs",
+    "leverage",
+    "measure",
+    "memecoins",
+    "portfolio",
+    "position-sizing",
+    "stablecoins"
+   ],
+   "stub": false,
+   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. stablecoins and memecoins — areas where high yield promises and scams are common. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "account-types",
+    "practice"
+   ],
    "backlinksAdv": []
   },
   "compounding": {
@@ -1383,7 +1437,9 @@ window.MUDMAP = {
     "inflation",
     "measure",
     "personal-capital",
+    "practice",
     "returns",
+    "tax",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -1568,9 +1624,11 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bonds",
+    "derivatives",
     "financial-statements",
     "fixed-income",
-    "real-estate"
+    "real-estate",
+    "settlement"
    ],
    "backlinksAdv": []
   },
@@ -1638,10 +1696,15 @@ window.MUDMAP = {
    "backlinks": [
     "bitcoin",
     "cartography-of-wealth",
+    "custody",
     "holding-crypto",
-    "keys-and-wallets"
+    "keys-and-wallets",
+    "markets",
+    "perpetuals"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "perpetuals"
+   ]
   },
   "custody": {
    "id": "custody",
@@ -1669,17 +1732,26 @@ window.MUDMAP = {
    ],
    "branch": "markets",
    "adv": false,
-   "html": "<p>Who actually holds the asset, and what you really own.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Custody</strong> is the safekeeping of assets on someone else's behalf. When you buy shares through a broker, you rarely hold anything directly. A chain of firms holds them, and what you own is a recorded claim at the end of that chain.</p>\n<h2>Why it exists</h2>\n<p>Modern securities are electronic entries, not paper certificates. Specialist custodians keep the records, collect dividends and interest, handle corporate events such as takeovers, and keep clients' assets apart from their own.</p>\n<h2>How it works</h2>\n<p><strong>The chain:</strong> you → your broker → (often) a custodian bank → the <strong>central securities depository</strong>, which holds the master record. At each step, assets are usually pooled in <strong>omnibus</strong> accounts, with the firm's own books showing whose share is whose.</p>\n<p><strong>What protects you:</strong></p>\n<ul>\n<li><strong>Segregation:</strong> customer assets should be held separately from the firm's own, so the firm's creditors can't claim them if it fails.</li>\n<li><strong>Records and audits</strong> that show which customer owns what.</li>\n<li><strong>Protection schemes</strong> that cover missing assets up to a limit. See <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a>.</li>\n</ul>\n<p><strong>What weakens it:</strong></p>\n<ul>\n<li><strong>Rehypothecation:</strong> some agreements let a firm lend or pledge customers' assets, especially in margin accounts.</li>\n<li><strong>Mixing:</strong> when firms (as at FTX) don't keep customer assets apart, customers become ordinary creditors in a bankruptcy.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Held for you by a custodian</th>\n<th>Held yourself</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Example</strong></td>\n<td>Shares at a broker, a gold fund, crypto on an exchange</td>\n<td>Certificates, bars in your safe, <a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> crypto</td>\n</tr>\n<tr>\n<td><strong>Main risk</strong></td>\n<td>The firm and its records</td>\n<td>Your own security and mistakes</td>\n</tr>\n<tr>\n<td><strong>Cartography tier</strong></td>\n<td>3 (legible)</td>\n<td>2 (private, bearer)</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Firm failure with poor segregation.</strong> Customers wait years, and may not get everything back.</li>\n<li><strong>Long chains.</strong> The more links, the more firms whose failure or error can affect you.</li>\n<li><strong>Frozen access</strong> during a bankruptcy, even when assets are eventually returned.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> you own what the records say you own. Choose custodians whose records, segregation and protection you understand.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — custody turns an asset into a claim on a chain of firms.</li>\n<li><a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> and <a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — the same choice in crypto.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — physical bars against a fund.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does segregation of customer assets matter most when a broker fails?</p><details><summary>Show answer</summary><p>Because segregated assets belong to the customers, not the broker, so they can be returned. Mixed-in assets may be treated as the broker's, leaving customers as creditors who share whatever is left.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Who actually holds the asset, and what you really own.",
+   "links": [
+    "brokers",
+    "claims-and-liabilities",
+    "custodial-crypto",
+    "gold",
+    "self-custody"
+   ],
+   "stub": false,
+   "text": "What it is Custody is the safekeeping of assets on someone else's behalf. When you buy shares through a broker, you rarely hold anything directly. A chain of firms holds them, and what you own is a recorded claim at the end of that chain. Why it exists Modern securities are electronic entries, not paper certificates. Specialist custodians keep the records, collect dividends and interest, handle corporate events such as takeovers, and keep clients' assets apart from their own. How it works The chain: you → your broker → (often) a custodian bank → the central securities depository , which holds the master record. At each step, assets are usually pooled in omnibus accounts, with the firm's own books showing whose share is whose. What protects you: Segregation: customer assets should be held separately from the firm's own, so the firm's creditors can't claim them if it fails. Records and audits that show which customer owns what. Protection schemes that cover missing assets up to a limit. See brokers. What weakens it: Rehypothecation: some agreements let a firm lend or pledge customers' assets, especially in margin accounts. Mixing: when firms (as at FTX) don't keep customer assets apart, customers become ordinary creditors in a bankruptcy. Held for you by a custodian Held yourself Example Shares at a broker, a gold fund, crypto on an exchange Certificates, bars in your safe, self custody crypto Main risk The firm and its records Your own security and mistakes Cartography tier 3 (legible) 2 (private, bearer) What goes wrong Firm failure with poor segregation. Customers wait years, and may not get everything back. Long chains. The more links, the more firms whose failure or error can affect you. Frozen access during a bankruptcy, even when assets are eventually returned. Key rule: you own what the records say you own. Choose custodians whose records, segregation and protection you understand. Connects to claims and liabilities — custody turns an asset into a claim on a chain of firms. custodial crypto and self custody — the same choice in crypto. gold — physical bars against a fund. Check yourself Q: Why does segregation of customer assets matter most when a broker fails? A: Because segregated assets belong to the customers, not the broker, so they can be returned. Mixed in assets may be treated as the broker's, leaving customers as creditors who share whatever is left.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "brokers",
     "custodial-crypto",
+    "markets",
+    "settlement",
     "shares"
    ],
    "backlinksAdv": []
@@ -1710,16 +1782,24 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>Where reliable price, economic and on-chain data comes from.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Data sources</strong> are where the numbers behind investment decisions come from: prices, company accounts, economic statistics and blockchain activity. The quality of any analysis is limited by the quality of its data.</p>\n<h2>Why it matters</h2>\n<p>Two analyses of the \"same\" data can reach different answers if one uses revised figures and the other doesn't, or if one leaves out companies that went bust. Knowing where data comes from, and how it can mislead, is part of reading any chart or claim.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>Primary sources</th>\n<th>Watch for</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Prices</strong></td>\n<td>Exchanges, index providers</td>\n<td>Delays, missing dividends, unadjusted splits</td>\n</tr>\n<tr>\n<td><strong>Company accounts</strong></td>\n<td>Filings with regulators, such as the US SEC's EDGAR database</td>\n<td>Restatements, one-off items</td>\n</tr>\n<tr>\n<td><strong>Economic data</strong></td>\n<td>Central banks and national statistics offices; aggregators such as the St. Louis Fed's FRED</td>\n<td>Revisions after first release</td>\n</tr>\n<tr>\n<td><strong>On-chain data</strong></td>\n<td>Block explorers and the blockchain itself</td>\n<td>Labels and estimates layered on top of raw data</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Prefer the primary source.</strong> A figure from the statistics office or the filing itself beats one copied through several websites.</p>\n<p><strong>Check the basics:</strong> units, currency, dates, whether prices include dividends, and whether figures are adjusted for inflation or seasons.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Survivorship bias.</strong> A database of today's funds or companies leaves out those that closed or failed, which makes past returns look better than they were.</li>\n<li><strong>Look-ahead bias.</strong> Testing a strategy with data that wasn't available at the time, such as revised economic figures.</li>\n<li><strong>Revisions.</strong> First estimates of growth or jobs are often revised, sometimes a lot.</li>\n<li><strong>Silent errors.</strong> A bad tick, a missing day or a mis-scaled number can distort a whole analysis.</li>\n<li><strong>Unverified on-chain labels.</strong> Which address belongs to whom is often an estimate.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> go to the primary source, read the definitions, and ask what's missing from the data before trusting what's in it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/charting\" data-page=\"charting\">Charting</a> — what's built from price data.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — price against total return data.</li>\n<li><a class=\"wl\" href=\"#/map/p/blockchains\" data-page=\"blockchains\">How Blockchains Work</a> — the public ledger behind on-chain data.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — real against nominal figures.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A database of today's funds shows excellent average ten-year returns. Why might that overstate what investors earned?</p><details><summary>Show answer</summary><p>Survivorship bias. Funds that did badly and closed over those ten years aren't in today's database, so the average leaves out the worst results.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Where reliable price, economic and on chain data comes from.",
+   "links": [
+    "blockchains",
+    "charting",
+    "inflation",
+    "returns"
+   ],
+   "stub": false,
+   "text": "What it is Data sources are where the numbers behind investment decisions come from: prices, company accounts, economic statistics and blockchain activity. The quality of any analysis is limited by the quality of its data. Why it matters Two analyses of the \"same\" data can reach different answers if one uses revised figures and the other doesn't, or if one leaves out companies that went bust. Knowing where data comes from, and how it can mislead, is part of reading any chart or claim. How it works Kind Primary sources Watch for Prices Exchanges, index providers Delays, missing dividends, unadjusted splits Company accounts Filings with regulators, such as the US SEC's EDGAR database Restatements, one off items Economic data Central banks and national statistics offices; aggregators such as the St. Louis Fed's FRED Revisions after first release On chain data Block explorers and the blockchain itself Labels and estimates layered on top of raw data Prefer the primary source. A figure from the statistics office or the filing itself beats one copied through several websites. Check the basics: units, currency, dates, whether prices include dividends, and whether figures are adjusted for inflation or seasons. What goes wrong Survivorship bias. A database of today's funds or companies leaves out those that closed or failed, which makes past returns look better than they were. Look ahead bias. Testing a strategy with data that wasn't available at the time, such as revised economic figures. Revisions. First estimates of growth or jobs are often revised, sometimes a lot. Silent errors. A bad tick, a missing day or a mis scaled number can distort a whole analysis. Unverified on chain labels. Which address belongs to whom is often an estimate. Key rule: go to the primary source, read the definitions, and ask what's missing from the data before trusting what's in it. Connects to charting — what's built from price data. returns — price against total return data. blockchains — the public ledger behind on chain data. inflation — real against nominal figures. Check yourself Q: A database of today's funds shows excellent average ten year returns. Why might that overstate what investors earned? A: Survivorship bias. Funds that did badly and closed over those ten years aren't in today's database, so the average leaves out the worst results.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "charting",
+    "practice"
+   ],
    "backlinksAdv": []
   },
   "defi": {
@@ -1824,7 +1904,8 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "backstops",
-    "flow:when-a-bank-fails"
+    "flow:when-a-bank-fails",
+    "markets"
    ],
    "backlinksAdv": []
   },
@@ -1838,7 +1919,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Fortune, How much big banks have lost from the Archegos collapse (27 April 2021)"
+   ],
    "level": "basic",
    "group": "Putting it together",
    "tier": "",
@@ -1853,12 +1936,21 @@ window.MUDMAP = {
    ],
    "branch": "derivatives",
    "adv": false,
-   "html": "<p>Contracts whose value depends on something else: futures, options, perpetuals and leverage.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Contracts whose value depends on something else: futures, options, perpetuals and leverage.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p>A <strong>derivative</strong> is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Hedging.</strong> A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it.</li>\n<li><strong>Speculation.</strong> Traders can bet on a price moving, often with a small deposit controlling a large exposure.</li>\n<li><strong>Cheaper, faster exposure.</strong> One contract can stand in for buying and storing the underlying asset.</li>\n</ul>\n<p>Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — an agreement to buy or sell later at a price fixed now, traded on an exchange.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — the right, but not the duty, to buy or sell at a set price.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — how a small deposit controls a large position, and why that cuts both ways.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Futures</th>\n<th>Options</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Obligation</strong></td>\n<td>Both sides must complete</td>\n<td>The buyer can walk away</td>\n</tr>\n<tr>\n<td><strong>Upfront cost</strong></td>\n<td>A deposit (margin)</td>\n<td>A price (the premium)</td>\n</tr>\n<tr>\n<td><strong>Most a buyer can lose</strong></td>\n<td>Far more than the deposit</td>\n<td>The premium</td>\n</tr>\n<tr>\n<td><strong>Typical use</strong></td>\n<td>Locking in a price</td>\n<td>Insurance against a move</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Zero-sum between the two sides.</strong> Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Leverage.</strong> Small price moves become large gains or losses on the deposit, and losses can exceed it.</li>\n<li><strong>Counterparty failure.</strong> A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a>.</li>\n<li><strong>Hidden size.</strong> In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion.</li>\n<li><strong>Complexity.</strong> Contracts that are hard to value are easy to misprice and hard to exit.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> — the original home of futures.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — the feature that makes derivatives powerful and dangerous.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — the counterparty side of every contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where standard contracts trade.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An airline buys oil futures. Is it speculating?</p><details><summary>Show answer</summary><p>No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can't derivatives make the economy as a whole less risky?</p><details><summary>Show answer</summary><p>Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides.</li>\n<li><strong>Swaps.</strong> Two parties exchange streams of payments, such as a fixed interest rate for a floating one. Most swaps are agreed privately between institutions, not on an exchange.</li>\n</ul></section>",
+   "links": [
+    "commodities",
+    "credit-risk",
+    "exchanges",
+    "futures",
+    "leverage",
+    "options",
+    "perpetuals",
+    "settlement"
+   ],
+   "stub": false,
+   "text": "What it is A derivative is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side. Why it exists Hedging. A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it. Speculation. Traders can bet on a price moving, often with a small deposit controlling a large exposure. Cheaper, faster exposure. One contract can stand in for buying and storing the underlying asset. Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more. How it works futures — an agreement to buy or sell later at a price fixed now, traded on an exchange. options — the right, but not the duty, to buy or sell at a set price. leverage — how a small deposit controls a large position, and why that cuts both ways. Futures Options Obligation Both sides must complete The buyer can walk away Upfront cost A deposit (margin) A price (the premium) Most a buyer can lose Far more than the deposit The premium Typical use Locking in a price Insurance against a move Zero sum between the two sides. Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself. What goes wrong Leverage. Small price moves become large gains or losses on the deposit, and losses can exceed it. Counterparty failure. A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See settlement. Hidden size. In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion. Complexity. Contracts that are hard to value are easy to misprice and hard to exit. Key rule: a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win. Connects to commodities — the original home of futures. leverage — the feature that makes derivatives powerful and dangerous. credit risk — the counterparty side of every contract. exchanges — where standard contracts trade. Check yourself Q: An airline buys oil futures. Is it speculating? A: No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on. Q: Why can't derivatives make the economy as a whole less risky? A: Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.",
+   "textDeep": "Going deeper perpetuals — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides. Swaps. Two parties exchange streams of payments, such as a fixed interest rate for a floating one. Most swaps are agreed privately between institutions, not on an exchange.",
    "children": [
     "futures",
     "options",
@@ -1931,9 +2023,12 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "capital-system",
-    "money"
+    "money",
+    "perpetuals"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "perpetuals"
+   ]
   },
   "diversification": {
    "id": "diversification",
@@ -2045,7 +2140,10 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "bitcoin",
+    "charting",
+    "common-mistakes",
     "equities",
+    "leverage",
     "measure",
     "portfolio",
     "position-sizing",
@@ -2246,7 +2344,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "SEC and CFTC, Findings Regarding the Market Events of May 6, 2010"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -2262,11 +2362,15 @@ window.MUDMAP = {
    ],
    "branch": "markets",
    "adv": false,
-   "html": "<p>Venues where buyers and sellers meet.</p>",
+   "html": "<h2>What it is</h2>\n<p>An <strong>exchange</strong> is a marketplace where buyers and sellers of shares, bonds, futures, options or crypto meet under a common set of rules. Well-known examples include the New York Stock Exchange, Nasdaq, the London Stock Exchange and futures exchanges such as CME.</p>\n<h2>Why it exists</h2>\n<p>Bringing all buyers and sellers to one place makes it easier to find someone to trade with and to find a fair price. Exchanges also set listing rules for companies, publish prices, and supervise trading.</p>\n<h2>How it works</h2>\n<p><strong>The order book.</strong> Buy orders (<strong>bids</strong>) and sell orders (<strong>asks</strong>) are listed by price. A trade happens when a bid meets an ask.</p>\n<ul>\n<li>The gap between the highest bid and the lowest ask is the <strong>spread</strong>. A tight spread means a liquid market.</li>\n<li>A <strong>market order</strong> buys or sells immediately at the best available price.</li>\n<li>A <strong>limit order</strong> sets the worst price you'll accept, and waits until it can be filled.</li>\n</ul>\n<p><strong>Market makers</strong> post bids and asks all day, earning the spread in return for being ready to trade. They're why you can usually sell a large share in seconds.</p>\n<p><strong>Fictional order book:</strong></p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Bids (buyers)</th>\n<th>Price</th>\n<th>Asks (sellers)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>100.20</td>\n<td>500 shares</td>\n</tr>\n<tr>\n<td></td>\n<td>100.10</td>\n<td>300 shares</td>\n</tr>\n<tr>\n<td>400 shares</td>\n<td>100.00</td>\n<td></td>\n</tr>\n<tr>\n<td>600 shares</td>\n<td>99.90</td>\n<td></td>\n</tr>\n</tbody>\n</table></div>\n<p>The spread is 0.10. A market order to buy 500 shares fills 300 at 100.10 and 200 at 100.20, so its average price is 100.14: bigger orders \"walk the book\".</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Liquidity vanishes in stress.</strong> Market makers step back, spreads widen and prices gap.</li>\n<li><strong>Flash crashes.</strong> On 6 May 2010 US share prices plunged and rebounded within minutes. Exchanges now use <strong>circuit breakers</strong> that pause trading after very large moves.</li>\n<li><strong>Market orders in thin markets</strong> can fill far from the last price.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> in thin or fast markets, use limit orders, so you decide the worst price you'll accept.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — who sends your orders to the exchange.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — what happens after the trade.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what an exchange provides, and what can disappear.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The best bid is 50.00 and the best ask is 50.05. What is the spread, and what does a small market buy order pay?</p><details><summary>Show answer</summary><p>The spread is 0.05, and a small market buy order pays 50.05, the lowest ask.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Venues where buyers and sellers meet.",
+   "links": [
+    "brokers",
+    "liquidity",
+    "settlement"
+   ],
+   "stub": false,
+   "text": "What it is An exchange is a marketplace where buyers and sellers of shares, bonds, futures, options or crypto meet under a common set of rules. Well known examples include the New York Stock Exchange, Nasdaq, the London Stock Exchange and futures exchanges such as CME. Why it exists Bringing all buyers and sellers to one place makes it easier to find someone to trade with and to find a fair price. Exchanges also set listing rules for companies, publish prices, and supervise trading. How it works The order book. Buy orders ( bids ) and sell orders ( asks ) are listed by price. A trade happens when a bid meets an ask. The gap between the highest bid and the lowest ask is the spread . A tight spread means a liquid market. A market order buys or sells immediately at the best available price. A limit order sets the worst price you'll accept, and waits until it can be filled. Market makers post bids and asks all day, earning the spread in return for being ready to trade. They're why you can usually sell a large share in seconds. Fictional order book: Bids (buyers) Price Asks (sellers) 100.20 500 shares 100.10 300 shares 400 shares 100.00 600 shares 99.90 The spread is 0.10. A market order to buy 500 shares fills 300 at 100.10 and 200 at 100.20, so its average price is 100.14: bigger orders \"walk the book\". What goes wrong Liquidity vanishes in stress. Market makers step back, spreads widen and prices gap. Flash crashes. On 6 May 2010 US share prices plunged and rebounded within minutes. Exchanges now use circuit breakers that pause trading after very large moves. Market orders in thin markets can fill far from the last price. Key rule: in thin or fast markets, use limit orders, so you decide the worst price you'll accept. Connects to brokers — who sends your orders to the exchange. settlement — what happens after the trade. liquidity — what an exchange provides, and what can disappear. Check yourself Q: The best bid is 50.00 and the best ask is 50.05. What is the spread, and what does a small market buy order pay? A: The spread is 0.05, and a small market buy order pays 50.05, the lowest ask.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2277,7 +2381,11 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "brokers",
+    "derivatives",
     "equities",
+    "markets",
+    "settlement",
     "shares"
    ],
    "backlinksAdv": []
@@ -2576,9 +2684,11 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "common-mistakes",
     "diversification",
     "equities",
     "indices",
+    "practice",
     "reits",
     "shares"
    ],
@@ -2594,7 +2704,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "CFTC, Interim Staff Report on NYMEX WTI Crude Oil Futures (20 April 2020)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -2610,11 +2722,16 @@ window.MUDMAP = {
    ],
    "branch": "derivatives",
    "adv": false,
-   "html": "<p>An agreement to buy or sell later at a price fixed now.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>futures contract</strong> is an agreement to buy or sell a set amount of something on a set future date, at a price agreed today. Futures trade on exchanges in standard sizes: a set number of barrels of oil, tonnes of wheat, or units of a share index.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Producers</strong> sell ahead to lock in a price for what they will produce.</li>\n<li><strong>Users</strong> buy ahead to lock in what they will pay.</li>\n<li><strong>Investors and traders</strong> use futures to gain or reduce exposure quickly and cheaply.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Margin, not the full price.</strong> You don't pay for the goods up front. Both sides put down a deposit called <strong>margin</strong>, held by the exchange's <strong>clearing house</strong>, which stands between buyer and seller.</p>\n<p><strong>Marked to market daily.</strong> Every day, gains are paid into your account and losses taken out. If your account falls below a minimum, you must top it up (a <strong>margin call</strong>) or the position is closed.</p>\n<p><strong>Fictional example:</strong> a contract for 1,000 barrels of oil at 70, so a value of 70,000. Margin is 10%: <strong>7,000</strong>.</p>\n<ul>\n<li>Oil rises to 77: the position gains 7,000, <strong>+100%</strong> on the margin.</li>\n<li>Oil falls to 63: it loses 7,000, <strong>−100%</strong>, and the whole deposit is gone.</li>\n</ul>\n<p>A 10% price move doubled or wiped out the deposit. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>Most futures never end in delivery.</strong> Traders close or roll their positions before expiry. See <a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> for how rolling works.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Losses beyond the deposit.</strong> A large move can wipe out the margin and leave you owing more.</li>\n<li><strong>Margin calls at the worst time,</strong> forcing sales in a falling market.</li>\n<li><strong>Delivery and storage.</strong> Near expiry, holders who can't take delivery must sell. In April 2020 that pushed one US oil contract below zero.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a futures position is the whole contract value, not the deposit. Size it on the contract value.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> — rolling, contango and backwardation.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — the alternative with a capped loss for the buyer.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — the clearing house that guarantees the contract.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold a futures contract worth 50,000 with 5,000 of margin. The price falls 4%. How much of your margin is lost?</p><details><summary>Show answer</summary><p>2,000, which is 40% of the margin. A 4% fall on 50,000 is 2,000.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "An agreement to buy or sell later at a price fixed now.",
+   "links": [
+    "commodities",
+    "leverage",
+    "options",
+    "settlement"
+   ],
+   "stub": false,
+   "text": "What it is A futures contract is an agreement to buy or sell a set amount of something on a set future date, at a price agreed today. Futures trade on exchanges in standard sizes: a set number of barrels of oil, tonnes of wheat, or units of a share index. Why it exists Producers sell ahead to lock in a price for what they will produce. Users buy ahead to lock in what they will pay. Investors and traders use futures to gain or reduce exposure quickly and cheaply. How it works Margin, not the full price. You don't pay for the goods up front. Both sides put down a deposit called margin , held by the exchange's clearing house , which stands between buyer and seller. Marked to market daily. Every day, gains are paid into your account and losses taken out. If your account falls below a minimum, you must top it up (a margin call ) or the position is closed. Fictional example: a contract for 1,000 barrels of oil at 70, so a value of 70,000. Margin is 10%: 7,000 . Oil rises to 77: the position gains 7,000, +100% on the margin. Oil falls to 63: it loses 7,000, −100% , and the whole deposit is gone. A 10% price move doubled or wiped out the deposit. See leverage. Most futures never end in delivery. Traders close or roll their positions before expiry. See commodities for how rolling works. What goes wrong Losses beyond the deposit. A large move can wipe out the margin and leave you owing more. Margin calls at the worst time, forcing sales in a falling market. Delivery and storage. Near expiry, holders who can't take delivery must sell. In April 2020 that pushed one US oil contract below zero. Key rule: a futures position is the whole contract value, not the deposit. Size it on the contract value. Connects to commodities — rolling, contango and backwardation. options — the alternative with a capped loss for the buyer. settlement — the clearing house that guarantees the contract. Check yourself Q: You hold a futures contract worth 50,000 with 5,000 of margin. The price falls 4%. How much of your margin is lost? A: 2,000, which is 40% of the margin. A 4% fall on 50,000 is 2,000.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2630,9 +2747,15 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "commodities",
+    "derivatives",
+    "leverage",
+    "options",
+    "perpetuals",
     "real-assets"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "perpetuals"
+   ]
   },
   "gold": {
    "id": "gold",
@@ -2692,6 +2815,7 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "collectibles",
     "commodities",
+    "custody",
     "hierarchy-of-money",
     "money",
     "real-assets"
@@ -2945,6 +3069,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "account-types",
     "asset-allocation",
     "cartography-of-wealth",
     "personal-capital",
@@ -3116,6 +3241,7 @@ window.MUDMAP = {
     "commodities",
     "compounding",
     "correlation",
+    "data-sources",
     "fixed-income",
     "foundation",
     "inflation-linked-bonds",
@@ -3272,11 +3398,18 @@ window.MUDMAP = {
    ],
    "branch": "derivatives",
    "adv": false,
-   "html": "<p>Using borrowed money: gains and losses both multiplied.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Leverage</strong> means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike.</p>\n<h2>Why people use it</h2>\n<ul>\n<li><strong>Bigger returns on limited money,</strong> such as buying a house with a mortgage.</li>\n<li><strong>Efficiency.</strong> A hedge or exposure can be set up without tying up the full value.</li>\n<li><strong>Low-risk assets made to earn more.</strong> Some strategies borrow to scale up steady positions. See <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is <strong>2×</strong> leverage.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Share price move</th>\n<th>Position</th>\n<th>Owed</th>\n<th>Your equity</th>\n<th>Change on your money</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Start</td>\n<td>20,000</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>—</td>\n</tr>\n<tr>\n<td>+25%</td>\n<td>25,000</td>\n<td>10,000</td>\n<td>15,000</td>\n<td><strong>+50%</strong></td>\n</tr>\n<tr>\n<td>−25%</td>\n<td>15,000</td>\n<td>10,000</td>\n<td>5,000</td>\n<td><strong>−50%</strong></td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>0</td>\n<td><strong>−100%</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>At 2×, a 50% fall wipes you out. At 3×, a fall of about <strong>33.3%</strong> does. At 10×, just <strong>10%</strong>. Interest on the loan is extra, and lenders usually close the position (a <strong>margin call</strong> or <strong>liquidation</strong>) before your equity reaches zero.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Forced selling.</strong> Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you.</li>\n<li><strong>Losses beyond your money.</strong> With some loans and derivatives, you can owe more than you put in.</li>\n<li><strong>Cascades.</strong> When many leveraged holders are forced to sell at once, their sales push prices down and force more sales.</li>\n<li><strong>Hidden leverage</strong> inside funds, products and companies you own.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — the leverage most households use.</li>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> and <a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — leverage built into the contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — what leverage magnifies.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — banks are leveraged too.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">With 4× leverage, roughly what fall in the asset wipes out your money?</p><details><summary>Show answer</summary><p>25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Using borrowed money: gains and losses both multiplied.",
+   "links": [
+    "bank-capital-and-liquidity",
+    "drawdown",
+    "futures",
+    "perpetuals",
+    "real-estate",
+    "sharpe-ratio"
+   ],
+   "stub": false,
+   "text": "What it is Leverage means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike. Why people use it Bigger returns on limited money, such as buying a house with a mortgage. Efficiency. A hedge or exposure can be set up without tying up the full value. Low risk assets made to earn more. Some strategies borrow to scale up steady positions. See sharpe ratio. How it works Fictional example: you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is 2× leverage. Share price move Position Owed Your equity Change on your money Start 20,000 10,000 10,000 — +25% 25,000 10,000 15,000 +50% −25% 15,000 10,000 5,000 −50% −50% 10,000 10,000 0 −100% At 2×, a 50% fall wipes you out. At 3×, a fall of about 33.3% does. At 10×, just 10% . Interest on the loan is extra, and lenders usually close the position (a margin call or liquidation ) before your equity reaches zero. What goes wrong Forced selling. Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you. Losses beyond your money. With some loans and derivatives, you can owe more than you put in. Cascades. When many leveraged holders are forced to sell at once, their sales push prices down and force more sales. Hidden leverage inside funds, products and companies you own. Key rule: leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before. Connects to real estate — the leverage most households use. futures and perpetuals — leverage built into the contract. drawdown — what leverage magnifies. bank capital and liquidity — banks are leveraged too. Check yourself Q: With 4× leverage, roughly what fall in the asset wipes out your money? A: 25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3287,9 +3420,14 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "brokers",
     "commodities",
+    "common-mistakes",
     "defi",
+    "derivatives",
     "drawdown",
+    "futures",
+    "perpetuals",
     "portfolio",
     "position-sizing",
     "private-business",
@@ -3297,6 +3435,7 @@ window.MUDMAP = {
     "sharpe-ratio"
    ],
    "backlinksAdv": [
+    "perpetuals",
     "sharpe-ratio"
    ]
   },
@@ -3359,6 +3498,7 @@ window.MUDMAP = {
    "backlinks": [
     "central-bank-money",
     "collectibles",
+    "exchanges",
     "market-regimes",
     "memecoins",
     "money",
@@ -3418,6 +3558,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "capital-system",
+    "charting",
     "correlation",
     "digital-assets",
     "drawdown",
@@ -3437,7 +3578,10 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "CNBC, Robinhood CEO on trading restrictions (1 February 2021)",
+    "SEC and CFTC, Findings Regarding the Market Events of May 6, 2010"
+   ],
    "level": "basic",
    "group": "How it runs",
    "tier": "",
@@ -3452,12 +3596,24 @@ window.MUDMAP = {
    ],
    "branch": "markets",
    "adv": false,
-   "html": "<p>Where and how assets change hands: exchanges, brokers, custody and settlement.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Where and how assets change hands: exchanges, brokers, custody and settlement.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Markets &amp; Plumbing</strong> covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a <strong>broker</strong> to an <strong>exchange</strong>, where it meets another order; the trade is <strong>settled</strong> when money and asset swap; and from then on the asset sits with a <strong>custodian</strong> on your behalf.</p>\n<h2>Why it exists</h2>\n<p>Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where buy and sell orders meet, and how prices are set.</li>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — the firm that takes your orders and holds your account.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — how a trade becomes final, and the clearing house that guarantees it.</li>\n<li><a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — who actually holds the asset, and what you really own.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Step</th>\n<th>Who</th>\n<th>What can go wrong</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Order</td>\n<td>You → broker</td>\n<td>Poor prices, outages, restrictions</td>\n</tr>\n<tr>\n<td>Trade</td>\n<td>Exchange</td>\n<td>Thin markets, sudden crashes</td>\n</tr>\n<tr>\n<td>Settlement</td>\n<td>Clearing house</td>\n<td>Delays, failed deliveries</td>\n</tr>\n<tr>\n<td>Holding</td>\n<td>Custodian</td>\n<td>Misuse or loss of customer assets</td>\n</tr>\n</tbody>\n</table></div>\n<p>On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Intermediary failure.</strong> When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>Trading halts and restrictions.</strong> In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced.</li>\n<li><strong>Flash crashes.</strong> On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — what you own at the end of the chain is usually a claim.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the assets that travel along it.</li>\n<li><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — the crypto way of skipping most of the chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/deposit-insurance\" data-page=\"deposit-insurance\">Deposit Insurance</a> — the bank-account version of investor protection.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your shares are held through a broker. Name two links in the chain other than the broker.</p><details><summary>Show answer</summary><p>For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a broker restrict trading in a share even when the exchange is open?</p><details><summary>Show answer</summary><p>Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Central securities depositories</strong> hold the master record of who owns which securities, usually in electronic form; brokers and custodians hold their customers' shares through accounts there.</li>\n<li><strong>Dark pools</strong> are private trading venues where large orders are matched without being shown publicly first.</li>\n</ul></section>",
+   "links": [
+    "bonds",
+    "brokers",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "custodial-crypto",
+    "custody",
+    "deposit-insurance",
+    "exchanges",
+    "self-custody",
+    "settlement",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What it is Markets & Plumbing covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a broker to an exchange , where it meets another order; the trade is settled when money and asset swap; and from then on the asset sits with a custodian on your behalf. Why it exists Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain. How it works exchanges — where buy and sell orders meet, and how prices are set. brokers — the firm that takes your orders and holds your account. settlement — how a trade becomes final, and the clearing house that guarantees it. custody — who actually holds the asset, and what you really own. Step Who What can go wrong Order You → broker Poor prices, outages, restrictions Trade Exchange Thin markets, sudden crashes Settlement Clearing house Delays, failed deliveries Holding Custodian Misuse or loss of customer assets On the Cartography of Wealth, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on. What goes wrong Intermediary failure. When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See custodial crypto. Trading halts and restrictions. In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced. Flash crashes. On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon. Key rule: every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails. Connects to claims and liabilities — what you own at the end of the chain is usually a claim. shares and bonds — the assets that travel along it. self custody — the crypto way of skipping most of the chain. deposit insurance — the bank account version of investor protection. Check yourself Q: Your shares are held through a broker. Name two links in the chain other than the broker. A: For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership. Q: Why can a broker restrict trading in a share even when the exchange is open? A: Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.",
+   "textDeep": "Going deeper Central securities depositories hold the master record of who owns which securities, usually in electronic form; brokers and custodians hold their customers' shares through accounts there. Dark pools are private trading venues where large orders are matched without being shown publicly first.",
    "children": [
     "exchanges",
     "brokers",
@@ -3522,6 +3678,7 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "capital-system",
+    "common-mistakes",
     "returns",
     "volatility"
    ],
@@ -3582,6 +3739,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "claims-and-liabilities",
+    "common-mistakes",
     "tokens"
    ],
    "backlinksAdv": []
@@ -3795,11 +3953,15 @@ window.MUDMAP = {
    ],
    "branch": "derivatives",
    "adv": false,
-   "html": "<p>The right, but not the duty, to buy or sell at a set price.</p>",
+   "html": "<h2>What it is</h2>\n<p>An <strong>option</strong> gives its buyer the right, but not the duty, to buy or sell something at a set price (the <strong>strike</strong>) on or before a set date. The buyer pays the seller a price for that right, called the <strong>premium</strong>.</p>\n<ul>\n<li>A <strong>call</strong> is the right to buy.</li>\n<li>A <strong>put</strong> is the right to sell.</li>\n</ul>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Insurance.</strong> A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike.</li>\n<li><strong>Limited-loss bets.</strong> A call lets you profit from a rise while risking only the premium.</li>\n<li><strong>Income.</strong> Sellers collect premiums in return for taking on the risk.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example: a call option</strong> with a strike of 100, bought for a premium of 5.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Price at expiry</th>\n<th>Exercise?</th>\n<th>Profit or loss for the buyer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>90</td>\n<td>No, buying at 100 would be worse</td>\n<td>−5 (the premium)</td>\n</tr>\n<tr>\n<td>105</td>\n<td>Yes</td>\n<td>0 (break-even)</td>\n</tr>\n<tr>\n<td>120</td>\n<td>Yes</td>\n<td>+15</td>\n</tr>\n</tbody>\n</table></div>\n<p>The buyer's loss is capped at 5; the gain grows with the price. The <strong>seller</strong> has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises.</p>\n<p><strong>What sets the premium:</strong> how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (<a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>). More expected movement means a higher premium.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Time decay.</strong> An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless.</li>\n<li><strong>Sellers' hidden risk.</strong> Selling options pays a small, steady income and can then lose heavily in a sharp move.</li>\n<li><strong>Paying for fear.</strong> In a panic, insurance gets expensive just when people want it most.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an option buyer risks the premium; an option seller risks the move. Know which side you're on.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — the contract with obligations on both sides.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the main driver of an option's price.</li>\n<li><a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — why option-selling strategies can look safer than they are.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium?</p><details><summary>Show answer</summary><p>45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The right, but not the duty, to buy or sell at a set price.",
+   "links": [
+    "futures",
+    "sharpe-ratio",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is An option gives its buyer the right, but not the duty, to buy or sell something at a set price (the strike ) on or before a set date. The buyer pays the seller a price for that right, called the premium . A call is the right to buy. A put is the right to sell. Why it exists Insurance. A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike. Limited loss bets. A call lets you profit from a rise while risking only the premium. Income. Sellers collect premiums in return for taking on the risk. How it works Fictional example: a call option with a strike of 100, bought for a premium of 5. Price at expiry Exercise? Profit or loss for the buyer 90 No, buying at 100 would be worse −5 (the premium) 105 Yes 0 (break even) 120 Yes +15 The buyer's loss is capped at 5; the gain grows with the price. The seller has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises. What sets the premium: how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (volatility). More expected movement means a higher premium. What goes wrong Time decay. An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless. Sellers' hidden risk. Selling options pays a small, steady income and can then lose heavily in a sharp move. Paying for fear. In a panic, insurance gets expensive just when people want it most. Key rule: an option buyer risks the premium; an option seller risks the move. Know which side you're on. Connects to futures — the contract with obligations on both sides. volatility — the main driver of an option's price. sharpe ratio — why option selling strategies can look safer than they are. Check yourself Q: You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium? A: 45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3809,7 +3971,10 @@ window.MUDMAP = {
      "m": "CFA1-DRM — Derivatives and Risk Management"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "derivatives",
+    "futures"
+   ],
    "backlinksAdv": []
   },
   "perpetuals": {
@@ -3822,7 +3987,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "BitMEX, Five years ago the perpetual swap was born (2021)"
+   ],
    "level": "advanced",
    "group": "",
    "tier": "",
@@ -3838,19 +4005,28 @@ window.MUDMAP = {
    ],
    "branch": "derivatives",
    "adv": true,
-   "html": "<p>Crypto futures with no expiry, held to the spot price by funding payments.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>perpetual future</strong> (or <strong>perpetual swap</strong>) is a futures-like contract with no expiry date, traded mainly on crypto exchanges. It lets traders hold a leveraged long or short position for as long as they like. The crypto exchange BitMEX introduced it in May 2016; perpetuals are now among the most traded contracts in crypto.</p>\n<h2>Why it exists</h2>\n<p>Ordinary futures expire and must be rolled. A perpetual removes the roll, which suits round-the-clock crypto markets and traders who want simple, continuous exposure with leverage.</p>\n<h2>How it works</h2>\n<p><strong>Funding payments</strong> keep the contract's price close to the spot price. At regular intervals, often every eight hours:</p>\n<ul>\n<li>if the perpetual trades <strong>above</strong> spot, holders of long positions pay holders of short positions;</li>\n<li>if it trades <strong>below</strong> spot, shorts pay longs.</li>\n</ul>\n<p>That payment makes it costly to push the price away from spot, so arbitrageurs pull it back.</p>\n<p><strong>Fictional example:</strong> a funding rate of 0.01% every eight hours on a 10,000 position is <strong>1</strong> per period. Three periods a day for a year adds up to <strong>10.95%</strong> a year. In euphoric markets funding can run much higher, which makes holding a leveraged long expensive.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Liquidation.</strong> Exchanges close positions automatically when losses eat the margin, often in cascades that push prices further.</li>\n<li><strong>Funding costs</strong> quietly drain long-held positions.</li>\n<li><strong>Exchange risk.</strong> Positions sit on one exchange; its failure takes your margin with it. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>Very high leverage</strong> is routinely on offer, which turns ordinary moves into total losses.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a perpetual is leverage with a running cost. Check the funding rate and the liquidation price before opening one.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — the contract a perpetual is built from.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — what makes perpetuals dangerous.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — where perpetuals mostly trade.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A perpetual trades above the spot price. Who pays funding, and why does that help?</p><details><summary>Show answer</summary><p>Longs pay shorts. Paying to hold a long makes it less attractive, and being paid to hold a short makes that more attractive, which pushes the perpetual's price back towards spot.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Crypto futures with no expiry, held to the spot price by funding payments.",
+   "links": [
+    "custodial-crypto",
+    "digital-assets",
+    "futures",
+    "leverage"
+   ],
+   "stub": false,
+   "text": "What it is A perpetual future (or perpetual swap ) is a futures like contract with no expiry date, traded mainly on crypto exchanges. It lets traders hold a leveraged long or short position for as long as they like. The crypto exchange BitMEX introduced it in May 2016; perpetuals are now among the most traded contracts in crypto. Why it exists Ordinary futures expire and must be rolled. A perpetual removes the roll, which suits round the clock crypto markets and traders who want simple, continuous exposure with leverage. How it works Funding payments keep the contract's price close to the spot price. At regular intervals, often every eight hours: if the perpetual trades above spot, holders of long positions pay holders of short positions; if it trades below spot, shorts pay longs. That payment makes it costly to push the price away from spot, so arbitrageurs pull it back. Fictional example: a funding rate of 0.01% every eight hours on a 10,000 position is 1 per period. Three periods a day for a year adds up to 10.95% a year. In euphoric markets funding can run much higher, which makes holding a leveraged long expensive. What goes wrong Liquidation. Exchanges close positions automatically when losses eat the margin, often in cascades that push prices further. Funding costs quietly drain long held positions. Exchange risk. Positions sit on one exchange; its failure takes your margin with it. See custodial crypto. Very high leverage is routinely on offer, which turns ordinary moves into total losses. Key rule: a perpetual is leverage with a running cost. Check the funding rate and the liquidation price before opening one. Connects to futures — the contract a perpetual is built from. leverage — what makes perpetuals dangerous. digital assets — where perpetuals mostly trade. Check yourself Q: A perpetual trades above the spot price. Who pays funding, and why does that help? A: Longs pay shorts. Paying to hold a long makes it less attractive, and being paid to hold a short makes that more attractive, which pushes the perpetual's price back towards spot.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "digital-assets"
+    "derivatives",
+    "digital-assets",
+    "leverage"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "derivatives"
+   ]
   },
   "personal-capital": {
    "id": "personal-capital",
@@ -3965,7 +4141,9 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "common-mistakes",
+    "practice"
    ],
    "backlinksAdv": []
   },
@@ -4011,6 +4189,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "common-mistakes",
     "drawdown",
     "measure",
     "memecoins",
@@ -4030,7 +4209,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Morningstar, Mind the Gap 2024"
+   ],
    "level": "basic",
    "group": "How it runs",
    "tier": "",
@@ -4045,12 +4226,21 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>Tax, account types, common mistakes, and the data and charting tools used in practice.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Tax, account types, common mistakes, and the data and charting tools used in practice.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>In Practice</strong> is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most.</p>\n<p>None of it is glamorous. Much of it matters more to your final result than which asset you pick.</p>\n<h2>Why it exists</h2>\n<p>Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax-advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/tax\" data-page=\"tax\">Tax</a> — how gains and income are taxed, and why the timing of tax changes the maths.</li>\n<li><a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a> — ordinary, tax-advantaged and retirement accounts.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors that cost the most, and how to avoid them.</li>\n<li><a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a> — where reliable price, economic and on-chain data comes from, and how to check it.</li>\n<li><a class=\"wl\" href=\"#/map/p/charting\" data-page=\"charting\">Charting</a> — reading price charts, and what they can't tell you.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Lever</th>\n<th>Typical effect</th>\n<th>Can you control it?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Fees</strong></td>\n<td>Taken every year, compounding</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td><strong>Tax</strong></td>\n<td>Reduced or delayed by the right account</td>\n<td>Largely</td>\n</tr>\n<tr>\n<td><strong>Behaviour</strong></td>\n<td>Buying high and selling low</td>\n<td>Yes, with rules set in advance</td>\n</tr>\n<tr>\n<td><strong>Market returns</strong></td>\n<td>The biggest swing, year to year</td>\n<td>No</td>\n</tr>\n</tbody>\n</table></div>\n<p>The pattern is the same throughout: control what you can, because what you can't control is large.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Tax and fees ignored</strong> until they've compounded for decades.</li>\n<li><strong>Bad timing.</strong> Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times.</li>\n<li><strong>Bad data,</strong> leading to confident decisions on wrong numbers.</li>\n<li><strong>Patterns in noise.</strong> Charts make random movements look meaningful.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — why small yearly costs become large.</li>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — where fees bite hardest.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan these practical choices protect.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts.</p><details><summary>Show answer</summary><p>For example: one held it in a tax-advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do fees matter more than they look?</p><details><summary>Show answer</summary><p>Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Rules over predictions.</strong> Simple written rules (how much to save, what mix to hold, when to rebalance) protect against your own reactions in a crisis better than forecasts do.</li>\n<li><strong>Records.</strong> Keeping a record of purchases, sales and costs makes tax, rebalancing and honest performance tracking far easier.</li>\n</ul></section>",
+   "links": [
+    "account-types",
+    "charting",
+    "common-mistakes",
+    "compounding",
+    "data-sources",
+    "funds-and-etfs",
+    "portfolio",
+    "tax"
+   ],
+   "stub": false,
+   "text": "What it is In Practice is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most. None of it is glamorous. Much of it matters more to your final result than which asset you pick. Why it exists Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here. How it works tax — how gains and income are taxed, and why the timing of tax changes the maths. account types — ordinary, tax advantaged and retirement accounts. common mistakes — the errors that cost the most, and how to avoid them. data sources — where reliable price, economic and on chain data comes from, and how to check it. charting — reading price charts, and what they can't tell you. Lever Typical effect Can you control it? Fees Taken every year, compounding Yes Tax Reduced or delayed by the right account Largely Behaviour Buying high and selling low Yes, with rules set in advance Market returns The biggest swing, year to year No The pattern is the same throughout: control what you can, because what you can't control is large. What goes wrong Tax and fees ignored until they've compounded for decades. Bad timing. Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times. Bad data, leading to confident decisions on wrong numbers. Patterns in noise. Charts make random movements look meaningful. Key rule: fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners. Connects to compounding — why small yearly costs become large. funds and etfs — where fees bite hardest. portfolio — the plan these practical choices protect. Check yourself Q: Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts. A: For example: one held it in a tax advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices. Q: Why do fees matter more than they look? A: Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.",
+   "textDeep": "Going deeper Rules over predictions. Simple written rules (how much to save, what mix to hold, when to rebalance) protect against your own reactions in a crisis better than forecasts do. Records. Keeping a record of purchases, sales and costs makes tax, rebalancing and honest performance tracking far easier.",
    "children": [
     "tax",
     "account-types",
@@ -4201,7 +4391,7 @@ window.MUDMAP = {
    "short": "",
    "parent": "real-assets",
    "order": 1.0,
-   "summary": "Land and buildings: shelter, rent and leverage.",
+   "summary": "Land and buildings: shelter, rent, and leverage through a mortgage.",
    "tcodes": [],
    "fiori": [],
    "tags": [],
@@ -4255,6 +4445,7 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "hierarchy-of-money",
     "inflation",
+    "leverage",
     "real-assets",
     "reits"
    ],
@@ -4307,7 +4498,8 @@ window.MUDMAP = {
    "backlinks": [
     "asset-allocation",
     "portfolio",
-    "position-sizing"
+    "position-sizing",
+    "tax"
    ],
    "backlinksAdv": []
   },
@@ -4414,10 +4606,13 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "charting",
     "compounding",
+    "data-sources",
     "foundation",
     "indices",
     "measure",
+    "tax",
     "volatility"
    ],
    "backlinksAdv": []
@@ -4544,8 +4739,10 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "cartography-of-wealth",
+    "custody",
     "holding-crypto",
-    "keys-and-wallets"
+    "keys-and-wallets",
+    "markets"
    ],
    "backlinksAdv": []
   },
@@ -4559,7 +4756,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "SEC, Shortening the Securities Transaction Settlement Cycle (2023)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -4575,11 +4774,16 @@ window.MUDMAP = {
    ],
    "branch": "markets",
    "adv": false,
-   "html": "<p>The moment a trade becomes final: money and asset swap hands.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Settlement</strong> is the moment a trade becomes final: the buyer receives the asset and the seller receives the money. The trade itself happens in an instant; settlement follows a short time later. Most US share trades now settle one business day after the trade, called <strong>T+1</strong>. The US moved from two days to one on 28 May 2024.</p>\n<h2>Why it exists</h2>\n<p>Between the trade and settlement, each side is exposed to the other failing to deliver. The settlement system exists to make that gap short and safe.</p>\n<h2>How it works</h2>\n<p><strong>Clearing first.</strong> A <strong>central counterparty</strong> (CCP), or clearing house, steps in between buyer and seller. It becomes the buyer to every seller and the seller to every buyer, so neither has to trust the other, only the clearing house.</p>\n<p><strong>Netting.</strong> The clearing house adds up each firm's trades and settles only the difference. Fictional example: broker X buys 1,000 shares of a company from broker Y in the morning and sells 700 back to Y in the afternoon. Instead of two deliveries, only <strong>300</strong> shares move, from Y to X.</p>\n<p><strong>Margin.</strong> Clearing members post collateral, sized by how risky their positions are. When markets swing wildly, those requirements can jump overnight.</p>\n<p><strong>Delivery versus payment.</strong> The asset and the money swap at the same time, so neither side can end up having handed over its half and received nothing.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Failed deliveries</strong> when a seller can't produce the shares on time.</li>\n<li><strong>Margin spikes</strong> that squeeze brokers and their customers in volatile markets. See <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a>.</li>\n<li><strong>Clearing house risk.</strong> Concentrating risk in one firm makes that firm critical; clearing houses hold default funds and are closely regulated for this reason.</li>\n<li><strong>Faster isn't free.</strong> Shorter settlement cuts risk but gives firms less time to fix errors, especially across time zones.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a trade isn't done until it's settled. The clearing house is what lets strangers trade without trusting each other.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where trades are made before they settle.</li>\n<li><a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — where settled assets are held.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — the counterparty risk settlement removes.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does a clearing house reduce risk for traders?</p><details><summary>Show answer</summary><p>Because each trader only needs to trust the clearing house, which is well capitalised and holds collateral from every member, instead of trusting every other trader it deals with.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The moment a trade becomes final: money and asset swap hands.",
+   "links": [
+    "brokers",
+    "credit-risk",
+    "custody",
+    "exchanges"
+   ],
+   "stub": false,
+   "text": "What it is Settlement is the moment a trade becomes final: the buyer receives the asset and the seller receives the money. The trade itself happens in an instant; settlement follows a short time later. Most US share trades now settle one business day after the trade, called T+1 . The US moved from two days to one on 28 May 2024. Why it exists Between the trade and settlement, each side is exposed to the other failing to deliver. The settlement system exists to make that gap short and safe. How it works Clearing first. A central counterparty (CCP), or clearing house, steps in between buyer and seller. It becomes the buyer to every seller and the seller to every buyer, so neither has to trust the other, only the clearing house. Netting. The clearing house adds up each firm's trades and settles only the difference. Fictional example: broker X buys 1,000 shares of a company from broker Y in the morning and sells 700 back to Y in the afternoon. Instead of two deliveries, only 300 shares move, from Y to X. Margin. Clearing members post collateral, sized by how risky their positions are. When markets swing wildly, those requirements can jump overnight. Delivery versus payment. The asset and the money swap at the same time, so neither side can end up having handed over its half and received nothing. What goes wrong Failed deliveries when a seller can't produce the shares on time. Margin spikes that squeeze brokers and their customers in volatile markets. See brokers. Clearing house risk. Concentrating risk in one firm makes that firm critical; clearing houses hold default funds and are closely regulated for this reason. Faster isn't free. Shorter settlement cuts risk but gives firms less time to fix errors, especially across time zones. Key rule: a trade isn't done until it's settled. The clearing house is what lets strangers trade without trusting each other. Connects to exchanges — where trades are made before they settle. custody — where settled assets are held. credit risk — the counterparty risk settlement removes. Check yourself Q: Why does a clearing house reduce risk for traders? A: Because each trader only needs to trust the clearing house, which is well capitalised and holds collateral from every member, instead of trusting every other trader it deals with.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4590,6 +4794,10 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "derivatives",
+    "exchanges",
+    "futures",
+    "markets",
     "shares"
    ],
    "backlinksAdv": []
@@ -4660,11 +4868,13 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "brokers",
     "cartography-of-wealth",
     "claims-and-liabilities",
     "equities",
     "funds-and-etfs",
     "hierarchy-of-money",
+    "markets",
     "reits",
     "valuation"
    ],
@@ -4719,7 +4929,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "leverage",
     "measure",
+    "options",
     "portfolio",
     "volatility"
    ],
@@ -4909,6 +5121,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "common-mistakes",
     "hierarchy-of-money",
     "money",
     "t-bills",
@@ -5004,16 +5217,23 @@ window.MUDMAP = {
    ],
    "branch": "practice",
    "adv": false,
-   "html": "<p>How gains, income and holdings are taxed, and why it changes the maths.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Tax</strong> on investments usually falls on two things:</p>\n<ul>\n<li><strong>Income:</strong> interest, dividends and rent, often taxed in the year you receive it.</li>\n<li><strong>Gains:</strong> the rise in value of something you sell, often taxed only when you sell. This is called <strong>capital gains tax</strong> in many countries.</li>\n</ul>\n<p>Rules differ widely between countries and change often, so this page explains how tax changes the maths, not the rules where you live.</p>\n<h2>Why it matters</h2>\n<p>Tax is one of the largest costs of investing, and unlike market returns, it can often be reduced or delayed legally. <strong>When</strong> tax is paid matters as much as <strong>how much</strong>, because money not yet paid in tax keeps compounding.</p>\n<h2>How it works</h2>\n<p><strong>Tax drag, fictional example:</strong> 10,000 invested for 30 years at 7% a year, with a 25% tax rate on gains.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>How tax is paid</th>\n<th>Value after 30 years</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>No tax</strong></td>\n<td>—</td>\n<td>76,123</td>\n</tr>\n<tr>\n<td><strong>Taxed every year</strong></td>\n<td>25% of each year's gain, so it grows at 5.25%</td>\n<td>46,416</td>\n</tr>\n<tr>\n<td><strong>Taxed once, at the end</strong></td>\n<td>25% of the total gain on sale</td>\n<td>59,592</td>\n</tr>\n</tbody>\n</table></div>\n<p>Same rate, same return. Paying tax once at the end leaves about 13,000 more than paying every year, because the deferred tax kept earning returns. This is why tax-advantaged <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a> are so valuable.</p>\n<p><strong>Other common features:</strong></p>\n<ul>\n<li><strong>Losses</strong> can often be set against gains, reducing the tax bill.</li>\n<li><strong>Holding periods.</strong> Some countries tax assets held longer at lower rates.</li>\n<li><strong>Crypto</strong> is treated as property in many countries, so each sale or swap can be a taxable event.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Selling just to rebalance</strong> in a taxable account, creating avoidable tax. Using new money to rebalance avoids it. See <a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a>.</li>\n<li><strong>Forgetting small events:</strong> swapping one coin for another, or reinvested dividends, can still be taxable.</li>\n<li><strong>Letting tax drive everything.</strong> Avoiding a sale only to save tax can leave you holding something you no longer want.</li>\n<li><strong>Poor records,</strong> which make it hard to work out the true cost of what you sold.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> tax paid later is usually better than tax paid now. Use tax-advantaged accounts first, keep records, and check the rules where you live with a qualified adviser.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a> — the main tool for reducing tax.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — why deferring tax helps.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — the after-tax return is the one you keep.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does paying the same tax rate at the end, instead of every year, leave you with more?</p><details><summary>Show answer</summary><p>Because the tax you haven't paid yet stays invested and keeps compounding. You pay it eventually, but meanwhile it has earned returns for you.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How gains, income and holdings are taxed, and why it changes the maths.",
+   "links": [
+    "account-types",
+    "compounding",
+    "rebalancing",
+    "returns"
+   ],
+   "stub": false,
+   "text": "What it is Tax on investments usually falls on two things: Income: interest, dividends and rent, often taxed in the year you receive it. Gains: the rise in value of something you sell, often taxed only when you sell. This is called capital gains tax in many countries. Rules differ widely between countries and change often, so this page explains how tax changes the maths, not the rules where you live. Why it matters Tax is one of the largest costs of investing, and unlike market returns, it can often be reduced or delayed legally. When tax is paid matters as much as how much , because money not yet paid in tax keeps compounding. How it works Tax drag, fictional example: 10,000 invested for 30 years at 7% a year, with a 25% tax rate on gains. How tax is paid Value after 30 years No tax — 76,123 Taxed every year 25% of each year's gain, so it grows at 5.25% 46,416 Taxed once, at the end 25% of the total gain on sale 59,592 Same rate, same return. Paying tax once at the end leaves about 13,000 more than paying every year, because the deferred tax kept earning returns. This is why tax advantaged account types are so valuable. Other common features: Losses can often be set against gains, reducing the tax bill. Holding periods. Some countries tax assets held longer at lower rates. Crypto is treated as property in many countries, so each sale or swap can be a taxable event. What goes wrong Selling just to rebalance in a taxable account, creating avoidable tax. Using new money to rebalance avoids it. See rebalancing. Forgetting small events: swapping one coin for another, or reinvested dividends, can still be taxable. Letting tax drive everything. Avoiding a sale only to save tax can leave you holding something you no longer want. Poor records, which make it hard to work out the true cost of what you sold. Key rule: tax paid later is usually better than tax paid now. Use tax advantaged accounts first, keep records, and check the rules where you live with a qualified adviser. Connects to account types — the main tool for reducing tax. compounding — why deferring tax helps. returns — the after tax return is the one you keep. Check yourself Q: Why does paying the same tax rate at the end, instead of every year, leave you with more? A: Because the tax you haven't paid yet stays invested and keeps compounding. You pay it eventually, but meanwhile it has earned returns for you.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "account-types",
+    "practice",
     "rebalancing"
    ],
    "backlinksAdv": []
@@ -5248,10 +5468,12 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "charting",
     "correlation",
     "drawdown",
     "foundation",
     "measure",
+    "options",
     "portfolio",
     "position-sizing",
     "returns",
@@ -6568,5 +6790,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 12:53 UTC"
+ "built": "2026-10-25 13:37 UTC"
 };
