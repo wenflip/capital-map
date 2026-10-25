@@ -143,7 +143,7 @@
   function parseHash() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] === "paths") parts[0] = "jobs";
-    const view = ["map", "flows", "jobs", "quals", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
+    const view = ["map", "flows", "jobs", "quals", "cartography", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
     let flow = null, page = null, path = null, qual = null;
     const pi = parts.indexOf("p");
     if (pi >= 0 && parts[pi + 1] && P[parts[pi + 1]]) page = parts[pi + 1];
@@ -227,6 +227,7 @@
     if (s.view === "flows") renderFlows(s.flow);
     if (s.view === "jobs") renderJobs(s.path);
     if (s.view === "quals") renderQuals(s.qual);
+    if (s.view === "cartography") renderCart();
     if (s.view === "index" && lastView !== "index") renderIndex();
     if (s.view === "about" && lastView !== "about") renderAbout();
     if (s.view === "privacy" && lastView !== "privacy") renderPrivacy();
@@ -843,6 +844,53 @@
       el.textContent = `${ids.filter((x) => known.has(x)).length} of ${ids.length} known`;
     });
   }
+
+  /* =====================================================================
+     CARTOGRAPHY OF WEALTH: stores plotted by how embodied and how visible they are
+     Data: page frontmatter place (x inside->outside, y hidden->recorded, 0-100), span, tier, killer, killer_kind
+     ===================================================================== */
+  const CART_TIER_HUE = { 1: 28, 2: 152, 3: 215 };
+  let cartTier = "", cartKind = "";
+  const tiersOf = (p) => String(p.tier).split(/[^1-3]+/).filter(Boolean);
+  const cartOn = (p) => (!cartTier || tiersOf(p).includes(cartTier)) && (!cartKind || p.killerKind === cartKind);
+  function renderCart() {
+    const stores = Object.values(P).filter((p) => p.place && vis(p.id)).sort((a, b) => a.place[0] + a.place[1] - b.place[0] - b.place[1]);
+    const kinds = [...new Set(stores.map((p) => p.killerKind))].sort();
+    const W = 1000, H = 660, L = 70, R = 980, T = 30, B = 600;
+    const X = (v) => L + (v / 100) * (R - L), Y = (v) => T + (v / 100) * (B - T);
+    const hueOf = (p) => CART_TIER_HUE[tiersOf(p).slice(-1)[0]];
+    const quad = (x, y, w, h, hue, label, anchor) => `<rect x="${X(x)}" y="${Y(y)}" width="${X(x + w) - X(x)}" height="${Y(y + h) - Y(y)}" class="cq" style="fill:${hue === null ? "var(--surface-2)" : `hsl(${hue} 45% 50% / .09)`}"/>` +
+      `<text class="cq-label" x="${anchor === "end" ? X(x + w) - 12 : X(x) + 12}" y="${Y(y) + 22}" text-anchor="${anchor}">${label}</text>`;
+    let svg = quad(0, 0, 50, 50, 28, "Safe from seizure and theft — but dies with you", "start") +
+      quad(50, 0, 50, 50, 152, "Beyond the state's reach — exposed to theft and error", "end") +
+      quad(0, 50, 50, 50, null, "Nearly empty: little is both inside you and on the record", "start") +
+      quad(50, 50, 50, 50, 215, "Protected by the state — therefore exposed to it", "end");
+    svg += `<line class="c-diag" x1="${X(4)}" y1="${Y(4)}" x2="${X(97)}" y2="${Y(97)}"/>`;
+    svg += `<text class="c-axis" x="${L}" y="${H - 22}">← Inside you</text><text class="c-axis" x="${R}" y="${H - 22}" text-anchor="end">Outside you →</text>`;
+    svg += `<text class="c-axis" transform="translate(30 ${T}) rotate(-90)" text-anchor="end">Hidden ↑</text><text class="c-axis" transform="translate(30 ${B}) rotate(-90)">↓ Recorded by authority</text>`;
+    stores.forEach((p) => {
+      const cx = X(p.place[0]), cy = Y(p.place[1]), c = `hsl(${hueOf(p)} 55% 42%)`, right = p.place[0] < 75;
+      const span = p.span ? `<line class="c-span" x1="${cx}" y1="${Y(p.span[0])}" x2="${cx}" y2="${Y(p.span[1])}" style="stroke:${c}"/>` : "";
+      svg += `<a class="cart-pt${cartOn(p) ? "" : " off"}" data-page="${p.id}" aria-label="${esc(p.title)}">${span}<title>${esc(p.title + " — killer: " + p.killer)}</title>` +
+        `<circle cx="${cx}" cy="${cy}" r="11" style="fill:${c}"/>` +
+        `<text class="c-pt-label" x="${right ? cx + 18 : cx - 18}" y="${cy}" text-anchor="${right ? "start" : "end"}">${esc(p.short || p.title)}</text></a>`;
+    });
+    const chip = (attr, val, cur, label) => `<button class="chip-btn${cur === val ? " on" : ""}" data-${attr}="${esc(val)}">${esc(label)}</button>`;
+    const rows = stores.map((p) => `<tr class="${cartOn(p) ? "" : "off"}"><td><span class="dot" style="background:hsl(${hueOf(p)} 55% 42%)"></span><a data-page="${p.id}">${esc(p.title)}</a></td>` +
+      `<td>${esc(tiersOf(p).join("–"))}</td><td>${esc(p.killer)}</td><td>${esc(p.killerKind)}</td></tr>`).join("");
+    $("#cartography-body").innerHTML = `<h1 class="view-title">Cartography of Wealth</h1>
+      <p class="view-sub">Stores of wealth placed by how embodied in you they are and how visible to the state, each with the one thing most likely to kill it. Positions are judgments, not measured data. The model is explained on <a data-page="cartography-of-wealth">The Cartography of Wealth</a>.</p>
+      <div class="cart-filters" role="group" aria-label="Filter by tier">${chip("ctier", "", cartTier, "All tiers")}${[1, 2, 3].map((n) => chip("ctier", String(n), cartTier, ["", "Tier 1 · Inside you", "Tier 2 · Private / bearer", "Tier 3 · Legible"][n])).join("")}</div>
+      <div class="cart-filters" role="group" aria-label="Filter by kind of killer">${chip("ckind", "", cartKind, "All killers")}${kinds.map((k) => chip("ckind", k, cartKind, k)).join("")}</div>
+      <div class="cart-chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Chart of stores of wealth">${svg}</svg></div>
+      <div class="tablewrap"><table class="cart-table"><thead><tr><th>Store</th><th>Tier</th><th>Killer</th><th>Kind of killer</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="mod-note">Click any store to open its page. The enemy is correlation, not risk: spread across the chart so no single killer clears the board.</p>`;
+  }
+  $("#cartography-body").addEventListener("click", (e) => {
+    const t = e.target.closest("[data-ctier]"), k = e.target.closest("[data-ckind]");
+    if (t) { cartTier = t.dataset.ctier; renderCart(); }
+    if (k) { cartKind = k.dataset.ckind; renderCart(); }
+  });
 
   /* =====================================================================
      ABOUT (from about.md, with live counts)
