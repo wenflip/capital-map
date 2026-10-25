@@ -912,6 +912,10 @@
     const rx = (t) => new RegExp("(^|[^a-z0-9])" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
     const matcher = (t) => { if (t.length > 3) return (s) => s.includes(t); const r = rx(t); return (s) => r.test(s); };
     const qHas = matcher(q), termHas = terms.map(matcher);
+    // page text is stored with hyphens turned into spaces, so also try the query that way ("de-peg" finds "de peg").
+    // Module codes such as CFA1-FI still match on the original query.
+    const loose = q.replace(/[-–—]+/g, " ").trim(), looseHas = loose !== q ? loose.split(/\s+/).map(matcher) : null;
+    const textHit = (s) => termHas.every((has) => has(s)) || (looseHas && looseHas.every((has) => has(s)));
     const out = [];
     Object.values(P).filter((p) => vis(p.id)).forEach((p) => {
       const title = p.title.toLowerCase(), tc = p.tcodes.map((t) => t.toLowerCase());
@@ -923,7 +927,7 @@
       const mods = (p.quals || []).map((x) => x.m.toLowerCase());
       if (mods.some((m) => modCode(m) === q)) score += 30;
       const hay = (title + " " + tc.join(" ") + " " + p.fiori.join(" ").toLowerCase() + " " + p.tags.join(" ").toLowerCase() + " " + mods.join(" ") + " " + p.summary.toLowerCase() + " " + p.text.toLowerCase() + (mode.simple ? "" : " " + (p.textDeep || "").toLowerCase()));
-      if (termHas.every((has) => has(hay))) score += 10 + (qHas(p.summary.toLowerCase()) ? 10 : 0) + (terms.length > 1 && hay.includes(q) ? 15 : 0);
+      if (textHit(hay)) score += 10 + (qHas(p.summary.toLowerCase()) ? 10 : 0) + (terms.length > 1 && hay.includes(q) ? 15 : 0);
       // ties (e.g. a t-code used by a topic and its sub-pages) go to the more general page
       if (score) out.push({ type: "page", id: p.id, score: score + (p.stub ? 0 : 3) + (8 - Math.min(8, p.path.length)) });
     });
