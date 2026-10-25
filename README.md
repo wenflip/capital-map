@@ -2,14 +2,14 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: early build. The tree skeleton is in place; **Money & Liquidity** is the first branch written. See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (94 pages, no stubs). Next: an accuracy pass across the whole site. See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
 1. Pull the latest version (`git pull`).
 2. Double-click `index.html`. It opens in your browser — no server needed.
 
-Views: **Map**, **Flows**, **Quals** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
+Views: **Map**, **Flows**, **Quals**, **Cartography** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
 
 ## How it's built
 

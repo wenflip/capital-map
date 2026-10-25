@@ -902,7 +902,9 @@
     const stats = [
       [all.length, "pages", `${core} core · ${all.length - core} advanced`],
       [Object.keys(DATA.flows).length, "flows", "processes end to end"],
-      [Object.keys(ROLES).length, "jobs", `${Object.keys(LEVELS).length} levels · ${STREAMS.length} streams`],
+      // Jobs are hidden while there are none; show the Cartography stores instead
+      Object.keys(ROLES).length ? [Object.keys(ROLES).length, "jobs", `${Object.keys(LEVELS).length} levels · ${STREAMS.length} streams`]
+        : [all.filter((p) => p.place).length, "stores of wealth", "plotted on the Cartography chart"],
       [Object.keys(QUALS).length, "qualifications", qualIds.map((q) => QUALS[q].short).join(" · ")],
     ];
     body.innerHTML = `<h1 class="view-title">${esc(A.title)}</h1>
@@ -941,7 +943,7 @@
     all.forEach((p) => p.tcodes.forEach((t) => (tmap[t] = tmap[t] || []).push(p.id)));
     const trows = Object.keys(tmap).sort().map((t) => `<tr><td>${esc(t)}</td><td>${tmap[t].map((id) => `<a data-page="${id}">${esc(P[id].title)}</a>`).join(", ")}</td></tr>`).join("");
     $("#index-body").innerHTML = `<h1 class="view-title">Index</h1>
-      <p class="view-sub"><a data-view="about" class="about-link">About this site</a> · <a data-view="privacy" class="about-link">Privacy</a> · ${mode.simple ? "Core view · " : ""}${role.id ? `Focus: ${esc(FOCUS[role.id].short)} (${FOCUS[role.id].pages.length} pages highlighted) · ` : ""}${all.length} pages${advCount ? ` (${advCount} advanced)` : ""} · ${written} written · ${all.length - written} stubs · built ${esc(DATA.built)}</p>
+      <p class="view-sub"><a data-view="about" class="about-link">About this site</a> · <a data-view="privacy" class="about-link">Privacy</a> · ${mode.simple ? "Core view · " : ""}${role.id ? `Focus: ${esc(FOCUS[role.id].short)} (${FOCUS[role.id].pages.length} pages highlighted) · ` : ""}${all.length} pages${advCount ? ` (${advCount} advanced)` : ""} · ${all.length - written ? `${written} written · ${all.length - written} stubs` : "all written"} · built ${esc(DATA.built)}</p>
       <div class="index-grid">${groups}</div>
       ${trows ? `<h2 class="section">T-code index</h2>
       <table class="tcode-table"><thead><tr><th>T-code</th><th>Pages</th></tr></thead><tbody>${trows}</tbody></table>` : ""}`;
