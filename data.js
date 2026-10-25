@@ -100,6 +100,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "diversification",
+    "drawdown",
     "portfolio",
     "rebalancing"
    ],
@@ -1380,7 +1381,9 @@ window.MUDMAP = {
     "foundation",
     "funds-and-etfs",
     "inflation",
+    "measure",
     "personal-capital",
+    "returns",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -1508,7 +1511,8 @@ window.MUDMAP = {
     "foundation",
     "market-regimes",
     "portfolio",
-    "risk-and-return"
+    "risk-and-return",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -1986,11 +1990,13 @@ window.MUDMAP = {
     "funds-and-etfs",
     "human-capital",
     "indices",
+    "measure",
     "personal-capital",
     "portfolio",
     "position-sizing",
     "real-assets",
-    "risk-and-return"
+    "risk-and-return",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -2004,7 +2010,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "S&P 500 closing levels, 9 October 2007, 9 March 2009 and 28 March 2013"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -2020,11 +2028,17 @@ window.MUDMAP = {
    ],
    "branch": "measure",
    "adv": false,
-   "html": "<p>The fall from a peak: the loss you have to sit through.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>drawdown</strong> is the fall from a previous peak to a later low, measured as a percentage of the peak. The <strong>maximum drawdown</strong> is the worst such fall over a period. It answers the question most investors actually care about: how bad did it get?</p>\n<h2>Why it matters</h2>\n<p>Drawdowns are what make people abandon their plans. A portfolio that falls by half tests anyone's nerve, and anyone who sells near the bottom turns a temporary fall into a permanent loss. Knowing the likely depth of a drawdown in advance is how you choose a mix you can hold. Large drawdowns are also hard to recover from: a 50% fall needs a 100% gain to get back. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<h2>How it works</h2>\n<p>Fictional example of a portfolio's value at the end of each year:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Year</th>\n<th>Value</th>\n<th>Peak so far</th>\n<th>Drawdown</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0</td>\n<td>100</td>\n<td>100</td>\n<td>0%</td>\n</tr>\n<tr>\n<td>1</td>\n<td>120</td>\n<td>120</td>\n<td>0%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>90</td>\n<td>120</td>\n<td>−25%</td>\n</tr>\n<tr>\n<td>3</td>\n<td>110</td>\n<td>120</td>\n<td>−8.3%</td>\n</tr>\n<tr>\n<td>4</td>\n<td>130</td>\n<td>130</td>\n<td>0%</td>\n</tr>\n</tbody>\n</table></div>\n<p>The maximum drawdown is <strong>−25%</strong>, from 120 to 90. The portfolio was <strong>underwater</strong>, below its previous peak, for three years, until it passed 120.</p>\n<p><strong>A real one.</strong> The S&amp;P 500 fell about 57% from its October 2007 closing high to its March 2009 low, and didn't close above that 2007 high again until March 2013, five and a half years later (before dividends).</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>History understates the future.</strong> The worst drawdown so far is not the worst possible. A short record may not include a real crisis.</li>\n<li><strong>Time matters as much as depth.</strong> Years spent underwater can be harder to bear than a quick, deep fall.</li>\n<li><strong>Measured at the wrong frequency.</strong> Year-end values can hide a much deeper fall within the year.</li>\n<li><strong>Leverage</strong> turns drawdowns into margin calls and forced sales, so the loss becomes permanent. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before you invest, ask how big a fall you could sit through without selling, and choose a mix whose history suggests something smaller.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the everyday swings, where drawdown is the worst stretch.</li>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — the main lever for controlling drawdowns.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — when the deepest drawdowns tend to happen.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund rises from 100 to 200, falls to 140, then rises to 180. What is its maximum drawdown so far?</p><details><summary>Show answer</summary><p>−30%, from the peak of 200 to the low of 140. It is still underwater, because 180 is below 200.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The fall from a peak: the loss you have to sit through.",
+   "links": [
+    "asset-allocation",
+    "leverage",
+    "market-regimes",
+    "position-sizing",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is A drawdown is the fall from a previous peak to a later low, measured as a percentage of the peak. The maximum drawdown is the worst such fall over a period. It answers the question most investors actually care about: how bad did it get? Why it matters Drawdowns are what make people abandon their plans. A portfolio that falls by half tests anyone's nerve, and anyone who sells near the bottom turns a temporary fall into a permanent loss. Knowing the likely depth of a drawdown in advance is how you choose a mix you can hold. Large drawdowns are also hard to recover from: a 50% fall needs a 100% gain to get back. See position sizing. How it works Fictional example of a portfolio's value at the end of each year: Year Value Peak so far Drawdown 0 100 100 0% 1 120 120 0% 2 90 120 −25% 3 110 120 −8.3% 4 130 130 0% The maximum drawdown is −25% , from 120 to 90. The portfolio was underwater , below its previous peak, for three years, until it passed 120. A real one. The S&P 500 fell about 57% from its October 2007 closing high to its March 2009 low, and didn't close above that 2007 high again until March 2013, five and a half years later (before dividends). What goes wrong History understates the future. The worst drawdown so far is not the worst possible. A short record may not include a real crisis. Time matters as much as depth. Years spent underwater can be harder to bear than a quick, deep fall. Measured at the wrong frequency. Year end values can hide a much deeper fall within the year. Leverage turns drawdowns into margin calls and forced sales, so the loss becomes permanent. See leverage. Key rule: before you invest, ask how big a fall you could sit through without selling, and choose a mix whose history suggests something smaller. Connects to volatility — the everyday swings, where drawdown is the worst stretch. asset allocation — the main lever for controlling drawdowns. market regimes — when the deepest drawdowns tend to happen. Check yourself Q: A fund rises from 100 to 200, falls to 140, then rises to 180. What is its maximum drawdown so far? A: −30%, from the peak of 200 to the low of 140. It is still underwater, because 180 is below 200.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2032,9 +2046,11 @@ window.MUDMAP = {
    "backlinks": [
     "bitcoin",
     "equities",
+    "measure",
     "portfolio",
     "position-sizing",
-    "risk-and-return"
+    "risk-and-return",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -3104,7 +3120,9 @@ window.MUDMAP = {
     "foundation",
     "inflation-linked-bonds",
     "market-regimes",
+    "measure",
     "real-assets",
+    "returns",
     "t-bills",
     "time-value-of-money",
     "what-is-money"
@@ -3271,12 +3289,16 @@ window.MUDMAP = {
    "backlinks": [
     "commodities",
     "defi",
+    "drawdown",
     "portfolio",
     "position-sizing",
     "private-business",
-    "real-estate"
+    "real-estate",
+    "sharpe-ratio"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "sharpe-ratio"
+   ]
   },
   "liquidity": {
    "id": "liquidity",
@@ -3398,6 +3420,7 @@ window.MUDMAP = {
     "capital-system",
     "correlation",
     "digital-assets",
+    "drawdown",
     "liquidity",
     "money",
     "portfolio"
@@ -3473,12 +3496,22 @@ window.MUDMAP = {
    ],
    "branch": "measure",
    "adv": false,
-   "html": "<p>How results and risk are measured: returns, drawdown, volatility.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How results and risk are measured: returns, drawdown, volatility.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Measure</strong> is the branch about keeping score: how much an investment actually made, how bumpy the ride was, and how far it fell along the way. Without measurement, a lucky year looks like skill and a risky strategy looks safe until the day it isn't.</p>\n<h2>Why it exists</h2>\n<p>Two investments that both end up 50% higher can be very different things to own. One rose steadily; the other halved, then tripled. A single return number hides that. Measures of risk exist so you can compare results fairly and, more importantly, know in advance what you might have to sit through.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — what you made: total return, after inflation, and per year.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the fall from a peak, and how long it takes to recover.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — how widely returns swing around their average.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Measure</th>\n<th>Question it answers</th>\n<th>Good for</th>\n<th>Blind spot</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Return</strong></td>\n<td>How much did it make?</td>\n<td>Comparing outcomes</td>\n<td>Says nothing about the ride</td>\n</tr>\n<tr>\n<td><strong>Drawdown</strong></td>\n<td>How far did it fall?</td>\n<td>Knowing what you must sit through</td>\n<td>One bad stretch, not the everyday swings</td>\n</tr>\n<tr>\n<td><strong>Volatility</strong></td>\n<td>How bumpy is it?</td>\n<td>Comparing risk, sizing positions</td>\n<td>Treats gains and losses alike; misses rare crashes</td>\n</tr>\n</tbody>\n</table></div>\n<p>Every measure depends on the <strong>period</strong> it covers. A fund's five-year record that starts at a market low will look far better than one starting at a peak.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Short records.</strong> A few good years prove little. Many strategies look brilliant until the first bad year.</li>\n<li><strong>Cherry-picked periods.</strong> Start and end dates can make almost anything look good.</li>\n<li><strong>Ignoring costs and inflation.</strong> A return before fees, tax and inflation can be far from what you keep. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>Trusting volatility as the whole story.</strong> Some strategies earn small, steady gains and then lose heavily all at once. Their volatility looks low right up to the loss.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> always ask for three numbers together: return after costs and inflation, the worst drawdown, and the period they cover.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — what these measures put numbers on.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — why annualised returns use geometric, not simple, averages.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> and <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — where the measures are used.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Fund A returned 8% a year with a worst fall of 15%. Fund B returned 9% a year with a worst fall of 50%. Which is better?</p><details><summary>Show answer</summary><p>It depends on whether you could hold B through a 50% fall without selling. Many people couldn't, and would lock in the loss. A slightly lower return with much smaller falls is often the better fund to actually own.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does the start date of a track record matter so much?</p><details><summary>Show answer</summary><p>Because returns over any period depend heavily on where it begins and ends. A record that starts just after a crash includes the whole recovery, which flatters the result.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — return per unit of volatility, used to compare strategies with different levels of risk.</li>\n<li><strong>Downside measures.</strong> The Sortino ratio counts only the bad swings, and value at risk (VaR) estimates a loss that should be exceeded only rarely. Both try to fix volatility's habit of treating gains as risk.</li>\n</ul></section>",
+   "links": [
+    "compounding",
+    "diversification",
+    "drawdown",
+    "inflation",
+    "position-sizing",
+    "returns",
+    "risk-and-return",
+    "sharpe-ratio",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Measure is the branch about keeping score: how much an investment actually made, how bumpy the ride was, and how far it fell along the way. Without measurement, a lucky year looks like skill and a risky strategy looks safe until the day it isn't. Why it exists Two investments that both end up 50% higher can be very different things to own. One rose steadily; the other halved, then tripled. A single return number hides that. Measures of risk exist so you can compare results fairly and, more importantly, know in advance what you might have to sit through. How it works returns — what you made: total return, after inflation, and per year. drawdown — the fall from a peak, and how long it takes to recover. volatility — how widely returns swing around their average. Measure Question it answers Good for Blind spot Return How much did it make? Comparing outcomes Says nothing about the ride Drawdown How far did it fall? Knowing what you must sit through One bad stretch, not the everyday swings Volatility How bumpy is it? Comparing risk, sizing positions Treats gains and losses alike; misses rare crashes Every measure depends on the period it covers. A fund's five year record that starts at a market low will look far better than one starting at a peak. What goes wrong Short records. A few good years prove little. Many strategies look brilliant until the first bad year. Cherry picked periods. Start and end dates can make almost anything look good. Ignoring costs and inflation. A return before fees, tax and inflation can be far from what you keep. See inflation. Trusting volatility as the whole story. Some strategies earn small, steady gains and then lose heavily all at once. Their volatility looks low right up to the loss. Key rule: always ask for three numbers together: return after costs and inflation, the worst drawdown, and the period they cover. Connects to risk and return — what these measures put numbers on. compounding — why annualised returns use geometric, not simple, averages. position sizing and diversification — where the measures are used. Check yourself Q: Fund A returned 8% a year with a worst fall of 15%. Fund B returned 9% a year with a worst fall of 50%. Which is better? A: It depends on whether you could hold B through a 50% fall without selling. Many people couldn't, and would lock in the loss. A slightly lower return with much smaller falls is often the better fund to actually own. Q: Why does the start date of a track record matter so much? A: Because returns over any period depend heavily on where it begins and ends. A record that starts just after a crash includes the whole recovery, which flatters the result.",
+   "textDeep": "Going deeper sharpe ratio — return per unit of volatility, used to compare strategies with different levels of risk. Downside measures. The Sortino ratio counts only the bad swings, and value at risk (VaR) estimates a loss that should be exceeded only rarely. Both try to fix volatility's habit of treating gains as risk.",
    "children": [
     "returns",
     "drawdown",
@@ -3488,7 +3521,9 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "returns",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -3976,6 +4011,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "drawdown",
+    "measure",
     "memecoins",
     "portfolio",
     "rebalancing",
@@ -4356,11 +4393,17 @@ window.MUDMAP = {
    ],
    "branch": "measure",
    "adv": false,
-   "html": "<p>Nominal, real and annualised: measuring what you actually made.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>return</strong> is how much an investment gained or lost over a period, as a percentage of what you started with. There are several versions, and mixing them up is one of the commonest mistakes in finance.</p>\n<h2>Why it matters</h2>\n<p>\"It returned 10%\" can mean very different things: before or after inflation, with or without dividends, over one year or ten. Comparing investments only works when the returns measure the same thing.</p>\n<h2>How it works</h2>\n<p><strong>Total return</strong> counts income as well as price. Fictional example: you buy a share at 100, it pays a dividend of 3, and the price ends the year at 107. Total return = (107 − 100 + 3) ÷ 100 = <strong>10%</strong>.</p>\n<p><strong>Real return</strong> removes inflation. If the nominal return is 10% and prices rose 4%, the real return is 1.10 ÷ 1.04 − 1 = <strong>5.77%</strong>. Simply subtracting (10 − 4 = 6%) is close, but the gap grows when inflation is high. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</p>\n<p><strong>Annualised return</strong> turns a multi-year result into a yearly rate. A gain of 50% over four years is not 12.5% a year; it is 1.50^(1/4) − 1 = <strong>10.67%</strong> a year, because each year's gain compounds on the last. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</p>\n<p><strong>Averages mislead.</strong> An investment that rises 50% one year and falls 50% the next has an average return of 0%, but 100 becomes 150 and then 75: a loss of <strong>25%</strong>. Its annualised return is <strong>−13.40%</strong> a year.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Year</th>\n<th>Return</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Start</td>\n<td></td>\n<td>100</td>\n</tr>\n<tr>\n<td>1</td>\n<td>+50%</td>\n<td>150</td>\n</tr>\n<tr>\n<td>2</td>\n<td>−50%</td>\n<td>75</td>\n</tr>\n</tbody>\n</table></div>\n<p>Volatility drags the compound return below the simple average. The bigger the swings, the bigger the drag.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Price-only figures</strong> that leave out dividends understate shares' returns over long periods.</li>\n<li><strong>Nominal figures</strong> in times of high inflation make poor results look good.</li>\n<li><strong>Simple averages</strong> of yearly returns overstate what an investor actually earned.</li>\n<li><strong>The investor's own timing.</strong> Money added after a good run and withdrawn after a fall can leave investors with less than the fund's published return.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> compare total, real, annualised returns over the same period, after costs.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the branch this sits in.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the same maths in reverse.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — what causes the gap between average and compound returns.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An investment doubles over ten years. Is that a 10% annual return?</p><details><summary>Show answer</summary><p>No. It is about 7.18% a year: 2^(1/10) − 1. A steady 10% a year for ten years would turn 100 into about 259.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Nominal, real and annualised: measuring what you actually made.",
+   "links": [
+    "compounding",
+    "inflation",
+    "measure",
+    "time-value-of-money",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is A return is how much an investment gained or lost over a period, as a percentage of what you started with. There are several versions, and mixing them up is one of the commonest mistakes in finance. Why it matters \"It returned 10%\" can mean very different things: before or after inflation, with or without dividends, over one year or ten. Comparing investments only works when the returns measure the same thing. How it works Total return counts income as well as price. Fictional example: you buy a share at 100, it pays a dividend of 3, and the price ends the year at 107. Total return = (107 − 100 + 3) ÷ 100 = 10% . Real return removes inflation. If the nominal return is 10% and prices rose 4%, the real return is 1.10 ÷ 1.04 − 1 = 5.77% . Simply subtracting (10 − 4 = 6%) is close, but the gap grows when inflation is high. See inflation. Annualised return turns a multi year result into a yearly rate. A gain of 50% over four years is not 12.5% a year; it is 1.50^(1/4) − 1 = 10.67% a year, because each year's gain compounds on the last. See compounding. Averages mislead. An investment that rises 50% one year and falls 50% the next has an average return of 0%, but 100 becomes 150 and then 75: a loss of 25% . Its annualised return is −13.40% a year. Year Return Value Start 100 1 +50% 150 2 −50% 75 Volatility drags the compound return below the simple average. The bigger the swings, the bigger the drag. What goes wrong Price only figures that leave out dividends understate shares' returns over long periods. Nominal figures in times of high inflation make poor results look good. Simple averages of yearly returns overstate what an investor actually earned. The investor's own timing. Money added after a good run and withdrawn after a fall can leave investors with less than the fund's published return. Key rule: compare total, real, annualised returns over the same period, after costs. Connects to measure — the branch this sits in. time value of money — the same maths in reverse. volatility — what causes the gap between average and compound returns. Check yourself Q: An investment doubles over ten years. Is that a 10% annual return? A: No. It is about 7.18% a year: 2^(1/10) − 1. A steady 10% a year for ten years would turn 100 into about 259.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4373,7 +4416,9 @@ window.MUDMAP = {
    "backlinks": [
     "compounding",
     "foundation",
-    "indices"
+    "indices",
+    "measure",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -4433,11 +4478,15 @@ window.MUDMAP = {
     "compounding",
     "equities",
     "foundation",
+    "measure",
     "personal-capital",
     "portfolio",
+    "sharpe-ratio",
     "time-value-of-money"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "sharpe-ratio"
+   ]
   },
   "self-custody": {
    "id": "self-custody",
@@ -4631,7 +4680,10 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "William F. Sharpe, Mutual Fund Performance (1966)",
+    "William F. Sharpe, The Sharpe Ratio (1994)"
+   ],
    "level": "advanced",
    "group": "",
    "tier": "",
@@ -4647,11 +4699,16 @@ window.MUDMAP = {
    ],
    "branch": "measure",
    "adv": true,
-   "html": "<p>Return per unit of risk.</p>",
+   "html": "<h2>What it is</h2>\n<p>The <strong>Sharpe ratio</strong> measures return per unit of risk. It takes the return an investment earned above a risk-free rate, usually short-term government bills, and divides it by its volatility:</p>\n<blockquote>\n<p><strong>Sharpe ratio = (return − risk-free rate) ÷ volatility</strong></p>\n</blockquote>\n<p>The economist William Sharpe introduced it in 1966 as the \"reward-to-variability ratio\".</p>\n<h2>Why it matters</h2>\n<p>A higher return isn't better if it came from taking far more risk. The Sharpe ratio puts strategies with different levels of risk on the same scale, so you can see which one paid better for the risk it took.</p>\n<h2>How it works</h2>\n<p>Fictional example, with a risk-free rate of 4%:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Return</th>\n<th>Volatility</th>\n<th>Sharpe ratio</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Portfolio A</td>\n<td>9%</td>\n<td>10%</td>\n<td>0.50</td>\n</tr>\n<tr>\n<td>Portfolio B</td>\n<td>12%</td>\n<td>20%</td>\n<td>0.40</td>\n</tr>\n</tbody>\n</table></div>\n<p>B made more money, but A earned more for each unit of risk. In theory, an investor could borrow to double A's exposure (taking it to 20% volatility, like B) and earn about 4% + 2 × 5% = <strong>14%</strong>, more than B, before the cost of borrowing above the risk-free rate.</p>\n<p><strong>Rough scale:</strong> for a broad share market over long periods, the ratio has typically been well below 1. Figures far above that, sustained for years, deserve scrutiny.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>It inherits volatility's blind spots.</strong> Strategies that earn small steady gains and then lose heavily (selling insurance against crashes, for example) can show a high Sharpe ratio until the crash arrives.</li>\n<li><strong>Smoothed prices flatter it.</strong> Assets valued rarely look less volatile, so their ratio looks better than it is.</li>\n<li><strong>It depends on the period.</strong> A ratio from a calm bull market says little about a crisis.</li>\n<li><strong>Leverage isn't free.</strong> The \"borrow to scale up\" argument assumes you can borrow cheaply and won't be forced to sell. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> use the Sharpe ratio to compare, then check the worst drawdown. A high ratio with a hidden crash risk is not a good deal.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the denominator.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — the usual risk-free rate.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off it measures.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund returned 7% with 6% volatility while the risk-free rate was 4%. What is its Sharpe ratio?</p><details><summary>Show answer</summary><p>(7 − 4) ÷ 6 = 0.50.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Return per unit of risk.",
+   "links": [
+    "leverage",
+    "risk-and-return",
+    "t-bills",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is The Sharpe ratio measures return per unit of risk. It takes the return an investment earned above a risk free rate, usually short term government bills, and divides it by its volatility: Sharpe ratio = (return − risk free rate) ÷ volatility The economist William Sharpe introduced it in 1966 as the \"reward to variability ratio\". Why it matters A higher return isn't better if it came from taking far more risk. The Sharpe ratio puts strategies with different levels of risk on the same scale, so you can see which one paid better for the risk it took. How it works Fictional example, with a risk free rate of 4%: Return Volatility Sharpe ratio Portfolio A 9% 10% 0.50 Portfolio B 12% 20% 0.40 B made more money, but A earned more for each unit of risk. In theory, an investor could borrow to double A's exposure (taking it to 20% volatility, like B) and earn about 4% + 2 × 5% = 14% , more than B, before the cost of borrowing above the risk free rate. Rough scale: for a broad share market over long periods, the ratio has typically been well below 1. Figures far above that, sustained for years, deserve scrutiny. What goes wrong It inherits volatility's blind spots. Strategies that earn small steady gains and then lose heavily (selling insurance against crashes, for example) can show a high Sharpe ratio until the crash arrives. Smoothed prices flatter it. Assets valued rarely look less volatile, so their ratio looks better than it is. It depends on the period. A ratio from a calm bull market says little about a crisis. Leverage isn't free. The \"borrow to scale up\" argument assumes you can borrow cheaply and won't be forced to sell. See leverage. Key rule: use the Sharpe ratio to compare, then check the worst drawdown. A high ratio with a hidden crash risk is not a good deal. Connects to volatility — the denominator. t bills — the usual risk free rate. risk and return — the trade off it measures. Check yourself Q: A fund returned 7% with 6% volatility while the risk free rate was 4%. What is its Sharpe ratio? A: (7 − 4) ÷ 6 = 0.50.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4662,9 +4719,13 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "portfolio"
+    "measure",
+    "portfolio",
+    "volatility"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "measure"
+   ]
   },
   "smart-contract-platforms": {
    "id": "smart-contract-platforms",
@@ -4909,10 +4970,13 @@ window.MUDMAP = {
     "liquidity",
     "money",
     "risk-and-return",
+    "sharpe-ratio",
     "stablecoins",
     "time-value-of-money"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "sharpe-ratio"
+   ]
   },
   "tax": {
    "id": "tax",
@@ -5016,6 +5080,7 @@ window.MUDMAP = {
     "human-capital",
     "inflation",
     "personal-capital",
+    "returns",
     "risk-and-return",
     "valuation"
    ],
@@ -5161,11 +5226,18 @@ window.MUDMAP = {
    ],
    "branch": "measure",
    "adv": false,
-   "html": "<p>How widely prices swing.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Volatility</strong> measures how widely an investment's returns swing around their average. It is usually given as the <strong>standard deviation</strong> of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more.</p>\n<h2>Why it matters</h2>\n<p>Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and the <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</p>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> five yearly returns of 10%, −5%, 15%, 0% and 5%.</p>\n<ul>\n<li>The average is <strong>5%</strong>.</li>\n<li>Each year's distance from the average: +5, −10, +10, −5 and 0.</li>\n<li>Square them, add them up (250), divide by one less than the number of years (4) and take the square root: <strong>7.91%</strong>.</li>\n</ul>\n<p><strong>Reading it.</strong> If returns were roughly bell-shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%.</p>\n<p><strong>Scaling it.</strong> Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = <strong>15.87%</strong> a year, using about 252 trading days.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Returns aren't bell-shaped.</strong> Real markets have more extreme days than the bell curve predicts, the so-called <strong>fat tails</strong>. Crashes happen more often than volatility alone suggests.</li>\n<li><strong>Gains count as risk too.</strong> Volatility treats a sharp rise the same as a sharp fall.</li>\n<li><strong>Smooth isn't safe.</strong> Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall.</li>\n<li><strong>It changes.</strong> Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> use volatility to compare and size, but never as the whole of risk. Check the drawdowns too.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the worst stretch, where volatility is the everyday swing.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the other input to a portfolio's volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the branch this sits in.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time?</p><details><summary>Show answer</summary><p>Fund B. Bigger swings drag the compound return further below the average return. See <a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a>.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How widely prices swing.",
+   "links": [
+    "correlation",
+    "diversification",
+    "drawdown",
+    "measure",
+    "returns",
+    "sharpe-ratio"
+   ],
+   "stub": false,
+   "text": "What it is Volatility measures how widely an investment's returns swing around their average. It is usually given as the standard deviation of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more. Why it matters Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as diversification and the sharpe ratio. How it works Fictional example: five yearly returns of 10%, −5%, 15%, 0% and 5%. The average is 5% . Each year's distance from the average: +5, −10, +10, −5 and 0. Square them, add them up (250), divide by one less than the number of years (4) and take the square root: 7.91% . Reading it. If returns were roughly bell shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%. Scaling it. Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = 15.87% a year, using about 252 trading days. What goes wrong Returns aren't bell shaped. Real markets have more extreme days than the bell curve predicts, the so called fat tails . Crashes happen more often than volatility alone suggests. Gains count as risk too. Volatility treats a sharp rise the same as a sharp fall. Smooth isn't safe. Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall. It changes. Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date. Key rule: use volatility to compare and size, but never as the whole of risk. Check the drawdowns too. Connects to drawdown — the worst stretch, where volatility is the everyday swing. correlation — the other input to a portfolio's volatility. measure — the branch this sits in. Check yourself Q: Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time? A: Fund B. Bigger swings drag the compound return further below the average return. See returns.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -5177,12 +5249,18 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "correlation",
+    "drawdown",
     "foundation",
+    "measure",
     "portfolio",
     "position-sizing",
-    "risk-and-return"
+    "returns",
+    "risk-and-return",
+    "sharpe-ratio"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "sharpe-ratio"
+   ]
   },
   "what-is-money": {
    "id": "what-is-money",
@@ -6490,5 +6568,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 12:26 UTC"
+ "built": "2026-10-25 12:53 UTC"
 };
