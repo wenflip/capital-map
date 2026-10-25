@@ -577,6 +577,7 @@ window.MUDMAP = {
     "duration",
     "fixed-income",
     "reits",
+    "valuation",
     "yield-curve"
    ],
    "backlinksAdv": [
@@ -649,6 +650,7 @@ window.MUDMAP = {
     "central-bank-money",
     "claims-and-liabilities",
     "credit-risk",
+    "equities",
     "fixed-income",
     "foundation",
     "hierarchy-of-money",
@@ -748,7 +750,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "custodial-crypto"
+    "custodial-crypto",
+    "equities",
+    "shares"
    ],
    "backlinksAdv": []
   },
@@ -883,6 +887,7 @@ window.MUDMAP = {
     "collectibles",
     "credit-risk",
     "digital-assets",
+    "equities",
     "fixed-income",
     "foundation",
     "gold",
@@ -891,10 +896,12 @@ window.MUDMAP = {
     "inflation",
     "money",
     "personal-capital",
+    "private-business",
     "real-assets",
     "real-estate",
     "reits",
     "risk-and-return",
+    "shares",
     "social-capital",
     "wrapped-tokens"
    ],
@@ -1147,11 +1154,15 @@ window.MUDMAP = {
     "credit-risk",
     "custodial-crypto",
     "digital-assets",
+    "equities",
+    "financial-statements",
     "foundation",
+    "funds-and-etfs",
     "hierarchy-of-money",
     "money",
     "real-assets",
     "reits",
+    "shares",
     "what-is-money"
    ],
    "backlinksAdv": []
@@ -1351,6 +1362,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "foundation",
+    "funds-and-etfs",
     "inflation",
     "personal-capital",
     "time-value-of-money"
@@ -1526,6 +1538,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bonds",
+    "financial-statements",
     "fixed-income",
     "real-estate"
    ],
@@ -1636,7 +1649,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "custodial-crypto"
+    "custodial-crypto",
+    "shares"
    ],
    "backlinksAdv": []
   },
@@ -1933,8 +1947,11 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "cartography-of-wealth",
+    "equities",
     "foundation",
+    "funds-and-etfs",
     "human-capital",
+    "indices",
     "personal-capital",
     "real-assets",
     "risk-and-return"
@@ -1978,6 +1995,7 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "bitcoin",
+    "equities",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -2047,7 +2065,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "S&P 500 closing levels, 9 October 2007 and 9 March 2009"
+   ],
    "level": "basic",
    "group": "What you can own",
    "tier": "",
@@ -2062,23 +2082,41 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>Owning a share of a business: listed shares, indices, funds and private stakes.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Owning a share of a business: listed shares, indices, funds and private stakes.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Equities</strong> are ownership stakes in businesses. A bondholder lends to a company and is promised fixed payments; a shareholder owns part of it and gets whatever is left after everyone else has been paid. That leftover is called the <strong>residual claim</strong>: unlimited on the way up, and possibly nothing on the way down.</p>\n<h2>Why it exists</h2>\n<p>Companies need money that doesn't have to be paid back on a set date. Selling ownership gives them that: shareholders share in the profits instead of being owed interest. Savers, in return, get a way to own a part of the economy's growth, not just lend to it.</p>\n<p>Over long periods, shares have usually returned more than bonds or cash. That extra return is the reward for taking the residual claim: being paid last, and living with large falls along the way.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what owning one share means: votes, dividends, and where you stand if the company fails.</li>\n<li><a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> — baskets that track a market, and how their weighting changes what they measure.</li>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — pooled ways to own many shares at once, and why fees matter so much.</li>\n<li><a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a> — the three reports that show what a company earns, owns and owes.</li>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — turning those reports into an estimate of what a share is worth.</li>\n<li><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a> — owning a company that isn't listed: your own firm or a private stake.</li>\n</ul>\n<p>A share's <strong>total return</strong> has two parts: <strong>dividends</strong> (cash paid out of profits) and the <strong>change in price</strong>. Companies can also return cash by <strong>buying back</strong> their own shares, which leaves each remaining share a bigger slice.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Listed shares</th>\n<th>Private business</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Price</strong></td>\n<td>Set by trading every day</td>\n<td>Estimated now and then</td>\n</tr>\n<tr>\n<td><strong>Selling</strong></td>\n<td>Seconds, through a broker</td>\n<td>Months, by finding a buyer</td>\n</tr>\n<tr>\n<td><strong>Information</strong></td>\n<td>Public reports by law</td>\n<td>Whatever the owners share</td>\n</tr>\n<tr>\n<td><strong>Control</strong></td>\n<td>Usually none for small holders</td>\n<td>Often direct</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Company failure.</strong> A shareholder is last in line, so a bankrupt company's shares are often worth nothing. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>Market crashes.</strong> The S&amp;P 500 fell about 57% between its October 2007 peak and its March 2009 low. Diversification across companies doesn't help when the whole market falls together. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</li>\n<li><strong>Paying too much.</strong> A good company can be a poor investment if the price already assumes years of perfect growth. See <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a>.</li>\n<li><strong>Holding through someone else.</strong> Listed shares are held through a broker, the killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: you own a ledger entry, not a certificate in a drawer.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> shares pay for being last in line. Hold them for long periods, across many companies, and never with money you will need during a crash.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — why the residual claim earns more over time.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the creditors who are paid before shareholders.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — why owning one company is very different from owning a market.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> and <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — how shares are traded and held.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company fails. Its bondholders recover 40% of what they are owed. What do its shareholders usually get?</p><details><summary>Show answer</summary><p>Usually nothing. Shareholders are paid only after every creditor, including bondholders, has been paid in full.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why have shares usually returned more than bonds over long periods?</p><details><summary>Show answer</summary><p>Because shareholders take more risk: they are paid last, have no promised payments, and can suffer large falls. The higher average return is what persuades people to take that risk.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>The equity risk premium.</strong> The extra return investors expect from shares over safe government bonds. It can't be observed directly; estimates differ depending on the period and method, and it varies over time.</li>\n<li><strong>Share classes.</strong> Some companies issue shares with different voting rights, so founders can keep control while selling most of the economic ownership.</li>\n</ul></section>",
+   "links": [
+    "bonds",
+    "brokers",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "diversification",
+    "drawdown",
+    "exchanges",
+    "financial-statements",
+    "funds-and-etfs",
+    "indices",
+    "private-business",
+    "risk-and-return",
+    "shares",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is Equities are ownership stakes in businesses. A bondholder lends to a company and is promised fixed payments; a shareholder owns part of it and gets whatever is left after everyone else has been paid. That leftover is called the residual claim : unlimited on the way up, and possibly nothing on the way down. Why it exists Companies need money that doesn't have to be paid back on a set date. Selling ownership gives them that: shareholders share in the profits instead of being owed interest. Savers, in return, get a way to own a part of the economy's growth, not just lend to it. Over long periods, shares have usually returned more than bonds or cash. That extra return is the reward for taking the residual claim: being paid last, and living with large falls along the way. How it works shares — what owning one share means: votes, dividends, and where you stand if the company fails. indices — baskets that track a market, and how their weighting changes what they measure. funds and etfs — pooled ways to own many shares at once, and why fees matter so much. financial statements — the three reports that show what a company earns, owns and owes. valuation — turning those reports into an estimate of what a share is worth. private business — owning a company that isn't listed: your own firm or a private stake. A share's total return has two parts: dividends (cash paid out of profits) and the change in price . Companies can also return cash by buying back their own shares, which leaves each remaining share a bigger slice. Listed shares Private business Price Set by trading every day Estimated now and then Selling Seconds, through a broker Months, by finding a buyer Information Public reports by law Whatever the owners share Control Usually none for small holders Often direct What goes wrong Company failure. A shareholder is last in line, so a bankrupt company's shares are often worth nothing. See claims and liabilities. Market crashes. The S&P 500 fell about 57% between its October 2007 peak and its March 2009 low. Diversification across companies doesn't help when the whole market falls together. See drawdown. Paying too much. A good company can be a poor investment if the price already assumes years of perfect growth. See valuation. Holding through someone else. Listed shares are held through a broker, the killer on the Cartography of Wealth: you own a ledger entry, not a certificate in a drawer. Key rule: shares pay for being last in line. Hold them for long periods, across many companies, and never with money you will need during a crash. Connects to risk and return — why the residual claim earns more over time. bonds — the creditors who are paid before shareholders. diversification — why owning one company is very different from owning a market. exchanges and brokers — how shares are traded and held. Check yourself Q: A company fails. Its bondholders recover 40% of what they are owed. What do its shareholders usually get? A: Usually nothing. Shareholders are paid only after every creditor, including bondholders, has been paid in full. Q: Why have shares usually returned more than bonds over long periods? A: Because shareholders take more risk: they are paid last, have no promised payments, and can suffer large falls. The higher average return is what persuades people to take that risk.",
+   "textDeep": "Going deeper The equity risk premium. The extra return investors expect from shares over safe government bonds. It can't be observed directly; estimates differ depending on the period and method, and it varies over time. Share classes. Some companies issue shares with different voting rights, so founders can keep control while selling most of the economic ownership.",
    "children": [
     "shares",
     "indices",
     "funds-and-etfs",
+    "financial-statements",
     "valuation",
     "private-business"
    ],
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "private-business",
+    "shares"
    ],
    "backlinksAdv": []
   },
@@ -2183,7 +2221,66 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "equities",
+    "shares"
+   ],
+   "backlinksAdv": []
+  },
+  "financial-statements": {
+   "id": "financial-statements",
+   "title": "Financial Statements",
+   "short": "Statements",
+   "parent": "equities",
+   "order": 4.0,
+   "summary": "The three reports that show what a company earns, owns and owes, and where its cash went.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "equities",
+    "accounting",
+    "income statement",
+    "balance sheet",
+    "cash flow"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "equities",
+    "financial-statements"
+   ],
+   "branch": "equities",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Financial statements</strong> are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent <strong>auditor</strong>. There are three, and each answers a different question:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Statement</th>\n<th>Question it answers</th>\n<th>Covers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Income statement</strong></td>\n<td>Did it make a profit?</td>\n<td>A period, such as a year</td>\n</tr>\n<tr>\n<td><strong>Balance sheet</strong></td>\n<td>What does it own and owe?</td>\n<td>One date</td>\n</tr>\n<tr>\n<td><strong>Cash flow statement</strong></td>\n<td>Where did the cash actually go?</td>\n<td>A period</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it exists</h2>\n<p>Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a>.</p>\n<h2>How it works</h2>\n<p><strong>One fictional company, three views.</strong></p>\n<p><strong>Income statement (the year):</strong> revenue 500,000, minus the cost of the goods sold 300,000, gives <strong>gross profit</strong> of 200,000. Minus running costs of 120,000 gives <strong>operating profit</strong> of 80,000. Minus interest of 10,000 and tax of 14,000 leaves <strong>net profit</strong> of 56,000, a net margin of 11.2%.</p>\n<p><strong>Balance sheet (year end):</strong> the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' <strong>equity</strong> is 150,000. A balance sheet always balances:</p>\n<blockquote>\n<p><strong>Assets = Liabilities + Equity</strong></p>\n</blockquote>\n<p>The same split appears in <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>: creditors first, owners take what's left. Its short-term assets of 120,000 cover short-term debts of 80,000 by 1.5 times (the <strong>current ratio</strong>).</p>\n<p><strong>Cash flow statement (the year):</strong> the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is <strong>−4,000</strong>. Profitable on paper, short of cash in the bank.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Amount</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Net profit</td>\n<td>56,000</td>\n</tr>\n<tr>\n<td>Add depreciation</td>\n<td>+10,000</td>\n</tr>\n<tr>\n<td>More stock held</td>\n<td>−40,000</td>\n</tr>\n<tr>\n<td>More owed by customers</td>\n<td>−30,000</td>\n</tr>\n<tr>\n<td><strong>Cash from operations</strong></td>\n<td><strong>−4,000</strong></td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Profit isn't cash.</strong> Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money.</li>\n<li><strong>Judgment in the numbers.</strong> Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched.</li>\n<li><strong>Debt hidden in plain sight.</strong> Leases, guarantees and pension promises can be large; read the notes, not only the headline figures.</li>\n<li><strong>Fraud.</strong> Audits reduce it but can't rule it out.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> read all three together. Profit that never turns into cash is a warning sign.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — turning these numbers into a value for the shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the balance sheet from the creditors' side.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — how lenders use the same reports.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company reports a record profit, but its cash from operations is negative. Name two possible reasons.</p><details><summary>Show answer</summary><p>It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.</p></details></div>",
+   "deep": "",
+   "links": [
+    "claims-and-liabilities",
+    "credit-risk",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is Financial statements are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent auditor . There are three, and each answers a different question: Statement Question it answers Covers Income statement Did it make a profit? A period, such as a year Balance sheet What does it own and owe? One date Cash flow statement Where did the cash actually go? A period Why it exists Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of valuation. How it works One fictional company, three views. Income statement (the year): revenue 500,000, minus the cost of the goods sold 300,000, gives gross profit of 200,000. Minus running costs of 120,000 gives operating profit of 80,000. Minus interest of 10,000 and tax of 14,000 leaves net profit of 56,000, a net margin of 11.2%. Balance sheet (year end): the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' equity is 150,000. A balance sheet always balances: Assets = Liabilities + Equity The same split appears in claims and liabilities: creditors first, owners take what's left. Its short term assets of 120,000 cover short term debts of 80,000 by 1.5 times (the current ratio ). Cash flow statement (the year): the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is −4,000 . Profitable on paper, short of cash in the bank. Amount Net profit 56,000 Add depreciation +10,000 More stock held −40,000 More owed by customers −30,000 Cash from operations −4,000 What goes wrong Profit isn't cash. Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money. Judgment in the numbers. Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched. Debt hidden in plain sight. Leases, guarantees and pension promises can be large; read the notes, not only the headline figures. Fraud. Audits reduce it but can't rule it out. Key rule: read all three together. Profit that never turns into cash is a warning sign. Connects to valuation — turning these numbers into a value for the shares. claims and liabilities — the balance sheet from the creditors' side. credit risk — how lenders use the same reports. Check yourself Q: A company reports a record profit, but its cash from operations is negative. Name two possible reasons. A: It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FSA — Financial Statement Analysis"
+    }
+   ],
+   "backlinks": [
+    "equities",
+    "valuation"
+   ],
    "backlinksAdv": []
   },
   "fixed-income": {
@@ -2383,7 +2480,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "S&P Dow Jones Indices, SPIVA U.S. Year-End 2024"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -2399,11 +2498,18 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>Pooled vehicles that hold many assets in one ticket.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>fund</strong> pools money from many investors and buys a portfolio of shares, bonds or other assets. Each investor owns units of the fund, so one purchase gives you a slice of everything it holds.</p>\n<ul>\n<li>A traditional <strong>mutual fund</strong> (in some countries a <strong>unit trust</strong> or <strong>OEIC</strong>) is bought from and sold back to the fund company, once a day, at the fund's <strong>net asset value</strong> (NAV): the value of its holdings divided by its units.</li>\n<li>An <strong>ETF</strong> (exchange-traded fund) trades on a stock exchange like a share, at prices that change through the day.</li>\n</ul>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Diversification in one step.</strong> Buying hundreds of companies one by one would be expensive and slow.</li>\n<li><strong>Small amounts.</strong> You can own a global portfolio with a modest sum.</li>\n<li><strong>Choice of approach:</strong><ul>\n<li><strong>Index funds</strong> copy an <a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">index</a> and charge low fees.</li>\n<li><strong>Active funds</strong> pay a manager to pick investments and try to beat the index, for higher fees.</li>\n</ul>\n</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>How an ETF's price stays close to its holdings.</strong> Large dealers called <strong>authorised participants</strong> can create new ETF units by delivering the underlying shares to the fund, or redeem units for the shares. If the ETF's price drifts above its NAV, they create units and sell them; if it falls below, they buy units and redeem them. That trade pulls the price back towards NAV.</p>\n<p><strong>Fees compound against you.</strong> A fund's yearly fee comes off its return every year. Fictional example: 10,000 invested for 30 years.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Yearly return after fees</th>\n<th>Value after 30 years</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>7% (a low-cost fund)</td>\n<td>76,123</td>\n</tr>\n<tr>\n<td>6% (the same fund with 1% more in fees)</td>\n<td>57,435</td>\n</tr>\n</tbody>\n</table></div>\n<p>One percentage point a year costs 18,688, about a quarter of the final value. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</p>\n<p><strong>Active against index.</strong> S&amp;P's SPIVA scorecards compare active funds with their benchmark indices. Over the 15 years to December 2024, there was no category of US equity fund in which most active managers beat their benchmark.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>High fees</strong> quietly take a large share of long-run returns.</li>\n<li><strong>Narrow or complex funds.</strong> Some ETFs hold a small niche, use borrowing, or reset daily. Their long-run returns can differ greatly from what the name suggests.</li>\n<li><strong>Thin trading.</strong> In stressed markets, a small ETF's price can move away from the value of its holdings.</li>\n<li><strong>The fund is a claim.</strong> You own units in the fund, held through a broker, not the assets directly. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> in funds, the cost is the one thing you know in advance. Start with low fees and broad holdings, and make anything else earn its extra cost.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> — what index funds copy.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what most equity funds hold.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — the main reason funds exist.</li>\n<li><a class=\"wl\" href=\"#/map/p/reits\" data-page=\"reits\">REITs</a> — a listed fund-like company that holds property.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An ETF trades at 101 while the shares it holds are worth 100 per unit. What brings the price back down?</p><details><summary>Show answer</summary><p>Authorised participants buy the underlying shares, deliver them to the fund for new ETF units, and sell those units at 101. The extra selling pushes the ETF's price back towards 100.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Pooled vehicles that hold many assets in one ticket.",
+   "links": [
+    "claims-and-liabilities",
+    "compounding",
+    "diversification",
+    "indices",
+    "reits",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What it is A fund pools money from many investors and buys a portfolio of shares, bonds or other assets. Each investor owns units of the fund, so one purchase gives you a slice of everything it holds. A traditional mutual fund (in some countries a unit trust or OEIC ) is bought from and sold back to the fund company, once a day, at the fund's net asset value (NAV): the value of its holdings divided by its units. An ETF (exchange traded fund) trades on a stock exchange like a share, at prices that change through the day. Why it exists Diversification in one step. Buying hundreds of companies one by one would be expensive and slow. Small amounts. You can own a global portfolio with a modest sum. Choice of approach: Index funds copy an index and charge low fees. Active funds pay a manager to pick investments and try to beat the index, for higher fees. How it works How an ETF's price stays close to its holdings. Large dealers called authorised participants can create new ETF units by delivering the underlying shares to the fund, or redeem units for the shares. If the ETF's price drifts above its NAV, they create units and sell them; if it falls below, they buy units and redeem them. That trade pulls the price back towards NAV. Fees compound against you. A fund's yearly fee comes off its return every year. Fictional example: 10,000 invested for 30 years. Yearly return after fees Value after 30 years 7% (a low cost fund) 76,123 6% (the same fund with 1% more in fees) 57,435 One percentage point a year costs 18,688, about a quarter of the final value. See compounding. Active against index. S&P's SPIVA scorecards compare active funds with their benchmark indices. Over the 15 years to December 2024, there was no category of US equity fund in which most active managers beat their benchmark. What goes wrong High fees quietly take a large share of long run returns. Narrow or complex funds. Some ETFs hold a small niche, use borrowing, or reset daily. Their long run returns can differ greatly from what the name suggests. Thin trading. In stressed markets, a small ETF's price can move away from the value of its holdings. The fund is a claim. You own units in the fund, held through a broker, not the assets directly. See claims and liabilities. Key rule: in funds, the cost is the one thing you know in advance. Start with low fees and broad holdings, and make anything else earn its extra cost. Connects to indices — what index funds copy. shares — what most equity funds hold. diversification — the main reason funds exist. reits — a listed fund like company that holds property. Check yourself Q: An ETF trades at 101 while the shares it holds are worth 100 per unit. What brings the price back down? A: Authorised participants buy the underlying shares, deliver them to the fund for new ETF units, and sell those units at 101. The extra selling pushes the ETF's price back towards 100.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2414,7 +2520,10 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "reits"
+    "equities",
+    "indices",
+    "reits",
+    "shares"
    ],
    "backlinksAdv": []
   },
@@ -2781,6 +2890,7 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "personal-capital",
+    "private-business",
     "social-capital"
    ],
    "backlinksAdv": []
@@ -2811,11 +2921,15 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>A basket that tracks a market, such as the top companies by size.</p>",
+   "html": "<h2>What it is</h2>\n<p>An <strong>index</strong> is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&amp;P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>To measure a market</strong> in one number, the way a thermometer measures a room.</li>\n<li><strong>As a benchmark</strong> for judging whether a fund manager beat the market.</li>\n<li><strong>As a recipe</strong> for index funds, which hold the same shares in the same proportions.</li>\n</ul>\n<h2>How it works</h2>\n<p>What an index measures depends on how it <strong>weights</strong> its companies. Fictional example with three companies:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Company</th>\n<th>Share price</th>\n<th>Shares issued</th>\n<th>Market value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>100</td>\n<td>10m</td>\n<td>1,000m</td>\n</tr>\n<tr>\n<td>B</td>\n<td>50</td>\n<td>40m</td>\n<td>2,000m</td>\n</tr>\n<tr>\n<td>C</td>\n<td>20</td>\n<td>50m</td>\n<td>1,000m</td>\n</tr>\n</tbody>\n</table></div>\n<p>Now company A's share price rises 10% and nothing else changes. How much does the index rise?</p>\n<ul>\n<li><strong>Market-value weighted</strong> (most indices, such as the S&amp;P 500): A is 25% of the total, so the index rises <strong>2.50%</strong>.</li>\n<li><strong>Price weighted</strong> (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises <strong>5.88%</strong>.</li>\n<li><strong>Equal weighted:</strong> each company counts the same, so the index rises <strong>3.33%</strong>.</li>\n</ul>\n<p>Same market, same move, three different answers. The weighting decides what the index rewards.</p>\n<p>Indices are also <strong>rebalanced</strong>: companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Concentration.</strong> In a market-value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies.</li>\n<li><strong>Price vs total return.</strong> Most quoted index levels leave out dividends. A <strong>total return</strong> index adds them back, and over decades the gap is large.</li>\n<li><strong>Hidden choices.</strong> Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\".</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — how people actually invest in an index.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — what an index gives you, and where concentration takes it back.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — price return against total return.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In a market-value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m?</p><details><summary>Show answer</summary><p>The 2,000m company, ten times as much. Each company counts in proportion to its market value.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A basket that tracks a market, such as the top companies by size.",
+   "links": [
+    "diversification",
+    "funds-and-etfs",
+    "returns"
+   ],
+   "stub": false,
+   "text": "What it is An index is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See funds and etfs. Why it exists To measure a market in one number, the way a thermometer measures a room. As a benchmark for judging whether a fund manager beat the market. As a recipe for index funds, which hold the same shares in the same proportions. How it works What an index measures depends on how it weights its companies. Fictional example with three companies: Company Share price Shares issued Market value A 100 10m 1,000m B 50 40m 2,000m C 20 50m 1,000m Now company A's share price rises 10% and nothing else changes. How much does the index rise? Market value weighted (most indices, such as the S&P 500): A is 25% of the total, so the index rises 2.50% . Price weighted (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises 5.88% . Equal weighted: each company counts the same, so the index rises 3.33% . Same market, same move, three different answers. The weighting decides what the index rewards. Indices are also rebalanced : companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold. What goes wrong Concentration. In a market value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies. Price vs total return. Most quoted index levels leave out dividends. A total return index adds them back, and over decades the gap is large. Hidden choices. Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things. Key rule: an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\". Connects to funds and etfs — how people actually invest in an index. diversification — what an index gives you, and where concentration takes it back. returns — price return against total return. Check yourself Q: In a market value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m? A: The 2,000m company, ten times as much. Each company counts in proportion to its market value.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2825,7 +2939,11 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "equities",
+    "funds-and-etfs",
+    "shares"
+   ],
    "backlinksAdv": []
   },
   "inflation-linked-bonds": {
@@ -3108,6 +3226,7 @@ window.MUDMAP = {
    "backlinks": [
     "commodities",
     "defi",
+    "private-business",
     "real-estate"
    ],
    "backlinksAdv": []
@@ -3685,7 +3804,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "private-business"
    ],
    "backlinksAdv": []
   },
@@ -3826,12 +3946,14 @@ window.MUDMAP = {
    "title": "Private Business",
    "short": "",
    "parent": "equities",
-   "order": 5.0,
+   "order": 6.0,
    "summary": "Owning a company directly: your own or a private stake.",
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "US Bureau of Labor Statistics, The Economics Daily (2024): establishment survival"
+   ],
    "level": "basic",
    "group": "",
    "tier": "3",
@@ -3854,11 +3976,19 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>Owning a company directly: your own or a private stake.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>private business</strong> is a company whose shares aren't listed on a stock exchange. You might own one by:</p>\n<ul>\n<li><strong>running it yourself:</strong> a shop, a trade, a consultancy;</li>\n<li><strong>owning a family business</strong>, or a stake in a friend's;</li>\n<li><strong>investing early</strong> in a start-up as an angel investor;</li>\n<li><strong>investing through a fund:</strong> private equity buys established companies, venture capital backs young ones.</li>\n</ul>\n<h2>Why people own it</h2>\n<ul>\n<li><strong>The highest upside.</strong> A successful business can grow far beyond what you put in.</li>\n<li><strong>Control.</strong> You decide how it's run, at least if you own most of it.</li>\n<li><strong>Turning personal capital into an asset.</strong> A business is often the owner's skills and relationships packaged into something that can be sold. See <a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Valuing it.</strong> There is no daily price. Buyers usually pay a <strong>multiple of profits</strong>, then knock off a discount because the stake is hard to sell, and often another if it depends heavily on one person. Every sale is a negotiation.</p>\n<p><strong>Private equity funds</strong> typically lock investors' money up for around ten years, buy companies, often with a lot of borrowed money, try to improve them, and sell. Fees are high, commonly a yearly management fee plus a share of the profits.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Listed shares</th>\n<th>Private business</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Price</strong></td>\n<td>Every trading day</td>\n<td>At sale or appraisal</td>\n</tr>\n<tr>\n<td><strong>Selling</strong></td>\n<td>Seconds</td>\n<td>Months, if a buyer exists</td>\n</tr>\n<tr>\n<td><strong>Information</strong></td>\n<td>Public, audited</td>\n<td>What the owners choose to share</td>\n</tr>\n<tr>\n<td><strong>Spread</strong></td>\n<td>Easy across hundreds</td>\n<td>Often one company</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Concentration and management</strong>, the killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>. One bad decision, one lost customer, or one key person leaving can end it.</li>\n<li><strong>Most new businesses don't last.</strong> Of US business locations opened in March 2013, 79.6% were still operating a year later, 50.6% after five years and 34.7% after ten.</li>\n<li><strong>No exit.</strong> Owners often find there is no buyer at the price they hoped for, or that the business is worth little without them.</li>\n<li><strong>Everything in one place.</strong> An owner's income, savings and often their home (as security for a loan) can all depend on the same business.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a private business can be your best asset and your least diversified one. Build savings outside it, and make it able to run without you.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — the branch this sits in.</li>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — how buyers put a price on it.</li>\n<li><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> and <a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a> — what most small businesses are made of.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — how private equity boosts its returns, and its risks.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do buyers often pay less for a business that depends on its owner?</p><details><summary>Show answer</summary><p>Because much of its value may walk out of the door when the owner leaves. The buyer is paying for profits that might not continue without them.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Owning a company directly: your own or a private stake.",
+   "links": [
+    "cartography-of-wealth",
+    "equities",
+    "human-capital",
+    "leverage",
+    "personal-capital",
+    "social-capital",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is A private business is a company whose shares aren't listed on a stock exchange. You might own one by: running it yourself: a shop, a trade, a consultancy; owning a family business , or a stake in a friend's; investing early in a start up as an angel investor; investing through a fund: private equity buys established companies, venture capital backs young ones. Why people own it The highest upside. A successful business can grow far beyond what you put in. Control. You decide how it's run, at least if you own most of it. Turning personal capital into an asset. A business is often the owner's skills and relationships packaged into something that can be sold. See personal capital. How it works Valuing it. There is no daily price. Buyers usually pay a multiple of profits , then knock off a discount because the stake is hard to sell, and often another if it depends heavily on one person. Every sale is a negotiation. Private equity funds typically lock investors' money up for around ten years, buy companies, often with a lot of borrowed money, try to improve them, and sell. Fees are high, commonly a yearly management fee plus a share of the profits. Listed shares Private business Price Every trading day At sale or appraisal Selling Seconds Months, if a buyer exists Information Public, audited What the owners choose to share Spread Easy across hundreds Often one company What goes wrong Concentration and management , the killer on the Cartography of Wealth. One bad decision, one lost customer, or one key person leaving can end it. Most new businesses don't last. Of US business locations opened in March 2013, 79.6% were still operating a year later, 50.6% after five years and 34.7% after ten. No exit. Owners often find there is no buyer at the price they hoped for, or that the business is worth little without them. Everything in one place. An owner's income, savings and often their home (as security for a loan) can all depend on the same business. Key rule: a private business can be your best asset and your least diversified one. Build savings outside it, and make it able to run without you. Connects to equities — the branch this sits in. valuation — how buyers put a price on it. human capital and social capital — what most small businesses are made of. leverage — how private equity boosts its returns, and its risks. Check yourself Q: Why do buyers often pay less for a business that depends on its owner? A: Because much of its value may walk out of the door when the owner leaves. The buyer is paying for profits that might not continue without them.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3874,6 +4004,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "cartography-of-wealth",
+    "equities",
     "personal-capital",
     "social-capital"
    ],
@@ -4096,6 +4227,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "funds-and-etfs",
     "real-assets",
     "real-estate"
    ],
@@ -4143,7 +4275,8 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "compounding",
-    "foundation"
+    "foundation",
+    "indices"
    ],
    "backlinksAdv": []
   },
@@ -4201,6 +4334,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "compounding",
+    "equities",
     "foundation",
     "personal-capital",
     "time-value-of-money"
@@ -4308,7 +4442,9 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "shares"
+   ],
    "backlinksAdv": []
   },
   "shares": {
@@ -4321,7 +4457,10 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "SIPC, What SIPC Protects",
+    "S&P 500 closing levels, 9 October 2007 and 9 March 2009"
+   ],
    "level": "basic",
    "group": "",
    "tier": "3",
@@ -4344,11 +4483,22 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>A slice of ownership in a listed company.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>share</strong> (or <strong>stock</strong>) is one unit of ownership in a company. Owning shares in a listed company gives you:</p>\n<ul>\n<li>a claim on part of its profits, paid as <strong>dividends</strong> if the board decides to pay them;</li>\n<li>a <strong>vote</strong> on major decisions such as electing the board;</li>\n<li>the <strong>residual claim</strong>: what's left if the company is sold or wound up, after all creditors are paid.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Selling shares lets a company raise money it never has to repay. A listing on a stock exchange lets owners sell to someone else at any time, which makes people far more willing to invest in the first place.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Going public.</strong> A company first sells shares to the public in an <strong>initial public offering</strong> (IPO). After that, shares change hands between investors on <a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a>; the company isn't involved.</li>\n<li><strong>Returns.</strong> You earn from dividends and from changes in the share price. Some companies pay no dividend and reinvest everything; others buy back their own shares.</li>\n<li><strong>Holding.</strong> Today most shares are held electronically through a broker, often in the broker's name for your benefit (a <strong>nominee</strong> account). See <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> and <a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>The company fails.</strong> Shares can go to zero, because shareholders are paid last. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>The market falls.</strong> Even strong companies' shares drop in a crash. The S&amp;P 500 lost about 57% from October 2007 to March 2009.</li>\n<li><strong>The broker fails.</strong> Your shares should be held separately from the broker's own money, and many countries have a protection scheme. In the US, SIPC covers up to $500,000 per customer (including up to $250,000 of cash) if a broker fails and customer assets are missing. It does not cover a fall in share prices. This is the counterparty killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</li>\n<li><strong>Dilution.</strong> If a company issues new shares, each existing share owns a smaller slice.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a share is a residual claim held through an intermediary. Diversify across companies, and know how your broker holds your shares.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — the branch this sits in.</li>\n<li><a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> and <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — ways to own many shares at once.</li>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — what a share might be worth.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — how a trade completes after you click buy.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your broker goes bust, and separately your shares have fallen 30% in a market slump. Which of these would SIPC help with in the US?</p><details><summary>Show answer</summary><p>Only the broker failure, and only if customer assets are missing, up to the limits. SIPC doesn't protect against prices falling.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A slice of ownership in a listed company.",
+   "links": [
+    "brokers",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "custody",
+    "equities",
+    "exchanges",
+    "funds-and-etfs",
+    "indices",
+    "settlement",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is A share (or stock ) is one unit of ownership in a company. Owning shares in a listed company gives you: a claim on part of its profits, paid as dividends if the board decides to pay them; a vote on major decisions such as electing the board; the residual claim : what's left if the company is sold or wound up, after all creditors are paid. Why it exists Selling shares lets a company raise money it never has to repay. A listing on a stock exchange lets owners sell to someone else at any time, which makes people far more willing to invest in the first place. How it works Going public. A company first sells shares to the public in an initial public offering (IPO). After that, shares change hands between investors on exchanges; the company isn't involved. Returns. You earn from dividends and from changes in the share price. Some companies pay no dividend and reinvest everything; others buy back their own shares. Holding. Today most shares are held electronically through a broker, often in the broker's name for your benefit (a nominee account). See brokers and custody. What goes wrong The company fails. Shares can go to zero, because shareholders are paid last. See claims and liabilities. The market falls. Even strong companies' shares drop in a crash. The S&P 500 lost about 57% from October 2007 to March 2009. The broker fails. Your shares should be held separately from the broker's own money, and many countries have a protection scheme. In the US, SIPC covers up to $500,000 per customer (including up to $250,000 of cash) if a broker fails and customer assets are missing. It does not cover a fall in share prices. This is the counterparty killer on the Cartography of Wealth. Dilution. If a company issues new shares, each existing share owns a smaller slice. Key rule: a share is a residual claim held through an intermediary. Diversify across companies, and know how your broker holds your shares. Connects to equities — the branch this sits in. indices and funds and etfs — ways to own many shares at once. valuation — what a share might be worth. settlement — how a trade completes after you click buy. Check yourself Q: Your broker goes bust, and separately your shares have fallen 30% in a market slump. Which of these would SIPC help with in the US? A: Only the broker failure, and only if customer assets are missing, up to the limits. SIPC doesn't protect against prices falling.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4365,8 +4515,11 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "equities",
+    "funds-and-etfs",
     "hierarchy-of-money",
-    "reits"
+    "reits",
+    "valuation"
    ],
    "backlinksAdv": []
   },
@@ -4531,7 +4684,8 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "human-capital",
-    "personal-capital"
+    "personal-capital",
+    "private-business"
    ],
    "backlinksAdv": []
   },
@@ -4760,7 +4914,8 @@ window.MUDMAP = {
     "human-capital",
     "inflation",
     "personal-capital",
-    "risk-and-return"
+    "risk-and-return",
+    "valuation"
    ],
    "backlinksAdv": []
   },
@@ -4828,7 +4983,7 @@ window.MUDMAP = {
    "title": "Valuation",
    "short": "",
    "parent": "equities",
-   "order": 4.0,
+   "order": 5.0,
    "summary": "Working out what a business is worth from what it will earn.",
    "tcodes": [],
    "fiori": [],
@@ -4849,11 +5004,16 @@ window.MUDMAP = {
    ],
    "branch": "equities",
    "adv": false,
-   "html": "<p>Working out what a business is worth from what it will earn.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Valuation</strong> is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches:</p>\n<ul>\n<li><strong>Intrinsic:</strong> value the cash the business will pay out in future, brought back to today. See <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a>.</li>\n<li><strong>Relative:</strong> compare the price with similar companies, using ratios such as price to earnings.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which.</p>\n<h2>How it works</h2>\n<p><strong>Intrinsic: the dividend growth model.</strong> If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is:</p>\n<blockquote>\n<p><strong>Value = next dividend ÷ (required return − growth)</strong> = 2.00 ÷ (0.08 − 0.03) = <strong>40.00</strong></p>\n</blockquote>\n<p>Small changes to the assumptions move the answer a lot:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Required return</th>\n<th>Growth</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>8%</td>\n<td>3%</td>\n<td>40.00</td>\n</tr>\n<tr>\n<td>8%</td>\n<td>4%</td>\n<td>50.00</td>\n</tr>\n<tr>\n<td>9%</td>\n<td>3%</td>\n<td>33.33</td>\n</tr>\n</tbody>\n</table></div>\n<p>One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a <strong>discounted cash flow</strong> (DCF) model.</p>\n<p><strong>Relative: price to earnings.</strong> If the share trades at 40 and the company earned 2.50 per share last year, its <strong>P/E ratio</strong> is 16: you pay 16 times one year's earnings. Flip it over and the <strong>earnings yield</strong> is 6.25%, which you can compare with bond yields.</p>\n<p>A high P/E means the market expects strong growth; a low one means it expects little, or sees risk.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Garbage in, garbage out.</strong> A valuation built on optimistic growth gives an optimistic answer.</li>\n<li><strong>Cheap for a reason.</strong> A low P/E can mean the company's earnings are about to fall.</li>\n<li><strong>Comparing unlike things.</strong> Ratios only work across similar companies, in similar conditions.</li>\n<li><strong>Rates change everything.</strong> When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a> — where the inputs come from.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the maths underneath intrinsic value.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what's being valued.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%?</p><details><summary>Show answer</summary><p>3.00 ÷ (0.08 − 0.02) = 50.00.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Working out what a business is worth from what it will earn.",
+   "links": [
+    "bond-pricing",
+    "financial-statements",
+    "shares",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Valuation is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches: Intrinsic: value the cash the business will pay out in future, brought back to today. See time value of money. Relative: compare the price with similar companies, using ratios such as price to earnings. Why it exists Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which. How it works Intrinsic: the dividend growth model. If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is: Value = next dividend ÷ (required return − growth) = 2.00 ÷ (0.08 − 0.03) = 40.00 Small changes to the assumptions move the answer a lot: Required return Growth Value 8% 3% 40.00 8% 4% 50.00 9% 3% 33.33 One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a discounted cash flow (DCF) model. Relative: price to earnings. If the share trades at 40 and the company earned 2.50 per share last year, its P/E ratio is 16: you pay 16 times one year's earnings. Flip it over and the earnings yield is 6.25%, which you can compare with bond yields. A high P/E means the market expects strong growth; a low one means it expects little, or sees risk. What goes wrong Garbage in, garbage out. A valuation built on optimistic growth gives an optimistic answer. Cheap for a reason. A low P/E can mean the company's earnings are about to fall. Comparing unlike things. Ratios only work across similar companies, in similar conditions. Rates change everything. When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See bond pricing. Key rule: a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change. Connects to financial statements — where the inputs come from. time value of money — the maths underneath intrinsic value. shares — what's being valued. Check yourself Q: Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%? A: 3.00 ÷ (0.08 − 0.02) = 50.00.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4864,7 +5024,11 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "equities",
+    "financial-statements",
     "foundation",
+    "private-business",
+    "shares",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -5437,8 +5601,13 @@ window.MUDMAP = {
     },
     {
      "title": "CFA1-FSA — Financial Statement Analysis",
-     "items": [],
-     "note": "Not mapped yet: the map has no pages on reading financial statements. A gap to fill in Equities."
+     "items": [
+      {
+       "page": "financial-statements",
+       "note": "The income statement, balance sheet and cash flow statement"
+      }
+     ],
+     "note": ""
     },
     {
      "title": "CFA1-CF — Corporate Finance",
@@ -5627,6 +5796,7 @@ window.MUDMAP = {
     "central-bank-money",
     "inflation",
     "cash-and-fiat",
+    "financial-statements",
     "claims-and-liabilities",
     "private-business",
     "shares",
@@ -6214,5 +6384,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 11:43 UTC"
+ "built": "2026-10-25 12:12 UTC"
 };
