@@ -20,6 +20,8 @@ Deposits are cheap to move and easy to use, and they let the bank lend. Most of 
 - **Regulation.** Banks must hold capital and liquid assets against their deposits.
 - **The central bank** lends to sound banks in a panic, so deposits can be paid out.
 
+The full chain, and how each link can break, is on [[backstops|When Banks Fail]].
+
 ## What goes wrong
 - **Bank runs.** If many depositors want their money at once, a bank can't pay them all from the cash it holds.
 - **Bail-ins.** In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank.

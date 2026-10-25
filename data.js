@@ -87,6 +87,161 @@ window.MUDMAP = {
    "backlinks": [],
    "backlinksAdv": []
   },
+  "backstops": {
+   "id": "backstops",
+   "title": "When Banks Fail",
+   "short": "When banks fail",
+   "parent": "money",
+   "order": 6.5,
+   "summary": "The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "banking",
+    "crisis"
+   ],
+   "sources": [
+    "Study notes",
+    "Walter Bagehot, Lombard Street (1873)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A bank deposit is a promise by your bank. If the bank can't keep it, a <strong>chain of backstops</strong> is supposed to step in, roughly in this order:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Order</th>\n<th>Link</th>\n<th>What it offers</th>\n<th>Page</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>The bank itself</strong></td>\n<td>Its own capital and liquid assets</td>\n<td><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a></td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>The central bank</strong></td>\n<td>Emergency lending while the bank is only short of cash</td>\n<td><a class=\"wl\" href=\"#/map/p/lender-of-last-resort\" data-page=\"lender-of-last-resort\">Lender of Last Resort</a></td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>The bank's investors</strong></td>\n<td>Losses imposed on shareholders, bondholders and large depositors</td>\n<td><a class=\"wl\" href=\"#/map/p/bail-in\" data-page=\"bail-in\">Bail-in and the Creditor Ladder</a></td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Deposit insurance</strong></td>\n<td>A fund that repays deposits up to a limit</td>\n<td><a class=\"wl\" href=\"#/map/p/deposit-insurance\" data-page=\"deposit-insurance\">Deposit Insurance</a></td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>The government</strong></td>\n<td>Public money to rescue a bank, or to back the insurance fund</td>\n<td><a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a></td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it matters</h2>\n<p>Whether you lose money in a bank failure depends on <strong>which link breaks</strong>, and whether the next link is strong enough to catch it. A small bank failing in a large, solvent country is caught early in the chain. A banking system bigger than its own government can bring the whole chain down.</p>\n<h2>How it works</h2>\n<p>Each link is only as good as its size relative to the problem:</p>\n<ul>\n<li>A bank with thick capital absorbs losses itself.</li>\n<li>A central bank can lend unlimited amounts of its own currency to banks that are solvent but short of cash; it shouldn't lend to banks whose losses exceed their capital.</li>\n<li>Where the law says so, losses then go to the bank's investors and large depositors before taxpayers.</li>\n<li>Deposit insurance repays small depositors; it handles one or two failures, not a whole system.</li>\n<li>The government can borrow to rescue banks — if it can borrow at all.</li>\n</ul>\n<p>Follow the chain step by step in the flow <em>When a bank fails</em>.</p>\n<p><strong>Real cases:</strong>\n| Case | What happened | Which link held |\n|---|---|---|\n| United States, 2023 | Silicon Valley Bank failed after losses on bonds and a fast run | The government and insurance fund protected <strong>all</strong> deposits, including those above the limit |\n| Iceland, 2008 | Banks with assets over 11 times the country's annual output collapsed | Domestic deposits were guaranteed; depositors in foreign branches lost access, and a long dispute followed |\n| Cyprus, 2013 | Two large banks failed while the government couldn't borrow | Insured deposits were protected; large deposits took heavy losses |\n| Switzerland, 2023 | Credit Suisse was taken over by UBS | Depositors were protected; about 16 billion Swiss francs of the bank's riskiest bonds were written to zero |\n| Lebanon, from 2019 | Banks restricted withdrawals as the state's finances collapsed | No link held: deposits were frozen for years |</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>The chain is only as strong as its last link.</strong> Insurance funds hold a small fraction of the deposits they cover, so in a systemic crisis the government behind them is what really matters.</li>\n<li><strong>The links are tied together.</strong> Banks often hold large amounts of their own government's debt, so a weak government weakens its banks and the other way round.</li>\n<li><strong>Rescues aren't guaranteed.</strong> Whether uninsured depositors are protected is decided at the time, case by case.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a deposit is only as safe as the strongest link still standing behind it. Ask how big each link is compared with what it might have to cover.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the promise the chain protects.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — each backstop is a lower, stronger layer of money standing behind the one above.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — deposits are Tier 3: protected by the state, and therefore exposed to it.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why could the United States protect every depositor at a failed bank in 2023, when Iceland couldn't do the same for foreign depositors in 2008?</p><details><summary>Show answer</summary><p>Because of relative size. The failed US banks were small compared with the US government's ability to borrow; Iceland's banks were many times larger than its whole economy.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Deposit insurance covers your deposit. Why does the government's own health still matter?</p><details><summary>Show answer</summary><p>Because insurance funds hold only a small fraction of the deposits they cover. In a systemic crisis the fund needs the government behind it, and if the government can't borrow, the promise weakens.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bail-in",
+    "bank-capital-and-liquidity",
+    "bank-deposits",
+    "bank-sovereign-loop",
+    "cartography-of-wealth",
+    "deposit-insurance",
+    "hierarchy-of-money",
+    "lender-of-last-resort"
+   ],
+   "stub": false,
+   "text": "What it is A bank deposit is a promise by your bank. If the bank can't keep it, a chain of backstops is supposed to step in, roughly in this order: Order Link What it offers Page 1 The bank itself Its own capital and liquid assets bank capital and liquidity 2 The central bank Emergency lending while the bank is only short of cash lender of last resort 3 The bank's investors Losses imposed on shareholders, bondholders and large depositors bail in 4 Deposit insurance A fund that repays deposits up to a limit deposit insurance 5 The government Public money to rescue a bank, or to back the insurance fund bank sovereign loop Why it matters Whether you lose money in a bank failure depends on which link breaks , and whether the next link is strong enough to catch it. A small bank failing in a large, solvent country is caught early in the chain. A banking system bigger than its own government can bring the whole chain down. How it works Each link is only as good as its size relative to the problem: A bank with thick capital absorbs losses itself. A central bank can lend unlimited amounts of its own currency to banks that are solvent but short of cash; it shouldn't lend to banks whose losses exceed their capital. Where the law says so, losses then go to the bank's investors and large depositors before taxpayers. Deposit insurance repays small depositors; it handles one or two failures, not a whole system. The government can borrow to rescue banks — if it can borrow at all. Follow the chain step by step in the flow When a bank fails . Real cases: Case What happened Which link held United States, 2023 Silicon Valley Bank failed after losses on bonds and a fast run The government and insurance fund protected all deposits, including those above the limit Iceland, 2008 Banks with assets over 11 times the country's annual output collapsed Domestic deposits were guaranteed; depositors in foreign branches lost access, and a long dispute followed Cyprus, 2013 Two large banks failed while the government couldn't borrow Insured deposits were protected; large deposits took heavy losses Switzerland, 2023 Credit Suisse was taken over by UBS Depositors were protected; about 16 billion Swiss francs of the bank's riskiest bonds were written to zero Lebanon, from 2019 Banks restricted withdrawals as the state's finances collapsed No link held: deposits were frozen for years What goes wrong The chain is only as strong as its last link. Insurance funds hold a small fraction of the deposits they cover, so in a systemic crisis the government behind them is what really matters. The links are tied together. Banks often hold large amounts of their own government's debt, so a weak government weakens its banks and the other way round. Rescues aren't guaranteed. Whether uninsured depositors are protected is decided at the time, case by case. Key rule: a deposit is only as safe as the strongest link still standing behind it. Ask how big each link is compared with what it might have to cover. Connects to bank deposits — the promise the chain protects. hierarchy of money — each backstop is a lower, stronger layer of money standing behind the one above. The Cartography of Wealth — deposits are Tier 3: protected by the state, and therefore exposed to it. Check yourself Q: Why could the United States protect every depositor at a failed bank in 2023, when Iceland couldn't do the same for foreign depositors in 2008? A: Because of relative size. The failed US banks were small compared with the US government's ability to borrow; Iceland's banks were many times larger than its whole economy. Q: Deposit insurance covers your deposit. Why does the government's own health still matter? A: Because insurance funds hold only a small fraction of the deposits they cover. In a systemic crisis the fund needs the government behind it, and if the government can't borrow, the promise weakens.",
+   "textDeep": "",
+   "children": [
+    "bank-capital-and-liquidity",
+    "lender-of-last-resort",
+    "bail-in",
+    "deposit-insurance",
+    "bank-sovereign-loop"
+   ],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB6 — Money in the real world"
+    }
+   ],
+   "backlinks": [
+    "bank-deposits",
+    "money"
+   ],
+   "backlinksAdv": []
+  },
+  "bail-in": {
+   "id": "bail-in",
+   "title": "Bail-in and the Creditor Ladder",
+   "short": "Bail-in",
+   "parent": "backstops",
+   "order": 3.0,
+   "summary": "Rescuing a failing bank with its own investors' and large depositors' money instead of taxpayers', in a set order.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "banking",
+    "resolution"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops",
+    "bail-in"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>bail-out</strong> rescues a bank with public money. A <strong>bail-in</strong> rescues it by imposing the losses on the bank's own investors and creditors: their claims are written down or turned into shares until the bank has enough capital again.</p>\n<h2>Why it exists</h2>\n<p>After the 2008 crisis, many governments decided taxpayers shouldn't keep rescuing banks. Resolution laws — in the European Union, the United Kingdom, Canada and elsewhere — now set out how a failing bank's own creditors absorb the losses first.</p>\n<h2>How it works</h2>\n<p>Losses move up a <strong>creditor ladder</strong>. Each rung is wiped out before the next is touched:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Order</th>\n<th>Who takes the loss</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Shareholders</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Holders of the bank's riskiest bonds, issued to be written off in a crisis</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Other junior bondholders</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Senior bondholders and other unsecured creditors</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Large deposits above the insurance limit (in many systems, those of individuals and small firms rank ahead of those of big companies)</td>\n</tr>\n<tr>\n<td>—</td>\n<td><strong>Insured deposits are protected</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>The exact order varies by country and by the bank's own legal terms.</p>\n<p><strong>Real cases:</strong></p>\n<ul>\n<li><strong>Cyprus, 2013.</strong> At Bank of Cyprus, 47.5% of large deposits above the €100,000 insured limit were turned into shares; at the second large bank, uninsured depositors bore most of the losses. Insured deposits were protected.</li>\n<li><strong>Credit Suisse, 2023.</strong> In a government-arranged takeover by UBS, about 16 billion Swiss francs of the bank's riskiest bonds were written to zero, while shareholders still received something — a controversial break with the usual order.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Large depositors are creditors</strong>, not owners of cash in a vault. Above the insurance limit, a deposit can be bailed in.</li>\n<li><strong>The order can be changed</strong> by law or by the bond's own terms, as Credit Suisse bondholders found.</li>\n<li><strong>Contagion.</strong> Fear of bail-in can trigger the very run it is meant to prevent.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> above the insurance limit, a deposit is an unsecured loan to the bank, and in a failure it can be turned into shares or written down.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In a bail-in, who should take losses before large depositors?</p><details><summary>Show answer</summary><p>Shareholders first, then holders of the bank's riskiest bonds, then other bondholders and unsecured creditors. Large deposits come near the end, and insured deposits are protected.</p></details></div>",
+   "deep": "",
+   "links": [],
+   "stub": false,
+   "text": "What it is A bail out rescues a bank with public money. A bail in rescues it by imposing the losses on the bank's own investors and creditors: their claims are written down or turned into shares until the bank has enough capital again. Why it exists After the 2008 crisis, many governments decided taxpayers shouldn't keep rescuing banks. Resolution laws — in the European Union, the United Kingdom, Canada and elsewhere — now set out how a failing bank's own creditors absorb the losses first. How it works Losses move up a creditor ladder . Each rung is wiped out before the next is touched: Order Who takes the loss 1 Shareholders 2 Holders of the bank's riskiest bonds, issued to be written off in a crisis 3 Other junior bondholders 4 Senior bondholders and other unsecured creditors 5 Large deposits above the insurance limit (in many systems, those of individuals and small firms rank ahead of those of big companies) — Insured deposits are protected The exact order varies by country and by the bank's own legal terms. Real cases: Cyprus, 2013. At Bank of Cyprus, 47.5% of large deposits above the €100,000 insured limit were turned into shares; at the second large bank, uninsured depositors bore most of the losses. Insured deposits were protected. Credit Suisse, 2023. In a government arranged takeover by UBS, about 16 billion Swiss francs of the bank's riskiest bonds were written to zero, while shareholders still received something — a controversial break with the usual order. What goes wrong Large depositors are creditors , not owners of cash in a vault. Above the insurance limit, a deposit can be bailed in. The order can be changed by law or by the bond's own terms, as Credit Suisse bondholders found. Contagion. Fear of bail in can trigger the very run it is meant to prevent. Key rule: above the insurance limit, a deposit is an unsecured loan to the bank, and in a failure it can be turned into shares or written down. Check yourself Q: In a bail in, who should take losses before large depositors? A: Shareholders first, then holders of the bank's riskiest bonds, then other bondholders and unsecured creditors. Large deposits come near the end, and insured deposits are protected.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "backstops",
+    "deposit-insurance",
+    "flow:when-a-bank-fails"
+   ],
+   "backlinksAdv": []
+  },
+  "bank-capital-and-liquidity": {
+   "id": "bank-capital-and-liquidity",
+   "title": "Bank Capital and Liquidity",
+   "short": "",
+   "parent": "backstops",
+   "order": 1.0,
+   "summary": "The bank's own defences: capital to absorb losses, and liquid assets to pay depositors who want their money now.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "banking",
+    "regulation"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops",
+    "bank-capital-and-liquidity"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A bank has two separate defences, and failing at either one can bring it down:</p>\n<ul>\n<li><strong>Capital</strong> — the owners' money in the bank (equity). It absorbs losses before depositors lose anything. Too little capital and the bank is <strong>insolvent</strong>: it owes more than it owns.</li>\n<li><strong>Liquidity</strong> — assets that can be turned into cash quickly without big losses. Too little liquidity and the bank is <strong>illiquid</strong>: solvent on paper, but unable to pay everyone who asks today.</li>\n</ul>\n<h2>Why it matters</h2>\n<p>Banks fund long-term, hard-to-sell loans with deposits that can leave at any moment. That mismatch is what makes banking useful, and what makes runs possible. Capital and liquidity are how a bank survives bad loans and nervous depositors.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Measure</th>\n<th>What it compares</th>\n<th>What it tells you</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Capital ratio</strong></td>\n<td>Capital against the bank's assets, usually weighted by how risky they are</td>\n<td>How big a loss the bank can take before depositors are at risk</td>\n</tr>\n<tr>\n<td><strong>Leverage ratio</strong></td>\n<td>Capital against total assets, with no risk weighting</td>\n<td>A simple check that can't be gamed with low risk weights</td>\n</tr>\n<tr>\n<td><strong>Liquidity coverage</strong></td>\n<td>Liquid assets against the cash that could flow out in a 30-day stress</td>\n<td>Whether the bank can survive a month-long run</td>\n</tr>\n<tr>\n<td><strong>Loan-to-deposit ratio</strong></td>\n<td>Loans against deposits</td>\n<td>How much of the deposit base is tied up in loans</td>\n</tr>\n</tbody>\n</table></div>\n<p>These rules come from the international <strong>Basel</strong> standards, which most major economies apply in their own versions.</p>\n<p><strong>Worked example (fictional figures):</strong> a bank has assets of 1,000 and capital of 50, so its simple leverage ratio is 5%. If loans worth 60 go bad, the losses exceed its capital, and depositors' money is no longer fully covered.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Losses hidden by accounting.</strong> Bonds a bank says it will hold to maturity don't have to be marked at market prices, so losses on them can stay out of sight until the bank is forced to sell. This was central to Silicon Valley Bank's collapse in 2023.</li>\n<li><strong>Fast runs.</strong> Online banking and social media let depositors leave in hours, faster than rules built around 30 days assume.</li>\n<li><strong>Concentrated depositors.</strong> A bank whose deposits come from a few large, connected customers can lose them all at once.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a bank fails in one of two ways — it runs out of capital (insolvent) or runs out of cash (illiquid). Check both.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank owns more than it owes, but can't pay all the depositors asking for money today. Is it insolvent or illiquid?</p><details><summary>Show answer</summary><p>Illiquid. It has enough value in total, but not enough cash right now. This is the situation a central bank's emergency lending is designed for. See <a class=\"wl\" href=\"#/map/p/lender-of-last-resort\" data-page=\"lender-of-last-resort\">Lender of Last Resort</a>.</p></details></div>",
+   "deep": "",
+   "links": [
+    "lender-of-last-resort"
+   ],
+   "stub": false,
+   "text": "What it is A bank has two separate defences, and failing at either one can bring it down: Capital — the owners' money in the bank (equity). It absorbs losses before depositors lose anything. Too little capital and the bank is insolvent : it owes more than it owns. Liquidity — assets that can be turned into cash quickly without big losses. Too little liquidity and the bank is illiquid : solvent on paper, but unable to pay everyone who asks today. Why it matters Banks fund long term, hard to sell loans with deposits that can leave at any moment. That mismatch is what makes banking useful, and what makes runs possible. Capital and liquidity are how a bank survives bad loans and nervous depositors. How it works Measure What it compares What it tells you Capital ratio Capital against the bank's assets, usually weighted by how risky they are How big a loss the bank can take before depositors are at risk Leverage ratio Capital against total assets, with no risk weighting A simple check that can't be gamed with low risk weights Liquidity coverage Liquid assets against the cash that could flow out in a 30 day stress Whether the bank can survive a month long run Loan to deposit ratio Loans against deposits How much of the deposit base is tied up in loans These rules come from the international Basel standards, which most major economies apply in their own versions. Worked example (fictional figures): a bank has assets of 1,000 and capital of 50, so its simple leverage ratio is 5%. If loans worth 60 go bad, the losses exceed its capital, and depositors' money is no longer fully covered. What goes wrong Losses hidden by accounting. Bonds a bank says it will hold to maturity don't have to be marked at market prices, so losses on them can stay out of sight until the bank is forced to sell. This was central to Silicon Valley Bank's collapse in 2023. Fast runs. Online banking and social media let depositors leave in hours, faster than rules built around 30 days assume. Concentrated depositors. A bank whose deposits come from a few large, connected customers can lose them all at once. Key rule: a bank fails in one of two ways — it runs out of capital (insolvent) or runs out of cash (illiquid). Check both. Check yourself Q: A bank owns more than it owes, but can't pay all the depositors asking for money today. Is it insolvent or illiquid? A: Illiquid. It has enough value in total, but not enough cash right now. This is the situation a central bank's emergency lending is designed for. See lender of last resort.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "backstops",
+    "flow:when-a-bank-fails",
+    "lender-of-last-resort"
+   ],
+   "backlinksAdv": []
+  },
   "bank-deposits": {
    "id": "bank-deposits",
    "title": "Bank Deposits",
@@ -117,15 +272,16 @@ window.MUDMAP = {
    ],
    "branch": "money",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>When you \"have money in the bank\", you don't own any specific cash. You hold a <strong>claim on the bank</strong>: its promise to pay you central bank money when you ask. A deposit is the bank's liability.</p>\n<h2>Why it exists</h2>\n<p>Deposits are cheap to move and easy to use, and they let the bank lend. Most of the money in an economy is bank deposits, not notes, and most of it was created by bank lending.</p>\n<h2>How it's protected</h2>\n<ul>\n<li><strong>Deposit insurance.</strong> Many countries guarantee deposits up to a set limit per person per bank. Above the limit, you are an ordinary creditor of the bank.</li>\n<li><strong>Regulation.</strong> Banks must hold capital and liquid assets against their deposits.</li>\n<li><strong>The central bank</strong> lends to sound banks in a panic, so deposits can be paid out.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bank runs.</strong> If many depositors want their money at once, a bank can't pay them all from the cash it holds.</li>\n<li><strong>Bail-ins.</strong> In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank.</li>\n<li><strong>Freezes and capital controls.</strong> In a crisis, withdrawals can be limited.</li>\n<li><strong>Inflation</strong>, as with all <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">cash</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do bank runs move money <em>down</em> the hierarchy of money?</p><details><summary>Show answer</summary><p>Depositors swap a bank's promise (a deposit) for central bank money (notes) or for deposits at a bank they trust more. See <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>When you \"have money in the bank\", you don't own any specific cash. You hold a <strong>claim on the bank</strong>: its promise to pay you central bank money when you ask. A deposit is the bank's liability.</p>\n<h2>Why it exists</h2>\n<p>Deposits are cheap to move and easy to use, and they let the bank lend. Most of the money in an economy is bank deposits, not notes, and most of it was created by bank lending.</p>\n<h2>How it's protected</h2>\n<ul>\n<li><strong>Deposit insurance.</strong> Many countries guarantee deposits up to a set limit per person per bank. Above the limit, you are an ordinary creditor of the bank.</li>\n<li><strong>Regulation.</strong> Banks must hold capital and liquid assets against their deposits.</li>\n<li><strong>The central bank</strong> lends to sound banks in a panic, so deposits can be paid out.</li>\n</ul>\n<p>The full chain, and how each link can break, is on <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bank runs.</strong> If many depositors want their money at once, a bank can't pay them all from the cash it holds.</li>\n<li><strong>Bail-ins.</strong> In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank.</li>\n<li><strong>Freezes and capital controls.</strong> In a crisis, withdrawals can be limited.</li>\n<li><strong>Inflation</strong>, as with all <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">cash</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do bank runs move money <em>down</em> the hierarchy of money?</p><details><summary>Show answer</summary><p>Depositors swap a bank's promise (a deposit) for central bank money (notes) or for deposits at a bank they trust more. See <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/money-creation\" data-page=\"money-creation\" data-adv=\"1\">How Banks Create Money</a> — how a new loan creates a new deposit, and why repaying it destroys one.</li>\n</ul></section>",
    "links": [
+    "backstops",
     "cash-and-fiat",
     "hierarchy-of-money",
     "money-creation"
    ],
    "stub": false,
-   "text": "What it is When you \"have money in the bank\", you don't own any specific cash. You hold a claim on the bank : its promise to pay you central bank money when you ask. A deposit is the bank's liability. Why it exists Deposits are cheap to move and easy to use, and they let the bank lend. Most of the money in an economy is bank deposits, not notes, and most of it was created by bank lending. How it's protected Deposit insurance. Many countries guarantee deposits up to a set limit per person per bank. Above the limit, you are an ordinary creditor of the bank. Regulation. Banks must hold capital and liquid assets against their deposits. The central bank lends to sound banks in a panic, so deposits can be paid out. What goes wrong Bank runs. If many depositors want their money at once, a bank can't pay them all from the cash it holds. Bail ins. In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank. Freezes and capital controls. In a crisis, withdrawals can be limited. Inflation , as with all cash. Key rule: a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does. Check yourself Q: Why do bank runs move money down the hierarchy of money? A: Depositors swap a bank's promise (a deposit) for central bank money (notes) or for deposits at a bank they trust more. See hierarchy of money.",
+   "text": "What it is When you \"have money in the bank\", you don't own any specific cash. You hold a claim on the bank : its promise to pay you central bank money when you ask. A deposit is the bank's liability. Why it exists Deposits are cheap to move and easy to use, and they let the bank lend. Most of the money in an economy is bank deposits, not notes, and most of it was created by bank lending. How it's protected Deposit insurance. Many countries guarantee deposits up to a set limit per person per bank. Above the limit, you are an ordinary creditor of the bank. Regulation. Banks must hold capital and liquid assets against their deposits. The central bank lends to sound banks in a panic, so deposits can be paid out. The full chain, and how each link can break, is on When Banks Fail. What goes wrong Bank runs. If many depositors want their money at once, a bank can't pay them all from the cash it holds. Bail ins. In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank. Freezes and capital controls. In a crisis, withdrawals can be limited. Inflation , as with all cash. Key rule: a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does. Check yourself Q: Why do bank runs move money down the hierarchy of money? A: Depositors swap a bank's promise (a deposit) for central bank money (notes) or for deposits at a bank they trust more. See hierarchy of money.",
    "textDeep": "Going deeper money creation — how a new loan creates a new deposit, and why repaying it destroys one.",
    "children": [
     "money-creation"
@@ -138,10 +294,12 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "backstops",
     "cash-and-fiat",
     "central-bank-money",
     "claims-and-liabilities",
     "custodial-crypto",
+    "deposit-insurance",
     "eurodollars",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
@@ -151,6 +309,54 @@ window.MUDMAP = {
    "backlinksAdv": [
     "eurodollars"
    ]
+  },
+  "bank-sovereign-loop": {
+   "id": "bank-sovereign-loop",
+   "title": "The Bank–Government Loop",
+   "short": "Bank–government loop",
+   "parent": "backstops",
+   "order": 5.0,
+   "summary": "Banks lean on their government to rescue them, and governments lean on their banks to buy their debt — so each can drag the other down.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "banking",
+    "sovereign debt",
+    "crisis"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops",
+    "bank-sovereign-loop"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The final backstop behind a banking system is its <strong>government</strong>. But banks also hold large amounts of that same government's debt. This two-way dependence is often called the <strong>bank–government loop</strong>, or, in a crisis, the \"doom loop\".</p>\n<h2>Why it matters</h2>\n<p>When the loop runs the wrong way, trouble at one end feeds the other:</p>\n<ol>\n<li>Banks make losses, so the government promises to rescue them.</li>\n<li>The promise adds to government debt, so its bonds fall in value.</li>\n<li>Banks holding those bonds make further losses.</li>\n<li>The government looks weaker still, and so on.</li>\n</ol>\n<h2>How it works</h2>\n<p>Two things decide whether a government can be the last link:</p>\n<ul>\n<li><strong>The size of the banking system against the economy.</strong> A banking system several times larger than the country's annual output can be too big to rescue, as Iceland found in 2008.</li>\n<li><strong>The government's own borrowing power.</strong> A government that borrows in its own currency, with a central bank behind it, can usually raise money in a crisis. One that can't — because it shares a currency, or borrows in someone else's, or has already lost markets' trust — may be unable to. Cyprus in 2013 and Lebanon from 2019 are examples.</li>\n</ul>\n<p>The euro area's debt crisis from 2010 is the textbook case: weak banks and weak governments in several countries pulled each other down until European institutions stepped in.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>\"Safe\" government bonds aren't safe from this.</strong> Banks are allowed to treat their own government's debt as very low risk, which concentrates the loop.</li>\n<li><strong>Rescues move the problem</strong>, from bank balance sheets to public ones.</li>\n<li><strong>When the government can't help</strong>, depositors can face frozen accounts or capital controls, as in Lebanon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the government is the last link only if it is bigger and stronger than its banks. Check the size of the banking system against the economy, and whether the government can borrow in its own currency.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — government debt, and why its value matters to banks.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — why borrowing in your own currency matters.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — capital controls and currency crises.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can a government that borrows in its own currency usually stand behind its banks more credibly than one that can't?</p><details><summary>Show answer</summary><p>Because its own central bank can create the currency its debts are owed in, so it can always raise money in that currency — though doing so can bring inflation. A government without that option can simply run out of money.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "cash-and-fiat",
+    "central-bank-money"
+   ],
+   "stub": false,
+   "text": "What it is The final backstop behind a banking system is its government . But banks also hold large amounts of that same government's debt. This two way dependence is often called the bank–government loop , or, in a crisis, the \"doom loop\". Why it matters When the loop runs the wrong way, trouble at one end feeds the other: 1. Banks make losses, so the government promises to rescue them. 2. The promise adds to government debt, so its bonds fall in value. 3. Banks holding those bonds make further losses. 4. The government looks weaker still, and so on. How it works Two things decide whether a government can be the last link: The size of the banking system against the economy. A banking system several times larger than the country's annual output can be too big to rescue, as Iceland found in 2008. The government's own borrowing power. A government that borrows in its own currency, with a central bank behind it, can usually raise money in a crisis. One that can't — because it shares a currency, or borrows in someone else's, or has already lost markets' trust — may be unable to. Cyprus in 2013 and Lebanon from 2019 are examples. The euro area's debt crisis from 2010 is the textbook case: weak banks and weak governments in several countries pulled each other down until European institutions stepped in. What goes wrong \"Safe\" government bonds aren't safe from this. Banks are allowed to treat their own government's debt as very low risk, which concentrates the loop. Rescues move the problem , from bank balance sheets to public ones. When the government can't help , depositors can face frozen accounts or capital controls, as in Lebanon. Key rule: the government is the last link only if it is bigger and stronger than its banks. Check the size of the banking system against the economy, and whether the government can borrow in its own currency. Connects to bonds — government debt, and why its value matters to banks. central bank money — why borrowing in your own currency matters. cash and fiat — capital controls and currency crises. Check yourself Q: Why can a government that borrows in its own currency usually stand behind its banks more credibly than one that can't? A: Because its own central bank can create the currency its debts are owed in, so it can always raise money in that currency — though doing so can bring inflation. A government without that option can simply run out of money.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "backstops",
+    "flow:when-a-bank-fails"
+   ],
+   "backlinksAdv": []
   },
   "bitcoin": {
    "id": "bitcoin",
@@ -329,6 +535,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "bank-sovereign-loop",
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
@@ -546,6 +753,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "backstops",
     "capital-system",
     "cash-and-fiat",
     "claims-and-liabilities",
@@ -616,6 +824,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bank-deposits",
+    "bank-sovereign-loop",
     "cartography-of-wealth",
     "flow:where-money-comes-from",
     "inflation",
@@ -677,11 +886,13 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "bank-sovereign-loop",
     "cash-and-fiat",
     "claims-and-liabilities",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
     "inflation",
+    "lender-of-last-resort",
     "liquidity",
     "money"
    ],
@@ -1258,6 +1469,52 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "deposit-insurance": {
+   "id": "deposit-insurance",
+   "title": "Deposit Insurance",
+   "short": "",
+   "parent": "backstops",
+   "order": 4.0,
+   "summary": "A fund that repays bank deposits up to a set limit when a bank fails — strong for one failure, dependent on the government in a crisis.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "banking",
+    "deposit insurance"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops",
+    "deposit-insurance"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Deposit insurance</strong> is a scheme that repays depositors, up to a limit per person per bank, if their bank fails. Most countries have one, usually run by a public agency and funded by fees charged to banks.</p>\n<h2>Why it exists</h2>\n<p>If depositors fear losing their money, they run at the first rumour, and even healthy banks can fail. Insurance removes the reason for small depositors to run.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>A limit.</strong> Deposits up to a set amount per depositor per bank are covered; anything above is not.</li>\n<li><strong>A fund.</strong> Banks pay regular fees into a fund that pays out when a bank fails.</li>\n<li><strong>The fund is small compared with what it covers.</strong> It typically holds only a small percentage of insured deposits. That is enough for occasional failures, not for many large banks at once.</li>\n<li><strong>A government backstop.</strong> In most systems the government stands behind the fund, which is what makes the promise credible in a crisis.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Deposits above the limit</strong> are exposed. Businesses and wealthy savers often hold much more than the limit in one bank.</li>\n<li><strong>Systemic crises</strong> can exceed the fund many times over, so the guarantee is only as good as the government behind it.</li>\n<li><strong>Moral hazard.</strong> Insured depositors have little reason to watch how their bank takes risks, and banks may take more because of it.</li>\n<li><strong>Discretion.</strong> Governments sometimes protect deposits above the limit, as the United States did in 2023, but that is decided case by case, not promised.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> know the limit and stay under it per bank — and remember that the fund behind it depends on the government behind that.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — what the insurance covers.</li>\n<li><a class=\"wl\" href=\"#/map/p/bail-in\" data-page=\"bail-in\">Bail-in and the Creditor Ladder</a> — what can happen to deposits above the limit.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do economists describe a deposit insurance fund as built for single failures, not for crises?</p><details><summary>Show answer</summary><p>Because it holds only a small fraction of the deposits it covers. One bank failing is affordable; many large ones failing together would empty it, leaving the government to make good the promise.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bail-in",
+    "bank-deposits"
+   ],
+   "stub": false,
+   "text": "What it is Deposit insurance is a scheme that repays depositors, up to a limit per person per bank, if their bank fails. Most countries have one, usually run by a public agency and funded by fees charged to banks. Why it exists If depositors fear losing their money, they run at the first rumour, and even healthy banks can fail. Insurance removes the reason for small depositors to run. How it works A limit. Deposits up to a set amount per depositor per bank are covered; anything above is not. A fund. Banks pay regular fees into a fund that pays out when a bank fails. The fund is small compared with what it covers. It typically holds only a small percentage of insured deposits. That is enough for occasional failures, not for many large banks at once. A government backstop. In most systems the government stands behind the fund, which is what makes the promise credible in a crisis. What goes wrong Deposits above the limit are exposed. Businesses and wealthy savers often hold much more than the limit in one bank. Systemic crises can exceed the fund many times over, so the guarantee is only as good as the government behind it. Moral hazard. Insured depositors have little reason to watch how their bank takes risks, and banks may take more because of it. Discretion. Governments sometimes protect deposits above the limit, as the United States did in 2023, but that is decided case by case, not promised. Key rule: know the limit and stay under it per bank — and remember that the fund behind it depends on the government behind that. Connects to bank deposits — what the insurance covers. bail in — what can happen to deposits above the limit. Check yourself Q: Why do economists describe a deposit insurance fund as built for single failures, not for crises? A: Because it holds only a small fraction of the deposits it covers. One bank failing is affordable; many large ones failing together would empty it, leaving the government to make good the promise.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "backstops",
+    "flow:when-a-bank-fails"
+   ],
+   "backlinksAdv": []
+  },
   "derivatives": {
    "id": "derivatives",
    "title": "Derivatives",
@@ -1574,6 +1831,7 @@ window.MUDMAP = {
    "backlinks": [
     "central-bank-money",
     "hierarchy-of-money",
+    "lender-of-last-resort",
     "money"
    ],
    "backlinksAdv": [
@@ -2033,6 +2291,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "backstops",
     "bank-deposits",
     "bitcoin",
     "cash-and-fiat",
@@ -2297,6 +2556,61 @@ window.MUDMAP = {
     "bitcoin",
     "blockchains",
     "self-custody"
+   ],
+   "backlinksAdv": []
+  },
+  "lender-of-last-resort": {
+   "id": "lender-of-last-resort",
+   "title": "Lender of Last Resort",
+   "short": "",
+   "parent": "backstops",
+   "order": 2.0,
+   "summary": "The central bank lending its own money to banks that are sound but short of cash, so a panic doesn't become a collapse.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "central bank",
+    "crisis"
+   ],
+   "sources": [
+    "Walter Bagehot, Lombard Street (1873)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "money",
+    "backstops",
+    "lender-of-last-resort"
+   ],
+   "branch": "money",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A central bank acts as <strong>lender of last resort</strong> when it lends to banks that can't borrow anywhere else during a panic. Because it creates its own currency, it can't run out of it.</p>\n<h2>Why it exists</h2>\n<p>A run can sink a bank that is fundamentally sound, simply because its loans can't be sold fast enough. Emergency lending turns those loans into cash so depositors can be paid, and the panic burns out.</p>\n<h2>How it works</h2>\n<p>The classic rule comes from the economist Walter Bagehot in 1873. In a panic the central bank should:</p>\n<ul>\n<li><strong>lend freely</strong>, so nobody doubts cash is available;</li>\n<li><strong>against good collateral</strong>, so it only lends to banks that are solvent;</li>\n<li><strong>at a penalty rate</strong>, so banks don't use it in normal times.</li>\n</ul>\n<p>Modern central banks run standing facilities on these lines, and in big crises also lend to other central banks through <strong>swap lines</strong>. See <a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Telling illiquid from insolvent</strong> is hard in a crisis. Lending to a bank that is actually insolvent just delays the loss and may move it to the public.</li>\n<li><strong>Stigma.</strong> Banks may avoid borrowing in case markets take it as a sign of trouble.</li>\n<li><strong>Foreign-currency debts.</strong> A central bank can create only its own currency; banks owing dollars elsewhere depend on the US central bank's swap lines.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the central bank can cure a shortage of cash, not a shortage of capital.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — what the central bank lends.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — the difference between illiquid and insolvent.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does the classic rule say to lend at a penalty rate?</p><details><summary>Show answer</summary><p>So that banks use the central bank only in a real emergency, not as a cheap everyday source of funding.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-capital-and-liquidity",
+    "central-bank-money",
+    "eurodollars"
+   ],
+   "stub": false,
+   "text": "What it is A central bank acts as lender of last resort when it lends to banks that can't borrow anywhere else during a panic. Because it creates its own currency, it can't run out of it. Why it exists A run can sink a bank that is fundamentally sound, simply because its loans can't be sold fast enough. Emergency lending turns those loans into cash so depositors can be paid, and the panic burns out. How it works The classic rule comes from the economist Walter Bagehot in 1873. In a panic the central bank should: lend freely , so nobody doubts cash is available; against good collateral , so it only lends to banks that are solvent; at a penalty rate , so banks don't use it in normal times. Modern central banks run standing facilities on these lines, and in big crises also lend to other central banks through swap lines . See eurodollars. What goes wrong Telling illiquid from insolvent is hard in a crisis. Lending to a bank that is actually insolvent just delays the loss and may move it to the public. Stigma. Banks may avoid borrowing in case markets take it as a sign of trouble. Foreign currency debts. A central bank can create only its own currency; banks owing dollars elsewhere depend on the US central bank's swap lines. Key rule: the central bank can cure a shortage of cash, not a shortage of capital. Connects to central bank money — what the central bank lends. bank capital and liquidity — the difference between illiquid and insolvent. Check yourself Q: Why does the classic rule say to lend at a penalty rate? A: So that banks use the central bank only in a real emergency, not as a cheap everyday source of funding.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    }
+   ],
+   "backlinks": [
+    "backstops",
+    "bank-capital-and-liquidity",
+    "flow:when-a-bank-fails"
    ],
    "backlinksAdv": []
   },
@@ -2665,9 +2979,10 @@ window.MUDMAP = {
    ],
    "branch": "money",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it.</p>\n<p>This branch covers two linked ideas:</p>\n<ul>\n<li><strong>Money:</strong> what it is, and why it comes in layers, each one a promise to pay in the layer below.</li>\n<li><strong>Liquidity:</strong> how much money is moving through the financial system at any time, and why prices across many markets follow it.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid.</p>\n<h2>How it works</h2>\n<p>Start with the jobs money does, then work down the layers from the most final form to the most fragile:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — the three jobs money does, and why few things do all three well.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — why money is layered, from gold at the base to private promises at the top.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the oldest money, and the one at the base that is nobody's liability.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the base of the modern system: banknotes and the reserves banks hold at the central bank.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — government currency, why people must hold it, and its built-in bleed.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the money most people actually hold: a bank's promise to pay.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — how much money is available to flow into assets, and how analysts track it.</li>\n</ul>\n<p>Then follow one dollar from creation to your account in the flow <em>Where money comes from</em>.</p>\n<h2>What goes wrong</h2>\n<p>Each layer fails in its own way:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Typical failure</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Gold</td>\n<td>Theft, confiscation, long periods with no real gain</td>\n</tr>\n<tr>\n<td>Central bank money and cash</td>\n<td>Inflation; in the worst cases, a currency crisis</td>\n</tr>\n<tr>\n<td>Bank deposits</td>\n<td>Bank runs, freezes, losses above the insurance limit</td>\n</tr>\n<tr>\n<td>Private and offshore dollars</td>\n<td>De-pegs and dollar shortages when the issuer or bank can't pay</td>\n</tr>\n</tbody>\n</table></div>\n<p>When trust drops, money moves <strong>down</strong> the hierarchy towards the base. That move is what a bank run, a stablecoin de-peg and a \"dash for cash\" have in common.</p>\n<blockquote>\n<p><strong>Key rule:</strong> always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the question that sorts every form of money.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — where cash, deposits and gold sit by risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> — private dollar promises, which live under <a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a>.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the securities layer just above money.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why liquidity changes how whole groups of assets behave.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank deposit and a banknote both say \"one dollar\". What is the difference between them?</p><details><summary>Show answer</summary><p>A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do panics push money <em>down</em> the hierarchy rather than up?</p><details><summary>Show answer</summary><p>Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it.</p>\n<p>This branch covers two linked ideas:</p>\n<ul>\n<li><strong>Money:</strong> what it is, and why it comes in layers, each one a promise to pay in the layer below.</li>\n<li><strong>Liquidity:</strong> how much money is moving through the financial system at any time, and why prices across many markets follow it.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid.</p>\n<h2>How it works</h2>\n<p>Start with the jobs money does, then work down the layers from the most final form to the most fragile:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — the three jobs money does, and why few things do all three well.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — why money is layered, from gold at the base to private promises at the top.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the oldest money, and the one at the base that is nobody's liability.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the base of the modern system: banknotes and the reserves banks hold at the central bank.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — government currency, why people must hold it, and its built-in bleed.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the money most people actually hold: a bank's promise to pay.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a> — what stands behind that promise when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — how much money is available to flow into assets, and how analysts track it.</li>\n</ul>\n<p>Then follow one dollar from creation to your account in the flow <em>Where money comes from</em>, and follow a bank failure through each backstop in <em>When a bank fails</em>.</p>\n<h2>What goes wrong</h2>\n<p>Each layer fails in its own way:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Typical failure</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Gold</td>\n<td>Theft, confiscation, long periods with no real gain</td>\n</tr>\n<tr>\n<td>Central bank money and cash</td>\n<td>Inflation; in the worst cases, a currency crisis</td>\n</tr>\n<tr>\n<td>Bank deposits</td>\n<td>Bank runs, freezes, losses above the insurance limit</td>\n</tr>\n<tr>\n<td>Private and offshore dollars</td>\n<td>De-pegs and dollar shortages when the issuer or bank can't pay</td>\n</tr>\n</tbody>\n</table></div>\n<p>When trust drops, money moves <strong>down</strong> the hierarchy towards the base. That move is what a bank run, a stablecoin de-peg and a \"dash for cash\" have in common.</p>\n<blockquote>\n<p><strong>Key rule:</strong> always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the question that sorts every form of money.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — where cash, deposits and gold sit by risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> — private dollar promises, which live under <a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a>.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the securities layer just above money.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why liquidity changes how whole groups of assets behave.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank deposit and a banknote both say \"one dollar\". What is the difference between them?</p><details><summary>Show answer</summary><p>A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do panics push money <em>down</em> the hierarchy rather than up?</p><details><summary>Show answer</summary><p>Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a> — dollars created and owed by banks outside the United States, usually without a direct central bank backstop. Much of the world's dollar system runs here.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-creation\" data-page=\"money-creation\" data-adv=\"1\">How Banks Create Money</a> — how bank lending creates new deposits, and repayment destroys them.</li>\n<li>The hierarchy changes over time. Gold was the formal base of the system until the early 1970s; since then central bank money has been the base for most purposes.</li>\n</ul></section>",
    "links": [
+    "backstops",
     "bank-deposits",
     "bonds",
     "cartography-of-wealth",
@@ -2686,7 +3001,7 @@ window.MUDMAP = {
     "what-is-money"
    ],
    "stub": false,
-   "text": "What it is The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it. This branch covers two linked ideas: Money: what it is, and why it comes in layers, each one a promise to pay in the layer below. Liquidity: how much money is moving through the financial system at any time, and why prices across many markets follow it. Why it exists Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid. How it works Start with the jobs money does, then work down the layers from the most final form to the most fragile: what is money — the three jobs money does, and why few things do all three well. hierarchy of money — why money is layered, from gold at the base to private promises at the top. gold — the oldest money, and the one at the base that is nobody's liability. central bank money — the base of the modern system: banknotes and the reserves banks hold at the central bank. cash and fiat — government currency, why people must hold it, and its built in bleed. bank deposits — the money most people actually hold: a bank's promise to pay. liquidity — how much money is available to flow into assets, and how analysts track it. Then follow one dollar from creation to your account in the flow Where money comes from . What goes wrong Each layer fails in its own way: Layer Typical failure Gold Theft, confiscation, long periods with no real gain Central bank money and cash Inflation; in the worst cases, a currency crisis Bank deposits Bank runs, freezes, losses above the insurance limit Private and offshore dollars De pegs and dollar shortages when the issuer or bank can't pay When trust drops, money moves down the hierarchy towards the base. That move is what a bank run, a stablecoin de peg and a \"dash for cash\" have in common. Key rule: always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail. Connects to claims and liabilities — the question that sorts every form of money. The Cartography of Wealth — where cash, deposits and gold sit by risk. stablecoins — private dollar promises, which live under digital assets. t bills and bonds — the securities layer just above money. market regimes — why liquidity changes how whole groups of assets behave. Check yourself Q: A bank deposit and a banknote both say \"one dollar\". What is the difference between them? A: A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not. Q: Why do panics push money down the hierarchy rather than up? A: Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.",
+   "text": "What it is The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it. This branch covers two linked ideas: Money: what it is, and why it comes in layers, each one a promise to pay in the layer below. Liquidity: how much money is moving through the financial system at any time, and why prices across many markets follow it. Why it exists Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid. How it works Start with the jobs money does, then work down the layers from the most final form to the most fragile: what is money — the three jobs money does, and why few things do all three well. hierarchy of money — why money is layered, from gold at the base to private promises at the top. gold — the oldest money, and the one at the base that is nobody's liability. central bank money — the base of the modern system: banknotes and the reserves banks hold at the central bank. cash and fiat — government currency, why people must hold it, and its built in bleed. bank deposits — the money most people actually hold: a bank's promise to pay. backstops — what stands behind that promise when a bank fails: capital, the central bank, bail in, deposit insurance and the government. liquidity — how much money is available to flow into assets, and how analysts track it. Then follow one dollar from creation to your account in the flow Where money comes from , and follow a bank failure through each backstop in When a bank fails . What goes wrong Each layer fails in its own way: Layer Typical failure Gold Theft, confiscation, long periods with no real gain Central bank money and cash Inflation; in the worst cases, a currency crisis Bank deposits Bank runs, freezes, losses above the insurance limit Private and offshore dollars De pegs and dollar shortages when the issuer or bank can't pay When trust drops, money moves down the hierarchy towards the base. That move is what a bank run, a stablecoin de peg and a \"dash for cash\" have in common. Key rule: always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail. Connects to claims and liabilities — the question that sorts every form of money. The Cartography of Wealth — where cash, deposits and gold sit by risk. stablecoins — private dollar promises, which live under digital assets. t bills and bonds — the securities layer just above money. market regimes — why liquidity changes how whole groups of assets behave. Check yourself Q: A bank deposit and a banknote both say \"one dollar\". What is the difference between them? A: A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not. Q: Why do panics push money down the hierarchy rather than up? A: Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.",
    "textDeep": "Going deeper eurodollars — dollars created and owed by banks outside the United States, usually without a direct central bank backstop. Much of the world's dollar system runs here. money creation — how bank lending creates new deposits, and repayment destroys them. The hierarchy changes over time. Gold was the formal base of the system until the early 1970s; since then central bank money has been the base for most purposes.",
    "children": [
     "what-is-money",
@@ -2695,6 +3010,7 @@ window.MUDMAP = {
     "central-bank-money",
     "cash-and-fiat",
     "bank-deposits",
+    "backstops",
     "eurodollars",
     "liquidity"
    ],
@@ -4110,6 +4426,68 @@ window.MUDMAP = {
   }
  },
  "flows": {
+  "when-a-bank-fails": {
+   "id": "when-a-bank-fails",
+   "title": "When a bank fails: who stands behind your deposit",
+   "summary": "Follow a bank failure through each backstop, from the bank's own capital to the government, and see where real crises stopped.",
+   "area": "Money & Liquidity",
+   "adv": false,
+   "order": 2.0,
+   "lanes": [
+    "Who stands behind you",
+    "What breaks it",
+    "Where a real crisis stopped"
+   ],
+   "intro": "<p><em>Where money comes from</em> builds money up layer by layer. This flow runs the other way: a bank fails, and each backstop behind your deposit is tested in turn.</p>\n<blockquote>\n<p><strong>Key rule:</strong> each link only works if it is bigger than the problem it has to absorb. Watch the size of each link, not just whether it exists.</p>\n</blockquote>",
+   "outro": "<h2>What to notice</h2>\n<ul>\n<li>Most failures stop early in the chain: a small bank in a strong country rarely tests anything beyond deposit insurance.</li>\n<li>The links are not independent. Banks hold their government's bonds, and the insurance fund depends on the government, so a weak state weakens every link. See <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a>.</li>\n<li>When the chain holds all the way, the losses don't vanish; they move to taxpayers or to the currency.</li>\n</ul>",
+   "steps": [
+    {
+     "label": "The bank takes losses or faces a run",
+     "page": "bank-capital-and-liquidity",
+     "cells": [
+      "The bank's own capital and liquid assets",
+      "Losses bigger than its capital; a run faster than it can raise cash",
+      "Silicon Valley Bank, 2023: bond losses and a run in a day"
+     ]
+    },
+    {
+     "label": "The central bank lends",
+     "page": "lender-of-last-resort",
+     "cells": [
+      "Emergency loans while the bank is only short of cash",
+      "The bank is insolvent, not just short of cash",
+      "—"
+     ]
+    },
+    {
+     "label": "Losses go to the bank's investors",
+     "page": "bail-in",
+     "cells": [
+      "Shareholders, then bondholders, then large depositors",
+      "A bail-in big enough to reach deposits",
+      "Credit Suisse, 2023: riskiest bonds written to zero"
+     ]
+    },
+    {
+     "label": "Insured deposits are repaid",
+     "page": "deposit-insurance",
+     "cells": [
+      "The deposit insurance fund, up to the limit",
+      "Many failures at once; deposits above the limit",
+      "Cyprus, 2013: insured deposits safe, large deposits hit"
+     ]
+    },
+    {
+     "label": "The government steps in",
+     "page": "bank-sovereign-loop",
+     "cells": [
+      "Public money, and the government standing behind the fund",
+      "A banking system bigger than the state; a state that can't borrow",
+      "Iceland, 2008: too big to rescue · Lebanon, from 2019: deposits frozen"
+     ]
+    }
+   ]
+  },
   "where-money-comes-from": {
    "id": "where-money-comes-from",
    "title": "Where money comes from",
@@ -4870,6 +5248,10 @@ window.MUDMAP = {
       {
        "page": "liquidity",
        "note": "When settlement pressure becomes a squeeze"
+      },
+      {
+       "page": "lender-of-last-resort",
+       "note": "The central bank as the backstop for the clearing system"
       }
      ],
      "note": ""
@@ -4930,6 +5312,10 @@ window.MUDMAP = {
       {
        "page": "market-regimes",
        "note": "Risk-on and risk-off as liquidity changes"
+      },
+      {
+       "page": "backstops",
+       "note": "What stands behind each layer when one fails"
       }
      ],
      "note": ""
@@ -4944,10 +5330,12 @@ window.MUDMAP = {
     "money-creation",
     "eurodollars",
     "liquidity",
+    "lender-of-last-resort",
     "cash-and-fiat",
     "bonds",
     "futures",
-    "market-regimes"
+    "market-regimes",
+    "backstops"
    ],
    "status": "mapped"
   },
@@ -5148,5 +5536,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 08:36 UTC"
+ "built": "2026-10-25 09:43 UTC"
 };
