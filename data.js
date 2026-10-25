@@ -237,10 +237,14 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "backstops",
+    "duration",
+    "fixed-income",
     "flow:when-a-bank-fails",
     "lender-of-last-resort"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "duration"
+   ]
   },
   "bank-deposits": {
    "id": "bank-deposits",
@@ -354,6 +358,8 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "backstops",
+    "credit-risk",
+    "fixed-income",
     "flow:when-a-bank-fails"
    ],
    "backlinksAdv": []
@@ -489,16 +495,73 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "bond-pricing": {
+   "id": "bond-pricing",
+   "title": "Bond Prices and Yields",
+   "short": "Prices and yields",
+   "parent": "fixed-income",
+   "order": 3.0,
+   "summary": "Why bond prices fall when interest rates rise, what \"yield\" means, and why longer bonds move more.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "fixed income",
+    "bonds",
+    "valuation"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "fixed-income",
+    "bond-pricing"
+   ],
+   "branch": "fixed-income",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A bond's <strong>price</strong> is what the market will pay for its remaining payments today. Its <strong>yield</strong> is the return you would earn by buying at that price and holding to maturity. Price and yield move in opposite directions.</p>\n<h2>Why it matters</h2>\n<p>Most people expect a \"safe\" bond to hold its value. It does if held to the end and the issuer pays. But its market price moves every day with interest rates, and anyone who has to sell before maturity takes whatever price is on offer.</p>\n<h2>How it works</h2>\n<p>A bond's price is the <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">present value</a> of its future payments, discounted at the current market yield.</p>\n<p><strong>Worked example (fictional figures):</strong> a 3-year bond with a face value of 1,000 and a 5% annual coupon pays 50, 50 and then 1,050.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Market yield</th>\n<th>Price</th>\n<th>Why</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>4%</td>\n<td><strong>1,027.75</strong></td>\n<td>Its 5% coupon beats new bonds, so buyers pay more</td>\n</tr>\n<tr>\n<td>5%</td>\n<td><strong>1,000.00</strong></td>\n<td>Coupon equals the market rate: priced at face value</td>\n</tr>\n<tr>\n<td>6%</td>\n<td><strong>973.27</strong></td>\n<td>New bonds pay more, so this one must sell for less</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Longer bonds move more.</strong> The same change hits a 10-year version of this bond much harder: at a 6% yield it is worth about <strong>926.40</strong>, and at 4% about <strong>1,081.11</strong>. The further away the payments, the more a change in the discount rate changes their value today. See <a class=\"wl\" href=\"#/map/p/duration\" data-page=\"duration\" data-adv=\"1\">Duration</a>.</p>\n<p><strong>Yield to maturity</strong> is the single rate that makes the present value of all the bond's payments equal its price. It's the standard way to compare bonds with different coupons and maturities.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Selling at the wrong time.</strong> A rate rise turns a safe bond into a paper loss, and a forced sale makes it a real one.</li>\n<li><strong>Hidden losses.</strong> Bonds held \"to maturity\" on a balance sheet aren't marked to market, so losses can build up unseen.</li>\n<li><strong>Comparing coupons instead of yields.</strong> A high coupon bought at a high price can yield less than a low coupon bought cheaply.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> when interest rates go up, existing bond prices go down — and the longer the bond, the bigger the fall.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Market yields fall from 5% to 4%. What happens to the price of a 5%-coupon bond priced at 1,000?</p><details><summary>Show answer</summary><p>It rises above 1,000 (to about 1,027.75 for the 3-year example), because its 5% coupon is now better than what new bonds pay.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why did bonds that were certain to be repaid cause losses at Silicon Valley Bank?</p><details><summary>Show answer</summary><p>Because rates rose sharply, cutting the market value of the bank's long-dated bonds. When depositors ran, it had to sell some of them at those lower prices, turning paper losses into real ones.</p></details></div>",
+   "deep": "",
+   "links": [
+    "duration",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is A bond's price is what the market will pay for its remaining payments today. Its yield is the return you would earn by buying at that price and holding to maturity. Price and yield move in opposite directions. Why it matters Most people expect a \"safe\" bond to hold its value. It does if held to the end and the issuer pays. But its market price moves every day with interest rates, and anyone who has to sell before maturity takes whatever price is on offer. How it works A bond's price is the present value of its future payments, discounted at the current market yield. Worked example (fictional figures): a 3 year bond with a face value of 1,000 and a 5% annual coupon pays 50, 50 and then 1,050. Market yield Price Why 4% 1,027.75 Its 5% coupon beats new bonds, so buyers pay more 5% 1,000.00 Coupon equals the market rate: priced at face value 6% 973.27 New bonds pay more, so this one must sell for less Longer bonds move more. The same change hits a 10 year version of this bond much harder: at a 6% yield it is worth about 926.40 , and at 4% about 1,081.11 . The further away the payments, the more a change in the discount rate changes their value today. See duration. Yield to maturity is the single rate that makes the present value of all the bond's payments equal its price. It's the standard way to compare bonds with different coupons and maturities. What goes wrong Selling at the wrong time. A rate rise turns a safe bond into a paper loss, and a forced sale makes it a real one. Hidden losses. Bonds held \"to maturity\" on a balance sheet aren't marked to market, so losses can build up unseen. Comparing coupons instead of yields. A high coupon bought at a high price can yield less than a low coupon bought cheaply. Key rule: when interest rates go up, existing bond prices go down — and the longer the bond, the bigger the fall. Check yourself Q: Market yields fall from 5% to 4%. What happens to the price of a 5% coupon bond priced at 1,000? A: It rises above 1,000 (to about 1,027.75 for the 3 year example), because its 5% coupon is now better than what new bonds pay. Q: Why did bonds that were certain to be repaid cause losses at Silicon Valley Bank? A: Because rates rose sharply, cutting the market value of the bank's long dated bonds. When depositors ran, it had to sell some of them at those lower prices, turning paper losses into real ones.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
+   "backlinks": [
+    "bonds",
+    "duration",
+    "fixed-income",
+    "yield-curve"
+   ],
+   "backlinksAdv": [
+    "duration"
+   ]
+  },
   "bonds": {
    "id": "bonds",
    "title": "Bonds",
    "short": "",
    "parent": "fixed-income",
    "order": 2.0,
-   "summary": "A loan you can trade: fixed payments from a government or company.",
+   "summary": "A loan you can trade: fixed payments from a government or company, and your money back at the end.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "fixed income",
+    "bonds"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -516,11 +579,17 @@ window.MUDMAP = {
    ],
    "branch": "fixed-income",
    "adv": false,
-   "html": "<p>A loan you can trade: fixed payments from a government or company.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>bond</strong> is a loan broken into tradable pieces. The borrower (the <strong>issuer</strong>) promises to pay interest at set times and repay the loan on a set date.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Term</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Face value</strong></td>\n<td>The amount repaid at the end (often 100 or 1,000 per bond)</td>\n</tr>\n<tr>\n<td><strong>Coupon</strong></td>\n<td>The interest rate on the face value, paid regularly</td>\n</tr>\n<tr>\n<td><strong>Maturity</strong></td>\n<td>The date the face value is repaid</td>\n</tr>\n<tr>\n<td><strong>Issuer</strong></td>\n<td>Who owes the money: a government, a company, a city</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it exists</h2>\n<p>Bonds let borrowers raise large sums for long periods from many lenders at once, and let those lenders sell to someone else instead of waiting for repayment.</p>\n<h2>How it works</h2>\n<p><strong>Main kinds of issuer:</strong></p>\n<ul>\n<li><strong>Governments</strong> borrowing in their own currency: usually the lowest-risk bonds in that currency.</li>\n<li><strong>Local governments and agencies:</strong> backed by taxes or by specific projects.</li>\n<li><strong>Companies:</strong> higher yields to pay for the risk that the company fails. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</li>\n</ul>\n<p><strong>Main kinds of bond:</strong></p>\n<ul>\n<li><strong>Fixed-rate:</strong> the same coupon every period.</li>\n<li><strong>Floating-rate:</strong> the coupon resets with a benchmark interest rate.</li>\n<li><strong>Zero-coupon:</strong> no coupons; bought at a discount and repaid at face value, like a long <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">T-bill</a>.</li>\n<li><strong>Inflation-linked:</strong> payments rise with prices. See <a class=\"wl\" href=\"#/map/p/inflation-linked-bonds\" data-page=\"inflation-linked-bonds\">Inflation-Linked Bonds</a>.</li>\n</ul>\n<p><strong>Where bondholders stand.</strong> If a company fails, bondholders are paid before shareholders. Secured bonds, backed by specific assets, are paid before unsecured ones. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Default:</strong> the issuer misses payments. Bondholders may get back only part of what they're owed.</li>\n<li><strong>Rate rises</strong> cut the market price. See <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a>.</li>\n<li><strong>Inflation</strong> erodes fixed payments.</li>\n<li><strong>Early repayment:</strong> some bonds can be repaid early by the issuer, usually when rates have fallen and you'd least want your money back.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a bond is a promise. Judge the promiser first, then the price.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company fails. Who is paid first: its bondholders or its shareholders?</p><details><summary>Show answer</summary><p>Its bondholders. Shareholders own what's left only after every creditor, including bondholders, has been paid.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A loan you can trade: fixed payments from a government or company.",
+   "links": [
+    "bond-pricing",
+    "claims-and-liabilities",
+    "credit-risk",
+    "inflation-linked-bonds",
+    "t-bills"
+   ],
+   "stub": false,
+   "text": "What it is A bond is a loan broken into tradable pieces. The borrower (the issuer ) promises to pay interest at set times and repay the loan on a set date. Term Meaning Face value The amount repaid at the end (often 100 or 1,000 per bond) Coupon The interest rate on the face value, paid regularly Maturity The date the face value is repaid Issuer Who owes the money: a government, a company, a city Why it exists Bonds let borrowers raise large sums for long periods from many lenders at once, and let those lenders sell to someone else instead of waiting for repayment. How it works Main kinds of issuer: Governments borrowing in their own currency: usually the lowest risk bonds in that currency. Local governments and agencies: backed by taxes or by specific projects. Companies: higher yields to pay for the risk that the company fails. See credit risk. Main kinds of bond: Fixed rate: the same coupon every period. Floating rate: the coupon resets with a benchmark interest rate. Zero coupon: no coupons; bought at a discount and repaid at face value, like a long T bill. Inflation linked: payments rise with prices. See inflation linked bonds. Where bondholders stand. If a company fails, bondholders are paid before shareholders. Secured bonds, backed by specific assets, are paid before unsecured ones. See claims and liabilities. What goes wrong Default: the issuer misses payments. Bondholders may get back only part of what they're owed. Rate rises cut the market price. See bond pricing. Inflation erodes fixed payments. Early repayment: some bonds can be repaid early by the issuer, usually when rates have fallen and you'd least want your money back. Key rule: a bond is a promise. Judge the promiser first, then the price. Check yourself Q: A company fails. Who is paid first: its bondholders or its shareholders? A: Its bondholders. Shareholders own what's left only after every creditor, including bondholders, has been paid.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -539,6 +608,8 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "credit-risk",
+    "fixed-income",
     "foundation",
     "hierarchy-of-money",
     "inflation",
@@ -757,7 +828,9 @@ window.MUDMAP = {
     "capital-system",
     "cash-and-fiat",
     "claims-and-liabilities",
+    "credit-risk",
     "digital-assets",
+    "fixed-income",
     "foundation",
     "gold",
     "holding-crypto",
@@ -889,12 +962,14 @@ window.MUDMAP = {
     "bank-sovereign-loop",
     "cash-and-fiat",
     "claims-and-liabilities",
+    "fixed-income",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
     "inflation",
     "lender-of-last-resort",
     "liquidity",
-    "money"
+    "money",
+    "yield-curve"
    ],
    "backlinksAdv": []
   },
@@ -989,8 +1064,10 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "bonds",
     "capital-system",
     "cartography-of-wealth",
+    "credit-risk",
     "custodial-crypto",
     "digital-assets",
     "foundation",
@@ -1275,8 +1352,62 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "cartography-of-wealth",
+    "credit-risk",
     "foundation",
     "risk-and-return"
+   ],
+   "backlinksAdv": []
+  },
+  "credit-risk": {
+   "id": "credit-risk",
+   "title": "Credit Risk and Ratings",
+   "short": "Credit risk",
+   "parent": "fixed-income",
+   "order": 5.0,
+   "summary": "The chance a borrower doesn't pay in full, and how ratings, spreads and recovery rates measure it.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "fixed income",
+    "credit",
+    "default"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "fixed-income",
+    "credit-risk"
+   ],
+   "branch": "fixed-income",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Credit risk</strong> is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's.</p>\n<h2>Why it matters</h2>\n<p>Credit risk is the killer for <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise.</p>\n<h2>How it works</h2>\n<p><strong>Ratings.</strong> Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards.</p>\n<ul>\n<li><strong>Investment grade:</strong> BBB− (Baa3) and above.</li>\n<li><strong>High yield</strong> (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling.</li>\n</ul>\n<p><strong>Spreads.</strong> The <strong>credit spread</strong> is the extra yield over a comparable government bond.</p>\n<p><strong>Worked example (fictional figures):</strong> a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written <strong>200 basis points</strong> (one basis point is 0.01%).</p>\n<p><strong>Recovery.</strong> Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Ratings lag.</strong> Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.</li>\n<li><strong>Spreads jump together.</strong> In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Governments can default too</strong>, especially on debt in a currency they can't create. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> extra yield is payment for extra risk. Ask what the spread is paying you to worry about.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests?</p><details><summary>Show answer</summary><p>Because it crosses from investment grade to high yield. Funds that may hold only investment-grade bonds may have to sell, all at once.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-sovereign-loop",
+    "bonds",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "correlation"
+   ],
+   "stub": false,
+   "text": "What it is Credit risk is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's. Why it matters Credit risk is the killer for bonds on the Cartography of Wealth: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise. How it works Ratings. Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards. Investment grade: BBB− (Baa3) and above. High yield (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling. Spreads. The credit spread is the extra yield over a comparable government bond. Worked example (fictional figures): a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written 200 basis points (one basis point is 0.01%). Recovery. Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See claims and liabilities. What goes wrong Ratings lag. Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted. Spreads jump together. In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See correlation. Governments can default too , especially on debt in a currency they can't create. See bank sovereign loop. Key rule: extra yield is payment for extra risk. Ask what the spread is paying you to worry about. Check yourself Q: A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests? A: Because it crosses from investment grade to high yield. Funds that may hold only investment grade bonds may have to sell, all at once.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
+   "backlinks": [
+    "bonds",
+    "fixed-income"
    ],
    "backlinksAdv": []
   },
@@ -1703,11 +1834,15 @@ window.MUDMAP = {
    "title": "Duration",
    "short": "",
    "parent": "fixed-income",
-   "order": 4.0,
-   "summary": "How much a bond's price moves when interest rates move.",
+   "order": 7.0,
+   "summary": "A single number for how much a bond's price moves when interest rates move.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "fixed income",
+    "bonds",
+    "risk"
+   ],
    "sources": [],
    "level": "advanced",
    "group": "",
@@ -1721,11 +1856,14 @@ window.MUDMAP = {
    ],
    "branch": "fixed-income",
    "adv": true,
-   "html": "<p>How much a bond's price moves when interest rates move.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Duration</strong> measures how sensitive a bond's price is to interest rates. <strong>Modified duration</strong> gives the approximate percentage price change for a one-percentage-point change in yield.</p>\n<h2>Why it matters</h2>\n<p>Two bonds can have the same maturity and very different rate risk. Duration lets you compare them, and add them up across a whole portfolio. It's how banks, pension funds and fund managers measure how much a rate rise will hurt.</p>\n<h2>How it works</h2>\n<p><strong>Macaulay duration</strong> is the average time until you receive the bond's payments, weighted by how much each is worth today. <strong>Modified duration</strong> is Macaulay duration divided by (1 + yield).</p>\n<p><strong>Worked example (fictional figures):</strong> the 3-year, 5% bond from <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a>, priced at a 5% yield.</p>\n<ul>\n<li>Macaulay duration ≈ <strong>2.86</strong> years.</li>\n<li>Modified duration ≈ <strong>2.72</strong>.</li>\n<li>So a one-point rise in yield, from 5% to 6%, should cut the price by about <strong>2.72%</strong>. The exact fall is about 2.67%.</li>\n</ul>\n<p>For a 10-year version of the same bond, modified duration is about <strong>7.72</strong>, so the same rate rise cuts its price by roughly 7–8%.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>More duration (more rate risk)</th>\n<th>Less duration (less rate risk)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Longer maturity</td>\n<td>Shorter maturity</td>\n</tr>\n<tr>\n<td>Lower coupon</td>\n<td>Higher coupon</td>\n</tr>\n<tr>\n<td>Lower yields</td>\n<td>Higher yields</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Big moves.</strong> Duration is a straight-line estimate; for large rate changes it overstates losses and understates gains (the gap is <strong>convexity</strong>).</li>\n<li><strong>Mismatches.</strong> A bank whose assets have far longer duration than its deposits can be badly hurt by a rate rise, as Silicon Valley Bank was in 2023. See <a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> duration × change in rates ≈ change in price. Know your duration before rates move.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond fund has a modified duration of 6. Rates rise by half a percentage point. Roughly how much does the fund's value change?</p><details><summary>Show answer</summary><p>It falls by about 3% (6 × 0.5).</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How much a bond's price moves when interest rates move.",
+   "links": [
+    "bank-capital-and-liquidity",
+    "bond-pricing"
+   ],
+   "stub": false,
+   "text": "What it is Duration measures how sensitive a bond's price is to interest rates. Modified duration gives the approximate percentage price change for a one percentage point change in yield. Why it matters Two bonds can have the same maturity and very different rate risk. Duration lets you compare them, and add them up across a whole portfolio. It's how banks, pension funds and fund managers measure how much a rate rise will hurt. How it works Macaulay duration is the average time until you receive the bond's payments, weighted by how much each is worth today. Modified duration is Macaulay duration divided by (1 + yield). Worked example (fictional figures): the 3 year, 5% bond from bond pricing, priced at a 5% yield. Macaulay duration ≈ 2.86 years. Modified duration ≈ 2.72 . So a one point rise in yield, from 5% to 6%, should cut the price by about 2.72% . The exact fall is about 2.67%. For a 10 year version of the same bond, modified duration is about 7.72 , so the same rate rise cuts its price by roughly 7–8%. More duration (more rate risk) Less duration (less rate risk) Longer maturity Shorter maturity Lower coupon Higher coupon Lower yields Higher yields What goes wrong Big moves. Duration is a straight line estimate; for large rate changes it overstates losses and understates gains (the gap is convexity ). Mismatches. A bank whose assets have far longer duration than its deposits can be badly hurt by a rate rise, as Silicon Valley Bank was in 2023. See bank capital and liquidity. Key rule: duration × change in rates ≈ change in price. Know your duration before rates move. Check yourself Q: A bond fund has a modified duration of 6. Rates rise by half a percentage point. Roughly how much does the fund's value change? A: It falls by about 3% (6 × 0.5).",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1735,8 +1873,13 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
-   "backlinks": [],
-   "backlinksAdv": []
+   "backlinks": [
+    "bond-pricing",
+    "fixed-income"
+   ],
+   "backlinksAdv": [
+    "fixed-income"
+   ]
   },
   "equities": {
    "id": "equities",
@@ -1884,10 +2027,13 @@ window.MUDMAP = {
    "short": "",
    "parent": "capital-system",
    "order": 6.0,
-   "summary": "Lending money for a promised return: T-bills, government and corporate bonds.",
+   "summary": "Lending money for a promised return: T-bills, bonds, how they're priced, what moves them, and what can make them fail.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "fixed income",
+    "bonds"
+   ],
    "sources": [],
    "level": "basic",
    "group": "What you can own",
@@ -1900,16 +2046,34 @@ window.MUDMAP = {
    ],
    "branch": "fixed-income",
    "adv": false,
-   "html": "<p>Lending money for a promised return: T-bills, government and corporate bonds.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Lending money for a promised return: T bills, government and corporate bonds.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Fixed income</strong> means lending money in return for a promise: regular interest, and your money back on a set date. The borrower might be a government, a company or a city. The promise is written in a <strong>bond</strong> (or, for short loans to governments, a <strong>bill</strong>), and most bonds can be bought and sold before they are repaid.</p>\n<h2>Why it exists</h2>\n<p>Governments and companies need to borrow for long periods; savers want a predictable income. Bonds connect the two, and because they can be traded, a lender doesn't have to wait years to get money back. Bond markets also set the interest rates that ripple into mortgages, loans and the value of every other asset.</p>\n<p>In the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a>, bonds sit just above money itself: a promise to pay money in the future.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — short-term government debt: the closest thing to cash that pays interest, and the usual \"risk-free\" benchmark.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — what a bond is: face value, coupon, maturity and issuer.</li>\n<li><a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a> — why bond prices fall when interest rates rise, and what \"yield\" means.</li>\n<li><a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — interest rates across different loan lengths, and what its shape signals.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — the chance the borrower doesn't pay, and how ratings and spreads measure it.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation-linked-bonds\" data-page=\"inflation-linked-bonds\">Inflation-Linked Bonds</a> — bonds whose payments rise with prices.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Risk</th>\n<th>What it is</th>\n<th>Hits hardest</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Interest-rate risk</strong></td>\n<td>Prices fall when rates rise</td>\n<td>Long-dated bonds</td>\n</tr>\n<tr>\n<td><strong>Credit risk</strong></td>\n<td>The borrower can't pay in full</td>\n<td>Weak companies and governments</td>\n</tr>\n<tr>\n<td><strong>Inflation risk</strong></td>\n<td>Fixed payments buy less</td>\n<td>Long-dated, fixed-rate bonds</td>\n</tr>\n<tr>\n<td><strong>Liquidity risk</strong></td>\n<td>Hard to sell without a big discount</td>\n<td>Small or unusual issues</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Rising rates.</strong> A safe government bond can still lose a lot of value before it matures if rates jump. This is what sank Silicon Valley Bank in 2023. See <a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a>.</li>\n<li><strong>Default.</strong> The killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is only someone else's promise to pay.</li>\n<li><strong>Inflation</strong> quietly eats fixed payments, which is why <a class=\"wl\" href=\"#/map/p/inflation-linked-bonds\" data-page=\"inflation-linked-bonds\">Inflation-Linked Bonds</a> exist.</li>\n<li><strong>Reaching for yield.</strong> Higher yields usually mean higher risk; a bond paying far more than government debt is telling you something.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a bond's return is fixed only if you hold it to the end and the borrower pays. Before then, its price moves with interest rates and with trust in the borrower.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — every bond price is a present value.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — central banks set short rates and buy bonds, which moves the whole market.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a> — banks hold large amounts of government bonds.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the main enemy of fixed payments.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own a government bond that will certainly be repaid in full in ten years. Can you still lose money on it?</p><details><summary>Show answer</summary><p>Yes, if you sell before maturity. If interest rates rise, new bonds pay more, so yours is worth less on the market. Held to maturity, you get the promised payments, but they may buy less after inflation.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do riskier borrowers have to pay higher interest?</p><details><summary>Show answer</summary><p>Because lenders need to be paid for the chance of not getting their money back. The extra yield over government debt is the market's price for that risk.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Duration.</strong> A single number estimates how sensitive a bond's price is to a change in interest rates — roughly the percentage price change for a one-percentage-point move. See <a class=\"wl\" href=\"#/map/p/duration\" data-page=\"duration\" data-adv=\"1\">Duration</a>.</li>\n<li><strong>Convexity.</strong> That estimate is a straight line; real prices curve, falling a little less than predicted when rates rise and rising a little more when rates fall.</li>\n</ul></section>",
+   "links": [
+    "bank-capital-and-liquidity",
+    "bank-sovereign-loop",
+    "bond-pricing",
+    "bonds",
+    "cartography-of-wealth",
+    "central-bank-money",
+    "credit-risk",
+    "duration",
+    "hierarchy-of-money",
+    "inflation",
+    "inflation-linked-bonds",
+    "t-bills",
+    "time-value-of-money",
+    "yield-curve"
+   ],
+   "stub": false,
+   "text": "What it is Fixed income means lending money in return for a promise: regular interest, and your money back on a set date. The borrower might be a government, a company or a city. The promise is written in a bond (or, for short loans to governments, a bill ), and most bonds can be bought and sold before they are repaid. Why it exists Governments and companies need to borrow for long periods; savers want a predictable income. Bonds connect the two, and because they can be traded, a lender doesn't have to wait years to get money back. Bond markets also set the interest rates that ripple into mortgages, loans and the value of every other asset. In the hierarchy of money, bonds sit just above money itself: a promise to pay money in the future. How it works t bills — short term government debt: the closest thing to cash that pays interest, and the usual \"risk free\" benchmark. bonds — what a bond is: face value, coupon, maturity and issuer. bond pricing — why bond prices fall when interest rates rise, and what \"yield\" means. yield curve — interest rates across different loan lengths, and what its shape signals. credit risk — the chance the borrower doesn't pay, and how ratings and spreads measure it. inflation linked bonds — bonds whose payments rise with prices. Risk What it is Hits hardest Interest rate risk Prices fall when rates rise Long dated bonds Credit risk The borrower can't pay in full Weak companies and governments Inflation risk Fixed payments buy less Long dated, fixed rate bonds Liquidity risk Hard to sell without a big discount Small or unusual issues What goes wrong Rising rates. A safe government bond can still lose a lot of value before it matures if rates jump. This is what sank Silicon Valley Bank in 2023. See bank capital and liquidity. Default. The killer on the Cartography of Wealth: a bond is only someone else's promise to pay. Inflation quietly eats fixed payments, which is why inflation linked bonds exist. Reaching for yield. Higher yields usually mean higher risk; a bond paying far more than government debt is telling you something. Key rule: a bond's return is fixed only if you hold it to the end and the borrower pays. Before then, its price moves with interest rates and with trust in the borrower. Connects to time value of money — every bond price is a present value. central bank money — central banks set short rates and buy bonds, which moves the whole market. bank sovereign loop — banks hold large amounts of government bonds. inflation — the main enemy of fixed payments. Check yourself Q: You own a government bond that will certainly be repaid in full in ten years. Can you still lose money on it? A: Yes, if you sell before maturity. If interest rates rise, new bonds pay more, so yours is worth less on the market. Held to maturity, you get the promised payments, but they may buy less after inflation. Q: Why do riskier borrowers have to pay higher interest? A: Because lenders need to be paid for the chance of not getting their money back. The extra yield over government debt is the market's price for that risk.",
+   "textDeep": "Going deeper Duration. A single number estimates how sensitive a bond's price is to a change in interest rates — roughly the percentage price change for a one percentage point move. See duration. Convexity. That estimate is a straight line; real prices curve, falling a little less than predicted when rates rise and rising a little more when rates fall.",
    "children": [
     "t-bills",
     "bonds",
+    "bond-pricing",
     "yield-curve",
+    "credit-risk",
+    "inflation-linked-bonds",
     "duration"
    ],
    "jobs": [],
@@ -2298,6 +2462,7 @@ window.MUDMAP = {
     "central-bank-money",
     "digital-assets",
     "eurodollars",
+    "fixed-income",
     "gold",
     "inflation",
     "money",
@@ -2442,6 +2607,54 @@ window.MUDMAP = {
    "backlinks": [],
    "backlinksAdv": []
   },
+  "inflation-linked-bonds": {
+   "id": "inflation-linked-bonds",
+   "title": "Inflation-Linked Bonds",
+   "short": "Inflation-linked",
+   "parent": "fixed-income",
+   "order": 6.0,
+   "summary": "Government bonds whose principal and payments rise with a price index, protecting the real value of what you lent.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "fixed income",
+    "inflation"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "fixed-income",
+    "inflation-linked-bonds"
+   ],
+   "branch": "fixed-income",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>An <strong>inflation-linked bond</strong> adjusts its principal in line with a consumer price index. Because the coupon is paid on the adjusted principal, both the interest and the final repayment rise with inflation. Many governments issue them.</p>\n<h2>Why it exists</h2>\n<p>Ordinary bonds pay fixed amounts, so unexpected <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> quietly cuts what they're worth in real terms. Inflation-linked bonds pass that risk back to the issuer and lock in a <strong>real</strong> return instead of a nominal one.</p>\n<h2>How it works</h2>\n<p><strong>Worked example (fictional figures):</strong> a bond with a principal of 1,000 and a 1% real coupon. Prices rise 3% over the year.</p>\n<ul>\n<li>The principal is adjusted to <strong>1,030</strong>.</li>\n<li>The coupon is 1% of 1,030: <strong>10.30</strong>.</li>\n<li>At maturity, the adjusted principal is repaid.</li>\n</ul>\n<p><strong>Breakeven inflation.</strong> The gap between an ordinary government bond's yield and an inflation-linked bond's yield of the same maturity shows the inflation rate the market expects. If inflation turns out higher than that, the inflation-linked bond does better.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Rate risk still applies.</strong> If <em>real</em> interest rates rise, inflation-linked bond prices fall like any other bond's.</li>\n<li><strong>The index may not match your costs.</strong> It tracks an average basket, not your own spending.</li>\n<li><strong>Deflation.</strong> Payments can shrink when prices fall, though many issuers guarantee at least the original principal at maturity.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> inflation-linked bonds protect against inflation, not against changes in interest rates.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An ordinary ten-year government bond yields 4% and an inflation-linked one of the same maturity yields 1.5%. Roughly what inflation rate is the market expecting?</p><details><summary>Show answer</summary><p>About 2.5% a year — the difference between the two yields, called breakeven inflation.</p></details></div>",
+   "deep": "",
+   "links": [
+    "inflation"
+   ],
+   "stub": false,
+   "text": "What it is An inflation linked bond adjusts its principal in line with a consumer price index. Because the coupon is paid on the adjusted principal, both the interest and the final repayment rise with inflation. Many governments issue them. Why it exists Ordinary bonds pay fixed amounts, so unexpected inflation quietly cuts what they're worth in real terms. Inflation linked bonds pass that risk back to the issuer and lock in a real return instead of a nominal one. How it works Worked example (fictional figures): a bond with a principal of 1,000 and a 1% real coupon. Prices rise 3% over the year. The principal is adjusted to 1,030 . The coupon is 1% of 1,030: 10.30 . At maturity, the adjusted principal is repaid. Breakeven inflation. The gap between an ordinary government bond's yield and an inflation linked bond's yield of the same maturity shows the inflation rate the market expects. If inflation turns out higher than that, the inflation linked bond does better. What goes wrong Rate risk still applies. If real interest rates rise, inflation linked bond prices fall like any other bond's. The index may not match your costs. It tracks an average basket, not your own spending. Deflation. Payments can shrink when prices fall, though many issuers guarantee at least the original principal at maturity. Key rule: inflation linked bonds protect against inflation, not against changes in interest rates. Check yourself Q: An ordinary ten year government bond yields 4% and an inflation linked one of the same maturity yields 1.5%. Roughly what inflation rate is the market expecting? A: About 2.5% a year — the difference between the two yields, called breakeven inflation.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
+   "backlinks": [
+    "bonds",
+    "fixed-income"
+   ],
+   "backlinksAdv": []
+  },
   "inflation": {
    "id": "inflation",
    "title": "Inflation",
@@ -2497,7 +2710,10 @@ window.MUDMAP = {
     "cash-and-fiat",
     "central-bank-money",
     "compounding",
+    "fixed-income",
     "foundation",
+    "inflation-linked-bonds",
+    "t-bills",
     "time-value-of-money",
     "what-is-money"
    ],
@@ -3983,6 +4199,7 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "hierarchy-of-money",
     "money",
+    "t-bills",
     "tokens"
    ],
    "backlinksAdv": []
@@ -3990,13 +4207,17 @@ window.MUDMAP = {
   "t-bills": {
    "id": "t-bills",
    "title": "Treasury Bills",
-   "short": "",
+   "short": "T-bills",
    "parent": "fixed-income",
    "order": 1.0,
-   "summary": "Short-term government debt: the closest thing to cash that pays interest.",
+   "summary": "Short-term government debt sold at a discount: the closest thing to cash that pays interest, and the usual \"risk-free\" benchmark.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "fixed income",
+    "government debt",
+    "cash"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -4010,11 +4231,14 @@ window.MUDMAP = {
    ],
    "branch": "fixed-income",
    "adv": false,
-   "html": "<p>Short-term government debt: the closest thing to cash that pays interest.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>Treasury bill</strong> (T-bill) is a short loan to a government, usually for a year or less. It pays no coupon. Instead it is sold for less than its face value and repaid at full face value; the difference is the interest.</p>\n<h2>Why it matters</h2>\n<p>T-bills are about as close to cash as an investment gets: short, issued by a government that borrows in its own currency, and easy to sell. That makes their rate the benchmark <strong>risk-free rate</strong> that other returns are measured against. Money market funds, banks, central banks and many <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">stablecoin</a> issuers hold large amounts of them.</p>\n<h2>How it works</h2>\n<p><strong>Worked example (fictional figures):</strong> a one-year bill with a face value of 10,000 sells for 9,800. At maturity you receive 10,000.</p>\n<ul>\n<li>Interest earned: 200.</li>\n<li>Return: 200 ÷ 9,800 ≈ <strong>2.04%</strong> for the year.</li>\n</ul>\n<p>Because they're so short, T-bill prices barely move when interest rates change. Their yield follows the central bank's policy rate closely.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Inflation.</strong> A T-bill can't lose much in money terms, but if inflation runs above its yield, its real return is negative. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>Government default.</strong> Rare for governments that borrow in their own currency, but not impossible, and political standoffs over borrowing limits have unsettled bill markets.</li>\n<li><strong>Rolling over.</strong> Rates on new bills change every time old ones mature, so income isn't locked in.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> T-bills protect you from price swings and most default risk, not from inflation or from falling rates when you reinvest.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does a T-bill's price barely change when interest rates rise, while a 30-year bond's price can fall sharply?</p><details><summary>Show answer</summary><p>Because the T-bill matures within months, so you soon get your money back to reinvest at the new rate. A 30-year bond locks in the old rate for decades, so its price must fall to compete with new bonds.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Short term government debt: the closest thing to cash that pays interest.",
+   "links": [
+    "inflation",
+    "stablecoins"
+   ],
+   "stub": false,
+   "text": "What it is A Treasury bill (T bill) is a short loan to a government, usually for a year or less. It pays no coupon. Instead it is sold for less than its face value and repaid at full face value; the difference is the interest. Why it matters T bills are about as close to cash as an investment gets: short, issued by a government that borrows in its own currency, and easy to sell. That makes their rate the benchmark risk free rate that other returns are measured against. Money market funds, banks, central banks and many stablecoin issuers hold large amounts of them. How it works Worked example (fictional figures): a one year bill with a face value of 10,000 sells for 9,800. At maturity you receive 10,000. Interest earned: 200. Return: 200 ÷ 9,800 ≈ 2.04% for the year. Because they're so short, T bill prices barely move when interest rates change. Their yield follows the central bank's policy rate closely. What goes wrong Inflation. A T bill can't lose much in money terms, but if inflation runs above its yield, its real return is negative. See inflation. Government default. Rare for governments that borrow in their own currency, but not impossible, and political standoffs over borrowing limits have unsettled bill markets. Rolling over. Rates on new bills change every time old ones mature, so income isn't locked in. Key rule: T bills protect you from price swings and most default risk, not from inflation or from falling rates when you reinvest. Check yourself Q: Why does a T bill's price barely change when interest rates rise, while a 30 year bond's price can fall sharply? A: Because the T bill matures within months, so you soon get your money back to reinvest at the new rate. A 30 year bond locks in the old rate for decades, so its price must fall to compete with new bonds.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4025,6 +4249,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "bonds",
+    "fixed-income",
     "hierarchy-of-money",
     "liquidity",
     "money",
@@ -4121,7 +4347,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "bond-pricing",
     "compounding",
+    "fixed-income",
     "foundation",
     "inflation",
     "risk-and-return"
@@ -4389,11 +4617,15 @@ window.MUDMAP = {
    "title": "The Yield Curve",
    "short": "",
    "parent": "fixed-income",
-   "order": 3.0,
-   "summary": "Interest rates across different loan lengths, and what its shape signals.",
+   "order": 4.0,
+   "summary": "Interest rates across different loan lengths, and what its shape says about expected rates and the economy.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "fixed income",
+    "interest rates",
+    "macro"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -4407,11 +4639,14 @@ window.MUDMAP = {
    ],
    "branch": "fixed-income",
    "adv": false,
-   "html": "<p>Interest rates across different loan lengths, and what its shape signals.</p>",
+   "html": "<h2>What it is</h2>\n<p>The <strong>yield curve</strong> is a line showing the yields on one borrower's bonds — usually a government's — across different maturities, from a few months to thirty years or more.</p>\n<h2>Why it matters</h2>\n<p>The curve sums up what markets expect from interest rates and the economy. It sets the base for loan and mortgage rates of every length, and its shape is one of the most watched signals in finance.</p>\n<h2>How it works</h2>\n<p>Long-term yields reflect two things:</p>\n<ul>\n<li><strong>Expected short-term rates</strong> over the life of the bond.</li>\n<li><strong>A term premium:</strong> extra yield for tying money up longer and carrying more <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">price risk</a>.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Shape</th>\n<th>What it looks like</th>\n<th>Usual reading</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Normal (upward-sloping)</strong></td>\n<td>Long yields above short yields</td>\n<td>Lenders want more for lending longer; growth expected</td>\n</tr>\n<tr>\n<td><strong>Flat</strong></td>\n<td>Similar yields at all lengths</td>\n<td>Uncertainty; a turning point</td>\n</tr>\n<tr>\n<td><strong>Inverted</strong></td>\n<td>Short yields above long yields</td>\n<td>Markets expect rates to fall, often because they expect a slowdown</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>The short end</strong> is anchored by the central bank's policy rate. <strong>The long end</strong> is set by the market, and by central banks when they buy or sell long-dated bonds. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Reading it as a forecast.</strong> In the United States, an inverted curve has often come before recessions, but not every time, and the delay has varied widely. It's a signal, not a schedule.</li>\n<li><strong>Borrowing short to lend long.</strong> Banks and others that fund long-dated assets with short-term money get squeezed when short rates rise above long ones.</li>\n<li><strong>Distortion.</strong> Large central-bank bond buying can push long yields down, muting the signal.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the yield curve is the market's view of future rates, plus a reward for waiting. Read its shape as a mood, not a prophecy.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Short-term yields are 5% and ten-year yields are 4%. What shape is the curve, and what does it usually suggest?</p><details><summary>Show answer</summary><p>Inverted. It usually suggests markets expect short-term rates to fall in future, often because they expect the economy to slow.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Interest rates across different loan lengths, and what its shape signals.",
+   "links": [
+    "bond-pricing",
+    "central-bank-money"
+   ],
+   "stub": false,
+   "text": "What it is The yield curve is a line showing the yields on one borrower's bonds — usually a government's — across different maturities, from a few months to thirty years or more. Why it matters The curve sums up what markets expect from interest rates and the economy. It sets the base for loan and mortgage rates of every length, and its shape is one of the most watched signals in finance. How it works Long term yields reflect two things: Expected short term rates over the life of the bond. A term premium: extra yield for tying money up longer and carrying more price risk. Shape What it looks like Usual reading Normal (upward sloping) Long yields above short yields Lenders want more for lending longer; growth expected Flat Similar yields at all lengths Uncertainty; a turning point Inverted Short yields above long yields Markets expect rates to fall, often because they expect a slowdown The short end is anchored by the central bank's policy rate. The long end is set by the market, and by central banks when they buy or sell long dated bonds. See central bank money. What goes wrong Reading it as a forecast. In the United States, an inverted curve has often come before recessions, but not every time, and the delay has varied widely. It's a signal, not a schedule. Borrowing short to lend long. Banks and others that fund long dated assets with short term money get squeezed when short rates rise above long ones. Distortion. Large central bank bond buying can push long yields down, muting the signal. Key rule: the yield curve is the market's view of future rates, plus a reward for waiting. Read its shape as a mood, not a prophecy. Check yourself Q: Short term yields are 5% and ten year yields are 4%. What shape is the curve, and what does it usually suggest? A: Inverted. It usually suggests markets expect short term rates to fall in future, often because they expect the economy to slow.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4421,7 +4656,9 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "fixed-income"
+   ],
    "backlinksAdv": []
   }
  },
@@ -4845,8 +5082,20 @@ window.MUDMAP = {
        "note": "Pricing a bond as a present value"
       },
       {
+       "page": "bond-pricing",
+       "note": "Prices, yields and why they move in opposite directions"
+      },
+      {
        "page": "yield-curve",
        "note": "Yields across maturities"
+      },
+      {
+       "page": "credit-risk",
+       "note": "Default, ratings and spreads"
+      },
+      {
+       "page": "inflation-linked-bonds",
+       "note": "Bonds that protect against inflation"
       },
       {
        "page": "duration",
@@ -4963,7 +5212,10 @@ window.MUDMAP = {
     "valuation",
     "t-bills",
     "bonds",
+    "bond-pricing",
     "yield-curve",
+    "credit-risk",
+    "inflation-linked-bonds",
     "duration",
     "futures",
     "options",
@@ -5536,5 +5788,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 09:43 UTC"
+ "built": "2026-10-25 10:16 UTC"
 };
