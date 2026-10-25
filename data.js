@@ -4,7 +4,7 @@ window.MUDMAP = {
  "about": {
   "title": "About The Capital Map",
   "summary": "A free, independent reference to money, markets and assets, on one connected map.",
-  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Cartography</strong> — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
+  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid live prices and forecasts. Dated figures are history, such as a crash or a rule change, credited to their source.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Cartography</strong> — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
  },
  "privacy": {
   "title": "Privacy",
@@ -105,6 +105,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
    "backlinks": [
@@ -480,7 +488,8 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "consensus",
     "digital-assets",
-    "native-coins"
+    "native-coins",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": []
   },
@@ -513,20 +522,22 @@ window.MUDMAP = {
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>blockchain</strong> is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers (<strong>nodes</strong>) keep their own copy and check every new block against the same rules.</p>\n<h2>Why it exists</h2>\n<p>A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it.</p>\n<h2>How it works</h2>\n<p>Three ideas explain almost everything:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — how thousands of strangers agree on one history, and what it costs to cheat.</li>\n<li><a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a> — what you actually own: a secret key that lets you move coins recorded on the ledger.</li>\n<li><a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a> — what happens when the rules change, or someone copies the whole ledger onto a new chain.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>What it does</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Transactions</td>\n<td>Signed instructions to move coins or call a program</td>\n</tr>\n<tr>\n<td>Blocks</td>\n<td>Batches of transactions, each linked to the one before</td>\n</tr>\n<tr>\n<td>Nodes</td>\n<td>Computers that keep a copy and check the rules</td>\n</tr>\n<tr>\n<td>Consensus</td>\n<td>The method for deciding which new block is accepted</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Weak consensus.</strong> A small network can be attacked by anyone who controls enough mining power or stake.</li>\n<li><strong>Bugs in the rules.</strong> Software errors in the protocol itself are rare on large chains but possible.</li>\n<li><strong>Centralised control.</strong> If a few parties run most of the nodes or validators, the network can be pressured or halted.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a blockchain is only as trustless as its consensus is expensive to attack and widely spread.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">What problem does a blockchain solve that a simple shared spreadsheet doesn't?</p><details><summary>Show answer</summary><p>It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>blockchain</strong> is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers (<strong>nodes</strong>) keep their own copy and check every new block against the same rules.</p>\n<h2>Why it exists</h2>\n<p>A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it.</p>\n<h2>How it works</h2>\n<p>Three ideas explain almost everything:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — how thousands of strangers agree on one history, and what it costs to cheat.</li>\n<li><a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a> — what you actually own: a secret key that lets you move coins recorded on the ledger.</li>\n<li><a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a> — what happens when the rules change, or someone copies the whole ledger onto a new chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/privacy-and-traceability\" data-page=\"privacy-and-traceability\">Privacy and Traceability</a> — why a public ledger is pseudonymous, not anonymous, and how coins get linked back to people.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>What it does</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Transactions</td>\n<td>Signed instructions to move coins or call a program</td>\n</tr>\n<tr>\n<td>Blocks</td>\n<td>Batches of transactions, each linked to the one before</td>\n</tr>\n<tr>\n<td>Nodes</td>\n<td>Computers that keep a copy and check the rules</td>\n</tr>\n<tr>\n<td>Consensus</td>\n<td>The method for deciding which new block is accepted</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Weak consensus.</strong> A small network can be attacked by anyone who controls enough mining power or stake.</li>\n<li><strong>Bugs in the rules.</strong> Software errors in the protocol itself are rare on large chains but possible.</li>\n<li><strong>Centralised control.</strong> If a few parties run most of the nodes or validators, the network can be pressured or halted.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a blockchain is only as trustless as its consensus is expensive to attack and widely spread.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">What problem does a blockchain solve that a simple shared spreadsheet doesn't?</p><details><summary>Show answer</summary><p>It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.</p></details></div>",
    "deep": "",
    "links": [
     "consensus",
     "forks",
-    "keys-and-wallets"
+    "keys-and-wallets",
+    "privacy-and-traceability"
    ],
    "stub": false,
-   "text": "What it is A blockchain is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers ( nodes ) keep their own copy and check every new block against the same rules. Why it exists A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it. How it works Three ideas explain almost everything: consensus — how thousands of strangers agree on one history, and what it costs to cheat. keys and wallets — what you actually own: a secret key that lets you move coins recorded on the ledger. forks — what happens when the rules change, or someone copies the whole ledger onto a new chain. Part What it does Transactions Signed instructions to move coins or call a program Blocks Batches of transactions, each linked to the one before Nodes Computers that keep a copy and check the rules Consensus The method for deciding which new block is accepted What goes wrong Weak consensus. A small network can be attacked by anyone who controls enough mining power or stake. Bugs in the rules. Software errors in the protocol itself are rare on large chains but possible. Centralised control. If a few parties run most of the nodes or validators, the network can be pressured or halted. Key rule: a blockchain is only as trustless as its consensus is expensive to attack and widely spread. Check yourself Q: What problem does a blockchain solve that a simple shared spreadsheet doesn't? A: It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.",
+   "text": "What it is A blockchain is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers ( nodes ) keep their own copy and check every new block against the same rules. Why it exists A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it. How it works Three ideas explain almost everything: consensus — how thousands of strangers agree on one history, and what it costs to cheat. keys and wallets — what you actually own: a secret key that lets you move coins recorded on the ledger. forks — what happens when the rules change, or someone copies the whole ledger onto a new chain. privacy and traceability — why a public ledger is pseudonymous, not anonymous, and how coins get linked back to people. Part What it does Transactions Signed instructions to move coins or call a program Blocks Batches of transactions, each linked to the one before Nodes Computers that keep a copy and check the rules Consensus The method for deciding which new block is accepted What goes wrong Weak consensus. A small network can be attacked by anyone who controls enough mining power or stake. Bugs in the rules. Software errors in the protocol itself are rare on large chains but possible. Centralised control. If a few parties run most of the nodes or validators, the network can be pressured or halted. Key rule: a blockchain is only as trustless as its consensus is expensive to attack and widely spread. Check yourself Q: What problem does a blockchain solve that a simple shared spreadsheet doesn't? A: It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.",
    "textDeep": "",
    "children": [
     "consensus",
     "keys-and-wallets",
-    "forks"
+    "forks",
+    "privacy-and-traceability"
    ],
    "jobs": [],
    "quals": [
@@ -545,7 +556,8 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "data-sources",
-    "digital-assets"
+    "digital-assets",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": []
   },
@@ -938,6 +950,7 @@ window.MUDMAP = {
     "money",
     "personal-capital",
     "portfolio",
+    "privacy-and-traceability",
     "private-business",
     "real-assets",
     "real-estate",
@@ -1018,7 +1031,8 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "flow:where-money-comes-from",
     "inflation",
-    "money"
+    "money",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": []
   },
@@ -1267,7 +1281,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RA — Real Assets including Commodities"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "real-assets"
@@ -1320,6 +1339,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RA — Real Assets including Commodities"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-COM — Commodities"
     }
    ],
    "backlinks": [
@@ -1558,6 +1585,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
    "backlinks": [
@@ -1700,7 +1731,8 @@ window.MUDMAP = {
     "holding-crypto",
     "keys-and-wallets",
     "markets",
-    "perpetuals"
+    "perpetuals",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": [
     "perpetuals"
@@ -1798,7 +1830,8 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "charting",
-    "practice"
+    "practice",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": []
   },
@@ -2074,6 +2107,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
    "backlinks": [
@@ -2137,7 +2178,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
+    }
+   ],
    "backlinks": [
     "bitcoin",
     "charting",
@@ -2743,6 +2789,14 @@ window.MUDMAP = {
     {
      "q": "money-banking",
      "m": "MB5 — Banking as advance clearing: swaps and capital markets"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RA — Real Assets including Commodities"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-COM — Commodities"
     }
    ],
    "backlinks": [
@@ -3305,11 +3359,16 @@ window.MUDMAP = {
     {
      "q": "princeton-bitcoin",
      "m": "BTC4 — How to store and use bitcoins"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC6 — Bitcoin and anonymity"
     }
    ],
    "backlinks": [
     "bitcoin",
     "blockchains",
+    "privacy-and-traceability",
     "self-custody"
    ],
    "backlinksAdv": []
@@ -3417,6 +3476,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-DRM — Derivatives and Risk Management"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-PE — Private Equity"
     }
    ],
    "backlinks": [
@@ -3493,6 +3556,10 @@ window.MUDMAP = {
     {
      "q": "money-banking",
      "m": "MB6 — Money in the real world"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-INTRO — Introduction to Alternative Investments"
     }
    ],
    "backlinks": [
@@ -3554,6 +3621,10 @@ window.MUDMAP = {
     {
      "q": "money-banking",
      "m": "MB6 — Money in the real world"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
    "backlinks": [
@@ -3675,7 +3746,12 @@ window.MUDMAP = {
     "sharpe-ratio"
    ],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-INTRO — Introduction to Alternative Investments"
+    }
+   ],
    "backlinks": [
     "capital-system",
     "common-mistakes",
@@ -4255,6 +4331,71 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "privacy-and-traceability": {
+   "id": "privacy-and-traceability",
+   "title": "Privacy and Traceability",
+   "short": "Privacy",
+   "parent": "blockchains",
+   "order": 4.0,
+   "summary": "Why a public ledger is pseudonymous, not anonymous, and how coins get linked back to people.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "privacy",
+    "anonymity",
+    "chain analysis",
+    "regulation"
+   ],
+   "sources": [
+    "Narayanan et al., Bitcoin and Cryptocurrency Technologies (Princeton), ch. 6",
+    "FATF, Interpretive Note to Recommendation 15 (2019)",
+    "US Treasury OFAC, Tornado Cash designation (2022) and delisting (2025)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "blockchains",
+    "privacy-and-traceability"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A public blockchain records every transaction forever, where anyone can read it. It doesn't record names; it records <strong>addresses</strong>. That makes it <strong>pseudonymous</strong>, not anonymous: your identity is hidden only until something links an address to you. Once it is linked, your whole history on that address, and often on the addresses connected to it, becomes visible.</p>\n<h2>Why it matters</h2>\n<p>Bank records are private by default, but the bank and the state can see them. A public ledger is the reverse: anyone can see every payment, but not, at first, who made it. That sits behind the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> placing self-held crypto as \"private if done right\". Done carelessly, it can be the most traceable money there is, because the record can't be deleted.</p>\n<h2>How it works</h2>\n<p><strong>How addresses get linked to people:</strong></p>\n<ul>\n<li><strong>On-ramps and off-ramps.</strong> Exchanges and brokers that swap crypto for ordinary money must check customers' identity in most countries. Every coin that passes through them is tied to a name. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>The Travel Rule.</strong> Since 2019, the Financial Action Task Force's standards require crypto service providers to pass on details of who is sending and receiving transfers, much as banks do for wires. Countries set their own thresholds.</li>\n<li><strong>Clustering.</strong> Analysts group addresses that are probably controlled by the same person. A common rule: when one transaction spends coins from several addresses, those addresses likely share an owner, because one person had to sign for all of them.</li>\n<li><strong>Change and reuse.</strong> Spending usually sends leftover \"change\" to a new address of your own, which analysts try to spot. Reusing one address for many payments links them all directly.</li>\n<li><strong>Everyday leaks.</strong> Posting an address publicly, buying something delivered to your home, or the timing and amounts of payments can all connect an address to a person.</li>\n</ul>\n<p><strong>Chain analysis</strong> firms combine these clues at scale and sell the results to exchanges, banks and law enforcement. Their labels are estimates, not proof. See <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</p>\n<p><strong>Tools built for privacy:</strong></p>\n<ul>\n<li><strong>Mixers</strong> pool many users' coins and pay them out to fresh addresses, to break the visible link between sender and receiver.</li>\n<li><strong>Privacy coins</strong> such as Monero and Zcash use cryptography to hide amounts or the parties to a payment, by default or as an option.</li>\n</ul>\n<p>Both are under legal pressure. In August 2022 the US Treasury sanctioned the Ethereum mixer Tornado Cash. In November 2024 a US appeals court ruled that its self-running smart contracts weren't property that could be sanctioned, and the Treasury removed the sanctions in March 2025. Several exchanges have stopped listing privacy coins.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking pseudonymity for anonymity.</strong> Many people have been identified years later from a single linked address.</li>\n<li><strong>Permanent records.</strong> A payment that is private today may be traced tomorrow, as analysis improves and old data is joined to new.</li>\n<li><strong>Tainted coins.</strong> Coins linked to theft, sanctions or mixers can be frozen or refused by exchanges, even after passing through several honest hands.</li>\n<li><strong>Legal risk.</strong> Privacy tools are lawful in some places and restricted in others, and the rules keep changing.</li>\n<li><strong>Security trade-off.</strong> Publicly linking an address to your identity can tell others how much you hold, which is a physical security risk. See <a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> treat every address as public and permanent. Privacy on a public ledger is something you keep or lose with every transaction, not a feature you get by default.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a> — how addresses are made, and why a fresh one per payment helps.</li>\n<li><a class=\"wl\" href=\"#/map/p/blockchains\" data-page=\"blockchains\">How Blockchains Work</a> — the public record underneath.</li>\n<li><a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> — the ledger the Princeton course studies.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — physical cash: private, but limited in size and reach.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is Bitcoin called pseudonymous rather than anonymous?</p><details><summary>Show answer</summary><p>Because every transaction is public and permanent, and only names are left out. Once an address is linked to a person, for example through an exchange that checked their identity, their history on it can be read by anyone.</p></details></div>\n<div class=\"qa\"><p class=\"q\">One transaction spends coins from three different addresses. What do analysts usually assume, and why?</p><details><summary>Show answer</summary><p>That one person controls all three, because spending from each address needs its own key, and one transaction is usually signed by one owner.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bitcoin",
+    "blockchains",
+    "cartography-of-wealth",
+    "cash-and-fiat",
+    "custodial-crypto",
+    "data-sources",
+    "keys-and-wallets",
+    "self-custody"
+   ],
+   "stub": false,
+   "text": "What it is A public blockchain records every transaction forever, where anyone can read it. It doesn't record names; it records addresses . That makes it pseudonymous , not anonymous: your identity is hidden only until something links an address to you. Once it is linked, your whole history on that address, and often on the addresses connected to it, becomes visible. Why it matters Bank records are private by default, but the bank and the state can see them. A public ledger is the reverse: anyone can see every payment, but not, at first, who made it. That sits behind the Cartography of Wealth placing self held crypto as \"private if done right\". Done carelessly, it can be the most traceable money there is, because the record can't be deleted. How it works How addresses get linked to people: On ramps and off ramps. Exchanges and brokers that swap crypto for ordinary money must check customers' identity in most countries. Every coin that passes through them is tied to a name. See custodial crypto. The Travel Rule. Since 2019, the Financial Action Task Force's standards require crypto service providers to pass on details of who is sending and receiving transfers, much as banks do for wires. Countries set their own thresholds. Clustering. Analysts group addresses that are probably controlled by the same person. A common rule: when one transaction spends coins from several addresses, those addresses likely share an owner, because one person had to sign for all of them. Change and reuse. Spending usually sends leftover \"change\" to a new address of your own, which analysts try to spot. Reusing one address for many payments links them all directly. Everyday leaks. Posting an address publicly, buying something delivered to your home, or the timing and amounts of payments can all connect an address to a person. Chain analysis firms combine these clues at scale and sell the results to exchanges, banks and law enforcement. Their labels are estimates, not proof. See data sources. Tools built for privacy: Mixers pool many users' coins and pay them out to fresh addresses, to break the visible link between sender and receiver. Privacy coins such as Monero and Zcash use cryptography to hide amounts or the parties to a payment, by default or as an option. Both are under legal pressure. In August 2022 the US Treasury sanctioned the Ethereum mixer Tornado Cash. In November 2024 a US appeals court ruled that its self running smart contracts weren't property that could be sanctioned, and the Treasury removed the sanctions in March 2025. Several exchanges have stopped listing privacy coins. What goes wrong Mistaking pseudonymity for anonymity. Many people have been identified years later from a single linked address. Permanent records. A payment that is private today may be traced tomorrow, as analysis improves and old data is joined to new. Tainted coins. Coins linked to theft, sanctions or mixers can be frozen or refused by exchanges, even after passing through several honest hands. Legal risk. Privacy tools are lawful in some places and restricted in others, and the rules keep changing. Security trade off. Publicly linking an address to your identity can tell others how much you hold, which is a physical security risk. See self custody. Key rule: treat every address as public and permanent. Privacy on a public ledger is something you keep or lose with every transaction, not a feature you get by default. Connects to keys and wallets — how addresses are made, and why a fresh one per payment helps. blockchains — the public record underneath. bitcoin — the ledger the Princeton course studies. cash and fiat — physical cash: private, but limited in size and reach. Check yourself Q: Why is Bitcoin called pseudonymous rather than anonymous? A: Because every transaction is public and permanent, and only names are left out. Once an address is linked to a person, for example through an exchange that checked their identity, their history on it can be read by anyone. Q: One transaction spends coins from three different addresses. What do analysts usually assume, and why? A: That one person controls all three, because spending from each address needs its own key, and one transaction is usually signed by one owner.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC6 — Bitcoin and anonymity"
+    }
+   ],
+   "backlinks": [
+    "blockchains"
+   ],
+   "backlinksAdv": []
+  },
   "private-business": {
    "id": "private-business",
    "title": "Private Business",
@@ -4314,6 +4455,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-PE — Private Equity"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-PE — Private Equity"
     }
    ],
    "backlinks": [
@@ -4374,7 +4523,16 @@ window.MUDMAP = {
     "collectibles"
    ],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-INTRO — Introduction to Alternative Investments"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-RA — Real Assets"
+    }
+   ],
    "backlinks": [
     "asset-allocation",
     "capital-system",
@@ -4438,6 +4596,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RA — Real Assets including Commodities"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-RA — Real Assets"
     }
    ],
    "backlinks": [
@@ -4493,6 +4659,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
    "backlinks": [
@@ -4550,6 +4720,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RA — Real Assets including Commodities"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-RA — Real Assets"
     }
    ],
    "backlinks": [
@@ -4667,6 +4845,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-INTRO — Introduction to Alternative Investments"
     }
    ],
    "backlinks": [
@@ -4742,7 +4924,8 @@ window.MUDMAP = {
     "custody",
     "holding-crypto",
     "keys-and-wallets",
-    "markets"
+    "markets",
+    "privacy-and-traceability"
    ],
    "backlinksAdv": []
   },
@@ -4926,6 +5109,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-PC — Portfolio Construction"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
    "backlinks": [
@@ -5408,6 +5595,14 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-EQ — Equities"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-PE — Private Equity"
+    },
+    {
+     "q": "caia-l2",
+     "m": "CAIA2-PE — Private Equity"
     }
    ],
    "backlinks": [
@@ -5465,6 +5660,10 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-QM — Quantitative Methods"
+    },
+    {
+     "q": "caia-l1",
+     "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
    "backlinks": [
@@ -5828,13 +6027,12 @@ window.MUDMAP = {
    "short": "CAIA I",
    "order": 7.0,
    "summary": "An introduction to alternative investments: real assets and commodities, hedge funds, private equity and structured products.",
-   "intro": "<p>The Chartered Alternative Investment Analyst programme covers the assets outside listed shares and bonds. Topic names follow the CAIA Association's published curriculum; the association has announced new weights from 2027, so check the current outline before an exam.</p>",
+   "intro": "<p>The Chartered Alternative Investment Analyst programme covers the assets outside listed shares and bonds. Topic names follow the CAIA Association's published curriculum; the association has announced new weights from 2027, so check the current outline before an exam. The pages are reference notes in our own words, not the official study material, so use them alongside it.</p>",
    "meta": {
     "id": "caia-l1",
     "title": "CAIA — Level I",
     "short": "CAIA I",
     "order": 7.0,
-    "status": "planned",
     "summary": "An introduction to alternative investments: real assets and commodities, hedge funds, private equity and structured products."
    },
    "stages": [
@@ -5845,37 +6043,132 @@ window.MUDMAP = {
     },
     {
      "title": "CAIA1-INTRO — Introduction to Alternative Investments",
-     "items": [],
+     "items": [
+      {
+       "page": "risk-and-return",
+       "note": "Why investors look beyond listed shares and bonds"
+      },
+      {
+       "page": "real-assets",
+       "note": "The main kinds of alternative asset"
+      },
+      {
+       "page": "measure",
+       "note": "How alternative returns and risks are measured"
+      },
+      {
+       "page": "liquidity",
+       "note": "What illiquid assets cost, and pay"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA1-RA — Real Assets including Commodities",
-     "items": [],
+     "items": [
+      {
+       "page": "real-estate",
+       "note": "Direct property and leverage"
+      },
+      {
+       "page": "reits",
+       "note": "Listed property"
+      },
+      {
+       "page": "commodities",
+       "note": "Spot, futures and the roll"
+      },
+      {
+       "page": "futures",
+       "note": "The contracts commodities trade through"
+      },
+      {
+       "page": "collectibles",
+       "note": "Art, wine and other thin markets"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA1-HF — Hedge Funds",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: the map has no page on hedge funds. The Leverage, Options and Sharpe Ratio pages cover some of the tools they use."
     },
     {
      "title": "CAIA1-PE — Private Equity",
-     "items": [],
+     "items": [
+      {
+       "page": "private-business",
+       "note": "Private equity and venture capital"
+      },
+      {
+       "page": "valuation",
+       "note": "Multiples and discounted cash flow"
+      },
+      {
+       "page": "leverage",
+       "note": "Borrowing in buyouts"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA1-SP — Structured Products",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks."
     },
     {
      "title": "CAIA1-RMPM — Risk Management and Portfolio Management",
-     "items": [],
+     "items": [
+      {
+       "page": "diversification",
+       "note": "Spreading across risks"
+      },
+      {
+       "page": "correlation",
+       "note": "And why it rises in a crisis"
+      },
+      {
+       "page": "volatility",
+       "note": "Dispersion of returns"
+      },
+      {
+       "page": "drawdown",
+       "note": "The worst fall, and time underwater"
+      },
+      {
+       "page": "sharpe-ratio",
+       "note": "Return per unit of risk"
+      },
+      {
+       "page": "asset-allocation",
+       "note": "The mix across classes"
+      }
+     ],
      "note": ""
     }
    ],
-   "pages": [],
-   "status": "planned"
+   "pages": [
+    "risk-and-return",
+    "real-assets",
+    "measure",
+    "liquidity",
+    "real-estate",
+    "reits",
+    "commodities",
+    "futures",
+    "collectibles",
+    "private-business",
+    "valuation",
+    "leverage",
+    "diversification",
+    "correlation",
+    "volatility",
+    "drawdown",
+    "sharpe-ratio",
+    "asset-allocation"
+   ],
+   "status": "mapped"
   },
   "caia-l2": {
    "id": "caia-l2",
@@ -5883,13 +6176,12 @@ window.MUDMAP = {
    "short": "CAIA II",
    "order": 8.0,
    "summary": "Alternative investments in depth, and how institutions fit them into a whole portfolio.",
-   "intro": "<p>Level II goes deeper into each alternative asset and into how institutions allocate to them. Topic names follow the CAIA Association's published curriculum; check the current outline before an exam.</p>",
+   "intro": "<p>Level II goes deeper into each alternative asset and into how institutions allocate to them. Topic names follow the CAIA Association's published curriculum; check the current outline before an exam. The pages are reference notes in our own words, not the official study material, so use them alongside it.</p>",
    "meta": {
     "id": "caia-l2",
     "title": "CAIA — Level II",
     "short": "CAIA II",
     "order": 8.0,
-    "status": "planned",
     "summary": "Alternative investments in depth, and how institutions fit them into a whole portfolio."
    },
    "stages": [
@@ -5901,41 +6193,101 @@ window.MUDMAP = {
     {
      "title": "CAIA2-CIT — Current and Integrated Topics",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: current topics change each year, so they aren't mapped to fixed pages."
     },
     {
      "title": "CAIA2-AA — Asset Allocation and Institutional Investors",
-     "items": [],
+     "items": [
+      {
+       "page": "asset-allocation",
+       "note": "The mix across classes"
+      },
+      {
+       "page": "rebalancing",
+       "note": "Keeping the mix on target"
+      },
+      {
+       "page": "market-regimes",
+       "note": "How the mix behaves in different conditions"
+      },
+      {
+       "page": "diversification",
+       "note": "Spreading across risks"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA2-PE — Private Equity",
-     "items": [],
+     "items": [
+      {
+       "page": "private-business",
+       "note": "Private equity and venture capital"
+      },
+      {
+       "page": "valuation",
+       "note": "How private stakes are priced"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA2-RA — Real Assets",
-     "items": [],
+     "items": [
+      {
+       "page": "real-estate",
+       "note": "Direct property"
+      },
+      {
+       "page": "reits",
+       "note": "Listed against private property, and appraisal smoothing"
+      },
+      {
+       "page": "real-assets",
+       "note": "The branch as a whole"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA2-COM — Commodities",
-     "items": [],
+     "items": [
+      {
+       "page": "commodities",
+       "note": "Contango, backwardation and the roll"
+      },
+      {
+       "page": "futures",
+       "note": "Margin and marking to market"
+      }
+     ],
      "note": ""
     },
     {
      "title": "CAIA2-HF — Hedge Funds and Managed Futures",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: the map has no page on hedge funds or managed futures. The Futures and Leverage pages cover the tools."
     },
     {
      "title": "CAIA2-SP — Structured Products",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks."
     }
    ],
-   "pages": [],
-   "status": "planned"
+   "pages": [
+    "asset-allocation",
+    "rebalancing",
+    "market-regimes",
+    "diversification",
+    "private-business",
+    "valuation",
+    "real-estate",
+    "reits",
+    "real-assets",
+    "commodities",
+    "futures"
+   ],
+   "status": "mapped"
   },
   "cfa-l1": {
    "id": "cfa-l1",
@@ -6688,8 +7040,17 @@ window.MUDMAP = {
     },
     {
      "title": "BTC6 — Bitcoin and anonymity",
-     "items": [],
-     "note": "Not mapped yet: privacy and traceability on public ledgers need a page of their own."
+     "items": [
+      {
+       "page": "privacy-and-traceability",
+       "note": "Pseudonymity, clustering, mixers and privacy coins"
+      },
+      {
+       "page": "keys-and-wallets",
+       "note": "Fresh addresses and why reuse links payments"
+      }
+     ],
+     "note": ""
     },
     {
      "title": "BTC7 — Community, politics and regulation",
@@ -6778,6 +7139,7 @@ window.MUDMAP = {
     "holding-crypto",
     "self-custody",
     "custodial-crypto",
+    "privacy-and-traceability",
     "forks",
     "governance-tokens",
     "smart-contract-platforms",
@@ -6790,5 +7152,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 13:37 UTC"
+ "built": "2026-10-25 13:57 UTC"
 };
