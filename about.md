@@ -26,6 +26,11 @@ It lays the whole system out as one connected map. Each concept has one page. Ev
 
 The Capital Map is a sibling of The Supply Map and shares its engine.
 
+## Accuracy and corrections
+Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.
+
+**Spotted an error?** Send corrections to [@KernelYard on X](https://x.com/KernelYard).
+
 **Licence for this site.** The text of The Capital Map is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.
 
 ## Independence
