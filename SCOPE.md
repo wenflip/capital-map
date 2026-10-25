@@ -34,7 +34,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | What you can own | Human & Social Capital | Human capital, social capital |
 | What you can own | Digital Assets | **Written.** Six clusters: how blockchains work (consensus, keys, forks), native coins (Bitcoin, smart-contract platforms), tokens (stablecoins, memecoins, governance, wrapped), bridges and layer 2s, DeFi, holding crypto (self-custody, custodial) |
 | What you can own | Real Assets | Real estate, REITs, commodities, collectibles |
-| What you can own | Fixed Income | T-bills, bonds, yield curve, duration |
+| What you can own | Fixed Income | **Written.** T-bills, bonds, prices and yields, the yield curve, credit risk, inflation-linked bonds, duration |
 | What you can own | Equities | Shares, indices, funds and ETFs, valuation, private business |
 | Putting it together | Derivatives | Futures, options, perpetuals, leverage |
 | Putting it together | Portfolio & Risk | Diversification, correlation, allocation, sizing, rebalancing, market regimes |
@@ -75,6 +75,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Hub standard:** written top-level branches follow the hub rules in the README, checked by the hubs test suite.
 - **Access:** the site is open (no password or Zero Trust) but stays out of search engines: the `noindex` tag, `robots.txt` and `X-Robots-Tag` stay until the owner says otherwise.
 - **Branch order:** Foundation → Digital Assets → When Banks Fail → Fixed Income → the Cartography view.
+- **Testing (2026-10-25):** 80/20. Content-only branches run their own suite plus a smoke set at desktop width; engine or layout changes run everything at all widths. Suites run in parallel.
 - **Outside sources (2026-10-25):** ideas from paid or copyrighted material can be used only in our own words, structure and names, with public cases, credited as `Study notes`. The source's wording, images and named metrics are never used; `test_backstops` guards the bank-failure material.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 

@@ -46,7 +46,10 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 - [[t-bills]] — short-term government debt
 - [[bonds]] — features and issuers of bonds
 - [[time-value-of-money]] — pricing a bond as a present value
+- [[bond-pricing]] — prices, yields and why they move in opposite directions
 - [[yield-curve]] — yields across maturities
+- [[credit-risk]] — default, ratings and spreads
+- [[inflation-linked-bonds]] — bonds that protect against inflation
 - [[duration]] — interest-rate sensitivity
 
 ## CFA1-DRM — Derivatives and Risk Management
