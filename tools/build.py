@@ -218,6 +218,11 @@ def load_pages():
             "tier": meta.get("tier", ""),
             "killer": meta.get("killer", ""),
             "traits": meta.get("traits", []),
+            # Cartography chart (optional): position (x inside->outside, y hidden->recorded, 0-100),
+            # an optional vertical span for stores that straddle tiers, and the kind of killer for filtering
+            "place": meta.get("place", ""),
+            "span": meta.get("span", ""),
+            "killerKind": meta.get("killer_kind", ""),
             "_body": body,
         }
     return pages
@@ -451,6 +456,28 @@ def main():
     for p in pages.values():
         if p["group"] and p["parent"] != root_id:
             errors.append(f"{p['id']}: only top-level branches can have a group")
+
+    # Cartography chart fields: numbers 0-100, and only on pages that carry a tier and a killer
+    def pair(pid, key, val):
+        try:
+            a, b = [float(v) for v in val.split(",")]
+        except ValueError:
+            errors.append(f"{pid}: {key} must be two numbers, e.g. '60, 40'"); return None
+        if not (0 <= a <= 100 and 0 <= b <= 100):
+            errors.append(f"{pid}: {key} values must be between 0 and 100"); return None
+        return [a, b]
+    for p in pages.values():
+        if p["place"]:
+            p["place"] = pair(p["id"], "place", p["place"])
+            if not (p["tier"] and p["killer"] and p["killerKind"]):
+                errors.append(f"{p['id']}: a page on the Cartography chart needs tier, killer and killer_kind")
+        else:
+            p["place"] = None
+        p["span"] = pair(p["id"], "span", p["span"]) if p["span"] else None
+        if p["span"] and not p["place"]:
+            errors.append(f"{p['id']}: span needs a place")
+        if p["killerKind"] and not p["place"]:
+            errors.append(f"{p['id']}: killer_kind is only used with place")
 
     # advanced level is inherited: anything under an advanced page is advanced too
     for p in pages.values():
