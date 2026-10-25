@@ -30,7 +30,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | Group | Branch | Covers |
 |---|---|---|
 | Foundations | Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
-| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, eurodollars, liquidity, money creation |
+| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, when banks fail (capital and liquidity, lender of last resort, bail-in, deposit insurance, the bank–government loop), eurodollars, liquidity, money creation |
 | What you can own | Human & Social Capital | Human capital, social capital |
 | What you can own | Digital Assets | **Written.** Six clusters: how blockchains work (consensus, keys, forks), native coins (Bitcoin, smart-contract platforms), tokens (stablecoins, memecoins, governance, wrapped), bridges and layer 2s, DeFi, holding crypto (self-custody, custodial) |
 | What you can own | Real Assets | Real estate, REITs, commodities, collectibles |
@@ -44,7 +44,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 
 ## Cross-cutting views
 
-- **Flows:** built. First flow: *Where money comes from*.
+- **Flows:** built. *Where money comes from* (money created layer by layer) and *When a bank fails* (the backstops tested one by one).
 - **Cartography of Wealth:** a page now; a dedicated view (the two-axis chart, filterable by tier and killer) is a later build.
 - **Regimes:** a page for now (Market Regimes).
 - **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I and Money & Banking are mapped; the rest are placeholders. Ethics modules are listed but out of scope. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
@@ -74,7 +74,8 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Commit identity:** all commits use the same public identity as The Supply Map. The first `SCOPE.md` commit on `main` predates this and still carries a personal address in its metadata; fixing it means rewriting `main`, which is the owner's call.
 - **Hub standard:** written top-level branches follow the hub rules in the README, checked by the hubs test suite.
 - **Access:** the site is open (no password or Zero Trust) but stays out of search engines: the `noindex` tag, `robots.txt` and `X-Robots-Tag` stay until the owner says otherwise.
-- **Branch order:** Foundation → Digital Assets → Fixed Income → the Cartography view.
+- **Branch order:** Foundation → Digital Assets → When Banks Fail → Fixed Income → the Cartography view.
+- **Outside sources (2026-10-25):** ideas from paid or copyrighted material can be used only in our own words, structure and names, with public cases, credited as `Study notes`. The source's wording, images and named metrics are never used; `test_backstops` guards the bank-failure material.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel
