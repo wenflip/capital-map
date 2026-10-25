@@ -51,6 +51,16 @@ Pages for these stores carry their tier and killer in a box under the title.
 ## The link to claims
 The visibility axis lines up closely with [[claims-and-liabilities]]. Claims (deposits, bonds, shares) are someone's liability, so they must be recorded. Things that are nobody's liability (gold, bearer crypto, skills) can be held privately. Real estate is the main exception: it is nobody's liability, but a title registry makes it fully visible.
 
+## Check yourself
+
+**Q:** Physical gold and a gold fund both track the price of gold. Why do they sit in different tiers?
+
+**A:** Physical gold is a bearer asset: private, but exposed to theft. A gold fund is a recorded claim on the fund and your broker: legible and protected by the state, but exposed to counterparty and state risk. Same price, different killers.
+
+**Q:** According to the model, why is spreading money across many shares not enough on its own?
+
+**A:** Because every share sits in the same tier with the same kinds of killer: custodian, market and state risk. The model's point is to spread across failures that don't strike together, which means across tiers, not just within one.
+
 ## Limits of the model
 - Placements are **judgments**. Reasonable people would move some dots.
 - It is **one lens** among several. It emphasises seizure, theft and failure; it says little about expected returns.

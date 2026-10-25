@@ -1,6 +1,6 @@
 # The Capital Map — Scope
 
-*Status: building. Skeleton tree live; first branch (Money & Liquidity) written. Last updated 2026-10-25.*
+*Status: building. Live (open, unlisted: no password, search engines blocked). Written: Money & Liquidity, Foundation. Last updated 2026-10-25.*
 
 ## What it is
 
@@ -27,7 +27,7 @@ Education only. Not financial advice.
 
 | Branch | Covers |
 |---|---|
-| Foundation | Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
+| Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
 | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, eurodollars, liquidity, money creation |
 | Human & Social Capital | Human capital, social capital |
 | Fixed Income | T-bills, bonds, yield curve, duration |
@@ -71,6 +71,8 @@ Education only. Not financial advice.
 - **Contact handle:** keep the Supply Map's approved public contact in `privacy.md`.
 - **Commit identity:** all commits use the same public identity as The Supply Map. The first `SCOPE.md` commit on `main` predates this and still carries a personal address in its metadata; fixing it means rewriting `main`, which is the owner's call.
 - **Hub standard:** written top-level branches follow the hub rules in the README, checked by the hubs test suite.
+- **Access:** the site is open (no password or Zero Trust) but stays out of search engines: the `noindex` tag, `robots.txt` and `X-Robots-Tag` stay until the owner says otherwise.
+- **Branch order:** Foundation → Fixed Income → Digital Assets → the Cartography view.
 
 ## Logistics parallel
 

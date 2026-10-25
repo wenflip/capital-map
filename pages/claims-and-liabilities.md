@@ -34,3 +34,13 @@ Some assets are **nobody's liability**. Gold, land, bearer crypto and your own s
 Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability *can* be held privately. This is the same divide the [[cartography-of-wealth|Cartography of Wealth]] draws between legible and bearer assets.
 
 > **Key rule:** a claim is only as good as the party who owes it. Being nobody's liability removes that risk, but replaces it with others: theft, loss and no one to call.
+
+## Check yourself
+
+**Q:** You hold a stablecoin, a gold bar and a government bond. Which of them is nobody's liability?
+
+**A:** Only the gold bar. The stablecoin is a claim on the company that issued it, and the bond is a claim on the government. The gold bar depends on no one keeping a promise, but it can be stolen or lost.
+
+**Q:** Why is "is it backed?" a weaker test than "whose liability is it?"
+
+**A:** Because almost no modern money can be redeemed for anything, so nearly everything fails the "backed" test. Asking whose liability it is shows who must stay solvent and honest for it to hold value.
