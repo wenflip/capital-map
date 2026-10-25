@@ -76,11 +76,19 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>How much goes into each kind of asset.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Asset allocation</strong> is how you split money across kinds of asset: shares, bonds, cash, property and other real assets. It is usually the biggest single decision in investing, because the mix decides most of how a portfolio behaves: how much it can grow, and how far it can fall.</p>\n<h2>Why it matters</h2>\n<p>Within one asset class, holdings often move broadly together. Between classes, they behave differently: shares grow over time but fall hard in crashes; government bonds are steadier but lose to inflation; cash is safe in money terms but slowly loses buying power. Choosing the mix is choosing which risks to live with.</p>\n<h2>How it works</h2>\n<p><strong>Start with when you need the money.</strong> Money needed in a year or two shouldn't be in shares, because a crash might not recover in time. Money for thirty years from now can ride out several.</p>\n<p><strong>A classic mix</strong> is <strong>60/40</strong>: 60% in shares for growth, 40% in bonds for stability. Fictional example on 100,000:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Start</th>\n<th>Shares fall 30%, bonds rise 5%</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shares</td>\n<td>60,000</td>\n<td>42,000</td>\n</tr>\n<tr>\n<td>Bonds</td>\n<td>40,000</td>\n<td>42,000</td>\n</tr>\n<tr>\n<td><strong>Total</strong></td>\n<td><strong>100,000</strong></td>\n<td><strong>84,000 (−16%)</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>A 30% crash in shares becomes a 16% fall for the whole portfolio, as long as the bonds hold up. When they don't, as in 2022, the cushion is thinner.</p>\n<p><strong>Other inputs</strong> to the mix:</p>\n<ul>\n<li><strong>Your income.</strong> A safe job lets you take more risk with savings; a volatile one argues for less. See <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a>.</li>\n<li><strong>Your nerve.</strong> The best mix is one you won't abandon in a crash.</li>\n<li><strong>Different killers.</strong> The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> adds a check: does the mix spread across tiers and kinds of killer, or is everything in tier 3, held through intermediaries?</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Taking more risk than you can hold through a crash,</strong> then selling at the bottom.</li>\n<li><strong>Home bias:</strong> owning mostly your own country's assets, on top of earning your income there.</li>\n<li><strong>Ignoring inflation:</strong> a mix that is \"safe\" in money terms can lose buying power for years.</li>\n<li><strong>Drift:</strong> without <a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a>, the mix changes by itself as prices move.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> choose the mix from when you need the money and how much fall you can sit through, then keep to it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — asset allocation is diversification across classes.</li>\n<li><a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a> — how the mix is kept on target.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a>, <a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> and <a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — the main building blocks.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A portfolio is 80% shares and 20% cash. Shares fall 25% and cash is unchanged. How much does the portfolio fall?</p><details><summary>Show answer</summary><p>20%. The shares lose 25% of 80, which is 20, and the cash loses nothing.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How much goes into each kind of asset.",
+   "links": [
+    "cartography-of-wealth",
+    "diversification",
+    "equities",
+    "fixed-income",
+    "human-capital",
+    "real-assets",
+    "rebalancing"
+   ],
+   "stub": false,
+   "text": "What it is Asset allocation is how you split money across kinds of asset: shares, bonds, cash, property and other real assets. It is usually the biggest single decision in investing, because the mix decides most of how a portfolio behaves: how much it can grow, and how far it can fall. Why it matters Within one asset class, holdings often move broadly together. Between classes, they behave differently: shares grow over time but fall hard in crashes; government bonds are steadier but lose to inflation; cash is safe in money terms but slowly loses buying power. Choosing the mix is choosing which risks to live with. How it works Start with when you need the money. Money needed in a year or two shouldn't be in shares, because a crash might not recover in time. Money for thirty years from now can ride out several. A classic mix is 60/40 : 60% in shares for growth, 40% in bonds for stability. Fictional example on 100,000: Start Shares fall 30%, bonds rise 5% Shares 60,000 42,000 Bonds 40,000 42,000 Total 100,000 84,000 (−16%) A 30% crash in shares becomes a 16% fall for the whole portfolio, as long as the bonds hold up. When they don't, as in 2022, the cushion is thinner. Other inputs to the mix: Your income. A safe job lets you take more risk with savings; a volatile one argues for less. See human capital. Your nerve. The best mix is one you won't abandon in a crash. Different killers. The Cartography of Wealth adds a check: does the mix spread across tiers and kinds of killer, or is everything in tier 3, held through intermediaries? What goes wrong Taking more risk than you can hold through a crash, then selling at the bottom. Home bias: owning mostly your own country's assets, on top of earning your income there. Ignoring inflation: a mix that is \"safe\" in money terms can lose buying power for years. Drift: without rebalancing, the mix changes by itself as prices move. Key rule: choose the mix from when you need the money and how much fall you can sit through, then keep to it. Connects to diversification — asset allocation is diversification across classes. rebalancing — how the mix is kept on target. equities, fixed income and real assets — the main building blocks. Check yourself Q: A portfolio is 80% shares and 20% cash. Shares fall 25% and cash is unchanged. How much does the portfolio fall? A: 20%. The shares lose 25% of 80, which is 20, and the cash loses nothing.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -90,7 +98,11 @@ window.MUDMAP = {
      "m": "CFA1-PC — Portfolio Construction"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "diversification",
+    "portfolio",
+    "rebalancing"
+   ],
    "backlinksAdv": []
   },
   "backstops": {
@@ -880,6 +892,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "asset-allocation",
     "backstops",
     "capital-system",
     "cash-and-fiat",
@@ -887,6 +900,7 @@ window.MUDMAP = {
     "collectibles",
     "credit-risk",
     "digital-assets",
+    "diversification",
     "equities",
     "fixed-income",
     "foundation",
@@ -896,6 +910,7 @@ window.MUDMAP = {
     "inflation",
     "money",
     "personal-capital",
+    "portfolio",
     "private-business",
     "real-assets",
     "real-estate",
@@ -1046,6 +1061,7 @@ window.MUDMAP = {
     "inflation",
     "lender-of-last-resort",
     "liquidity",
+    "market-regimes",
     "money",
     "yield-curve"
    ],
@@ -1444,7 +1460,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Dimensional, Market Review 2022 (S&P 500 and Bloomberg US Aggregate returns)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -1460,11 +1478,16 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>How closely two assets move together, and why it rises in a crisis.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Correlation</strong> measures how closely two things move together, on a scale from −1 to +1:</p>\n<ul>\n<li><strong>+1:</strong> they always move in the same direction, in proportion.</li>\n<li><strong>0:</strong> knowing one's move tells you nothing about the other's.</li>\n<li><strong>−1:</strong> they always move in opposite directions.</li>\n</ul>\n<p>It's calculated from past returns, usually monthly or daily, over a chosen period.</p>\n<h2>Why it matters</h2>\n<p>Correlation is the input that makes <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> work. Two assets with high returns and low correlation together can be steadier than either alone. Two assets with high correlation are, for risk purposes, close to the same asset.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Correlation</th>\n<th>Reads as</th>\n<th>Example of the kind of pair</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Close to +1</td>\n<td>Move as one</td>\n<td>Two large-company index funds</td>\n</tr>\n<tr>\n<td>Around +0.5</td>\n<td>Often together</td>\n<td>Shares in different countries</td>\n</tr>\n<tr>\n<td>Around 0</td>\n<td>Unrelated</td>\n<td>Shares and some commodities, in some periods</td>\n</tr>\n<tr>\n<td>Negative</td>\n<td>Tend to offset</td>\n<td>Shares and government bonds, in many past decades</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>It only measures straight-line, average behaviour.</strong> A correlation near zero can still hide two assets that fall together in rare crashes and drift apart the rest of the time.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>It changes.</strong> Correlations measured in calm years can jump towards +1 in a crisis, when investors sell everything to raise cash. See <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a>.</li>\n<li><strong>The stock–bond pairing can flip.</strong> For much of the 2000s and 2010s, government bonds tended to rise when shares fell. In 2022, with inflation high and interest rates rising, US shares fell about 18% and US bonds about 13% in the same year.</li>\n<li><strong>Correlation isn't cause.</strong> Two things moving together may share a hidden driver, or may line up by chance.</li>\n<li><strong>Too short a history</strong> gives a number that looks precise but isn't.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> don't trust the average correlation. Ask what each holding did in the last crisis, and what would make them fall together.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — what correlation is used for.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the other input to portfolio risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the condition that has pushed shares and bonds to fall together.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two funds have a correlation of 0.95. You own both. How diversified are you?</p><details><summary>Show answer</summary><p>Hardly at all. They move almost as one, so owning both is close to owning twice as much of one.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How closely two assets move together, and why it rises in a crisis.",
+   "links": [
+    "diversification",
+    "inflation",
+    "market-regimes",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Correlation measures how closely two things move together, on a scale from −1 to +1: +1: they always move in the same direction, in proportion. 0: knowing one's move tells you nothing about the other's. −1: they always move in opposite directions. It's calculated from past returns, usually monthly or daily, over a chosen period. Why it matters Correlation is the input that makes diversification work. Two assets with high returns and low correlation together can be steadier than either alone. Two assets with high correlation are, for risk purposes, close to the same asset. How it works Correlation Reads as Example of the kind of pair Close to +1 Move as one Two large company index funds Around +0.5 Often together Shares in different countries Around 0 Unrelated Shares and some commodities, in some periods Negative Tend to offset Shares and government bonds, in many past decades It only measures straight line, average behaviour. A correlation near zero can still hide two assets that fall together in rare crashes and drift apart the rest of the time. What goes wrong It changes. Correlations measured in calm years can jump towards +1 in a crisis, when investors sell everything to raise cash. See market regimes. The stock–bond pairing can flip. For much of the 2000s and 2010s, government bonds tended to rise when shares fell. In 2022, with inflation high and interest rates rising, US shares fell about 18% and US bonds about 13% in the same year. Correlation isn't cause. Two things moving together may share a hidden driver, or may line up by chance. Too short a history gives a number that looks precise but isn't. Key rule: don't trust the average correlation. Ask what each holding did in the last crisis, and what would make them fall together. Connects to diversification — what correlation is used for. volatility — the other input to portfolio risk. inflation — the condition that has pushed shares and bonds to fall together. Check yourself Q: Two funds have a correlation of 0.95. You own both. How diversified are you? A: Hardly at all. They move almost as one, so owning both is close to owning twice as much of one.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1481,7 +1504,10 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "credit-risk",
+    "diversification",
     "foundation",
+    "market-regimes",
+    "portfolio",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -1931,11 +1957,17 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>Spreading across assets that don't fail together.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Diversification</strong> means spreading your money across holdings that don't all rise and fall together, so that one failure can't sink the whole portfolio.</p>\n<h2>Why it works</h2>\n<p>Every asset carries two kinds of risk:</p>\n<ul>\n<li><strong>Specific risk:</strong> what can go wrong for that one company or asset: a failed product, a fraud, a fire. Spreading across many holdings dilutes it almost to nothing.</li>\n<li><strong>Market (systematic) risk:</strong> what hits everything at once: a recession, a jump in interest rates, a financial crisis. No amount of spreading within one market removes it.</li>\n</ul>\n<p>Because specific risk can be diversified away cheaply, markets don't reward you for carrying it. Holding one company instead of a hundred adds risk without adding expected return.</p>\n<h2>How it works</h2>\n<p><strong>Two assets, each with 20% volatility, held 50/50.</strong> The portfolio's volatility depends on how closely they move together (<a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>):</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Correlation</th>\n<th>Portfolio volatility</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>+1 (move together exactly)</td>\n<td>20.00%</td>\n</tr>\n<tr>\n<td>+0.5</td>\n<td>17.32%</td>\n</tr>\n<tr>\n<td>0 (unrelated)</td>\n<td>14.14%</td>\n</tr>\n<tr>\n<td>−1 (exact opposites)</td>\n<td>0.00%</td>\n</tr>\n</tbody>\n</table></div>\n<p>The return is the same average in every row; only the swings change. That is the free lunch.</p>\n<p><strong>Many unrelated assets.</strong> With equal amounts in many assets that each swing 20% and are unrelated to each other, the portfolio's swings shrink with the square root of how many there are: 4 assets give 10.00%, 10 give 6.32%, 100 give 2.00%. Real assets are rarely unrelated, so in practice the benefit flattens out sooner.</p>\n<p><strong>Across kinds of risk, not just names.</strong> On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, the useful spread is across <em>killers</em>: theft, the state, counterparties, inflation. Owning several bank deposits spreads across banks but leaves you with one killer.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Diversifying in name only.</strong> Many funds that own the same large companies are one holding.</li>\n<li><strong>Crisis correlation.</strong> In a panic, many assets fall together, so the protection is weakest when it's needed most.</li>\n<li><strong>Diworsification.</strong> Adding assets you don't understand, or that cost a lot, can raise costs without lowering risk.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> diversify across things that fail for different reasons. Count the killers, not the holdings.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the number that decides how much diversification helps.</li>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — diversification across asset classes.</li>\n<li><a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> and <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — the cheapest way to diversify within shares.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why doesn't owning every share in the market remove all risk?</p><details><summary>Show answer</summary><p>Because market risk hits all companies together. Spreading across companies removes each one's specific risk, but a recession or crash still affects the whole market.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Spreading across assets that don't fail together.",
+   "links": [
+    "asset-allocation",
+    "cartography-of-wealth",
+    "correlation",
+    "funds-and-etfs",
+    "indices"
+   ],
+   "stub": false,
+   "text": "What it is Diversification means spreading your money across holdings that don't all rise and fall together, so that one failure can't sink the whole portfolio. Why it works Every asset carries two kinds of risk: Specific risk: what can go wrong for that one company or asset: a failed product, a fraud, a fire. Spreading across many holdings dilutes it almost to nothing. Market (systematic) risk: what hits everything at once: a recession, a jump in interest rates, a financial crisis. No amount of spreading within one market removes it. Because specific risk can be diversified away cheaply, markets don't reward you for carrying it. Holding one company instead of a hundred adds risk without adding expected return. How it works Two assets, each with 20% volatility, held 50/50. The portfolio's volatility depends on how closely they move together (correlation): Correlation Portfolio volatility +1 (move together exactly) 20.00% +0.5 17.32% 0 (unrelated) 14.14% −1 (exact opposites) 0.00% The return is the same average in every row; only the swings change. That is the free lunch. Many unrelated assets. With equal amounts in many assets that each swing 20% and are unrelated to each other, the portfolio's swings shrink with the square root of how many there are: 4 assets give 10.00%, 10 give 6.32%, 100 give 2.00%. Real assets are rarely unrelated, so in practice the benefit flattens out sooner. Across kinds of risk, not just names. On the Cartography of Wealth, the useful spread is across killers : theft, the state, counterparties, inflation. Owning several bank deposits spreads across banks but leaves you with one killer. What goes wrong Diversifying in name only. Many funds that own the same large companies are one holding. Crisis correlation. In a panic, many assets fall together, so the protection is weakest when it's needed most. Diworsification. Adding assets you don't understand, or that cost a lot, can raise costs without lowering risk. Key rule: diversify across things that fail for different reasons. Count the killers, not the holdings. Connects to correlation — the number that decides how much diversification helps. asset allocation — diversification across asset classes. indices and funds and etfs — the cheapest way to diversify within shares. Check yourself Q: Why doesn't owning every share in the market remove all risk? A: Because market risk hits all companies together. Spreading across companies removes each one's specific risk, but a recession or crash still affects the whole market.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1946,13 +1978,17 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "asset-allocation",
     "cartography-of-wealth",
+    "correlation",
     "equities",
     "foundation",
     "funds-and-etfs",
     "human-capital",
     "indices",
     "personal-capital",
+    "portfolio",
+    "position-sizing",
     "real-assets",
     "risk-and-return"
    ],
@@ -1996,6 +2032,8 @@ window.MUDMAP = {
    "backlinks": [
     "bitcoin",
     "equities",
+    "portfolio",
+    "position-sizing",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -2114,6 +2152,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "asset-allocation",
     "capital-system",
     "private-business",
     "shares"
@@ -2344,6 +2383,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "asset-allocation",
     "capital-system"
    ],
    "backlinksAdv": []
@@ -2520,6 +2560,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "diversification",
     "equities",
     "indices",
     "reits",
@@ -2888,6 +2929,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "asset-allocation",
     "cartography-of-wealth",
     "personal-capital",
     "private-business",
@@ -2940,6 +2982,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "diversification",
     "equities",
     "funds-and-etfs",
     "shares"
@@ -3056,9 +3099,11 @@ window.MUDMAP = {
     "central-bank-money",
     "commodities",
     "compounding",
+    "correlation",
     "fixed-income",
     "foundation",
     "inflation-linked-bonds",
+    "market-regimes",
     "real-assets",
     "t-bills",
     "time-value-of-money",
@@ -3226,6 +3271,8 @@ window.MUDMAP = {
    "backlinks": [
     "commodities",
     "defi",
+    "portfolio",
+    "position-sizing",
     "private-business",
     "real-estate"
    ],
@@ -3290,8 +3337,10 @@ window.MUDMAP = {
    "backlinks": [
     "central-bank-money",
     "collectibles",
+    "market-regimes",
     "memecoins",
     "money",
+    "portfolio",
     "real-assets"
    ],
    "backlinksAdv": []
@@ -3306,7 +3355,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Dimensional, Market Review 2022 (S&P 500 and Bloomberg US Aggregate returns)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -3322,11 +3373,18 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>Risk-on and risk-off: why assets behave differently in different liquidity conditions.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>market regime</strong> is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change.</p>\n<h2>Why it matters</h2>\n<p>Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives.</p>\n<h2>How it works</h2>\n<p><strong>Risk-on and risk-off.</strong> The simplest split:</p>\n<ul>\n<li><strong>Risk-on:</strong> money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together.</li>\n<li><strong>Risk-off:</strong> fear dominates, investors sell risky assets and buy safe ones (cash, short-term government debt), and many risky assets fall together.</li>\n</ul>\n<p><strong>Liquidity drives the switch.</strong> When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> and <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a>.</p>\n<p><strong>Growth and inflation.</strong> A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling?</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Inflation falling</th>\n<th>Inflation rising</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Growth rising</strong></td>\n<td>Usually good for shares</td>\n<td>Often good for commodities and real assets</td>\n</tr>\n<tr>\n<td><strong>Growth falling</strong></td>\n<td>Often good for government bonds</td>\n<td>Hard for shares and bonds alike</td>\n</tr>\n</tbody>\n</table></div>\n<p>The bottom-right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Assuming the last regime will last.</strong> A portfolio built on decades of falling interest rates can struggle when rates rise.</li>\n<li><strong>Trying to time every switch.</strong> Regimes are clearer in hindsight; frequent switching costs money and is often late.</li>\n<li><strong>One-regime portfolios.</strong> A mix that only works when inflation is low is a single bet on inflation.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> you don't need to predict the next regime. Hold a mix that can survive each of them.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the relationships that change between regimes.</li>\n<li><a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — often watched as a sign of a coming slowdown.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> and <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the main drivers.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — what tends to hold up when inflation rises.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can shares and government bonds fall together when inflation rises?</p><details><summary>Show answer</summary><p>Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Risk on and risk off: why assets behave differently in different liquidity conditions.",
+   "links": [
+    "central-bank-money",
+    "correlation",
+    "inflation",
+    "liquidity",
+    "real-assets",
+    "yield-curve"
+   ],
+   "stub": false,
+   "text": "What it is A market regime is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change. Why it matters Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives. How it works Risk on and risk off. The simplest split: Risk on: money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together. Risk off: fear dominates, investors sell risky assets and buy safe ones (cash, short term government debt), and many risky assets fall together. Liquidity drives the switch. When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See central bank money and liquidity. Growth and inflation. A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling? Inflation falling Inflation rising Growth rising Usually good for shares Often good for commodities and real assets Growth falling Often good for government bonds Hard for shares and bonds alike The bottom right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together. What goes wrong Assuming the last regime will last. A portfolio built on decades of falling interest rates can struggle when rates rise. Trying to time every switch. Regimes are clearer in hindsight; frequent switching costs money and is often late. One regime portfolios. A mix that only works when inflation is low is a single bet on inflation. Key rule: you don't need to predict the next regime. Hold a mix that can survive each of them. Connects to correlation — the relationships that change between regimes. yield curve — often watched as a sign of a coming slowdown. inflation and central bank money — the main drivers. real assets — what tends to hold up when inflation rises. Check yourself Q: Why can shares and government bonds fall together when inflation rises? A: Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3338,9 +3396,11 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "capital-system",
+    "correlation",
     "digital-assets",
     "liquidity",
-    "money"
+    "money",
+    "portfolio"
    ],
    "backlinksAdv": []
   },
@@ -3805,6 +3865,7 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "capital-system",
+    "portfolio",
     "private-business"
    ],
    "backlinksAdv": []
@@ -3819,7 +3880,10 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Harry Markowitz, Portfolio Selection (1952)",
+    "Dimensional, Market Review 2022 (S&P 500 and Bloomberg US Aggregate returns)"
+   ],
    "level": "basic",
    "group": "Putting it together",
    "tier": "",
@@ -3834,12 +3898,27 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>Combining assets so that no single failure clears the board.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Combining assets so that no single failure clears the board.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p>A <strong>portfolio</strong> is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\"</p>\n<p>The main idea of this branch is the one at the centre of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: <strong>the enemy is correlation, not risk.</strong> Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once.</p>\n<h2>Why it exists</h2>\n<p>Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — spreading across assets that don't fail together, and the risk that can't be spread away.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the number that measures how closely two assets move, and why it rises in a crisis.</li>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — how much to put in any one holding so that being wrong is survivable.</li>\n<li><a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a> — bringing the mix back to target as prices move.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why the same mix behaves very differently in different conditions.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Page</th>\n<th>Rule of thumb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What should I own?</td>\n<td>Asset allocation</td>\n<td>Match the mix to when you need the money</td>\n</tr>\n<tr>\n<td>How much of each?</td>\n<td>Position sizing</td>\n<td>No single loss you can't recover from</td>\n</tr>\n<tr>\n<td>Do they fail together?</td>\n<td>Correlation</td>\n<td>Check what happens in a crisis, not on average</td>\n</tr>\n<tr>\n<td>What now prices have moved?</td>\n<td>Rebalancing</td>\n<td>Sell some of what rose, buy some of what fell</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>False diversification.</strong> Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy.</li>\n<li><strong>Correlations jump in a crisis.</strong> Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall.</li>\n<li><strong>Concentration by accident.</strong> A winning holding grows until it dominates, unless you rebalance.</li>\n<li><strong>Too much leverage.</strong> Borrowing turns a survivable fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> judge every holding by what it does to the whole, and ask what single event could hit everything you own.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off a portfolio is built around.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>, <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> and <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — how a portfolio's risk is measured.</li>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — your job and skills are part of your portfolio too.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what lets you hold on, or forces you to sell, in a crash.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own shares in five different banks in one country. Are you diversified?</p><details><summary>Show answer</summary><p>Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does a portfolio of two volatile assets sometimes swing less than either asset on its own?</p><details><summary>Show answer</summary><p>Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Modern portfolio theory.</strong> Harry Markowitz showed in 1952 that investors should choose portfolios, not single assets, by the balance of expected return and risk of the whole. For any level of risk there is a mix with the highest expected return; the set of those mixes is called the <strong>efficient frontier</strong>.</li>\n<li><strong>Its limits.</strong> The theory needs estimates of returns, volatilities and correlations, and those estimates are unstable. Small changes in the inputs can produce very different \"optimal\" portfolios, which is why many investors use simple, robust mixes instead.</li>\n</ul></section>",
+   "links": [
+    "asset-allocation",
+    "cartography-of-wealth",
+    "correlation",
+    "diversification",
+    "drawdown",
+    "leverage",
+    "liquidity",
+    "market-regimes",
+    "personal-capital",
+    "position-sizing",
+    "rebalancing",
+    "risk-and-return",
+    "sharpe-ratio",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is A portfolio is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\" The main idea of this branch is the one at the centre of the Cartography of Wealth: the enemy is correlation, not risk. Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once. Why it exists Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch. How it works diversification — spreading across assets that don't fail together, and the risk that can't be spread away. correlation — the number that measures how closely two assets move, and why it rises in a crisis. asset allocation — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour. position sizing — how much to put in any one holding so that being wrong is survivable. rebalancing — bringing the mix back to target as prices move. market regimes — why the same mix behaves very differently in different conditions. Question Page Rule of thumb What should I own? Asset allocation Match the mix to when you need the money How much of each? Position sizing No single loss you can't recover from Do they fail together? Correlation Check what happens in a crisis, not on average What now prices have moved? Rebalancing Sell some of what rose, buy some of what fell What goes wrong False diversification. Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy. Correlations jump in a crisis. Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall. Concentration by accident. A winning holding grows until it dominates, unless you rebalance. Too much leverage. Borrowing turns a survivable fall into a forced sale. See leverage. Key rule: judge every holding by what it does to the whole, and ask what single event could hit everything you own. Connects to risk and return — the trade off a portfolio is built around. volatility, drawdown and sharpe ratio — how a portfolio's risk is measured. personal capital — your job and skills are part of your portfolio too. liquidity — what lets you hold on, or forces you to sell, in a crash. Check yourself Q: You own shares in five different banks in one country. Are you diversified? A: Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together. Q: Why does a portfolio of two volatile assets sometimes swing less than either asset on its own? A: Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.",
+   "textDeep": "Going deeper Modern portfolio theory. Harry Markowitz showed in 1952 that investors should choose portfolios, not single assets, by the balance of expected return and risk of the whole. For any level of risk there is a mix with the highest expected return; the set of those mixes is called the efficient frontier . Its limits. The theory needs estimates of returns, volatilities and correlations, and those estimates are unstable. Small changes in the inputs can produce very different \"optimal\" portfolios, which is why many investors use simple, robust mixes instead.",
    "children": [
     "diversification",
     "correlation",
@@ -3881,17 +3960,25 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>How much to put in any one bet so that being wrong is survivable.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Position sizing</strong> is deciding how much to put into any single holding or trade. Its goal is simple: being wrong about any one thing should never be fatal.</p>\n<h2>Why it matters</h2>\n<p>Losses and gains aren't symmetrical. After a fall, you need a bigger percentage gain just to get back to where you started:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Loss</th>\n<th>Gain needed to recover</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>−10%</td>\n<td>+11.1%</td>\n</tr>\n<tr>\n<td>−20%</td>\n<td>+25.0%</td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>+100.0%</td>\n</tr>\n<tr>\n<td>−90%</td>\n<td>+900.0%</td>\n</tr>\n</tbody>\n</table></div>\n<p>Small losses are easy to recover from; large ones may never be. Sizing keeps each mistake in the top rows of that table. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>Cap any single holding.</strong> Many investors limit any one company to a small share of the portfolio, so its failure is a setback, not a disaster.</p>\n<p><strong>Size by what you can lose, not by how sure you feel.</strong> A common trading rule is to risk a fixed fraction of the portfolio on each idea. Fictional example: a 50,000 portfolio, risking 1% per trade, with a plan to sell if the price falls 10%:</p>\n<ul>\n<li>Amount at risk: 1% of 50,000 = <strong>500</strong>.</li>\n<li>Position size: 500 ÷ 10% = <strong>5,000</strong>.</li>\n</ul>\n<p>If the price falls to the exit point, the loss is 500, and the portfolio can absorb many such mistakes.</p>\n<p><strong>Volatile holdings get smaller positions.</strong> Something that swings three times as much as another should usually take a smaller share, so each contributes a similar amount of risk.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Conviction sizing.</strong> The holdings people feel surest about often become the biggest, which is how one mistake becomes a catastrophe.</li>\n<li><strong>Winners that grow unchecked.</strong> A position that doubles twice can quietly become most of the portfolio.</li>\n<li><strong>Leverage.</strong> Borrowing to buy multiplies the size of every loss. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n<li><strong>Hidden overlap.</strong> Several holdings that share one killer are one position.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> size every position so that being completely wrong about it is survivable.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — sizing is diversification at the level of each holding.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the input for risk-based sizing.</li>\n<li><a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a> — how oversized positions are trimmed.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A holding falls 50%. What gain does it need to get back to where it started?</p><details><summary>Show answer</summary><p>100%. Half of the original is left, so it has to double to recover.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "How much to put in any one bet so that being wrong is survivable.",
+   "links": [
+    "diversification",
+    "drawdown",
+    "leverage",
+    "rebalancing",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Position sizing is deciding how much to put into any single holding or trade. Its goal is simple: being wrong about any one thing should never be fatal. Why it matters Losses and gains aren't symmetrical. After a fall, you need a bigger percentage gain just to get back to where you started: Loss Gain needed to recover −10% +11.1% −20% +25.0% −50% +100.0% −90% +900.0% Small losses are easy to recover from; large ones may never be. Sizing keeps each mistake in the top rows of that table. See drawdown. How it works Cap any single holding. Many investors limit any one company to a small share of the portfolio, so its failure is a setback, not a disaster. Size by what you can lose, not by how sure you feel. A common trading rule is to risk a fixed fraction of the portfolio on each idea. Fictional example: a 50,000 portfolio, risking 1% per trade, with a plan to sell if the price falls 10%: Amount at risk: 1% of 50,000 = 500 . Position size: 500 ÷ 10% = 5,000 . If the price falls to the exit point, the loss is 500, and the portfolio can absorb many such mistakes. Volatile holdings get smaller positions. Something that swings three times as much as another should usually take a smaller share, so each contributes a similar amount of risk. What goes wrong Conviction sizing. The holdings people feel surest about often become the biggest, which is how one mistake becomes a catastrophe. Winners that grow unchecked. A position that doubles twice can quietly become most of the portfolio. Leverage. Borrowing to buy multiplies the size of every loss. See leverage. Hidden overlap. Several holdings that share one killer are one position. Key rule: size every position so that being completely wrong about it is survivable. Connects to diversification — sizing is diversification at the level of each holding. volatility — the input for risk based sizing. rebalancing — how oversized positions are trimmed. Check yourself Q: A holding falls 50%. What gain does it need to get back to where it started? A: 100%. Half of the original is left, so it has to double to recover.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
     "memecoins",
+    "portfolio",
+    "rebalancing",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -4062,9 +4149,11 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "asset-allocation",
     "capital-system",
     "collectibles",
     "commodities",
+    "market-regimes",
     "real-estate"
    ],
    "backlinksAdv": []
@@ -4160,11 +4249,15 @@ window.MUDMAP = {
    ],
    "branch": "portfolio",
    "adv": false,
-   "html": "<p>Bringing a portfolio back to its target mix.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Rebalancing</strong> means bringing a portfolio back to its target mix after prices have moved, by selling some of what has risen and buying some of what has fallen.</p>\n<h2>Why it matters</h2>\n<p>Without it, a portfolio drifts towards whatever has done best, and becomes riskier than you chose. Rebalancing also builds in a discipline most people find hard: selling after a rise and buying after a fall.</p>\n<h2>How it works</h2>\n<p>Fictional example: a 60/40 target on 100,000. Shares then rise 25% and bonds are unchanged.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Target</th>\n<th>After the rise</th>\n<th>Rebalanced</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Shares</td>\n<td>60,000 (60%)</td>\n<td>75,000 (65.2%)</td>\n<td>69,000 (60%)</td>\n</tr>\n<tr>\n<td>Bonds</td>\n<td>40,000 (40%)</td>\n<td>40,000 (34.8%)</td>\n<td>46,000 (40%)</td>\n</tr>\n<tr>\n<td><strong>Total</strong></td>\n<td>100,000</td>\n<td>115,000</td>\n<td>115,000</td>\n</tr>\n</tbody>\n</table></div>\n<p>To get back to 60/40, sell <strong>6,000</strong> of shares and buy 6,000 of bonds.</p>\n<p><strong>When to do it:</strong></p>\n<ul>\n<li><strong>By the calendar:</strong> once or twice a year, whatever has happened.</li>\n<li><strong>By threshold:</strong> whenever an asset drifts more than a set amount from target, such as 5 percentage points.</li>\n<li><strong>With new money:</strong> direct new savings into whatever is below target, which avoids selling at all.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Costs and tax.</strong> Every sale can bring trading costs and, outside tax-sheltered accounts, a tax bill. Rebalancing too often wastes money. See <a class=\"wl\" href=\"#/map/p/tax\" data-page=\"tax\">Tax</a>.</li>\n<li><strong>Strong trends.</strong> In a long rally, rebalancing keeps selling the winner, and in a long fall it keeps buying the loser. It controls risk; it doesn't promise extra return.</li>\n<li><strong>Losing nerve.</strong> Buying the asset that has just crashed feels wrong, which is exactly when rebalancing matters most.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> rebalance on a rule you set in advance, not on how the market feels.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — the target being restored.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — rebalancing trims positions that have grown too large.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A 50/50 portfolio of 200,000 sees shares fall to 80,000 while bonds stay at 100,000. What does rebalancing do?</p><details><summary>Show answer</summary><p>The total is 180,000, so the target is 90,000 each. Sell 10,000 of bonds and buy 10,000 of shares.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Bringing a portfolio back to its target mix.",
+   "links": [
+    "asset-allocation",
+    "position-sizing",
+    "tax"
+   ],
+   "stub": false,
+   "text": "What it is Rebalancing means bringing a portfolio back to its target mix after prices have moved, by selling some of what has risen and buying some of what has fallen. Why it matters Without it, a portfolio drifts towards whatever has done best, and becomes riskier than you chose. Rebalancing also builds in a discipline most people find hard: selling after a rise and buying after a fall. How it works Fictional example: a 60/40 target on 100,000. Shares then rise 25% and bonds are unchanged. Target After the rise Rebalanced Shares 60,000 (60%) 75,000 (65.2%) 69,000 (60%) Bonds 40,000 (40%) 40,000 (34.8%) 46,000 (40%) Total 100,000 115,000 115,000 To get back to 60/40, sell 6,000 of shares and buy 6,000 of bonds. When to do it: By the calendar: once or twice a year, whatever has happened. By threshold: whenever an asset drifts more than a set amount from target, such as 5 percentage points. With new money: direct new savings into whatever is below target, which avoids selling at all. What goes wrong Costs and tax. Every sale can bring trading costs and, outside tax sheltered accounts, a tax bill. Rebalancing too often wastes money. See tax. Strong trends. In a long rally, rebalancing keeps selling the winner, and in a long fall it keeps buying the loser. It controls risk; it doesn't promise extra return. Losing nerve. Buying the asset that has just crashed feels wrong, which is exactly when rebalancing matters most. Key rule: rebalance on a rule you set in advance, not on how the market feels. Connects to asset allocation — the target being restored. position sizing — rebalancing trims positions that have grown too large. Check yourself Q: A 50/50 portfolio of 200,000 sees shares fall to 80,000 while bonds stay at 100,000. What does rebalancing do? A: The total is 180,000, so the target is 90,000 each. Sell 10,000 of bonds and buy 10,000 of shares.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4174,7 +4267,11 @@ window.MUDMAP = {
      "m": "CFA1-PC — Portfolio Construction"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "asset-allocation",
+    "portfolio",
+    "position-sizing"
+   ],
    "backlinksAdv": []
   },
   "reits": {
@@ -4337,6 +4434,7 @@ window.MUDMAP = {
     "equities",
     "foundation",
     "personal-capital",
+    "portfolio",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -4563,7 +4661,9 @@ window.MUDMAP = {
      "m": "CFA1-PC — Portfolio Construction"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "portfolio"
+   ],
    "backlinksAdv": []
   },
   "smart-contract-platforms": {
@@ -4849,7 +4949,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "rebalancing"
+   ],
    "backlinksAdv": []
   },
   "time-value-of-money": {
@@ -5074,7 +5176,10 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "correlation",
     "foundation",
+    "portfolio",
+    "position-sizing",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -5247,7 +5352,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "fixed-income"
+    "fixed-income",
+    "market-regimes"
    ],
    "backlinksAdv": []
   }
@@ -6384,5 +6490,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 12:12 UTC"
+ "built": "2026-10-25 12:26 UTC"
 };

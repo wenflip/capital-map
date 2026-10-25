@@ -964,6 +964,8 @@
     // Module codes such as CFA1-FI still match on the original query.
     const loose = q.replace(/[-–—]+/g, " ").trim(), looseHas = loose !== q ? loose.split(/\s+/).map(matcher) : null;
     const textHit = (s) => termHas.every((has) => has(s)) || (looseHas && looseHas.every((has) => has(s)));
+    // whole-phrase bonus for multi-word queries; a hyphenated query ("risk-free rate") is compared in its spaced form too
+    const phrase = (s) => (terms.length > 1 && s.includes(q)) || (looseHas && looseHas.length > 1 && s.includes(loose));
     const out = [];
     Object.values(P).filter((p) => vis(p.id)).forEach((p) => {
       const title = p.title.toLowerCase(), tc = p.tcodes.map((t) => t.toLowerCase());
@@ -975,7 +977,7 @@
       const mods = (p.quals || []).map((x) => x.m.toLowerCase());
       if (mods.some((m) => modCode(m) === q)) score += 30;
       const hay = (title + " " + tc.join(" ") + " " + p.fiori.join(" ").toLowerCase() + " " + p.tags.join(" ").toLowerCase() + " " + mods.join(" ") + " " + p.summary.toLowerCase() + " " + p.text.toLowerCase() + (mode.simple ? "" : " " + (p.textDeep || "").toLowerCase()));
-      if (textHit(hay)) score += 10 + (qHas(p.summary.toLowerCase()) ? 10 : 0) + (terms.length > 1 && hay.includes(q) ? 15 : 0);
+      if (textHit(hay)) score += 10 + (qHas(p.summary.toLowerCase()) ? 10 : 0) + (phrase(hay) ? 15 : 0);
       // ties (e.g. a t-code used by a topic and its sub-pages) go to the more general page
       if (score) out.push({ type: "page", id: p.id, score: score + (p.stub ? 0 : 3) + (8 - Math.min(8, p.path.length)) });
     });
