@@ -30,7 +30,8 @@ A free course and textbook from Princeton University. It explains the machinery 
 - [[bitcoin]] — mining rewards and the security budget
 
 ## BTC6 — Bitcoin and anonymity
-> Not mapped yet: privacy and traceability on public ledgers need a page of their own.
+- [[privacy-and-traceability]] — pseudonymity, clustering, mixers and privacy coins
+- [[keys-and-wallets]] — fresh addresses and why reuse links payments
 
 ## BTC7 — Community, politics and regulation
 - [[forks]] — how disagreements split a chain
