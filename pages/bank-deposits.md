@@ -10,6 +10,7 @@ killer: bank failure — a deposit is a loan to the bank
 traits: legible, insured up to a limit, can yield interest
 place: 66, 70
 killer_kind: Counterparty
+sources: Corralito (Argentina, 2001); NPR, Banks reopen in Greece after three weeks (2015)
 ---
 ## What it is
 When you "have money in the bank", you don't own any specific cash. You hold a **claim on the bank**: its promise to pay you central bank money when you ask. A deposit is the bank's liability.
@@ -31,6 +32,12 @@ The full chain, and how each link can break, is on [[backstops|When Banks Fail]]
 - **Inflation**, as with all [[cash-and-fiat|cash]].
 
 > **Key rule:** a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does.
+
+## How it has failed
+- **US bank holiday, 1933.** After a wave of runs, every US bank was closed for about a week while the government decided which could reopen.
+- **Argentina, 2001.** From December 2001 the *corralito* capped cash withdrawals at 250 pesos a week. Dollar deposits were then converted into pesos at 1.4 to the dollar, while the market rate soon reached about 4.
+- **Cyprus, 2013.** Large deposits above the insured limit were converted into bank shares or lost. See [[bail-in]].
+- **Greece, 2015.** Banks closed for three weeks and cash withdrawals were capped at €60 a day.
 
 ## Check yourself
 

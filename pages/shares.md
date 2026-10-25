@@ -9,7 +9,7 @@ killer: custodian and market risk — you own a ledger entry at a broker, not th
 traits: legible, yields or grows, transferable
 place: 90, 88
 killer_kind: Counterparty
-sources: SIPC, What SIPC Protects; S&P 500 closing levels, 9 October 2007 and 9 March 2009
+sources: SIPC, What SIPC Protects; S&P 500 closing levels, 9 October 2007 and 9 March 2009; Nikkei 225 closing records (1989, 2024); Jorion and Goetzmann, Global Stock Markets in the Twentieth Century (1999)
 ---
 ## What it is
 A **share** (or **stock**) is one unit of ownership in a company. Owning shares in a listed company gives you:
@@ -38,6 +38,11 @@ Selling shares lets a company raise money it never has to repay. A listing on a 
 - [[indices]] and [[funds-and-etfs]] — ways to own many shares at once.
 - [[valuation]] — what a share might be worth.
 - [[settlement]] — how a trade completes after you click buy.
+
+## How it has failed
+- **Wiped out, 1917 and 1949.** After the Russian revolution and the Communist victory in China, stock markets closed and shareholders lost everything. Long-run studies of share returns mostly measure markets that survived.
+- **The 1929 crash.** The Dow Jones Industrial Average lost about 89% between 1929 and 1932, and didn't regain its 1929 peak until 1954.
+- **Japan, 1989–2024.** The Nikkei 225 closed at 38,915.87 on 29 December 1989. It didn't close higher until 22 February 2024, 34 years later.
 
 ## Check yourself
 

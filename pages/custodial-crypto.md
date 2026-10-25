@@ -10,6 +10,7 @@ killer: the custodian failing — you become an unsecured creditor
 traits: legible, counterparty risk, convenient
 place: 76, 77
 killer_kind: Counterparty
+sources: The Block, FTX major repayments to begin May 30 (2025)
 ---
 ## What it is
 **Custodial crypto** is crypto held for you by a firm: an exchange account, a broker, or a fund that holds coins. The firm controls the keys. What you own is the firm's promise to give you the coins.
@@ -36,6 +37,11 @@ In the [[claims-and-liabilities|claims]] sense, a custodial balance is the firm'
 ## Connects to
 - [[bank-deposits]] — the traditional version of the same kind of claim, usually with more protection.
 - [[brokers]] and [[custody]] — how custody works in traditional markets.
+
+## How it has failed
+- **Mt. Gox, 2014.** Once the largest Bitcoin exchange, it collapsed after losing customers' coins, and repayments took about a decade.
+- **Celsius, 2022.** The crypto lender froze withdrawals in June 2022 and filed for bankruptcy the next month. Customers who had been promised high yields became creditors.
+- **FTX, 2022.** Customer claims were valued at prices on the bankruptcy date, 11 November 2022, near a market low. By the time repayments began in 2025, a bitcoin claim was worth about a fifth of what one bitcoin then cost. Customers got their money back in dollars, but missed the recovery.
 
 ## Check yourself
 

@@ -10,6 +10,7 @@ killer: key loss and protocol failure — two separate roads to zero
 traits: private if done right, may yield, heirs need keys
 place: 82, 13
 killer_kind: Theft and self-error
+sources: Chainalysis estimate of lost bitcoin (2020), via Decrypt
 ---
 ## What it is
 **Self-custody** means holding the keys to your own coins in a wallet only you control. See [[keys-and-wallets]] for how keys work.
@@ -36,6 +37,11 @@ It is the digital version of keeping gold in your own safe: you remove the middl
 - **Physical threats:** people known to hold crypto can be targeted directly.
 
 > **Key rule:** self-custody swaps counterparty risk for your own operational risk. Only do it with a backup you have tested.
+
+## How it has failed
+- **Lost keys.** In 2020 the analytics firm Chainalysis estimated that about 3.7 million bitcoin, roughly a fifth of the supply then mined, hadn't moved in at least five years and was probably lost for good.
+- **Deep falls.** Bitcoin has fallen by more than three-quarters from its peak more than once, including in 2017–18 and 2021–22. Holding your own keys protects you from a custodian, not from the price.
+- **No one to call.** Coins sent to a wrong address, or signed away to a scam, can't be reversed. See [[keys-and-wallets]].
 
 ## Check yourself
 

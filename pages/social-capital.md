@@ -9,6 +9,7 @@ killer: betrayal or reputation collapse — decades to build, gone in a day
 traits: hidden, no yield until used, partly transferable
 place: 17, 18
 killer_kind: Personal
+sources: Arthur Andersen LLP v. United States (2005)
 ---
 ## What it is
 **Social capital** is the value of who knows you and trusts you: your reputation, your network, and the goodwill you have built by delivering on promises. It is why a known plumber gets the next job without an advert, and why a founder with a track record raises money more easily than one without.
@@ -35,6 +36,11 @@ It is only **partly transferable**. You can introduce someone, recommend them or
 ## Connects to
 - [[human-capital]] — the other half of tier 1.
 - [[private-business]] — much of a small firm's value is its owner's reputation and customer relationships.
+
+## How it has failed
+- **A firm's fall becomes yours.** The accounting firm Arthur Andersen collapsed in 2002 after the Enron scandal. Its conviction was overturned by the US Supreme Court in 2005, but by then the firm had gone, and its people's professional reputations were tied to its name.
+- **Networks scatter.** When a company or industry shrinks, the colleagues, customers and contacts that made up your network disperse with it.
+- **One scandal.** A single public mistake, or being associated with someone else's, can undo decades of trust.
 
 ## Check yourself
 

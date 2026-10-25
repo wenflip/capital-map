@@ -10,6 +10,7 @@ killer: counterparty default — it is only someone else's promise to pay
 traits: legible, yields, transferable
 place: 84, 82
 killer_kind: Counterparty
+sources: ESM, What was the private sector debt restructuring of March 2012?
 ---
 ## What it is
 A **bond** is a loan broken into tradable pieces. The borrower (the **issuer**) promises to pay interest at set times and repay the loan on a set date.
@@ -45,6 +46,12 @@ Bonds let borrowers raise large sums for long periods from many lenders at once,
 - **Early repayment:** some bonds can be repaid early by the issuer, usually when rates have fallen and you'd least want your money back.
 
 > **Key rule:** a bond is a promise. Judge the promiser first, then the price.
+
+## How it has failed
+- **Repudiation, 1918.** After the revolution, Russia's new government refused to honour the Tsarist state's debts. Foreign bondholders lost almost everything.
+- **Argentina, 2001.** Argentina defaulted on its government debt, then the largest sovereign default on record, and has restructured its debt several times since.
+- **Greece, 2012.** Private holders of Greek government bonds took a 53.5% cut to the face value of their bonds, reducing Greece's debt by about €107 billion.
+- **Inflation.** Bonds can fail without a default. In the high inflation of the 1970s, holders of long-dated bonds were repaid in full in money that bought far less. See [[inflation]].
 
 ## Check yourself
 

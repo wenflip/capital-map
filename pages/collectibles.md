@@ -9,6 +9,7 @@ killer: illiquidity and subjective value — worth one buyer's word when forced 
 traits: semi-private, no yield, transferable
 place: 68, 38
 killer_kind: Liquidity
+sources: NPR, Painter created million-dollar forgeries (2013); US Attorney SDNY, Rudy Kurniawan sentenced (2014)
 ---
 ## What it is
 **Collectibles** are objects people buy partly for pleasure and partly as a store of value: art, watches, classic cars, rare wine and whisky, coins, stamps, gems, trading cards. Their value isn't set by income or by a formula. It's what the next buyer is willing to pay.
@@ -36,6 +37,11 @@ Collectibles pay **no income**, and holding them costs money: insurance, secure 
 - [[liquidity]] — the main thing collectibles lack.
 - [[gold]] — a real asset with a deep market and uniform units, unlike collectibles.
 - [[real-assets]] — the branch this sits in.
+
+## How it has failed
+- **Forged art.** The Knoedler gallery in New York, one of the oldest in the US, closed abruptly in 2011 after it emerged that it had sold about 40 forged paintings, part of a ring whose fakes sold for over $80 million.
+- **Fake wine.** In 2013 a US court convicted the collector Rudy Kurniawan of selling counterfeit rare wines, many of which had passed through major auctions.
+- **Fads.** Categories that boomed, from some toys to some trading cards, have lost most of their value when collectors moved on.
 
 ## Check yourself
 
