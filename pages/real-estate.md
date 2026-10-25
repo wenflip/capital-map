@@ -3,7 +3,7 @@ id: real-estate
 title: Real Estate
 parent: real-assets
 order: 1
-summary: Land and buildings: shelter, rent and leverage.
+summary: Land and buildings: shelter, rent, and leverage through a mortgage.
 tier: 3
 killer: immobility — the one asset that can't move, so it can be taxed or seized in place
 traits: fully legible, can yield rent, transferable but fixed
