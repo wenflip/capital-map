@@ -9,7 +9,7 @@ Status: early build. The tree skeleton is in place; **Money & Liquidity** is the
 1. Pull the latest version (`git pull`).
 2. Double-click `index.html`. It opens in your browser — no server needed.
 
-Views: **Map**, **Flows** and **Index**, plus **About** and **Privacy**. Jobs and Quals exist in the engine but are hidden until we have content for them.
+Views: **Map**, **Flows**, **Quals** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
 
 ## How it's built
 
@@ -59,6 +59,33 @@ Pages with fewer than 60 words show as dashed **stubs** on the map.
 - **Neutral.** Explain how things work; never tell the reader what to buy or sell.
 - **One page per concept.** Link with `[[page-id]]` or `[[page-id|custom text]]`.
 - **Placement on the Cartography of Wealth is a judgment** and is labelled as one on every page that carries it.
+
+## Qualifications (`quals/`)
+
+Each file is one qualification or course. Every module heading starts with a short code, used for search and the module chips (e.g. `CFA1-FI`). Codes must be unique within a file.
+
+```
+---
+id: cfa-l1
+title: CFA Program — Level I
+short: CFA I                 # label on chips and in the focus menu
+order: 1
+status: planned              # optional: a placeholder with no pages yet
+summary: One line for the card
+---
+Intro paragraph.
+
+## CFA1-FI — Fixed Income
+- [[bonds]] — optional short note
+> Optional note shown under the module heading (e.g. why it's out of scope or only partly mapped)
+
+## CFA1-ETH — Ethical and Professional Standards
+> Outside this site's scope: …
+```
+
+- **Every module stays on the page**, mapped or not, so the whole syllabus is visible. An empty module shows *Not mapped yet*, or *Out of scope* when its note starts "Outside this site's scope".
+- A **placeholder** (`status: planned`) lists its modules with no pages. Remove the `status` line once the first page is mapped. The build fails if a mapped qualification has no pages, or a planned one has some.
+- Module names follow each body's published outline, in our own words for notes. Check the outline when it changes (CFA renamed several topics from February 2027).
 
 ## Hub pages
 

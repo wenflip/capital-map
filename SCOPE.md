@@ -46,7 +46,8 @@ Education only. Not financial advice.
 - **Flows:** built. First flow: *Where money comes from*.
 - **Cartography of Wealth:** a page now; a dedicated view (the two-axis chart, filterable by tier and killer) is a later build.
 - **Regimes:** a page for now (Market Regimes).
-- **Jobs / Quals:** engine supports them; tabs hidden until there is content. CFA Levels I–III as the reference curriculum.
+- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I and Money & Banking are mapped; the rest are placeholders. Ethics modules are listed but out of scope. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
+- **Jobs:** engine supports them; tab hidden until there is content.
 
 ## Engine changes from The Supply Map
 
