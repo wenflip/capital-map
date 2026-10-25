@@ -294,7 +294,7 @@ def load_roles(titles, folder=JOBS_DIR, kind="job", repeat_ok=False):
         intro, stages, seen = [], [], set()
         for line in body.splitlines():
             if line.startswith("## "):
-                stages.append({"title": line[3:].strip(), "items": []})
+                stages.append({"title": line[3:].strip(), "items": [], "note": ""})
                 if repeat_ok:
                     seen = set()
                 continue
@@ -310,6 +310,9 @@ def load_roles(titles, folder=JOBS_DIR, kind="job", repeat_ok=False):
                 stages[-1]["items"].append({"page": pid, "note": inline(note) if note else ""})
             elif not stages:
                 intro.append(line)
+            elif repeat_ok and line.startswith("> "):
+                # qualification module note, e.g. why a module is out of scope or not mapped yet
+                stages[-1]["note"] = inline(line[2:].strip())
             elif line.strip():
                 errors.append(f"{kind} {rid}: unexpected line under '{stages[-1]['title']}': {line.strip()[:60]}")
         roles[rid] = {
@@ -320,11 +323,19 @@ def load_roles(titles, folder=JOBS_DIR, kind="job", repeat_ok=False):
             "summary": meta.get("summary", ""),
             "intro": render("\n".join(intro).strip(), titles, f"{kind} {rid}", set()),
             "meta": meta,
-            "stages": [s for s in stages if s["items"]],
+            # qualifications keep every module, mapped or not, so the page shows the whole syllabus
+            "stages": stages if repeat_ok else [s for s in stages if s["items"]],
             "pages": list(dict.fromkeys(i["page"] for s in stages for i in s["items"])),
+            "status": meta.get("status", "mapped"),
         }
-        if not roles[rid]["pages"]:
-            errors.append(f"{kind} {rid}: no pages listed")
+        if roles[rid]["status"] not in ("mapped", "planned"):
+            errors.append(f"{kind} {rid}: status must be mapped or planned")
+        if not roles[rid]["pages"] and roles[rid]["status"] != "planned":
+            errors.append(f"{kind} {rid}: no pages listed (use status: planned for a placeholder)")
+        if roles[rid]["pages"] and roles[rid]["status"] == "planned":
+            errors.append(f"{kind} {rid}: has pages, so it isn't planned")
+        if not stages:
+            errors.append(f"{kind} {rid}: no modules")
     return roles
 
 

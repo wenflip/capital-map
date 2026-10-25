@@ -133,8 +133,9 @@
     const r = e.target.closest("[data-role]"); if (r) setRole(r.dataset.role || null);
     if (e.target.closest(".sm-about, .sm-privacy")) settingsMenu.hidden = true;   // the link navigates itself; just close the menu
   });
-  $("#qual-seg").innerHTML = `<button data-role="">None</button>` + qualIds.map((q) => `<button data-role="${q}">${esc(QUALS[q].short)}</button>`).join("");
-  if (!qualIds.length) $$(".sm-qual").forEach((el) => { el.hidden = true; });
+  const mappedQuals = qualIds.filter((q) => QUALS[q].pages.length);   // planned placeholders can't be a focus
+  $("#qual-seg").innerHTML = `<button data-role="">None</button>` + mappedQuals.map((q) => `<button data-role="${q}">${esc(QUALS[q].short)}</button>`).join("");
+  if (!mappedQuals.length) $$(".sm-qual").forEach((el) => { el.hidden = true; });
   $("#focus-chip-clear").addEventListener("click", (e) => { e.stopPropagation(); setRole(null); });
   document.addEventListener("click", () => { settingsMenu.hidden = true; });
 
@@ -767,14 +768,20 @@
      QUALS (qualifications: modules mapped to pages)
      ===================================================================== */
   let pendingModule = null, lastQualShown = null;
+  const mappedCount = (q) => QUALS[q].stages.filter((s) => s.items.length).length;
+  function qualMeta(q) {
+    const r = QUALS[q];
+    if (r.status === "planned") return `<div class="meta">${r.stages.length} modules · not mapped yet</div>`;
+    return `<div class="meta">${r.stages.length} modules · ${mappedCount(q)} mapped · ${r.pages.length} pages</div><div class="meta" data-progress="${q}">${bar(pathStats(q))}</div>`;
+  }
   const modId = (q, i) => `mod-${q}-${i}`;
   function renderQuals(qid) {
     const body = $("#quals-body");
     if (!qid) {
       body.innerHTML = `<h1 class="view-title">Qualifications</h1>
-        <p class="view-sub">Each qualification's modules, mapped to the pages that cover them — so a topic from the course can be seen in place in the system. Ticks are shared with the study paths and saved in this browser only.</p>
+        <p class="view-sub">Each qualification's modules, mapped to the pages that cover them — so a topic from the course can be seen in place in the system. Placeholders list every module now and are mapped as the branches are written. Ticks are saved in this browser only.</p>
         <div class="flow-cards">${qualIds.map((q) => `<a class="flow-card path-card${role.id === q ? " current" : ""}" data-qual="${q}">
-          <h3>${esc(QUALS[q].title)}</h3><p>${esc(QUALS[q].summary)}</p><div class="meta">${QUALS[q].stages.length} modules · ${QUALS[q].pages.length} pages</div><div class="meta" data-progress="${q}">${bar(pathStats(q))}</div></a>`).join("")}</div>`;
+          <h3>${esc(QUALS[q].title)}${QUALS[q].status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h3><p>${esc(QUALS[q].summary)}</p>${qualMeta(q)}</a>`).join("")}</div>`;
       lastQualShown = null;
       return;
     }
@@ -792,15 +799,18 @@
           ${it.note ? `<span class="pi-note">${it.note}</span>` : `<span class="pi-note muted">${esc(pg.summary)}</span>`}
         </li>`;
       }).join("");
-      return `<h2 class="section mod-head" id="${modId(qid, si)}">${esc(s.title)}<span class="mod-count" data-modcount="${qid}:${si}">${done} of ${ids.length} known</span></h2><ol class="path-list">${items}</ol>`;
+      const note = s.note ? `<p class="mod-note">${s.note}</p>` : "";
+      const outOfScope = /outside this site.s scope/i.test(s.note);
+      if (!s.items.length) return `<h2 class="section mod-head mod-empty" id="${modId(qid, si)}">${esc(s.title)}<span class="mod-count">${outOfScope ? "Out of scope" : "Not mapped yet"}</span></h2>${note || '<p class="mod-note">No pages are mapped to this module yet.</p>'}`;
+      return `<h2 class="section mod-head" id="${modId(qid, si)}">${esc(s.title)}<span class="mod-count" data-modcount="${qid}:${si}">${done} of ${ids.length} known</span></h2>${note}<ol class="path-list">${items}</ol>`;
     }).join("");
     body.innerHTML = `<a class="back" data-qual="">← All qualifications</a>
-      <h1 class="view-title">${esc(r.title)}</h1>
+      <h1 class="view-title">${esc(r.title)}${r.status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h1>
       <div class="content path-intro">${r.intro}</div>
-      <div class="path-actions">
+      ${r.pages.length ? `<div class="path-actions">
         ${role.id === qid ? `<span class="btn ghost">Map focused on this qualification</span>` : `<button class="btn" data-setrole="${qid}">Focus the map on this qualification</button>`}
         <div class="path-progress" data-progress="${qid}">${bar(pathStats(qid))}</div>
-      </div>
+      </div>` : `<p class="mod-note">A placeholder: the modules are listed so the whole syllabus is visible, and pages are mapped as the matching branches are written.</p>`}
       <div class="mod-jumps" aria-label="Jump to module">${jump}</div>
       ${mods}`;
     if (pendingModule) {

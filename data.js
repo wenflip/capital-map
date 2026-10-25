@@ -4,12 +4,12 @@ window.MUDMAP = {
  "about": {
   "title": "About The Capital Map",
   "summary": "A free, independent reference to money, markets and assets, on one connected map.",
-  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
+  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid prices, dates and forecasts, so they don't go out of date.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
  },
  "privacy": {
   "title": "Privacy",
   "summary": "What The Capital Map stores, what it measures, and what it doesn't.",
-  "html": "<p><strong>In short:</strong> no accounts, no forms, no advertising and no tracking cookies. Your reading settings stay in your own browser. Visits are counted with privacy-first analytics that don't identify you.</p>\n<h2>What stays in your browser</h2>\n<p>The site saves a few settings in your browser's local storage, so they're there next time you visit:</p>\n<ul>\n<li>your view settings: depth (Core or Everything) and theme;</li>\n<li>which map branches you left open;</li>\n<li>the pages you've ticked as known;</li>\n<li>whether you've closed the welcome guide.</li>\n</ul>\n<p>This information <strong>never leaves your device</strong>. It isn't sent to the site or to anyone else. Clearing your browser's site data for this address removes all of it. Each browser and device keeps its own copy.</p>\n<h2>Visit statistics</h2>\n<p>The site counts visits with <strong>Cloudflare Web Analytics</strong>, a privacy-first service that:</p>\n<ul>\n<li>doesn't use cookies or local storage;</li>\n<li>doesn't build a profile of you or follow you across other sites;</li>\n<li>isn't used for advertising.</li>\n</ul>\n<p>It records, in aggregate: which pages are viewed, the page that linked to the site, the browser, operating system and device type, and the country the visit comes from. These figures are used only to see which pages are read and where visitors come from, so the site can be improved.</p>\n<h2>Hosting</h2>\n<p>The site is hosted on Cloudflare Pages. As with any website, Cloudflare processes technical request data, including IP addresses, to deliver pages and protect the site from abuse. This is handled under Cloudflare's own privacy policy; the site doesn't receive or store a list of visitors.</p>\n<h2>What the site doesn't do</h2>\n<ul>\n<li>No sign-up, login or user accounts.</li>\n<li>No contact or feedback forms that collect personal details.</li>\n<li>No advertising, and no advertising or social-media tracking scripts.</li>\n<li>No selling or sharing of data.</li>\n</ul>\n<h2>Contact</h2>\n<p>Questions about this page, or corrections to the site: <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>. If you send a message, X handles it under its own privacy policy; the site doesn't store it.</p>\n<h2>Links to other sites</h2>\n<p>Pages link to a few outside sources, such as the licence text. Those sites have their own privacy policies.</p>\n<h2>Changes</h2>\n<p>If this page changes, the updated version will be posted here.</p>"
+  "html": "<p><strong>In short:</strong> no accounts, no forms, no advertising and no tracking cookies. Your reading settings stay in your own browser. Visits are counted with privacy-first analytics that don't identify you.</p>\n<h2>What stays in your browser</h2>\n<p>The site saves a few settings in your browser's local storage, so they're there next time you visit:</p>\n<ul>\n<li>your view settings: depth (Core or Everything), theme, and qualification focus;</li>\n<li>which map branches you left open;</li>\n<li>the pages you've ticked as known on a qualification;</li>\n<li>whether you've closed the welcome guide.</li>\n</ul>\n<p>This information <strong>never leaves your device</strong>. It isn't sent to the site or to anyone else. Clearing your browser's site data for this address removes all of it. Each browser and device keeps its own copy.</p>\n<h2>Visit statistics</h2>\n<p>The site counts visits with <strong>Cloudflare Web Analytics</strong>, a privacy-first service that:</p>\n<ul>\n<li>doesn't use cookies or local storage;</li>\n<li>doesn't build a profile of you or follow you across other sites;</li>\n<li>isn't used for advertising.</li>\n</ul>\n<p>It records, in aggregate: which pages are viewed, the page that linked to the site, the browser, operating system and device type, and the country the visit comes from. These figures are used only to see which pages are read and where visitors come from, so the site can be improved.</p>\n<h2>Hosting</h2>\n<p>The site is hosted on Cloudflare Pages. As with any website, Cloudflare processes technical request data, including IP addresses, to deliver pages and protect the site from abuse. This is handled under Cloudflare's own privacy policy; the site doesn't receive or store a list of visitors.</p>\n<h2>What the site doesn't do</h2>\n<ul>\n<li>No sign-up, login or user accounts.</li>\n<li>No contact or feedback forms that collect personal details.</li>\n<li>No advertising, and no advertising or social-media tracking scripts.</li>\n<li>No selling or sharing of data.</li>\n</ul>\n<h2>Contact</h2>\n<p>Questions about this page, or corrections to the site: <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>. If you send a message, X handles it under its own privacy policy; the site doesn't store it.</p>\n<h2>Links to other sites</h2>\n<p>Pages link to a few outside sources, such as the licence text. Those sites have their own privacy policies.</p>\n<h2>Changes</h2>\n<p>If this page changes, the updated version will be posted here.</p>"
  },
  "pages": {
   "account-types": {
@@ -76,7 +76,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -123,7 +128,12 @@ window.MUDMAP = {
     "money-creation"
    ],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    }
+   ],
    "backlinks": [
     "cash-and-fiat",
     "central-bank-money",
@@ -167,7 +177,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [
     "claims-and-liabilities"
    ],
@@ -207,7 +222,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB5 — Banking as advance clearing: swaps and capital markets"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "central-bank-money",
@@ -250,7 +274,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -426,7 +455,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB4 — International money and banking"
+    }
+   ],
    "backlinks": [
     "bank-deposits",
     "cartography-of-wealth",
@@ -478,7 +516,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    }
+   ],
    "backlinks": [
     "cash-and-fiat",
     "claims-and-liabilities",
@@ -568,7 +615,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-CF — Corporate Finance"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB1 — The money view and balance sheets"
+    }
+   ],
    "backlinks": [
     "capital-system",
     "cartography-of-wealth",
@@ -649,7 +705,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [
     "gold"
    ],
@@ -727,7 +788,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-QM — Quantitative Methods"
+    }
+   ],
    "backlinks": [
     "foundation",
     "inflation",
@@ -765,7 +831,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-QM — Quantitative Methods"
+    },
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "foundation",
@@ -993,7 +1068,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "foundation",
@@ -1067,7 +1147,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1149,7 +1234,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB4 — International money and banking"
+    }
+   ],
    "backlinks": [
     "central-bank-money",
     "hierarchy-of-money",
@@ -1189,7 +1283,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1321,7 +1420,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1355,7 +1459,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-DRM — Derivatives and Risk Management"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB5 — Banking as advance clearing: swaps and capital markets"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1459,7 +1572,20 @@ window.MUDMAP = {
    "textDeep": "Going deeper The hierarchy is not fixed. Gold was the formal base until the early 1970s; since then central bank money has been the base for most purposes, with gold held alongside it by central banks. Central banks defend the hierarchy by standing ready to swap upper layers for their own money in a crisis (lender of last resort, swap lines). When they do, upper layers hold their value; when they don't, they break.",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB1 — The money view and balance sheets"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB4 — International money and banking"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB6 — Money in the real world"
+    }
+   ],
    "backlinks": [
     "bank-deposits",
     "cash-and-fiat",
@@ -1544,7 +1670,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1592,7 +1723,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    }
+   ],
    "backlinks": [
     "cash-and-fiat",
     "central-bank-money",
@@ -1633,7 +1769,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-DRM — Derivatives and Risk Management"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1675,7 +1816,20 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB3 — Banking as market making"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB6 — Money in the real world"
+    }
+   ],
    "backlinks": [
     "central-bank-money",
     "money"
@@ -1712,7 +1866,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB6 — Money in the real world"
+    }
+   ],
    "backlinks": [
     "capital-system",
     "liquidity",
@@ -1872,7 +2031,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    }
+   ],
    "backlinks": [
     "bank-deposits",
     "flow:where-money-comes-from",
@@ -1980,7 +2144,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-DRM — Derivatives and Risk Management"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2207,7 +2376,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-CF — Corporate Finance"
+    },
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth"
    ],
@@ -2287,7 +2465,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "claims-and-liabilities",
@@ -2326,7 +2509,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2360,7 +2548,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2394,7 +2587,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-QM — Quantitative Methods"
+    }
+   ],
    "backlinks": [
     "compounding",
     "foundation"
@@ -2443,7 +2641,12 @@ window.MUDMAP = {
    "textDeep": "Going deeper Volatility drag. When returns vary, the compound (geometric) average return is lower than the simple (arithmetic) average. The bigger the swings, the bigger the gap. This is why two investments with the same average yearly return can end with very different wealth, and why reducing large losses can raise long run growth. Risk is a property of the whole portfolio. What matters is how an asset moves alongside everything else you own, not how risky it is alone. See correlation.",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [
     "compounding",
     "foundation",
@@ -2521,7 +2724,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2559,7 +2767,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-CF — Corporate Finance"
+    },
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "claims-and-liabilities",
@@ -2597,7 +2814,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-PC — Portfolio Construction"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2631,7 +2853,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -2705,7 +2932,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    }
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "central-bank-money",
@@ -2745,7 +2977,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
    "backlinks": [
     "hierarchy-of-money",
     "liquidity",
@@ -2829,7 +3066,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-QM — Quantitative Methods"
+    },
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
    "backlinks": [
     "compounding",
     "foundation",
@@ -2906,7 +3152,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-EQ — Equities"
+    }
+   ],
    "backlinks": [
     "foundation",
     "time-value-of-money"
@@ -2943,7 +3194,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-QM — Quantitative Methods"
+    }
+   ],
    "backlinks": [
     "foundation",
     "risk-and-return"
@@ -2987,7 +3243,16 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB1 — The money view and balance sheets"
+    }
+   ],
    "backlinks": [
     "money"
    ],
@@ -3023,7 +3288,12 @@ window.MUDMAP = {
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-FI — Fixed Income"
+    }
+   ],
    "backlinks": [],
    "backlinksAdv": []
   }
@@ -3129,6 +3399,817 @@ window.MUDMAP = {
    "title": "Maintenance"
   }
  ],
- "quals": {},
- "built": "2026-10-25 07:15 UTC"
+ "quals": {
+  "caia-l1": {
+   "id": "caia-l1",
+   "title": "CAIA — Level I",
+   "short": "CAIA I",
+   "order": 7.0,
+   "summary": "An introduction to alternative investments: real assets and commodities, hedge funds, private equity and structured products.",
+   "intro": "<p>The Chartered Alternative Investment Analyst programme covers the assets outside listed shares and bonds. Topic names follow the CAIA Association's published curriculum; the association has announced new weights from 2027, so check the current outline before an exam.</p>",
+   "meta": {
+    "id": "caia-l1",
+    "title": "CAIA — Level I",
+    "short": "CAIA I",
+    "order": 7.0,
+    "status": "planned",
+    "summary": "An introduction to alternative investments: real assets and commodities, hedge funds, private equity and structured products."
+   },
+   "stages": [
+    {
+     "title": "CAIA1-ETH — Professional Standards and Ethics",
+     "items": [],
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+    },
+    {
+     "title": "CAIA1-INTRO — Introduction to Alternative Investments",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA1-RA — Real Assets including Commodities",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA1-HF — Hedge Funds",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA1-PE — Private Equity",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA1-SP — Structured Products",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA1-RMPM — Risk Management and Portfolio Management",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "caia-l2": {
+   "id": "caia-l2",
+   "title": "CAIA — Level II",
+   "short": "CAIA II",
+   "order": 8.0,
+   "summary": "Alternative investments in depth, and how institutions fit them into a whole portfolio.",
+   "intro": "<p>Level II goes deeper into each alternative asset and into how institutions allocate to them. Topic names follow the CAIA Association's published curriculum; check the current outline before an exam.</p>",
+   "meta": {
+    "id": "caia-l2",
+    "title": "CAIA — Level II",
+    "short": "CAIA II",
+    "order": 8.0,
+    "status": "planned",
+    "summary": "Alternative investments in depth, and how institutions fit them into a whole portfolio."
+   },
+   "stages": [
+    {
+     "title": "CAIA2-ETH — Professional Standards and Ethics",
+     "items": [],
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+    },
+    {
+     "title": "CAIA2-CIT — Current and Integrated Topics",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-AA — Asset Allocation and Institutional Investors",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-PE — Private Equity",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-RA — Real Assets",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-COM — Commodities",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-HF — Hedge Funds and Managed Futures",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CAIA2-SP — Structured Products",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "cfa-l1": {
+   "id": "cfa-l1",
+   "title": "CFA Program — Level I",
+   "short": "CFA I",
+   "order": 1.0,
+   "summary": "The ten Level I topic areas, each mapped to the pages that cover it. The broad spine of the investment field, and the best check for gaps.",
+   "intro": "<p>Where each Level I topic area lives on this map. Topic names follow the CFA Institute's 2027 outline, which applies from the February 2027 exam window; check the current outline before an exam. The pages are reference notes in our own words, not the official study material, so use them alongside it.</p>\n<p>Many mapped pages are still stubs: those rows are the to-do list for the branches still to be written.</p>",
+   "meta": {
+    "id": "cfa-l1",
+    "title": "CFA Program — Level I",
+    "short": "CFA I",
+    "order": 1.0,
+    "summary": "The ten Level I topic areas, each mapped to the pages that cover it. The broad spine of the investment field, and the best check for gaps."
+   },
+   "stages": [
+    {
+     "title": "CFA1-ETH — Ethical and Professional Standards",
+     "items": [],
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+    },
+    {
+     "title": "CFA1-QM — Quantitative Methods",
+     "items": [
+      {
+       "page": "time-value-of-money",
+       "note": "Present and future value, discounting"
+      },
+      {
+       "page": "compounding",
+       "note": "Compound growth and effective rates"
+      },
+      {
+       "page": "returns",
+       "note": "Measuring and annualising returns"
+      },
+      {
+       "page": "volatility",
+       "note": "Dispersion of returns"
+      },
+      {
+       "page": "correlation",
+       "note": "How two assets move together"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-ECON — Economics",
+     "items": [
+      {
+       "page": "what-is-money",
+       "note": "The functions of money"
+      },
+      {
+       "page": "central-bank-money",
+       "note": "Monetary policy and the central bank's tools"
+      },
+      {
+       "page": "inflation",
+       "note": "Price levels, real and nominal"
+      },
+      {
+       "page": "cash-and-fiat",
+       "note": "Currencies and what gives them value"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-FSA — Financial Statement Analysis",
+     "items": [],
+     "note": "Not mapped yet: the map has no pages on reading financial statements. A gap to fill in Equities."
+    },
+    {
+     "title": "CFA1-CF — Corporate Finance",
+     "items": [
+      {
+       "page": "claims-and-liabilities",
+       "note": "Creditors and owners: who has a claim on a company, and in what order"
+      },
+      {
+       "page": "private-business",
+       "note": "Forms of business ownership"
+      },
+      {
+       "page": "shares",
+       "note": "Equity as the residual claim"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-EQ — Equities",
+     "items": [
+      {
+       "page": "shares",
+       "note": "What owning a share means"
+      },
+      {
+       "page": "exchanges",
+       "note": "Market organisation"
+      },
+      {
+       "page": "brokers",
+       "note": "How orders reach the market"
+      },
+      {
+       "page": "settlement",
+       "note": "How trades complete"
+      },
+      {
+       "page": "indices",
+       "note": "Security market indices"
+      },
+      {
+       "page": "funds-and-etfs",
+       "note": "Pooled ways to hold shares"
+      },
+      {
+       "page": "valuation",
+       "note": "Estimating what a share is worth"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-FI — Fixed Income",
+     "items": [
+      {
+       "page": "t-bills",
+       "note": "Short-term government debt"
+      },
+      {
+       "page": "bonds",
+       "note": "Features and issuers of bonds"
+      },
+      {
+       "page": "time-value-of-money",
+       "note": "Pricing a bond as a present value"
+      },
+      {
+       "page": "yield-curve",
+       "note": "Yields across maturities"
+      },
+      {
+       "page": "duration",
+       "note": "Interest-rate sensitivity"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-DRM — Derivatives and Risk Management",
+     "items": [
+      {
+       "page": "futures",
+       "note": "Forward commitments"
+      },
+      {
+       "page": "options",
+       "note": "Contingent claims"
+      },
+      {
+       "page": "leverage",
+       "note": "How derivatives magnify exposure"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-ALT — Alternative Investments",
+     "items": [
+      {
+       "page": "real-estate",
+       "note": "Direct property"
+      },
+      {
+       "page": "reits",
+       "note": "Listed property"
+      },
+      {
+       "page": "commodities",
+       "note": "Raw materials as an asset class"
+      },
+      {
+       "page": "private-business",
+       "note": "Private equity"
+      },
+      {
+       "page": "bitcoin",
+       "note": "Digital assets"
+      },
+      {
+       "page": "smart-contract-platforms",
+       "note": "Distributed ledgers that run programs"
+      },
+      {
+       "page": "stablecoins",
+       "note": "Tokens pegged to a currency"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "CFA1-PC — Portfolio Construction",
+     "items": [
+      {
+       "page": "risk-and-return",
+       "note": "The trade-off at the heart of portfolio choice"
+      },
+      {
+       "page": "diversification",
+       "note": "Reducing risk that isn't rewarded"
+      },
+      {
+       "page": "correlation",
+       "note": "The input that makes diversification work"
+      },
+      {
+       "page": "asset-allocation",
+       "note": "The mix across asset classes"
+      },
+      {
+       "page": "rebalancing",
+       "note": "Keeping the mix on target"
+      },
+      {
+       "page": "sharpe-ratio",
+       "note": "Return per unit of risk"
+      }
+     ],
+     "note": ""
+    }
+   ],
+   "pages": [
+    "time-value-of-money",
+    "compounding",
+    "returns",
+    "volatility",
+    "correlation",
+    "what-is-money",
+    "central-bank-money",
+    "inflation",
+    "cash-and-fiat",
+    "claims-and-liabilities",
+    "private-business",
+    "shares",
+    "exchanges",
+    "brokers",
+    "settlement",
+    "indices",
+    "funds-and-etfs",
+    "valuation",
+    "t-bills",
+    "bonds",
+    "yield-curve",
+    "duration",
+    "futures",
+    "options",
+    "leverage",
+    "real-estate",
+    "reits",
+    "commodities",
+    "bitcoin",
+    "smart-contract-platforms",
+    "stablecoins",
+    "risk-and-return",
+    "diversification",
+    "asset-allocation",
+    "rebalancing",
+    "sharpe-ratio"
+   ],
+   "status": "mapped"
+  },
+  "cfa-l2": {
+   "id": "cfa-l2",
+   "title": "CFA Program — Level II",
+   "short": "CFA II",
+   "order": 2.0,
+   "summary": "The same ten topic areas as Level I, studied in more depth with case-style questions. A placeholder until the Level I branches are written.",
+   "intro": "<p>Level II goes deeper into the same ground as Level I: valuation models, more advanced fixed income and derivatives, and portfolio analytics. Topic names follow the CFA Institute's outline; prep providers report the same 2027 renames as Level I, so check the official outline before an exam.</p>",
+   "meta": {
+    "id": "cfa-l2",
+    "title": "CFA Program — Level II",
+    "short": "CFA II",
+    "order": 2.0,
+    "status": "planned",
+    "summary": "The same ten topic areas as Level I, studied in more depth with case-style questions. A placeholder until the Level I branches are written."
+   },
+   "stages": [
+    {
+     "title": "CFA2-ETH — Ethical and Professional Standards",
+     "items": [],
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+    },
+    {
+     "title": "CFA2-QM — Quantitative Methods",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-ECON — Economics",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-FSA — Financial Statement Analysis",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-CF — Corporate Finance",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-EQ — Equities",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-FI — Fixed Income",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-DRM — Derivatives and Risk Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-ALT — Alternative Investments",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA2-PC — Portfolio Construction",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "cfa-l3": {
+   "id": "cfa-l3",
+   "title": "CFA Program — Level III (core and Portfolio Management pathway)",
+   "short": "CFA III",
+   "order": 3.0,
+   "summary": "The shared Level III core — asset allocation, portfolio construction, performance and risk — plus the Portfolio Management pathway.",
+   "intro": "<p>Level III has a core every candidate takes, plus one of three pathways chosen at registration: Portfolio Management, Private Markets or Private Wealth. This map follows the core and the <strong>Portfolio Management</strong> pathway, which is the public-markets machine. Private Wealth is mainly client planning, and Private Markets is mainly the fund manager's view, so both are left out. Check the current outline before an exam.</p>",
+   "meta": {
+    "id": "cfa-l3",
+    "title": "CFA Program — Level III (core and Portfolio Management pathway)",
+    "short": "CFA III",
+    "order": 3.0,
+    "status": "planned",
+    "summary": "The shared Level III core — asset allocation, portfolio construction, performance and risk — plus the Portfolio Management pathway."
+   },
+   "stages": [
+    {
+     "title": "CFA3-ETH — Ethical and Professional Standards",
+     "items": [],
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+    },
+    {
+     "title": "CFA3-AA — Asset Allocation",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA3-PC — Portfolio Construction",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA3-PERF — Performance Measurement",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA3-DRM — Derivatives and Risk Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "CFA3-PM — Portfolio Management pathway",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "frm-1": {
+   "id": "frm-1",
+   "title": "FRM — Part I",
+   "short": "FRM I",
+   "order": 5.0,
+   "summary": "The foundations of financial risk: risk frameworks, statistics, markets and products, and valuation and risk models.",
+   "intro": "<p>The Financial Risk Manager programme is about how losses happen and how they are measured. Part I builds the tools; Part II applies them. Knowledge-area names follow GARP's published structure; check the current learning objectives before an exam.</p>",
+   "meta": {
+    "id": "frm-1",
+    "title": "FRM — Part I",
+    "short": "FRM I",
+    "order": 5.0,
+    "status": "planned",
+    "summary": "The foundations of financial risk: risk frameworks, statistics, markets and products, and valuation and risk models."
+   },
+   "stages": [
+    {
+     "title": "FRM1-FRM — Foundations of Risk Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM1-QA — Quantitative Analysis",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM1-FMP — Financial Markets and Products",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM1-VRM — Valuation and Risk Models",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "frm-2": {
+   "id": "frm-2",
+   "title": "FRM — Part II",
+   "short": "FRM II",
+   "order": 6.0,
+   "summary": "Applying risk measurement across market, credit, operational and liquidity risk, and to investment management.",
+   "intro": "<p>Part II applies the Part I tools to each major kind of risk. Knowledge-area names follow GARP's published structure; check the current learning objectives before an exam.</p>",
+   "meta": {
+    "id": "frm-2",
+    "title": "FRM — Part II",
+    "short": "FRM II",
+    "order": 6.0,
+    "status": "planned",
+    "summary": "Applying risk measurement across market, credit, operational and liquidity risk, and to investment management."
+   },
+   "stages": [
+    {
+     "title": "FRM2-MR — Market Risk Measurement and Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM2-CR — Credit Risk Measurement and Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM2-OR — Operational Risk and Resilience",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM2-LTR — Liquidity and Treasury Risk Measurement and Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM2-RMIM — Risk Management and Investment Management",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "FRM2-CI — Current Issues in Financial Markets",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  },
+  "money-banking": {
+   "id": "money-banking",
+   "title": "Economics of Money and Banking (Perry Mehrling)",
+   "short": "Money & Banking",
+   "order": 4.0,
+   "summary": "A free university course on the money system as a payment system: balance sheets, clearing, dealers and the hierarchy of money. It fills the plumbing gap the CFA leaves.",
+   "intro": "<p>A free online course by Perry Mehrling, taught as a sequence of themes rather than an exam syllabus. Its central idea — that money is layered, and that every layer is a promise to pay in the one below — is the backbone of this map's <a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">Money &amp; Liquidity</a> branch. The module titles below group the course's weekly themes; the pages are our own notes, not course material.</p>",
+   "meta": {
+    "id": "money-banking",
+    "title": "Economics of Money and Banking (Perry Mehrling)",
+    "short": "Money & Banking",
+    "order": 4.0,
+    "summary": "A free university course on the money system as a payment system: balance sheets, clearing, dealers and the hierarchy of money. It fills the plumbing gap the CFA leaves."
+   },
+   "stages": [
+    {
+     "title": "MB1 — The money view and balance sheets",
+     "items": [
+      {
+       "page": "what-is-money",
+       "note": "Money as the infrastructure of a market economy"
+      },
+      {
+       "page": "claims-and-liabilities",
+       "note": "Every asset is someone's liability: the balance-sheet way of seeing the system"
+      },
+      {
+       "page": "hierarchy-of-money",
+       "note": "The layers of money, from the base to private promises"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "MB2 — Banking as a clearing system",
+     "items": [
+      {
+       "page": "bank-deposits",
+       "note": "Banks as payment systems that must settle every day"
+      },
+      {
+       "page": "central-bank-money",
+       "note": "Final settlement in reserves"
+      },
+      {
+       "page": "money-creation",
+       "note": "How lending creates deposits"
+      },
+      {
+       "page": "eurodollars",
+       "note": "The payment system extended offshore"
+      },
+      {
+       "page": "liquidity",
+       "note": "When settlement pressure becomes a squeeze"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "MB3 — Banking as market making",
+     "items": [
+      {
+       "page": "liquidity",
+       "note": "Market liquidity: dealers absorbing imbalances for a price"
+      }
+     ],
+     "note": "Partly mapped: dealers and market making need a page of their own (Markets &amp; Plumbing)."
+    },
+    {
+     "title": "MB4 — International money and banking",
+     "items": [
+      {
+       "page": "eurodollars",
+       "note": "The offshore dollar system"
+      },
+      {
+       "page": "cash-and-fiat",
+       "note": "Currencies and exchange"
+      },
+      {
+       "page": "hierarchy-of-money",
+       "note": "Why the dollar sits near the top of the world's hierarchy"
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "MB5 — Banking as advance clearing: swaps and capital markets",
+     "items": [
+      {
+       "page": "bonds",
+       "note": "Capital-market debt"
+      },
+      {
+       "page": "futures",
+       "note": "Forward commitments"
+      }
+     ],
+     "note": "Partly mapped: interest-rate and credit-default swaps need pages of their own (Derivatives)."
+    },
+    {
+     "title": "MB6 — Money in the real world",
+     "items": [
+      {
+       "page": "hierarchy-of-money",
+       "note": "The whole system in one picture"
+      },
+      {
+       "page": "liquidity",
+       "note": "How system liquidity moves markets"
+      },
+      {
+       "page": "market-regimes",
+       "note": "Risk-on and risk-off as liquidity changes"
+      }
+     ],
+     "note": ""
+    }
+   ],
+   "pages": [
+    "what-is-money",
+    "claims-and-liabilities",
+    "hierarchy-of-money",
+    "bank-deposits",
+    "central-bank-money",
+    "money-creation",
+    "eurodollars",
+    "liquidity",
+    "cash-and-fiat",
+    "bonds",
+    "futures",
+    "market-regimes"
+   ],
+   "status": "mapped"
+  },
+  "princeton-bitcoin": {
+   "id": "princeton-bitcoin",
+   "title": "Bitcoin and Cryptocurrency Technologies (Princeton)",
+   "short": "Princeton Bitcoin",
+   "order": 9.0,
+   "summary": "A free university course and textbook on how Bitcoin and other cryptocurrencies actually work, from cryptography to mining and custody.",
+   "intro": "<p>A free course and textbook from Princeton University. It explains the machinery underneath digital assets: how a ledger stays honest without a central owner, how coins are stored and lost, and what mining does. The module titles follow the textbook's chapters; the pages are our own notes, not course material.</p>",
+   "meta": {
+    "id": "princeton-bitcoin",
+    "title": "Bitcoin and Cryptocurrency Technologies (Princeton)",
+    "short": "Princeton Bitcoin",
+    "order": 9.0,
+    "status": "planned",
+    "summary": "A free university course and textbook on how Bitcoin and other cryptocurrencies actually work, from cryptography to mining and custody."
+   },
+   "stages": [
+    {
+     "title": "BTC1 — Cryptography and cryptocurrencies",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC2 — How Bitcoin achieves decentralisation",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC3 — Mechanics of Bitcoin",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC4 — How to store and use bitcoins",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC5 — Bitcoin mining",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC6 — Bitcoin and anonymity",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC7 — Community, politics and regulation",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC8 — Alternative mining puzzles",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC9 — Bitcoin as a platform",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC10 — Altcoins and the cryptocurrency ecosystem",
+     "items": [],
+     "note": ""
+    },
+    {
+     "title": "BTC11 — Decentralised institutions",
+     "items": [],
+     "note": ""
+    }
+   ],
+   "pages": [],
+   "status": "planned"
+  }
+ },
+ "built": "2026-10-25 07:37 UTC"
 };
