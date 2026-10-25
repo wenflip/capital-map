@@ -28,7 +28,7 @@
   if (welcomeOnLoad && freshVisitor) store.set("mode", "simple");
 
   /* ---------- Branch colours ---------- */
-  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120, tools: 0 };
+  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120 };
   const branchIds = P[ROOT].children;
   const fallbackHues = [215, 268, 20, 152, 42, 192, 338, 240, 88, 0, 300];
   function hue(id) {
@@ -258,7 +258,8 @@
   const MONO = getComputedStyle(document.documentElement).getPropertyValue("--mono").trim() || "monospace";
   function measure(text, size, weight, family) { canvas.font = `${weight} ${size}px ${family || FONT}`; return canvas.measureText(text).width; }
 
-  const MAXW = 250, GAPX = 64, GAPY = 9, BRANCH_GAP = 26;
+  const MAXW = 250, GAPX = 64, GAPY = 9, BRANCH_GAP = 26, GROUP_GAP = 30, GROUP_LABEL_H = 26;
+  const groupOf = (id) => (P[id] && P[id].group) || "";
   function nodeKind(id) { return id === ROOT ? "root" : P[id].parent === ROOT ? "branch" : "leaf"; }
   function label(id) { return P[id].short || P[id].title; }
 
@@ -291,23 +292,33 @@
     for (let d = 1; d < depthMax.length; d++) colX[d] = colX[d - 1] + depthMax[d - 1] + GAPX;
     // pass 2: vertical placement
     let cursor = 0;
+    const groups = [];   // top-level groups: a small heading above each cluster of branches
     (function place(id) {
       const n = nodes[id];
       n.x = colX[n.d];
       const kids = expanded.has(id) ? kidsOf(id) : [];
       if (!kids.length) { n.y = cursor + n.h / 2; cursor += n.h + GAPY; return; }
-      kids.forEach((c, i) => { if (id === ROOT && i > 0) cursor += BRANCH_GAP; place(c); });
+      kids.forEach((c, i) => {
+        if (id === ROOT) {
+          const g = groupOf(c), newGroup = g && (i === 0 || g !== groupOf(kids[i - 1]));
+          if (i > 0) cursor += BRANCH_GAP + (newGroup ? GROUP_GAP : 0);
+          if (newGroup) { groups.push({ text: g, y: cursor + 12 }); cursor += GROUP_LABEL_H; }
+        }
+        place(c);
+      });
       const first = nodes[kids[0]], last = nodes[kids[kids.length - 1]];
       n.y = (first.y + last.y) / 2;
       // keep tall parents from overlapping the next sibling
       cursor = Math.max(cursor, n.y + n.h / 2 + GAPY);
     })(ROOT);
+    groups.forEach((g) => { g.x = colX[1] || 0; });
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     Object.values(nodes).forEach((n) => {
       minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x + n.w + 24);
       minY = Math.min(minY, n.y - n.h / 2); maxY = Math.max(maxY, n.y + n.h / 2);
     });
-    return { nodes, bbox: { minX, minY, maxX, maxY } };
+    groups.forEach((g) => { minY = Math.min(minY, g.y - 12); });
+    return { nodes, groups: expanded.has(ROOT) ? groups : [], bbox: { minX, minY, maxX, maxY } };
   }
 
   function drawMap() {
@@ -346,7 +357,8 @@
       const mark = pg.adv && k !== "root" ? `<path class="adv-mark" d="M${n.x + n.w - 9} ${top - 4} l5 5 l-5 5 l-5 -5 z" style="fill:${col(n.id)}"/>` : "";
       out += `<g class="${cls}" data-node="${n.id}"><title>${esc(pg.title + (pg.summary ? " — " + pg.summary : "") + (pg.adv ? " · advanced" : ""))}</title>${box}${txt}${mark}${done}</g>${tog}`;
     });
-    gRoot.innerHTML = `<g>${links}</g><g>${out}</g>`;
+    const heads = layout.groups.map((g) => `<text class="group-label" x="${g.x + 2}" y="${g.y}" data-group="${esc(g.text)}">${esc(g.text)}</text>`).join("");
+    gRoot.innerHTML = `<g>${links}</g><g class="group-labels">${heads}</g><g>${out}</g>`;
     applyView();
   }
 
@@ -870,7 +882,8 @@
     const all = Object.values(P).filter((p) => vis(p.id)), written = all.filter((p) => !p.stub).length;
     const advCount = all.filter((p) => p.adv).length;
     let groups = "";
-    branchIds.filter(vis).forEach((b) => {
+    branchIds.filter(vis).forEach((b, i, arr) => {
+      if (groupOf(b) && (i === 0 || groupOf(b) !== groupOf(arr[i - 1]))) groups += `<h2 class="index-grouphead">${esc(groupOf(b))}</h2>`;
       const items = [];
       (function walk(id, d) { items.push([id, d]); kidsOf(id).forEach((c) => walk(c, d + 1)); })(b, 0);
       groups += `<div class="index-group"><h3><i style="background:${col(b)}"></i><a data-page="${b}">${esc(P[b].short || P[b].title)}</a></h3>` +
