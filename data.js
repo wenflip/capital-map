@@ -576,6 +576,7 @@ window.MUDMAP = {
     "bonds",
     "duration",
     "fixed-income",
+    "reits",
     "yield-curve"
    ],
    "backlinksAdv": [
@@ -879,15 +880,22 @@ window.MUDMAP = {
     "capital-system",
     "cash-and-fiat",
     "claims-and-liabilities",
+    "collectibles",
     "credit-risk",
     "digital-assets",
     "fixed-income",
     "foundation",
     "gold",
     "holding-crypto",
+    "human-capital",
     "inflation",
     "money",
+    "personal-capital",
+    "real-assets",
+    "real-estate",
+    "reits",
     "risk-and-return",
+    "social-capital",
     "wrapped-tokens"
    ],
    "backlinksAdv": []
@@ -1142,6 +1150,8 @@ window.MUDMAP = {
     "foundation",
     "hierarchy-of-money",
     "money",
+    "real-assets",
+    "reits",
     "what-is-money"
    ],
    "backlinksAdv": []
@@ -1179,17 +1189,23 @@ window.MUDMAP = {
    ],
    "branch": "real-assets",
    "adv": false,
-   "html": "<p>Art, gems, watches and wine: value set by what a buyer will pay.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Collectibles</strong> are objects people buy partly for pleasure and partly as a store of value: art, watches, classic cars, rare wine and whisky, coins, stamps, gems, trading cards. Their value isn't set by income or by a formula. It's what the next buyer is willing to pay.</p>\n<h2>Why people own them</h2>\n<ul>\n<li><strong>Enjoyment.</strong> You can wear the watch, drive the car or hang the painting.</li>\n<li><strong>Scarcity.</strong> The supply of a particular artist's work or a discontinued model is fixed.</li>\n<li><strong>Privacy and portability.</strong> Many collectibles aren't recorded in a public register, and small ones can be carried. That is why they sit near the private, bearer end of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, though large sales leave records.</li>\n</ul>\n<h2>How it works</h2>\n<p>Prices are set in <strong>thin markets</strong>: few buyers and sellers, and each object slightly different. Sales happen through auction houses, dealers and private deals. Fees are high: auction houses charge both the buyer and the seller, and together the fees can take a large slice of the price.</p>\n<p>Collectibles pay <strong>no income</strong>, and holding them costs money: insurance, secure storage, climate control for wine and art, and proof that the object is genuine (<strong>provenance</strong>).</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Illiquidity and subjective value</strong>, the killer on the Cartography of Wealth. When you are forced to sell, the price is one buyer's word on one day.</li>\n<li><strong>Fashion.</strong> Tastes change. A category that was hot for a decade can fall out of favour.</li>\n<li><strong>Fakes and disputes.</strong> A forged signature or a gap in the ownership history can destroy the value.</li>\n<li><strong>Damage, theft and loss</strong>, with no one to claim against except your insurer.</li>\n<li><strong>Price indices flatter.</strong> Published returns often track only items that sold at auction, which leaves out the pieces that didn't sell.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> buy a collectible because you value owning it. Treat any gain as a bonus, because selling is slow, expensive and depends on taste.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — the main thing collectibles lack.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — a real asset with a deep market and uniform units, unlike collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — the branch this sits in.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can two identical-looking watches sell for very different prices?</p><details><summary>Show answer</summary><p>Because collectibles are valued one by one. Condition, provenance, rarity and which buyers happen to be bidding that day all change the price, and there is no standard unit like an ounce of gold.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Art, gems, watches and wine: value set by what a buyer will pay.",
+   "links": [
+    "cartography-of-wealth",
+    "gold",
+    "liquidity",
+    "real-assets"
+   ],
+   "stub": false,
+   "text": "What it is Collectibles are objects people buy partly for pleasure and partly as a store of value: art, watches, classic cars, rare wine and whisky, coins, stamps, gems, trading cards. Their value isn't set by income or by a formula. It's what the next buyer is willing to pay. Why people own them Enjoyment. You can wear the watch, drive the car or hang the painting. Scarcity. The supply of a particular artist's work or a discontinued model is fixed. Privacy and portability. Many collectibles aren't recorded in a public register, and small ones can be carried. That is why they sit near the private, bearer end of the Cartography of Wealth, though large sales leave records. How it works Prices are set in thin markets : few buyers and sellers, and each object slightly different. Sales happen through auction houses, dealers and private deals. Fees are high: auction houses charge both the buyer and the seller, and together the fees can take a large slice of the price. Collectibles pay no income , and holding them costs money: insurance, secure storage, climate control for wine and art, and proof that the object is genuine ( provenance ). What goes wrong Illiquidity and subjective value , the killer on the Cartography of Wealth. When you are forced to sell, the price is one buyer's word on one day. Fashion. Tastes change. A category that was hot for a decade can fall out of favour. Fakes and disputes. A forged signature or a gap in the ownership history can destroy the value. Damage, theft and loss , with no one to claim against except your insurer. Price indices flatter. Published returns often track only items that sold at auction, which leaves out the pieces that didn't sell. Key rule: buy a collectible because you value owning it. Treat any gain as a bonus, because selling is slow, expensive and depends on taste. Connects to liquidity — the main thing collectibles lack. gold — a real asset with a deep market and uniform units, unlike collectibles. real assets — the branch this sits in. Check yourself Q: Why can two identical looking watches sell for very different prices? A: Because collectibles are valued one by one. Condition, provenance, rarity and which buyers happen to be bidding that day all change the price, and there is no standard unit like an ounce of gold.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "real-assets"
    ],
    "backlinksAdv": []
   },
@@ -1203,7 +1219,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "CFTC, Interim Staff Report on NYMEX WTI Crude Oil Futures (20 April 2020)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -1219,11 +1237,17 @@ window.MUDMAP = {
    ],
    "branch": "real-assets",
    "adv": false,
-   "html": "<p>Raw materials such as oil, grain and metals, traded in bulk.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Commodities</strong> are raw materials traded in bulk, where one unit is the same as another: crude oil, natural gas, wheat, coffee, copper, gold and silver. Because a barrel of one grade of oil is interchangeable with another, they can be traded on exchanges in standard contracts.</p>\n<p>The main groups are <strong>energy</strong> (oil, gas), <strong>metals</strong> (industrial like copper and aluminium; precious like gold and silver) and <strong>agriculture</strong> (grains, livestock, coffee, sugar).</p>\n<h2>Why people trade them</h2>\n<ul>\n<li><strong>Producers and users</strong> lock in prices to protect their business: a farmer sells next year's crop now; an airline buys fuel ahead.</li>\n<li><strong>Investors</strong> buy them as protection against inflation, since raw materials feed into the price of almost everything.</li>\n<li><strong>Diversification.</strong> Commodity prices are often driven by supply shocks and weather, which don't always move with shares and bonds.</li>\n</ul>\n<h2>How it works</h2>\n<p>Very few investors store oil or grain. Most exposure comes through <a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a>: contracts to buy or sell a set amount at a set price on a future date.</p>\n<p>Because futures expire, an investor who wants to stay invested must <strong>roll</strong>: sell the contract that is about to expire and buy a later one. What that costs depends on the shape of prices across dates:</p>\n<ul>\n<li><strong>Contango:</strong> later contracts cost more than nearer ones. Each roll sells low and buys high, which drags on returns.</li>\n<li><strong>Backwardation:</strong> later contracts cost less. Each roll sells high and buys low, which adds to returns.</li>\n</ul>\n<p>Fictional example: the expiring contract trades at 70 and the next at 72. Rolling costs about 2.86% (2 ÷ 70), even if the spot price doesn't move. Repeated every month, that drag can be large.</p>\n<p>So a commodity fund's return is not the same as the spot price's change. It's the price change, plus or minus the roll, plus interest earned on the cash held as collateral.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Price collapses</strong> when supply jumps or demand falls. On 20 April 2020, with storage almost full, the expiring US crude oil futures contract settled below zero, at about −37 dollars a barrel: holders paid others to take the oil.</li>\n<li><strong>Roll costs</strong> in contango can make a fund lose money while the spot price is flat.</li>\n<li><strong>No income.</strong> A barrel of oil pays no interest or dividend; storing physical commodities costs money.</li>\n<li><strong>Leverage.</strong> Futures need only a small deposit, so price moves are magnified. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a commodity investment's return is the price, plus or minus the roll. Check the shape of the futures curve, not just the headline price.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — the contracts most commodities trade through.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the commodity that also works as money.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — raw material prices feed into consumer prices.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — the branch this sits in.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The oil price is unchanged over a year, but an oil futures fund lost money. What's the most likely reason?</p><details><summary>Show answer</summary><p>Contango. Each time the fund rolled into the next contract, it sold the cheaper expiring one and bought a dearer later one, losing a little every roll.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Raw materials such as oil, grain and metals, traded in bulk.",
+   "links": [
+    "futures",
+    "gold",
+    "inflation",
+    "leverage",
+    "real-assets"
+   ],
+   "stub": false,
+   "text": "What it is Commodities are raw materials traded in bulk, where one unit is the same as another: crude oil, natural gas, wheat, coffee, copper, gold and silver. Because a barrel of one grade of oil is interchangeable with another, they can be traded on exchanges in standard contracts. The main groups are energy (oil, gas), metals (industrial like copper and aluminium; precious like gold and silver) and agriculture (grains, livestock, coffee, sugar). Why people trade them Producers and users lock in prices to protect their business: a farmer sells next year's crop now; an airline buys fuel ahead. Investors buy them as protection against inflation, since raw materials feed into the price of almost everything. Diversification. Commodity prices are often driven by supply shocks and weather, which don't always move with shares and bonds. How it works Very few investors store oil or grain. Most exposure comes through futures: contracts to buy or sell a set amount at a set price on a future date. Because futures expire, an investor who wants to stay invested must roll : sell the contract that is about to expire and buy a later one. What that costs depends on the shape of prices across dates: Contango: later contracts cost more than nearer ones. Each roll sells low and buys high, which drags on returns. Backwardation: later contracts cost less. Each roll sells high and buys low, which adds to returns. Fictional example: the expiring contract trades at 70 and the next at 72. Rolling costs about 2.86% (2 ÷ 70), even if the spot price doesn't move. Repeated every month, that drag can be large. So a commodity fund's return is not the same as the spot price's change. It's the price change, plus or minus the roll, plus interest earned on the cash held as collateral. What goes wrong Price collapses when supply jumps or demand falls. On 20 April 2020, with storage almost full, the expiring US crude oil futures contract settled below zero, at about −37 dollars a barrel: holders paid others to take the oil. Roll costs in contango can make a fund lose money while the spot price is flat. No income. A barrel of oil pays no interest or dividend; storing physical commodities costs money. Leverage. Futures need only a small deposit, so price moves are magnified. See leverage. Key rule: a commodity investment's return is the price, plus or minus the roll. Check the shape of the futures curve, not just the headline price. Connects to futures — the contracts most commodities trade through. gold — the commodity that also works as money. inflation — raw material prices feed into consumer prices. real assets — the branch this sits in. Check yourself Q: The oil price is unchanged over a year, but an oil futures fund lost money. What's the most likely reason? A: Contango. Each time the fund rolled into the next contract, it sold the cheaper expiring one and bought a dearer later one, losing a little every roll.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1234,7 +1258,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "gold"
+    "gold",
+    "real-assets"
    ],
    "backlinksAdv": []
   },
@@ -1327,6 +1352,7 @@ window.MUDMAP = {
    "backlinks": [
     "foundation",
     "inflation",
+    "personal-capital",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -1500,7 +1526,8 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bonds",
-    "fixed-income"
+    "fixed-income",
+    "real-estate"
    ],
    "backlinksAdv": []
   },
@@ -1907,6 +1934,9 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "foundation",
+    "human-capital",
+    "personal-capital",
+    "real-assets",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -2383,7 +2413,9 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "reits"
+   ],
    "backlinksAdv": []
   },
   "futures": {
@@ -2430,7 +2462,10 @@ window.MUDMAP = {
      "m": "MB5 — Banking as advance clearing: swaps and capital markets"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "commodities",
+    "real-assets"
+   ],
    "backlinksAdv": []
   },
   "gold": {
@@ -2489,8 +2524,11 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "collectibles",
+    "commodities",
     "hierarchy-of-money",
-    "money"
+    "money",
+    "real-assets"
    ],
    "backlinksAdv": []
   },
@@ -2701,7 +2739,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Gary S. Becker, Human Capital (1964)"
+   ],
    "level": "basic",
    "group": "",
    "tier": "1",
@@ -2724,17 +2764,24 @@ window.MUDMAP = {
    ],
    "branch": "personal-capital",
    "adv": false,
-   "html": "<p>Skills, health and judgment: the store that can rebuild all the others.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Human capital</strong> is the value of what you can do: your skills, knowledge, health, energy and judgment. Economists measure it as the present value of the income those abilities are likely to earn over your working life. The term was made popular by the economist Gary Becker in the 1960s.</p>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>It's usually most of your wealth when you're young.</strong> A new graduate may have little money but decades of earnings ahead.</li>\n<li><strong>It turns into the other stores.</strong> Over a career, wages saved become deposits, bonds, shares and property.</li>\n<li><strong>It can rebuild from zero.</strong> A trained engineer who loses every asset still has the skill that earned them.</li>\n</ul>\n<h2>How it grows</h2>\n<ul>\n<li><strong>Learning:</strong> study, practice and on-the-job experience.</li>\n<li><strong>Health:</strong> sleep, fitness and avoiding injury. A skill you can't use because you are ill earns nothing.</li>\n<li><strong>Choosing what to learn:</strong> skills that are scarce and in demand earn more, and skills that transfer between employers or industries are safer.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Death or incapacity</strong>, the killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>. It can't be transferred, so it ends with you.</li>\n<li><strong>Obsolescence:</strong> technology or markets stop paying for a skill.</li>\n<li><strong>One-industry exposure:</strong> a career built on a single employer or sector carries that sector's risk.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> human capital is protected by insurance, by health and by learning skills that transfer.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a> — the other half of tier 1.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — future earnings are worth less today the further away they are.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — invest away from the risks your job already carries.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do people buy disability insurance?</p><details><summary>Show answer</summary><p>Because it converts some of their human capital, which they can't otherwise protect or sell, into money if they can no longer work.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Skills, health and judgment: the store that can rebuild all the others.",
+   "links": [
+    "cartography-of-wealth",
+    "diversification",
+    "social-capital",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Human capital is the value of what you can do: your skills, knowledge, health, energy and judgment. Economists measure it as the present value of the income those abilities are likely to earn over your working life. The term was made popular by the economist Gary Becker in the 1960s. Why it matters It's usually most of your wealth when you're young. A new graduate may have little money but decades of earnings ahead. It turns into the other stores. Over a career, wages saved become deposits, bonds, shares and property. It can rebuild from zero. A trained engineer who loses every asset still has the skill that earned them. How it grows Learning: study, practice and on the job experience. Health: sleep, fitness and avoiding injury. A skill you can't use because you are ill earns nothing. Choosing what to learn: skills that are scarce and in demand earn more, and skills that transfer between employers or industries are safer. What goes wrong Death or incapacity , the killer on the Cartography of Wealth. It can't be transferred, so it ends with you. Obsolescence: technology or markets stop paying for a skill. One industry exposure: a career built on a single employer or sector carries that sector's risk. Key rule: human capital is protected by insurance, by health and by learning skills that transfer. Connects to social capital — the other half of tier 1. time value of money — future earnings are worth less today the further away they are. diversification — invest away from the risks your job already carries. Check yourself Q: Why do people buy disability insurance? A: Because it converts some of their human capital, which they can't otherwise protect or sell, into money if they can no longer work.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "personal-capital",
+    "social-capital"
    ],
    "backlinksAdv": []
   },
@@ -2889,10 +2936,12 @@ window.MUDMAP = {
    "backlinks": [
     "cash-and-fiat",
     "central-bank-money",
+    "commodities",
     "compounding",
     "fixed-income",
     "foundation",
     "inflation-linked-bonds",
+    "real-assets",
     "t-bills",
     "time-value-of-money",
     "what-is-money"
@@ -3057,7 +3106,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "defi"
+    "commodities",
+    "defi",
+    "real-estate"
    ],
    "backlinksAdv": []
   },
@@ -3119,8 +3170,10 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "central-bank-money",
+    "collectibles",
     "memecoins",
-    "money"
+    "money",
+    "real-assets"
    ],
    "backlinksAdv": []
   },
@@ -3610,12 +3663,21 @@ window.MUDMAP = {
    ],
    "branch": "personal-capital",
    "adv": false,
-   "html": "<p>The wealth you carry inside you: skills, health, reputation and network.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "The wealth you carry inside you: skills, health, reputation and network.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Personal capital</strong> is the wealth you carry inside you instead of in an account. It comes in two kinds:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> — your skills, knowledge, health and judgment: what lets you earn.</li>\n<li><a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a> — your reputation, network and the trust others place in you: what lets you be hired, backed, introduced and forgiven.</li>\n</ul>\n<p>These are tier 1 on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: embodied and mostly hidden. No register records them, no bank holds them, and nobody can confiscate them by decree.</p>\n<h2>Why it exists</h2>\n<p>For most people, personal capital is the largest asset they will ever own, even though it never shows up on a statement. A young worker with no savings can still be wealthy in the economic sense: the value of decades of future earnings is large. Over a working life that wealth is slowly converted into financial capital, as wages are saved and invested.</p>\n<p>It is also the <strong>root store</strong>. Money, property and shares can all be lost. Skills and relationships are the only stores that can rebuild the others from zero, which is why people who lose everything in a war or a crash often recover with what they know and who they know.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>It earns through work.</strong> Human capital produces income only when you use it. Its \"yield\" is your wage or business profit.</li>\n<li><strong>It compounds.</strong> Each new skill makes the next one easier to learn, and each person who trusts you can introduce you to another. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</li>\n<li><strong>It depreciates.</strong> Skills go out of date and networks drift apart unless they are maintained.</li>\n<li><strong>It can't be sold or split.</strong> You can rent out your time, but you can't sell your skill or hand half of your reputation to someone else.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Human capital</th>\n<th>Social capital</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>What it is</strong></td>\n<td>What you can do</td>\n<td>Who trusts you</td>\n</tr>\n<tr>\n<td><strong>Built by</strong></td>\n<td>Study, practice, health</td>\n<td>Delivering, over years</td>\n</tr>\n<tr>\n<td><strong>Killer</strong></td>\n<td>Death or incapacity</td>\n<td>Betrayal or a reputation collapse</td>\n</tr>\n<tr>\n<td><strong>Can heirs inherit it?</strong></td>\n<td>No</td>\n<td>Only partly, through introductions</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>It dies with you.</strong> The one thing the state and thieves can't take, illness and accidents can. That is what life and disability insurance are for: they turn part of an unmovable store into money.</li>\n<li><strong>Concentration.</strong> If your job, your savings and your pension all depend on one employer or one industry, a single failure hits all of them at once. Your financial portfolio should usually lean <em>away</em> from the risks your career already carries. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a>.</li>\n<li><strong>Neglect.</strong> A skill that the market stops paying for, or a network that hasn't been contacted in years, quietly loses value.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> personal capital is your biggest asset and your least diversified one. Protect it with insurance, keep it current, and don't stack your financial bets on the same risk.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — why tier 1 sits in the hidden, inside-you corner.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — a stable salary behaves a little like a bond; a volatile income behaves more like shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the value of future earnings is a present value.</li>\n<li><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a> — a business is often human and social capital turned into something that can be sold.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is personal capital called the root store?</p><details><summary>Show answer</summary><p>Because it is the only store that can rebuild the others from nothing. Lost money, property or shares can be earned back with skills and relationships; the reverse is much harder.</p></details></div>\n<div class=\"qa\"><p class=\"q\">You work for a large company and are offered the chance to put most of your savings into its shares. What is the risk?</p><details><summary>Show answer</summary><p>Your income and your savings would depend on the same company. If it fails, you could lose your job and your savings at the same time.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Human capital as an asset class.</strong> Some financial planners treat future earnings as part of the portfolio. Someone with a safe, bond-like income can afford to hold more shares; someone whose income rises and falls with markets may want more bonds.</li>\n<li><strong>Hard to measure.</strong> Economists estimate human capital as the present value of expected lifetime earnings, but the inputs (future pay, working years, the discount rate) are judgments, so the result is a rough range, not a number.</li>\n</ul></section>",
+   "links": [
+    "cartography-of-wealth",
+    "compounding",
+    "diversification",
+    "human-capital",
+    "private-business",
+    "risk-and-return",
+    "social-capital",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Personal capital is the wealth you carry inside you instead of in an account. It comes in two kinds: human capital — your skills, knowledge, health and judgment: what lets you earn. social capital — your reputation, network and the trust others place in you: what lets you be hired, backed, introduced and forgiven. These are tier 1 on the Cartography of Wealth: embodied and mostly hidden. No register records them, no bank holds them, and nobody can confiscate them by decree. Why it exists For most people, personal capital is the largest asset they will ever own, even though it never shows up on a statement. A young worker with no savings can still be wealthy in the economic sense: the value of decades of future earnings is large. Over a working life that wealth is slowly converted into financial capital, as wages are saved and invested. It is also the root store . Money, property and shares can all be lost. Skills and relationships are the only stores that can rebuild the others from zero, which is why people who lose everything in a war or a crash often recover with what they know and who they know. How it works It earns through work. Human capital produces income only when you use it. Its \"yield\" is your wage or business profit. It compounds. Each new skill makes the next one easier to learn, and each person who trusts you can introduce you to another. See compounding. It depreciates. Skills go out of date and networks drift apart unless they are maintained. It can't be sold or split. You can rent out your time, but you can't sell your skill or hand half of your reputation to someone else. Human capital Social capital What it is What you can do Who trusts you Built by Study, practice, health Delivering, over years Killer Death or incapacity Betrayal or a reputation collapse Can heirs inherit it? No Only partly, through introductions What goes wrong It dies with you. The one thing the state and thieves can't take, illness and accidents can. That is what life and disability insurance are for: they turn part of an unmovable store into money. Concentration. If your job, your savings and your pension all depend on one employer or one industry, a single failure hits all of them at once. Your financial portfolio should usually lean away from the risks your career already carries. See diversification. Neglect. A skill that the market stops paying for, or a network that hasn't been contacted in years, quietly loses value. Key rule: personal capital is your biggest asset and your least diversified one. Protect it with insurance, keep it current, and don't stack your financial bets on the same risk. Connects to cartography of wealth — why tier 1 sits in the hidden, inside you corner. risk and return — a stable salary behaves a little like a bond; a volatile income behaves more like shares. time value of money — the value of future earnings is a present value. private business — a business is often human and social capital turned into something that can be sold. Check yourself Q: Why is personal capital called the root store? A: Because it is the only store that can rebuild the others from nothing. Lost money, property or shares can be earned back with skills and relationships; the reverse is much harder. Q: You work for a large company and are offered the chance to put most of your savings into its shares. What is the risk? A: Your income and your savings would depend on the same company. If it fails, you could lose your job and your savings at the same time.",
+   "textDeep": "Going deeper Human capital as an asset class. Some financial planners treat future earnings as part of the portfolio. Someone with a safe, bond like income can afford to hold more shares; someone whose income rises and falls with markets may want more bonds. Hard to measure. Economists estimate human capital as the present value of expected lifetime earnings, but the inputs (future pay, working years, the discount rate) are judgments, so the result is a rough range, not a number.",
    "children": [
     "human-capital",
     "social-capital"
@@ -3811,7 +3873,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "personal-capital",
+    "social-capital"
    ],
    "backlinksAdv": []
   },
@@ -3840,12 +3904,24 @@ window.MUDMAP = {
    ],
    "branch": "real-assets",
    "adv": false,
-   "html": "<p>Physical things with value of their own: property, commodities and collectibles.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Physical things with value of their own: property, commodities and collectibles.",
-   "textDeep": "",
+   "html": "<h2>What it is</h2>\n<p><strong>Real assets</strong> are physical things with value of their own: land and buildings, raw materials, and objects people collect. Unlike a deposit, bond or share, a real asset isn't anyone's promise to pay. If you hold it directly, nobody owes it to you, so nobody can default on it.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — land and buildings: shelter, rent and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/reits\" data-page=\"reits\">REITs</a> — companies that own property, traded like shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> — oil, grain and metals, traded in bulk.</li>\n<li><a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a> — art, watches, wine and other objects valued by what a buyer will pay.</li>\n</ul>\n<p><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> is a real asset too, but it lives on the Money branch because of its long history as money.</p>\n<h2>Why it exists</h2>\n<p>People hold real assets for three reasons:</p>\n<ul>\n<li><strong>Use.</strong> You can live in a house, burn fuel, eat grain or hang a painting. Their value doesn't depend only on someone else's promise.</li>\n<li><strong>Inflation.</strong> When money loses value, the price of physical things tends to rise in money terms, so real assets can hold their worth better than fixed payments. The protection is uneven and slow; it is not a guarantee. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>A different set of risks.</strong> Their prices are driven partly by supply, weather, location and taste, not only by interest rates and company profits, which can make them useful alongside bonds and shares. See <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p>Every real asset can be held in one of two ways, and they land in very different places on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Held as</th>\n<th>What you own</th>\n<th>Example</th>\n<th>Whose risk?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>The thing itself</strong></td>\n<td>The asset</td>\n<td>A house you hold title to, a painting, bars of metal</td>\n<td>Yours: storage, upkeep, theft, the state</td>\n</tr>\n<tr>\n<td><strong>A claim on it</strong></td>\n<td>A share, fund unit or contract</td>\n<td>A REIT, a commodity fund, a futures contract</td>\n<td>The issuer, the fund and the market as well</td>\n</tr>\n</tbody>\n</table></div>\n<p>Holding the thing gives you control but costs effort: storage, insurance, maintenance, and a slow, expensive sale. Holding a claim is cheap and easy to trade, but you've swapped part of the asset's risk for counterparty risk. It's the same choice as physical gold against a gold fund.</p>\n<p>Most real assets <strong>pay nothing for being held</strong>, apart from rented property. Their return comes from price changes, so it depends on what the next buyer will pay.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Illiquidity.</strong> Selling a house or a painting can take months, and a forced sale usually means a lower price.</li>\n<li><strong>Holding costs.</strong> Repairs, storage, insurance and taxes are paid every year whether the price rises or not.</li>\n<li><strong>Price swings.</strong> Commodity prices can collapse when supply jumps or demand falls; property can fall for years after a boom.</li>\n<li><strong>The state.</strong> Land can't be moved, so it is the easiest asset to tax, regulate or seize. That is why real estate sits at the most legible corner of the chart.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a real asset removes the borrower's promise but adds the asset's own costs. Count storage, upkeep and the cost of selling before you count the gain.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — why a house you own outright and a REIT share sit in different tiers.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the main reason people buy real assets.</li>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — how most commodities are traded.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what you give up for holding something physical.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own a house outright and also own shares in a REIT. Which is a claim and which isn't?</p><details><summary>Show answer</summary><p>The REIT share is a claim: you own part of a company that owns buildings. The house isn't anyone's liability; you own the asset itself, recorded in a land registry.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why are real assets said to protect against inflation only \"partly\"?</p><details><summary>Show answer</summary><p>Because their prices also depend on supply, demand, interest rates and location. Over long periods they often keep up with prices, but over short ones they can fall while inflation is high.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Real assets and interest rates.</strong> Most real assets pay little or nothing, so when interest rates rise, holding them costs more in lost interest. Property prices are especially sensitive, because most property is bought with a mortgage.</li>\n<li><strong>Appraisal smoothing.</strong> Private property funds value buildings by appraisal a few times a year, not by daily trading. Their prices look calmer than REITs that hold similar buildings, but the risk is the same; it just shows up later.</li>\n</ul></section>",
+   "links": [
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "collectibles",
+    "commodities",
+    "diversification",
+    "futures",
+    "gold",
+    "inflation",
+    "liquidity",
+    "real-estate",
+    "reits"
+   ],
+   "stub": false,
+   "text": "What it is Real assets are physical things with value of their own: land and buildings, raw materials, and objects people collect. Unlike a deposit, bond or share, a real asset isn't anyone's promise to pay. If you hold it directly, nobody owes it to you, so nobody can default on it. real estate — land and buildings: shelter, rent and leverage. reits — companies that own property, traded like shares. commodities — oil, grain and metals, traded in bulk. collectibles — art, watches, wine and other objects valued by what a buyer will pay. gold is a real asset too, but it lives on the Money branch because of its long history as money. Why it exists People hold real assets for three reasons: Use. You can live in a house, burn fuel, eat grain or hang a painting. Their value doesn't depend only on someone else's promise. Inflation. When money loses value, the price of physical things tends to rise in money terms, so real assets can hold their worth better than fixed payments. The protection is uneven and slow; it is not a guarantee. See inflation. A different set of risks. Their prices are driven partly by supply, weather, location and taste, not only by interest rates and company profits, which can make them useful alongside bonds and shares. See diversification. How it works Every real asset can be held in one of two ways, and they land in very different places on the Cartography of Wealth. Held as What you own Example Whose risk? The thing itself The asset A house you hold title to, a painting, bars of metal Yours: storage, upkeep, theft, the state A claim on it A share, fund unit or contract A REIT, a commodity fund, a futures contract The issuer, the fund and the market as well Holding the thing gives you control but costs effort: storage, insurance, maintenance, and a slow, expensive sale. Holding a claim is cheap and easy to trade, but you've swapped part of the asset's risk for counterparty risk. It's the same choice as physical gold against a gold fund. Most real assets pay nothing for being held , apart from rented property. Their return comes from price changes, so it depends on what the next buyer will pay. What goes wrong Illiquidity. Selling a house or a painting can take months, and a forced sale usually means a lower price. Holding costs. Repairs, storage, insurance and taxes are paid every year whether the price rises or not. Price swings. Commodity prices can collapse when supply jumps or demand falls; property can fall for years after a boom. The state. Land can't be moved, so it is the easiest asset to tax, regulate or seize. That is why real estate sits at the most legible corner of the chart. Key rule: a real asset removes the borrower's promise but adds the asset's own costs. Count storage, upkeep and the cost of selling before you count the gain. Connects to claims and liabilities — why a house you own outright and a REIT share sit in different tiers. inflation — the main reason people buy real assets. futures — how most commodities are traded. liquidity — what you give up for holding something physical. Check yourself Q: You own a house outright and also own shares in a REIT. Which is a claim and which isn't? A: The REIT share is a claim: you own part of a company that owns buildings. The house isn't anyone's liability; you own the asset itself, recorded in a land registry. Q: Why are real assets said to protect against inflation only \"partly\"? A: Because their prices also depend on supply, demand, interest rates and location. Over long periods they often keep up with prices, but over short ones they can fall while inflation is high.",
+   "textDeep": "Going deeper Real assets and interest rates. Most real assets pay little or nothing, so when interest rates rise, holding them costs more in lost interest. Property prices are especially sensitive, because most property is bought with a mortgage. Appraisal smoothing. Private property funds value buildings by appraisal a few times a year, not by daily trading. Their prices look calmer than REITs that hold similar buildings, but the risk is the same; it just shows up later.",
    "children": [
     "real-estate",
     "reits",
@@ -3855,7 +3931,10 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "collectibles",
+    "commodities",
+    "real-estate"
    ],
    "backlinksAdv": []
   },
@@ -3869,7 +3948,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "S&P Dow Jones Indices, S&P/Case-Shiller Home Price Indices"
+   ],
    "level": "basic",
    "group": "",
    "tier": "3",
@@ -3892,11 +3973,17 @@ window.MUDMAP = {
    ],
    "branch": "real-assets",
    "adv": false,
-   "html": "<p>Land and buildings: shelter, rent and leverage.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Real estate</strong> is land and the buildings on it: the home you live in, flats you rent out, offices, shops and warehouses. Ownership is recorded in a public <strong>title registry</strong>, which is what makes it the most legible store of wealth on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<h2>Why people own it</h2>\n<ul>\n<li><strong>Use.</strong> A home is both an asset and a place to live; owning it replaces rent.</li>\n<li><strong>Income.</strong> Rented property can pay a regular income.</li>\n<li><strong>Leverage.</strong> Property is the one asset most people can buy mostly with borrowed money, through a <strong>mortgage</strong>.</li>\n<li><strong>Inflation.</strong> Rents and building costs tend to rise with prices over long periods.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Leverage cuts both ways.</strong> A buyer puts down a deposit and borrows the rest. Gains and losses are on the whole price, but they land on the deposit.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Fictional example</th>\n<th>Price</th>\n<th>Loan</th>\n<th>Your equity</th>\n<th>Change on your deposit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>You buy</td>\n<td>400,000</td>\n<td>320,000</td>\n<td>80,000</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Price rises 10%</td>\n<td>440,000</td>\n<td>320,000</td>\n<td>120,000</td>\n<td><strong>+50%</strong></td>\n</tr>\n<tr>\n<td>Price falls 10%</td>\n<td>360,000</td>\n<td>320,000</td>\n<td>40,000</td>\n<td><strong>−50%</strong></td>\n</tr>\n<tr>\n<td>Price falls 20%</td>\n<td>320,000</td>\n<td>320,000</td>\n<td>0</td>\n<td><strong>−100%</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>A 20% deposit turns a 10% price move into a 50% move on your money. That is before buying costs, interest, repairs and tax, which all reduce the gain or deepen the loss. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>Costs of owning:</strong> purchase taxes and fees, mortgage interest, maintenance, insurance, property taxes and, for landlords, empty months between tenants.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Immobility</strong>, the killer on the Cartography of Wealth. The one asset that can't move can be taxed, rent-controlled, rezoned or compulsorily purchased where it stands.</li>\n<li><strong>Price falls with a mortgage.</strong> In the 2008 crisis, US house prices fell by roughly a quarter to a third nationally, depending on the index, and many owners ended up owing more than their homes were worth.</li>\n<li><strong>Slow sales.</strong> Selling takes weeks to months and costs a few percent of the price.</li>\n<li><strong>Concentration.</strong> One property is one location, one local economy and often most of a household's wealth.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> property's risk is mostly in the loan. Know what a 20% price fall would do to your deposit before you buy.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/reits\" data-page=\"reits\">REITs</a> — owning property through shares instead of a title.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — the branch this sits in.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — mortgages are the largest loans most banks make.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">With a 25% deposit, roughly what happens to your equity if the property's price falls 25%?</p><details><summary>Show answer</summary><p>It is wiped out. The price has fallen by the whole deposit, so you owe as much as the home is worth, before any costs.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Land and buildings: shelter, rent and leverage.",
+   "links": [
+    "cartography-of-wealth",
+    "credit-risk",
+    "leverage",
+    "real-assets",
+    "reits"
+   ],
+   "stub": false,
+   "text": "What it is Real estate is land and the buildings on it: the home you live in, flats you rent out, offices, shops and warehouses. Ownership is recorded in a public title registry , which is what makes it the most legible store of wealth on the Cartography of Wealth. Why people own it Use. A home is both an asset and a place to live; owning it replaces rent. Income. Rented property can pay a regular income. Leverage. Property is the one asset most people can buy mostly with borrowed money, through a mortgage . Inflation. Rents and building costs tend to rise with prices over long periods. How it works Leverage cuts both ways. A buyer puts down a deposit and borrows the rest. Gains and losses are on the whole price, but they land on the deposit. Fictional example Price Loan Your equity Change on your deposit You buy 400,000 320,000 80,000 — Price rises 10% 440,000 320,000 120,000 +50% Price falls 10% 360,000 320,000 40,000 −50% Price falls 20% 320,000 320,000 0 −100% A 20% deposit turns a 10% price move into a 50% move on your money. That is before buying costs, interest, repairs and tax, which all reduce the gain or deepen the loss. See leverage. Costs of owning: purchase taxes and fees, mortgage interest, maintenance, insurance, property taxes and, for landlords, empty months between tenants. What goes wrong Immobility , the killer on the Cartography of Wealth. The one asset that can't move can be taxed, rent controlled, rezoned or compulsorily purchased where it stands. Price falls with a mortgage. In the 2008 crisis, US house prices fell by roughly a quarter to a third nationally, depending on the index, and many owners ended up owing more than their homes were worth. Slow sales. Selling takes weeks to months and costs a few percent of the price. Concentration. One property is one location, one local economy and often most of a household's wealth. Key rule: property's risk is mostly in the loan. Know what a 20% price fall would do to your deposit before you buy. Connects to reits — owning property through shares instead of a title. real assets — the branch this sits in. credit risk — mortgages are the largest loans most banks make. Check yourself Q: With a 25% deposit, roughly what happens to your equity if the property's price falls 25%? A: It is wiped out. The price has fallen by the whole deposit, so you owe as much as the home is worth, before any costs.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3910,7 +3997,9 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "claims-and-liabilities",
     "hierarchy-of-money",
-    "inflation"
+    "inflation",
+    "real-assets",
+    "reits"
    ],
    "backlinksAdv": []
   },
@@ -3967,7 +4056,9 @@ window.MUDMAP = {
    "tcodes": [],
    "fiori": [],
    "tags": [],
-   "sources": [],
+   "sources": [
+    "Nareit, The REIT Approach"
+   ],
    "level": "basic",
    "group": "",
    "tier": "",
@@ -3983,11 +4074,18 @@ window.MUDMAP = {
    ],
    "branch": "real-assets",
    "adv": false,
-   "html": "<p>Listed trusts that own property: real estate held as shares.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>REIT</strong> (real estate investment trust) is a company that owns, and usually runs, income-producing property, and whose shares trade on a stock exchange. Buying a REIT share means owning a small slice of a portfolio of buildings: offices, warehouses, flats, shopping centres, data centres.</p>\n<p>The structure was created in the United States in 1960 so that ordinary savers could own commercial property. Many countries now have similar trusts.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Small amounts.</strong> You can own property for the price of one share.</li>\n<li><strong>Easy to sell.</strong> Shares trade every day, unlike a building.</li>\n<li><strong>Spread.</strong> One fund can own hundreds of buildings across cities and sectors.</li>\n<li><strong>Income.</strong> In return for tax advantages, REITs must pay out most of their income. In the US, at least 90% of taxable income has to be distributed to shareholders.</li>\n</ul>\n<h2>How it works</h2>\n<p>A REIT collects rent, pays its costs and interest, and passes most of the rest to shareholders as dividends. Its share price moves with the value of its buildings, with interest rates and with the stock market.</p>\n<p>On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, a REIT share is not real estate in the title-deed sense. It's a <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">claim</a>: you own part of a company, held through a broker, so it sits with <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> rather than with property you hold yourself.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Owning a flat</th>\n<th>Owning REIT shares</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>What you hold</strong></td>\n<td>A title to one property</td>\n<td>A share in a company owning many</td>\n</tr>\n<tr>\n<td><strong>Selling</strong></td>\n<td>Weeks to months, a few percent in costs</td>\n<td>Seconds, small costs</td>\n</tr>\n<tr>\n<td><strong>Work</strong></td>\n<td>Tenants, repairs, insurance</td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>Price</strong></td>\n<td>Valued now and then</td>\n<td>Priced every trading day</td>\n</tr>\n<tr>\n<td><strong>Leverage</strong></td>\n<td>Your own mortgage</td>\n<td>The company's borrowing</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Stock-market swings.</strong> REIT prices can fall with shares in a crash, even if rents are still coming in.</li>\n<li><strong>Rate rises.</strong> Higher interest rates raise a REIT's borrowing costs and make its dividends look less attractive next to bonds.</li>\n<li><strong>Sector shifts.</strong> A REIT focused on one type of property shares its fate: offices after the move to remote work, shopping centres after the move online.</li>\n<li><strong>Company risk.</strong> Poor management or too much debt can hurt shareholders even when property is doing well.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a REIT gives you property's income with a share's liquidity, and a share's swings.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — the asset underneath.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> and <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — how REITs are held and traded.</li>\n<li><a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a> — why rising rates weigh on income-paying assets.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A REIT's buildings are fully let and rents are unchanged, but its share price falls 20% in a market crash. Why can that happen?</p><details><summary>Show answer</summary><p>Because the shares trade on the stock market. Their price reflects what buyers will pay that day, which moves with rates, fear and the wider market, not only with rents.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Listed trusts that own property: real estate held as shares.",
+   "links": [
+    "bond-pricing",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "funds-and-etfs",
+    "real-estate",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What it is A REIT (real estate investment trust) is a company that owns, and usually runs, income producing property, and whose shares trade on a stock exchange. Buying a REIT share means owning a small slice of a portfolio of buildings: offices, warehouses, flats, shopping centres, data centres. The structure was created in the United States in 1960 so that ordinary savers could own commercial property. Many countries now have similar trusts. Why it exists Small amounts. You can own property for the price of one share. Easy to sell. Shares trade every day, unlike a building. Spread. One fund can own hundreds of buildings across cities and sectors. Income. In return for tax advantages, REITs must pay out most of their income. In the US, at least 90% of taxable income has to be distributed to shareholders. How it works A REIT collects rent, pays its costs and interest, and passes most of the rest to shareholders as dividends. Its share price moves with the value of its buildings, with interest rates and with the stock market. On the Cartography of Wealth, a REIT share is not real estate in the title deed sense. It's a claim: you own part of a company, held through a broker, so it sits with shares rather than with property you hold yourself. Owning a flat Owning REIT shares What you hold A title to one property A share in a company owning many Selling Weeks to months, a few percent in costs Seconds, small costs Work Tenants, repairs, insurance None Price Valued now and then Priced every trading day Leverage Your own mortgage The company's borrowing What goes wrong Stock market swings. REIT prices can fall with shares in a crash, even if rents are still coming in. Rate rises. Higher interest rates raise a REIT's borrowing costs and make its dividends look less attractive next to bonds. Sector shifts. A REIT focused on one type of property shares its fate: offices after the move to remote work, shopping centres after the move online. Company risk. Poor management or too much debt can hurt shareholders even when property is doing well. Key rule: a REIT gives you property's income with a share's liquidity, and a share's swings. Connects to real estate — the asset underneath. shares and funds and etfs — how REITs are held and traded. bond pricing — why rising rates weigh on income paying assets. Check yourself Q: A REIT's buildings are fully let and rents are unchanged, but its share price falls 20% in a market crash. Why can that happen? A: Because the shares trade on the stock market. Their price reflects what buyers will pay that day, which moves with rates, fear and the wider market, not only with rents.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3997,7 +4095,10 @@ window.MUDMAP = {
      "m": "CFA1-ALT — Alternative Investments"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "real-assets",
+    "real-estate"
+   ],
    "backlinksAdv": []
   },
   "returns": {
@@ -4101,6 +4202,7 @@ window.MUDMAP = {
    "backlinks": [
     "compounding",
     "foundation",
+    "personal-capital",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -4263,7 +4365,8 @@ window.MUDMAP = {
    "backlinks": [
     "cartography-of-wealth",
     "claims-and-liabilities",
-    "hierarchy-of-money"
+    "hierarchy-of-money",
+    "reits"
    ],
    "backlinksAdv": []
   },
@@ -4412,17 +4515,23 @@ window.MUDMAP = {
    ],
    "branch": "personal-capital",
    "adv": false,
-   "html": "<p>Reputation, network and trust, built over decades.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Social capital</strong> is the value of who knows you and trusts you: your reputation, your network, and the goodwill you have built by delivering on promises. It is why a known plumber gets the next job without an advert, and why a founder with a track record raises money more easily than one without.</p>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>It opens doors that money can't:</strong> introductions, references, first customers, a second chance after a failure.</li>\n<li><strong>It lowers costs.</strong> People who trust you need fewer contracts, guarantees and checks.</li>\n<li><strong>It works with human capital.</strong> Skill gets you the job; reputation gets you the chance to show the skill.</li>\n</ul>\n<h2>How it's built</h2>\n<ul>\n<li><strong>Slowly, by delivering.</strong> Every kept promise adds a little; there is no quick way to buy it.</li>\n<li><strong>By helping first.</strong> Networks grow by giving introductions and help, not only by asking for them.</li>\n<li><strong>By being consistent.</strong> Trust comes from behaving the same way whether or not anyone is watching.</li>\n</ul>\n<p>It is only <strong>partly transferable</strong>. You can introduce someone, recommend them or bring a child into a family business, but you can't sell your reputation or hand it over whole.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Betrayal or a reputation collapse</strong>, the killer on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: decades to build, gone in a day.</li>\n<li><strong>Drift:</strong> relationships that aren't maintained fade.</li>\n<li><strong>A shared fall:</strong> a reputation tied to one employer, partner or scene can sink with it.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> social capital is earned slowly and lost quickly. Protect it the way you would protect your savings.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> — the other half of tier 1.</li>\n<li><a class=\"wl\" href=\"#/map/p/private-business\" data-page=\"private-business\">Private Business</a> — much of a small firm's value is its owner's reputation and customer relationships.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is social capital described as \"partly transferable\"?</p><details><summary>Show answer</summary><p>Because you can pass on introductions and recommendations, but the trust itself belongs to you. The person you introduce still has to earn their own.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Reputation, network and trust, built over decades.",
+   "links": [
+    "cartography-of-wealth",
+    "human-capital",
+    "private-business"
+   ],
+   "stub": false,
+   "text": "What it is Social capital is the value of who knows you and trusts you: your reputation, your network, and the goodwill you have built by delivering on promises. It is why a known plumber gets the next job without an advert, and why a founder with a track record raises money more easily than one without. Why it matters It opens doors that money can't: introductions, references, first customers, a second chance after a failure. It lowers costs. People who trust you need fewer contracts, guarantees and checks. It works with human capital. Skill gets you the job; reputation gets you the chance to show the skill. How it's built Slowly, by delivering. Every kept promise adds a little; there is no quick way to buy it. By helping first. Networks grow by giving introductions and help, not only by asking for them. By being consistent. Trust comes from behaving the same way whether or not anyone is watching. It is only partly transferable . You can introduce someone, recommend them or bring a child into a family business, but you can't sell your reputation or hand it over whole. What goes wrong Betrayal or a reputation collapse , the killer on the Cartography of Wealth: decades to build, gone in a day. Drift: relationships that aren't maintained fade. A shared fall: a reputation tied to one employer, partner or scene can sink with it. Key rule: social capital is earned slowly and lost quickly. Protect it the way you would protect your savings. Connects to human capital — the other half of tier 1. private business — much of a small firm's value is its owner's reputation and customer relationships. Check yourself Q: Why is social capital described as \"partly transferable\"? A: Because you can pass on introductions and recommendations, but the trust itself belongs to you. The person you introduce still has to earn their own.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "human-capital",
+    "personal-capital"
    ],
    "backlinksAdv": []
   },
@@ -4648,7 +4757,9 @@ window.MUDMAP = {
     "compounding",
     "fixed-income",
     "foundation",
+    "human-capital",
     "inflation",
+    "personal-capital",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -6103,5 +6214,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 10:25 UTC"
+ "built": "2026-10-25 11:43 UTC"
 };
