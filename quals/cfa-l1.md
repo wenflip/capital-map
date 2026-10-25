@@ -62,6 +62,7 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 - [[bitcoin]] — digital assets
 - [[smart-contract-platforms]] — distributed ledgers that run programs
 - [[stablecoins]] — tokens pegged to a currency
+- [[custodial-crypto]] — holding digital assets through exchanges and funds
 
 ## CFA1-PC — Portfolio Construction
 - [[risk-and-return]] — the trade-off at the heart of portfolio choice
