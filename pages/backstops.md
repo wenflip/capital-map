@@ -6,7 +6,7 @@ parent: money
 order: 6.5
 summary: The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.
 tags: money, banking, crisis
-sources: Study notes; Walter Bagehot, Lombard Street (1873)
+sources: Study notes; Walter Bagehot, Lombard Street (1873); US Congressional Research Service, Iceland's Financial Crisis (RS22988, 2010); Swiss Federal Administrative Court, AT1 ruling (October 2025)
 ---
 ## What it is
 A bank deposit is a promise by your bank. If the bank can't keep it, a **chain of backstops** is supposed to step in, roughly in this order:
@@ -36,9 +36,9 @@ Follow the chain step by step in the flow *When a bank fails*.
 | Case | What happened | Which link held |
 |---|---|---|
 | United States, 2023 | Silicon Valley Bank failed after losses on bonds and a fast run | The government and insurance fund protected **all** deposits, including those above the limit |
-| Iceland, 2008 | Banks with assets over 11 times the country's annual output collapsed | Domestic deposits were guaranteed; depositors in foreign branches lost access, and a long dispute followed |
+| Iceland, 2008 | Three banks with assets of about 14 times the country's annual output collapsed | Domestic deposits were guaranteed; depositors in foreign branches lost access, and a long dispute followed |
 | Cyprus, 2013 | Two large banks failed while the government couldn't borrow | Insured deposits were protected; large deposits took heavy losses |
-| Switzerland, 2023 | Credit Suisse was taken over by UBS | Depositors were protected; about 16 billion Swiss francs of the bank's riskiest bonds were written to zero |
+| Switzerland, 2023 | Credit Suisse was taken over by UBS | Depositors were protected; about 16 billion Swiss francs of the bank's riskiest bonds were written to zero, a decision a Swiss court later ruled unlawful (under appeal as of early 2026) |
 | Lebanon, from 2019 | Banks restricted withdrawals as the state's finances collapsed | No link held: deposits were frozen for years |
 
 ## What goes wrong
