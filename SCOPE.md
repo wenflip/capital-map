@@ -38,7 +38,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | What you can own | Equities | **Written.** Shares, indices, funds and ETFs, financial statements, valuation, private business |
 | Putting it together | Derivatives | **Written.** Futures, options, perpetuals, leverage |
 | Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, rebalancing, market regimes |
-| Putting it together | When Things Fail | **Written (first rungs).** The failure ladder hub, broker failure, capital controls, financial repression, currency failure, sovereign default. Still to write: insurers, clearing houses, ratings, confiscation, the market itself |
+| Putting it together | When Things Fail | **Written.** The first rungs: the failure ladder hub, broker failure, capital controls, financial repression, currency failure, sovereign default. Still to write: insurers, clearing houses, ratings, confiscation, the market itself |
 | How it runs | Markets & Plumbing | **Written.** Exchanges, brokers, custody, settlement |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
