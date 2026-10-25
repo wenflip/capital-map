@@ -115,4 +115,9 @@ Money, markets and assets only. No personal, career or employer details, and no 
 
 ## Tests
 
-The browser test suites are shared with The Supply Map and kept **outside** this repo (they travel with the privacy scan, which must never be committed). Run every suite before each push and read the results before pushing.
+The browser test suites are kept **outside** this repo, with the privacy scan, which must never be committed. They run through one runner with an 80/20 rule:
+
+- **Content-only changes** (pages, flows, qualifications, docs): the branch's own suites plus a smoke set, desktop width only — a couple of minutes.
+- **Engine or layout changes** (`assets/`, `tools/`, `index.html`, `_headers`, `robots.txt`): every suite at all three screen widths.
+
+The runner picks the mode from what the branch changed. Read the results before pushing.
