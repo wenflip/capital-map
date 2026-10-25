@@ -41,6 +41,7 @@ title: Gold
 parent: money                # id of the parent page on the map
 order: 3                     # position among siblings
 summary: One line, shown on hover and in search
+group: What you can own     # top-level branches only: the cluster it sits in on the map
 tags: gold, money            # optional
 level: advanced              # optional — hidden in Core view
 sources: Author, Title       # optional, semicolon separated
@@ -52,6 +53,8 @@ traits: private, no yield, bearer, transferable
 ```
 
 Pages with fewer than 60 words show as dashed **stubs** on the map.
+
+**Groups.** Every top-level branch has a `group`. The map draws each group as a cluster with a small heading, and the Index puts a heading before each group. A group is a label, not a level: it adds no page and no click. The build fails if a branch has no group, if a group's branches aren't next to each other in `order`, or if a page below the top level has one.
 
 ## Writing rules
 

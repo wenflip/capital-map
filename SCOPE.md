@@ -23,23 +23,24 @@ Education only. Not financial advice.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
 
-## Top-level branches (v1, built)
+## Top-level branches (v2: twelve branches in four groups)
 
-| Branch | Covers |
-|---|---|
-| Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
-| Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, eurodollars, liquidity, money creation |
-| Human & Social Capital | Human capital, social capital |
-| Fixed Income | T-bills, bonds, yield curve, duration |
-| Equities | Shares, indices, funds and ETFs, valuation, private business |
-| Real Assets | Real estate, REITs, commodities, collectibles |
-| Digital Assets | Bitcoin, smart-contract platforms, stablecoins, memecoins, self-custody, custodial crypto |
-| Derivatives | Futures, options, perpetuals, leverage |
-| Portfolio & Risk | Diversification, correlation, allocation, sizing, rebalancing, market regimes |
-| Markets & Plumbing | Exchanges, brokers, custody, settlement |
-| Measure | Returns, drawdown, volatility, Sharpe ratio |
-| In Practice | Tax, account types, common mistakes |
-| Tools | Data sources, charting |
+Groups are labels drawn as clusters on the map, not a tree level (decided 2026-10-25). Inside *What you can own*, branches run from inside you to fully on the record, following the Cartography of Wealth.
+
+| Group | Branch | Covers |
+|---|---|---|
+| Foundations | Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, time value, compounding, risk and return, inflation |
+| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, bank deposits, eurodollars, liquidity, money creation |
+| What you can own | Human & Social Capital | Human capital, social capital |
+| What you can own | Digital Assets | Bitcoin, smart-contract platforms, stablecoins, memecoins, self-custody, custodial crypto |
+| What you can own | Real Assets | Real estate, REITs, commodities, collectibles |
+| What you can own | Fixed Income | T-bills, bonds, yield curve, duration |
+| What you can own | Equities | Shares, indices, funds and ETFs, valuation, private business |
+| Putting it together | Derivatives | Futures, options, perpetuals, leverage |
+| Putting it together | Portfolio & Risk | Diversification, correlation, allocation, sizing, rebalancing, market regimes |
+| How it runs | Markets & Plumbing | Exchanges, brokers, custody, settlement |
+| How it runs | Measure | Returns, drawdown, volatility, Sharpe ratio |
+| How it runs | In Practice | Tax, account types, common mistakes, data sources, charting (Tools folded in) |
 
 ## Cross-cutting views
 
