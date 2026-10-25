@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>The Capital Map</title>
+  <meta name="description" content="A free, independent reference to money, markets and assets: one connected map of cash, bonds, stocks, real estate, gold and crypto — what each is, and what can kill it.">
+  <!-- Link previews (social networks, messaging apps). og:url and og:image must be absolute: change both if the site address changes. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Capital Map">
+  <meta property="og:title" content="The Capital Map — money, markets and assets on one map">
+  <meta property="og:description" content="One connected map of money, markets and assets: what each store of wealth is, whose liability it is, and what can kill it.">
+  <meta property="og:url" content="https://thecapitalmap.pages.dev/">
+  <meta property="og:image" content="https://thecapitalmap.pages.dev/assets/share.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Capital Map: a mind map of money, markets and assets.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#b5521f">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" id="home-btn" href="#/map" title="Home — back to the start (H)" aria-label="The Capital Map — home">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M20 32 C30 32 30 14 38 14 M20 32 L38 32 M20 32 C30 32 30 50 38 50" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+        <rect x="4" y="25" width="20" height="14" rx="7" fill="currentColor"/>
+        <rect x="36" y="8.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+        <rect x="36" y="26.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+        <rect x="36" y="44.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+      </svg>
+      <div class="brand-text">The Capital Map<small>Money · Markets · Assets</small></div>
+    </a>
+    <nav class="tabs" aria-label="Views">
+      <button class="tab" data-view="map" title="Map — press again to go home">Map</button>
+      <button class="tab" data-view="flows">Flows</button>
+      <button class="tab" data-view="jobs" hidden>Jobs</button>
+      <button class="tab" data-view="quals" title="Qualifications" hidden>Quals</button>
+      <button class="tab" data-view="index">Index</button>
+    </nav>
+    <div class="focus-chip" id="focus-chip" hidden>
+      <button class="fc-main" data-path="" title="Job focus — open this job">Focus: <b id="focus-chip-label"></b></button>
+      <button class="fc-x" id="focus-chip-clear" title="Clear role focus" aria-label="Clear role focus">×</button>
+    </div>
+    <div class="spacer"></div>
+    <div class="search">
+      <input id="search" type="search" placeholder="Search pages…" autocomplete="off" aria-label="Search">
+      <kbd>/</kbd>
+      <div id="results" class="results" role="listbox"></div>
+    </div>
+    <a class="about-btn" id="about-btn" data-view="about" href="#/about" title="What this site is, and what it isn't">About</a>
+    <div class="settings">
+      <button id="settings-btn" class="icon-btn" title="View settings" aria-label="View settings" aria-haspopup="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+      </button>
+      <div id="settings-menu" class="settings-menu" hidden>
+        <div class="sm-title">Depth</div>
+        <div class="seg">
+          <button data-mode="simple">Core</button>
+          <button data-mode="normal">Everything</button>
+        </div>
+        <p class="sm-note"><b>Core</b> is the essentials. <b>Everything</b> adds the advanced layer (marked ◆) and the "Going deeper" sections.</p>
+        <div class="sm-title sm-gap">Job focus</div>
+        <div class="seg seg-wrap" id="role-seg"></div>
+        <p class="sm-note">Highlights the pages a job needs and dims the rest. Open any job on the <b>Jobs</b> tab and press <b>Focus</b>; jobs you mark ★ as a target are listed here.</p>
+        <div class="sm-title sm-gap sm-qual">Qualification focus</div>
+        <div class="seg seg-wrap sm-qual" id="qual-seg"></div>
+        <p class="sm-note sm-qual">Highlights the pages a qualification covers. Its modules are mapped page by page on the <b>Quals</b> tab.</p>
+        <a class="sm-about" data-view="about" href="#/about">About The Capital Map — what this is, and what it isn't →</a>
+        <a class="sm-privacy" data-view="privacy" href="#/privacy">Privacy</a>
+      </div>
+    </div>
+    <button id="theme-btn" class="icon-btn" title="Toggle light / dark" aria-label="Toggle theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </header>
+
+  <section id="map-view" class="view" aria-label="Mind map">
+    <svg id="map-svg"><g id="map-root"></g></svg>
+    <div class="map-controls">
+      <button data-act="expand">Expand all</button>
+      <button data-act="collapse">Collapse all</button>
+      <span class="sep"></span>
+      <button data-act="zoomout" title="Zoom out">−</button>
+      <button data-act="zoomin" title="Zoom in">+</button>
+      <button data-act="fit">Fit</button>
+    </div>
+    <div class="legend">
+      <span class="legend-stub"><i></i>Written</span>
+      <span class="legend-stub"><i class="stub"></i>Stub — to be written</span>
+      <span class="legend-adv"><b class="adv-key">◆</b>Advanced layer</span>
+      <span class="legend-role"><i class="focus-key"></i>In focus</span>
+      <span>Click a card to read · ⊕ to expand · <b>H</b> or the logo to go home</span>
+    </div>
+  </section>
+
+  <section id="flows-view" class="view"><div class="scroll"><div class="wrap" id="flows-body"></div></div></section>
+  <section id="jobs-view" class="view"><div class="scroll"><div class="wrap" id="jobs-body"></div></div></section>
+  <section id="quals-view" class="view"><div class="scroll"><div class="wrap" id="quals-body"></div></div></section>
+  <section id="index-view" class="view"><div class="scroll"><div class="wrap" id="index-body"></div></div></section>
+  <section id="about-view" class="view"><div class="scroll"><div class="wrap" id="about-body"></div></div></section>
+  <section id="privacy-view" class="view"><div class="scroll"><div class="wrap" id="privacy-body"></div></div></section>
+
+  <aside id="panel" class="panel" aria-label="Page">
+    <div class="panel-resize" id="panel-resize" role="separator" aria-orientation="vertical" aria-label="Drag to resize the page panel" title="Drag to resize · double-click to reset"></div>
+    <div class="panel-bar">
+      <div class="crumbs" id="crumbs"></div>
+      <button class="icon-btn" id="panel-close" title="Close (Esc)" aria-label="Close page">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="panel-body" id="panel-body"></div>
+  </aside>
+
+  <!-- Welcome guide: first visit to the home page only (never on a deep link). Reopen it from About. -->
+  <div class="wc" id="welcome" hidden>
+    <div class="wc-backdrop" id="wc-backdrop"></div>
+    <div class="wc-card" role="dialog" aria-modal="true" aria-labelledby="wc-title" aria-describedby="wc-desc" tabindex="-1">
+      <button class="icon-btn wc-x" id="wc-close" title="Close (Esc)" aria-label="Close the welcome guide">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="wc-brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M20 32 C30 32 30 14 38 14 M20 32 L38 32 M20 32 C30 32 30 50 38 50" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+          <rect x="4" y="25" width="20" height="14" rx="7" fill="currentColor"/>
+          <rect x="36" y="8.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+          <rect x="36" y="26.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+          <rect x="36" y="44.5" width="24" height="11" rx="3.5" fill="currentColor"/>
+        </svg>
+        <div>
+          <h2 id="wc-title">The Capital Map</h2>
+          <p class="wc-tag">Money, markets and assets — on one map.</p>
+        </div>
+      </div>
+      <p class="wc-desc" id="wc-desc">Every concept is one page, connected on one map. Follow the same pages through step-by-step flows, from where money comes from to how it moves.</p>
+      <div class="wc-label" id="wc-start">Start here</div>
+      <nav class="wc-choices" aria-labelledby="wc-start">
+        <a class="wc-choice primary" href="#/map" data-wc="map"><b>Explore the map</b><span>See how the whole system fits together, branch by branch.</span></a>
+        <a class="wc-choice" href="#/flows/where-money-comes-from" data-wc="flow"><b>Follow the money</b><span>Where a dollar comes from, step by step: central bank, banks, you.</span></a>
+      </nav>
+      <p class="wc-foot"><span>Search any topic<span class="wc-kbd"> · press <kbd>/</kbd></span></span><span class="wc-links"><a href="#/privacy" data-wc="privacy">Privacy</a><a href="#/about" data-wc="about">About this site →</a></span></p>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
