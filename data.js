@@ -5317,7 +5317,7 @@ window.MUDMAP = {
    "short": "",
    "parent": "markets",
    "order": 4.0,
-   "summary": "The moment a trade becomes final: money and asset swap hands.",
+   "summary": "The moment a trade becomes final: money and asset swap hands, guaranteed by a clearing house.",
    "tcodes": [],
    "fiori": [],
    "tags": [],
@@ -7692,5 +7692,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 15:52 UTC"
+ "built": "2026-10-25 16:02 UTC"
 };
