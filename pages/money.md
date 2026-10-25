@@ -4,6 +4,7 @@ title: Money & Liquidity
 short: Money & Liquidity
 parent: capital-system
 order: 2
+group: Foundations
 summary: What money is, why some money ranks above other money, and how the amount of it in the system moves markets.
 tags: money, liquidity
 ---

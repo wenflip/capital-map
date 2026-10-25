@@ -3,6 +3,7 @@ id: foundation
 title: Foundation
 parent: capital-system
 order: 1
+group: Foundations
 summary: The ideas everything else rests on: claims and liabilities, time value, compounding, risk and return, and inflation.
 tags: foundation
 ---
