@@ -141,10 +141,12 @@ window.MUDMAP = {
     "cash-and-fiat",
     "central-bank-money",
     "claims-and-liabilities",
+    "custodial-crypto",
     "eurodollars",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
-    "money"
+    "money",
+    "stablecoins"
    ],
    "backlinksAdv": [
     "eurodollars"
@@ -154,12 +156,85 @@ window.MUDMAP = {
    "id": "bitcoin",
    "title": "Bitcoin",
    "short": "",
-   "parent": "digital-assets",
+   "parent": "native-coins",
    "order": 1.0,
-   "summary": "A fixed-supply bearer asset on a public ledger: nobody's liability.",
+   "summary": "The first blockchain: a fixed-supply coin, secured by proof of work, that is nobody's liability.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "bitcoin",
+    "native coins"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "2-3",
+   "killer": "lost keys when you hold it; custodian failure when someone holds it for you",
+   "traits": [
+    "nobody's liability",
+    "fixed supply",
+    "no yield"
+   ],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "native-coins",
+    "bitcoin"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Bitcoin</strong> is the first blockchain and its native coin, launched in 2009. It was designed to be digital cash that doesn't depend on a bank or a government.</p>\n<h2>Why it matters</h2>\n<p>Bitcoin is the reference example of a digital asset that is <strong>nobody's liability</strong>. Its supporters compare it to digital gold: scarce, durable and hard to seize when held privately. Critics point out that it pays no income and that its price has been very volatile.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Fixed supply.</strong> The rules allow no more than 21 million bitcoin.</li>\n<li><strong>Halvings.</strong> New coins are paid to miners with each block, and that reward halves roughly every four years, so new supply keeps shrinking.</li>\n<li><strong>Proof of work.</strong> Miners compete to add blocks about every ten minutes. See <a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a>.</li>\n<li><strong>Deliberately simple.</strong> Bitcoin's scripting is limited on purpose; most complex applications live on other chains. See <a class=\"wl\" href=\"#/map/p/smart-contract-platforms\" data-page=\"smart-contract-platforms\">Smart-Contract Platforms</a>.</li>\n</ul>\n<p><strong>Where it sits on the Cartography of Wealth:</strong> self-held bitcoin is a Tier 2 bearer asset (private, exposed to theft and mistakes). Bitcoin held on an exchange or in a fund is a Tier 3 claim on that firm.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Lost keys</strong> mean lost coins. See <a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a>.</li>\n<li><strong>Custodian failure</strong> turns your coins into a claim in a bankruptcy. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>Volatility:</strong> large falls have happened repeatedly. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</li>\n<li><strong>Security budget:</strong> as block rewards shrink, fees must pay more of the cost of securing the network over time.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> bitcoin's protocol has proved hard to break; most losses come from how people hold it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the asset bitcoin is most often compared with.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — where a bearer asset sits next to the layers of promises.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does bitcoin's new supply keep falling?</p><details><summary>Show answer</summary><p>Because the reward for each new block halves roughly every four years, until the 21 million limit is reached.</p></details></div>",
+   "deep": "",
+   "links": [
+    "consensus",
+    "custodial-crypto",
+    "drawdown",
+    "gold",
+    "hierarchy-of-money",
+    "keys-and-wallets",
+    "smart-contract-platforms"
+   ],
+   "stub": false,
+   "text": "What it is Bitcoin is the first blockchain and its native coin, launched in 2009. It was designed to be digital cash that doesn't depend on a bank or a government. Why it matters Bitcoin is the reference example of a digital asset that is nobody's liability . Its supporters compare it to digital gold: scarce, durable and hard to seize when held privately. Critics point out that it pays no income and that its price has been very volatile. How it works Fixed supply. The rules allow no more than 21 million bitcoin. Halvings. New coins are paid to miners with each block, and that reward halves roughly every four years, so new supply keeps shrinking. Proof of work. Miners compete to add blocks about every ten minutes. See consensus. Deliberately simple. Bitcoin's scripting is limited on purpose; most complex applications live on other chains. See smart contract platforms. Where it sits on the Cartography of Wealth: self held bitcoin is a Tier 2 bearer asset (private, exposed to theft and mistakes). Bitcoin held on an exchange or in a fund is a Tier 3 claim on that firm. What goes wrong Lost keys mean lost coins. See keys and wallets. Custodian failure turns your coins into a claim in a bankruptcy. See custodial crypto. Volatility: large falls have happened repeatedly. See drawdown. Security budget: as block rewards shrink, fees must pay more of the cost of securing the network over time. Key rule: bitcoin's protocol has proved hard to break; most losses come from how people hold it. Connects to gold — the asset bitcoin is most often compared with. hierarchy of money — where a bearer asset sits next to the layers of promises. Check yourself Q: Why does bitcoin's new supply keep falling? A: Because the reward for each new block halves roughly every four years, until the 21 million limit is reached.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC3 — Mechanics of Bitcoin"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC5 — Bitcoin mining"
+    }
+   ],
+   "backlinks": [
+    "claims-and-liabilities",
+    "consensus",
+    "digital-assets",
+    "native-coins"
+   ],
+   "backlinksAdv": []
+  },
+  "blockchains": {
+   "id": "blockchains",
+   "title": "How Blockchains Work",
+   "short": "How blockchains work",
+   "parent": "digital-assets",
+   "order": 1.0,
+   "summary": "A shared ledger kept in agreement by many computers: the machinery under every digital asset.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "blockchain"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -169,26 +244,42 @@ window.MUDMAP = {
    "path": [
     "capital-system",
     "digital-assets",
-    "bitcoin"
+    "blockchains"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>A fixed-supply bearer asset on a public ledger: nobody's liability.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>blockchain</strong> is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers (<strong>nodes</strong>) keep their own copy and check every new block against the same rules.</p>\n<h2>Why it exists</h2>\n<p>A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it.</p>\n<h2>How it works</h2>\n<p>Three ideas explain almost everything:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — how thousands of strangers agree on one history, and what it costs to cheat.</li>\n<li><a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a> — what you actually own: a secret key that lets you move coins recorded on the ledger.</li>\n<li><a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a> — what happens when the rules change, or someone copies the whole ledger onto a new chain.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>What it does</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Transactions</td>\n<td>Signed instructions to move coins or call a program</td>\n</tr>\n<tr>\n<td>Blocks</td>\n<td>Batches of transactions, each linked to the one before</td>\n</tr>\n<tr>\n<td>Nodes</td>\n<td>Computers that keep a copy and check the rules</td>\n</tr>\n<tr>\n<td>Consensus</td>\n<td>The method for deciding which new block is accepted</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Weak consensus.</strong> A small network can be attacked by anyone who controls enough mining power or stake.</li>\n<li><strong>Bugs in the rules.</strong> Software errors in the protocol itself are rare on large chains but possible.</li>\n<li><strong>Centralised control.</strong> If a few parties run most of the nodes or validators, the network can be pressured or halted.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a blockchain is only as trustless as its consensus is expensive to attack and widely spread.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">What problem does a blockchain solve that a simple shared spreadsheet doesn't?</p><details><summary>Show answer</summary><p>It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "A fixed supply bearer asset on a public ledger: nobody's liability.",
+   "links": [
+    "consensus",
+    "forks",
+    "keys-and-wallets"
+   ],
+   "stub": false,
+   "text": "What it is A blockchain is a ledger of transactions grouped into blocks. Each block points to the one before it, so the history forms a chain that is very hard to alter. Thousands of computers ( nodes ) keep their own copy and check every new block against the same rules. Why it exists A digital file can be copied endlessly, so digital money needs a way to stop the same unit being spent twice. Traditionally a bank's ledger does that. A blockchain does it without a single owner: the network agrees on one history, and anyone can check it. How it works Three ideas explain almost everything: consensus — how thousands of strangers agree on one history, and what it costs to cheat. keys and wallets — what you actually own: a secret key that lets you move coins recorded on the ledger. forks — what happens when the rules change, or someone copies the whole ledger onto a new chain. Part What it does Transactions Signed instructions to move coins or call a program Blocks Batches of transactions, each linked to the one before Nodes Computers that keep a copy and check the rules Consensus The method for deciding which new block is accepted What goes wrong Weak consensus. A small network can be attacked by anyone who controls enough mining power or stake. Bugs in the rules. Software errors in the protocol itself are rare on large chains but possible. Centralised control. If a few parties run most of the nodes or validators, the network can be pressured or halted. Key rule: a blockchain is only as trustless as its consensus is expensive to attack and widely spread. Check yourself Q: What problem does a blockchain solve that a simple shared spreadsheet doesn't? A: It lets strangers agree on one history without trusting any single keeper, and it makes rewriting that history very expensive, which stops the same coin being spent twice.",
    "textDeep": "",
-   "children": [],
+   "children": [
+    "consensus",
+    "keys-and-wallets",
+    "forks"
+   ],
    "jobs": [],
    "quals": [
     {
-     "q": "cfa-l1",
-     "m": "CFA1-ALT — Alternative Investments"
+     "q": "princeton-bitcoin",
+     "m": "BTC1 — Cryptography and cryptocurrencies"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC2 — How Bitcoin achieves decentralisation"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC3 — Mechanics of Bitcoin"
     }
    ],
    "backlinks": [
-    "claims-and-liabilities"
+    "digital-assets"
    ],
    "backlinksAdv": []
   },
@@ -249,6 +340,52 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "bridges-and-layer-2s": {
+   "id": "bridges-and-layer-2s",
+   "title": "Bridges and Layer 2s",
+   "short": "",
+   "parent": "digital-assets",
+   "order": 4.0,
+   "summary": "How value moves between chains and onto faster networks built on top, and why bridges have been crypto's weakest link.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "bridges",
+    "layer 2"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "bridges-and-layer-2s"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<ul>\n<li>A <strong>bridge</strong> moves value between two separate blockchains. Usually it locks coins on one chain and issues matching <a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a> on the other.</li>\n<li>A <strong>layer 2</strong> is a faster, cheaper network built on top of a main chain (the <strong>layer 1</strong>). It processes transactions itself and periodically settles a summary back to the main chain.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Each blockchain is its own closed ledger: coins can't simply move from one to another. Main chains like Ethereum also become slow and expensive when busy. Bridges connect chains; layer 2s add capacity.</p>\n<h2>How it works</h2>\n<p><strong>Bridges</strong> mostly work by <em>lock and mint</em>:</p>\n<ol>\n<li>You send coins to the bridge on chain A, where they are locked.</li>\n<li>The bridge issues the same amount of wrapped tokens on chain B.</li>\n<li>To go back, the wrapped tokens are destroyed and the originals released.</li>\n</ol>\n<p>Everything depends on who controls the locked coins: a small group of signers, a set of validators, or a contract.</p>\n<p><strong>Layer 2s</strong> often use <strong>rollups</strong>: they bundle many transactions together and post them, or proof of them, to the main chain. Two main designs:</p>\n<ul>\n<li><strong>Optimistic rollups</strong> assume transactions are valid unless someone challenges them, so withdrawals to the main chain can take days.</li>\n<li><strong>Zero-knowledge rollups</strong> post a mathematical proof that the transactions are valid, which allows faster withdrawals but is harder to build.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bridge hacks.</strong> A bridge is one big pile of locked coins, which makes it a target. Some of the largest crypto thefts have been bridge hacks; in 2022 alone, attacks on Ronin, Wormhole and Nomad each took hundreds of millions of dollars.</li>\n<li><strong>Few signers.</strong> Many bridges rely on a handful of keys; stealing enough of them unlocks everything.</li>\n<li><strong>Centralised layer 2s.</strong> Many layer 2s still rely on a single operator to order transactions and have upgrade keys that can change the rules.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> every bridge adds a party that can fail. Count the hops between you and the original coin.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/smart-contract-platforms\" data-page=\"smart-contract-platforms\">Smart-Contract Platforms</a> — the main chains that layer 2s extend.</li>\n<li><a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a> — what bridges issue.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is a bridge a more attractive target for attackers than a single user's wallet?</p><details><summary>Show answer</summary><p>Because it holds the locked originals for everyone who has bridged. Breaking one bridge can unlock all of them at once.</p></details></div>",
+   "deep": "",
+   "links": [
+    "smart-contract-platforms",
+    "wrapped-tokens"
+   ],
+   "stub": false,
+   "text": "What it is A bridge moves value between two separate blockchains. Usually it locks coins on one chain and issues matching wrapped tokens on the other. A layer 2 is a faster, cheaper network built on top of a main chain (the layer 1 ). It processes transactions itself and periodically settles a summary back to the main chain. Why it exists Each blockchain is its own closed ledger: coins can't simply move from one to another. Main chains like Ethereum also become slow and expensive when busy. Bridges connect chains; layer 2s add capacity. How it works Bridges mostly work by lock and mint : 1. You send coins to the bridge on chain A, where they are locked. 2. The bridge issues the same amount of wrapped tokens on chain B. 3. To go back, the wrapped tokens are destroyed and the originals released. Everything depends on who controls the locked coins: a small group of signers, a set of validators, or a contract. Layer 2s often use rollups : they bundle many transactions together and post them, or proof of them, to the main chain. Two main designs: Optimistic rollups assume transactions are valid unless someone challenges them, so withdrawals to the main chain can take days. Zero knowledge rollups post a mathematical proof that the transactions are valid, which allows faster withdrawals but is harder to build. What goes wrong Bridge hacks. A bridge is one big pile of locked coins, which makes it a target. Some of the largest crypto thefts have been bridge hacks; in 2022 alone, attacks on Ronin, Wormhole and Nomad each took hundreds of millions of dollars. Few signers. Many bridges rely on a handful of keys; stealing enough of them unlocks everything. Centralised layer 2s. Many layer 2s still rely on a single operator to order transactions and have upgrade keys that can change the rules. Key rule: every bridge adds a party that can fail. Count the hops between you and the original coin. Connects to smart contract platforms — the main chains that layer 2s extend. wrapped tokens — what bridges issue. Check yourself Q: Why is a bridge a more attractive target for attackers than a single user's wallet? A: Because it holds the locked originals for everyone who has bridged. Breaking one bridge can unlock all of them at once.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "digital-assets",
+    "smart-contract-platforms",
+    "wrapped-tokens"
+   ],
+   "backlinksAdv": []
+  },
   "brokers": {
    "id": "brokers",
    "title": "Brokers",
@@ -286,7 +423,9 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "custodial-crypto"
+   ],
    "backlinksAdv": []
   },
   "capital-system": {
@@ -410,11 +549,14 @@ window.MUDMAP = {
     "capital-system",
     "cash-and-fiat",
     "claims-and-liabilities",
+    "digital-assets",
     "foundation",
     "gold",
+    "holding-crypto",
     "inflation",
     "money",
-    "risk-and-return"
+    "risk-and-return",
+    "wrapped-tokens"
    ],
    "backlinksAdv": []
   },
@@ -638,6 +780,8 @@ window.MUDMAP = {
    "backlinks": [
     "capital-system",
     "cartography-of-wealth",
+    "custodial-crypto",
+    "digital-assets",
     "foundation",
     "hierarchy-of-money",
     "money",
@@ -815,6 +959,68 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "consensus": {
+   "id": "consensus",
+   "title": "Consensus: Proof of Work and Proof of Stake",
+   "short": "Consensus",
+   "parent": "blockchains",
+   "order": 1.0,
+   "summary": "How a blockchain's computers agree on one history: proof of work, proof of stake, and what it costs to cheat.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "blockchain",
+    "consensus"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "blockchains",
+    "consensus"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Consensus</strong> is the method a blockchain uses to decide which new block is added, so that every node ends up with the same history. The two main methods are <strong>proof of work</strong> and <strong>proof of stake</strong>.</p>\n<h2>Why it exists</h2>\n<p>Anyone can join a public network, including attackers. Consensus makes adding blocks costly, so that cheating costs more than it could earn.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Proof of work</th>\n<th>Proof of stake</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Who adds blocks</td>\n<td><strong>Miners</strong>, who race to solve a hard computing puzzle</td>\n<td><strong>Validators</strong>, who lock up (stake) the chain's coin</td>\n</tr>\n<tr>\n<td>What it costs to take part</td>\n<td>Hardware and electricity</td>\n<td>Capital tied up in the stake</td>\n</tr>\n<tr>\n<td>Punishment for cheating</td>\n<td>Wasted electricity on rejected blocks</td>\n<td>Part of the stake can be destroyed (\"slashing\")</td>\n</tr>\n<tr>\n<td>Main example</td>\n<td><a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a></td>\n<td>Ethereum, since its switch in September 2022 (see <a class=\"wl\" href=\"#/map/p/smart-contract-platforms\" data-page=\"smart-contract-platforms\">Smart-Contract Platforms</a>)</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Ethereum's switch.</strong> In September 2022 Ethereum moved from proof of work to proof of stake, an upgrade known as <em>the Merge</em>. The Ethereum project estimates this cut the network's energy use by more than 99.9%.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>A 51% attack.</strong> Whoever controls most of the mining power, or most of the stake, can reorder recent transactions and spend coins twice. On large networks this is very expensive; on small ones it has happened.</li>\n<li><strong>Concentration.</strong> Mining pools and large staking providers can end up controlling a big share of a network.</li>\n<li><strong>Proof of stake rewards the already-rich</strong>, critics argue, because staking rewards go to those who already hold coins. Supporters reply that proof of work favours those with cheap electricity and hardware.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a chain's security is the cost of attacking it. Ask how much it would cost to control most of its mining power or stake.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is a 51% attack far harder on a large network than on a small one?</p><details><summary>Show answer</summary><p>Because the attacker has to control more mining power or stake than everyone else combined. On a large network that costs far more than the attack could usually earn.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Finality.</strong> On a proof-of-work chain, a payment becomes more certain with every block added on top, but is never absolutely final. Many proof-of-stake chains add a point after which a block is final unless a large share of stake is destroyed.</li>\n<li><strong>Delegation.</strong> On many proof-of-stake chains, small holders delegate their coins to a validator rather than run one themselves, which spreads rewards but can concentrate control.</li>\n</ul></section>",
+   "links": [
+    "bitcoin",
+    "smart-contract-platforms"
+   ],
+   "stub": false,
+   "text": "What it is Consensus is the method a blockchain uses to decide which new block is added, so that every node ends up with the same history. The two main methods are proof of work and proof of stake . Why it exists Anyone can join a public network, including attackers. Consensus makes adding blocks costly, so that cheating costs more than it could earn. How it works Proof of work Proof of stake Who adds blocks Miners , who race to solve a hard computing puzzle Validators , who lock up (stake) the chain's coin What it costs to take part Hardware and electricity Capital tied up in the stake Punishment for cheating Wasted electricity on rejected blocks Part of the stake can be destroyed (\"slashing\") Main example bitcoin Ethereum, since its switch in September 2022 (see smart contract platforms) Ethereum's switch. In September 2022 Ethereum moved from proof of work to proof of stake, an upgrade known as the Merge . The Ethereum project estimates this cut the network's energy use by more than 99.9%. What goes wrong A 51% attack. Whoever controls most of the mining power, or most of the stake, can reorder recent transactions and spend coins twice. On large networks this is very expensive; on small ones it has happened. Concentration. Mining pools and large staking providers can end up controlling a big share of a network. Proof of stake rewards the already rich , critics argue, because staking rewards go to those who already hold coins. Supporters reply that proof of work favours those with cheap electricity and hardware. Key rule: a chain's security is the cost of attacking it. Ask how much it would cost to control most of its mining power or stake. Check yourself Q: Why is a 51% attack far harder on a large network than on a small one? A: Because the attacker has to control more mining power or stake than everyone else combined. On a large network that costs far more than the attack could usually earn.",
+   "textDeep": "Going deeper Finality. On a proof of work chain, a payment becomes more certain with every block added on top, but is never absolutely final. Many proof of stake chains add a point after which a block is final unless a large share of stake is destroyed. Delegation. On many proof of stake chains, small holders delegate their coins to a validator rather than run one themselves, which spreads rewards but can concentrate control.",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC2 — How Bitcoin achieves decentralisation"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC5 — Bitcoin mining"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC8 — Alternative mining puzzles"
+    }
+   ],
+   "backlinks": [
+    "bitcoin",
+    "blockchains",
+    "defi",
+    "forks",
+    "smart-contract-platforms"
+   ],
+   "backlinksAdv": []
+  },
   "correlation": {
    "id": "correlation",
    "title": "Correlation",
@@ -867,39 +1073,62 @@ window.MUDMAP = {
    "id": "custodial-crypto",
    "title": "Custodial Crypto",
    "short": "",
-   "parent": "digital-assets",
-   "order": 6.0,
-   "summary": "Crypto held for you by an exchange: a claim on the exchange, not the coin.",
+   "parent": "holding-crypto",
+   "order": 2.0,
+   "summary": "Crypto held for you by an exchange, broker or fund: a claim on the firm, not the coin.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "custody",
+    "exchanges"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
    "tier": "3",
-   "killer": "exchange failure — you are an unsecured creditor",
+   "killer": "the custodian failing — you become an unsecured creditor",
    "traits": [
     "legible",
-    "counterparty risk"
+    "counterparty risk",
+    "convenient"
    ],
    "path": [
     "capital-system",
     "digital-assets",
+    "holding-crypto",
     "custodial-crypto"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Crypto held for you by an exchange: a claim on the exchange, not the coin.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Custodial crypto</strong> is crypto held for you by a firm: an exchange account, a broker, or a fund that holds coins. The firm controls the keys. What you own is the firm's promise to give you the coins.</p>\n<h2>Why people use it</h2>\n<ul>\n<li><strong>Convenience:</strong> buy, sell and move between currency and crypto in one place.</li>\n<li><strong>No key management:</strong> no seed phrase to lose.</li>\n<li><strong>Familiar wrappers:</strong> some markets offer funds that hold crypto and trade like shares, through an ordinary brokerage account.</li>\n</ul>\n<h2>How it works</h2>\n<p>In the <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">claims</a> sense, a custodial balance is the firm's liability to you. What protects it depends on the firm and where it operates:</p>\n<ul>\n<li>whether customer coins are kept <strong>separate</strong> from the firm's own;</li>\n<li>whether the firm publishes <strong>proof of reserves</strong> (evidence it holds what it owes);</li>\n<li>how a <strong>bankruptcy</strong> would treat customers.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Exchange collapse.</strong> In November 2022 the exchange FTX collapsed after customer funds were found to have been misused, and customers became creditors in a long bankruptcy. Mt. Gox, once the largest Bitcoin exchange, failed in 2014 after losing customers' coins.</li>\n<li><strong>Freezes:</strong> withdrawals can be halted in a crisis.</li>\n<li><strong>Hacks</strong> of the exchange's own wallets.</li>\n<li><strong>Rehypothecation:</strong> some platforms lend out customer coins to earn income, which adds a second layer of risk.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> \"not your keys, not your coins\". A custodial balance is a claim, so judge the firm the way you would judge a bank.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the traditional version of the same kind of claim, usually with more protection.</li>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> and <a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — how custody works in traditional markets.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is a custodial balance closer to a bank deposit than to coins in your own wallet?</p><details><summary>Show answer</summary><p>Because in both cases you hold a claim on a firm that holds the asset. Your money is only as safe as the firm and the rules protecting customers.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Crypto held for you by an exchange: a claim on the exchange, not the coin.",
+   "links": [
+    "bank-deposits",
+    "brokers",
+    "claims-and-liabilities",
+    "custody"
+   ],
+   "stub": false,
+   "text": "What it is Custodial crypto is crypto held for you by a firm: an exchange account, a broker, or a fund that holds coins. The firm controls the keys. What you own is the firm's promise to give you the coins. Why people use it Convenience: buy, sell and move between currency and crypto in one place. No key management: no seed phrase to lose. Familiar wrappers: some markets offer funds that hold crypto and trade like shares, through an ordinary brokerage account. How it works In the claims sense, a custodial balance is the firm's liability to you. What protects it depends on the firm and where it operates: whether customer coins are kept separate from the firm's own; whether the firm publishes proof of reserves (evidence it holds what it owes); how a bankruptcy would treat customers. What goes wrong Exchange collapse. In November 2022 the exchange FTX collapsed after customer funds were found to have been misused, and customers became creditors in a long bankruptcy. Mt. Gox, once the largest Bitcoin exchange, failed in 2014 after losing customers' coins. Freezes: withdrawals can be halted in a crisis. Hacks of the exchange's own wallets. Rehypothecation: some platforms lend out customer coins to earn income, which adds a second layer of risk. Key rule: \"not your keys, not your coins\". A custodial balance is a claim, so judge the firm the way you would judge a bank. Connects to bank deposits — the traditional version of the same kind of claim, usually with more protection. brokers and custody — how custody works in traditional markets. Check yourself Q: Why is a custodial balance closer to a bank deposit than to coins in your own wallet? A: Because in both cases you hold a claim on a firm that holds the asset. Your money is only as safe as the firm and the rules protecting customers.",
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC4 — How to store and use bitcoins"
+    }
+   ],
    "backlinks": [
-    "cartography-of-wealth"
+    "bitcoin",
+    "cartography-of-wealth",
+    "holding-crypto",
+    "keys-and-wallets"
    ],
    "backlinksAdv": []
   },
@@ -935,7 +1164,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "custodial-crypto"
+   ],
    "backlinksAdv": []
   },
   "data-sources": {
@@ -971,6 +1202,60 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [],
+   "backlinksAdv": []
+  },
+  "defi": {
+   "id": "defi",
+   "title": "DeFi: Decentralised Finance",
+   "short": "DeFi",
+   "parent": "digital-assets",
+   "order": 5.0,
+   "summary": "Exchanges, lending and staking run by smart contracts instead of companies — and where the yield actually comes from.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "defi",
+    "yield"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "defi"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>DeFi</strong> (decentralised finance) means financial services built as <a class=\"wl\" href=\"#/map/p/smart-contract-platforms\" data-page=\"smart-contract-platforms\">smart contracts</a>: trading, lending and earning a return, with no company holding your funds in between. You connect a wallet and deal with the program directly.</p>\n<h2>Why it exists</h2>\n<p>DeFi lets anyone with a wallet trade, lend or borrow at any hour, and lets new financial products be built by combining existing programs, like building blocks.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Service</th>\n<th>How it works</th>\n<th>Where the return comes from</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Decentralised exchange</strong></td>\n<td>Traders swap against a pool of two tokens supplied by liquidity providers; a formula sets the price</td>\n<td>Trading fees paid to the pool</td>\n</tr>\n<tr>\n<td><strong>Lending market</strong></td>\n<td>Borrowers lock more collateral than they borrow; if its value falls too far, it is sold automatically (<strong>liquidation</strong>)</td>\n<td>Interest paid by borrowers</td>\n</tr>\n<tr>\n<td><strong>Staking</strong></td>\n<td>Locking a chain's coin to help run <a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a></td>\n<td>New coins and fees paid by the network</td>\n</tr>\n<tr>\n<td><strong>Liquid staking</strong></td>\n<td>Staking through a protocol that gives you a token representing your stake</td>\n<td>The staking reward, minus the protocol's cut</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Ask where the yield comes from.</strong> Real yield comes from someone paying: traders, borrowers or the network. If a return is high and nobody can explain who is paying it, it is often paid in newly created tokens, or by later depositors.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Smart-contract bugs:</strong> the code holds the money, so a bug can drain it.</li>\n<li><strong>Oracle manipulation:</strong> programs need outside prices; feeding them false prices can trigger wrong liquidations or let attackers borrow too much.</li>\n<li><strong>Admin keys:</strong> many \"decentralised\" protocols can still be changed or paused by a small team.</li>\n<li><strong>Impermanent loss:</strong> liquidity providers can end up worse off than if they had simply held the two tokens, when prices move a lot.</li>\n<li><strong>Liquidation cascades:</strong> a falling price triggers forced sales, which push the price lower and trigger more.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> if you can't see who is paying the yield, assume you are.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/governance-tokens\" data-page=\"governance-tokens\">Governance Tokens</a> — how many DeFi protocols are run.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — borrowing against crypto magnifies both gains and liquidations.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A lending protocol offers depositors 3% while borrowers pay 5%. Where does the 2% go, and where does the depositors' 3% come from?</p><details><summary>Show answer</summary><p>The depositors' 3% comes from the interest borrowers pay. The gap covers the protocol's cut and a buffer for bad loans.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a sharp price fall cause a liquidation cascade?</p><details><summary>Show answer</summary><p>Falling collateral values trigger automatic sales, which push prices down further, which triggers more liquidations.</p></details></div>",
+   "deep": "",
+   "links": [
+    "consensus",
+    "governance-tokens",
+    "leverage",
+    "smart-contract-platforms"
+   ],
+   "stub": false,
+   "text": "What it is DeFi (decentralised finance) means financial services built as smart contracts: trading, lending and earning a return, with no company holding your funds in between. You connect a wallet and deal with the program directly. Why it exists DeFi lets anyone with a wallet trade, lend or borrow at any hour, and lets new financial products be built by combining existing programs, like building blocks. How it works Service How it works Where the return comes from Decentralised exchange Traders swap against a pool of two tokens supplied by liquidity providers; a formula sets the price Trading fees paid to the pool Lending market Borrowers lock more collateral than they borrow; if its value falls too far, it is sold automatically ( liquidation ) Interest paid by borrowers Staking Locking a chain's coin to help run consensus New coins and fees paid by the network Liquid staking Staking through a protocol that gives you a token representing your stake The staking reward, minus the protocol's cut Ask where the yield comes from. Real yield comes from someone paying: traders, borrowers or the network. If a return is high and nobody can explain who is paying it, it is often paid in newly created tokens, or by later depositors. What goes wrong Smart contract bugs: the code holds the money, so a bug can drain it. Oracle manipulation: programs need outside prices; feeding them false prices can trigger wrong liquidations or let attackers borrow too much. Admin keys: many \"decentralised\" protocols can still be changed or paused by a small team. Impermanent loss: liquidity providers can end up worse off than if they had simply held the two tokens, when prices move a lot. Liquidation cascades: a falling price triggers forced sales, which push the price lower and trigger more. Key rule: if you can't see who is paying the yield, assume you are. Connects to governance tokens — how many DeFi protocols are run. leverage — borrowing against crypto magnifies both gains and liquidations. Check yourself Q: A lending protocol offers depositors 3% while borrowers pay 5%. Where does the 2% go, and where does the depositors' 3% come from? A: The depositors' 3% comes from the interest borrowers pay. The gap covers the protocol's cut and a buffer for bad loans. Q: Why can a sharp price fall cause a liquidation cascade? A: Falling collateral values trigger automatic sales, which push prices down further, which triggers more liquidations.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC11 — Decentralised institutions"
+    }
+   ],
+   "backlinks": [
+    "digital-assets",
+    "governance-tokens",
+    "smart-contract-platforms",
+    "wrapped-tokens"
+   ],
    "backlinksAdv": []
   },
   "derivatives": {
@@ -1020,10 +1305,13 @@ window.MUDMAP = {
    "short": "",
    "parent": "capital-system",
    "order": 4.0,
-   "summary": "Bearer assets on public ledgers: Bitcoin, smart-contract platforms, stablecoins and memecoins.",
+   "summary": "Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, tokens, bridges, DeFi, and how to hold them.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "crypto"
+   ],
    "sources": [],
    "level": "basic",
    "group": "What you can own",
@@ -1036,19 +1324,32 @@ window.MUDMAP = {
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Bearer assets on public ledgers: Bitcoin, smart-contract platforms, stablecoins and memecoins.</p>",
-   "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Bearer assets on public ledgers: Bitcoin, smart contract platforms, stablecoins and memecoins.",
-   "textDeep": "",
-   "children": [
+   "html": "<h2>What it is</h2>\n<p><strong>Digital assets</strong> are units of value recorded on a <strong>blockchain</strong>: a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it.</p>\n<p>This map covers <strong>concepts, not coins</strong>. A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here.</p>\n<h2>Why it exists</h2>\n<p>Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be <strong>nobody's liability</strong>, like gold, but moved across the world in minutes.</p>\n<p>Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch.</p>\n<h2>How it works</h2>\n<p>The branch runs from the machinery up to how you hold it:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/blockchains\" data-page=\"blockchains\">How Blockchains Work</a> — ledgers, consensus, keys and forks: the machinery underneath everything else.</li>\n<li><a class=\"wl\" href=\"#/map/p/native-coins\" data-page=\"native-coins\">Native Coins</a> — each chain's own coin, used to pay for the network: <a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> and smart-contract platforms such as Ethereum.</li>\n<li><a class=\"wl\" href=\"#/map/p/tokens\" data-page=\"tokens\">Tokens</a> — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens.</li>\n<li><a class=\"wl\" href=\"#/map/p/bridges-and-layer-2s\" data-page=\"bridges-and-layer-2s\">Bridges and Layer 2s</a> — how value moves between chains, and why that's the riskiest step.</li>\n<li><a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a> — exchanges, lending and staking run by code instead of companies.</li>\n<li><a class=\"wl\" href=\"#/map/p/holding-crypto\" data-page=\"holding-crypto\">Holding Crypto</a> — holding your own keys or letting someone hold them for you.</li>\n</ul>\n<p><strong>The two lenses this map uses fit crypto well:</strong></p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Native coin (bitcoin, ether)</th>\n<th>Token (stablecoin, bridged coin)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Whose liability is it?</td>\n<td>Nobody's</td>\n<td>An issuer's, a bridge's, or a program's</td>\n</tr>\n<tr>\n<td>What can kill it?</td>\n<td>Protocol failure, lost keys</td>\n<td>The issuer, bridge or contract failing</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Failure</th>\n<th>What it looks like</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Lost keys</strong></td>\n<td>Coins still exist on the ledger, but nobody can ever move them</td>\n</tr>\n<tr>\n<td><strong>Custodian failure</strong></td>\n<td>An exchange holding your coins collapses; you become a creditor</td>\n</tr>\n<tr>\n<td><strong>Bridge or contract hack</strong></td>\n<td>A bug lets an attacker drain the funds backing a token</td>\n</tr>\n<tr>\n<td><strong>De-peg</strong></td>\n<td>A token meant to equal one dollar trades below it</td>\n</tr>\n<tr>\n<td><strong>Same ticker, different asset</strong></td>\n<td>A copied or bridged coin carries the same name as the original but is a different thing</td>\n</tr>\n<tr>\n<td><strong>Liquidity drain</strong></td>\n<td>When system liquidity falls, the most speculative tokens fall first and hardest</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys?</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — stablecoins and wrapped coins as private promises high up the hierarchy.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — self-custody sits in Tier 2, coins held on an exchange in Tier 3.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the test that separates a native coin from a token.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why crypto has often moved with high-growth tech shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — the crypto futures that drive much of the trading.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset?</p><details><summary>Show answer</summary><p>Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can bitcoin be nobody's liability while a dollar stablecoin can't?</p><details><summary>Show answer</summary><p>Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Security budgets.</strong> A public blockchain pays for its own security through new coins and fees. As new issuance shrinks over time, fees have to carry more of that cost. Whether they can is an open question for several chains.</li>\n<li><strong>Most of crypto's risk sits in the layers, not the base.</strong> Base-layer protocols have proved hard to break; most large losses have come from exchanges, bridges and smart contracts built on top.</li>\n</ul></section>",
+   "links": [
     "bitcoin",
-    "smart-contract-platforms",
-    "stablecoins",
-    "memecoins",
-    "self-custody",
-    "custodial-crypto"
+    "blockchains",
+    "bridges-and-layer-2s",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "defi",
+    "hierarchy-of-money",
+    "holding-crypto",
+    "market-regimes",
+    "native-coins",
+    "perpetuals",
+    "tokens"
+   ],
+   "stub": false,
+   "text": "What it is Digital assets are units of value recorded on a blockchain : a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it. This map covers concepts, not coins . A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here. Why it exists Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be nobody's liability , like gold, but moved across the world in minutes. Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch. How it works The branch runs from the machinery up to how you hold it: blockchains — ledgers, consensus, keys and forks: the machinery underneath everything else. native coins — each chain's own coin, used to pay for the network: bitcoin and smart contract platforms such as Ethereum. tokens — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens. bridges and layer 2s — how value moves between chains, and why that's the riskiest step. defi — exchanges, lending and staking run by code instead of companies. holding crypto — holding your own keys or letting someone hold them for you. The two lenses this map uses fit crypto well: Question Native coin (bitcoin, ether) Token (stablecoin, bridged coin) Whose liability is it? Nobody's An issuer's, a bridge's, or a program's What can kill it? Protocol failure, lost keys The issuer, bridge or contract failing What goes wrong Failure What it looks like Lost keys Coins still exist on the ledger, but nobody can ever move them Custodian failure An exchange holding your coins collapses; you become a creditor Bridge or contract hack A bug lets an attacker drain the funds backing a token De peg A token meant to equal one dollar trades below it Same ticker, different asset A copied or bridged coin carries the same name as the original but is a different thing Liquidity drain When system liquidity falls, the most speculative tokens fall first and hardest Key rule: for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys? Connects to hierarchy of money — stablecoins and wrapped coins as private promises high up the hierarchy. The Cartography of Wealth — self custody sits in Tier 2, coins held on an exchange in Tier 3. claims and liabilities — the test that separates a native coin from a token. market regimes — why crypto has often moved with high growth tech shares. perpetuals — the crypto futures that drive much of the trading. Check yourself Q: A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset? A: Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain. Q: Why can bitcoin be nobody's liability while a dollar stablecoin can't? A: Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.",
+   "textDeep": "Going deeper Security budgets. A public blockchain pays for its own security through new coins and fees. As new issuance shrinks over time, fees have to carry more of that cost. Whether they can is an open question for several chains. Most of crypto's risk sits in the layers, not the base. Base layer protocols have proved hard to break; most large losses have come from exchanges, bridges and smart contracts built on top.",
+   "children": [
+    "blockchains",
+    "native-coins",
+    "tokens",
+    "bridges-and-layer-2s",
+    "defi",
+    "holding-crypto"
    ],
    "jobs": [],
    "quals": [],
@@ -1135,6 +1436,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "bitcoin",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -1359,6 +1661,63 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "forks": {
+   "id": "forks",
+   "title": "Forks",
+   "short": "",
+   "parent": "blockchains",
+   "order": 3.0,
+   "summary": "When a blockchain's rules change, or its whole history is copied onto a new chain, and why a forked coin is a new asset with the old name.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "blockchain",
+    "forks"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "blockchains",
+    "forks"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>fork</strong> is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too.</p>\n<h2>Why it exists</h2>\n<p>Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>What happens</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Soft fork</strong></td>\n<td>Rules get stricter; old software still accepts new blocks</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Hard fork (agreed)</strong></td>\n<td>Rules change in a way old software rejects, but nearly everyone upgrades</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Contentious hard fork</strong></td>\n<td>The community splits; both sides keep running</td>\n<td>Two chains and two coins, sharing history up to the split</td>\n</tr>\n<tr>\n<td><strong>Full-state copy</strong></td>\n<td>A new chain starts from a snapshot of an existing chain's entire state</td>\n<td>A new chain where every balance has a copy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Examples:</strong></p>\n<ul>\n<li><strong>Ethereum Classic (2016):</strong> after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic.</li>\n<li><strong>Bitcoin Cash (2017):</strong> a split from Bitcoin over how large blocks should be.</li>\n<li><strong>PulseChain (2023):</strong> launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain.</li>\n</ul>\n<h2>What goes wrong</h2>\n<p><strong>Same name, different asset.</strong> After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices:</p>\n<ul>\n<li>A <strong>copied coin</strong> on the new chain is worth only what buyers there will pay.</li>\n<li>A <strong>copied token</strong> is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original.</li>\n<li><strong>Replay risk:</strong> without protection, a transaction signed on one chain could also be valid on the other.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a> — another way the same name ends up on a different chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — what the two sides of a split each have to secure afterwards.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You held a dollar stablecoin on Ethereum before a full-state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars?</p><details><summary>Show answer</summary><p>No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.</p></details></div>",
+   "deep": "",
+   "links": [
+    "consensus",
+    "wrapped-tokens"
+   ],
+   "stub": false,
+   "text": "What it is A fork is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too. Why it exists Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version. How it works Kind What happens Result Soft fork Rules get stricter; old software still accepts new blocks One chain, upgraded Hard fork (agreed) Rules change in a way old software rejects, but nearly everyone upgrades One chain, upgraded Contentious hard fork The community splits; both sides keep running Two chains and two coins, sharing history up to the split Full state copy A new chain starts from a snapshot of an existing chain's entire state A new chain where every balance has a copy Examples: Ethereum Classic (2016): after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic. Bitcoin Cash (2017): a split from Bitcoin over how large blocks should be. PulseChain (2023): launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain. What goes wrong Same name, different asset. After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices: A copied coin on the new chain is worth only what buyers there will pay. A copied token is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original. Replay risk: without protection, a transaction signed on one chain could also be valid on the other. Key rule: a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it. Connects to wrapped tokens — another way the same name ends up on a different chain. consensus — what the two sides of a split each have to secure afterwards. Check yourself Q: You held a dollar stablecoin on Ethereum before a full state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars? A: No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC7 — Community, politics and regulation"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
+    }
+   ],
+   "backlinks": [
+    "blockchains",
+    "smart-contract-platforms",
+    "stablecoins",
+    "wrapped-tokens"
+   ],
+   "backlinksAdv": []
+  },
   "foundation": {
    "id": "foundation",
    "title": "Foundation",
@@ -1548,11 +1907,66 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "bitcoin",
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
     "hierarchy-of-money",
     "money"
+   ],
+   "backlinksAdv": []
+  },
+  "governance-tokens": {
+   "id": "governance-tokens",
+   "title": "Governance Tokens",
+   "short": "",
+   "parent": "tokens",
+   "order": 3.0,
+   "summary": "Tokens that carry votes over a protocol's rules and funds, and why votes alone don't guarantee value.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "tokens",
+    "governance"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "tokens",
+    "governance-tokens"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>governance token</strong> gives its holders votes over a protocol: how it charges fees, how its treasury is spent, and how its code changes. Many <a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a> protocols issue one.</p>\n<h2>Why it matters</h2>\n<p>Governance tokens are the nearest crypto gets to shares, but they usually aren't shares. Most give no legal ownership and no automatic right to profits. Their value depends on what the votes can do, and on whether holders expect a share of fees in future.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>One token, one vote</strong> is the usual rule, so large holders decide most outcomes.</li>\n<li><strong>Proposals</strong> are posted, voted on, and in many protocols carried out automatically by code.</li>\n<li><strong>Treasuries</strong> controlled by votes can be large, which gives the votes real economic weight.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Concentration:</strong> founders, early funds and a few large holders often control most votes.</li>\n<li><strong>Low turnout:</strong> few holders vote, so small, organised groups can pass proposals.</li>\n<li><strong>Governance attacks:</strong> borrowing tokens to swing a vote, then returning them.</li>\n<li><strong>Unclear legal status:</strong> whether such tokens are securities is unsettled in many places.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a vote is worth what it controls. Check who holds most of the votes and what they can change.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">How is a typical governance token different from a share in a company?</p><details><summary>Show answer</summary><p>A share gives legal ownership and a claim on profits after creditors. A governance token usually gives votes over a protocol but no legal ownership and no automatic right to its income.</p></details></div>",
+   "deep": "",
+   "links": [
+    "defi"
+   ],
+   "stub": false,
+   "text": "What it is A governance token gives its holders votes over a protocol: how it charges fees, how its treasury is spent, and how its code changes. Many defi protocols issue one. Why it matters Governance tokens are the nearest crypto gets to shares, but they usually aren't shares. Most give no legal ownership and no automatic right to profits. Their value depends on what the votes can do, and on whether holders expect a share of fees in future. How it works One token, one vote is the usual rule, so large holders decide most outcomes. Proposals are posted, voted on, and in many protocols carried out automatically by code. Treasuries controlled by votes can be large, which gives the votes real economic weight. What goes wrong Concentration: founders, early funds and a few large holders often control most votes. Low turnout: few holders vote, so small, organised groups can pass proposals. Governance attacks: borrowing tokens to swing a vote, then returning them. Unclear legal status: whether such tokens are securities is unsettled in many places. Key rule: a vote is worth what it controls. Check who holds most of the votes and what they can change. Check yourself Q: How is a typical governance token different from a share in a company? A: A share gives legal ownership and a claim on profits after creditors. A governance token usually gives votes over a protocol but no legal ownership and no automatic right to its income.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC7 — Community, politics and regulation"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC11 — Decentralised institutions"
+    }
+   ],
+   "backlinks": [
+    "defi",
+    "tokens"
    ],
    "backlinksAdv": []
   },
@@ -1620,17 +2034,73 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bank-deposits",
+    "bitcoin",
     "cash-and-fiat",
     "central-bank-money",
+    "digital-assets",
     "eurodollars",
     "gold",
     "inflation",
     "money",
-    "what-is-money"
+    "stablecoins",
+    "what-is-money",
+    "wrapped-tokens"
    ],
    "backlinksAdv": [
     "eurodollars"
    ]
+  },
+  "holding-crypto": {
+   "id": "holding-crypto",
+   "title": "Holding Crypto",
+   "short": "",
+   "parent": "digital-assets",
+   "order": 6.0,
+   "summary": "Hold your own keys, or let someone hold them for you: two different assets with two different killers.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "custody"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "holding-crypto"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>There are two ways to hold a digital asset, and they are different assets:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — you hold the keys. A bearer asset: Tier 2 on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</li>\n<li><a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> — an exchange, broker or fund holds the keys. A claim on that firm: Tier 3.</li>\n</ul>\n<h2>Why it matters</h2>\n<p>The coin and its price are the same either way; the risk isn't. Most people who have lost crypto lost it through how it was held, not because the coin itself failed.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Self-custody</th>\n<th>Custodial</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Who controls the keys</td>\n<td>You</td>\n<td>The firm</td>\n</tr>\n<tr>\n<td>What you own</td>\n<td>The coins</td>\n<td>A claim on the firm</td>\n</tr>\n<tr>\n<td>Main killer</td>\n<td>Losing or leaking your seed phrase</td>\n<td>The firm failing, freezing or being hacked</td>\n</tr>\n<tr>\n<td>Recourse</td>\n<td>None</td>\n<td>Courts, regulators, insurance (varies)</td>\n</tr>\n<tr>\n<td>Visible to the state</td>\n<td>Not necessarily</td>\n<td>Yes, through the firm</td>\n</tr>\n<tr>\n<td>Inheritance</td>\n<td>Heirs need the keys</td>\n<td>Heirs go through the firm</td>\n</tr>\n</tbody>\n</table></div>\n<p>Many holders use both: a custodial account for buying and selling, and self-custody for long-term holdings.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li>Treating a custodial balance as if it were coins in your own wallet.</li>\n<li>Moving to self-custody without a plan for backups and inheritance.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> decide which killer you would rather face, then manage that one deliberately.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You can see 1 bitcoin in your exchange account. Do you own a bitcoin?</p><details><summary>Show answer</summary><p>You own a claim on the exchange for 1 bitcoin. If the exchange fails, you are a creditor in its bankruptcy, not the owner of a specific coin.</p></details></div>",
+   "deep": "",
+   "links": [
+    "cartography-of-wealth",
+    "custodial-crypto",
+    "self-custody"
+   ],
+   "stub": false,
+   "text": "What it is There are two ways to hold a digital asset, and they are different assets: self custody — you hold the keys. A bearer asset: Tier 2 on the Cartography of Wealth. custodial crypto — an exchange, broker or fund holds the keys. A claim on that firm: Tier 3. Why it matters The coin and its price are the same either way; the risk isn't. Most people who have lost crypto lost it through how it was held, not because the coin itself failed. How it works Self custody Custodial Who controls the keys You The firm What you own The coins A claim on the firm Main killer Losing or leaking your seed phrase The firm failing, freezing or being hacked Recourse None Courts, regulators, insurance (varies) Visible to the state Not necessarily Yes, through the firm Inheritance Heirs need the keys Heirs go through the firm Many holders use both: a custodial account for buying and selling, and self custody for long term holdings. What goes wrong Treating a custodial balance as if it were coins in your own wallet. Moving to self custody without a plan for backups and inheritance. Key rule: decide which killer you would rather face, then manage that one deliberately. Check yourself Q: You can see 1 bitcoin in your exchange account. Do you own a bitcoin? A: You own a claim on the exchange for 1 bitcoin. If the exchange fails, you are a creditor in its bankruptcy, not the owner of a specific coin.",
+   "textDeep": "",
+   "children": [
+    "self-custody",
+    "custodial-crypto"
+   ],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC4 — How to store and use bitcoins"
+    }
+   ],
+   "backlinks": [
+    "digital-assets"
+   ],
+   "backlinksAdv": []
   },
   "human-capital": {
    "id": "human-capital",
@@ -1774,6 +2244,62 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "keys-and-wallets": {
+   "id": "keys-and-wallets",
+   "title": "Keys and Wallets",
+   "short": "",
+   "parent": "blockchains",
+   "order": 2.0,
+   "summary": "What you actually own is a secret key, not a coin. Wallets store keys; the coins stay on the ledger.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "custody",
+    "keys"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "blockchains",
+    "keys-and-wallets"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Coins never leave the blockchain. What you hold is a <strong>private key</strong>: a secret number that lets you sign transactions moving coins recorded at your <strong>address</strong>. A <strong>wallet</strong> is software or a device that stores keys and signs transactions with them.</p>\n<h2>Why it matters</h2>\n<p>Whoever has the key controls the coins. There is no bank to reverse a payment or reset a password. That is the freedom of a bearer asset, and its main risk.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Piece</th>\n<th>What it is</th>\n<th>Share it?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Private key</strong></td>\n<td>The secret that signs transactions</td>\n<td>Never</td>\n</tr>\n<tr>\n<td><strong>Seed phrase</strong></td>\n<td>A list of words (often 12 or 24) that can rebuild all your keys</td>\n<td>Never</td>\n</tr>\n<tr>\n<td><strong>Public key / address</strong></td>\n<td>Where others send you coins</td>\n<td>Yes</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Kinds of wallet:</strong></p>\n<ul>\n<li><strong>Hot wallet:</strong> an app on a phone or computer connected to the internet. Convenient, more exposed to malware and phishing.</li>\n<li><strong>Hardware wallet:</strong> a small device that keeps keys offline and signs inside the device.</li>\n<li><strong>Multisig wallet:</strong> needs several keys to sign, so one lost or stolen key isn't fatal.</li>\n<li><strong>Custodial account:</strong> an exchange holds the keys for you. That is a claim on the exchange, not a wallet you control. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Lost seed phrase:</strong> the coins still exist on the ledger, but can never be moved.</li>\n<li><strong>Stolen seed phrase:</strong> whoever has it can empty the wallet, with no recourse.</li>\n<li><strong>Phishing and fake apps</strong> that ask you to type in a seed phrase.</li>\n<li><strong>Signing a malicious approval:</strong> some token approvals let a program spend your tokens later. Approving the wrong one can drain a wallet without the seed ever leaking.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> your seed phrase <em>is</em> your money. Anyone who asks for it is trying to take it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — holding your own keys, and how to do it safely.</li>\n<li><a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> — letting someone else hold them.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">If a hardware wallet is lost or broken, are the coins gone?</p><details><summary>Show answer</summary><p>No, as long as the seed phrase is safe. The coins are on the blockchain; the seed phrase can rebuild the keys on a new device. Lose both and the coins can never be moved.</p></details></div>",
+   "deep": "",
+   "links": [
+    "custodial-crypto",
+    "self-custody"
+   ],
+   "stub": false,
+   "text": "What it is Coins never leave the blockchain. What you hold is a private key : a secret number that lets you sign transactions moving coins recorded at your address . A wallet is software or a device that stores keys and signs transactions with them. Why it matters Whoever has the key controls the coins. There is no bank to reverse a payment or reset a password. That is the freedom of a bearer asset, and its main risk. How it works Piece What it is Share it? Private key The secret that signs transactions Never Seed phrase A list of words (often 12 or 24) that can rebuild all your keys Never Public key / address Where others send you coins Yes Kinds of wallet: Hot wallet: an app on a phone or computer connected to the internet. Convenient, more exposed to malware and phishing. Hardware wallet: a small device that keeps keys offline and signs inside the device. Multisig wallet: needs several keys to sign, so one lost or stolen key isn't fatal. Custodial account: an exchange holds the keys for you. That is a claim on the exchange, not a wallet you control. See custodial crypto. What goes wrong Lost seed phrase: the coins still exist on the ledger, but can never be moved. Stolen seed phrase: whoever has it can empty the wallet, with no recourse. Phishing and fake apps that ask you to type in a seed phrase. Signing a malicious approval: some token approvals let a program spend your tokens later. Approving the wrong one can drain a wallet without the seed ever leaking. Key rule: your seed phrase is your money. Anyone who asks for it is trying to take it. Connects to self custody — holding your own keys, and how to do it safely. custodial crypto — letting someone else hold them. Check yourself Q: If a hardware wallet is lost or broken, are the coins gone? A: No, as long as the seed phrase is safe. The coins are on the blockchain; the seed phrase can rebuild the keys on a new device. Lose both and the coins can never be moved.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC1 — Cryptography and cryptocurrencies"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC4 — How to store and use bitcoins"
+    }
+   ],
+   "backlinks": [
+    "bitcoin",
+    "blockchains",
+    "self-custody"
+   ],
+   "backlinksAdv": []
+  },
   "leverage": {
    "id": "leverage",
    "title": "Leverage",
@@ -1811,7 +2337,9 @@ window.MUDMAP = {
      "m": "CFA1-DRM — Derivatives and Risk Management"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "defi"
+   ],
    "backlinksAdv": []
   },
   "liquidity": {
@@ -1869,6 +2397,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "central-bank-money",
+    "memecoins",
     "money"
    ],
    "backlinksAdv": []
@@ -1912,6 +2441,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "capital-system",
+    "digital-assets",
     "liquidity",
     "money"
    ],
@@ -2003,36 +2533,55 @@ window.MUDMAP = {
    "id": "memecoins",
    "title": "Memecoins",
    "short": "",
-   "parent": "digital-assets",
-   "order": 4.0,
-   "summary": "Tokens with no issuer, no cash flows and no claim: value is attention.",
+   "parent": "tokens",
+   "order": 2.0,
+   "summary": "Tokens with no issuer promise and no cash flows, whose value rests on attention and community.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "tokens",
+    "memecoins"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
    "tier": "",
-   "killer": "",
-   "traits": [],
+   "killer": "attention moving on — nothing else holds the price up",
+   "traits": [
+    "nobody's liability",
+    "no cash flows",
+    "often no supply cap"
+   ],
    "path": [
     "capital-system",
     "digital-assets",
+    "tokens",
     "memecoins"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Tokens with no issuer, no cash flows and no claim: value is attention.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>memecoin</strong> is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best-known early example; it has no fixed supply cap.</p>\n<h2>Why it matters</h2>\n<p>Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Easy to create:</strong> anyone can launch a token in minutes, so thousands appear.</li>\n<li><strong>Price is attention:</strong> social media, celebrity mentions and listings on large exchanges drive demand.</li>\n<li><strong>Liquidity is thin:</strong> most memecoins trade in small pools, so a few large sellers can crash the price.</li>\n<li><strong>Liquidity cycles:</strong> speculative tokens tend to rise most when <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> is plentiful and fall hardest when it drains.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Rug pulls:</strong> the creators sell their large holdings or withdraw the trading pool's funds.</li>\n<li><strong>Pump and dump:</strong> coordinated buying to lift a price, followed by insiders selling.</li>\n<li><strong>Insider supply:</strong> a small group often holds most of the tokens from the start.</li>\n<li><strong>Fading interest:</strong> when attention moves on, there is nothing underneath.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — memecoins do none of money's three jobs reliably.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — why the size of a bet matters most when the downside is total.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars?</p><details><summary>Show answer</summary><p>Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Tokens with no issuer, no cash flows and no claim: value is attention.",
+   "links": [
+    "liquidity",
+    "position-sizing",
+    "what-is-money"
+   ],
+   "stub": false,
+   "text": "What it is A memecoin is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best known early example; it has no fixed supply cap. Why it matters Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour. How it works Easy to create: anyone can launch a token in minutes, so thousands appear. Price is attention: social media, celebrity mentions and listings on large exchanges drive demand. Liquidity is thin: most memecoins trade in small pools, so a few large sellers can crash the price. Liquidity cycles: speculative tokens tend to rise most when liquidity is plentiful and fall hardest when it drains. What goes wrong Rug pulls: the creators sell their large holdings or withdraw the trading pool's funds. Pump and dump: coordinated buying to lift a price, followed by insiders selling. Insider supply: a small group often holds most of the tokens from the start. Fading interest: when attention moves on, there is nothing underneath. Key rule: a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero. Connects to what is money — memecoins do none of money's three jobs reliably. position sizing — why the size of a bet matters most when the downside is total. Check yourself Q: A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars? A: Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.",
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
+    }
+   ],
    "backlinks": [
-    "claims-and-liabilities"
+    "claims-and-liabilities",
+    "tokens"
    ],
    "backlinksAdv": []
   },
@@ -2157,6 +2706,57 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "native-coins": {
+   "id": "native-coins",
+   "title": "Native Coins",
+   "short": "",
+   "parent": "digital-assets",
+   "order": 2.0,
+   "summary": "Each chain's own coin, built into its rules and used to pay for the network. Nobody's liability.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "native coins"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "native-coins"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>native coin</strong> is the currency built into a blockchain's own rules: bitcoin on Bitcoin, ether on Ethereum, and so on. It is created by the protocol itself, not issued by a company.</p>\n<h2>Why it exists</h2>\n<p>Native coins do two jobs:</p>\n<ul>\n<li><strong>Pay for the network.</strong> Every transaction pays a fee in the native coin.</li>\n<li><strong>Pay for security.</strong> Miners or validators are rewarded in it, which is what makes attacking the chain expensive.</li>\n</ul>\n<h2>How it works</h2>\n<p>Two reference examples cover the main designs:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> — a fixed-supply coin on a deliberately simple chain, secured by proof of work.</li>\n<li><a class=\"wl\" href=\"#/map/p/smart-contract-platforms\" data-page=\"smart-contract-platforms\">Smart-Contract Platforms</a> — chains such as Ethereum that run programs, where the native coin pays for computation.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Native coin</th>\n<th>Token</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Built into the chain's rules</td>\n<td>Created by a program running on the chain</td>\n</tr>\n<tr>\n<td>Pays fees and security</td>\n<td>Pays fees <em>in</em> the native coin</td>\n</tr>\n<tr>\n<td>Nobody's liability</td>\n<td>Often someone's promise</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Protocol risk:</strong> a flaw in the chain's rules or a loss of security.</li>\n<li><strong>Issuance changes:</strong> some chains can change how many new coins are created.</li>\n<li><strong>No cash flow:</strong> a native coin pays nothing just for being held, unless it is staked.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a native coin is the one asset on a chain that isn't somebody's promise. Everything else built on top adds a party that can fail.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does every transaction on Ethereum need some ether, even when you are only moving a different token?</p><details><summary>Show answer</summary><p>Because fees are paid in the native coin. The token runs on Ethereum, and Ethereum charges for the computation in ether.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bitcoin",
+    "smart-contract-platforms"
+   ],
+   "stub": false,
+   "text": "What it is A native coin is the currency built into a blockchain's own rules: bitcoin on Bitcoin, ether on Ethereum, and so on. It is created by the protocol itself, not issued by a company. Why it exists Native coins do two jobs: Pay for the network. Every transaction pays a fee in the native coin. Pay for security. Miners or validators are rewarded in it, which is what makes attacking the chain expensive. How it works Two reference examples cover the main designs: bitcoin — a fixed supply coin on a deliberately simple chain, secured by proof of work. smart contract platforms — chains such as Ethereum that run programs, where the native coin pays for computation. Native coin Token Built into the chain's rules Created by a program running on the chain Pays fees and security Pays fees in the native coin Nobody's liability Often someone's promise What goes wrong Protocol risk: a flaw in the chain's rules or a loss of security. Issuance changes: some chains can change how many new coins are created. No cash flow: a native coin pays nothing just for being held, unless it is staked. Key rule: a native coin is the one asset on a chain that isn't somebody's promise. Everything else built on top adds a party that can fail. Check yourself Q: Why does every transaction on Ethereum need some ether, even when you are only moving a different token? A: Because fees are paid in the native coin. The token runs on Ethereum, and Ethereum charges for the computation in ether.",
+   "textDeep": "",
+   "children": [
+    "bitcoin",
+    "smart-contract-platforms"
+   ],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
+    }
+   ],
+   "backlinks": [
+    "digital-assets"
+   ],
+   "backlinksAdv": []
+  },
   "options": {
    "id": "options",
    "title": "Options",
@@ -2229,7 +2829,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "backlinks": [],
+   "backlinks": [
+    "digital-assets"
+   ],
    "backlinksAdv": []
   },
   "personal-capital": {
@@ -2347,6 +2949,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "memecoins",
     "risk-and-return"
    ],
    "backlinksAdv": []
@@ -2716,12 +3319,16 @@ window.MUDMAP = {
    "id": "self-custody",
    "title": "Self-Custody",
    "short": "",
-   "parent": "digital-assets",
-   "order": 5.0,
+   "parent": "holding-crypto",
+   "order": 1.0,
    "summary": "Holding your own keys: no intermediary, and no one to call.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "custody",
+    "keys"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -2735,21 +3342,31 @@ window.MUDMAP = {
    "path": [
     "capital-system",
     "digital-assets",
+    "holding-crypto",
     "self-custody"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Holding your own keys: no intermediary, and no one to call.</p>",
+   "html": "<h2>What it is</h2>\n<p><strong>Self-custody</strong> means holding the keys to your own coins in a wallet only you control. See <a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a> for how keys work.</p>\n<h2>Why people choose it</h2>\n<ul>\n<li><strong>No custodian risk:</strong> an exchange failing can't take your coins.</li>\n<li><strong>No freezes:</strong> nobody can block your coins without your keys.</li>\n<li><strong>Privacy:</strong> the coins aren't held in an account under your name.</li>\n</ul>\n<p>It is the digital version of keeping gold in your own safe: you remove the middleman, and become the security team.</p>\n<h2>How to do it well</h2>\n<ul>\n<li><strong>Hardware wallet</strong> for any meaningful amount.</li>\n<li><strong>Seed phrase backed up offline</strong>, in more than one secure place, never photographed or typed into a website.</li>\n<li><strong>Test a recovery</strong> with a small amount before you rely on it.</li>\n<li><strong>Multisig</strong> for large amounts, so one lost or stolen key isn't fatal.</li>\n<li><strong>An inheritance plan</strong> that lets someone you trust recover the coins, without making them easy to steal.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Lost seed phrase:</strong> coins locked forever.</li>\n<li><strong>Leaked seed phrase:</strong> coins stolen, with no recourse.</li>\n<li><strong>Phishing and malicious approvals.</strong> See <a class=\"wl\" href=\"#/map/p/keys-and-wallets\" data-page=\"keys-and-wallets\">Keys and Wallets</a>.</li>\n<li><strong>Protocol failure:</strong> self-custody protects you from firms failing, not from the chain or token failing.</li>\n<li><strong>Physical threats:</strong> people known to hold crypto can be targeted directly.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> self-custody swaps counterparty risk for your own operational risk. Only do it with a backup you have tested.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">What does self-custody protect you from, and what doesn't it?</p><details><summary>Show answer</summary><p>It protects you from a custodian failing, freezing or being hacked. It doesn't protect you from losing your keys, being tricked into signing, or the coin itself failing.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Holding your own keys: no intermediary, and no one to call.",
+   "links": [
+    "keys-and-wallets"
+   ],
+   "stub": false,
+   "text": "What it is Self custody means holding the keys to your own coins in a wallet only you control. See keys and wallets for how keys work. Why people choose it No custodian risk: an exchange failing can't take your coins. No freezes: nobody can block your coins without your keys. Privacy: the coins aren't held in an account under your name. It is the digital version of keeping gold in your own safe: you remove the middleman, and become the security team. How to do it well Hardware wallet for any meaningful amount. Seed phrase backed up offline , in more than one secure place, never photographed or typed into a website. Test a recovery with a small amount before you rely on it. Multisig for large amounts, so one lost or stolen key isn't fatal. An inheritance plan that lets someone you trust recover the coins, without making them easy to steal. What goes wrong Lost seed phrase: coins locked forever. Leaked seed phrase: coins stolen, with no recourse. Phishing and malicious approvals. See keys and wallets. Protocol failure: self custody protects you from firms failing, not from the chain or token failing. Physical threats: people known to hold crypto can be targeted directly. Key rule: self custody swaps counterparty risk for your own operational risk. Only do it with a backup you have tested. Check yourself Q: What does self custody protect you from, and what doesn't it? A: It protects you from a custodian failing, freezing or being hacked. It doesn't protect you from losing your keys, being tricked into signing, or the coin itself failing.",
    "textDeep": "",
    "children": [],
    "jobs": [],
-   "quals": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC4 — How to store and use bitcoins"
+    }
+   ],
    "backlinks": [
-    "cartography-of-wealth"
+    "cartography-of-wealth",
+    "holding-crypto",
+    "keys-and-wallets"
    ],
    "backlinksAdv": []
   },
@@ -2889,12 +3506,17 @@ window.MUDMAP = {
    "id": "smart-contract-platforms",
    "title": "Smart-Contract Platforms",
    "short": "Smart contracts",
-   "parent": "digital-assets",
+   "parent": "native-coins",
    "order": 2.0,
-   "summary": "Blockchains that run programs, such as Ethereum.",
+   "summary": "Blockchains that run programs, with Ethereum as the reference example: the base layer for tokens and DeFi.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "ethereum",
+    "smart contracts",
+    "native coins"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
@@ -2904,15 +3526,22 @@ window.MUDMAP = {
    "path": [
     "capital-system",
     "digital-assets",
+    "native-coins",
     "smart-contract-platforms"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Blockchains that run programs, such as Ethereum.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>smart-contract platform</strong> is a blockchain that runs programs (<strong>smart contracts</strong>) as well as moving coins. <strong>Ethereum</strong>, launched in 2015, is the reference example; many other chains copy or compete with its design.</p>\n<h2>Why it matters</h2>\n<p>Programs on a shared ledger let people create new assets and services without a company in the middle: <a class=\"wl\" href=\"#/map/p/tokens\" data-page=\"tokens\">Tokens</a>, exchanges and lending markets (see <a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a>). The platform's native coin, <strong>ether</strong> on Ethereum, pays for the computation.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Gas.</strong> Every step a program takes costs a fee, paid in the native coin. Busy periods push fees up.</li>\n<li><strong>Token standards.</strong> Shared rules (such as ERC-20 for ordinary tokens on Ethereum) let any wallet or exchange handle any token that follows them.</li>\n<li><strong>Proof of stake.</strong> Ethereum switched from proof of work to proof of stake in September 2022. See <a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a>.</li>\n<li><strong>No fixed cap.</strong> Unlike bitcoin, ether has no maximum supply. New ether is issued to validators, and part of every fee is destroyed (\"burned\"), so supply can rise or fall.</li>\n<li><strong>Copies and rivals.</strong> Because the code is open, other chains run compatible software, and some started as full copies of Ethereum. See <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bugs in contracts:</strong> the platform can be sound while a program on it is broken.</li>\n<li><strong>High fees</strong> price out small users when the network is busy, which pushed activity onto <a class=\"wl\" href=\"#/map/p/bridges-and-layer-2s\" data-page=\"bridges-and-layer-2s\">layer 2s</a> and other chains.</li>\n<li><strong>Complexity:</strong> more features mean more ways to fail than a simpler chain.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the platform and the programs on it are separate risks. A safe chain can host an unsafe contract.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can ether's supply fall even though new ether is issued to validators?</p><details><summary>Show answer</summary><p>Because part of every transaction fee is burned. When activity is high enough, more ether is burned than issued.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Blockchains that run programs, such as Ethereum.",
+   "links": [
+    "bridges-and-layer-2s",
+    "consensus",
+    "defi",
+    "forks",
+    "tokens"
+   ],
+   "stub": false,
+   "text": "What it is A smart contract platform is a blockchain that runs programs ( smart contracts ) as well as moving coins. Ethereum , launched in 2015, is the reference example; many other chains copy or compete with its design. Why it matters Programs on a shared ledger let people create new assets and services without a company in the middle: tokens, exchanges and lending markets (see defi). The platform's native coin, ether on Ethereum, pays for the computation. How it works Gas. Every step a program takes costs a fee, paid in the native coin. Busy periods push fees up. Token standards. Shared rules (such as ERC 20 for ordinary tokens on Ethereum) let any wallet or exchange handle any token that follows them. Proof of stake. Ethereum switched from proof of work to proof of stake in September 2022. See consensus. No fixed cap. Unlike bitcoin, ether has no maximum supply. New ether is issued to validators, and part of every fee is destroyed (\"burned\"), so supply can rise or fall. Copies and rivals. Because the code is open, other chains run compatible software, and some started as full copies of Ethereum. See forks. What goes wrong Bugs in contracts: the platform can be sound while a program on it is broken. High fees price out small users when the network is busy, which pushed activity onto layer 2s and other chains. Complexity: more features mean more ways to fail than a simpler chain. Key rule: the platform and the programs on it are separate risks. A safe chain can host an unsafe contract. Check yourself Q: Why can ether's supply fall even though new ether is issued to validators? A: Because part of every transaction fee is burned. When activity is high enough, more ether is burned than issued.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2920,9 +3549,23 @@ window.MUDMAP = {
     {
      "q": "cfa-l1",
      "m": "CFA1-ALT — Alternative Investments"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC9 — Bitcoin as a platform"
+    },
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC11 — Decentralised institutions"
     }
    ],
-   "backlinks": [],
+   "backlinks": [
+    "bitcoin",
+    "bridges-and-layer-2s",
+    "consensus",
+    "defi",
+    "native-coins"
+   ],
    "backlinksAdv": []
   },
   "social-capital": {
@@ -2970,30 +3613,45 @@ window.MUDMAP = {
    "id": "stablecoins",
    "title": "Stablecoins",
    "short": "",
-   "parent": "digital-assets",
-   "order": 3.0,
-   "summary": "Tokens pegged to a currency: a private claim on dollars, on a blockchain.",
+   "parent": "tokens",
+   "order": 1.0,
+   "summary": "Tokens meant to stay at one unit of a currency: a private dollar promise on a blockchain, and what makes the promise hold or break.",
    "tcodes": [],
    "fiori": [],
-   "tags": [],
+   "tags": [
+    "digital assets",
+    "stablecoins",
+    "money"
+   ],
    "sources": [],
    "level": "basic",
    "group": "",
    "tier": "",
-   "killer": "",
-   "traits": [],
+   "killer": "loss of the peg — the issuer or mechanism can't keep one token worth one dollar",
+   "traits": [
+    "someone's liability",
+    "price-stable by design",
+    "no yield to holders unless lent out"
+   ],
    "path": [
     "capital-system",
     "digital-assets",
+    "tokens",
     "stablecoins"
    ],
    "branch": "digital-assets",
    "adv": false,
-   "html": "<p>Tokens pegged to a currency: a private claim on dollars, on a blockchain.</p>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>stablecoin</strong> is a token designed to keep a steady value, usually one US dollar. It brings dollars onto blockchains, where they can move at any hour and be used by programs.</p>\n<h2>Why it matters</h2>\n<p>Stablecoins are the main bridge between crypto and ordinary money. In the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a> they sit high up: a private promise to pay dollars, like a bank deposit but without the same protections in most places.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Design</th>\n<th>What keeps it at a dollar</th>\n<th>Whose liability?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Reserve-backed</strong></td>\n<td>The issuer holds cash and short-term government debt and redeems tokens for dollars</td>\n<td>The issuing company's</td>\n</tr>\n<tr>\n<td><strong>Crypto-collateralised</strong></td>\n<td>Loans backed by more crypto than they're worth, closed automatically if the collateral falls</td>\n<td>A program's, backed by borrowers' collateral</td>\n</tr>\n<tr>\n<td><strong>Algorithmic</strong></td>\n<td>A mechanism that mints and burns a partner token to hold the price</td>\n<td>Nobody's — it relies on confidence</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Algorithmic designs have failed badly.</strong> In May 2022 the TerraUSD stablecoin lost its dollar peg and collapsed within days, taking its partner token with it.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>De-peg:</strong> if holders doubt the issuer can pay, they sell, and the price drops below one dollar. That is a run, the same as on a bank.</li>\n<li><strong>Reserve risk:</strong> the backing may be weaker, less liquid or less transparent than claimed.</li>\n<li><strong>Freezes:</strong> many reserve-backed issuers can freeze tokens at specific addresses.</li>\n<li><strong>Copies on other chains:</strong> a stablecoin copied by a fork, or bridged by a third party, is not the issuer's promise. See <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a> and <a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a stablecoin is only as good as what it can be redeemed for, and who promises to redeem it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the closest traditional comparison.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — what many reserve-backed issuers hold.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In hierarchy-of-money terms, what is happening when a stablecoin trades at 0.95 dollars?</p><details><summary>Show answer</summary><p>Holders doubt the promise, so they sell the private token (upper layer) to get dollars (lower layer). The 5% gap is the market's discount on the issuer's promise.</p></details></div>",
    "deep": "",
-   "links": [],
-   "stub": true,
-   "text": "Tokens pegged to a currency: a private claim on dollars, on a blockchain.",
+   "links": [
+    "bank-deposits",
+    "forks",
+    "hierarchy-of-money",
+    "t-bills",
+    "wrapped-tokens"
+   ],
+   "stub": false,
+   "text": "What it is A stablecoin is a token designed to keep a steady value, usually one US dollar. It brings dollars onto blockchains, where they can move at any hour and be used by programs. Why it matters Stablecoins are the main bridge between crypto and ordinary money. In the hierarchy of money they sit high up: a private promise to pay dollars, like a bank deposit but without the same protections in most places. How it works Design What keeps it at a dollar Whose liability? Reserve backed The issuer holds cash and short term government debt and redeems tokens for dollars The issuing company's Crypto collateralised Loans backed by more crypto than they're worth, closed automatically if the collateral falls A program's, backed by borrowers' collateral Algorithmic A mechanism that mints and burns a partner token to hold the price Nobody's — it relies on confidence Algorithmic designs have failed badly. In May 2022 the TerraUSD stablecoin lost its dollar peg and collapsed within days, taking its partner token with it. What goes wrong De peg: if holders doubt the issuer can pay, they sell, and the price drops below one dollar. That is a run, the same as on a bank. Reserve risk: the backing may be weaker, less liquid or less transparent than claimed. Freezes: many reserve backed issuers can freeze tokens at specific addresses. Copies on other chains: a stablecoin copied by a fork, or bridged by a third party, is not the issuer's promise. See forks and wrapped tokens. Key rule: a stablecoin is only as good as what it can be redeemed for, and who promises to redeem it. Connects to bank deposits — the closest traditional comparison. t bills — what many reserve backed issuers hold. Check yourself Q: In hierarchy of money terms, what is happening when a stablecoin trades at 0.95 dollars? A: Holders doubt the promise, so they sell the private token (upper layer) to get dollars (lower layer). The 5% gap is the market's discount on the issuer's promise.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3008,7 +3666,8 @@ window.MUDMAP = {
     "central-bank-money",
     "claims-and-liabilities",
     "hierarchy-of-money",
-    "money"
+    "money",
+    "tokens"
    ],
    "backlinksAdv": []
   },
@@ -3054,6 +3713,7 @@ window.MUDMAP = {
     "liquidity",
     "money",
     "risk-and-return",
+    "stablecoins",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -3149,6 +3809,62 @@ window.MUDMAP = {
     "foundation",
     "inflation",
     "risk-and-return"
+   ],
+   "backlinksAdv": []
+  },
+  "tokens": {
+   "id": "tokens",
+   "title": "Tokens",
+   "short": "",
+   "parent": "digital-assets",
+   "order": 3.0,
+   "summary": "Assets created by programs on a blockchain. What backs a token, and who can make it worthless, varies from one to the next.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "tokens"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "tokens"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>token</strong> is an asset recorded inside a smart contract on a chain, rather than built into the chain's rules. Anyone can create one. The contract keeps the list of who holds how many.</p>\n<h2>Why it matters</h2>\n<p>\"Token\" covers very different things. Some are claims on real dollars, some are copies of coins on other chains, and some are backed by nothing at all. The name and the ticker tell you nothing about which.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>What it is</th>\n<th>Whose liability?</th>\n<th>Page</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Stablecoin</strong></td>\n<td>A token meant to be worth one unit of a currency</td>\n<td>The issuer's, or a program's</td>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n</tr>\n<tr>\n<td><strong>Memecoin</strong></td>\n<td>A token whose value is attention</td>\n<td>Nobody's</td>\n<td><a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a></td>\n</tr>\n<tr>\n<td><strong>Governance token</strong></td>\n<td>A token that carries votes over a protocol</td>\n<td>Nobody's, but tied to a protocol</td>\n<td><a class=\"wl\" href=\"#/map/p/governance-tokens\" data-page=\"governance-tokens\">Governance Tokens</a></td>\n</tr>\n<tr>\n<td><strong>Wrapped or bridged token</strong></td>\n<td>A stand-in for a coin from somewhere else</td>\n<td>The bridge's or custodian's</td>\n<td><a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a></td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>The contract can be changed</strong> by whoever holds its admin keys, including minting more tokens or freezing balances.</li>\n<li><strong>Fake copies</strong> use the same name and ticker. Only the contract address identifies the real one.</li>\n<li><strong>Liquidity can vanish:</strong> a token you can't sell is worth little, whatever its quoted price.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a token is defined by its contract address, not its name. Check what backs it and who can change it.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two tokens on the same chain have the same name and ticker. How can you tell which is real?</p><details><summary>Show answer</summary><p>By the contract address. The issuer or project publishes the official address; anyone can create a token with the same name.</p></details></div>",
+   "deep": "",
+   "links": [
+    "governance-tokens",
+    "memecoins",
+    "stablecoins",
+    "wrapped-tokens"
+   ],
+   "stub": false,
+   "text": "What it is A token is an asset recorded inside a smart contract on a chain, rather than built into the chain's rules. Anyone can create one. The contract keeps the list of who holds how many. Why it matters \"Token\" covers very different things. Some are claims on real dollars, some are copies of coins on other chains, and some are backed by nothing at all. The name and the ticker tell you nothing about which. How it works Kind What it is Whose liability? Page Stablecoin A token meant to be worth one unit of a currency The issuer's, or a program's stablecoins Memecoin A token whose value is attention Nobody's memecoins Governance token A token that carries votes over a protocol Nobody's, but tied to a protocol governance tokens Wrapped or bridged token A stand in for a coin from somewhere else The bridge's or custodian's wrapped tokens What goes wrong The contract can be changed by whoever holds its admin keys, including minting more tokens or freezing balances. Fake copies use the same name and ticker. Only the contract address identifies the real one. Liquidity can vanish: a token you can't sell is worth little, whatever its quoted price. Key rule: a token is defined by its contract address, not its name. Check what backs it and who can change it. Check yourself Q: Two tokens on the same chain have the same name and ticker. How can you tell which is real? A: By the contract address. The issuer or project publishes the official address; anyone can create a token with the same name.",
+   "textDeep": "",
+   "children": [
+    "stablecoins",
+    "memecoins",
+    "governance-tokens",
+    "wrapped-tokens"
+   ],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
+    }
+   ],
+   "backlinks": [
+    "digital-assets",
+    "smart-contract-platforms"
    ],
    "backlinksAdv": []
   },
@@ -3287,7 +4003,68 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "memecoins",
     "money"
+   ],
+   "backlinksAdv": []
+  },
+  "wrapped-tokens": {
+   "id": "wrapped-tokens",
+   "title": "Wrapped and Bridged Tokens",
+   "short": "Wrapped tokens",
+   "parent": "tokens",
+   "order": 4.0,
+   "summary": "Stand-ins for a coin from somewhere else. Same name, but a claim on whoever holds the original.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "tokens",
+    "bridges"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "the bridge or custodian holding the originals fails or is hacked",
+   "traits": [
+    "someone's liability",
+    "same ticker as the original",
+    "a claim not the coin"
+   ],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "tokens",
+    "wrapped-tokens"
+   ],
+   "branch": "digital-assets",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>wrapped token</strong> is a token that stands in for another asset, so it can be used where the original can't go. Wrapped bitcoin on Ethereum is the classic example: bitcoin can't run on Ethereum, so a custodian holds real bitcoin and issues a matching token.</p>\n<h2>Why it matters</h2>\n<p>Wrapping is how assets move between chains and into <a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a>. But a wrapped token is not the original. It is a <strong>claim</strong> on whoever holds the original, which puts it in a different place on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> and in the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a>.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>Who holds the original</th>\n<th>Whose liability?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Same-chain wrap</strong> (a chain's own coin turned into a standard token)</td>\n<td>A simple contract on the same chain</td>\n<td>The contract's — low risk if the code is sound</td>\n</tr>\n<tr>\n<td><strong>Custodian-wrapped</strong></td>\n<td>A company or group of companies</td>\n<td>The custodian's</td>\n</tr>\n<tr>\n<td><strong>Bridged</strong></td>\n<td>A bridge contract or its operators</td>\n<td>The bridge's. See <a class=\"wl\" href=\"#/map/p/bridges-and-layer-2s\" data-page=\"bridges-and-layer-2s\">Bridges and Layer 2s</a></td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bridge or custodian failure:</strong> if the originals are stolen or lost, the wrapped tokens are backed by nothing and fall towards zero.</li>\n<li><strong>Same ticker, different asset:</strong> a bridged coin, the original and a <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">forked</a> copy can all carry the same name.</li>\n<li><strong>Freezes:</strong> custodians can sometimes block redemptions.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a wrapped token is only as good as whoever holds the original. Ask where the real coin is.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why did tokens issued by some bridges lose almost all their value after a hack, even though the original coins kept theirs?</p><details><summary>Show answer</summary><p>Because the hack stole the originals the bridge was holding. The bridged tokens were claims on those originals, so with nothing behind them they became worthless.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bridges-and-layer-2s",
+    "cartography-of-wealth",
+    "defi",
+    "forks",
+    "hierarchy-of-money"
+   ],
+   "stub": false,
+   "text": "What it is A wrapped token is a token that stands in for another asset, so it can be used where the original can't go. Wrapped bitcoin on Ethereum is the classic example: bitcoin can't run on Ethereum, so a custodian holds real bitcoin and issues a matching token. Why it matters Wrapping is how assets move between chains and into defi. But a wrapped token is not the original. It is a claim on whoever holds the original, which puts it in a different place on the Cartography of Wealth and in the hierarchy of money. How it works Kind Who holds the original Whose liability? Same chain wrap (a chain's own coin turned into a standard token) A simple contract on the same chain The contract's — low risk if the code is sound Custodian wrapped A company or group of companies The custodian's Bridged A bridge contract or its operators The bridge's. See bridges and layer 2s What goes wrong Bridge or custodian failure: if the originals are stolen or lost, the wrapped tokens are backed by nothing and fall towards zero. Same ticker, different asset: a bridged coin, the original and a forked copy can all carry the same name. Freezes: custodians can sometimes block redemptions. Key rule: a wrapped token is only as good as whoever holds the original. Ask where the real coin is. Check yourself Q: Why did tokens issued by some bridges lose almost all their value after a hack, even though the original coins kept theirs? A: Because the hack stole the originals the bridge was holding. The bridged tokens were claims on those originals, so with nothing behind them they became worthless.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC9 — Bitcoin as a platform"
+    }
+   ],
+   "backlinks": [
+    "bridges-and-layer-2s",
+    "forks",
+    "stablecoins",
+    "tokens"
    ],
    "backlinksAdv": []
   },
@@ -3748,6 +4525,10 @@ window.MUDMAP = {
       {
        "page": "stablecoins",
        "note": "Tokens pegged to a currency"
+      },
+      {
+       "page": "custodial-crypto",
+       "note": "Holding digital assets through exchanges and funds"
       }
      ],
      "note": ""
@@ -3815,6 +4596,7 @@ window.MUDMAP = {
     "bitcoin",
     "smart-contract-platforms",
     "stablecoins",
+    "custodial-crypto",
     "risk-and-return",
     "diversification",
     "asset-allocation",
@@ -4175,75 +4957,196 @@ window.MUDMAP = {
    "short": "Princeton Bitcoin",
    "order": 9.0,
    "summary": "A free university course and textbook on how Bitcoin and other cryptocurrencies actually work, from cryptography to mining and custody.",
-   "intro": "<p>A free course and textbook from Princeton University. It explains the machinery underneath digital assets: how a ledger stays honest without a central owner, how coins are stored and lost, and what mining does. The module titles follow the textbook's chapters; the pages are our own notes, not course material.</p>",
+   "intro": "<p>A free course and textbook from Princeton University. It explains the machinery underneath digital assets: how a ledger stays honest without a central owner, how coins are stored and lost, and what mining does. The module titles follow the textbook's chapters (the closing chapter is left out); the pages are our own notes, not course material.</p>",
    "meta": {
     "id": "princeton-bitcoin",
     "title": "Bitcoin and Cryptocurrency Technologies (Princeton)",
     "short": "Princeton Bitcoin",
     "order": 9.0,
-    "status": "planned",
     "summary": "A free university course and textbook on how Bitcoin and other cryptocurrencies actually work, from cryptography to mining and custody."
    },
    "stages": [
     {
      "title": "BTC1 — Cryptography and cryptocurrencies",
-     "items": [],
+     "items": [
+      {
+       "page": "keys-and-wallets",
+       "note": "Keys, signatures and addresses"
+      },
+      {
+       "page": "blockchains",
+       "note": "A hash-linked ledger"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC2 — How Bitcoin achieves decentralisation",
-     "items": [],
+     "items": [
+      {
+       "page": "consensus",
+       "note": "How strangers agree on one history"
+      },
+      {
+       "page": "blockchains",
+       "note": "Nodes checking the same rules"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC3 — Mechanics of Bitcoin",
-     "items": [],
+     "items": [
+      {
+       "page": "bitcoin",
+       "note": "Supply, blocks and halvings"
+      },
+      {
+       "page": "blockchains",
+       "note": "Transactions and blocks"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC4 — How to store and use bitcoins",
-     "items": [],
+     "items": [
+      {
+       "page": "keys-and-wallets",
+       "note": "Hot, hardware and multisig wallets"
+      },
+      {
+       "page": "holding-crypto",
+       "note": "Holding it yourself or through a firm"
+      },
+      {
+       "page": "self-custody",
+       "note": "Keeping keys safe"
+      },
+      {
+       "page": "custodial-crypto",
+       "note": "Exchanges as custodians, and how they fail"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC5 — Bitcoin mining",
-     "items": [],
+     "items": [
+      {
+       "page": "consensus",
+       "note": "Proof of work and the cost of attack"
+      },
+      {
+       "page": "bitcoin",
+       "note": "Mining rewards and the security budget"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC6 — Bitcoin and anonymity",
      "items": [],
-     "note": ""
+     "note": "Not mapped yet: privacy and traceability on public ledgers need a page of their own."
     },
     {
      "title": "BTC7 — Community, politics and regulation",
-     "items": [],
+     "items": [
+      {
+       "page": "forks",
+       "note": "How disagreements split a chain"
+      },
+      {
+       "page": "governance-tokens",
+       "note": "Formal voting over a protocol"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC8 — Alternative mining puzzles",
-     "items": [],
+     "items": [
+      {
+       "page": "consensus",
+       "note": "Proof of stake as the main alternative to proof of work"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC9 — Bitcoin as a platform",
-     "items": [],
+     "items": [
+      {
+       "page": "smart-contract-platforms",
+       "note": "Programs on a ledger"
+      },
+      {
+       "page": "wrapped-tokens",
+       "note": "Bitcoin used on other chains"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC10 — Altcoins and the cryptocurrency ecosystem",
-     "items": [],
+     "items": [
+      {
+       "page": "native-coins",
+       "note": "Other chains' own coins"
+      },
+      {
+       "page": "forks",
+       "note": "Copies and splits"
+      },
+      {
+       "page": "tokens",
+       "note": "Assets created on top of a chain"
+      },
+      {
+       "page": "memecoins",
+       "note": "Tokens with nothing behind them"
+      }
+     ],
      "note": ""
     },
     {
      "title": "BTC11 — Decentralised institutions",
-     "items": [],
+     "items": [
+      {
+       "page": "defi",
+       "note": "Financial services run by code"
+      },
+      {
+       "page": "governance-tokens",
+       "note": "Protocols run by token votes"
+      },
+      {
+       "page": "smart-contract-platforms",
+       "note": "Where those institutions live"
+      }
+     ],
      "note": ""
     }
    ],
-   "pages": [],
-   "status": "planned"
+   "pages": [
+    "keys-and-wallets",
+    "blockchains",
+    "consensus",
+    "bitcoin",
+    "holding-crypto",
+    "self-custody",
+    "custodial-crypto",
+    "forks",
+    "governance-tokens",
+    "smart-contract-platforms",
+    "wrapped-tokens",
+    "native-coins",
+    "tokens",
+    "memecoins",
+    "defi"
+   ],
+   "status": "mapped"
   }
  },
- "built": "2026-10-25 08:03 UTC"
+ "built": "2026-10-25 08:36 UTC"
 };
