@@ -26,6 +26,9 @@ Compounding is why the length of time money stays invested often matters more th
 
 The fee looks like 1%, but it removes about **a quarter** of the final value.
 
+
+![A line chart of $10,000 growing at 7% a year for 30 years. With no fee it reaches $76,123; with a 1% yearly fee it reaches $57,435. The $18,688 gap is about a quarter of the no-fee result.](assets/figures/compounding-fee-drag.svg "The same 10,000 for 30 years, at 7% a year and at 6% (7% less a 1% fee). Fictional figures.")
+
 **The rule of 72.** Divide 72 by the percentage rate to estimate how many years it takes money to double. At 6%, 72 ÷ 6 = 12 years; the exact answer is about 11.9. It's a quick check, and it is most accurate for rates between roughly 4% and 12%.
 
 **Compounding frequency.** The more often returns are added, the higher the effective yearly rate. A 12% rate added monthly works out to about 12.68% a year.

@@ -19,6 +19,9 @@ A way of ranking forms of money by **how final they are**. Each layer is a promi
 | Securities | [[t-bills]], [[bonds]] | A borrower's, payable in future money |
 | Risk assets | [[shares]], [[real-estate]], crypto | Priced in money, but not a promise of money |
 
+
+![An upside-down pyramid of six layers. From the top: shares, property and crypto; bonds and T-bills; offshore and private dollars; bank deposits; central bank money; and gold at the base. Each layer is a promise to pay in the layer below.](assets/figures/hierarchy-of-money-layers.svg "The same six layers as the table, from risk assets at the top to gold at the base.")
+
 The economist Perry Mehrling describes the modern system this way. The investor John Exter drew it as an **inverted pyramid**: a small base of gold at the bottom, with ever larger layers of credit stacked on top.
 
 ## Why it matters

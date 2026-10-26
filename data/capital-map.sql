@@ -45,6 +45,18 @@ INSERT INTO "fails_at" VALUES('shares','capital-controls');
 INSERT INTO "fails_at" VALUES('shares','confiscation');
 INSERT INTO "fails_at" VALUES('shares','sovereign-default');
 INSERT INTO "fails_at" VALUES('shares','market-failure');
+CREATE TABLE figures (             -- figures embedded in pages (SVGs in assets/figures/)
+  page_id TEXT NOT NULL REFERENCES pages(id),
+  file    TEXT NOT NULL,
+  alt     TEXT NOT NULL,
+  caption TEXT NOT NULL,
+  PRIMARY KEY (page_id, file)
+);
+INSERT INTO "figures" VALUES('compounding','assets/figures/compounding-fee-drag.svg','A line chart of $10,000 growing at 7% a year for 30 years. With no fee it reaches $76,123; with a 1% yearly fee it reaches $57,435. The $18,688 gap is about a quarter of the no-fee result.','The same 10,000 for 30 years, at 7% a year and at 6% (7% less a 1% fee). Fictional figures.');
+INSERT INTO "figures" VALUES('custody','assets/figures/shares-ownership-chain.svg','A chain from you, to your broker, to the central depository, to the company. Your legal claim is on your broker, not directly on the company.','Simplified: there is often a custodian bank between your broker and the depository. In the US the law calls what you hold a &quot;security entitlement&quot;, a claim on your broker, and the company&#39;s register shows the depository&#39;s nominee. Details vary by country.');
+INSERT INTO "figures" VALUES('hierarchy-of-money','assets/figures/hierarchy-of-money-layers.svg','An upside-down pyramid of six layers. From the top: shares, property and crypto; bonds and T-bills; offshore and private dollars; bank deposits; central bank money; and gold at the base. Each layer is a promise to pay in the layer below.','The same six layers as the table, from risk assets at the top to gold at the base.');
+INSERT INTO "figures" VALUES('inflation','assets/figures/inflation-your-basket.svg','Three households face the same price rises but spend differently. The headline basket rises 3.7%, a renter''s basket 4.3%, and a homeowner who drives to work 3.1%.','Three fictional households facing the same price rises. Each household&#39;s rate is its own basket weighted by what it spends.');
+INSERT INTO "figures" VALUES('shares','assets/figures/shares-ownership-chain.svg','A chain from you, to your broker, to the central depository, to the company. Your legal claim is on your broker, not directly on the company.','Who actually holds a share bought through a broker. Simplified; details vary by country. See Custody for the full chain.');
 CREATE TABLE flow_steps (          -- each step of a flow, and the page it opens
   flow_id TEXT NOT NULL REFERENCES flows(id),
   step    INTEGER NOT NULL,         -- 1, 2, 3 ... in the order they happen
@@ -1217,7 +1229,7 @@ INSERT INTO "pages" VALUES('bond-pricing','Bond Prices and Yields','Prices and y
 INSERT INTO "pages" VALUES('bonds','Bonds',NULL,'fixed-income','fixed-income',2,'basic','A loan you can trade: fixed payments from a government or company, and your money back at the end.',433);
 INSERT INTO "pages" VALUES('bridges-and-layer-2s','Bridges and Layer 2s',NULL,'digital-assets','digital-assets',2,'basic','How value moves between chains and onto faster networks built on top, and why bridges have been crypto''s weakest link.',394);
 INSERT INTO "pages" VALUES('broker-failure','Broker and Custodian Failure','Broker Failure','failure-modes','failure-modes',2,'basic','When the firm holding your investments fails: what segregation and protection schemes cover, and what they don''t.',444);
-INSERT INTO "pages" VALUES('brokers','Brokers',NULL,'markets','markets',2,'basic','The firm that places your orders and holds your account.',363);
+INSERT INTO "pages" VALUES('brokers','Brokers',NULL,'markets','markets',2,'basic','The firm that places your orders and holds your account.',373);
 INSERT INTO "pages" VALUES('capital-controls','Capital Controls and Freezes','Capital Controls','failure-modes','failure-modes',2,'basic','When a government limits how much money can leave the bank or the country, and how long such limits have lasted.',381);
 INSERT INTO "pages" VALUES('cartography-of-wealth','The Cartography of Wealth','Cartography of Wealth','foundation','foundation',2,'basic','Twelve stores of wealth mapped by how embodied in you they are and how visible to the state, and the one thing most likely to kill each.',595);
 INSERT INTO "pages" VALUES('cash-and-fiat','Cash and Fiat Currency','Cash & Fiat','money','money',2,'basic','Government-issued money that can''t be redeemed for anything, valued because taxes, debts and prices are written in it.',387);
@@ -1229,12 +1241,12 @@ INSERT INTO "pages" VALUES('coin-value','What Gives a Coin Value','Coin Value','
 INSERT INTO "pages" VALUES('collectibles','Collectibles',NULL,'real-assets','real-assets',2,'basic','Art, gems, watches and wine: value set by what a buyer will pay.',493);
 INSERT INTO "pages" VALUES('commodities','Commodities',NULL,'real-assets','real-assets',2,'basic','Raw materials such as oil, grain and metals, traded in bulk.',506);
 INSERT INTO "pages" VALUES('common-mistakes','Common Mistakes',NULL,'practice','practice',2,'basic','The errors that cost the most, and how to avoid them.',395);
-INSERT INTO "pages" VALUES('compounding','Compounding',NULL,'foundation','foundation',2,'basic','Returns earning returns: why time matters more than timing, and why small fees grow large.',418);
+INSERT INTO "pages" VALUES('compounding','Compounding',NULL,'foundation','foundation',2,'basic','Returns earning returns: why time matters more than timing, and why small fees grow large.',459);
 INSERT INTO "pages" VALUES('confiscation','Confiscation and Expropriation','Confiscation','failure-modes','failure-modes',2,'basic','When a state takes, freezes or nationalises assets outright, from private gold to a country''s reserves.',415);
 INSERT INTO "pages" VALUES('correlation','Correlation',NULL,'portfolio','portfolio',2,'basic','How closely two assets move together, and why it rises in a crisis.',372);
 INSERT INTO "pages" VALUES('credit-risk','Credit Risk and Ratings','Credit risk','fixed-income','fixed-income',2,'basic','The chance a borrower doesn''t pay in full, and how ratings, spreads and recovery rates measure it.',345);
 INSERT INTO "pages" VALUES('currency-failure','Currency Failure','Currency Failure','failure-modes','failure-modes',2,'basic','When a currency stops working as money: hyperinflation, redenomination, and why a central bank can''t go bust in its own currency but its money can.',440);
-INSERT INTO "pages" VALUES('custody','Custody',NULL,'markets','markets',2,'basic','Who actually holds the asset, and what you really own.',399);
+INSERT INTO "pages" VALUES('custody','Custody',NULL,'markets','markets',2,'basic','Who actually holds the asset, and what you really own.',425);
 INSERT INTO "pages" VALUES('data-sources','Data Sources',NULL,'practice','practice',2,'basic','Where reliable price, economic and on-chain data comes from.',384);
 INSERT INTO "pages" VALUES('defi','DeFi: Decentralised Finance','DeFi','digital-assets','digital-assets',2,'basic','Exchanges, lending and staking run by smart contracts instead of companies — and where the yield actually comes from.',411);
 INSERT INTO "pages" VALUES('diversification','Diversification',NULL,'portfolio','portfolio',2,'basic','Spreading across assets that don''t fail together.',409);
@@ -1248,11 +1260,11 @@ INSERT INTO "pages" VALUES('four-ways-to-earn','Four Ways to Earn a Return','Fou
 INSERT INTO "pages" VALUES('funds-and-etfs','Funds and ETFs','Funds & ETFs','equities','equities',2,'basic','Pooled vehicles that hold many assets in one ticket.',524);
 INSERT INTO "pages" VALUES('futures','Futures',NULL,'derivatives','derivatives',2,'basic','An agreement to buy or sell later at a price fixed now.',387);
 INSERT INTO "pages" VALUES('gold','Gold',NULL,'money','money',2,'basic','The oldest money and the one asset at the base of the hierarchy that is nobody''s liability.',437);
-INSERT INTO "pages" VALUES('hierarchy-of-money','The Hierarchy of Money',NULL,'money','money',2,'basic','Money is layered. Each layer is a promise to pay in the layer below, and in a crisis everyone runs towards the base.',495);
+INSERT INTO "pages" VALUES('hierarchy-of-money','The Hierarchy of Money',NULL,'money','money',2,'basic','Money is layered. Each layer is a promise to pay in the layer below, and in a crisis everyone runs towards the base.',538);
 INSERT INTO "pages" VALUES('holding-crypto','Holding Crypto',NULL,'digital-assets','digital-assets',2,'basic','Hold your own keys, or let someone hold them for you: two different assets with two different killers.',256);
 INSERT INTO "pages" VALUES('human-capital','Human Capital',NULL,'personal-capital','personal-capital',2,'basic','Skills, health and judgment: the store that can rebuild all the others.',390);
 INSERT INTO "pages" VALUES('indices','Indices',NULL,'equities','equities',2,'basic','A basket that tracks a market, such as the top companies by size.',446);
-INSERT INTO "pages" VALUES('inflation','Inflation',NULL,'foundation','foundation',2,'basic','A general rise in prices: the built-in bleed on cash, and the difference between a nominal return and a real one.',523);
+INSERT INTO "pages" VALUES('inflation','Inflation',NULL,'foundation','foundation',2,'basic','A general rise in prices: the built-in bleed on cash, and the difference between a nominal return and a real one.',550);
 INSERT INTO "pages" VALUES('inflation-linked-bonds','Inflation-Linked Bonds','Inflation-linked','fixed-income','fixed-income',2,'basic','Government bonds whose principal and payments rise with a price index, protecting the real value of what you lent.',281);
 INSERT INTO "pages" VALUES('insurer-failure','Insurer and Guarantor Failure','Insurer Failure','failure-modes','failure-modes',2,'basic','When the firm that promised to pay out on a policy, an annuity or a bond guarantee can''t.',526);
 INSERT INTO "pages" VALUES('leverage','Leverage',NULL,'derivatives','derivatives',2,'basic','Using borrowed money: gains and losses both multiplied.',342);
@@ -1271,7 +1283,7 @@ INSERT INTO "pages" VALUES('reits','REITs',NULL,'real-assets','real-assets',2,'b
 INSERT INTO "pages" VALUES('returns','Returns',NULL,'measure','measure',2,'basic','Nominal, real and annualised: measuring what you actually made.',422);
 INSERT INTO "pages" VALUES('risk-and-return','Risk and Return',NULL,'foundation','foundation',2,'basic','Why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help.',535);
 INSERT INTO "pages" VALUES('settlement','Settlement',NULL,'markets','markets',2,'basic','The moment a trade becomes final: money and asset swap hands, guaranteed by a clearing house.',391);
-INSERT INTO "pages" VALUES('shares','Shares',NULL,'equities','equities',2,'basic','A slice of ownership in a listed company.',513);
+INSERT INTO "pages" VALUES('shares','Shares',NULL,'equities','equities',2,'basic','A slice of ownership in a listed company.',539);
 INSERT INTO "pages" VALUES('sharpe-ratio','Sharpe Ratio',NULL,'measure','measure',2,'advanced','Return per unit of risk.',379);
 INSERT INTO "pages" VALUES('social-capital','Social Capital',NULL,'personal-capital','personal-capital',2,'basic','Reputation, network and trust, built over decades.',406);
 INSERT INTO "pages" VALUES('sovereign-default','Sovereign Default','Sovereign Default','failure-modes','failure-modes',2,'basic','When a government stops paying its debts in full: how often it happens, how it''s resolved, and who loses.',422);
