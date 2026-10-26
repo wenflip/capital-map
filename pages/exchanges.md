@@ -18,7 +18,7 @@ Bringing all buyers and sellers to one place makes it easier to find someone to 
 - A **market order** buys or sells immediately at the best available price.
 - A **limit order** sets the worst price you'll accept, and waits until it can be filled.
 
-**Market makers** post bids and asks all day, earning the spread in return for being ready to trade. They're why you can usually sell a large share in seconds.
+**Market makers** post bids and asks all day, earning the spread in return for being ready to trade. They're why you can usually sell a large share in seconds. See [[market-making]].
 
 **Fictional order book:**
 
