@@ -20,6 +20,7 @@ Derivatives don't create or destroy risk overall. They move it from people who w
 ## How it works
 - [[futures]] — an agreement to buy or sell later at a price fixed now, traded on an exchange.
 - [[options]] — the right, but not the duty, to buy or sell at a set price.
+- [[swaps]] — two sides exchanging streams of payments for years: fixed interest for floating, one currency for another, or premiums for default protection.
 - [[leverage]] — how a small deposit controls a large position, and why that cuts both ways.
 
 | | Futures | Options |
@@ -34,7 +35,7 @@ Derivatives don't create or destroy risk overall. They move it from people who w
 ## What goes wrong
 - **Leverage.** Small price moves become large gains or losses on the deposit, and losses can exceed it.
 - **Counterparty failure.** A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See [[settlement]].
-- **Hidden size.** In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion.
+- **Hidden size.** In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing, mainly [[swaps|total return swaps]]. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion.
 - **Complexity.** Contracts that are hard to value are easy to misprice and hard to exit.
 
 > **Key rule:** a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win.
@@ -57,4 +58,3 @@ Derivatives don't create or destroy risk overall. They move it from people who w
 
 ## Going deeper
 - [[perpetuals]] — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides.
-- **Swaps.** Two parties exchange streams of payments, such as a fixed interest rate for a floating one. Most swaps are agreed privately between institutions, not on an exchange.

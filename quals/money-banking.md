@@ -33,7 +33,7 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 ## MB5 — Banking as advance clearing: swaps and capital markets
 - [[bonds]] — capital-market debt
 - [[futures]] — forward commitments
-> Partly mapped: interest-rate and credit-default swaps need pages of their own (Derivatives).
+- [[swaps]] — interest-rate, currency and credit default swaps
 
 ## MB6 — Money in the real world
 - [[hierarchy-of-money]] — the whole system in one picture
