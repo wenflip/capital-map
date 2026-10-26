@@ -4,7 +4,7 @@ window.MUDMAP = {
  "about": {
   "title": "About The Capital Map",
   "summary": "A free, independent reference to money, markets and assets, on one connected map.",
-  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid live prices and forecasts. Dated figures are history, such as a crash or a rule change, credited to their source.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Cartography</strong> — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.</li>\n<li><strong>Index and search</strong> — every page. Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
+  "html": "<p><strong>The Capital Map</strong> is a free, independent reference to money, markets and assets: cash, bonds, shares, real estate, gold and crypto, and the skills and relationships that sit underneath them all.</p>\n<p>It lays the whole system out as one connected map. Each concept has one page. Every page can be found on the map, traced through the flows that use it, and checked against the question that sorts all money and claims: <em>whose liability is it, and what is it a claim on?</em></p>\n<p><strong>Who it's for:</strong> anyone who wants to understand how money and investing actually work, from first principles, without a sales pitch.</p>\n<h2>What it is</h2>\n<ul>\n<li><strong>One system, several lenses.</strong> The tree sorts things by what they <em>are</em>. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> sorts stores of wealth by what can <em>kill</em> them. Flows show how money <em>moves</em>. All three point at the same pages.</li>\n<li><strong>Concepts, not tips.</strong> Each page explains what something is, why it exists, how it works and what goes wrong.</li>\n<li><strong>Built to last.</strong> Pages avoid live prices and forecasts. Dated figures are history, such as a crash or a rule change, credited to their source.</li>\n</ul>\n<h2>What it isn't</h2>\n<ul>\n<li><strong>Not financial advice.</strong> Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.</li>\n<li><strong>Not a news or price site.</strong> For live data, see <a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a>.</li>\n</ul>\n<h2>Ways in</h2>\n<ul>\n<li><strong>Start</strong> — plain questions, such as <em>Is my money safe in the bank?</em>, each with a short answer and the pages to read next. Every answer is written to be read without a finance background, and none tells you what to buy or sell.</li>\n<li><strong>Map</strong> — the system as a tree. Start at <a class=\"wl\" href=\"#/map/p/capital-system\" data-page=\"capital-system\">Capital System</a> and expand any branch.</li>\n<li><strong>Flows</strong> — money followed step by step, such as where a dollar comes from.</li>\n<li><strong>Quals</strong> — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.</li>\n<li><strong>Cartography</strong> — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.</li>\n<li><strong>Failures</strong> — the failure ladder from the firm closest to you to the market itself, and which rungs can hit which stores of wealth.</li>\n<li><strong>Index and search</strong> — every page, A–Z (linked from Start and the settings menu). Press <code>/</code> to search, <code>H</code> to go home. Ctrl+click any link to open it in a new tab.</li>\n<li><strong>Depth</strong> — <em>Core</em> for the essentials, <em>Everything</em> to add the advanced layer (marked ◆) and the \"Going deeper\" sections.</li>\n<li><strong>Welcome guide</strong> — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.</li>\n</ul>\n<p>The Capital Map is a sibling of The Supply Map and shares its engine.</p>\n<h2>Accuracy and corrections</h2>\n<p>Pages are checked against reliable sources and reviewed for accuracy, and worked examples use fictional figures. Mistakes still happen, and some topics are simplified so the main idea is clear. Treat every page as a starting point, not the final word, and check anything you plan to act on.</p>\n<p><strong>Spotted an error?</strong> Send corrections to <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>.</p>\n<p><strong>Licence for this site.</strong> The text of The Capital Map is licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> (CC BY-NC-SA 4.0). You may share and adapt it for non-commercial purposes, if you credit The Capital Map, link to the licence, say what you changed, and share your version under the same licence.</p>\n<h2>Independence</h2>\n<p>The Capital Map is independent. It isn't affiliated with, endorsed by or sponsored by any bank, broker, exchange, fund, token issuer or professional body named on it. Names are used only to refer to their products, programmes and exams.</p>\n<p>CFA® and Chartered Financial Analyst® are trademarks of CFA Institute. FRM® and Financial Risk Manager® are trademarks of the Global Association of Risk Professionals (GARP). CAIA® is a trademark of the CAIA Association. None of these organisations endorses this site, and its pages aren't official study material for their exams.</p>\n<h2>Privacy</h2>\n<p>The site has no accounts, no forms and no advertising. Your settings stay in your own browser. The details are on the <a href=\"#/privacy\">Privacy</a> page.</p>"
  },
  "privacy": {
   "title": "Privacy",
@@ -57,6 +57,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "common-mistakes",
     "practice",
@@ -125,6 +126,7 @@ window.MUDMAP = {
      "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
+   "answers": [],
    "backlinks": [
     "diversification",
     "drawdown",
@@ -208,6 +210,9 @@ window.MUDMAP = {
      "m": "MB6 — Money in the real world"
     }
    ],
+   "answers": [
+    "bank-safe"
+   ],
    "backlinks": [
     "bank-deposits",
     "failure-modes",
@@ -263,6 +268,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "bank-safe"
+   ],
    "backlinks": [
     "backstops",
     "bank-deposits",
@@ -318,6 +326,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "backstops",
     "duration",
@@ -404,6 +413,12 @@ window.MUDMAP = {
      "m": "MB2 — Banking as a clearing system"
     }
    ],
+   "answers": [
+    "bank-safe",
+    "cash-safe",
+    "money-from",
+    "save-or-invest"
+   ],
    "backlinks": [
     "backstops",
     "capital-controls",
@@ -481,6 +496,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "country-broke"
+   ],
    "backlinks": [
     "backstops",
     "credit-risk",
@@ -562,6 +580,9 @@ window.MUDMAP = {
      "m": "BTC5 — Bitcoin mining"
     }
    ],
+   "answers": [
+    "bitcoin-worth"
+   ],
    "backlinks": [
     "claims-and-liabilities",
     "coin-value",
@@ -639,6 +660,7 @@ window.MUDMAP = {
      "m": "BTC3 — Mechanics of Bitcoin"
     }
    ],
+   "answers": [],
    "backlinks": [
     "data-sources",
     "digital-assets",
@@ -698,6 +720,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bonds",
     "duration",
@@ -790,6 +813,7 @@ window.MUDMAP = {
      "m": "MB5 — Banking as advance clearing: swaps and capital markets"
     }
    ],
+   "answers": [],
    "backlinks": [
     "backstops",
     "bank-sovereign-loop",
@@ -865,6 +889,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "digital-assets",
     "smart-contract-platforms",
@@ -935,6 +960,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "broker-bust"
+   ],
    "backlinks": [
     "failure-modes",
     "flow:when-a-broker-fails"
@@ -993,6 +1021,9 @@ window.MUDMAP = {
      "q": "cfa-l1",
      "m": "CFA1-EQ — Equities"
     }
+   ],
+   "answers": [
+    "broker-bust"
    ],
    "backlinks": [
     "account-types",
@@ -1070,6 +1101,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "country-broke"
+   ],
    "backlinks": [
     "currency-failure",
     "failure-modes",
@@ -1149,6 +1183,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -1214,6 +1249,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "backstops",
@@ -1326,6 +1362,10 @@ window.MUDMAP = {
      "m": "MB4 — International money and banking"
     }
    ],
+   "answers": [
+    "cash-safe",
+    "prices-rise"
+   ],
    "backlinks": [
     "bank-deposits",
     "bank-sovereign-loop",
@@ -1402,6 +1442,10 @@ window.MUDMAP = {
      "m": "MB2 — Banking as a clearing system"
     }
    ],
+   "answers": [
+    "money-from",
+    "prices-rise"
+   ],
    "backlinks": [
     "bank-sovereign-loop",
     "cash-and-fiat",
@@ -1466,6 +1510,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "data-sources",
     "practice"
@@ -1536,6 +1581,7 @@ window.MUDMAP = {
      "m": "MB1 — The money view and balance sheets"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bonds",
     "capital-system",
@@ -1622,6 +1668,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "failure-modes"
    ],
@@ -1696,6 +1743,9 @@ window.MUDMAP = {
      "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
     }
    ],
+   "answers": [
+    "bitcoin-worth"
+   ],
    "backlinks": [
     "digital-assets",
     "forks",
@@ -1766,6 +1816,7 @@ window.MUDMAP = {
      "m": "CAIA1-RA — Real Assets including Commodities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "cartography-of-wealth",
     "market-failure",
@@ -1834,6 +1885,7 @@ window.MUDMAP = {
      "m": "CAIA2-COM — Commodities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "derivatives",
     "futures",
@@ -1894,6 +1946,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "fees-cost"
+   ],
    "backlinks": [
     "account-types",
     "practice"
@@ -1952,6 +2007,10 @@ window.MUDMAP = {
      "q": "cfa-l1",
      "m": "CFA1-QM — Quantitative Methods"
     }
+   ],
+   "answers": [
+    "save-or-invest",
+    "fees-cost"
    ],
    "backlinks": [
     "financial-repression",
@@ -2031,6 +2090,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "failure-modes"
    ],
@@ -2097,6 +2157,7 @@ window.MUDMAP = {
      "m": "BTC8 — Alternative mining puzzles"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bitcoin",
     "blockchains",
@@ -2167,6 +2228,7 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
+   "answers": [],
    "backlinks": [
     "cartography-of-wealth",
     "credit-risk",
@@ -2235,6 +2297,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bonds",
     "derivatives",
@@ -2309,6 +2372,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "country-broke"
+   ],
    "backlinks": [
     "failure-modes",
     "flow:when-a-country-fails"
@@ -2386,6 +2452,9 @@ window.MUDMAP = {
      "m": "BTC4 — How to store and use bitcoins"
     }
    ],
+   "answers": [
+    "stablecoin-safe"
+   ],
    "backlinks": [
     "bitcoin",
     "broker-failure",
@@ -2449,6 +2518,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "broker-bust"
+   ],
    "backlinks": [
     "broker-failure",
     "brokers",
@@ -2506,6 +2578,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "charting",
     "practice",
@@ -2567,6 +2640,7 @@ window.MUDMAP = {
      "m": "BTC11 — Decentralised institutions"
     }
    ],
+   "answers": [],
    "backlinks": [
     "digital-assets",
     "flow:a-stablecoin-run",
@@ -2624,6 +2698,10 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "bank-safe",
+    "stablecoin-safe"
+   ],
    "backlinks": [
     "backstops",
     "flow:when-a-bank-fails",
@@ -2686,6 +2764,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system"
    ],
@@ -2757,6 +2836,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "money",
@@ -2825,6 +2905,7 @@ window.MUDMAP = {
      "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "cartography-of-wealth",
@@ -2898,6 +2979,7 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bitcoin",
     "charting",
@@ -2964,6 +3046,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bond-pricing",
     "fixed-income"
@@ -3035,6 +3118,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "capital-system",
@@ -3099,6 +3183,7 @@ window.MUDMAP = {
      "m": "MB4 — International money and banking"
     }
    ],
+   "answers": [],
    "backlinks": [
     "central-bank-money",
     "hierarchy-of-money",
@@ -3160,6 +3245,7 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "brokers",
     "derivatives",
@@ -3249,6 +3335,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -3315,6 +3402,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "prices-rise"
+   ],
    "backlinks": [
     "failure-modes",
     "flow:when-a-country-fails"
@@ -3376,6 +3466,7 @@ window.MUDMAP = {
      "m": "CFA1-FSA — Financial Statement Analysis"
     }
    ],
+   "answers": [],
    "backlinks": [
     "equities",
     "valuation"
@@ -3447,6 +3538,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "capital-system"
@@ -3511,6 +3603,7 @@ window.MUDMAP = {
      "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
     }
    ],
+   "answers": [],
    "backlinks": [
     "blockchains",
     "coin-value",
@@ -3588,6 +3681,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system"
    ],
@@ -3659,6 +3753,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "save-or-invest"
+   ],
    "backlinks": [
     "claims-and-liabilities",
     "coin-value",
@@ -3720,6 +3817,9 @@ window.MUDMAP = {
      "q": "cfa-l1",
      "m": "CFA1-EQ — Equities"
     }
+   ],
+   "answers": [
+    "fees-cost"
    ],
    "backlinks": [
     "broker-failure",
@@ -3799,6 +3899,7 @@ window.MUDMAP = {
      "m": "CAIA2-COM — Commodities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "clearing-house-failure",
     "commodities",
@@ -3873,6 +3974,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "bitcoin",
     "broker-failure",
@@ -3950,6 +4052,7 @@ window.MUDMAP = {
      "m": "BTC11 — Decentralised institutions"
     }
    ],
+   "answers": [],
    "backlinks": [
     "defi",
     "tokens"
@@ -4025,6 +4128,9 @@ window.MUDMAP = {
      "q": "money-banking",
      "m": "MB6 — Money in the real world"
     }
+   ],
+   "answers": [
+    "money-from"
    ],
    "backlinks": [
     "backstops",
@@ -4103,6 +4209,7 @@ window.MUDMAP = {
      "m": "BTC4 — How to store and use bitcoins"
     }
    ],
+   "answers": [],
    "backlinks": [
     "digital-assets"
    ],
@@ -4167,6 +4274,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "account-types",
     "asset-allocation",
@@ -4231,6 +4339,7 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "diversification",
     "equities",
@@ -4289,6 +4398,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bonds",
     "financial-repression",
@@ -4354,6 +4464,10 @@ window.MUDMAP = {
      "q": "cfa-l1",
      "m": "CFA1-ECON — Economics"
     }
+   ],
+   "answers": [
+    "cash-safe",
+    "prices-rise"
    ],
    "backlinks": [
     "bonds",
@@ -4436,6 +4550,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "failure-modes",
     "ratings-failure"
@@ -4503,6 +4618,7 @@ window.MUDMAP = {
      "m": "BTC6 — Bitcoin and anonymity"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bitcoin",
     "blockchains",
@@ -4567,6 +4683,7 @@ window.MUDMAP = {
      "m": "MB2 — Banking as a clearing system"
     }
    ],
+   "answers": [],
    "backlinks": [
     "backstops",
     "bank-capital-and-liquidity",
@@ -4631,6 +4748,7 @@ window.MUDMAP = {
      "m": "CAIA1-PE — Private Equity"
     }
    ],
+   "answers": [],
    "backlinks": [
     "brokers",
     "commodities",
@@ -4716,6 +4834,7 @@ window.MUDMAP = {
      "m": "CAIA1-INTRO — Introduction to Alternative Investments"
     }
    ],
+   "answers": [],
    "backlinks": [
     "central-bank-money",
     "collectibles",
@@ -4794,6 +4913,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "failure-modes"
    ],
@@ -4857,6 +4977,7 @@ window.MUDMAP = {
      "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "charting",
@@ -4928,6 +5049,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system"
    ],
@@ -4992,6 +5114,7 @@ window.MUDMAP = {
      "m": "CAIA1-INTRO — Introduction to Alternative Investments"
     }
    ],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "common-mistakes",
@@ -5059,6 +5182,7 @@ window.MUDMAP = {
      "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
     }
    ],
+   "answers": [],
    "backlinks": [
     "claims-and-liabilities",
     "coin-value",
@@ -5119,6 +5243,7 @@ window.MUDMAP = {
      "m": "MB2 — Banking as a clearing system"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bank-deposits",
     "flow:where-money-comes-from",
@@ -5201,6 +5326,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "foundation"
@@ -5261,6 +5387,7 @@ window.MUDMAP = {
      "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
     }
    ],
+   "answers": [],
    "backlinks": [
     "digital-assets",
     "network-effects"
@@ -5332,6 +5459,9 @@ window.MUDMAP = {
      "m": "BTC7 — Community, politics and regulation"
     }
    ],
+   "answers": [
+    "bitcoin-worth"
+   ],
    "backlinks": [
     "coin-value",
     "digital-assets",
@@ -5389,6 +5519,7 @@ window.MUDMAP = {
      "m": "CFA1-DRM — Derivatives and Risk Management"
     }
    ],
+   "answers": [],
    "backlinks": [
     "clearing-house-failure",
     "derivatives",
@@ -5444,6 +5575,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "derivatives",
     "digital-assets",
@@ -5504,6 +5636,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "portfolio",
@@ -5575,6 +5708,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system",
     "common-mistakes",
@@ -5628,6 +5762,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "common-mistakes",
     "drawdown",
@@ -5695,6 +5830,7 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "capital-system"
    ],
@@ -5765,6 +5901,7 @@ window.MUDMAP = {
      "m": "BTC6 — Bitcoin and anonymity"
     }
    ],
+   "answers": [],
    "backlinks": [
     "blockchains",
     "sound-money"
@@ -5848,6 +5985,7 @@ window.MUDMAP = {
      "m": "CAIA2-PE — Private Equity"
     }
    ],
+   "answers": [],
    "backlinks": [
     "cartography-of-wealth",
     "confiscation",
@@ -5917,6 +6055,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "failure-modes"
    ],
@@ -5987,6 +6126,7 @@ window.MUDMAP = {
      "m": "CAIA2-RA — Real Assets"
     }
    ],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "capital-system",
@@ -6070,6 +6210,7 @@ window.MUDMAP = {
      "m": "CAIA2-RA — Real Assets"
     }
    ],
+   "answers": [],
    "backlinks": [
     "broker-failure",
     "cartography-of-wealth",
@@ -6140,6 +6281,7 @@ window.MUDMAP = {
      "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
+   "answers": [],
    "backlinks": [
     "asset-allocation",
     "portfolio",
@@ -6210,6 +6352,7 @@ window.MUDMAP = {
      "m": "CAIA2-RA — Real Assets"
     }
    ],
+   "answers": [],
    "backlinks": [
     "funds-and-etfs",
     "real-assets",
@@ -6268,6 +6411,7 @@ window.MUDMAP = {
      "m": "CFA1-QM — Quantitative Methods"
     }
    ],
+   "answers": [],
    "backlinks": [
     "charting",
     "compounding",
@@ -6341,6 +6485,9 @@ window.MUDMAP = {
      "q": "caia-l1",
      "m": "CAIA1-INTRO — Introduction to Alternative Investments"
     }
+   ],
+   "answers": [
+    "save-or-invest"
    ],
    "backlinks": [
     "compounding",
@@ -6420,6 +6567,9 @@ window.MUDMAP = {
      "m": "BTC4 — How to store and use bitcoins"
     }
    ],
+   "answers": [
+    "bitcoin-worth"
+   ],
    "backlinks": [
     "broker-failure",
     "capital-controls",
@@ -6485,6 +6635,7 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "clearing-house-failure",
     "derivatives",
@@ -6577,6 +6728,7 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
+   "answers": [],
    "backlinks": [
     "backstops",
     "broker-failure",
@@ -6659,6 +6811,7 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
+   "answers": [],
    "backlinks": [
     "leverage",
     "measure",
@@ -6735,6 +6888,7 @@ window.MUDMAP = {
      "m": "BTC11 — Decentralised institutions"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bitcoin",
     "bridges-and-layer-2s",
@@ -6797,6 +6951,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "cartography-of-wealth",
     "confiscation",
@@ -6872,6 +7027,7 @@ window.MUDMAP = {
      "m": "BTC7 — Community, politics and regulation"
     }
    ],
+   "answers": [],
    "backlinks": [
     "coin-value",
     "digital-assets",
@@ -6942,6 +7098,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [
+    "country-broke"
+   ],
    "backlinks": [
     "failure-modes",
     "flow:when-a-country-fails"
@@ -7013,6 +7172,9 @@ window.MUDMAP = {
      "m": "CFA1-ALT — Alternative Investments"
     }
    ],
+   "answers": [
+    "stablecoin-safe"
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "central-bank-money",
@@ -7080,6 +7242,9 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [
+    "cash-safe"
+   ],
    "backlinks": [
     "bonds",
     "fixed-income",
@@ -7142,6 +7307,7 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
+   "answers": [],
    "backlinks": [
     "account-types",
     "practice",
@@ -7208,6 +7374,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bond-pricing",
     "compounding",
@@ -7281,6 +7448,7 @@ window.MUDMAP = {
      "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
     }
    ],
+   "answers": [],
    "backlinks": [
     "digital-assets",
     "smart-contract-platforms"
@@ -7345,6 +7513,7 @@ window.MUDMAP = {
      "m": "CAIA2-PE — Private Equity"
     }
    ],
+   "answers": [],
    "backlinks": [
     "equities",
     "financial-statements",
@@ -7411,6 +7580,7 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
+   "answers": [],
    "backlinks": [
     "charting",
     "correlation",
@@ -7484,6 +7654,9 @@ window.MUDMAP = {
      "m": "MB1 — The money view and balance sheets"
     }
    ],
+   "answers": [
+    "money-from"
+   ],
    "backlinks": [
     "coin-value",
     "memecoins",
@@ -7554,6 +7727,7 @@ window.MUDMAP = {
      "m": "BTC9 — Bitcoin as a platform"
     }
    ],
+   "answers": [],
    "backlinks": [
     "bridges-and-layer-2s",
     "coin-value",
@@ -7615,6 +7789,7 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
+   "answers": [],
    "backlinks": [
     "fixed-income",
     "flow:qe-and-qt",
@@ -9471,5 +9646,263 @@ window.MUDMAP = {
   "sovereign-default",
   "market-failure"
  ],
- "built": "2026-10-26 05:07 UTC"
+ "questions": {
+  "bank-safe": {
+   "id": "bank-safe",
+   "question": "Is my money safe in the bank?",
+   "group": "Is my money safe?",
+   "order": 1.0,
+   "answer": "<p>Money in the bank is not kept in a box with your name on it. It is a loan from you to the bank, and the bank promises to pay it back when you ask. If a bank fails, most countries have a scheme that pays back each person up to a set limit. Below that limit your money is very safe. Above it, you may have to wait or lose part of it, so it helps to know the limit where you live.</p>",
+   "answerText": "Money in the bank is not kept in a box with your name on it. It is a loan from you to the bank, and the bank promises to pay it back when you ask. If a bank fails, most countries have a scheme that pays back each person up to a set limit. Below that limit your money is very safe. Above it, you may have to wait or lose part of it, so it helps to know the limit where you live.",
+   "route": [
+    {
+     "page": "bank-deposits",
+     "note": "What you really own when you \"have money in the bank\""
+    },
+    {
+     "page": "deposit-insurance",
+     "note": "How the protection scheme works, and where its limit sits"
+    },
+    {
+     "page": "backstops",
+     "note": "Everyone who stands behind a bank, in the order they step in"
+    },
+    {
+     "page": "bail-in",
+     "note": "What can happen to money above the limit"
+    }
+   ]
+  },
+  "bitcoin-worth": {
+   "id": "bitcoin-worth",
+   "question": "What actually is Bitcoin, and why is it worth anything?",
+   "group": "Crypto",
+   "order": 1.0,
+   "answer": "<p>Bitcoin is a digital coin kept on a public record that thousands of computers share. Nobody owes it to you, so its value can't come from a promise. It is worth something only because people want to hold it and expect others to keep wanting it. Its rules allow no more than 21 million coins, and the network has proved hard to break. Its price can still swing a lot, and most losses come from how people hold it rather than from the system itself.</p>",
+   "answerText": "Bitcoin is a digital coin kept on a public record that thousands of computers share. Nobody owes it to you, so its value can't come from a promise. It is worth something only because people want to hold it and expect others to keep wanting it. Its rules allow no more than 21 million coins, and the network has proved hard to break. Its price can still swing a lot, and most losses come from how people hold it rather than from the system itself.",
+   "route": [
+    {
+     "page": "bitcoin",
+     "note": "How it works, and its fixed supply"
+    },
+    {
+     "page": "coin-value",
+     "note": "What gives any coin value when nobody owes it to you"
+    },
+    {
+     "page": "network-effects",
+     "note": "Why the crowd behind a coin matters so much"
+    },
+    {
+     "page": "self-custody",
+     "note": "Holding your own coins, and the risks that come with it"
+    }
+   ]
+  },
+  "broker-bust": {
+   "id": "broker-bust",
+   "question": "What happens to my shares if my broker goes bust?",
+   "group": "Is my money safe?",
+   "order": 2.0,
+   "answer": "<p>Your shares are not the broker's money. A broker is meant to keep customers' shares apart from its own, so if it fails they can be handed back or moved to another firm. This can take months, and you may not be able to trade while it happens. If shares have gone missing, many countries have a scheme that pays back up to a limit. No scheme pays you back if your shares simply fall in price.</p>",
+   "answerText": "Your shares are not the broker's money. A broker is meant to keep customers' shares apart from its own, so if it fails they can be handed back or moved to another firm. This can take months, and you may not be able to trade while it happens. If shares have gone missing, many countries have a scheme that pays back up to a limit. No scheme pays you back if your shares simply fall in price.",
+   "route": [
+    {
+     "page": "brokers",
+     "note": "What a broker does with your account"
+    },
+    {
+     "page": "custody",
+     "note": "Who really holds your shares, and why keeping them apart matters"
+    },
+    {
+     "page": "broker-failure",
+     "note": "What protection schemes cover when a broker fails, and what they don't"
+    }
+   ]
+  },
+  "cash-safe": {
+   "id": "cash-safe",
+   "question": "Is cash a safe place to keep savings?",
+   "group": "Is my money safe?",
+   "order": 3.0,
+   "answer": "<p>For the short term, mostly yes: the number never goes down. Over many years, prices usually rise, so the same cash buys less and less. At 3% a year, money loses almost half its buying power in 20 years. Cash is good for spending and for a safety buffer, and weak for storing wealth for decades. Cash kept in a bank also carries the bank's risk, which is a separate question.</p>",
+   "answerText": "For the short term, mostly yes: the number never goes down. Over many years, prices usually rise, so the same cash buys less and less. At 3% a year, money loses almost half its buying power in 20 years. Cash is good for spending and for a safety buffer, and weak for storing wealth for decades. Cash kept in a bank also carries the bank's risk, which is a separate question.",
+   "route": [
+    {
+     "page": "cash-and-fiat",
+     "note": "What cash is, and why it slowly loses value"
+    },
+    {
+     "page": "inflation",
+     "note": "How rising prices eat into savings"
+    },
+    {
+     "page": "t-bills",
+     "note": "The nearest thing to cash that pays interest"
+    },
+    {
+     "page": "bank-deposits",
+     "note": "The risk of keeping cash in a bank"
+    }
+   ]
+  },
+  "country-broke": {
+   "id": "country-broke",
+   "question": "Can a country go broke? What happens to people's money if it does?",
+   "group": "When things go wrong",
+   "order": 1.0,
+   "answer": "<p>Yes. Governments have failed to pay their debts many times in history. A country that borrows in its own currency can usually print money to pay, but then prices may rise fast instead. When a country gets into deep trouble, savers can be hit in several ways at once: high inflation, limits on taking money out, bank deposits frozen, or government bonds paid back at less than promised. Money held in that country's currency and banks is usually hit hardest.</p>",
+   "answerText": "Yes. Governments have failed to pay their debts many times in history. A country that borrows in its own currency can usually print money to pay, but then prices may rise fast instead. When a country gets into deep trouble, savers can be hit in several ways at once: high inflation, limits on taking money out, bank deposits frozen, or government bonds paid back at less than promised. Money held in that country's currency and banks is usually hit hardest.",
+   "route": [
+    {
+     "page": "sovereign-default",
+     "note": "How governments stop paying, and who loses"
+    },
+    {
+     "page": "currency-failure",
+     "note": "When a currency stops working as money"
+    },
+    {
+     "page": "capital-controls",
+     "note": "Limits on taking money out, and how long they last"
+    },
+    {
+     "page": "bank-sovereign-loop",
+     "note": "Why banks and their government often fall together"
+    }
+   ]
+  },
+  "fees-cost": {
+   "id": "fees-cost",
+   "question": "How much do fees really cost me over time?",
+   "group": "How investing works",
+   "order": 2.0,
+   "answer": "<p>More than they look. A fee is taken every year, and the money it removes would have kept growing. So a fee of 1% a year can take a large share of what you end up with after 30 years, not just 1%. The fee is also the one cost you know in advance, which is why it is worth checking before you buy anything.</p>",
+   "answerText": "More than they look. A fee is taken every year, and the money it removes would have kept growing. So a fee of 1% a year can take a large share of what you end up with after 30 years, not just 1%. The fee is also the one cost you know in advance, which is why it is worth checking before you buy anything.",
+   "route": [
+    {
+     "page": "compounding",
+     "note": "How small yearly differences grow over decades"
+    },
+    {
+     "page": "funds-and-etfs",
+     "note": "What funds charge, and how to compare them"
+    },
+    {
+     "page": "common-mistakes",
+     "note": "The errors that cost the most over time"
+    }
+   ]
+  },
+  "money-from": {
+   "id": "money-from",
+   "question": "Where does money actually come from?",
+   "group": "How money works",
+   "order": 1.0,
+   "answer": "<p>Most money is not printed. It is created when banks make loans: the bank adds the loan to the borrower's account as new money. The central bank makes the base layer, which is notes and the money banks hold with it. Every other kind of money is a promise to pay in that base layer. When a loan is repaid, the money it created disappears again.</p>",
+   "answerText": "Most money is not printed. It is created when banks make loans: the bank adds the loan to the borrower's account as new money. The central bank makes the base layer, which is notes and the money banks hold with it. Every other kind of money is a promise to pay in that base layer. When a loan is repaid, the money it created disappears again.",
+   "route": [
+    {
+     "page": "what-is-money",
+     "note": "The three jobs money does"
+    },
+    {
+     "page": "central-bank-money",
+     "note": "The base layer, made by the central bank"
+    },
+    {
+     "page": "bank-deposits",
+     "note": "The money most people actually hold"
+    },
+    {
+     "page": "hierarchy-of-money",
+     "note": "How the layers of money stack up"
+    }
+   ]
+  },
+  "prices-rise": {
+   "id": "prices-rise",
+   "question": "Why does everything cost more every year?",
+   "group": "Why do prices rise?",
+   "order": 1.0,
+   "answer": "<p>When prices rise across the board, it is called inflation. It happens when people spend faster than the economy can make things, when a key cost like energy goes up, or when money and credit grow faster than output. Expecting higher prices can help cause them too. Most central banks try to keep inflation low and steady, often about 2% a year, rather than at zero. So a little rise each year is normal; the problem is when it runs high.</p>",
+   "answerText": "When prices rise across the board, it is called inflation. It happens when people spend faster than the economy can make things, when a key cost like energy goes up, or when money and credit grow faster than output. Expecting higher prices can help cause them too. Most central banks try to keep inflation low and steady, often about 2% a year, rather than at zero. So a little rise each year is normal; the problem is when it runs high.",
+   "route": [
+    {
+     "page": "inflation",
+     "note": "What drives rising prices, and who wins and loses"
+    },
+    {
+     "page": "central-bank-money",
+     "note": "How central banks try to steer it"
+    },
+    {
+     "page": "cash-and-fiat",
+     "note": "Why cash loses value when prices rise"
+    },
+    {
+     "page": "financial-repression",
+     "note": "How governments have used inflation to shrink their debts"
+    }
+   ]
+  },
+  "save-or-invest": {
+   "id": "save-or-invest",
+   "question": "What's the difference between saving and investing?",
+   "group": "How investing works",
+   "order": 1.0,
+   "answer": "<p>Saving keeps your money safe and easy to reach, usually in a bank, and it earns a little interest. Investing puts money into things like shares or bonds that can grow more over time. The price of that growth is risk: the value can fall, sometimes a lot, and you may have to wait years for it to recover. Many people do both: savings for the short term, investments for long-term goals.</p>",
+   "answerText": "Saving keeps your money safe and easy to reach, usually in a bank, and it earns a little interest. Investing puts money into things like shares or bonds that can grow more over time. The price of that growth is risk: the value can fall, sometimes a lot, and you may have to wait years for it to recover. Many people do both: savings for the short term, investments for long term goals.",
+   "route": [
+    {
+     "page": "four-ways-to-earn",
+     "note": "Where any return comes from: working, lending, owning or taking price risk"
+    },
+    {
+     "page": "risk-and-return",
+     "note": "Why a higher return comes with a wider range of outcomes"
+    },
+    {
+     "page": "compounding",
+     "note": "Why time makes such a big difference"
+    },
+    {
+     "page": "bank-deposits",
+     "note": "What saving in a bank really is"
+    }
+   ]
+  },
+  "stablecoin-safe": {
+   "id": "stablecoin-safe",
+   "question": "Is a stablecoin as safe as a dollar in the bank?",
+   "group": "Crypto",
+   "order": 2.0,
+   "answer": "<p>No, they work differently. A stablecoin is a company's promise to swap each token for a dollar, backed by whatever reserves it holds. A bank deposit is also a promise, but in many countries a public scheme pays it back up to a limit if the bank fails. Most stablecoins have no such scheme. If people doubt the reserves, the price can slip below a dollar, the same way a run hits a bank.</p>",
+   "answerText": "No, they work differently. A stablecoin is a company's promise to swap each token for a dollar, backed by whatever reserves it holds. A bank deposit is also a promise, but in many countries a public scheme pays it back up to a limit if the bank fails. Most stablecoins have no such scheme. If people doubt the reserves, the price can slip below a dollar, the same way a run hits a bank.",
+   "route": [
+    {
+     "page": "stablecoins",
+     "note": "How stablecoins keep, and lose, their dollar value"
+    },
+    {
+     "page": "deposit-insurance",
+     "note": "The protection most bank deposits have"
+    },
+    {
+     "page": "custodial-crypto",
+     "note": "Holding crypto through an exchange, and what you really own"
+    }
+   ]
+  }
+ },
+ "questionGroups": [
+  "Is my money safe?",
+  "How money works",
+  "Why do prices rise?",
+  "How investing works",
+  "Crypto",
+  "When things go wrong"
+ ],
+ "built": "2026-10-26 08:54 UTC"
 };

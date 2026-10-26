@@ -1319,6 +1319,67 @@ INSERT INTO "quals" VALUES('frm-2','FRM — Part II','FRM II','planned',6.0);
 INSERT INTO "quals" VALUES('caia-l1','CAIA — Level I','CAIA I','mapped',7.0);
 INSERT INTO "quals" VALUES('caia-l2','CAIA — Level II','CAIA II','mapped',8.0);
 INSERT INTO "quals" VALUES('princeton-bitcoin','Bitcoin and Cryptocurrency Technologies (Princeton)','Princeton Bitcoin','mapped',9.0);
+CREATE TABLE question_route (      -- junction table: the pages to read next for each question, in order
+  question_id TEXT NOT NULL REFERENCES questions(id),
+  step        INTEGER NOT NULL,
+  page_id     TEXT NOT NULL REFERENCES pages(id),
+  why         TEXT NOT NULL,          -- one line on why to read it
+  PRIMARY KEY (question_id, step)
+);
+INSERT INTO "question_route" VALUES('bitcoin-worth',1,'bitcoin','How it works, and its fixed supply');
+INSERT INTO "question_route" VALUES('bitcoin-worth',2,'coin-value','What gives any coin value when nobody owes it to you');
+INSERT INTO "question_route" VALUES('bitcoin-worth',3,'network-effects','Why the crowd behind a coin matters so much');
+INSERT INTO "question_route" VALUES('bitcoin-worth',4,'self-custody','Holding your own coins, and the risks that come with it');
+INSERT INTO "question_route" VALUES('stablecoin-safe',1,'stablecoins','How stablecoins keep, and lose, their dollar value');
+INSERT INTO "question_route" VALUES('stablecoin-safe',2,'deposit-insurance','The protection most bank deposits have');
+INSERT INTO "question_route" VALUES('stablecoin-safe',3,'custodial-crypto','Holding crypto through an exchange, and what you really own');
+INSERT INTO "question_route" VALUES('save-or-invest',1,'four-ways-to-earn','Where any return comes from: working, lending, owning or taking price risk');
+INSERT INTO "question_route" VALUES('save-or-invest',2,'risk-and-return','Why a higher return comes with a wider range of outcomes');
+INSERT INTO "question_route" VALUES('save-or-invest',3,'compounding','Why time makes such a big difference');
+INSERT INTO "question_route" VALUES('save-or-invest',4,'bank-deposits','What saving in a bank really is');
+INSERT INTO "question_route" VALUES('fees-cost',1,'compounding','How small yearly differences grow over decades');
+INSERT INTO "question_route" VALUES('fees-cost',2,'funds-and-etfs','What funds charge, and how to compare them');
+INSERT INTO "question_route" VALUES('fees-cost',3,'common-mistakes','The errors that cost the most over time');
+INSERT INTO "question_route" VALUES('money-from',1,'what-is-money','The three jobs money does');
+INSERT INTO "question_route" VALUES('money-from',2,'central-bank-money','The base layer, made by the central bank');
+INSERT INTO "question_route" VALUES('money-from',3,'bank-deposits','The money most people actually hold');
+INSERT INTO "question_route" VALUES('money-from',4,'hierarchy-of-money','How the layers of money stack up');
+INSERT INTO "question_route" VALUES('bank-safe',1,'bank-deposits','What you really own when you "have money in the bank"');
+INSERT INTO "question_route" VALUES('bank-safe',2,'deposit-insurance','How the protection scheme works, and where its limit sits');
+INSERT INTO "question_route" VALUES('bank-safe',3,'backstops','Everyone who stands behind a bank, in the order they step in');
+INSERT INTO "question_route" VALUES('bank-safe',4,'bail-in','What can happen to money above the limit');
+INSERT INTO "question_route" VALUES('broker-bust',1,'brokers','What a broker does with your account');
+INSERT INTO "question_route" VALUES('broker-bust',2,'custody','Who really holds your shares, and why keeping them apart matters');
+INSERT INTO "question_route" VALUES('broker-bust',3,'broker-failure','What protection schemes cover when a broker fails, and what they don''t');
+INSERT INTO "question_route" VALUES('cash-safe',1,'cash-and-fiat','What cash is, and why it slowly loses value');
+INSERT INTO "question_route" VALUES('cash-safe',2,'inflation','How rising prices eat into savings');
+INSERT INTO "question_route" VALUES('cash-safe',3,'t-bills','The nearest thing to cash that pays interest');
+INSERT INTO "question_route" VALUES('cash-safe',4,'bank-deposits','The risk of keeping cash in a bank');
+INSERT INTO "question_route" VALUES('country-broke',1,'sovereign-default','How governments stop paying, and who loses');
+INSERT INTO "question_route" VALUES('country-broke',2,'currency-failure','When a currency stops working as money');
+INSERT INTO "question_route" VALUES('country-broke',3,'capital-controls','Limits on taking money out, and how long they last');
+INSERT INTO "question_route" VALUES('country-broke',4,'bank-sovereign-loop','Why banks and their government often fall together');
+INSERT INTO "question_route" VALUES('prices-rise',1,'inflation','What drives rising prices, and who wins and loses');
+INSERT INTO "question_route" VALUES('prices-rise',2,'central-bank-money','How central banks try to steer it');
+INSERT INTO "question_route" VALUES('prices-rise',3,'cash-and-fiat','Why cash loses value when prices rise');
+INSERT INTO "question_route" VALUES('prices-rise',4,'financial-repression','How governments have used inflation to shrink their debts');
+CREATE TABLE questions (           -- plain-language questions: the front door for newcomers
+  id       TEXT PRIMARY KEY,
+  question TEXT NOT NULL,
+  grp      TEXT NOT NULL,             -- the heading it sits under on the Start view
+  sort     REAL NOT NULL,
+  answer   TEXT NOT NULL              -- the short answer, as plain text
+);
+INSERT INTO "questions" VALUES('bitcoin-worth','What actually is Bitcoin, and why is it worth anything?','Crypto',1.0,'Bitcoin is a digital coin kept on a public record that thousands of computers share. Nobody owes it to you, so its value can''t come from a promise. It is worth something only because people want to hold it and expect others to keep wanting it. Its rules allow no more than 21 million coins, and the network has proved hard to break. Its price can still swing a lot, and most losses come from how people hold it rather than from the system itself.');
+INSERT INTO "questions" VALUES('stablecoin-safe','Is a stablecoin as safe as a dollar in the bank?','Crypto',2.0,'No, they work differently. A stablecoin is a company''s promise to swap each token for a dollar, backed by whatever reserves it holds. A bank deposit is also a promise, but in many countries a public scheme pays it back up to a limit if the bank fails. Most stablecoins have no such scheme. If people doubt the reserves, the price can slip below a dollar, the same way a run hits a bank.');
+INSERT INTO "questions" VALUES('save-or-invest','What''s the difference between saving and investing?','How investing works',1.0,'Saving keeps your money safe and easy to reach, usually in a bank, and it earns a little interest. Investing puts money into things like shares or bonds that can grow more over time. The price of that growth is risk: the value can fall, sometimes a lot, and you may have to wait years for it to recover. Many people do both: savings for the short term, investments for long term goals.');
+INSERT INTO "questions" VALUES('fees-cost','How much do fees really cost me over time?','How investing works',2.0,'More than they look. A fee is taken every year, and the money it removes would have kept growing. So a fee of 1% a year can take a large share of what you end up with after 30 years, not just 1%. The fee is also the one cost you know in advance, which is why it is worth checking before you buy anything.');
+INSERT INTO "questions" VALUES('money-from','Where does money actually come from?','How money works',1.0,'Most money is not printed. It is created when banks make loans: the bank adds the loan to the borrower''s account as new money. The central bank makes the base layer, which is notes and the money banks hold with it. Every other kind of money is a promise to pay in that base layer. When a loan is repaid, the money it created disappears again.');
+INSERT INTO "questions" VALUES('bank-safe','Is my money safe in the bank?','Is my money safe?',1.0,'Money in the bank is not kept in a box with your name on it. It is a loan from you to the bank, and the bank promises to pay it back when you ask. If a bank fails, most countries have a scheme that pays back each person up to a set limit. Below that limit your money is very safe. Above it, you may have to wait or lose part of it, so it helps to know the limit where you live.');
+INSERT INTO "questions" VALUES('broker-bust','What happens to my shares if my broker goes bust?','Is my money safe?',2.0,'Your shares are not the broker''s money. A broker is meant to keep customers'' shares apart from its own, so if it fails they can be handed back or moved to another firm. This can take months, and you may not be able to trade while it happens. If shares have gone missing, many countries have a scheme that pays back up to a limit. No scheme pays you back if your shares simply fall in price.');
+INSERT INTO "questions" VALUES('cash-safe','Is cash a safe place to keep savings?','Is my money safe?',3.0,'For the short term, mostly yes: the number never goes down. Over many years, prices usually rise, so the same cash buys less and less. At 3% a year, money loses almost half its buying power in 20 years. Cash is good for spending and for a safety buffer, and weak for storing wealth for decades. Cash kept in a bank also carries the bank''s risk, which is a separate question.');
+INSERT INTO "questions" VALUES('country-broke','Can a country go broke? What happens to people''s money if it does?','When things go wrong',1.0,'Yes. Governments have failed to pay their debts many times in history. A country that borrows in its own currency can usually print money to pay, but then prices may rise fast instead. When a country gets into deep trouble, savers can be hit in several ways at once: high inflation, limits on taking money out, bank deposits frozen, or government bonds paid back at less than promised. Money held in that country''s currency and banks is usually hit hardest.');
+INSERT INTO "questions" VALUES('prices-rise','Why does everything cost more every year?','Why do prices rise?',1.0,'When prices rise across the board, it is called inflation. It happens when people spend faster than the economy can make things, when a key cost like energy goes up, or when money and credit grow faster than output. Expecting higher prices can help cause them too. Most central banks try to keep inflation low and steady, often about 2% a year, rather than at zero. So a little rise each year is normal; the problem is when it runs high.');
 CREATE TABLE rungs (                -- the failure ladder, from the firm closest to you (1) to the system itself
   page_id  TEXT PRIMARY KEY REFERENCES pages(id),
   number   INTEGER NOT NULL UNIQUE,

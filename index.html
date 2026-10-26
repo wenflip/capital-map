@@ -36,13 +36,13 @@
       <div class="brand-text">The Capital Map<small>Money · Markets · Assets</small></div>
     </a>
     <nav class="tabs" aria-label="Views">
+      <button class="tab" data-view="start" title="Start here: plain questions and answers">Start</button>
       <button class="tab" data-view="map" title="Map — press again to go home">Map</button>
       <button class="tab" data-view="flows">Flows</button>
       <button class="tab" data-view="jobs" hidden>Jobs</button>
       <button class="tab" data-view="quals" title="Qualifications">Quals</button>
       <button class="tab" data-view="cartography" title="Cartography of Wealth: stores plotted by risk"><span class="tab-long">Cartography</span><span class="tab-short">Chart</span></button>
       <button class="tab" data-view="failures" title="When Things Fail: the failure ladder"><span class="tab-long">Failures</span><span class="tab-short">Ladder</span></button>
-      <button class="tab" data-view="index">Index</button>
     </nav>
     <div class="focus-chip" id="focus-chip" hidden>
       <button class="fc-main" data-path="" title="Job focus — open this job">Focus: <b id="focus-chip-label"></b></button>
@@ -74,6 +74,7 @@
         <p class="sm-note sm-qual">Highlights the pages a qualification covers. Its modules are mapped page by page on the <b>Quals</b> tab.</p>
         <a class="sm-about" data-view="about" href="#/about">About The Capital Map — what this is, and what it isn't →</a>
         <a class="sm-privacy" data-view="privacy" href="#/privacy">Privacy</a>
+        <a class="sm-privacy sm-index" data-view="index" href="#/index">Index: every page, A–Z</a>
       </div>
     </div>
     <button id="theme-btn" class="icon-btn" title="Toggle light / dark" aria-label="Toggle theme">
@@ -100,6 +101,7 @@
     </div>
   </section>
 
+  <section id="start-view" class="view"><div class="scroll"><div class="wrap" id="start-body"></div></div></section>
   <section id="flows-view" class="view"><div class="scroll"><div class="wrap" id="flows-body"></div></div></section>
   <section id="jobs-view" class="view"><div class="scroll"><div class="wrap" id="jobs-body"></div></div></section>
   <section id="quals-view" class="view"><div class="scroll"><div class="wrap" id="quals-body"></div></div></section>
@@ -143,9 +145,9 @@
       <p class="wc-desc" id="wc-desc">Every concept is one page, connected on one map. Follow the same pages through step-by-step flows, compare stores of wealth on one chart, and see which qualifications cover them.</p>
       <div class="wc-label" id="wc-start">Start here</div>
       <nav class="wc-choices" aria-labelledby="wc-start">
-        <a class="wc-choice primary" href="#/map" data-wc="map"><b>Explore the map</b><span>See how the whole system fits together, branch by branch.</span></a>
+        <a class="wc-choice primary" href="#/start" data-wc="start"><b>Ask a question</b><span>Plain answers to real worries, and where to read more.</span></a>
+        <a class="wc-choice" href="#/map" data-wc="map"><b>Explore the map</b><span>See how the whole system fits together, branch by branch.</span></a>
         <a class="wc-choice" href="#/flows/where-money-comes-from" data-wc="flow"><b>Follow the money</b><span>Where a dollar comes from, step by step: central bank, banks, you.</span></a>
-        <a class="wc-choice" href="#/cartography" data-wc="cartography"><b>Compare stores of wealth</b><span>Every store on one chart: how hidden it is, and what is most likely to kill it.</span></a>
         <a class="wc-choice" href="#/quals" data-wc="quals"><b>Studying a qualification?</b><span>CFA, FRM, CAIA and free courses, mapped onto the pages that cover them.</span></a>
       </nav>
       <p class="wc-foot"><span>Search any topic<span class="wc-kbd"> · press <kbd>/</kbd></span></span><span class="wc-links"><a href="#/privacy" data-wc="privacy">Privacy</a><a href="#/about" data-wc="about">About this site →</a></span></p>

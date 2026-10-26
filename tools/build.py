@@ -36,6 +36,12 @@ column is a detail lane in the flow view. status: planned marks an OUTLINE: Step
 linked to a page, shown with a Planned tag until its detail columns are written. A written flow (the
 default) needs at least one detail column.
 
+Question file format (questions/<id>.md): the plain-language front door. Frontmatter: id (matches the
+file name), question (ends with "?"), group (one of QUESTION_GROUPS), order. The body is a short answer
+(2 to 7 sentences, no jargon), then a "## Read next" heading with 3 to 5 route items, one per line:
+    - [[page-id]] — one line on why to read it
+Every routed page must exist, each only once. Pages on a route show an "Answers" link back to the question.
+
 Job file format (jobs/<id>.md) — one job on the job ladder, with its
 learning path in priority tiers:
 
@@ -109,6 +115,7 @@ PAGES_DIR = ROOT / "pages"
 FLOWS_DIR = ROOT / "flows"
 JOBS_DIR = ROOT / "jobs"
 QUALS_DIR = ROOT / "quals"
+QUESTIONS_DIR = ROOT / "questions"
 ABOUT = ROOT / "about.md"
 PRIVACY = ROOT / "privacy.md"
 OUT = ROOT / "data.js"
@@ -437,6 +444,60 @@ def total_coverage(quals):
     return t
 
 
+QUESTION_GROUPS = ["Is my money safe?", "How money works", "Why do prices rise?", "How investing works", "Crypto", "When things go wrong"]
+SENTENCE = re.compile(r"[.!?](?:\*\*)?(?=\s|$)")
+
+
+def load_questions(titles):
+    """Questions: a plain answer plus a short ordered route of existing pages (see the docstring)."""
+    questions = {}
+    if not QUESTIONS_DIR.exists():
+        return questions
+    for path in sorted(QUESTIONS_DIR.glob("*.md")):
+        meta, body = parse_file(path)
+        if meta is None:
+            continue
+        qid = meta.get("id", "")
+        where = f"question {qid or path.stem}"
+        if qid != path.stem:
+            errors.append(f"{where}: id must match the file name ({path.stem})"); continue
+        q = meta.get("question", "")
+        if not q.endswith("?"):
+            errors.append(f"{where}: question must be set and end with '?'")
+        group = meta.get("group", "")
+        if group not in QUESTION_GROUPS:
+            errors.append(f"{where}: group must be one of {QUESTION_GROUPS}")
+        answer, sep, route_md = body.partition("## Read next")
+        answer = answer.strip()
+        if not sep:
+            errors.append(f"{where}: needs a '## Read next' section")
+        n = len(SENTENCE.findall(plain_text(answer)))
+        if not 2 <= n <= 7:
+            errors.append(f"{where}: the answer should be 2 to 7 sentences (found {n})")
+        route, seen = [], set()
+        inline = lambda s: markdown.markdown(s).removeprefix("<p>").removesuffix("</p>")
+        for line in route_md.splitlines():
+            if not line.strip():
+                continue
+            m = ROLE_ITEM.match(line)
+            if not m:
+                errors.append(f"{where}: unexpected line under Read next: {line.strip()[:60]}"); continue
+            pid, note = m.group(1), (m.group(2) or "").strip()
+            if pid not in titles:
+                errors.append(f"{where}: broken link [[{pid}]]"); continue
+            if pid in seen:
+                errors.append(f"{where}: [[{pid}]] listed twice"); continue
+            if not note:
+                errors.append(f"{where}: [[{pid}]] needs a one-line reason to read it")
+            seen.add(pid)
+            route.append({"page": pid, "note": inline(note[:1].upper() + note[1:]) if note else ""})
+        if sep and not 3 <= len(route) <= 5:
+            errors.append(f"{where}: Read next should list 3 to 5 pages (found {len(route)})")
+        questions[qid] = {"id": qid, "question": q, "group": group, "order": meta.get("order", 99),
+                          "answer": render(answer, titles, where, set()), "answerText": plain_text(answer), "route": route}
+    return questions
+
+
 LEVELS = {1: "Entry", 2: "Operational", 3: "Specialist", 4: "Coordinator / Analyst", 5: "Manager", 6: "Director", 7: "Executive"}
 STREAMS = [("procurement", "Procurement"), ("warehouse", "Warehouse & Inventory"),
            ("planning", "Planning & Logistics"), ("maintenance", "Maintenance")]
@@ -566,6 +627,20 @@ CREATE TABLE flow_steps (          -- each step of a flow, and the page it opens
   page_id TEXT REFERENCES pages(id),   -- NULL if the step opens no page
   PRIMARY KEY (flow_id, step)
 );
+CREATE TABLE questions (           -- plain-language questions: the front door for newcomers
+  id       TEXT PRIMARY KEY,
+  question TEXT NOT NULL,
+  grp      TEXT NOT NULL,             -- the heading it sits under on the Start view
+  sort     REAL NOT NULL,
+  answer   TEXT NOT NULL              -- the short answer, as plain text
+);
+CREATE TABLE question_route (      -- junction table: the pages to read next for each question, in order
+  question_id TEXT NOT NULL REFERENCES questions(id),
+  step        INTEGER NOT NULL,
+  page_id     TEXT NOT NULL REFERENCES pages(id),
+  why         TEXT NOT NULL,          -- one line on why to read it
+  PRIMARY KEY (question_id, step)
+);
 CREATE TABLE quals (
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,
@@ -592,7 +667,7 @@ CREATE TABLE module_pages (         -- junction table: pages that cover each mod
 """
 
 
-def write_sqlite(pages, rung_ids, quals, flows):
+def write_sqlite(pages, rung_ids, quals, flows, questions):
     """Write the map as a SQLite database (and the same database as SQL text). Rebuilt from scratch every
     time, rows inserted in a fixed order, so an unchanged map gives an unchanged file. Returns row counts."""
     import sqlite3
@@ -622,6 +697,9 @@ def write_sqlite(pages, rung_ids, quals, flows):
     fids = sorted(flows, key=lambda f: (flows[f]["order"], f))
     rows("flows", [(f, flows[f]["title"], flows[f]["area"], flows[f]["status"], flows[f]["order"]) for f in fids])
     rows("flow_steps", [(f, n, st["label"], st["page"]) for f in fids for n, st in enumerate(flows[f]["steps"], 1)])
+    qs = sorted(questions, key=lambda q: (questions[q]["group"], questions[q]["order"], q))
+    rows("questions", [(q, questions[q]["question"], questions[q]["group"], questions[q]["order"], questions[q]["answerText"]) for q in qs])
+    rows("question_route", [(q, n, st["page"], re.sub(r"<[^>]+>", "", st["note"])) for q in qs for n, st in enumerate(questions[q]["route"], 1)])
     qids = sorted(quals, key=lambda q: quals[q]["order"])
     rows("quals", [(q, quals[q]["title"], quals[q]["short"], quals[q]["status"], quals[q]["order"]) for q in qids])
     code = lambda s: re.split(r"\s+[—–-]\s+", s["title"])[0]
@@ -788,6 +866,8 @@ def main():
 
     roles = load_jobs(titles)
     quals = load_roles(titles, QUALS_DIR, "qual", repeat_ok=True)
+    questions = load_questions(titles)
+    qorder = sorted(questions, key=lambda q: (QUESTION_GROUPS.index(questions[q]["group"]) if questions[q]["group"] in QUESTION_GROUPS else 99, questions[q]["order"], q))
     for jid, j in roles.items():
         for q in j["quals"]:
             if q not in quals:
@@ -803,6 +883,7 @@ def main():
         p["quals"] = [{"q": q, "m": s["title"]}
                       for q in sorted(quals, key=lambda q: quals[q]["order"])
                       for s in quals[q]["stages"] if any(i["page"] == pid for i in s["items"])]
+        p["answers"] = [q for q in qorder if any(s["page"] == pid for s in questions[q]["route"])]
         p["backlinks"] = sorted(backlinks[pid])
         p["backlinksAdv"] = sorted(k for k, v in backlinks[pid].items() if v)
 
@@ -842,6 +923,8 @@ def main():
         "quals": quals,
         "coverage": total_coverage(quals),
         "rungs": rung_ids,
+        "questions": questions,
+        "questionGroups": [g for g in QUESTION_GROUPS if any(q["group"] == g for q in questions.values())],
         "built": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
     OUT.write_text(
@@ -849,7 +932,7 @@ def main():
         "window.MUDMAP = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n",
         encoding="utf-8",
     )
-    tables = write_sqlite(pages, rung_ids, quals, flows)
+    tables = write_sqlite(pages, rung_ids, quals, flows, questions)
     stubs = sum(1 for p in pages.values() if p["stub"])
     adv = len(ADVANCED); deeper = sum(1 for p in pages.values() if p["deep"])
     planned = sum(1 for f in flows.values() if f["status"] == "planned")
@@ -869,6 +952,8 @@ def main():
     t = data["coverage"]
     print(f"  Coverage: {t['mapped']} of {t['inScope']} in-scope modules mapped ({t['pct']}%), {t['partial']} partly,"
           f" {t['none']} not yet; {t['out']} out of scope, across {t['quals']} qualifications")
+    print(f"  Questions: {len(questions)} in {len({q['group'] for q in questions.values()})} groups, routing to "
+          f"{len({s['page'] for q in questions.values() for s in q['route']})} pages")
     pairs = sum(len(pages[r]["hits"]) for r in rung_ids)
     stores = [p for p in pages.values() if p["place"]]
     print(f"  Failure ladder: {len(rung_ids)} rungs · {pairs} store-rung links · "

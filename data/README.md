@@ -31,6 +31,8 @@ Both are generated: don't edit them by hand. They're rebuilt from scratch with r
 | `quals` | qualification | `id` |
 | `modules` | qualification module, with its coverage state | (`qual_id`, `code`) |
 | `module_pages` | module × page that covers it | (`qual_id`, `code`, `page_id`) |
+| `questions` | plain-language question, its group and short answer | `id` |
+| `question_route` | step of a question's route, the page to read, and why | (`question_id`, `step`); `page_id` → `pages` |
 | `flows` | flow, with its heading and status (`written` or `planned`) | `id` |
 | `flow_steps` | step of a flow, and the page it opens | (`flow_id`, `step`); `page_id` → `pages` |
 
@@ -114,6 +116,7 @@ ORDER BY q.sort;
 6. Which pages appear in more than one qualification?
 7. Which in-scope modules have exactly one page? These are the thin ones the Quals tab warns about.
 8. Which pages are opened by steps in more than one flow? (Count distinct `flow_id` per `page_id` in `flow_steps`.)
+9. Which pages answer the most questions? Are any of them advanced? (Join `question_route` to `pages`.)
 
 ## The logistics parallel
 
