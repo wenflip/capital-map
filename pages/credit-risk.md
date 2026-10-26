@@ -27,6 +27,7 @@ Credit risk is the killer for [[bonds]] on the [[cartography-of-wealth|Cartograp
 ## What goes wrong
 - **Ratings lag.** Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.
 - **Spreads jump together.** In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See [[correlation]].
+- **Protection can fail too.** A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See [[swaps]].
 - **Governments can default too**, especially on debt in a currency they can't create. See [[bank-sovereign-loop]].
 
 > **Key rule:** extra yield is payment for extra risk. Ask what the spread is paying you to worry about.

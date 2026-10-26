@@ -842,6 +842,7 @@ window.MUDMAP = {
     "money",
     "ratings-failure",
     "sovereign-default",
+    "swaps",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -1686,7 +1687,8 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
-    "failure-modes"
+    "failure-modes",
+    "swaps"
    ],
    "backlinksAdv": []
   },
@@ -2300,17 +2302,18 @@ window.MUDMAP = {
    "branch": "fixed-income",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Credit risk</strong> is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's.</p>\n<h2>Why it matters</h2>\n<p>Credit risk is the killer for <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise.</p>\n<h2>How it works</h2>\n<p><strong>Ratings.</strong> Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards.</p>\n<ul>\n<li><strong>Investment grade:</strong> BBB− (Baa3) and above.</li>\n<li><strong>High yield</strong> (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling.</li>\n</ul>\n<p><strong>Spreads.</strong> The <strong>credit spread</strong> is the extra yield over a comparable government bond.</p>\n<p><strong>Worked example (fictional figures):</strong> a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written <strong>200 basis points</strong> (one basis point is 0.01%).</p>\n<p><strong>Recovery.</strong> Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Ratings lag.</strong> Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.</li>\n<li><strong>Spreads jump together.</strong> In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Governments can default too</strong>, especially on debt in a currency they can't create. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> extra yield is payment for extra risk. Ask what the spread is paying you to worry about.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests?</p><details><summary>Show answer</summary><p>Because it crosses from investment grade to high yield. Funds that may hold only investment-grade bonds may have to sell, all at once.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Credit risk</strong> is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's.</p>\n<h2>Why it matters</h2>\n<p>Credit risk is the killer for <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise.</p>\n<h2>How it works</h2>\n<p><strong>Ratings.</strong> Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards.</p>\n<ul>\n<li><strong>Investment grade:</strong> BBB− (Baa3) and above.</li>\n<li><strong>High yield</strong> (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling.</li>\n</ul>\n<p><strong>Spreads.</strong> The <strong>credit spread</strong> is the extra yield over a comparable government bond.</p>\n<p><strong>Worked example (fictional figures):</strong> a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written <strong>200 basis points</strong> (one basis point is 0.01%).</p>\n<p><strong>Recovery.</strong> Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Ratings lag.</strong> Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.</li>\n<li><strong>Spreads jump together.</strong> In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Protection can fail too.</strong> A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n<li><strong>Governments can default too</strong>, especially on debt in a currency they can't create. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> extra yield is payment for extra risk. Ask what the spread is paying you to worry about.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests?</p><details><summary>Show answer</summary><p>Because it crosses from investment grade to high yield. Funds that may hold only investment-grade bonds may have to sell, all at once.</p></details></div>",
    "deep": "",
    "links": [
     "bank-sovereign-loop",
     "bonds",
     "cartography-of-wealth",
     "claims-and-liabilities",
-    "correlation"
+    "correlation",
+    "swaps"
    ],
    "stub": false,
-   "text": "What it is Credit risk is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's. Why it matters Credit risk is the killer for bonds on the Cartography of Wealth: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise. How it works Ratings. Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards. Investment grade: BBB− (Baa3) and above. High yield (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling. Spreads. The credit spread is the extra yield over a comparable government bond. Worked example (fictional figures): a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written 200 basis points (one basis point is 0.01%). Recovery. Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See claims and liabilities. What goes wrong Ratings lag. Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted. Spreads jump together. In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See correlation. Governments can default too , especially on debt in a currency they can't create. See bank sovereign loop. Key rule: extra yield is payment for extra risk. Ask what the spread is paying you to worry about. Check yourself Q: A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests? A: Because it crosses from investment grade to high yield. Funds that may hold only investment grade bonds may have to sell, all at once.",
+   "text": "What it is Credit risk is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's. Why it matters Credit risk is the killer for bonds on the Cartography of Wealth: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise. How it works Ratings. Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards. Investment grade: BBB− (Baa3) and above. High yield (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling. Spreads. The credit spread is the extra yield over a comparable government bond. Worked example (fictional figures): a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written 200 basis points (one basis point is 0.01%). Recovery. Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See claims and liabilities. What goes wrong Ratings lag. Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted. Spreads jump together. In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See correlation. Protection can fail too. A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See swaps. Governments can default too , especially on debt in a currency they can't create. See bank sovereign loop. Key rule: extra yield is payment for extra risk. Ask what the spread is paying you to worry about. Check yourself Q: A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests? A: Because it crosses from investment grade to high yield. Funds that may hold only investment grade bonds may have to sell, all at once.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2330,7 +2333,8 @@ window.MUDMAP = {
     "fixed-income",
     "ratings-failure",
     "real-estate",
-    "settlement"
+    "settlement",
+    "swaps"
    ],
    "backlinksAdv": []
   },
@@ -2773,8 +2777,8 @@ window.MUDMAP = {
    "branch": "derivatives",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>derivative</strong> is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Hedging.</strong> A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it.</li>\n<li><strong>Speculation.</strong> Traders can bet on a price moving, often with a small deposit controlling a large exposure.</li>\n<li><strong>Cheaper, faster exposure.</strong> One contract can stand in for buying and storing the underlying asset.</li>\n</ul>\n<p>Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — an agreement to buy or sell later at a price fixed now, traded on an exchange.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — the right, but not the duty, to buy or sell at a set price.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — how a small deposit controls a large position, and why that cuts both ways.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Futures</th>\n<th>Options</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Obligation</strong></td>\n<td>Both sides must complete</td>\n<td>The buyer can walk away</td>\n</tr>\n<tr>\n<td><strong>Upfront cost</strong></td>\n<td>A deposit (margin)</td>\n<td>A price (the premium)</td>\n</tr>\n<tr>\n<td><strong>Most a buyer can lose</strong></td>\n<td>Far more than the deposit</td>\n<td>The premium</td>\n</tr>\n<tr>\n<td><strong>Typical use</strong></td>\n<td>Locking in a price</td>\n<td>Insurance against a move</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Zero-sum between the two sides.</strong> Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Leverage.</strong> Small price moves become large gains or losses on the deposit, and losses can exceed it.</li>\n<li><strong>Counterparty failure.</strong> A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a>.</li>\n<li><strong>Hidden size.</strong> In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion.</li>\n<li><strong>Complexity.</strong> Contracts that are hard to value are easy to misprice and hard to exit.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> — the original home of futures.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — the feature that makes derivatives powerful and dangerous.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — the counterparty side of every contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where standard contracts trade.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An airline buys oil futures. Is it speculating?</p><details><summary>Show answer</summary><p>No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can't derivatives make the economy as a whole less risky?</p><details><summary>Show answer</summary><p>Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.</p></details></div>",
-   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides.</li>\n<li><strong>Swaps.</strong> Two parties exchange streams of payments, such as a fixed interest rate for a floating one. Most swaps are agreed privately between institutions, not on an exchange.</li>\n</ul></section>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>derivative</strong> is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Hedging.</strong> A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it.</li>\n<li><strong>Speculation.</strong> Traders can bet on a price moving, often with a small deposit controlling a large exposure.</li>\n<li><strong>Cheaper, faster exposure.</strong> One contract can stand in for buying and storing the underlying asset.</li>\n</ul>\n<p>Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — an agreement to buy or sell later at a price fixed now, traded on an exchange.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — the right, but not the duty, to buy or sell at a set price.</li>\n<li><a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a> — two sides exchanging streams of payments for years: fixed interest for floating, one currency for another, or premiums for default protection.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — how a small deposit controls a large position, and why that cuts both ways.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Futures</th>\n<th>Options</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Obligation</strong></td>\n<td>Both sides must complete</td>\n<td>The buyer can walk away</td>\n</tr>\n<tr>\n<td><strong>Upfront cost</strong></td>\n<td>A deposit (margin)</td>\n<td>A price (the premium)</td>\n</tr>\n<tr>\n<td><strong>Most a buyer can lose</strong></td>\n<td>Far more than the deposit</td>\n<td>The premium</td>\n</tr>\n<tr>\n<td><strong>Typical use</strong></td>\n<td>Locking in a price</td>\n<td>Insurance against a move</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Zero-sum between the two sides.</strong> Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Leverage.</strong> Small price moves become large gains or losses on the deposit, and losses can exceed it.</li>\n<li><strong>Counterparty failure.</strong> A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a>.</li>\n<li><strong>Hidden size.</strong> In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing, mainly <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">total return swaps</a>. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion.</li>\n<li><strong>Complexity.</strong> Contracts that are hard to value are easy to misprice and hard to exit.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a> — the original home of futures.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — the feature that makes derivatives powerful and dangerous.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — the counterparty side of every contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where standard contracts trade.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An airline buys oil futures. Is it speculating?</p><details><summary>Show answer</summary><p>No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can't derivatives make the economy as a whole less risky?</p><details><summary>Show answer</summary><p>Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides.</li>\n</ul></section>",
    "links": [
     "commodities",
     "credit-risk",
@@ -2783,14 +2787,16 @@ window.MUDMAP = {
     "leverage",
     "options",
     "perpetuals",
-    "settlement"
+    "settlement",
+    "swaps"
    ],
    "stub": false,
-   "text": "What it is A derivative is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side. Why it exists Hedging. A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it. Speculation. Traders can bet on a price moving, often with a small deposit controlling a large exposure. Cheaper, faster exposure. One contract can stand in for buying and storing the underlying asset. Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more. How it works futures — an agreement to buy or sell later at a price fixed now, traded on an exchange. options — the right, but not the duty, to buy or sell at a set price. leverage — how a small deposit controls a large position, and why that cuts both ways. Futures Options Obligation Both sides must complete The buyer can walk away Upfront cost A deposit (margin) A price (the premium) Most a buyer can lose Far more than the deposit The premium Typical use Locking in a price Insurance against a move Zero sum between the two sides. Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself. What goes wrong Leverage. Small price moves become large gains or losses on the deposit, and losses can exceed it. Counterparty failure. A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See settlement. Hidden size. In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion. Complexity. Contracts that are hard to value are easy to misprice and hard to exit. Key rule: a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win. Connects to commodities — the original home of futures. leverage — the feature that makes derivatives powerful and dangerous. credit risk — the counterparty side of every contract. exchanges — where standard contracts trade. Check yourself Q: An airline buys oil futures. Is it speculating? A: No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on. Q: Why can't derivatives make the economy as a whole less risky? A: Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.",
-   "textDeep": "Going deeper perpetuals — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides. Swaps. Two parties exchange streams of payments, such as a fixed interest rate for a floating one. Most swaps are agreed privately between institutions, not on an exchange.",
+   "text": "What it is A derivative is a contract whose value depends on something else: the price of oil, a share, a currency, an interest rate or a coin. You don't own the underlying thing; you own a promise about it, made with someone on the other side. Why it exists Hedging. A farmer, an airline or a pension fund can lock in a price or cap a loss, moving a risk it doesn't want to someone willing to take it. Speculation. Traders can bet on a price moving, often with a small deposit controlling a large exposure. Cheaper, faster exposure. One contract can stand in for buying and storing the underlying asset. Derivatives don't create or destroy risk overall. They move it from people who want less of it to people who want more. How it works futures — an agreement to buy or sell later at a price fixed now, traded on an exchange. options — the right, but not the duty, to buy or sell at a set price. swaps — two sides exchanging streams of payments for years: fixed interest for floating, one currency for another, or premiums for default protection. leverage — how a small deposit controls a large position, and why that cuts both ways. Futures Options Obligation Both sides must complete The buyer can walk away Upfront cost A deposit (margin) A price (the premium) Most a buyer can lose Far more than the deposit The premium Typical use Locking in a price Insurance against a move Zero sum between the two sides. Before costs, one side's gain on a derivative is the other side's loss. Value comes from the risk transferred, not from the contract itself. What goes wrong Leverage. Small price moves become large gains or losses on the deposit, and losses can exceed it. Counterparty failure. A contract is only as good as the side that must pay. Exchanges reduce this with a central clearing house; private contracts rely on collateral. See settlement. Hidden size. In 2021 the family office Archegos built huge positions through banks using derivatives and borrowing, mainly total return swaps. When its bets fell, banks lost more than $10 billion between them, and Credit Suisse alone about $5.5 billion. Complexity. Contracts that are hard to value are easy to misprice and hard to exit. Key rule: a derivative is a promise about a price. Know what you can lose, and who has to pay you if you win. Connects to commodities — the original home of futures. leverage — the feature that makes derivatives powerful and dangerous. credit risk — the counterparty side of every contract. exchanges — where standard contracts trade. Check yourself Q: An airline buys oil futures. Is it speculating? A: No, it's hedging. It needs fuel anyway, so locking in the price removes a risk from its business instead of taking one on. Q: Why can't derivatives make the economy as a whole less risky? A: Because they move risk between parties rather than removing it. One side's protection is the other side's exposure.",
+   "textDeep": "Going deeper perpetuals — crypto futures with no expiry date, kept close to the spot price by regular funding payments between the two sides.",
    "children": [
     "futures",
     "options",
+    "swaps",
     "perpetuals",
     "leverage"
    ],
@@ -2798,7 +2804,8 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
-    "capital-system"
+    "capital-system",
+    "swaps"
    ],
    "backlinksAdv": []
   },
@@ -3201,15 +3208,16 @@ window.MUDMAP = {
    "branch": "money",
    "hits": [],
    "adv": true,
-   "html": "<h2>What it is</h2>\n<p><strong>Eurodollars</strong> are US dollar deposits and loans held at banks outside the United States. The name is historical: the market started in Europe, but today it is global.</p>\n<p>A eurodollar is a <strong>promise by a foreign bank</strong> to pay dollars. Such banks usually have no direct access to the US central bank's lending, so they must find dollars in the market when they need them.</p>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>Huge dollar debts outside the US.</strong> Companies and governments around the world borrow in dollars. They must earn or buy dollars to repay, which is a large source of global demand for the currency.</li>\n<li><strong>Dollar shortages.</strong> In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US. See <a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a>.</li>\n<li><strong>Swap lines.</strong> The US central bank can lend dollars to other central banks in emergencies, which then lend them on to their banks.</li>\n</ul>\n<h2>Where it sits</h2>\n<p>In the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a>, eurodollars sit above <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> at US banks: a private, offshore promise to pay dollars, usually without a direct central bank backstop.</p>\n<blockquote>\n<p><strong>Key rule:</strong> much of the world's dollar system runs outside the United States, which is why a global dollar squeeze can hit markets everywhere at once.</p>\n</blockquote>",
+   "html": "<h2>What it is</h2>\n<p><strong>Eurodollars</strong> are US dollar deposits and loans held at banks outside the United States. The name is historical: the market started in Europe, but today it is global.</p>\n<p>A eurodollar is a <strong>promise by a foreign bank</strong> to pay dollars. Such banks usually have no direct access to the US central bank's lending, so they must find dollars in the market when they need them.</p>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>Huge dollar debts outside the US.</strong> Companies and governments around the world borrow in dollars. They must earn or buy dollars to repay, which is a large source of global demand for the currency.</li>\n<li><strong>Dollar shortages.</strong> In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US. See <a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a>.</li>\n<li><strong>Swap lines.</strong> The US central bank can lend dollars to other central banks in emergencies, which then lend them on to their banks. These swap lines are currency swaps between central banks; see <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n</ul>\n<h2>Where it sits</h2>\n<p>In the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a>, eurodollars sit above <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> at US banks: a private, offshore promise to pay dollars, usually without a direct central bank backstop.</p>\n<blockquote>\n<p><strong>Key rule:</strong> much of the world's dollar system runs outside the United States, which is why a global dollar squeeze can hit markets everywhere at once.</p>\n</blockquote>",
    "deep": "",
    "links": [
     "bank-deposits",
     "exchange-rates",
-    "hierarchy-of-money"
+    "hierarchy-of-money",
+    "swaps"
    ],
    "stub": false,
-   "text": "What it is Eurodollars are US dollar deposits and loans held at banks outside the United States. The name is historical: the market started in Europe, but today it is global. A eurodollar is a promise by a foreign bank to pay dollars. Such banks usually have no direct access to the US central bank's lending, so they must find dollars in the market when they need them. Why it matters Huge dollar debts outside the US. Companies and governments around the world borrow in dollars. They must earn or buy dollars to repay, which is a large source of global demand for the currency. Dollar shortages. In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US. See exchange rates. Swap lines. The US central bank can lend dollars to other central banks in emergencies, which then lend them on to their banks. Where it sits In the hierarchy of money, eurodollars sit above bank deposits at US banks: a private, offshore promise to pay dollars, usually without a direct central bank backstop. Key rule: much of the world's dollar system runs outside the United States, which is why a global dollar squeeze can hit markets everywhere at once.",
+   "text": "What it is Eurodollars are US dollar deposits and loans held at banks outside the United States. The name is historical: the market started in Europe, but today it is global. A eurodollar is a promise by a foreign bank to pay dollars. Such banks usually have no direct access to the US central bank's lending, so they must find dollars in the market when they need them. Why it matters Huge dollar debts outside the US. Companies and governments around the world borrow in dollars. They must earn or buy dollars to repay, which is a large source of global demand for the currency. Dollar shortages. In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US. See exchange rates. Swap lines. The US central bank can lend dollars to other central banks in emergencies, which then lend them on to their banks. These swap lines are currency swaps between central banks; see swaps. Where it sits In the hierarchy of money, eurodollars sit above bank deposits at US banks: a private, offshore promise to pay dollars, usually without a direct central bank backstop. Key rule: much of the world's dollar system runs outside the United States, which is why a global dollar squeeze can hit markets everywhere at once.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3229,7 +3237,8 @@ window.MUDMAP = {
     "exchange-rates",
     "hierarchy-of-money",
     "lender-of-last-resort",
-    "money"
+    "money",
+    "swaps"
    ],
    "backlinksAdv": [
     "money"
@@ -3279,7 +3288,7 @@ window.MUDMAP = {
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>An <strong>exchange rate</strong> is the price of one currency in another. Every country's <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">fiat currency</a> is valued in its own units at home, so the moment money crosses a border, someone has to swap one promise for another. The market where that happens is the <strong>foreign exchange</strong> market, usually called <strong>FX</strong> or forex.</p>\n<p>Rates are quoted as <strong>pairs</strong>. A quote of EUR/USD = 1.25 (an illustrative figure, not a real rate) means one euro costs 1.25 US dollars. The first currency is the one being priced; the second is the one you pay in. Turn it round and one dollar costs 1 ÷ 1.25 = <strong>0.80</strong> euros. Most confusion about \"the dollar going up\" comes from reading a pair the wrong way round.</p>\n<p>By daily trading, it is the largest market in finance. The Bank for International Settlements' survey of April 2025 put FX trading at about <strong>$9.6 trillion a day</strong>, with the US dollar on one side of <strong>89%</strong> of all trades.</p>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>Trade.</strong> A firm that sells abroad is paid in one currency and pays its workers in another.</li>\n<li><strong>Investing abroad.</strong> A foreign share or bond carries two risks at once: the asset's own, and the currency it is priced in.</li>\n<li><strong>Borrowing.</strong> A loan in a foreign currency must be repaid in that currency, whatever happens to the one you earn in.</li>\n<li><strong>Your purchasing power.</strong> Imported goods, fuel and holidays get dearer when your currency falls.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Who sets the rate.</strong> Each country chooses a regime:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Regime</th>\n<th>How it works</th>\n<th>The trade-off</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Floating</strong></td>\n<td>The market sets the rate, minute by minute</td>\n<td>The rate can swing a lot, but the central bank keeps control of its own interest rates</td>\n</tr>\n<tr>\n<td><strong>Managed</strong></td>\n<td>The market sets it, but the central bank leans against big moves</td>\n<td>A middle path; the limits are never fully clear</td>\n</tr>\n<tr>\n<td><strong>Pegged</strong></td>\n<td>The central bank promises a fixed rate to another currency</td>\n<td>Stable while it lasts, but interest rates must follow the anchor country's, and the promise can break</td>\n</tr>\n</tbody>\n</table></div>\n<p>To hold a peg, a central bank buys its own currency with <strong>foreign reserves</strong> when it is under pressure, and raises interest rates to make holding it more attractive. Both have limits. Reserves run out, and very high rates hurt the economy.</p>\n<p><strong>What moves a floating rate.</strong> Several forces at once, which is why short-term moves are hard to predict:</p>\n<ul>\n<li><strong>Interest-rate gaps.</strong> Higher rates attract money, at least for a while.</li>\n<li><strong>Inflation gaps.</strong> Over long periods, a currency that loses buying power faster at home tends to lose value abroad too. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>Trade and investment flows.</strong> Exporters selling foreign earnings, and foreigners buying local assets, both add demand.</li>\n<li><strong>Fear.</strong> In a panic, money runs to the currencies at the top of the <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">hierarchy of money</a>, above all the dollar, which many borrowers worldwide owe. See <a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a>.</li>\n</ul>\n<p><strong>What a currency move does to your return.</strong> Returns multiply; they don't add. Say you own a fund of foreign shares that rises 8% in its own currency in a year, while that currency falls 5% against yours (fictional figures):</p>\n<p>1.08 × 0.95 = 1.026, so you made <strong>2.6%</strong>, not the 8% the fund reports.</p>\n<p>If the currency had risen 5% instead: 1.08 × 1.05 = 1.134, so you made <strong>13.4%</strong>. The same fund, in the same year, gives two owners in two countries two different results.</p>\n<p><strong>The forward rate.</strong> You can fix a rate now for a swap on a future date. This <strong>forward</strong> rate is not a forecast. It is set by the gap in interest rates, because otherwise traders could borrow in one currency, lend in the other, lock in the forward and earn a riskless profit. Say one unit of currency A costs 1.20 of currency B, one-year interest is 2% in A and 5% in B (fictional figures):</p>\n<p>forward = 1.20 × 1.05 ÷ 1.02 = <strong>1.235</strong></p>\n<p>The higher-rate currency, B, buys less in the forward than it does now, which exactly offsets its higher interest. <strong>Hedging</strong> with forwards removes the currency swing, but it also gives up, or pays, that interest gap. See <a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> for the same idea on other assets.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Pegs break, and suddenly.</strong> A peg looks stable right up to the day it goes:<ul>\n<li><strong>United Kingdom, 16 September 1992.</strong> The government raised interest rates twice in one day to keep the pound inside the European Exchange Rate Mechanism, then left it that evening. The pound fell.</li>\n<li><strong>Switzerland, 15 January 2015.</strong> The opposite direction: the Swiss National Bank had capped the franc's rise at 1.20 to the euro, and dropped the cap with immediate effect. The franc rose sharply.</li>\n</ul>\n</li>\n<li><strong>Borrowing in one currency, earning in another.</strong> When the earning currency falls, the debt grows in the money that pays for it. Households, firms and whole countries have been caught this way. See <a class=\"wl\" href=\"#/map/p/sovereign-default\" data-page=\"sovereign-default\">Sovereign Default</a>.</li>\n<li><strong>The carry trade.</strong> Borrowing in a low-rate currency to hold a high-rate one earns the interest gap while rates are calm. The losses tend to come together, in a rush, when the high-rate currency falls and everyone unwinds at once.</li>\n<li><strong>Hidden exposure.</strong> A fund of foreign assets is a currency position too, whether or not its name says so.</li>\n<li><strong>Controls.</strong> In a crisis, governments can limit buying foreign currency at all. See <a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a> and <a class=\"wl\" href=\"#/map/p/currency-failure\" data-page=\"currency-failure\">Currency Failure</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> whenever you own anything abroad, ask which currency it is priced in, which currency you will spend, and what happens to your return if the two move apart.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — the currencies being exchanged.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — why some currencies are wanted in a crisis and others are sold.</li>\n<li><a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a> — the dollars owed outside the United States, and the demand they create.</li>\n<li><a class=\"wl\" href=\"#/map/p/currency-failure\" data-page=\"currency-failure\">Currency Failure</a> — the far end: when a currency stops working at all.</li>\n<li><a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a> — when the state blocks the exchange.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — currency is a layer of risk that a spread of assets can share.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A foreign fund rises 10% in its own currency, while that currency falls 10% against yours. Did you break even?</p><details><summary>Show answer</summary><p>No. Returns multiply: 1.10 × 0.90 = 0.99, so you lost <strong>1%</strong>. A rise and a fall of the same size never cancel exactly.</p></details></div>\n<div class=\"qa\"><p class=\"q\">A central bank can defend its currency against rising more easily than against falling. Why?</p><details><summary>Show answer</summary><p>To stop a rise, it sells its own currency, which it can create without limit. To stop a fall, it must buy its own currency with foreign reserves, which run out. Even so, a cap on a rise can be abandoned, as Switzerland showed in 2015.</p></details></div>",
-   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Covered interest parity</strong> is the formal name for the forward-rate rule above. Before the 2007–09 financial crisis it held so closely it was treated almost as a law; since then it has been broken persistently. Research at the BIS links the gap to heavy demand for currency hedging and tighter limits on how much banks can arbitrage it away.</li>\n<li><strong>FX swaps</strong> pair a spot swap with a forward one, and were the most-traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way.</li>\n<li><strong>Cross rates and arbitrage.</strong> If EUR/USD, USD/JPY and EUR/JPY don't line up, a trader can go round the triangle for a profit, so in practice the three stay consistent.</li>\n<li><strong>Purchasing power parity</strong> says that, over the long run, rates should move towards the level where the same basket costs the same everywhere. It explains long trends far better than it explains any one year.</li>\n</ul></section>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Covered interest parity</strong> is the formal name for the forward-rate rule above. Before the 2007–09 financial crisis it held so closely it was treated almost as a law; since then it has been broken persistently. Research at the BIS links the gap to heavy demand for currency hedging and tighter limits on how much banks can arbitrage it away.</li>\n<li><strong>FX swaps</strong> pair a spot swap with a forward one (see <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>), and were the most-traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way.</li>\n<li><strong>Cross rates and arbitrage.</strong> If EUR/USD, USD/JPY and EUR/JPY don't line up, a trader can go round the triangle for a profit, so in practice the three stay consistent.</li>\n<li><strong>Purchasing power parity</strong> says that, over the long run, rates should move towards the level where the same basket costs the same everywhere. It explains long trends far better than it explains any one year.</li>\n</ul></section>",
    "links": [
     "capital-controls",
     "cash-and-fiat",
@@ -3289,11 +3298,12 @@ window.MUDMAP = {
     "futures",
     "hierarchy-of-money",
     "inflation",
-    "sovereign-default"
+    "sovereign-default",
+    "swaps"
    ],
    "stub": false,
    "text": "What it is An exchange rate is the price of one currency in another. Every country's fiat currency is valued in its own units at home, so the moment money crosses a border, someone has to swap one promise for another. The market where that happens is the foreign exchange market, usually called FX or forex. Rates are quoted as pairs . A quote of EUR/USD = 1.25 (an illustrative figure, not a real rate) means one euro costs 1.25 US dollars. The first currency is the one being priced; the second is the one you pay in. Turn it round and one dollar costs 1 ÷ 1.25 = 0.80 euros. Most confusion about \"the dollar going up\" comes from reading a pair the wrong way round. By daily trading, it is the largest market in finance. The Bank for International Settlements' survey of April 2025 put FX trading at about $9.6 trillion a day , with the US dollar on one side of 89% of all trades. Why it matters Trade. A firm that sells abroad is paid in one currency and pays its workers in another. Investing abroad. A foreign share or bond carries two risks at once: the asset's own, and the currency it is priced in. Borrowing. A loan in a foreign currency must be repaid in that currency, whatever happens to the one you earn in. Your purchasing power. Imported goods, fuel and holidays get dearer when your currency falls. How it works Who sets the rate. Each country chooses a regime: Regime How it works The trade off Floating The market sets the rate, minute by minute The rate can swing a lot, but the central bank keeps control of its own interest rates Managed The market sets it, but the central bank leans against big moves A middle path; the limits are never fully clear Pegged The central bank promises a fixed rate to another currency Stable while it lasts, but interest rates must follow the anchor country's, and the promise can break To hold a peg, a central bank buys its own currency with foreign reserves when it is under pressure, and raises interest rates to make holding it more attractive. Both have limits. Reserves run out, and very high rates hurt the economy. What moves a floating rate. Several forces at once, which is why short term moves are hard to predict: Interest rate gaps. Higher rates attract money, at least for a while. Inflation gaps. Over long periods, a currency that loses buying power faster at home tends to lose value abroad too. See inflation. Trade and investment flows. Exporters selling foreign earnings, and foreigners buying local assets, both add demand. Fear. In a panic, money runs to the currencies at the top of the hierarchy of money, above all the dollar, which many borrowers worldwide owe. See eurodollars. What a currency move does to your return. Returns multiply; they don't add. Say you own a fund of foreign shares that rises 8% in its own currency in a year, while that currency falls 5% against yours (fictional figures): 1.08 × 0.95 = 1.026, so you made 2.6% , not the 8% the fund reports. If the currency had risen 5% instead: 1.08 × 1.05 = 1.134, so you made 13.4% . The same fund, in the same year, gives two owners in two countries two different results. The forward rate. You can fix a rate now for a swap on a future date. This forward rate is not a forecast. It is set by the gap in interest rates, because otherwise traders could borrow in one currency, lend in the other, lock in the forward and earn a riskless profit. Say one unit of currency A costs 1.20 of currency B, one year interest is 2% in A and 5% in B (fictional figures): forward = 1.20 × 1.05 ÷ 1.02 = 1.235 The higher rate currency, B, buys less in the forward than it does now, which exactly offsets its higher interest. Hedging with forwards removes the currency swing, but it also gives up, or pays, that interest gap. See futures for the same idea on other assets. What goes wrong Pegs break, and suddenly. A peg looks stable right up to the day it goes: United Kingdom, 16 September 1992. The government raised interest rates twice in one day to keep the pound inside the European Exchange Rate Mechanism, then left it that evening. The pound fell. Switzerland, 15 January 2015. The opposite direction: the Swiss National Bank had capped the franc's rise at 1.20 to the euro, and dropped the cap with immediate effect. The franc rose sharply. Borrowing in one currency, earning in another. When the earning currency falls, the debt grows in the money that pays for it. Households, firms and whole countries have been caught this way. See sovereign default. The carry trade. Borrowing in a low rate currency to hold a high rate one earns the interest gap while rates are calm. The losses tend to come together, in a rush, when the high rate currency falls and everyone unwinds at once. Hidden exposure. A fund of foreign assets is a currency position too, whether or not its name says so. Controls. In a crisis, governments can limit buying foreign currency at all. See capital controls and currency failure. Key rule: whenever you own anything abroad, ask which currency it is priced in, which currency you will spend, and what happens to your return if the two move apart. Connects to cash and fiat — the currencies being exchanged. hierarchy of money — why some currencies are wanted in a crisis and others are sold. eurodollars — the dollars owed outside the United States, and the demand they create. currency failure — the far end: when a currency stops working at all. capital controls — when the state blocks the exchange. diversification — currency is a layer of risk that a spread of assets can share. Check yourself Q: A foreign fund rises 10% in its own currency, while that currency falls 10% against yours. Did you break even? A: No. Returns multiply: 1.10 × 0.90 = 0.99, so you lost 1% . A rise and a fall of the same size never cancel exactly. Q: A central bank can defend its currency against rising more easily than against falling. Why? A: To stop a rise, it sells its own currency, which it can create without limit. To stop a fall, it must buy its own currency with foreign reserves, which run out. Even so, a cap on a rise can be abandoned, as Switzerland showed in 2015.",
-   "textDeep": "Going deeper Covered interest parity is the formal name for the forward rate rule above. Before the 2007–09 financial crisis it held so closely it was treated almost as a law; since then it has been broken persistently. Research at the BIS links the gap to heavy demand for currency hedging and tighter limits on how much banks can arbitrage it away. FX swaps pair a spot swap with a forward one, and were the most traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way. Cross rates and arbitrage. If EUR/USD, USD/JPY and EUR/JPY don't line up, a trader can go round the triangle for a profit, so in practice the three stay consistent. Purchasing power parity says that, over the long run, rates should move towards the level where the same basket costs the same everywhere. It explains long trends far better than it explains any one year.",
+   "textDeep": "Going deeper Covered interest parity is the formal name for the forward rate rule above. Before the 2007–09 financial crisis it held so closely it was treated almost as a law; since then it has been broken persistently. Research at the BIS links the gap to heavy demand for currency hedging and tighter limits on how much banks can arbitrage it away. FX swaps pair a spot swap with a forward one (see swaps), and were the most traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way. Cross rates and arbitrage. If EUR/USD, USD/JPY and EUR/JPY don't line up, a trader can go round the triangle for a profit, so in practice the three stay consistent. Purchasing power parity says that, over the long run, rates should move towards the level where the same basket costs the same everywhere. It explains long trends far better than it explains any one year.",
    "children": [],
    "jobs": [],
    "quals": [
@@ -3311,7 +3321,8 @@ window.MUDMAP = {
     "cash-and-fiat",
     "currency-failure",
     "eurodollars",
-    "money"
+    "money",
+    "swaps"
    ],
    "backlinksAdv": [
     "eurodollars"
@@ -4036,7 +4047,8 @@ window.MUDMAP = {
     "leverage",
     "options",
     "perpetuals",
-    "real-assets"
+    "real-assets",
+    "swaps"
    ],
    "backlinksAdv": [
     "perpetuals"
@@ -4906,7 +4918,8 @@ window.MUDMAP = {
     "position-sizing",
     "private-business",
     "real-estate",
-    "sharpe-ratio"
+    "sharpe-ratio",
+    "swaps"
    ],
    "backlinksAdv": [
     "perpetuals",
@@ -6789,7 +6802,8 @@ window.MUDMAP = {
     "flow:how-a-trade-settles",
     "futures",
     "markets",
-    "shares"
+    "shares",
+    "swaps"
    ],
    "backlinksAdv": []
   },
@@ -7339,6 +7353,91 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "swaps": {
+   "id": "swaps",
+   "title": "Swaps",
+   "short": "",
+   "parent": "derivatives",
+   "order": 2.5,
+   "summary": "Two parties agree to exchange streams of payments for years: fixed interest for floating, one currency for another, or regular premiums for protection against a default.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "derivatives",
+    "swaps",
+    "interest rate swap",
+    "credit default swap",
+    "cds",
+    "total return swap"
+   ],
+   "sources": [
+    "FCA, The USD LIBOR panel ceases at end-June 2023 (2023)",
+    "G20 Leaders' Statement, Pittsburgh Summit (September 2009)",
+    "Yale Program on Financial Stability, The rescue of AIG: revolving credit facility",
+    "ESMA, Leverage and derivatives: the case of Archegos"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "derivatives",
+    "swaps"
+   ],
+   "branch": "derivatives",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>swap</strong> is a contract in which two parties agree to exchange streams of payments over a period, often years. Each payment is worked out on an agreed amount called the <strong>notional</strong>. In most interest-rate swaps the notional itself never changes hands; it is only the number the payments are calculated on.</p>\n<p>There are four main kinds:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Swap</th>\n<th>What is exchanged</th>\n<th>Typical use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Interest-rate swap</strong></td>\n<td>A fixed rate for a floating rate, in one currency</td>\n<td>Turning a floating-rate loan into a fixed one, or the reverse</td>\n</tr>\n<tr>\n<td><strong>Currency swap</strong></td>\n<td>Payments in one currency for payments in another</td>\n<td>Borrowing in one currency while spending in another</td>\n</tr>\n<tr>\n<td><strong>Credit default swap</strong> (CDS)</td>\n<td>Regular premiums for a payout if a borrower defaults</td>\n<td>Insuring a bond, or taking a view on a borrower's credit</td>\n</tr>\n<tr>\n<td><strong>Total return swap</strong></td>\n<td>Everything an asset earns, for a financing fee</td>\n<td>Getting an asset's gains and losses without owning it</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it exists</h2>\n<p>Swaps let a firm keep the funding it can get and change the risk it carries. A company may only be able to borrow at a floating rate but want predictable costs; a pension fund may want long-term interest income without buying more bonds; a bank may want to shed the credit risk of one big borrower without selling the loan. A swap moves that one risk to someone who wants it, and leaves everything else in place.</p>\n<h2>How it works</h2>\n<p><strong>Interest-rate swap.</strong> Say a company agrees to pay a fixed 4% a year on a notional of 10,000,000 and receive a floating reference rate (fictional figures). Only the difference is paid:</p>\n<ul>\n<li>In a year when the reference rate is 3%, the company pays (4% − 3%) × 10,000,000 = <strong>100,000</strong>.</li>\n<li>In a year when it is 5.5%, the company receives (5.5% − 4%) × 10,000,000 = <strong>150,000</strong>.</li>\n</ul>\n<p>Now add the company's floating-rate loan at the reference rate plus 1%. It pays the reference rate plus 1% to the bank, receives the reference rate from the swap and pays 4%. The floating parts cancel, so its cost is 1% + 4% = <strong>5%</strong>, or <strong>500,000</strong> a year, whatever rates do. That is the whole point: the swap turned an unknown cost into a known one.</p>\n<p><strong>Reference rates.</strong> For decades many swaps were tied to LIBOR, a rate set from banks' own estimates of what they could borrow at. Sterling LIBOR's panel ended at the end of 2021 and US dollar LIBOR's on 30 June 2023. Swaps moved to overnight rates built from real trades, such as SOFR for US dollars and SONIA for sterling.</p>\n<p><strong>Currency swaps.</strong> The two sides swap payments in two currencies, often swapping the amounts back at the end. A firm earning in one currency can borrow in another and swap the payments into the money it earns. Short-term <strong>FX swaps</strong> are the most-traded instrument in the currency market, and the US central bank uses them to lend dollars to other central banks in a crisis. See <a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a> and <a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a>.</p>\n<p><strong>Credit default swaps.</strong> The buyer pays a regular premium; the seller pays out if a named borrower defaults. Say you buy protection on 10,000,000 of a company's bonds at 2% a year, so <strong>200,000</strong> a year (fictional figures). The company defaults and its bonds recover 40% of their value. The seller pays the loss: 10,000,000 × (1 − 0.40) = <strong>6,000,000</strong>. Unlike insurance, you don't need to own the bonds to buy the protection. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</p>\n<p><strong>Total return swaps.</strong> A bank holds an asset, such as a block of shares, and pays you everything it earns: price gains and dividends. You pay the bank any price losses plus a financing fee. You get the exposure of an owner without owning, and usually for only a small deposit. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>Who stands between the sides.</strong> Most swaps are agreed privately rather than on an exchange. After 2008, the G20 agreed in September 2009 that standard contracts should be cleared through central clearing houses, with collateral posted against daily moves. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> and <a class=\"wl\" href=\"#/map/p/clearing-house-failure\" data-page=\"clearing-house-failure\">Clearing House Failure</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>The other side can't pay.</strong> A swap is a promise that can last for years. On 16 September 2008 the US central bank announced an emergency credit line of $85 billion for AIG, an insurer that had sold huge amounts of credit protection and faced collateral calls from its CDS buyers. Protection is only worth as much as the seller.</li>\n<li><strong>Hidden leverage.</strong> Total return swaps give the risk of owning shares without the shares appearing in the owner's name. The family office Archegos built concentrated positions this way through several banks, none of which saw the whole picture. When it failed to meet margin calls in March 2021, the banks lost more than $10 billion. See <a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a>.</li>\n<li><strong>Collateral calls in a fast market.</strong> A swap that is fine over ten years can demand large amounts of cash in a single week if rates jump, and forced selling to raise that cash can push prices further.</li>\n<li><strong>The notional looks frightening, and misleads both ways.</strong> Total notional amounts are huge, but the money actually at risk is usually far smaller. The reverse also holds: a modest-looking market value can grow fast when prices move.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a swap swaps one risk for another. You always keep the risk that the other side won't pay, so ask who they are and what collateral backs the promise.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — a swap works like a string of forward agreements, one for each payment date.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — what interest-rate swaps change, and where the fixed swap rate comes from.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — what credit default swaps price.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a> — what currency swaps manage.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — what total return swaps can hide.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank pays a fixed 3% and receives the floating rate on a notional of 5,000,000. The floating rate is 4.2% this year. What is the net payment, and who pays?</p><details><summary>Show answer</summary><p>The bank receives (4.2% − 3%) × 5,000,000 = <strong>60,000</strong>. The side paying fixed gains when floating rates rise above the fixed rate.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why did AIG's sale of credit protection end up needing an emergency loan?</p><details><summary>Show answer</summary><p>Because a seller of protection takes on the very risk it is paid for. When credit fears rose all at once, its buyers demanded collateral at the same time. Insurance that fails exactly when it is needed is the core danger of credit derivatives.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>The swap rate.</strong> The fixed rate on a new swap is set so the deal is worth zero to both sides at the start. Across maturities, swap rates form a curve that is used, like government bond yields, as a benchmark for pricing loans and bonds.</li>\n<li><strong>Valuing a swap later.</strong> Once rates move, one side's stream is worth more than the other's. The value of the swap is the difference between the two streams, each discounted back to now. See <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a>.</li>\n<li><strong>Master agreements.</strong> Privately agreed swaps usually sit under one standard master contract per pair of firms. It sets how payments are netted, what collateral is posted, and what happens if one side defaults.</li>\n</ul></section>",
+   "links": [
+    "bonds",
+    "clearing-house-failure",
+    "credit-risk",
+    "derivatives",
+    "eurodollars",
+    "exchange-rates",
+    "futures",
+    "leverage",
+    "settlement",
+    "time-value-of-money",
+    "yield-curve"
+   ],
+   "stub": false,
+   "text": "What it is A swap is a contract in which two parties agree to exchange streams of payments over a period, often years. Each payment is worked out on an agreed amount called the notional . In most interest rate swaps the notional itself never changes hands; it is only the number the payments are calculated on. There are four main kinds: Swap What is exchanged Typical use Interest rate swap A fixed rate for a floating rate, in one currency Turning a floating rate loan into a fixed one, or the reverse Currency swap Payments in one currency for payments in another Borrowing in one currency while spending in another Credit default swap (CDS) Regular premiums for a payout if a borrower defaults Insuring a bond, or taking a view on a borrower's credit Total return swap Everything an asset earns, for a financing fee Getting an asset's gains and losses without owning it Why it exists Swaps let a firm keep the funding it can get and change the risk it carries. A company may only be able to borrow at a floating rate but want predictable costs; a pension fund may want long term interest income without buying more bonds; a bank may want to shed the credit risk of one big borrower without selling the loan. A swap moves that one risk to someone who wants it, and leaves everything else in place. How it works Interest rate swap. Say a company agrees to pay a fixed 4% a year on a notional of 10,000,000 and receive a floating reference rate (fictional figures). Only the difference is paid: In a year when the reference rate is 3%, the company pays (4% − 3%) × 10,000,000 = 100,000 . In a year when it is 5.5%, the company receives (5.5% − 4%) × 10,000,000 = 150,000 . Now add the company's floating rate loan at the reference rate plus 1%. It pays the reference rate plus 1% to the bank, receives the reference rate from the swap and pays 4%. The floating parts cancel, so its cost is 1% + 4% = 5% , or 500,000 a year, whatever rates do. That is the whole point: the swap turned an unknown cost into a known one. Reference rates. For decades many swaps were tied to LIBOR, a rate set from banks' own estimates of what they could borrow at. Sterling LIBOR's panel ended at the end of 2021 and US dollar LIBOR's on 30 June 2023. Swaps moved to overnight rates built from real trades, such as SOFR for US dollars and SONIA for sterling. Currency swaps. The two sides swap payments in two currencies, often swapping the amounts back at the end. A firm earning in one currency can borrow in another and swap the payments into the money it earns. Short term FX swaps are the most traded instrument in the currency market, and the US central bank uses them to lend dollars to other central banks in a crisis. See exchange rates and eurodollars. Credit default swaps. The buyer pays a regular premium; the seller pays out if a named borrower defaults. Say you buy protection on 10,000,000 of a company's bonds at 2% a year, so 200,000 a year (fictional figures). The company defaults and its bonds recover 40% of their value. The seller pays the loss: 10,000,000 × (1 − 0.40) = 6,000,000 . Unlike insurance, you don't need to own the bonds to buy the protection. See credit risk. Total return swaps. A bank holds an asset, such as a block of shares, and pays you everything it earns: price gains and dividends. You pay the bank any price losses plus a financing fee. You get the exposure of an owner without owning, and usually for only a small deposit. See leverage. Who stands between the sides. Most swaps are agreed privately rather than on an exchange. After 2008, the G20 agreed in September 2009 that standard contracts should be cleared through central clearing houses, with collateral posted against daily moves. See settlement and clearing house failure. What goes wrong The other side can't pay. A swap is a promise that can last for years. On 16 September 2008 the US central bank announced an emergency credit line of $85 billion for AIG, an insurer that had sold huge amounts of credit protection and faced collateral calls from its CDS buyers. Protection is only worth as much as the seller. Hidden leverage. Total return swaps give the risk of owning shares without the shares appearing in the owner's name. The family office Archegos built concentrated positions this way through several banks, none of which saw the whole picture. When it failed to meet margin calls in March 2021, the banks lost more than $10 billion. See derivatives. Collateral calls in a fast market. A swap that is fine over ten years can demand large amounts of cash in a single week if rates jump, and forced selling to raise that cash can push prices further. The notional looks frightening, and misleads both ways. Total notional amounts are huge, but the money actually at risk is usually far smaller. The reverse also holds: a modest looking market value can grow fast when prices move. Key rule: a swap swaps one risk for another. You always keep the risk that the other side won't pay, so ask who they are and what collateral backs the promise. Connects to futures — a swap works like a string of forward agreements, one for each payment date. bonds and yield curve — what interest rate swaps change, and where the fixed swap rate comes from. credit risk — what credit default swaps price. exchange rates — what currency swaps manage. leverage — what total return swaps can hide. Check yourself Q: A bank pays a fixed 3% and receives the floating rate on a notional of 5,000,000. The floating rate is 4.2% this year. What is the net payment, and who pays? A: The bank receives (4.2% − 3%) × 5,000,000 = 60,000 . The side paying fixed gains when floating rates rise above the fixed rate. Q: Why did AIG's sale of credit protection end up needing an emergency loan? A: Because a seller of protection takes on the very risk it is paid for. When credit fears rose all at once, its buyers demanded collateral at the same time. Insurance that fails exactly when it is needed is the core danger of credit derivatives.",
+   "textDeep": "Going deeper The swap rate. The fixed rate on a new swap is set so the deal is worth zero to both sides at the start. Across maturities, swap rates form a curve that is used, like government bond yields, as a benchmark for pricing loans and bonds. Valuing a swap later. Once rates move, one side's stream is worth more than the other's. The value of the swap is the difference between the two streams, each discounted back to now. See time value of money. Master agreements. Privately agreed swaps usually sit under one standard master contract per pair of firms. It sets how payments are netted, what collateral is posted, and what happens if one side defaults.",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-DRM — Derivatives and Risk Management"
+    },
+    {
+     "q": "money-banking",
+     "m": "MB5 — Banking as advance clearing: swaps and capital markets"
+    }
+   ],
+   "answers": [],
+   "backlinks": [
+    "credit-risk",
+    "derivatives",
+    "eurodollars",
+    "exchange-rates"
+   ],
+   "backlinksAdv": [
+    "eurodollars",
+    "exchange-rates"
+   ]
+  },
   "t-bills": {
    "id": "t-bills",
    "title": "Treasury Bills",
@@ -7536,9 +7635,12 @@ window.MUDMAP = {
     "personal-capital",
     "returns",
     "risk-and-return",
+    "swaps",
     "valuation"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "swaps"
+   ]
   },
   "tokens": {
    "id": "tokens",
@@ -7943,7 +8045,8 @@ window.MUDMAP = {
    "backlinks": [
     "fixed-income",
     "flow:qe-and-qt",
-    "market-regimes"
+    "market-regimes",
+    "swaps"
    ],
    "backlinksAdv": []
   }
@@ -8923,13 +9026,17 @@ window.MUDMAP = {
        "note": "Contingent claims"
       },
       {
+       "page": "swaps",
+       "note": "Swaps as a series of forward commitments"
+      },
+      {
        "page": "leverage",
        "note": "How derivatives magnify exposure"
       }
      ],
      "note": "",
      "state": "mapped",
-     "pages": 3
+     "pages": 4
     },
     {
      "title": "CFA1-ALT — Alternative Investments",
@@ -9034,6 +9141,7 @@ window.MUDMAP = {
     "duration",
     "futures",
     "options",
+    "swaps",
     "leverage",
     "real-estate",
     "reits",
@@ -9470,11 +9578,15 @@ window.MUDMAP = {
       {
        "page": "futures",
        "note": "Forward commitments"
+      },
+      {
+       "page": "swaps",
+       "note": "Interest-rate, currency and credit default swaps"
       }
      ],
-     "note": "Partly mapped: interest-rate and credit-default swaps need pages of their own (Derivatives).",
-     "state": "partial",
-     "pages": 2
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "MB6 — Money in the real world",
@@ -9515,18 +9627,19 @@ window.MUDMAP = {
     "exchange-rates",
     "bonds",
     "futures",
+    "swaps",
     "market-regimes",
     "backstops"
    ],
    "status": "mapped",
    "coverage": {
-    "mapped": 4,
-    "partial": 2,
+    "mapped": 5,
+    "partial": 1,
     "none": 0,
     "out": 0,
     "modules": 6,
     "inScope": 6,
-    "pct": 67
+    "pct": 83
    }
   },
   "princeton-bitcoin": {
@@ -9783,13 +9896,13 @@ window.MUDMAP = {
   }
  },
  "coverage": {
-  "mapped": 30,
-  "partial": 4,
+  "mapped": 31,
+  "partial": 3,
   "none": 29,
   "out": 5,
   "modules": 68,
   "inScope": 63,
-  "pct": 48,
+  "pct": 49,
   "quals": 9
  },
  "rungs": [
@@ -10366,5 +10479,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-26 10:51 UTC"
+ "built": "2026-10-26 11:03 UTC"
 };

@@ -57,6 +57,7 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 ## CFA1-DRM — Derivatives and Risk Management
 - [[futures]] — forward commitments
 - [[options]] — contingent claims
+- [[swaps]] — swaps as a series of forward commitments
 - [[leverage]] — how derivatives magnify exposure
 
 ## CFA1-ALT — Alternative Investments

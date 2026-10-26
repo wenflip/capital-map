@@ -81,6 +81,6 @@ The higher-rate currency, B, buys less in the forward than it does now, which ex
 
 ## Going deeper
 - **Covered interest parity** is the formal name for the forward-rate rule above. Before the 2007–09 financial crisis it held so closely it was treated almost as a law; since then it has been broken persistently. Research at the BIS links the gap to heavy demand for currency hedging and tighter limits on how much banks can arbitrage it away.
-- **FX swaps** pair a spot swap with a forward one, and were the most-traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way.
+- **FX swaps** pair a spot swap with a forward one (see [[swaps]]), and were the most-traded FX instrument in the 2025 survey, at about 31% of turnover. Much of the offshore dollar system is funded this way.
 - **Cross rates and arbitrage.** If EUR/USD, USD/JPY and EUR/JPY don't line up, a trader can go round the triangle for a profit, so in practice the three stay consistent.
 - **Purchasing power parity** says that, over the long run, rates should move towards the level where the same basket costs the same everywhere. It explains long trends far better than it explains any one year.
