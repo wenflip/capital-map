@@ -189,6 +189,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bank-deposits",
+    "failure-modes",
     "money"
    ],
    "backlinksAdv": []
@@ -361,16 +362,21 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "backstops",
+    "capital-controls",
     "cartography-of-wealth",
     "cash-and-fiat",
     "central-bank-money",
     "claims-and-liabilities",
+    "currency-failure",
     "custodial-crypto",
     "deposit-insurance",
     "eurodollars",
+    "financial-repression",
+    "flow:when-a-country-fails",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
     "money",
+    "sovereign-default",
     "stablecoins"
    ],
    "backlinksAdv": [
@@ -425,8 +431,11 @@ window.MUDMAP = {
    "backlinks": [
     "backstops",
     "credit-risk",
+    "failure-modes",
     "fixed-income",
-    "flow:when-a-bank-fails"
+    "flow:when-a-bank-fails",
+    "flow:when-a-country-fails",
+    "sovereign-default"
    ],
    "backlinksAdv": []
   },
@@ -696,17 +705,22 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bank-sovereign-loop",
+    "broker-failure",
+    "capital-controls",
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
     "credit-risk",
+    "currency-failure",
     "equities",
+    "financial-repression",
     "fixed-income",
     "foundation",
     "hierarchy-of-money",
     "inflation",
     "markets",
     "money",
+    "sovereign-default",
     "time-value-of-money"
    ],
    "backlinksAdv": []
@@ -760,6 +774,65 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "broker-failure": {
+   "id": "broker-failure",
+   "title": "Broker and Custodian Failure",
+   "short": "Broker Failure",
+   "parent": "failure-modes",
+   "order": 1.0,
+   "summary": "When the firm holding your investments fails: what segregation and protection schemes cover, and what they don't.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "brokers",
+    "custody",
+    "fraud"
+   ],
+   "sources": [
+    "InvestmentNews, MF Global starts final repayments of 100% of customer claims (2014)",
+    "SIPC, Madoff trustee distribution (2018)",
+    "SIPC, What SIPC Protects"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "broker-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>Your <strong>broker</strong>, exchange or custodian: the firm that holds your shares, funds, cash or crypto on your behalf. What it promised is that your assets are yours, kept apart from its own, and returned on request. See <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> and <a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a>.</p>\n<h2>The backstop</h2>\n<ul>\n<li><strong>Segregation.</strong> Client assets should be held separately from the firm's own, so the firm's creditors can't claim them.</li>\n<li><strong>Records and audits</strong> that show which customer owns what.</li>\n<li><strong>Investor protection schemes.</strong> In the US, SIPC covers up to $500,000 per customer, including $250,000 of cash, when customer assets are missing after a broker fails. Other countries have their own schemes and limits.</li>\n</ul>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Fraud and missing assets.</strong> Segregation only works if the firm actually did it.</li>\n<li><strong>The limits.</strong> Losses above the scheme's cap are shared with other creditors.</li>\n<li><strong>Not every asset or firm is covered.</strong> SIPC doesn't cover a fall in prices, and many crypto platforms aren't members of any scheme.</li>\n<li><strong>Time.</strong> Even when customers are repaid in full, their money can be frozen for months or years.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>Madoff, 2008.</strong> On 11 December 2008 Bernard Madoff's investment firm was revealed as a fraud: customer statements showed holdings that didn't exist. By 2018 the court-appointed trustee had recovered about $13.3 billion and returned about two-thirds of allowed customer claims.</li>\n<li><strong>MF Global, 2011.</strong> The broker collapsed on 31 October 2011 with more than $1.6 billion of customer money missing that should have been segregated. Customers were made 100% whole only in 2014, two and a half years later.</li>\n<li><strong>FTX, 2022.</strong> Customer funds were misused. Claims were valued in dollars at the bankruptcy date, near a market low, so customers repaid in full still missed the later rise. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Everything held through the firm: <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a>, <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a>, <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">funds</a> and cash at a broker, and <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a> on an exchange. It doesn't touch <a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> crypto, physical <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> or <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> you hold title to.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a protection scheme repays missing assets, not market losses, and only up to its limit. Spread large holdings across firms, and know which scheme, if any, covers each one.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your US broker fails and your shares have also fallen 20%. What does SIPC cover?</p><details><summary>Show answer</summary><p>Only shares or cash that are missing because of the failure, up to the limits. It doesn't make up the 20% fall in price.</p></details></div>\n<div class=\"qa\"><p class=\"q\">MF Global's customers were repaid in full. Why is that case still a warning?</p><details><summary>Show answer</summary><p>Because segregation had failed, and it took two and a half years. Being repaid eventually isn't the same as having access to your money when you need it.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "brokers",
+    "custodial-crypto",
+    "custody",
+    "funds-and-etfs",
+    "gold",
+    "real-estate",
+    "self-custody",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails Your broker , exchange or custodian: the firm that holds your shares, funds, cash or crypto on your behalf. What it promised is that your assets are yours, kept apart from its own, and returned on request. See brokers and custody. The backstop Segregation. Client assets should be held separately from the firm's own, so the firm's creditors can't claim them. Records and audits that show which customer owns what. Investor protection schemes. In the US, SIPC covers up to $500,000 per customer, including $250,000 of cash, when customer assets are missing after a broker fails. Other countries have their own schemes and limits. Where the backstop runs out Fraud and missing assets. Segregation only works if the firm actually did it. The limits. Losses above the scheme's cap are shared with other creditors. Not every asset or firm is covered. SIPC doesn't cover a fall in prices, and many crypto platforms aren't members of any scheme. Time. Even when customers are repaid in full, their money can be frozen for months or years. Cases Madoff, 2008. On 11 December 2008 Bernard Madoff's investment firm was revealed as a fraud: customer statements showed holdings that didn't exist. By 2018 the court appointed trustee had recovered about $13.3 billion and returned about two thirds of allowed customer claims. MF Global, 2011. The broker collapsed on 31 October 2011 with more than $1.6 billion of customer money missing that should have been segregated. Customers were made 100% whole only in 2014, two and a half years later. FTX, 2022. Customer funds were misused. Claims were valued in dollars at the bankruptcy date, near a market low, so customers repaid in full still missed the later rise. See custodial crypto. What it kills Everything held through the firm: shares, bonds, funds and cash at a broker, and custodial crypto on an exchange. It doesn't touch self custody crypto, physical gold or real estate you hold title to. Key rule: a protection scheme repays missing assets, not market losses, and only up to its limit. Spread large holdings across firms, and know which scheme, if any, covers each one. Check yourself Q: Your US broker fails and your shares have also fallen 20%. What does SIPC cover? A: Only shares or cash that are missing because of the failure, up to the limits. It doesn't make up the 20% fall in price. Q: MF Global's customers were repaid in full. Why is that case still a warning? A: Because segregation had failed, and it took two and a half years. Being repaid eventually isn't the same as having access to your money when you need it.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes"
+   ],
+   "backlinksAdv": []
+  },
   "brokers": {
    "id": "brokers",
    "title": "Brokers",
@@ -810,6 +883,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "account-types",
+    "broker-failure",
     "custodial-crypto",
     "custody",
     "equities",
@@ -817,6 +891,65 @@ window.MUDMAP = {
     "markets",
     "settlement",
     "shares"
+   ],
+   "backlinksAdv": []
+  },
+  "capital-controls": {
+   "id": "capital-controls",
+   "title": "Capital Controls and Freezes",
+   "short": "Capital Controls",
+   "parent": "failure-modes",
+   "order": 2.0,
+   "summary": "When a government limits how much money can leave the bank or the country, and how long such limits have lasted.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "capital controls",
+    "deposits",
+    "crisis"
+   ],
+   "sources": [
+    "CNBC, Iceland ends capital controls more than eight years after 2008 crash (2017)",
+    "Capital controls in Greece",
+    "Corralito (Argentina, 2001)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "capital-controls"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>Your <strong>access</strong> to your own money. In a crisis a government can cap cash withdrawals, block transfers abroad, or freeze or convert deposits. The money still exists on paper, but you can't move or use it freely.</p>\n<h2>Why governments do it</h2>\n<p>To stop a run: if everyone tries to withdraw or send money abroad at once, banks and the currency can collapse. Controls buy time. Since 2012 the IMF has accepted that controls can be appropriate in some crises.</p>\n<h2>The backstop</h2>\n<p>For this rung there usually isn't one. The state is the actor, not the protector. What softens controls is their design: allowances for essentials, exemptions for trade, and a clear plan to lift them.</p>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>They last longer than promised.</strong> Temporary controls have often stayed for years.</li>\n<li><strong>They come with other losses.</strong> Controls often arrive together with bank losses, currency conversion or devaluation.</li>\n<li><strong>They catch everyone,</strong> including depositors at healthy banks.</li>\n</ul>\n<h2>Cases</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Country</th>\n<th>Imposed</th>\n<th>Lifted</th>\n<th>What happened</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Argentina</td>\n<td>December 2001</td>\n<td>Eased over 2002</td>\n<td>Withdrawals capped at 250 pesos a week; dollar deposits later converted to pesos at 1.4 to the dollar as the market rate rose towards 4</td>\n</tr>\n<tr>\n<td>Iceland</td>\n<td>2008</td>\n<td>March 2017</td>\n<td>Controls on moving money out lasted more than eight years</td>\n</tr>\n<tr>\n<td>Cyprus</td>\n<td>March 2013</td>\n<td>April 2015</td>\n<td>Imposed alongside the bail-in of large deposits</td>\n</tr>\n<tr>\n<td>Greece</td>\n<td>June 2015</td>\n<td>1 September 2019</td>\n<td>Banks shut for three weeks; withdrawals capped at €60 a day; controls eased over four years</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What it kills</h2>\n<p><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> and <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> held inside the country, and any <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> or <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> you can't sell or move abroad. Physical <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a>, <a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> crypto and assets already held abroad are harder to trap, though not beyond the law.</p>\n<blockquote>\n<p><strong>Key rule:</strong> \"temporary\" controls are measured in years. Money you might need in a crisis is only safe if it can't all be frozen by one decision.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Greece's capital controls began in June 2015. How long until they were fully lifted?</p><details><summary>Show answer</summary><p>Just over four years, until 1 September 2019.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why are capital controls described as a rung with no backstop?</p><details><summary>Show answer</summary><p>Because the government imposing them is the same body that would normally protect you. The only protection is how the controls are designed and how quickly they're lifted.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "bonds",
+    "cash-and-fiat",
+    "gold",
+    "self-custody",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails Your access to your own money. In a crisis a government can cap cash withdrawals, block transfers abroad, or freeze or convert deposits. The money still exists on paper, but you can't move or use it freely. Why governments do it To stop a run: if everyone tries to withdraw or send money abroad at once, banks and the currency can collapse. Controls buy time. Since 2012 the IMF has accepted that controls can be appropriate in some crises. The backstop For this rung there usually isn't one. The state is the actor, not the protector. What softens controls is their design: allowances for essentials, exemptions for trade, and a clear plan to lift them. Where the backstop runs out They last longer than promised. Temporary controls have often stayed for years. They come with other losses. Controls often arrive together with bank losses, currency conversion or devaluation. They catch everyone, including depositors at healthy banks. Cases Country Imposed Lifted What happened Argentina December 2001 Eased over 2002 Withdrawals capped at 250 pesos a week; dollar deposits later converted to pesos at 1.4 to the dollar as the market rate rose towards 4 Iceland 2008 March 2017 Controls on moving money out lasted more than eight years Cyprus March 2013 April 2015 Imposed alongside the bail in of large deposits Greece June 2015 1 September 2019 Banks shut for three weeks; withdrawals capped at €60 a day; controls eased over four years What it kills bank deposits and cash and fiat held inside the country, and any shares or bonds you can't sell or move abroad. Physical gold, self custody crypto and assets already held abroad are harder to trap, though not beyond the law. Key rule: \"temporary\" controls are measured in years. Money you might need in a crisis is only safe if it can't all be frozen by one decision. Check yourself Q: Greece's capital controls began in June 2015. How long until they were fully lifted? A: Just over four years, until 1 September 2019. Q: Why are capital controls described as a rung with no backstop? A: Because the government imposing them is the same body that would normally protect you. The only protection is how the controls are designed and how quickly they're lifted.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "currency-failure",
+    "failure-modes",
+    "financial-repression",
+    "flow:when-a-country-fails"
    ],
    "backlinksAdv": []
   },
@@ -878,6 +1011,7 @@ window.MUDMAP = {
     "equities",
     "derivatives",
     "portfolio",
+    "failure-modes",
     "markets",
     "measure",
     "practice"
@@ -955,6 +1089,7 @@ window.MUDMAP = {
     "digital-assets",
     "diversification",
     "equities",
+    "failure-modes",
     "fixed-income",
     "foundation",
     "gold",
@@ -1046,11 +1181,15 @@ window.MUDMAP = {
    "backlinks": [
     "bank-deposits",
     "bank-sovereign-loop",
+    "capital-controls",
     "cartography-of-wealth",
+    "currency-failure",
+    "financial-repression",
     "flow:where-money-comes-from",
     "inflation",
     "money",
-    "privacy-and-traceability"
+    "privacy-and-traceability",
+    "sovereign-default"
    ],
    "backlinksAdv": []
   },
@@ -1115,6 +1254,7 @@ window.MUDMAP = {
     "cash-and-fiat",
     "claims-and-liabilities",
     "fixed-income",
+    "flow:when-a-country-fails",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
     "inflation",
@@ -1240,6 +1380,7 @@ window.MUDMAP = {
     "custody",
     "digital-assets",
     "equities",
+    "failure-modes",
     "financial-statements",
     "foundation",
     "funds-and-etfs",
@@ -1480,6 +1621,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "financial-repression",
     "foundation",
     "funds-and-etfs",
     "inflation",
@@ -1616,6 +1758,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "credit-risk",
     "diversification",
+    "failure-modes",
     "foundation",
     "market-regimes",
     "portfolio",
@@ -1677,10 +1820,71 @@ window.MUDMAP = {
    "backlinks": [
     "bonds",
     "derivatives",
+    "failure-modes",
     "financial-statements",
     "fixed-income",
     "real-estate",
     "settlement"
+   ],
+   "backlinksAdv": []
+  },
+  "currency-failure": {
+   "id": "currency-failure",
+   "title": "Currency Failure",
+   "short": "Currency Failure",
+   "parent": "failure-modes",
+   "order": 4.0,
+   "summary": "When a currency stops working as money: hyperinflation, redenomination, and why a central bank can't go bust in its own currency but its money can.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "hyperinflation",
+    "currency",
+    "central banks"
+   ],
+   "sources": [
+    "Bank for International Settlements, Central bank capital and trust in money (BIS Papers 146, 2024)",
+    "Hyperinflation in the Weimar Republic",
+    "Steve Hanke, Zimbabwe hyperinflation estimates"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "currency-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>The <strong>currency itself</strong>. People stop trusting it to hold value, so they spend it as fast as possible, prices race upward, and savings in that currency are wiped out. In the worst cases the currency is abandoned for another.</p>\n<h2>A central bank can't go bust, but its money can</h2>\n<p>A central bank that issues its own currency can always pay its own bills by creating more of it. Central banks have at times run for years with <strong>negative equity</strong>, owing more than they own on paper, and kept operating; the Bank for International Settlements notes this can be fully consistent with keeping trust in money. So a currency doesn't fail like a company, through bankruptcy. It fails when people <strong>stop accepting it</strong>, usually because the government has financed itself by printing far beyond what the economy can absorb.</p>\n<h2>The backstop</h2>\n<p>For individuals, the backstops are holdings outside that currency: other currencies, <a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a>, <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a>, and businesses that earn in stronger money. Governments sometimes end a hyperinflation by tying their currency to another, introducing a new currency, or adopting another country's.</p>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Your income and debts are in the failing currency,</strong> so moving savings doesn't protect your job or your rent.</li>\n<li><strong>Controls often follow,</strong> blocking access to foreign money. See <a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a>.</li>\n<li><strong>Redenominations reset prices, not losses.</strong> Removing zeros makes the numbers smaller; it doesn't return lost value.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>Germany, 1923.</strong> By November 1923 one US dollar was worth about 4.2 trillion marks.</li>\n<li><strong>Zimbabwe, 2008.</strong> Steve Hanke estimated monthly inflation in November 2008 at 79.6 billion percent. The country stopped using its own currency in 2009.</li>\n<li><strong>Venezuela, 2008–21.</strong> The bolívar was redenominated three times, removing three, five and then six zeros.</li>\n</ul>\n<h2>What it kills</h2>\n<p><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a>, <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> in that currency, along with pensions and salaries fixed in it. <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a>, <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a>, <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> of companies that keep earning, and <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> hold up better, but nothing is untouched by a collapsing economy.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a currency is a promise backed by trust in its issuer. Know which currency each of your stores is held in, and whether they're all the same one.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Can a central bank go bankrupt in its own currency?</p><details><summary>Show answer</summary><p>Not in the ordinary sense: it can always create the money to pay what it owes. But the currency can fail as money if people stop trusting and accepting it.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Venezuela removed zeros from its currency three times. Did that protect savers?</p><details><summary>Show answer</summary><p>No. Removing zeros changes the units, not the value. Savings had already lost their buying power before each change.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "bonds",
+    "capital-controls",
+    "cash-and-fiat",
+    "gold",
+    "human-capital",
+    "real-assets",
+    "real-estate",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails The currency itself . People stop trusting it to hold value, so they spend it as fast as possible, prices race upward, and savings in that currency are wiped out. In the worst cases the currency is abandoned for another. A central bank can't go bust, but its money can A central bank that issues its own currency can always pay its own bills by creating more of it. Central banks have at times run for years with negative equity , owing more than they own on paper, and kept operating; the Bank for International Settlements notes this can be fully consistent with keeping trust in money. So a currency doesn't fail like a company, through bankruptcy. It fails when people stop accepting it , usually because the government has financed itself by printing far beyond what the economy can absorb. The backstop For individuals, the backstops are holdings outside that currency: other currencies, real assets, gold, and businesses that earn in stronger money. Governments sometimes end a hyperinflation by tying their currency to another, introducing a new currency, or adopting another country's. Where the backstop runs out Your income and debts are in the failing currency, so moving savings doesn't protect your job or your rent. Controls often follow, blocking access to foreign money. See capital controls. Redenominations reset prices, not losses. Removing zeros makes the numbers smaller; it doesn't return lost value. Cases Germany, 1923. By November 1923 one US dollar was worth about 4.2 trillion marks. Zimbabwe, 2008. Steve Hanke estimated monthly inflation in November 2008 at 79.6 billion percent. The country stopped using its own currency in 2009. Venezuela, 2008–21. The bolívar was redenominated three times, removing three, five and then six zeros. What it kills cash and fiat, bank deposits and bonds in that currency, along with pensions and salaries fixed in it. real estate, gold, shares of companies that keep earning, and human capital hold up better, but nothing is untouched by a collapsing economy. Key rule: a currency is a promise backed by trust in its issuer. Know which currency each of your stores is held in, and whether they're all the same one. Check yourself Q: Can a central bank go bankrupt in its own currency? A: Not in the ordinary sense: it can always create the money to pay what it owes. But the currency can fail as money if people stop trusting and accepting it. Q: Venezuela removed zeros from its currency three times. Did that protect savers? A: No. Removing zeros changes the units, not the value. Savings had already lost their buying power before each change.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes",
+    "flow:when-a-country-fails"
    ],
    "backlinksAdv": []
   },
@@ -1749,6 +1953,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bitcoin",
+    "broker-failure",
     "cartography-of-wealth",
     "custody",
     "holding-crypto",
@@ -1803,6 +2008,7 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
+    "broker-failure",
     "brokers",
     "custodial-crypto",
     "markets",
@@ -2145,6 +2351,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "correlation",
     "equities",
+    "failure-modes",
     "foundation",
     "funds-and-etfs",
     "human-capital",
@@ -2459,6 +2666,134 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "failure-modes": {
+   "id": "failure-modes",
+   "title": "When Things Fail",
+   "short": "When Things Fail",
+   "parent": "capital-system",
+   "order": 9.5,
+   "summary": "The failure ladder: every layer between you and your wealth, what is meant to protect you, and where that protection runs out.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "risk",
+    "failure",
+    "backstops",
+    "history"
+   ],
+   "sources": [
+    "Carmen Reinhart and Kenneth Rogoff, This Time Is Different (2009)",
+    "Study notes"
+   ],
+   "level": "basic",
+   "group": "Putting it together",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. <strong>When Things Fail</strong> walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions:</p>\n<ul>\n<li><strong>What fails</strong>, and what it promised you.</li>\n<li><strong>The backstop:</strong> what is supposed to protect you.</li>\n<li><strong>Where the backstop runs out:</strong> limits, exclusions, delays and discretion.</li>\n<li><strong>What it kills:</strong> which stores on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> it hits.</li>\n</ul>\n<h2>Why it exists</h2>\n<p><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible.</p>\n<p>It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\"</p>\n<h2>How it works</h2>\n<p>The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Rung</th>\n<th>Page</th>\n<th>Typical backstop</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Broker, exchange or custodian</td>\n<td><a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a></td>\n<td>Segregated client assets; investor protection schemes</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Stablecoin issuer</td>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n<td>Reserves, if they're there</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Bank</td>\n<td><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a></td>\n<td>Capital, the central bank, deposit insurance, bail-in</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Clearing house</td>\n<td><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a></td>\n<td>Margin and a default fund</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Ratings and gatekeepers</td>\n<td><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a></td>\n<td>None: they inform, they don't insure</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Capital controls and freezes</td>\n<td><a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a></td>\n<td>None: the state is the one acting</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Quiet default through inflation</td>\n<td><a class=\"wl\" href=\"#/map/p/financial-repression\" data-page=\"financial-repression\">Financial Repression</a></td>\n<td>Real assets and inflation-linked bonds, partly</td>\n</tr>\n<tr>\n<td>8</td>\n<td>The currency</td>\n<td><a class=\"wl\" href=\"#/map/p/currency-failure\" data-page=\"currency-failure\">Currency Failure</a></td>\n<td>Other currencies, real assets</td>\n</tr>\n<tr>\n<td>9</td>\n<td>The country</td>\n<td><a class=\"wl\" href=\"#/map/p/sovereign-default\" data-page=\"sovereign-default\">Sovereign Default</a></td>\n<td>IMF lending and debt restructuring</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for the remaining rungs (insurers, confiscation, the market itself) are still to be written. Until then, <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> covers the 1933 confiscation and <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> the closed markets of 1917 and 1949.</p>\n<p><strong>Two patterns repeat.</strong></p>\n<ul>\n<li><strong>Backstops are layered and linked.</strong> Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n<li><strong>Whoever runs the backstop decides.</strong> Above-limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Counting names instead of rungs.</strong> Many accounts at one broker, or many banks in one country, share the same rungs.</li>\n<li><strong>Treating a backstop as a guarantee.</strong> Limits, delays, exclusions and changing rules decide what you actually get back.</li>\n<li><strong>Ignoring the top of the ladder.</strong> Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional.</li>\n<li><strong>Doom instead of design.</strong> The aim isn't to fear every rung but to make sure no single one can clear the board.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> for every store you own, name the rungs it sits behind. Spread across rungs, not just across names.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — each store's killer, which the ladder sorts by layer.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a> — the bank rung in depth.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — why shared rungs make holdings fail together.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — every rung above you is someone's promise.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold shares in three different funds, all through one broker. Which rung do all three share?</p><details><summary>Show answer</summary><p>The broker. If it fails, all three holdings are affected at once, however different the funds are. See <a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do higher rungs on the ladder do more damage?</p><details><summary>Show answer</summary><p>Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse hits every store priced and held in that currency.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Failure mode and effects analysis.</strong> Engineers list every way a system can fail, how likely and how severe each is, and what detects it. The ladder is the same exercise applied to wealth: each rung is a failure mode, each backstop a control, and each page's limits section is where the control stops working.</li>\n<li><strong>Correlation at the top.</strong> Rungs high on the ladder tend to fail together: a country in crisis often brings currency loss, capital controls and bank failures at once. See the flow <em>When a country fails</em>.</li>\n</ul></section>",
+   "links": [
+    "backstops",
+    "bank-sovereign-loop",
+    "broker-failure",
+    "capital-controls",
+    "cartography-of-wealth",
+    "claims-and-liabilities",
+    "correlation",
+    "credit-risk",
+    "currency-failure",
+    "diversification",
+    "financial-repression",
+    "gold",
+    "settlement",
+    "shares",
+    "sovereign-default",
+    "stablecoins"
+   ],
+   "stub": false,
+   "text": "What it is Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. When Things Fail walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions: What fails , and what it promised you. The backstop: what is supposed to protect you. Where the backstop runs out: limits, exclusions, delays and discretion. What it kills: which stores on the Cartography of Wealth it hits. Why it exists diversification protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible. It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\" How it works The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide. Rung Page Typical backstop 1 Broker, exchange or custodian broker failure Segregated client assets; investor protection schemes 2 Stablecoin issuer stablecoins Reserves, if they're there 3 Bank backstops Capital, the central bank, deposit insurance, bail in 4 Clearing house settlement Margin and a default fund 5 Ratings and gatekeepers credit risk None: they inform, they don't insure 6 Capital controls and freezes capital controls None: the state is the one acting 7 Quiet default through inflation financial repression Real assets and inflation linked bonds, partly 8 The currency currency failure Other currencies, real assets 9 The country sovereign default IMF lending and debt restructuring Pages for the remaining rungs (insurers, confiscation, the market itself) are still to be written. Until then, gold covers the 1933 confiscation and shares the closed markets of 1917 and 1949. Two patterns repeat. Backstops are layered and linked. Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See bank sovereign loop. Whoever runs the backstop decides. Above limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways. What goes wrong Counting names instead of rungs. Many accounts at one broker, or many banks in one country, share the same rungs. Treating a backstop as a guarantee. Limits, delays, exclusions and changing rules decide what you actually get back. Ignoring the top of the ladder. Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional. Doom instead of design. The aim isn't to fear every rung but to make sure no single one can clear the board. Key rule: for every store you own, name the rungs it sits behind. Spread across rungs, not just across names. Connects to cartography of wealth — each store's killer, which the ladder sorts by layer. backstops — the bank rung in depth. diversification and correlation — why shared rungs make holdings fail together. claims and liabilities — every rung above you is someone's promise. Check yourself Q: You hold shares in three different funds, all through one broker. Which rung do all three share? A: The broker. If it fails, all three holdings are affected at once, however different the funds are. See broker failure. Q: Why do higher rungs on the ladder do more damage? A: Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse hits every store priced and held in that currency.",
+   "textDeep": "Going deeper Failure mode and effects analysis. Engineers list every way a system can fail, how likely and how severe each is, and what detects it. The ladder is the same exercise applied to wealth: each rung is a failure mode, each backstop a control, and each page's limits section is where the control stops working. Correlation at the top. Rungs high on the ladder tend to fail together: a country in crisis often brings currency loss, capital controls and bank failures at once. See the flow When a country fails .",
+   "children": [
+    "broker-failure",
+    "capital-controls",
+    "financial-repression",
+    "currency-failure",
+    "sovereign-default"
+   ],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [],
+   "backlinksAdv": []
+  },
+  "financial-repression": {
+   "id": "financial-repression",
+   "title": "Financial Repression",
+   "short": "Financial Repression",
+   "parent": "failure-modes",
+   "order": 3.0,
+   "summary": "How governments have reduced their debts quietly, by holding interest rates below inflation for years.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "inflation",
+    "interest rates",
+    "government debt"
+   ],
+   "sources": [
+    "Carmen Reinhart and M. Belen Sbrancia, The Liquidation of Government Debt (BIS Working Paper 363, 2011)",
+    "Federal Reserve History, The Treasury-Fed Accord"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "financial-repression"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>The <strong>real value</strong> of savings held as cash, deposits and government bonds. Nothing defaults. You're paid every coupon and every penny back, but in money that buys less each year. <strong>Financial repression</strong> is the economists' term for the policies that make this happen: keeping interest rates below inflation, and steering savers and banks into government debt.</p>\n<h2>How it works</h2>\n<p>If inflation is 5% and your savings earn 2%, you lose about 3% of your buying power each year. The government's debt shrinks against the economy by the same mechanism. The usual tools:</p>\n<ul>\n<li><strong>Caps on interest rates</strong>, by law or by the central bank.</li>\n<li><strong>Rules that push banks, pensions and insurers to hold government bonds.</strong></li>\n<li><strong>Limits on moving money abroad</strong>, so savers can't escape. See <a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a>.</li>\n</ul>\n<h2>The backstop</h2>\n<p>There's no rescue, because nothing has formally failed. What helps is owning things that keep pace with prices: <a class=\"wl\" href=\"#/map/p/inflation-linked-bonds\" data-page=\"inflation-linked-bonds\">Inflation-Linked Bonds</a>, <a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a>, and businesses that can raise their prices. None of these is perfect.</p>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>It's slow and easy to miss.</strong> A few percent a year doesn't trigger alarms, but it compounds. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</li>\n<li><strong>\"Safe\" assets are the target.</strong> The savings people think are safest are exactly the ones being diluted.</li>\n<li><strong>Inflation-linked bonds may be scarce,</strong> and their index may not match your own costs.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>The US rate peg, 1942–1951.</strong> From 1942 the Federal Reserve pegged short-term Treasury bills at 3/8% and capped long-term bonds at 2.5%, holding borrowing costs down while wartime and post-war inflation ran higher. The peg ended with the Treasury–Fed Accord of March 1951.</li>\n<li><strong>Advanced economies, 1945–1980.</strong> Carmen Reinhart and M. Belen Sbrancia found that real interest rates were negative roughly half the time in their sample. For the US and UK they estimate that this reduced government debt by about 2–3% of GDP a year.</li>\n<li><strong>The 1970s.</strong> High inflation with interest rates often below it left holders of long-dated bonds repaid in money worth far less. See <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a>.</li>\n</ul>\n<p><strong>The debate.</strong> Economists disagree about how much of the post-war fall in debt came from repression rather than strong growth, and about whether such policies are a hidden tax or sensible crisis management. The term describes a mechanism; it isn't a verdict.</p>\n<h2>What it kills</h2>\n<p><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a>, <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> and fixed-rate <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> most of all, slowly. <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a>, <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a>, <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> and other real assets are less exposed, though they have their own killers.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a default you don't notice is still a default. Check your savings' return after inflation, not before.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your deposit pays 1% while inflation runs at 4% for ten years. Roughly what happens to its buying power?</p><details><summary>Show answer</summary><p>It falls by about 3% a year, so after ten years it buys about a quarter less, even though the bank paid every penny of interest.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does financial repression often come with capital controls?</p><details><summary>Show answer</summary><p>Because savers would otherwise move their money abroad to earn a real return, and the policy only works if they stay.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "bonds",
+    "capital-controls",
+    "cash-and-fiat",
+    "compounding",
+    "gold",
+    "inflation-linked-bonds",
+    "real-assets",
+    "real-estate",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails The real value of savings held as cash, deposits and government bonds. Nothing defaults. You're paid every coupon and every penny back, but in money that buys less each year. Financial repression is the economists' term for the policies that make this happen: keeping interest rates below inflation, and steering savers and banks into government debt. How it works If inflation is 5% and your savings earn 2%, you lose about 3% of your buying power each year. The government's debt shrinks against the economy by the same mechanism. The usual tools: Caps on interest rates , by law or by the central bank. Rules that push banks, pensions and insurers to hold government bonds. Limits on moving money abroad , so savers can't escape. See capital controls. The backstop There's no rescue, because nothing has formally failed. What helps is owning things that keep pace with prices: inflation linked bonds, real assets, and businesses that can raise their prices. None of these is perfect. Where the backstop runs out It's slow and easy to miss. A few percent a year doesn't trigger alarms, but it compounds. See compounding. \"Safe\" assets are the target. The savings people think are safest are exactly the ones being diluted. Inflation linked bonds may be scarce, and their index may not match your own costs. Cases The US rate peg, 1942–1951. From 1942 the Federal Reserve pegged short term Treasury bills at 3/8% and capped long term bonds at 2.5%, holding borrowing costs down while wartime and post war inflation ran higher. The peg ended with the Treasury–Fed Accord of March 1951. Advanced economies, 1945–1980. Carmen Reinhart and M. Belen Sbrancia found that real interest rates were negative roughly half the time in their sample. For the US and UK they estimate that this reduced government debt by about 2–3% of GDP a year. The 1970s. High inflation with interest rates often below it left holders of long dated bonds repaid in money worth far less. See bonds. The debate. Economists disagree about how much of the post war fall in debt came from repression rather than strong growth, and about whether such policies are a hidden tax or sensible crisis management. The term describes a mechanism; it isn't a verdict. What it kills cash and fiat, bank deposits and fixed rate bonds most of all, slowly. real estate, shares, gold and other real assets are less exposed, though they have their own killers. Key rule: a default you don't notice is still a default. Check your savings' return after inflation, not before. Check yourself Q: Your deposit pays 1% while inflation runs at 4% for ten years. Roughly what happens to its buying power? A: It falls by about 3% a year, so after ten years it buys about a quarter less, even though the bank paid every penny of interest. Q: Why does financial repression often come with capital controls? A: Because savers would otherwise move their money abroad to earn a real return, and the policy only works if they stay.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes",
+    "flow:when-a-country-fails"
+   ],
+   "backlinksAdv": []
+  },
   "financial-statements": {
    "id": "financial-statements",
    "title": "Financial Statements",
@@ -2753,6 +3088,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "broker-failure",
     "common-mistakes",
     "diversification",
     "equities",
@@ -2889,12 +3225,17 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "bitcoin",
+    "broker-failure",
+    "capital-controls",
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
     "collectibles",
     "commodities",
+    "currency-failure",
     "custody",
+    "failure-modes",
+    "financial-repression",
     "hierarchy-of-money",
     "money",
     "real-assets"
@@ -3153,9 +3494,11 @@ window.MUDMAP = {
     "account-types",
     "asset-allocation",
     "cartography-of-wealth",
+    "currency-failure",
     "personal-capital",
     "private-business",
-    "social-capital"
+    "social-capital",
+    "sovereign-default"
    ],
    "backlinksAdv": []
   },
@@ -3258,6 +3601,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bonds",
+    "financial-repression",
     "fixed-income"
    ],
    "backlinksAdv": []
@@ -4567,6 +4911,8 @@ window.MUDMAP = {
     "capital-system",
     "collectibles",
     "commodities",
+    "currency-failure",
+    "financial-repression",
     "market-regimes",
     "real-estate"
    ],
@@ -4636,8 +4982,11 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "broker-failure",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "currency-failure",
+    "financial-repression",
     "hierarchy-of-money",
     "inflation",
     "leverage",
@@ -4951,6 +5300,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "broker-failure",
+    "capital-controls",
     "cartography-of-wealth",
     "custody",
     "holding-crypto",
@@ -4966,7 +5317,7 @@ window.MUDMAP = {
    "short": "",
    "parent": "markets",
    "order": 4.0,
-   "summary": "The moment a trade becomes final: money and asset swap hands.",
+   "summary": "The moment a trade becomes final: money and asset swap hands, guaranteed by a clearing house.",
    "tcodes": [],
    "fiori": [],
    "tags": [],
@@ -5010,6 +5361,7 @@ window.MUDMAP = {
    "backlinks": [
     "derivatives",
     "exchanges",
+    "failure-modes",
     "futures",
     "markets",
     "shares"
@@ -5084,14 +5436,20 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "broker-failure",
     "brokers",
+    "capital-controls",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "currency-failure",
     "equities",
+    "failure-modes",
+    "financial-repression",
     "funds-and-etfs",
     "hierarchy-of-money",
     "markets",
     "reits",
+    "sovereign-default",
     "valuation"
    ],
    "backlinksAdv": []
@@ -5284,6 +5642,64 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "sovereign-default": {
+   "id": "sovereign-default",
+   "title": "Sovereign Default",
+   "short": "Sovereign Default",
+   "parent": "failure-modes",
+   "order": 5.0,
+   "summary": "When a government stops paying its debts in full: how often it happens, how it's resolved, and who loses.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "government debt",
+    "default",
+    "restructuring"
+   ],
+   "sources": [
+    "Carmen Reinhart and Kenneth Rogoff, This Time Is Different (2009)",
+    "ESM, What was the private sector debt restructuring of March 2012?",
+    "1998 Russian financial crisis",
+    "Sri Lanka sovereign default"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "sovereign-default"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>A <strong>government's promise to pay</strong> its debts on time and in full. Default can mean missed payments, a forced exchange for new bonds worth less, or a long pause. It usually comes with recession, and often with currency losses and banking trouble.</p>\n<h2>How often</h2>\n<p>More often than most people assume. Carmen Reinhart and Kenneth Rogoff's study of eight centuries of financial crises, <em>This Time Is Different</em>, found that most countries have defaulted at some point, many repeatedly. Debt that borrows in a <strong>foreign currency</strong> is far more exposed than debt in a currency the government issues itself, though a government can still default on its own currency's debt, as Russia did in 1998.</p>\n<h2>The backstop</h2>\n<ul>\n<li><strong>IMF lending,</strong> usually with conditions such as spending cuts and reforms.</li>\n<li><strong>Restructuring:</strong> a negotiated deal to cut or delay what's owed. Clauses in many modern bonds let a large majority of holders bind the rest.</li>\n<li><strong>Other governments,</strong> bilaterally or through groups of creditors.</li>\n</ul>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Haircuts are real losses.</strong> Restructurings usually cut what bondholders get back.</li>\n<li><strong>Holdouts and lawsuits</strong> can drag on for years.</li>\n<li><strong>Domestic damage.</strong> Banks that hold their own government's bonds can be dragged down with it. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<h2>Cases</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Country</th>\n<th>When</th>\n<th>What happened</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Russia</td>\n<td>17 August 1998</td>\n<td>Devalued the ruble, defaulted on domestic bonds and suspended foreign debt payments</td>\n</tr>\n<tr>\n<td>Argentina</td>\n<td>2001</td>\n<td>Defaulted on its government debt, then the largest sovereign default on record</td>\n</tr>\n<tr>\n<td>Greece</td>\n<td>2012</td>\n<td>Private bondholders took a 53.5% cut to face value, about €107 billion of debt relief</td>\n</tr>\n<tr>\n<td>Sri Lanka</td>\n<td>12 April 2022</td>\n<td>Suspended most foreign debt payments: its first sovereign default</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What it kills</h2>\n<p>That country's <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> first, then often its <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> (through bank losses) and <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> (through devaluation), and its <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> in the recession that follows. <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> suffers as jobs disappear.</p>\n<blockquote>\n<p><strong>Key rule:</strong> \"risk-free\" means risk-free in the currency the government issues, and only while trust lasts. A government bond is still a promise, and history is full of broken ones.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why is government debt in a foreign currency riskier than debt in its own currency?</p><details><summary>Show answer</summary><p>Because the government can't create foreign currency. To pay, it has to earn or borrow it, and in a crisis it may not be able to.</p></details></div>\n<div class=\"qa\"><p class=\"q\">In Greece's 2012 restructuring, private bondholders took a 53.5% cut to face value. Was that a default?</p><details><summary>Show answer</summary><p>In substance yes: bondholders got back much less than they were promised, even though it was arranged as a negotiated exchange.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "bank-sovereign-loop",
+    "bonds",
+    "cash-and-fiat",
+    "human-capital",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails A government's promise to pay its debts on time and in full. Default can mean missed payments, a forced exchange for new bonds worth less, or a long pause. It usually comes with recession, and often with currency losses and banking trouble. How often More often than most people assume. Carmen Reinhart and Kenneth Rogoff's study of eight centuries of financial crises, This Time Is Different , found that most countries have defaulted at some point, many repeatedly. Debt that borrows in a foreign currency is far more exposed than debt in a currency the government issues itself, though a government can still default on its own currency's debt, as Russia did in 1998. The backstop IMF lending, usually with conditions such as spending cuts and reforms. Restructuring: a negotiated deal to cut or delay what's owed. Clauses in many modern bonds let a large majority of holders bind the rest. Other governments, bilaterally or through groups of creditors. Where the backstop runs out Haircuts are real losses. Restructurings usually cut what bondholders get back. Holdouts and lawsuits can drag on for years. Domestic damage. Banks that hold their own government's bonds can be dragged down with it. See bank sovereign loop. Cases Country When What happened Russia 17 August 1998 Devalued the ruble, defaulted on domestic bonds and suspended foreign debt payments Argentina 2001 Defaulted on its government debt, then the largest sovereign default on record Greece 2012 Private bondholders took a 53.5% cut to face value, about €107 billion of debt relief Sri Lanka 12 April 2022 Suspended most foreign debt payments: its first sovereign default What it kills That country's bonds first, then often its bank deposits (through bank losses) and cash and fiat (through devaluation), and its shares in the recession that follows. human capital suffers as jobs disappear. Key rule: \"risk free\" means risk free in the currency the government issues, and only while trust lasts. A government bond is still a promise, and history is full of broken ones. Check yourself Q: Why is government debt in a foreign currency riskier than debt in its own currency? A: Because the government can't create foreign currency. To pay, it has to earn or borrow it, and in a crisis it may not be able to. Q: In Greece's 2012 restructuring, private bondholders took a 53.5% cut to face value. Was that a default? A: In substance yes: bondholders got back much less than they were promised, even though it was arranged as a negotiated exchange.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes",
+    "flow:when-a-country-fails"
+   ],
+   "backlinksAdv": []
+  },
   "stablecoins": {
    "id": "stablecoins",
    "title": "Stablecoins",
@@ -5344,6 +5760,7 @@ window.MUDMAP = {
     "central-bank-money",
     "claims-and-liabilities",
     "common-mistakes",
+    "failure-modes",
     "hierarchy-of-money",
     "money",
     "t-bills",
@@ -5951,6 +6368,94 @@ window.MUDMAP = {
       "Public money, and the government standing behind the fund",
       "A banking system bigger than the state; a state that can't borrow",
       "Iceland, 2008: too big to rescue · Lebanon, from 2019: deposits frozen"
+     ]
+    }
+   ]
+  },
+  "when-a-country-fails": {
+   "id": "when-a-country-fails",
+   "title": "When a country fails: how a debt crisis spreads",
+   "summary": "Follow a country's debt crisis from money printing to default, and see which stores each step hits.",
+   "area": "When Things Fail",
+   "adv": false,
+   "order": 3.0,
+   "lanes": [
+    "Who acts",
+    "Whose liability",
+    "What can break",
+    "Where it happened"
+   ],
+   "intro": "<p><em>When a bank fails</em> tests the backstops behind one bank. This flow climbs higher up the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>: the government itself runs out of ways to pay. Real crises don't always follow every step, or in this order, but these links recur.</p>\n<blockquote>\n<p><strong>Key rule:</strong> at the top of the ladder, failures arrive together. Inflation, controls, currency loss and default often hit the same savers at once.</p>\n</blockquote>",
+   "outro": "<h2>What to notice</h2>\n<ul>\n<li><strong>Each step shifts losses onto savers by a different route:</strong> inflation, controls, conversion, devaluation, haircut.</li>\n<li><strong>Domestic \"safe\" assets are hit hardest:</strong> cash, deposits and government bonds all depend on the same government.</li>\n<li><strong>Stores outside the country's system,</strong> such as foreign assets, real assets and <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> that can move, are harder to reach. That's why the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> asks how visible each store is to the state.</li>\n</ul>",
+   "steps": [
+    {
+     "label": "Deficits are funded by the central bank",
+     "page": "central-bank-money",
+     "cells": [
+      "Government and central bank",
+      "The central bank's money",
+      "Trust, if printing outruns the economy",
+      "—"
+     ]
+    },
+    {
+     "label": "Inflation rises while interest rates are held below it",
+     "page": "financial-repression",
+     "cells": [
+      "Central bank and regulators",
+      "Government bonds and deposits",
+      "Savers' real wealth, slowly",
+      "US and UK, 1945–1980"
+     ]
+    },
+    {
+     "label": "Money tries to leave; controls go up",
+     "page": "capital-controls",
+     "cells": [
+      "Government",
+      "Deposits inside the country",
+      "Access to your own money",
+      "Iceland 2008–17 · Greece 2015–19"
+     ]
+    },
+    {
+     "label": "Deposits are frozen or converted",
+     "page": "bank-deposits",
+     "cells": [
+      "Banks, on government orders",
+      "The banks",
+      "Deposits' value and access",
+      "Argentina, 2001"
+     ]
+    },
+    {
+     "label": "The currency collapses or is redenominated",
+     "page": "currency-failure",
+     "cells": [
+      "Markets, then the government",
+      "The central bank",
+      "Everything priced in the currency",
+      "Germany 1923 · Zimbabwe 2008"
+     ]
+    },
+    {
+     "label": "The government defaults or restructures",
+     "page": "sovereign-default",
+     "cells": [
+      "Government, IMF, creditors",
+      "The government",
+      "Bondholders' claims",
+      "Russia 1998 · Greece 2012 · Sri Lanka 2022"
+     ]
+    },
+    {
+     "label": "Banks holding government bonds fail",
+     "page": "bank-sovereign-loop",
+     "cells": [
+      "Banks and the state",
+      "Both, at once",
+      "The rescue, if the rescuer is the one in trouble",
+      "Euro area, from 2010"
      ]
     }
    ]
@@ -7187,5 +7692,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 15:43 UTC"
+ "built": "2026-10-25 16:02 UTC"
 };

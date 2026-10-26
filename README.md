@@ -2,7 +2,7 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: every branch is written (94 pages, no stubs). Next: an accuracy pass across the whole site. See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (no stubs), including the first rungs of the failure ladder. Next: the remaining failure rungs and the Failures view. See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
