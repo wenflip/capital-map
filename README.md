@@ -20,6 +20,7 @@ All content is Markdown:
 | `pages/` | One concept per file. Frontmatter sets its place on the map (`parent`, `order`). |
 | `flows/` | Step-by-step walk-throughs. One table whose first two columns are `Step` and `Page`; further columns are detail rows. `status: planned` marks an outline (Step and Page only, every step linked to a page), shown with a Planned tag until its detail is written. |
 | `quals/` | One qualification per file: its modules, each mapped to the pages that cover it. See *Qualifications* below. |
+| `paths/` | A beginner reading path: an intro, then one `## ` list of 8–12 Core pages in order, each with a reason. Read by the qualifications' loader; readers tick pages as they go. |
 | `questions/` | One plain-language question per file: a short answer, then `## Read next` with 3–5 pages in order. See *Questions* below. |
 | `jobs/` | Empty. The engine supports job paths; the tab stays hidden until there is content. |
 | `about.md`, `privacy.md` | Site pages. |
@@ -142,6 +143,8 @@ Two to seven plain sentences. No jargon, or explain each term in the same senten
 - **Read every routed page first,** and make sure the answer agrees with it.
 - **The build fails** on a missing `?`, an unknown group, an answer outside 2 to 7 sentences, a broken or repeated route link, a route step without a reason, or a route shorter than 3 or longer than 5.
 - **Pages on a route** show an "Answers" link back to each question.
+
+**The beginner path** (`paths/start-here.md`) sits at the top of Start: 8–12 Core pages, in reading order, each with a one-line reason. Readers tick pages as they finish them (the same per-page ticks the qualifications use, saved in the browser), and a Continue button opens the next unticked page. The build fails if a path has the wrong number of pages, uses an advanced page, or leaves a step without a reason.
 
 ## Hub pages
 

@@ -33,6 +33,8 @@ Both are generated: don't edit them by hand. They're rebuilt from scratch with r
 | `module_pages` | module × page that covers it | (`qual_id`, `code`, `page_id`) |
 | `questions` | plain-language question, its group and short answer | `id` |
 | `question_route` | step of a question's route, the page to read, and why | (`question_id`, `step`); `page_id` → `pages` |
+| `paths` | beginner reading path | `id` |
+| `path_steps` | step of a path, the page to read, and why | (`path_id`, `step`); `page_id` → `pages` |
 | `flows` | flow, with its heading and status (`written` or `planned`) | `id` |
 | `flow_steps` | step of a flow, and the page it opens | (`flow_id`, `step`); `page_id` → `pages` |
 

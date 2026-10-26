@@ -1303,6 +1303,30 @@ INSERT INTO "pages" VALUES('smart-contract-platforms','Smart-Contract Platforms'
 INSERT INTO "pages" VALUES('sound-money','Sound Money',NULL,'coin-value','digital-assets',3,'basic','The asset half of a coin''s value: a supply no one can quietly expand or hoard, a chain no one can seize, legal standing, and a market deep enough to trade.',798);
 INSERT INTO "pages" VALUES('stablecoins','Stablecoins',NULL,'tokens','digital-assets',3,'basic','Tokens meant to stay at one unit of a currency: a private dollar promise on a blockchain, and what makes the promise hold or break.',375);
 INSERT INTO "pages" VALUES('wrapped-tokens','Wrapped and Bridged Tokens','Wrapped tokens','tokens','digital-assets',3,'basic','Stand-ins for a coin from somewhere else. Same name, but a claim on whoever holds the original.',282);
+CREATE TABLE path_steps (          -- junction table: the pages of a path, in reading order
+  path_id TEXT NOT NULL REFERENCES paths(id),
+  step    INTEGER NOT NULL,
+  page_id TEXT NOT NULL REFERENCES pages(id),
+  why     TEXT NOT NULL,
+  PRIMARY KEY (path_id, step)
+);
+INSERT INTO "path_steps" VALUES('start-here',1,'what-is-money','What money is, and the three jobs it does');
+INSERT INTO "path_steps" VALUES('start-here',2,'bank-deposits','What you really own when you "have money in the bank"');
+INSERT INTO "path_steps" VALUES('start-here',3,'claims-and-liabilities','Why most of what you own is someone else''s promise');
+INSERT INTO "path_steps" VALUES('start-here',4,'inflation','Why money slowly buys less, and what that does to savings');
+INSERT INTO "path_steps" VALUES('start-here',5,'compounding','How returns earn returns, and why time matters so much');
+INSERT INTO "path_steps" VALUES('start-here',6,'four-ways-to-earn','The only four ways money can earn a return');
+INSERT INTO "path_steps" VALUES('start-here',7,'risk-and-return','Why higher returns come with a wider range of outcomes');
+INSERT INTO "path_steps" VALUES('start-here',8,'bonds','Lending: what a bond is, and whose promise you hold');
+INSERT INTO "path_steps" VALUES('start-here',9,'shares','Owning: what a share is, and why it can rise or fall so much');
+INSERT INTO "path_steps" VALUES('start-here',10,'diversification','Spreading what you own so one failure can''t take everything');
+INSERT INTO "path_steps" VALUES('start-here',11,'cartography-of-wealth','What is most likely to kill each kind of wealth you might hold');
+CREATE TABLE paths (               -- reading paths for beginners, shown on the Start view
+  id      TEXT PRIMARY KEY,
+  title   TEXT NOT NULL,
+  summary TEXT NOT NULL
+);
+INSERT INTO "paths" VALUES('start-here','Start from the beginning','Eleven pages, in order, from what money is to how to think about the risks to your own wealth.');
 CREATE TABLE quals (
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,

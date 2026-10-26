@@ -8,7 +8,7 @@ summary: What The Capital Map stores, what it measures, and what it doesn't.
 The site saves a few settings in your browser's local storage, so they're there next time you visit:
 - your view settings: depth (Core or Everything), theme, and qualification focus;
 - which map branches you left open;
-- the pages you've ticked as known on a qualification;
+- the pages you've ticked as known on a qualification or the beginner path;
 - whether you've closed the welcome guide.
 
 This information **never leaves your device**. It isn't sent to the site or to anyone else. Clearing your browser's site data for this address removes all of it. Each browser and device keeps its own copy.

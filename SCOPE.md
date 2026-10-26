@@ -103,6 +103,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
   - **Welcome guide:** "Ask a question" is the primary option; "Compare stores of wealth" was dropped from the card (the tab remains), so the card is no taller.
   - **Readability is a guide, not a gate:** measured with Flesch–Kincaid in the test kit; honesty wins where they conflict.
   - **The Fine Print is folded in:** its counterintuitive points become questions, so there's one mechanism and no separate layer.
+  - **The beginner path (branch 3):** "Start from the beginning", 11 Core pages from what money is to the Cartography of Wealth. It uses the qualifications' loader and the existing per-page ticks (no new storage), not the job-ladder engine. The welcome guide's "Follow the money" option became "Start from the beginning"; the flow is still on the Flows tab.
   - **Built in three branches:** engine and the first 10 questions; about 18 questions in total; then a Start-here path with ticks, using the qualification loader, not the job ladder.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 

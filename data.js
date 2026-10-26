@@ -9,7 +9,7 @@ window.MUDMAP = {
  "privacy": {
   "title": "Privacy",
   "summary": "What The Capital Map stores, what it measures, and what it doesn't.",
-  "html": "<p><strong>In short:</strong> no accounts, no forms, no advertising and no tracking cookies. Your reading settings stay in your own browser. Visits are counted with privacy-first analytics that don't identify you.</p>\n<h2>What stays in your browser</h2>\n<p>The site saves a few settings in your browser's local storage, so they're there next time you visit:</p>\n<ul>\n<li>your view settings: depth (Core or Everything), theme, and qualification focus;</li>\n<li>which map branches you left open;</li>\n<li>the pages you've ticked as known on a qualification;</li>\n<li>whether you've closed the welcome guide.</li>\n</ul>\n<p>This information <strong>never leaves your device</strong>. It isn't sent to the site or to anyone else. Clearing your browser's site data for this address removes all of it. Each browser and device keeps its own copy.</p>\n<h2>Visit statistics</h2>\n<p>The site counts visits with <strong>Cloudflare Web Analytics</strong>, a privacy-first service that:</p>\n<ul>\n<li>doesn't use cookies or local storage;</li>\n<li>doesn't build a profile of you or follow you across other sites;</li>\n<li>isn't used for advertising.</li>\n</ul>\n<p>It records, in aggregate: which pages are viewed, the page that linked to the site, the browser, operating system and device type, and the country the visit comes from. These figures are used only to see which pages are read and where visitors come from, so the site can be improved.</p>\n<h2>Hosting</h2>\n<p>The site is hosted on Cloudflare Pages. As with any website, Cloudflare processes technical request data, including IP addresses, to deliver pages and protect the site from abuse. This is handled under Cloudflare's own privacy policy; the site doesn't receive or store a list of visitors.</p>\n<h2>What the site doesn't do</h2>\n<ul>\n<li>No sign-up, login or user accounts.</li>\n<li>No contact or feedback forms that collect personal details.</li>\n<li>No advertising, and no advertising or social-media tracking scripts.</li>\n<li>No selling or sharing of data.</li>\n</ul>\n<h2>Contact</h2>\n<p>Questions about this page, or corrections to the site: <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>. If you send a message, X handles it under its own privacy policy; the site doesn't store it.</p>\n<h2>Links to other sites</h2>\n<p>Pages link to a few outside sources, such as the licence text. Those sites have their own privacy policies.</p>\n<h2>Changes</h2>\n<p>If this page changes, the updated version will be posted here.</p>"
+  "html": "<p><strong>In short:</strong> no accounts, no forms, no advertising and no tracking cookies. Your reading settings stay in your own browser. Visits are counted with privacy-first analytics that don't identify you.</p>\n<h2>What stays in your browser</h2>\n<p>The site saves a few settings in your browser's local storage, so they're there next time you visit:</p>\n<ul>\n<li>your view settings: depth (Core or Everything), theme, and qualification focus;</li>\n<li>which map branches you left open;</li>\n<li>the pages you've ticked as known on a qualification or the beginner path;</li>\n<li>whether you've closed the welcome guide.</li>\n</ul>\n<p>This information <strong>never leaves your device</strong>. It isn't sent to the site or to anyone else. Clearing your browser's site data for this address removes all of it. Each browser and device keeps its own copy.</p>\n<h2>Visit statistics</h2>\n<p>The site counts visits with <strong>Cloudflare Web Analytics</strong>, a privacy-first service that:</p>\n<ul>\n<li>doesn't use cookies or local storage;</li>\n<li>doesn't build a profile of you or follow you across other sites;</li>\n<li>isn't used for advertising.</li>\n</ul>\n<p>It records, in aggregate: which pages are viewed, the page that linked to the site, the browser, operating system and device type, and the country the visit comes from. These figures are used only to see which pages are read and where visitors come from, so the site can be improved.</p>\n<h2>Hosting</h2>\n<p>The site is hosted on Cloudflare Pages. As with any website, Cloudflare processes technical request data, including IP addresses, to deliver pages and protect the site from abuse. This is handled under Cloudflare's own privacy policy; the site doesn't receive or store a list of visitors.</p>\n<h2>What the site doesn't do</h2>\n<ul>\n<li>No sign-up, login or user accounts.</li>\n<li>No contact or feedback forms that collect personal details.</li>\n<li>No advertising, and no advertising or social-media tracking scripts.</li>\n<li>No selling or sharing of data.</li>\n</ul>\n<h2>Contact</h2>\n<p>Questions about this page, or corrections to the site: <a href=\"https://x.com/KernelYard\">@KernelYard on X</a>. If you send a message, X handles it under its own privacy policy; the site doesn't store it.</p>\n<h2>Links to other sites</h2>\n<p>Pages link to a few outside sources, such as the licence text. Those sites have their own privacy policies.</p>\n<h2>Changes</h2>\n<p>If this page changes, the updated version will be posted here.</p>"
  },
  "pages": {
   "account-types": {
@@ -10172,6 +10172,82 @@ window.MUDMAP = {
    ]
   }
  },
+ "paths": {
+  "start-here": {
+   "id": "start-here",
+   "title": "Start from the beginning",
+   "short": "Beginner path",
+   "order": 1.0,
+   "summary": "Eleven pages, in order, from what money is to how to think about the risks to your own wealth.",
+   "intro": "<p>New to all of this? Read these in order. Each one builds on the last, and none needs a finance background. Tick each page as you finish it; your progress is saved in this browser.</p>",
+   "stages": [
+    {
+     "title": "The path",
+     "items": [
+      {
+       "page": "what-is-money",
+       "note": "What money is, and the three jobs it does"
+      },
+      {
+       "page": "bank-deposits",
+       "note": "What you really own when you \"have money in the bank\""
+      },
+      {
+       "page": "claims-and-liabilities",
+       "note": "Why most of what you own is someone else's promise"
+      },
+      {
+       "page": "inflation",
+       "note": "Why money slowly buys less, and what that does to savings"
+      },
+      {
+       "page": "compounding",
+       "note": "How returns earn returns, and why time matters so much"
+      },
+      {
+       "page": "four-ways-to-earn",
+       "note": "The only four ways money can earn a return"
+      },
+      {
+       "page": "risk-and-return",
+       "note": "Why higher returns come with a wider range of outcomes"
+      },
+      {
+       "page": "bonds",
+       "note": "Lending: what a bond is, and whose promise you hold"
+      },
+      {
+       "page": "shares",
+       "note": "Owning: what a share is, and why it can rise or fall so much"
+      },
+      {
+       "page": "diversification",
+       "note": "Spreading what you own so one failure can't take everything"
+      },
+      {
+       "page": "cartography-of-wealth",
+       "note": "What is most likely to kill each kind of wealth you might hold"
+      }
+     ],
+     "note": ""
+    }
+   ],
+   "pages": [
+    "what-is-money",
+    "bank-deposits",
+    "claims-and-liabilities",
+    "inflation",
+    "compounding",
+    "four-ways-to-earn",
+    "risk-and-return",
+    "bonds",
+    "shares",
+    "diversification",
+    "cartography-of-wealth"
+   ],
+   "status": "mapped"
+  }
+ },
  "questionGroups": [
   "Is my money safe?",
   "How money works",
@@ -10180,5 +10256,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-26 09:13 UTC"
+ "built": "2026-10-26 09:24 UTC"
 };

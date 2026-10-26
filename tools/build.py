@@ -42,6 +42,11 @@ file name), question (ends with "?"), group (one of QUESTION_GROUPS), order. The
     - [[page-id]] — one line on why to read it
 Every routed page must exist, each only once. Pages on a route show an "Answers" link back to the question.
 
+Path file format (paths/<id>.md): a reading path for beginners, on the Start view. Frontmatter: id, title,
+short, order, summary. An intro paragraph, then ONE "## " heading listing 8 to 12 Core pages in reading order:
+    - [[page-id]] — one line on why it comes next
+Read by the same loader as qualifications; readers tick pages as they go (the same per-page ticks).
+
 Job file format (jobs/<id>.md) — one job on the job ladder, with its
 learning path in priority tiers:
 
@@ -116,6 +121,7 @@ FLOWS_DIR = ROOT / "flows"
 JOBS_DIR = ROOT / "jobs"
 QUALS_DIR = ROOT / "quals"
 QUESTIONS_DIR = ROOT / "questions"
+PATHS_DIR = ROOT / "paths"
 ABOUT = ROOT / "about.md"
 PRIVACY = ROOT / "privacy.md"
 OUT = ROOT / "data.js"
@@ -641,6 +647,18 @@ CREATE TABLE question_route (      -- junction table: the pages to read next for
   why         TEXT NOT NULL,          -- one line on why to read it
   PRIMARY KEY (question_id, step)
 );
+CREATE TABLE paths (               -- reading paths for beginners, shown on the Start view
+  id      TEXT PRIMARY KEY,
+  title   TEXT NOT NULL,
+  summary TEXT NOT NULL
+);
+CREATE TABLE path_steps (          -- junction table: the pages of a path, in reading order
+  path_id TEXT NOT NULL REFERENCES paths(id),
+  step    INTEGER NOT NULL,
+  page_id TEXT NOT NULL REFERENCES pages(id),
+  why     TEXT NOT NULL,
+  PRIMARY KEY (path_id, step)
+);
 CREATE TABLE quals (
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,
@@ -667,7 +685,7 @@ CREATE TABLE module_pages (         -- junction table: pages that cover each mod
 """
 
 
-def write_sqlite(pages, rung_ids, quals, flows, questions):
+def write_sqlite(pages, rung_ids, quals, flows, questions, paths):
     """Write the map as a SQLite database (and the same database as SQL text). Rebuilt from scratch every
     time, rows inserted in a fixed order, so an unchanged map gives an unchanged file. Returns row counts."""
     import sqlite3
@@ -700,6 +718,9 @@ def write_sqlite(pages, rung_ids, quals, flows, questions):
     qs = sorted(questions, key=lambda q: (questions[q]["group"], questions[q]["order"], q))
     rows("questions", [(q, questions[q]["question"], questions[q]["group"], questions[q]["order"], questions[q]["answerText"]) for q in qs])
     rows("question_route", [(q, n, st["page"], re.sub(r"<[^>]+>", "", st["note"])) for q in qs for n, st in enumerate(questions[q]["route"], 1)])
+    rows("paths", [(x, paths[x]["title"], paths[x]["summary"]) for x in sorted(paths)])
+    rows("path_steps", [(x, n, it["page"], re.sub(r"<[^>]+>", "", it["note"])) for x in sorted(paths)
+                        for n, it in enumerate((it for s in paths[x]["stages"] for it in s["items"]), 1)])
     qids = sorted(quals, key=lambda q: quals[q]["order"])
     rows("quals", [(q, quals[q]["title"], quals[q]["short"], quals[q]["status"], quals[q]["order"]) for q in qids])
     code = lambda s: re.split(r"\s+[—–-]\s+", s["title"])[0]
@@ -867,6 +888,21 @@ def main():
     roles = load_jobs(titles)
     quals = load_roles(titles, QUALS_DIR, "qual", repeat_ok=True)
     questions = load_questions(titles)
+    paths = load_roles(titles, PATHS_DIR, "path")
+    for pid, pth in paths.items():
+        items = [it for s in pth["stages"] for it in s["items"]]
+        pth.pop("meta", None)
+        if len(pth["stages"]) != 1:
+            errors.append(f"path {pid}: needs exactly one '## ' list of pages")
+        if not 8 <= len(items) <= 12:
+            errors.append(f"path {pid}: should list 8 to 12 pages (found {len(items)})")
+        for it in items:
+            if it["page"] in ADVANCED:
+                errors.append(f"path {pid}: [[{it['page']}]] is an advanced page; a beginner path uses Core pages")
+            if not it["note"]:
+                errors.append(f"path {pid}: [[{it['page']}]] needs a one-line reason")
+        if pid in questions:
+            errors.append(f"path {pid}: id clashes with a question")
     qorder = sorted(questions, key=lambda q: (QUESTION_GROUPS.index(questions[q]["group"]) if questions[q]["group"] in QUESTION_GROUPS else 99, questions[q]["order"], q))
     for jid, j in roles.items():
         for q in j["quals"]:
@@ -924,6 +960,7 @@ def main():
         "coverage": total_coverage(quals),
         "rungs": rung_ids,
         "questions": questions,
+        "paths": paths,
         "questionGroups": [g for g in QUESTION_GROUPS if any(q["group"] == g for q in questions.values())],
         "built": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
@@ -932,7 +969,7 @@ def main():
         "window.MUDMAP = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n",
         encoding="utf-8",
     )
-    tables = write_sqlite(pages, rung_ids, quals, flows, questions)
+    tables = write_sqlite(pages, rung_ids, quals, flows, questions, paths)
     stubs = sum(1 for p in pages.values() if p["stub"])
     adv = len(ADVANCED); deeper = sum(1 for p in pages.values() if p["deep"])
     planned = sum(1 for f in flows.values() if f["status"] == "planned")
@@ -954,6 +991,8 @@ def main():
           f" {t['none']} not yet; {t['out']} out of scope, across {t['quals']} qualifications")
     print(f"  Questions: {len(questions)} in {len({q['group'] for q in questions.values()})} groups, routing to "
           f"{len({s['page'] for q in questions.values() for s in q['route']})} pages")
+    for x in paths.values():
+        print(f"  Path {x['short']}: {len(x['pages'])} pages")
     pairs = sum(len(pages[r]["hits"]) for r in rung_ids)
     stores = [p for p in pages.values() if p["place"]]
     print(f"  Failure ladder: {len(rung_ids)} rungs · {pairs} store-rung links · "
