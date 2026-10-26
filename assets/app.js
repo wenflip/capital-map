@@ -968,6 +968,7 @@
     const textHit = (s) => termHas.every((has) => has(s)) || (looseHas && looseHas.every((has) => has(s)));
     // whole-phrase bonus for multi-word queries; a hyphenated query ("risk-free rate") is compared in its spaced form too
     const phrase = (s) => (terms.length > 1 && s.includes(q)) || (looseHas && looseHas.length > 1 && s.includes(loose));
+    const count = (s, sub) => { let n = 0, i = 0; while (sub && (i = s.indexOf(sub, i)) !== -1) { n++; i += sub.length; } return n; };
     const out = [];
     Object.values(P).filter((p) => vis(p.id)).forEach((p) => {
       const title = p.title.toLowerCase(), tc = p.tcodes.map((t) => t.toLowerCase());
@@ -979,9 +980,18 @@
       const mods = (p.quals || []).map((x) => x.m.toLowerCase());
       if (mods.some((m) => modCode(m) === q)) score += 30;
       const hay = (title + " " + tc.join(" ") + " " + p.fiori.join(" ").toLowerCase() + " " + p.tags.join(" ").toLowerCase() + " " + mods.join(" ") + " " + p.summary.toLowerCase() + " " + p.text.toLowerCase() + (mode.simple ? "" : " " + (p.textDeep || "").toLowerCase()));
-      if (textHit(hay)) score += 10 + (qHas(p.summary.toLowerCase()) ? 10 : 0) + (phrase(hay) ? 15 : 0);
-      // ties (e.g. a t-code used by a topic and its sub-pages) go to the more general page
-      if (score) out.push({ type: "page", id: p.id, score: score + (p.stub ? 0 : 3) + (8 - Math.min(8, p.path.length)) });
+      if (textHit(hay)) {
+        // Where the words appear matters more than whether they appear: a page that names the topic in its
+        // summary or tags, or keeps coming back to it, beats a page that mentions it once in passing.
+        const summ = p.summary.toLowerCase(), tags = p.tags.join(" ").toLowerCase();
+        const body = p.text.toLowerCase() + (mode.simple ? "" : " " + (p.textDeep || "").toLowerCase());
+        const inSumm = textHit(summ), inTags = textHit(tags);
+        const needle = looseHas && looseHas.length > 1 ? loose : q;
+        const freq = terms.length > 1 || looseHas ? count(body, needle) : count(body, q);
+        score += 10 + (inSumm ? 14 : 0) + (inTags ? 8 : 0) + (phrase(hay) ? 15 : 0) + Math.min(15, 3 * freq);
+      }
+      // ties (e.g. a t-code used by a topic and its sub-pages) go to the more general page, but only as a tie-break
+      if (score) out.push({ type: "page", id: p.id, score: score + (p.stub ? 0 : 3) + (8 - Math.min(8, p.path.length)) / 2 });
     });
     Object.values(DATA.flows).filter(flowVis).forEach((f) => {
       if (qHas((f.title + " " + f.summary).toLowerCase())) out.push({ type: "flow", id: f.id, score: 50 });

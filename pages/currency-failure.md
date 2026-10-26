@@ -3,7 +3,7 @@ id: currency-failure
 title: Currency Failure
 short: Currency Failure
 parent: failure-modes
-order: 4
+order: 8
 summary: When a currency stops working as money: hyperinflation, redenomination, and why a central bank can't go bust in its own currency but its money can.
 tags: failure, hyperinflation, currency, central banks
 sources: Bank for International Settlements, Central bank capital and trust in money (BIS Papers 146, 2024); Hyperinflation in the Weimar Republic; Steve Hanke, Zimbabwe hyperinflation estimates

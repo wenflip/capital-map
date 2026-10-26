@@ -367,6 +367,7 @@ window.MUDMAP = {
     "cash-and-fiat",
     "central-bank-money",
     "claims-and-liabilities",
+    "confiscation",
     "currency-failure",
     "custodial-crypto",
     "deposit-insurance",
@@ -376,6 +377,7 @@ window.MUDMAP = {
     "flow:where-money-comes-from",
     "hierarchy-of-money",
     "money",
+    "ratings-failure",
     "sovereign-default",
     "stablecoins"
    ],
@@ -710,6 +712,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "clearing-house-failure",
     "credit-risk",
     "currency-failure",
     "equities",
@@ -718,8 +721,11 @@ window.MUDMAP = {
     "foundation",
     "hierarchy-of-money",
     "inflation",
+    "insurer-failure",
+    "market-failure",
     "markets",
     "money",
+    "ratings-failure",
     "sovereign-default",
     "time-value-of-money"
    ],
@@ -899,7 +905,7 @@ window.MUDMAP = {
    "title": "Capital Controls and Freezes",
    "short": "Capital Controls",
    "parent": "failure-modes",
-   "order": 2.0,
+   "order": 5.0,
    "summary": "When a government limits how much money can leave the bank or the country, and how long such limits have lasted.",
    "tcodes": [],
    "fiori": [],
@@ -1085,6 +1091,7 @@ window.MUDMAP = {
     "cash-and-fiat",
     "claims-and-liabilities",
     "collectibles",
+    "confiscation",
     "credit-risk",
     "digital-assets",
     "diversification",
@@ -1385,12 +1392,68 @@ window.MUDMAP = {
     "foundation",
     "funds-and-etfs",
     "hierarchy-of-money",
+    "insurer-failure",
     "markets",
     "money",
     "real-assets",
     "reits",
     "shares",
     "what-is-money"
+   ],
+   "backlinksAdv": []
+  },
+  "clearing-house-failure": {
+   "id": "clearing-house-failure",
+   "title": "Clearing House Failure",
+   "short": "Clearing House Failure",
+   "parent": "failure-modes",
+   "order": 3.0,
+   "summary": "When the central counterparty that guarantees every trade runs short: default funds, rescues, and cancelled trades.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "clearing",
+    "derivatives",
+    "market structure"
+   ],
+   "sources": [
+    "Securities and Futures Commission (Hong Kong), background chapter 2 (1987 crash)",
+    "Clarus Financial Technology, Default at Nasdaq Clearing (2018)",
+    "LME Nickel"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "clearing-house-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>A <strong>clearing house</strong> (central counterparty, or CCP) stands between every buyer and seller, so that neither has to trust the other. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a>. If a large member defaults and its losses exceed what the clearing house holds, the guarantee behind every trade on that market is in doubt.</p>\n<h2>The backstop</h2>\n<p>A <strong>default waterfall</strong>, used in order:</p>\n<ol>\n<li>The defaulter's own <strong>margin</strong>.</li>\n<li>The defaulter's contribution to the <strong>default fund</strong>.</li>\n<li>A slice of the clearing house's <strong>own capital</strong>.</li>\n<li><strong>Other members' contributions</strong> to the default fund, then calls on members for more.</li>\n</ol>\n<p>Clearing houses are tightly regulated because so much risk sits in them.</p>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Mutualised losses.</strong> When the defaulter's money runs out, honest members pay for its losses.</li>\n<li><strong>Extreme moves</strong> can exceed every layer of the waterfall.</li>\n<li><strong>Rule changes under stress.</strong> An exchange can halt trading or cancel trades, protecting the system at the cost of whoever was on the right side of them.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>Hong Kong, October 1987.</strong> After the world crash, the stock and futures exchanges closed for four days from 20 October. The guarantor of futures contracts had about HK$22.5 million of capital and reserves against far larger defaults. The government, brokers and banks put together a HK$2 billion rescue loan, with HK$1 billion from the government's Exchange Fund.</li>\n<li><strong>Nasdaq Clearing, September 2018.</strong> A single power trader couldn't meet margin calls. Closing his positions cost about €114 million. Over two-thirds of the €166 million default fund was used, mostly other members' money, and members were asked to top it up.</li>\n<li><strong>London Metal Exchange, March 2022.</strong> Nickel more than doubled to over $100,000 a tonne. The exchange suspended trading and cancelled trades made that morning, about $3.9 billion of them. UK courts later upheld its authority to do so.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Positions in <a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a>, <a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> and other cleared contracts, and margin held at the clearing house. Because <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> trades also settle through clearing houses, a failure would freeze trading far beyond derivatives.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a clearing house turns many small counterparty risks into one large one. It's well protected, but in a crisis its rules, including halts and cancellations, decide who bears the loss.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In the Nasdaq Clearing default, why did other members lose money?</p><details><summary>Show answer</summary><p>Because the defaulter's own margin and contribution weren't enough, so the default fund, mostly paid in by other members, covered the rest.</p></details></div>\n<div class=\"qa\"><p class=\"q\">The LME cancelled nickel trades in 2022. Who gained and who lost?</p><details><summary>Show answer</summary><p>Holders of large short positions facing huge losses were spared. Traders who had bought or sold at the cancelled prices lost the profits those trades would have made.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "futures",
+    "options",
+    "settlement",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails A clearing house (central counterparty, or CCP) stands between every buyer and seller, so that neither has to trust the other. See settlement. If a large member defaults and its losses exceed what the clearing house holds, the guarantee behind every trade on that market is in doubt. The backstop A default waterfall , used in order: 1. The defaulter's own margin . 2. The defaulter's contribution to the default fund . 3. A slice of the clearing house's own capital . 4. Other members' contributions to the default fund, then calls on members for more. Clearing houses are tightly regulated because so much risk sits in them. Where the backstop runs out Mutualised losses. When the defaulter's money runs out, honest members pay for its losses. Extreme moves can exceed every layer of the waterfall. Rule changes under stress. An exchange can halt trading or cancel trades, protecting the system at the cost of whoever was on the right side of them. Cases Hong Kong, October 1987. After the world crash, the stock and futures exchanges closed for four days from 20 October. The guarantor of futures contracts had about HK$22.5 million of capital and reserves against far larger defaults. The government, brokers and banks put together a HK$2 billion rescue loan, with HK$1 billion from the government's Exchange Fund. Nasdaq Clearing, September 2018. A single power trader couldn't meet margin calls. Closing his positions cost about €114 million. Over two thirds of the €166 million default fund was used, mostly other members' money, and members were asked to top it up. London Metal Exchange, March 2022. Nickel more than doubled to over $100,000 a tonne. The exchange suspended trading and cancelled trades made that morning, about $3.9 billion of them. UK courts later upheld its authority to do so. What it kills Positions in futures, options and other cleared contracts, and margin held at the clearing house. Because shares and bonds trades also settle through clearing houses, a failure would freeze trading far beyond derivatives. Key rule: a clearing house turns many small counterparty risks into one large one. It's well protected, but in a crisis its rules, including halts and cancellations, decide who bears the loss. Check yourself Q: In the Nasdaq Clearing default, why did other members lose money? A: Because the defaulter's own margin and contribution weren't enough, so the default fund, mostly paid in by other members, covered the rest. Q: The LME cancelled nickel trades in 2022. Who gained and who lost? A: Holders of large short positions facing huge losses were spared. Traders who had bought or sold at the cancelled prices lost the profits those trades would have made.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes"
    ],
    "backlinksAdv": []
   },
@@ -1451,6 +1514,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "cartography-of-wealth",
+    "market-failure",
     "real-assets"
    ],
    "backlinksAdv": []
@@ -1631,6 +1695,63 @@ window.MUDMAP = {
     "returns",
     "tax",
     "time-value-of-money"
+   ],
+   "backlinksAdv": []
+  },
+  "confiscation": {
+   "id": "confiscation",
+   "title": "Confiscation and Expropriation",
+   "short": "Confiscation",
+   "parent": "failure-modes",
+   "order": 6.0,
+   "summary": "When a state takes, freezes or nationalises assets outright, from private gold to a country's reserves.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "confiscation",
+    "expropriation",
+    "sanctions",
+    "nationalisation"
+   ],
+   "sources": [
+    "Office of the Historian, US State Department, Mexican expropriation of foreign oil (1938)",
+    "Fiji Times via Reuters, What and where are Russia's $300 billion in reserves frozen in the West?"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "confiscation"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p><strong>Ownership itself.</strong> A state can take an asset by law: requiring citizens to hand over gold, nationalising a company or an industry, or freezing another country's or person's assets. Unlike theft, it's done in the open, under rules the owner can't override.</p>\n<h2>The backstop</h2>\n<ul>\n<li><strong>Courts and constitutions</strong>, where property rights are protected and judges are independent.</li>\n<li><strong>Compensation</strong>, sometimes paid, often less than the owner thinks the asset was worth.</li>\n<li><strong>International agreements</strong> that protect foreign investors, and arbitration to enforce them.</li>\n</ul>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>The state writes the rules.</strong> Courts can only enforce the law as it stands, and laws can change.</li>\n<li><strong>Compensation is negotiated,</strong> and may take years.</li>\n<li><strong>Assets held abroad</strong> are under the host country's law. Holding money elsewhere protects against your own government, but exposes you to someone else's.</li>\n<li><strong>Visibility matters.</strong> The more legible an asset, the easier it is to reach. That's the vertical axis of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>US gold, 1933.</strong> An executive order required citizens to hand in most gold coins, bullion and certificates at a fixed price. The dollar was then devalued against gold. See <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a>.</li>\n<li><strong>Mexico, 18 March 1938.</strong> Mexico expropriated foreign oil companies. Compensation was settled later: about $29 million to American firms in 1942, and $130 million to British interests in 1947.</li>\n<li><strong>Russia's reserves, 2022.</strong> After the invasion of Ukraine, Western countries froze about $300 billion of the Russian central bank's reserves, roughly half of its foreign currency and gold. Even a central bank's reserves held abroad are subject to the host countries' law.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Assets the state can see and reach: <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a>, <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a>, <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> in strategic companies, and <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> where its ownership is recorded or known. <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> and <a class=\"wl\" href=\"#/map/p/social-capital\" data-page=\"social-capital\">Social Capital</a> are the hardest to confiscate, which is why the Cartography treats them as the root store.</p>\n<blockquote>\n<p><strong>Key rule:</strong> every asset is held under someone's law. Know whose, and whether that law protects owners like you.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can holding assets abroad both reduce and add confiscation risk?</p><details><summary>Show answer</summary><p>It moves them out of reach of your own government, but puts them under the law of the country that holds them, as Russia's frozen reserves showed in 2022.</p></details></div>\n<div class=\"qa\"><p class=\"q\">How is confiscation different from theft?</p><details><summary>Show answer</summary><p>It's done openly by a state under its own laws, so courts may be unable to reverse it, and any compensation is set by the same state.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "cartography-of-wealth",
+    "gold",
+    "human-capital",
+    "real-estate",
+    "shares",
+    "social-capital"
+   ],
+   "stub": false,
+   "text": "What fails Ownership itself. A state can take an asset by law: requiring citizens to hand over gold, nationalising a company or an industry, or freezing another country's or person's assets. Unlike theft, it's done in the open, under rules the owner can't override. The backstop Courts and constitutions , where property rights are protected and judges are independent. Compensation , sometimes paid, often less than the owner thinks the asset was worth. International agreements that protect foreign investors, and arbitration to enforce them. Where the backstop runs out The state writes the rules. Courts can only enforce the law as it stands, and laws can change. Compensation is negotiated, and may take years. Assets held abroad are under the host country's law. Holding money elsewhere protects against your own government, but exposes you to someone else's. Visibility matters. The more legible an asset, the easier it is to reach. That's the vertical axis of the Cartography of Wealth. Cases US gold, 1933. An executive order required citizens to hand in most gold coins, bullion and certificates at a fixed price. The dollar was then devalued against gold. See gold. Mexico, 18 March 1938. Mexico expropriated foreign oil companies. Compensation was settled later: about $29 million to American firms in 1942, and $130 million to British interests in 1947. Russia's reserves, 2022. After the invasion of Ukraine, Western countries froze about $300 billion of the Russian central bank's reserves, roughly half of its foreign currency and gold. Even a central bank's reserves held abroad are subject to the host countries' law. What it kills Assets the state can see and reach: real estate, bank deposits, shares in strategic companies, and gold where its ownership is recorded or known. human capital and social capital are the hardest to confiscate, which is why the Cartography treats them as the root store. Key rule: every asset is held under someone's law. Know whose, and whether that law protects owners like you. Check yourself Q: Why can holding assets abroad both reduce and add confiscation risk? A: It moves them out of reach of your own government, but puts them under the law of the country that holds them, as Russia's frozen reserves showed in 2022. Q: How is confiscation different from theft? A: It's done openly by a state under its own laws, so courts may be unable to reverse it, and any compensation is set by the same state.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes"
    ],
    "backlinksAdv": []
   },
@@ -1820,9 +1941,9 @@ window.MUDMAP = {
    "backlinks": [
     "bonds",
     "derivatives",
-    "failure-modes",
     "financial-statements",
     "fixed-income",
+    "ratings-failure",
     "real-estate",
     "settlement"
    ],
@@ -1833,7 +1954,7 @@ window.MUDMAP = {
    "title": "Currency Failure",
    "short": "Currency Failure",
    "parent": "failure-modes",
-   "order": 4.0,
+   "order": 8.0,
    "summary": "When a currency stops working as money: hyperinflation, redenomination, and why a central bank can't go bust in its own currency but its money can.",
    "tcodes": [],
    "fiori": [],
@@ -2660,6 +2781,7 @@ window.MUDMAP = {
     "brokers",
     "derivatives",
     "equities",
+    "market-failure",
     "markets",
     "settlement",
     "shares"
@@ -2699,7 +2821,7 @@ window.MUDMAP = {
    ],
    "branch": "failure-modes",
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. <strong>When Things Fail</strong> walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions:</p>\n<ul>\n<li><strong>What fails</strong>, and what it promised you.</li>\n<li><strong>The backstop:</strong> what is supposed to protect you.</li>\n<li><strong>Where the backstop runs out:</strong> limits, exclusions, delays and discretion.</li>\n<li><strong>What it kills:</strong> which stores on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> it hits.</li>\n</ul>\n<h2>Why it exists</h2>\n<p><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible.</p>\n<p>It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\"</p>\n<h2>How it works</h2>\n<p>The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Rung</th>\n<th>Page</th>\n<th>Typical backstop</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Broker, exchange or custodian</td>\n<td><a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a></td>\n<td>Segregated client assets; investor protection schemes</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Stablecoin issuer</td>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n<td>Reserves, if they're there</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Bank</td>\n<td><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a></td>\n<td>Capital, the central bank, deposit insurance, bail-in</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Clearing house</td>\n<td><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a></td>\n<td>Margin and a default fund</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Ratings and gatekeepers</td>\n<td><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a></td>\n<td>None: they inform, they don't insure</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Capital controls and freezes</td>\n<td><a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a></td>\n<td>None: the state is the one acting</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Quiet default through inflation</td>\n<td><a class=\"wl\" href=\"#/map/p/financial-repression\" data-page=\"financial-repression\">Financial Repression</a></td>\n<td>Real assets and inflation-linked bonds, partly</td>\n</tr>\n<tr>\n<td>8</td>\n<td>The currency</td>\n<td><a class=\"wl\" href=\"#/map/p/currency-failure\" data-page=\"currency-failure\">Currency Failure</a></td>\n<td>Other currencies, real assets</td>\n</tr>\n<tr>\n<td>9</td>\n<td>The country</td>\n<td><a class=\"wl\" href=\"#/map/p/sovereign-default\" data-page=\"sovereign-default\">Sovereign Default</a></td>\n<td>IMF lending and debt restructuring</td>\n</tr>\n</tbody>\n</table></div>\n<p>Pages for the remaining rungs (insurers, confiscation, the market itself) are still to be written. Until then, <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> covers the 1933 confiscation and <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> the closed markets of 1917 and 1949.</p>\n<p><strong>Two patterns repeat.</strong></p>\n<ul>\n<li><strong>Backstops are layered and linked.</strong> Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n<li><strong>Whoever runs the backstop decides.</strong> Above-limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Counting names instead of rungs.</strong> Many accounts at one broker, or many banks in one country, share the same rungs.</li>\n<li><strong>Treating a backstop as a guarantee.</strong> Limits, delays, exclusions and changing rules decide what you actually get back.</li>\n<li><strong>Ignoring the top of the ladder.</strong> Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional.</li>\n<li><strong>Doom instead of design.</strong> The aim isn't to fear every rung but to make sure no single one can clear the board.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> for every store you own, name the rungs it sits behind. Spread across rungs, not just across names.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — each store's killer, which the ladder sorts by layer.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a> — the bank rung in depth.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — why shared rungs make holdings fail together.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — every rung above you is someone's promise.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold shares in three different funds, all through one broker. Which rung do all three share?</p><details><summary>Show answer</summary><p>The broker. If it fails, all three holdings are affected at once, however different the funds are. See <a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do higher rungs on the ladder do more damage?</p><details><summary>Show answer</summary><p>Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse hits every store priced and held in that currency.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. <strong>When Things Fail</strong> walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions:</p>\n<ul>\n<li><strong>What fails</strong>, and what it promised you.</li>\n<li><strong>The backstop:</strong> what is supposed to protect you.</li>\n<li><strong>Where the backstop runs out:</strong> limits, exclusions, delays and discretion.</li>\n<li><strong>What it kills:</strong> which stores on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> it hits.</li>\n</ul>\n<h2>Why it exists</h2>\n<p><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible.</p>\n<p>It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\"</p>\n<h2>How it works</h2>\n<p>The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>#</th>\n<th>Rung</th>\n<th>Page</th>\n<th>Typical backstop</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Broker, exchange or custodian</td>\n<td><a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a></td>\n<td>Segregated client assets; investor protection schemes</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Insurer or guarantor</td>\n<td><a class=\"wl\" href=\"#/map/p/insurer-failure\" data-page=\"insurer-failure\">Insurer and Guarantor Failure</a></td>\n<td>Reserves; guarantee schemes up to a limit</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Stablecoin issuer</td>\n<td><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a></td>\n<td>Reserves, if they're there</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Bank</td>\n<td><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a></td>\n<td>Capital, the central bank, deposit insurance, bail-in</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Clearing house</td>\n<td><a class=\"wl\" href=\"#/map/p/clearing-house-failure\" data-page=\"clearing-house-failure\">Clearing House Failure</a></td>\n<td>Margin and a default fund</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Ratings and gatekeepers</td>\n<td><a class=\"wl\" href=\"#/map/p/ratings-failure\" data-page=\"ratings-failure\">Ratings and Gatekeeper Failure</a></td>\n<td>None: they inform, they don't insure</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Capital controls and freezes</td>\n<td><a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a></td>\n<td>None: the state is the one acting</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Confiscation</td>\n<td><a class=\"wl\" href=\"#/map/p/confiscation\" data-page=\"confiscation\">Confiscation and Expropriation</a></td>\n<td>Courts, constitutions, compensation</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Quiet default through inflation</td>\n<td><a class=\"wl\" href=\"#/map/p/financial-repression\" data-page=\"financial-repression\">Financial Repression</a></td>\n<td>Real assets and inflation-linked bonds, partly</td>\n</tr>\n<tr>\n<td>10</td>\n<td>The currency</td>\n<td><a class=\"wl\" href=\"#/map/p/currency-failure\" data-page=\"currency-failure\">Currency Failure</a></td>\n<td>Other currencies, real assets</td>\n</tr>\n<tr>\n<td>11</td>\n<td>The country</td>\n<td><a class=\"wl\" href=\"#/map/p/sovereign-default\" data-page=\"sovereign-default\">Sovereign Default</a></td>\n<td>IMF lending and debt restructuring</td>\n</tr>\n<tr>\n<td>12</td>\n<td>The market itself</td>\n<td><a class=\"wl\" href=\"#/map/p/market-failure\" data-page=\"market-failure\">Market Failure</a></td>\n<td>Central bank buying; time</td>\n</tr>\n</tbody>\n</table></div>\n<p>The bank and stablecoin rungs link to pages elsewhere on the map, where they're covered in depth.</p>\n<p><strong>Two patterns repeat.</strong></p>\n<ul>\n<li><strong>Backstops are layered and linked.</strong> Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n<li><strong>Whoever runs the backstop decides.</strong> Above-limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Counting names instead of rungs.</strong> Many accounts at one broker, or many banks in one country, share the same rungs.</li>\n<li><strong>Treating a backstop as a guarantee.</strong> Limits, delays, exclusions and changing rules decide what you actually get back.</li>\n<li><strong>Ignoring the top of the ladder.</strong> Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional.</li>\n<li><strong>Doom instead of design.</strong> The aim isn't to fear every rung but to make sure no single one can clear the board.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> for every store you own, name the rungs it sits behind. Spread across rungs, not just across names.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — each store's killer, which the ladder sorts by layer.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">When Banks Fail</a> — the bank rung in depth.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — why shared rungs make holdings fail together.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — every rung above you is someone's promise.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold shares in three different funds, all through one broker. Which rung do all three share?</p><details><summary>Show answer</summary><p>The broker. If it fails, all three holdings are affected at once, however different the funds are. See <a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do higher rungs on the ladder do more damage?</p><details><summary>Show answer</summary><p>Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse or a closed market hits every store priced, held or sold there.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Failure mode and effects analysis.</strong> Engineers list every way a system can fail, how likely and how severe each is, and what detects it. The ladder is the same exercise applied to wealth: each rung is a failure mode, each backstop a control, and each page's limits section is where the control stops working.</li>\n<li><strong>Correlation at the top.</strong> Rungs high on the ladder tend to fail together: a country in crisis often brings currency loss, capital controls and bank failures at once. See the flow <em>When a country fails</em>.</li>\n</ul></section>",
    "links": [
     "backstops",
@@ -2708,26 +2830,32 @@ window.MUDMAP = {
     "capital-controls",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "clearing-house-failure",
+    "confiscation",
     "correlation",
-    "credit-risk",
     "currency-failure",
     "diversification",
     "financial-repression",
-    "gold",
-    "settlement",
-    "shares",
+    "insurer-failure",
+    "market-failure",
+    "ratings-failure",
     "sovereign-default",
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. When Things Fail walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions: What fails , and what it promised you. The backstop: what is supposed to protect you. Where the backstop runs out: limits, exclusions, delays and discretion. What it kills: which stores on the Cartography of Wealth it hits. Why it exists diversification protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible. It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\" How it works The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide. Rung Page Typical backstop 1 Broker, exchange or custodian broker failure Segregated client assets; investor protection schemes 2 Stablecoin issuer stablecoins Reserves, if they're there 3 Bank backstops Capital, the central bank, deposit insurance, bail in 4 Clearing house settlement Margin and a default fund 5 Ratings and gatekeepers credit risk None: they inform, they don't insure 6 Capital controls and freezes capital controls None: the state is the one acting 7 Quiet default through inflation financial repression Real assets and inflation linked bonds, partly 8 The currency currency failure Other currencies, real assets 9 The country sovereign default IMF lending and debt restructuring Pages for the remaining rungs (insurers, confiscation, the market itself) are still to be written. Until then, gold covers the 1933 confiscation and shares the closed markets of 1917 and 1949. Two patterns repeat. Backstops are layered and linked. Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See bank sovereign loop. Whoever runs the backstop decides. Above limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways. What goes wrong Counting names instead of rungs. Many accounts at one broker, or many banks in one country, share the same rungs. Treating a backstop as a guarantee. Limits, delays, exclusions and changing rules decide what you actually get back. Ignoring the top of the ladder. Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional. Doom instead of design. The aim isn't to fear every rung but to make sure no single one can clear the board. Key rule: for every store you own, name the rungs it sits behind. Spread across rungs, not just across names. Connects to cartography of wealth — each store's killer, which the ladder sorts by layer. backstops — the bank rung in depth. diversification and correlation — why shared rungs make holdings fail together. claims and liabilities — every rung above you is someone's promise. Check yourself Q: You hold shares in three different funds, all through one broker. Which rung do all three share? A: The broker. If it fails, all three holdings are affected at once, however different the funds are. See broker failure. Q: Why do higher rungs on the ladder do more damage? A: Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse hits every store priced and held in that currency.",
+   "text": "What it is Every store of wealth sits behind a stack of institutions: a broker, a bank, a clearing house, a currency, a government. When Things Fail walks that stack as a ladder. Each rung is one layer that can fail. Each page asks the same four questions: What fails , and what it promised you. The backstop: what is supposed to protect you. Where the backstop runs out: limits, exclusions, delays and discretion. What it kills: which stores on the Cartography of Wealth it hits. Why it exists diversification protects against things that fail for different reasons. To use it, you have to know the reasons. A portfolio of ten funds at one broker, in one currency, in one country, is spread across names but not across failures. The ladder makes the shared layers visible. It also keeps the picture honest. Most failures are partly cushioned: customers of failed brokers have often been repaid, and depositors are usually protected. The question is never \"is there a backstop?\" but \"how big is it, and when does it stop?\" How it works The rungs run from the firm closest to you up to the system itself. The higher the rung, the more stores it hits at once, and the fewer places there are to hide. Rung Page Typical backstop 1 Broker, exchange or custodian broker failure Segregated client assets; investor protection schemes 2 Insurer or guarantor insurer failure Reserves; guarantee schemes up to a limit 3 Stablecoin issuer stablecoins Reserves, if they're there 4 Bank backstops Capital, the central bank, deposit insurance, bail in 5 Clearing house clearing house failure Margin and a default fund 6 Ratings and gatekeepers ratings failure None: they inform, they don't insure 7 Capital controls and freezes capital controls None: the state is the one acting 8 Confiscation confiscation Courts, constitutions, compensation 9 Quiet default through inflation financial repression Real assets and inflation linked bonds, partly 10 The currency currency failure Other currencies, real assets 11 The country sovereign default IMF lending and debt restructuring 12 The market itself market failure Central bank buying; time The bank and stablecoin rungs link to pages elsewhere on the map, where they're covered in depth. Two patterns repeat. Backstops are layered and linked. Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See bank sovereign loop. Whoever runs the backstop decides. Above limit deposits were protected in the US in 2023 and not in Cyprus in 2013. Discretion cuts both ways. What goes wrong Counting names instead of rungs. Many accounts at one broker, or many banks in one country, share the same rungs. Treating a backstop as a guarantee. Limits, delays, exclusions and changing rules decide what you actually get back. Ignoring the top of the ladder. Currency and country failures are rare in rich countries over any one decade, and common across history. Reinhart and Rogoff's study of eight centuries found sovereign default to be routine, not exceptional. Doom instead of design. The aim isn't to fear every rung but to make sure no single one can clear the board. Key rule: for every store you own, name the rungs it sits behind. Spread across rungs, not just across names. Connects to cartography of wealth — each store's killer, which the ladder sorts by layer. backstops — the bank rung in depth. diversification and correlation — why shared rungs make holdings fail together. claims and liabilities — every rung above you is someone's promise. Check yourself Q: You hold shares in three different funds, all through one broker. Which rung do all three share? A: The broker. If it fails, all three holdings are affected at once, however different the funds are. See broker failure. Q: Why do higher rungs on the ladder do more damage? A: Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse or a closed market hits every store priced, held or sold there.",
    "textDeep": "Going deeper Failure mode and effects analysis. Engineers list every way a system can fail, how likely and how severe each is, and what detects it. The ladder is the same exercise applied to wealth: each rung is a failure mode, each backstop a control, and each page's limits section is where the control stops working. Correlation at the top. Rungs high on the ladder tend to fail together: a country in crisis often brings currency loss, capital controls and bank failures at once. See the flow When a country fails .",
    "children": [
     "broker-failure",
+    "insurer-failure",
+    "clearing-house-failure",
+    "ratings-failure",
     "capital-controls",
+    "confiscation",
     "financial-repression",
     "currency-failure",
-    "sovereign-default"
+    "sovereign-default",
+    "market-failure"
    ],
    "jobs": [],
    "quals": [],
@@ -2739,7 +2867,7 @@ window.MUDMAP = {
    "title": "Financial Repression",
    "short": "Financial Repression",
    "parent": "failure-modes",
-   "order": 3.0,
+   "order": 7.0,
    "summary": "How governments have reduced their debts quietly, by holding interest rates below inflation for years.",
    "tcodes": [],
    "fiori": [],
@@ -3093,7 +3221,9 @@ window.MUDMAP = {
     "diversification",
     "equities",
     "indices",
+    "market-failure",
     "practice",
+    "ratings-failure",
     "reits",
     "shares"
    ],
@@ -3159,6 +3289,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "clearing-house-failure",
     "commodities",
     "derivatives",
     "leverage",
@@ -3232,9 +3363,9 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "collectibles",
     "commodities",
+    "confiscation",
     "currency-failure",
     "custody",
-    "failure-modes",
     "financial-repression",
     "hierarchy-of-money",
     "money",
@@ -3494,7 +3625,9 @@ window.MUDMAP = {
     "account-types",
     "asset-allocation",
     "cartography-of-wealth",
+    "confiscation",
     "currency-failure",
+    "insurer-failure",
     "personal-capital",
     "private-business",
     "social-capital",
@@ -3681,6 +3814,63 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "insurer-failure": {
+   "id": "insurer-failure",
+   "title": "Insurer and Guarantor Failure",
+   "short": "Insurer Failure",
+   "parent": "failure-modes",
+   "order": 2.0,
+   "summary": "When the firm that promised to pay out on a policy, an annuity or a bond guarantee can't.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "insurance",
+    "annuities",
+    "guarantees"
+   ],
+   "sources": [
+    "US Treasury, AIG final stock sale press release (2012)",
+    "The Equitable Life Assurance Society",
+    "Executive Life Insurance Company",
+    "NOLHGA, How you're protected",
+    "Ambac"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "insurer-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>An <strong>insurer or guarantor</strong>: a firm that takes your money now in return for a promise to pay later. That covers life insurance, annuities that pay a pension for life, and bond insurers that guarantee other people's debts. Like a bank deposit, every policy is a <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">claim</a>: the insurer's liability, worth only what the insurer can pay.</p>\n<h2>The backstop</h2>\n<ul>\n<li><strong>Capital and reserves</strong>, set by regulators so insurers can meet expected claims.</li>\n<li><strong>Guarantee schemes.</strong> In the US, state guaranty associations cover policyholders of failed insurers up to limits set by each state. The most common limits are $300,000 for life insurance death benefits and $250,000 for annuities.</li>\n<li><strong>Government rescue,</strong> when an insurer is big enough to threaten the system.</li>\n</ul>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Limits.</strong> Large annuities and policies above the cap are only partly covered.</li>\n<li><strong>Promises cut, not cancelled.</strong> A struggling insurer can reduce bonuses or benefits without formally failing.</li>\n<li><strong>Bond guarantees</strong> are only as strong as the guarantor. When it falls, so does the rating of every bond it insured.</li>\n<li><strong>Rescues are discretionary.</strong> AIG was saved because its failure threatened the system, not because policyholders were owed a rescue.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>Executive Life, 1991.</strong> Once the largest life insurer in California, it became insolvent in April 1991 after heavy losses on junk bonds, and California took it over. At the time its parent was the largest US insurer ever to fail.</li>\n<li><strong>Equitable Life, 2000.</strong> The UK's oldest mutual life insurer lost a House of Lords case on 20 July 2000 over guaranteed annuity rates it had promised. It closed to new business on 8 December 2000. In 2010 the government announced about £1.5 billion of compensation for policyholders.</li>\n<li><strong>AIG, 2008.</strong> The insurer had sold huge amounts of protection against bond defaults. The US Federal Reserve and Treasury committed about $182 billion to stop it collapsing. By December 2012 the rescue had been fully repaid, with a positive return of about $22.7 billion.</li>\n<li><strong>Bond insurers, 2008–10.</strong> Firms that guaranteed municipal and mortgage bonds lost their AAA ratings as mortgage losses mounted: Fitch cut Ambac in January 2008. Ambac's holding company filed for bankruptcy in November 2010.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Annuities and pensions paid by an insurer, the savings part of life policies, and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> whose rating rested on a guarantee. It also hits <a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> protection, since disability and life cover are only as good as the insurer behind them, and the buildings cover that protects <a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a>.</p>\n<blockquote>\n<p><strong>Key rule:</strong> an insurance policy is a long-dated promise. Check the insurer's strength and your guarantee scheme's limit before you rely on it for decades.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold a $400,000 annuity with an insurer that fails, in a state with a $250,000 annuity limit. What is at risk?</p><details><summary>Show answer</summary><p>The $150,000 above the limit. The guaranty association covers up to $250,000; the rest depends on what is recovered from the failed insurer.</p></details></div>\n<div class=\"qa\"><p class=\"q\">AIG was rescued and taxpayers made a profit. Why is it still a warning?</p><details><summary>Show answer</summary><p>Because the rescue was a choice made to protect the financial system. A smaller insurer, or a different government, might not have been saved.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "claims-and-liabilities",
+    "human-capital",
+    "real-estate"
+   ],
+   "stub": false,
+   "text": "What fails An insurer or guarantor : a firm that takes your money now in return for a promise to pay later. That covers life insurance, annuities that pay a pension for life, and bond insurers that guarantee other people's debts. Like a bank deposit, every policy is a claim: the insurer's liability, worth only what the insurer can pay. The backstop Capital and reserves , set by regulators so insurers can meet expected claims. Guarantee schemes. In the US, state guaranty associations cover policyholders of failed insurers up to limits set by each state. The most common limits are $300,000 for life insurance death benefits and $250,000 for annuities. Government rescue, when an insurer is big enough to threaten the system. Where the backstop runs out Limits. Large annuities and policies above the cap are only partly covered. Promises cut, not cancelled. A struggling insurer can reduce bonuses or benefits without formally failing. Bond guarantees are only as strong as the guarantor. When it falls, so does the rating of every bond it insured. Rescues are discretionary. AIG was saved because its failure threatened the system, not because policyholders were owed a rescue. Cases Executive Life, 1991. Once the largest life insurer in California, it became insolvent in April 1991 after heavy losses on junk bonds, and California took it over. At the time its parent was the largest US insurer ever to fail. Equitable Life, 2000. The UK's oldest mutual life insurer lost a House of Lords case on 20 July 2000 over guaranteed annuity rates it had promised. It closed to new business on 8 December 2000. In 2010 the government announced about £1.5 billion of compensation for policyholders. AIG, 2008. The insurer had sold huge amounts of protection against bond defaults. The US Federal Reserve and Treasury committed about $182 billion to stop it collapsing. By December 2012 the rescue had been fully repaid, with a positive return of about $22.7 billion. Bond insurers, 2008–10. Firms that guaranteed municipal and mortgage bonds lost their AAA ratings as mortgage losses mounted: Fitch cut Ambac in January 2008. Ambac's holding company filed for bankruptcy in November 2010. What it kills Annuities and pensions paid by an insurer, the savings part of life policies, and bonds whose rating rested on a guarantee. It also hits human capital protection, since disability and life cover are only as good as the insurer behind them, and the buildings cover that protects real estate. Key rule: an insurance policy is a long dated promise. Check the insurer's strength and your guarantee scheme's limit before you rely on it for decades. Check yourself Q: You hold a $400,000 annuity with an insurer that fails, in a state with a $250,000 annuity limit. What is at risk? A: The $150,000 above the limit. The guaranty association covers up to $250,000; the rest depends on what is recovered from the failed insurer. Q: AIG was rescued and taxpayers made a profit. Why is it still a warning? A: Because the rescue was a choice made to protect the financial system. A smaller insurer, or a different government, might not have been saved.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes",
+    "ratings-failure"
+   ],
+   "backlinksAdv": []
+  },
   "keys-and-wallets": {
    "id": "keys-and-wallets",
    "title": "Keys and Wallets",
@@ -3799,7 +3989,8 @@ window.MUDMAP = {
    "backlinks": [
     "backstops",
     "bank-capital-and-liquidity",
-    "flow:when-a-bank-fails"
+    "flow:when-a-bank-fails",
+    "market-failure"
    ],
    "backlinksAdv": []
   },
@@ -3938,11 +4129,70 @@ window.MUDMAP = {
     "central-bank-money",
     "collectibles",
     "exchanges",
+    "market-failure",
     "market-regimes",
     "memecoins",
     "money",
     "portfolio",
     "real-assets"
+   ],
+   "backlinksAdv": []
+  },
+  "market-failure": {
+   "id": "market-failure",
+   "title": "Market Failure",
+   "short": "Market Failure",
+   "parent": "failure-modes",
+   "order": 10.0,
+   "summary": "When the market itself stops: closures, forced selling, decades-long slumps, and markets that never came back.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "markets",
+    "closures",
+    "survivorship"
+   ],
+   "sources": [
+    "Financial crisis of 1914",
+    "Philippe Jorion and William Goetzmann, Global Stock Markets in the Twentieth Century (1999), via NBER",
+    "Bank of England Quarterly Bulletin, Financial stability buy/sell tools: a gilt market case study (2023)",
+    "BNN Bloomberg, Russian stocks gain in local trading after record-long shutdown (2022)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "market-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>The <strong>market</strong>: the place where you can sell. A share or bond is only worth what someone will pay. If the exchange shuts, if a whole market is forced to sell at once, or if the system it belongs to disappears, the price on your statement stops meaning anything.</p>\n<h2>The backstop</h2>\n<ul>\n<li><strong>Central banks</strong> can buy assets to stop a fire sale. See <a class=\"wl\" href=\"#/map/p/lender-of-last-resort\" data-page=\"lender-of-last-resort\">Lender of Last Resort</a>.</li>\n<li><strong>Circuit breakers and closures</strong> pause trading to stop panic. See <a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a>.</li>\n<li><strong>Time.</strong> Most markets that fell have eventually recovered, though sometimes over decades.</li>\n</ul>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>You can't sell while it's shut.</strong> A closure protects prices, not your access to cash.</li>\n<li><strong>Recovery can outlast you.</strong> A market that takes thirty years to regain its peak isn't much help to someone who needs the money in ten.</li>\n<li><strong>Some markets never came back.</strong> And the records most people study come from markets that survived.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>New York, 1914.</strong> As the First World War began, the New York Stock Exchange closed on 31 July 1914 and didn't reopen for stocks until 12 December, more than four months later.</li>\n<li><strong>Markets that vanished.</strong> After the Russian revolution of 1917 and the Communist victory in China in 1949, shareholders lost everything. Philippe Jorion and William Goetzmann studied 39 markets over the 20th century: the US had the highest uninterrupted real return, about 4.7% a year, against a median of about 1.5% for the others. Long-run \"stocks always win\" figures lean on the market that survived.</li>\n<li><strong>Japan, 1989–2024.</strong> The Nikkei 225's 1989 closing high wasn't beaten until 22 February 2024. See <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a>.</li>\n<li><strong>UK gilts, September 2022.</strong> 30-year government bond yields rose by 130 basis points in three trading days. Pension funds using leveraged strategies faced collateral calls and had to sell gilts, which pushed prices down further. The Bank of England bought £19.3 billion of gilts between 28 September and 14 October to stop the spiral.</li>\n<li><strong>Moscow, 2022.</strong> Share trading stopped after 25 February and restarted on 24 March, with foreign investors barred from selling.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Everything that relies on a sale to turn into money: <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a>, <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a>, <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">funds</a> and <a class=\"wl\" href=\"#/map/p/collectibles\" data-page=\"collectibles\">Collectibles</a>. Even \"safe\" government bonds, as the gilt crisis showed, can fall fast when forced sellers meet no buyers. See <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a>.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a price is only real if you can sell at it. Keep money you'll need soon in a form that doesn't depend on a market being open.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does the long-run return of US shares overstate what a global investor could expect?</p><details><summary>Show answer</summary><p>Survivorship. The US was the most successful market of the century; others had lower returns, and some closed for good. Studying only the survivor makes the past look safer than it was.</p></details></div>\n<div class=\"qa\"><p class=\"q\">In 2022, why did UK pension funds sell government bonds into a falling market?</p><details><summary>Show answer</summary><p>Their leveraged strategies needed more collateral as bond prices fell, so they had to sell bonds to raise cash, which pushed prices down further.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "collectibles",
+    "exchanges",
+    "funds-and-etfs",
+    "lender-of-last-resort",
+    "liquidity",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails The market : the place where you can sell. A share or bond is only worth what someone will pay. If the exchange shuts, if a whole market is forced to sell at once, or if the system it belongs to disappears, the price on your statement stops meaning anything. The backstop Central banks can buy assets to stop a fire sale. See lender of last resort. Circuit breakers and closures pause trading to stop panic. See exchanges. Time. Most markets that fell have eventually recovered, though sometimes over decades. Where the backstop runs out You can't sell while it's shut. A closure protects prices, not your access to cash. Recovery can outlast you. A market that takes thirty years to regain its peak isn't much help to someone who needs the money in ten. Some markets never came back. And the records most people study come from markets that survived. Cases New York, 1914. As the First World War began, the New York Stock Exchange closed on 31 July 1914 and didn't reopen for stocks until 12 December, more than four months later. Markets that vanished. After the Russian revolution of 1917 and the Communist victory in China in 1949, shareholders lost everything. Philippe Jorion and William Goetzmann studied 39 markets over the 20th century: the US had the highest uninterrupted real return, about 4.7% a year, against a median of about 1.5% for the others. Long run \"stocks always win\" figures lean on the market that survived. Japan, 1989–2024. The Nikkei 225's 1989 closing high wasn't beaten until 22 February 2024. See shares. UK gilts, September 2022. 30 year government bond yields rose by 130 basis points in three trading days. Pension funds using leveraged strategies faced collateral calls and had to sell gilts, which pushed prices down further. The Bank of England bought £19.3 billion of gilts between 28 September and 14 October to stop the spiral. Moscow, 2022. Share trading stopped after 25 February and restarted on 24 March, with foreign investors barred from selling. What it kills Everything that relies on a sale to turn into money: shares, bonds, funds and collectibles. Even \"safe\" government bonds, as the gilt crisis showed, can fall fast when forced sellers meet no buyers. See liquidity. Key rule: a price is only real if you can sell at it. Keep money you'll need soon in a form that doesn't depend on a market being open. Check yourself Q: Why does the long run return of US shares overstate what a global investor could expect? A: Survivorship. The US was the most successful market of the century; others had lower returns, and some closed for good. Studying only the survivor makes the past look safer than it was. Q: In 2022, why did UK pension funds sell government bonds into a falling market? A: Their leveraged strategies needed more collateral as bond prices fell, so they had to sell bonds to raise cash, which pushed prices down further.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes"
    ],
    "backlinksAdv": []
   },
@@ -4420,6 +4670,7 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "clearing-house-failure",
     "derivatives",
     "futures"
    ],
@@ -4846,6 +5097,61 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "ratings-failure": {
+   "id": "ratings-failure",
+   "title": "Ratings and Gatekeeper Failure",
+   "short": "Ratings Failure",
+   "parent": "failure-modes",
+   "order": 4.0,
+   "summary": "When the agencies and auditors investors rely on to judge risk get it badly wrong.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "failure",
+    "credit ratings",
+    "auditors",
+    "gatekeepers"
+   ],
+   "sources": [
+    "US Senate Committee on Governmental Affairs, Rating the Raters: Enron and the Credit Rating Agencies (2002)",
+    "Reuters via Business Standard, Moody's pays $864 million over pre-crisis ratings (2017)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "path": [
+    "capital-system",
+    "failure-modes",
+    "ratings-failure"
+   ],
+   "branch": "failure-modes",
+   "adv": false,
+   "html": "<h2>What fails</h2>\n<p>The <strong>gatekeepers</strong>: credit rating agencies, auditors and others whose job is to tell investors how safe something is. They don't hold your money, so their failure doesn't take it directly. It leads you, and the rules built on their opinions, to hold more risk than you think. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</p>\n<h2>The backstop</h2>\n<p>For investors, there is none. A rating is an opinion, not insurance. Regulators supervise the agencies, and lawsuits and settlements can follow failures, but the money goes to governments and plaintiffs, not necessarily to the investors who lost.</p>\n<h2>Where the backstop runs out</h2>\n<ul>\n<li><strong>Conflicts of interest.</strong> The issuer usually pays for its own rating.</li>\n<li><strong>Ratings lag.</strong> Downgrades often come after markets have already lost confidence.</li>\n<li><strong>Rules lean on ratings.</strong> Many funds and banks may only hold highly rated assets, so a wrong AAA can spread a risk across the whole system.</li>\n<li><strong>Complex products</strong> are hard to rate and easy to rate wrongly.</li>\n</ul>\n<h2>Cases</h2>\n<ul>\n<li><strong>Enron, 2001.</strong> The energy company's debt was rated investment grade until days before its collapse. S&amp;P cut it to junk on 28 November 2001, and Enron filed for bankruptcy days later. A US Senate committee later examined why the agencies were so slow.</li>\n<li><strong>Mortgage securities, 2007–09.</strong> Many bonds built from risky US mortgages were rated AAA and later downgraded en masse or defaulted. S&amp;P later agreed to pay $1.375 billion (2015) and Moody's about $864 million (2017) to settle US government claims over their pre-crisis ratings.</li>\n</ul>\n<h2>What it kills</h2>\n<p>Mainly <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and bond <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">funds</a> bought on the strength of a rating, and the bond insurers that relied on them. See <a class=\"wl\" href=\"#/map/p/insurer-failure\" data-page=\"insurer-failure\">Insurer and Guarantor Failure</a>. In 2007–09 the damage spread further: banks that held AAA-rated mortgage bonds failed or needed rescue, which reached <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> and sent <a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> down with them.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a rating is a starting point for your own judgment, not a substitute for it. A yield far above similarly rated bonds is the market disagreeing with the rating.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why don't rating agency settlements protect the investors who lost money?</p><details><summary>Show answer</summary><p>Because a rating isn't a guarantee. Settlements are paid to governments and plaintiffs under the law, not as a refund to every holder of a downgraded bond.</p></details></div>\n<div class=\"qa\"><p class=\"q\">How can a wrong rating spread risk across the whole financial system?</p><details><summary>Show answer</summary><p>Because many rules let banks and funds hold an asset only if it's highly rated. A wrong AAA lets a risky asset into portfolios that were meant to be safe.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-deposits",
+    "bonds",
+    "credit-risk",
+    "funds-and-etfs",
+    "insurer-failure",
+    "shares"
+   ],
+   "stub": false,
+   "text": "What fails The gatekeepers : credit rating agencies, auditors and others whose job is to tell investors how safe something is. They don't hold your money, so their failure doesn't take it directly. It leads you, and the rules built on their opinions, to hold more risk than you think. See credit risk. The backstop For investors, there is none. A rating is an opinion, not insurance. Regulators supervise the agencies, and lawsuits and settlements can follow failures, but the money goes to governments and plaintiffs, not necessarily to the investors who lost. Where the backstop runs out Conflicts of interest. The issuer usually pays for its own rating. Ratings lag. Downgrades often come after markets have already lost confidence. Rules lean on ratings. Many funds and banks may only hold highly rated assets, so a wrong AAA can spread a risk across the whole system. Complex products are hard to rate and easy to rate wrongly. Cases Enron, 2001. The energy company's debt was rated investment grade until days before its collapse. S&P cut it to junk on 28 November 2001, and Enron filed for bankruptcy days later. A US Senate committee later examined why the agencies were so slow. Mortgage securities, 2007–09. Many bonds built from risky US mortgages were rated AAA and later downgraded en masse or defaulted. S&P later agreed to pay $1.375 billion (2015) and Moody's about $864 million (2017) to settle US government claims over their pre crisis ratings. What it kills Mainly bonds and bond funds bought on the strength of a rating, and the bond insurers that relied on them. See insurer failure. In 2007–09 the damage spread further: banks that held AAA rated mortgage bonds failed or needed rescue, which reached bank deposits and sent shares down with them. Key rule: a rating is a starting point for your own judgment, not a substitute for it. A yield far above similarly rated bonds is the market disagreeing with the rating. Check yourself Q: Why don't rating agency settlements protect the investors who lost money? A: Because a rating isn't a guarantee. Settlements are paid to governments and plaintiffs under the law, not as a refund to every holder of a downgraded bond. Q: How can a wrong rating spread risk across the whole financial system? A: Because many rules let banks and funds hold an asset only if it's highly rated. A wrong AAA lets a risky asset into portfolios that were meant to be safe.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "backlinks": [
+    "failure-modes"
+   ],
+   "backlinksAdv": []
+  },
   "real-assets": {
    "id": "real-assets",
    "title": "Real Assets",
@@ -4985,10 +5291,12 @@ window.MUDMAP = {
     "broker-failure",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "confiscation",
     "currency-failure",
     "financial-repression",
     "hierarchy-of-money",
     "inflation",
+    "insurer-failure",
     "leverage",
     "real-assets",
     "reits"
@@ -5359,9 +5667,9 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "clearing-house-failure",
     "derivatives",
     "exchanges",
-    "failure-modes",
     "futures",
     "markets",
     "shares"
@@ -5441,13 +5749,16 @@ window.MUDMAP = {
     "capital-controls",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "clearing-house-failure",
+    "confiscation",
     "currency-failure",
     "equities",
-    "failure-modes",
     "financial-repression",
     "funds-and-etfs",
     "hierarchy-of-money",
+    "market-failure",
     "markets",
+    "ratings-failure",
     "reits",
     "sovereign-default",
     "valuation"
@@ -5636,6 +5947,7 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "cartography-of-wealth",
+    "confiscation",
     "human-capital",
     "personal-capital",
     "private-business"
@@ -5647,7 +5959,7 @@ window.MUDMAP = {
    "title": "Sovereign Default",
    "short": "Sovereign Default",
    "parent": "failure-modes",
-   "order": 5.0,
+   "order": 9.0,
    "summary": "When a government stops paying its debts in full: how often it happens, how it's resolved, and who loses.",
    "tcodes": [],
    "fiori": [],
@@ -7692,5 +8004,5 @@ window.MUDMAP = {
    "status": "mapped"
   }
  },
- "built": "2026-10-25 16:02 UTC"
+ "built": "2026-10-25 16:38 UTC"
 };

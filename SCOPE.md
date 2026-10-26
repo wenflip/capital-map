@@ -1,6 +1,6 @@
 # The Capital Map — Scope
 
-*Status: every branch written (no stubs); the failure ladder has its first rungs. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-25.*
+*Status: every branch written (no stubs), including the full failure ladder. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-25.*
 
 ## What it is
 
@@ -38,7 +38,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | What you can own | Equities | **Written.** Shares, indices, funds and ETFs, financial statements, valuation, private business |
 | Putting it together | Derivatives | **Written.** Futures, options, perpetuals, leverage |
 | Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, rebalancing, market regimes |
-| Putting it together | When Things Fail | **Written.** The first rungs: the failure ladder hub, broker failure, capital controls, financial repression, currency failure, sovereign default. Still to write: insurers, clearing houses, ratings, confiscation, the market itself |
+| Putting it together | When Things Fail | **Written.** The failure ladder hub and ten rungs: broker, insurer, clearing house, ratings, capital controls, confiscation, financial repression, currency, sovereign default, the market itself. The bank and stablecoin rungs link to Backstops and Stablecoins |
 | How it runs | Markets & Plumbing | **Written.** Exchanges, brokers, custody, settlement |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
@@ -63,12 +63,12 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Cartography view** and the `place`, `span`, `killer_kind` fields, validated by the build.
 - Search fixes: hyphenated queries match page text, and keep the whole-phrase bonus. **Both worth back-porting to The Supply Map.**
 - About shows a Cartography count instead of an empty jobs tile; the Index says "all written" once there are no stubs.
+- **Search ranking (2026-10-25):** matches are weighted by where the words appear (title, then summary and tags, then how often in the body); the tree-depth bonus is only a tie-break. **Worth back-porting to The Supply Map.**
 - Storage prefix stays `mudmap:` so the shared test suites run unchanged (different site, different browser storage, no clash).
 
 ## Open questions
 
 1. **Is a Jobs view worth it here,** or is a learning path enough?
-2. **Search ranking:** every page containing a word scores the same, so a common word can push the best page down. Weight by where the word appears (title and summary before body) and how often.
 
 ## Decided since
 

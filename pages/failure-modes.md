@@ -27,16 +27,19 @@ The rungs run from the firm closest to you up to the system itself. The higher t
 | # | Rung | Page | Typical backstop |
 |---|---|---|---|
 | 1 | Broker, exchange or custodian | [[broker-failure]] | Segregated client assets; investor protection schemes |
-| 2 | Stablecoin issuer | [[stablecoins]] | Reserves, if they're there |
-| 3 | Bank | [[backstops]] | Capital, the central bank, deposit insurance, bail-in |
-| 4 | Clearing house | [[settlement]] | Margin and a default fund |
-| 5 | Ratings and gatekeepers | [[credit-risk]] | None: they inform, they don't insure |
-| 6 | Capital controls and freezes | [[capital-controls]] | None: the state is the one acting |
-| 7 | Quiet default through inflation | [[financial-repression]] | Real assets and inflation-linked bonds, partly |
-| 8 | The currency | [[currency-failure]] | Other currencies, real assets |
-| 9 | The country | [[sovereign-default]] | IMF lending and debt restructuring |
+| 2 | Insurer or guarantor | [[insurer-failure]] | Reserves; guarantee schemes up to a limit |
+| 3 | Stablecoin issuer | [[stablecoins]] | Reserves, if they're there |
+| 4 | Bank | [[backstops]] | Capital, the central bank, deposit insurance, bail-in |
+| 5 | Clearing house | [[clearing-house-failure]] | Margin and a default fund |
+| 6 | Ratings and gatekeepers | [[ratings-failure]] | None: they inform, they don't insure |
+| 7 | Capital controls and freezes | [[capital-controls]] | None: the state is the one acting |
+| 8 | Confiscation | [[confiscation]] | Courts, constitutions, compensation |
+| 9 | Quiet default through inflation | [[financial-repression]] | Real assets and inflation-linked bonds, partly |
+| 10 | The currency | [[currency-failure]] | Other currencies, real assets |
+| 11 | The country | [[sovereign-default]] | IMF lending and debt restructuring |
+| 12 | The market itself | [[market-failure]] | Central bank buying; time |
 
-Pages for the remaining rungs (insurers, confiscation, the market itself) are still to be written. Until then, [[gold]] covers the 1933 confiscation and [[shares]] the closed markets of 1917 and 1949.
+The bank and stablecoin rungs link to pages elsewhere on the map, where they're covered in depth.
 
 **Two patterns repeat.**
 - **Backstops are layered and linked.** Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See [[bank-sovereign-loop]].
@@ -64,7 +67,7 @@ Pages for the remaining rungs (insurers, confiscation, the market itself) are st
 
 **Q:** Why do higher rungs on the ladder do more damage?
 
-**A:** Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse hits every store priced and held in that currency.
+**A:** Because they sit behind more stores at once. A broker failure hits what that broker holds; a currency collapse or a closed market hits every store priced, held or sold there.
 
 ## Going deeper
 - **Failure mode and effects analysis.** Engineers list every way a system can fail, how likely and how severe each is, and what detects it. The ladder is the same exercise applied to wealth: each rung is a failure mode, each backstop a control, and each page's limits section is where the control stops working.
