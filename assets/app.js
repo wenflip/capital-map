@@ -62,6 +62,8 @@
   const LEVELS = DATA.levels || {};
   const STREAMS = DATA.streams || [];
   const QUALS = DATA.quals || {};
+  const QS = DATA.questions || {};           // plain-language questions (the Start view)
+  const QGROUPS = DATA.questionGroups || [];
   const FOCUS = Object.assign({}, ROLES, QUALS);   // focus can be a job role or a qualification
   const isQual = (id) => !!QUALS[id];
   const roleIds = Object.keys(ROLES).sort((a, b) => ROLES[a].level - ROLES[b].level || ROLES[a].order - ROLES[b].order);
@@ -131,7 +133,7 @@
     e.stopPropagation();
     const b = e.target.closest("[data-mode]"); if (b) setMode(b.dataset.mode === "simple");
     const r = e.target.closest("[data-role]"); if (r) setRole(r.dataset.role || null);
-    if (e.target.closest(".sm-about, .sm-privacy")) settingsMenu.hidden = true;   // the link navigates itself; just close the menu
+    if (e.target.closest(".sm-about, .sm-privacy, .sm-index")) settingsMenu.hidden = true;   // the link navigates itself; just close the menu
   });
   const mappedQuals = qualIds.filter((q) => QUALS[q].pages.length);   // planned placeholders can't be a focus
   $("#qual-seg").innerHTML = `<button data-role="">None</button>` + mappedQuals.map((q) => `<button data-role="${q}">${esc(QUALS[q].short)}</button>`).join("");
@@ -143,14 +145,15 @@
   function parseHash() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] === "paths") parts[0] = "jobs";
-    const view = ["map", "flows", "jobs", "quals", "cartography", "failures", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
-    let flow = null, page = null, path = null, qual = null;
+    const view = ["start", "map", "flows", "jobs", "quals", "cartography", "failures", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
+    let flow = null, page = null, path = null, qual = null, q = null;
     const pi = parts.indexOf("p");
     if (pi >= 0 && parts[pi + 1] && P[parts[pi + 1]]) page = parts[pi + 1];
     if (view === "flows" && parts[1] && parts[1] !== "p" && DATA.flows[parts[1]]) flow = parts[1];
     if (view === "jobs" && parts[1] && parts[1] !== "p" && ROLES[parts[1]]) path = parts[1];
     if (view === "quals" && parts[1] && parts[1] !== "p" && QUALS[parts[1]]) qual = parts[1];
-    return { view, flow, page, path, qual };
+    if (view === "start" && parts[1] && parts[1] !== "p" && QS[parts[1]]) q = parts[1];
+    return { view, flow, page, path, qual, q };
   }
   function go(next, replace) {
     const cur = parseHash();
@@ -159,6 +162,7 @@
     if (s.view === "flows" && s.flow) h += "/" + s.flow;
     if (s.view === "jobs" && s.path) h += "/" + s.path;
     if (s.view === "quals" && s.qual) h += "/" + s.qual;
+    if (s.view === "start" && s.q) h += "/" + s.q;
     if (s.page) h += "/p/" + s.page;
     if (h === location.hash) { render(); return; }
     if (replace) history.replaceState(null, "", h); else location.hash = h;
@@ -169,10 +173,11 @@
 
   /* Every navigation element gets a real address, so Ctrl/Cmd+click, middle-click, Shift+click
      and right-click "open in new tab" work like any website. A plain click stays in this tab. */
-  const NAV_SEL = "[data-page],[data-flow],[data-view],[data-mapto],[data-path],[data-qual]";
+  const NAV_SEL = "[data-page],[data-flow],[data-view],[data-mapto],[data-path],[data-qual],[data-question]";
   function hrefFor(d) {
     if (d.path !== undefined) return d.path ? `#/jobs/${d.path}` : "#/jobs";
     if (d.qual !== undefined) return d.qual ? `#/quals/${d.qual}` : "#/quals";
+    if (d.question !== undefined) return d.question ? `#/start/${d.question}` : "#/start";
     if (d.mapto) return `#/map/p/${d.mapto}`;
     if (d.view) return `#/${d.view}`;
     if (d.flow) return `#/flows/${d.flow}` + (d.page ? `/p/${d.page}` : "");
@@ -209,9 +214,10 @@
       pendingModule = a.dataset.module || null;
       go({ view: "quals", qual: a.dataset.qual || null, page: null }); return;
     }
+    if (a.dataset.question !== undefined) { go({ view: "start", q: a.dataset.question || null, page: null }); return; }
     if (a.dataset.mapto) { go({ view: "map", page: a.dataset.mapto }); revealOnMap(a.dataset.mapto); return; }
     if (a.dataset.view === "map" && a.classList.contains("tab") && parseHash().view === "map") { goHome(); return; }
-    if (a.dataset.view) { go({ view: a.dataset.view, flow: null, path: null, qual: null }); return; }
+    if (a.dataset.view) { go({ view: a.dataset.view, flow: null, path: null, qual: null, q: null }); return; }
     if (a.dataset.flow) { go({ view: "flows", flow: a.dataset.flow, page: a.dataset.page || null }); return; }
     if (a.dataset.page) openPage(a.dataset.page);
   });
@@ -227,6 +233,7 @@
     if (s.view === "flows") renderFlows(s.flow);
     if (s.view === "jobs") renderJobs(s.path);
     if (s.view === "quals") renderQuals(s.qual);
+    if (s.view === "start") renderStart(s.q);
     if (s.view === "cartography") renderCart();
     if (s.view === "failures") renderFailures();
     if (s.view === "index" && lastView !== "index") renderIndex();
@@ -546,6 +553,7 @@
       ${p.adv && mode.simple ? `<div class="stub-note adv-note"><b>Advanced page.</b> It's hidden from the map in Core view. <button class="linkish" data-setmode="normal">Switch to Everything</button> to see it in place.</div>` : ""}
       ${rolePanel(id)}
       ${qualPanel(p)}
+      ${answersPanel(p)}
       ${p.adv && !mode.simple ? `<div class="adv-pill">Advanced layer</div>` : ""}
       ${p.stub ? `<div class="stub-note"><b>Stub.</b> This page is a placeholder on the map. It gets written when the topic is studied.</div>` : ""}
       <div class="content">${p.html}${p.deep || ""}</div>
@@ -561,6 +569,12 @@
     const el = $(`[data-node="${CSS.escape(id)}"]`); if (el) el.classList.add("selected");
   }
   const modCode = (m) => m.split(/\s+[—–-]\s+/)[0];
+  function answersPanel(p) {
+    const qs = (p.answers || []).filter((q) => QS[q]);
+    if (!qs.length) return "";
+    return `<div class="p-quals p-answers"><span class="pq-label">Answers</span>${qs.map((q) =>
+      `<a class="chip answer-chip" data-question="${q}" title="${esc(QS[q].group)}">${esc(QS[q].question)}</a>`).join("")}</div>`;
+  }
   function qualPanel(p) {
     if (!p.quals || !p.quals.length) return "";
     return `<div class="p-quals"><span class="pq-label">Qualifications</span>${p.quals.map((x) =>
@@ -938,6 +952,47 @@
   });
 
   /* =====================================================================
+     START: plain-language questions, the front door for newcomers
+     Data: questions/ (question, group, short answer, an ordered route of pages to read next)
+     ===================================================================== */
+  const qOrder = () => Object.keys(QS).sort((a, b) => QGROUPS.indexOf(QS[a].group) - QGROUPS.indexOf(QS[b].group) || QS[a].order - QS[b].order || a.localeCompare(b));
+  let lastStartShown = undefined;
+  function renderStart(qid) {
+    const body = $("#start-body"), scroller = body.parentElement;
+    if (!qid) {
+      const ids = qOrder();
+      body.innerHTML = `<h1 class="view-title">Start here</h1>
+        <p class="view-sub">Bring the question you came with. Each answer is short and plain, and points to the pages that explain it properly. Nothing here tells you what to buy or sell.</p>` +
+        QGROUPS.map((g) => {
+          const qs = ids.filter((q) => QS[q].group === g);
+          return qs.length ? `<h2 class="section flow-area">${esc(g)}</h2><div class="flow-cards q-cards">${qs.map((q) =>
+            `<a class="flow-card q-card" data-question="${q}"><h3>${esc(QS[q].question)}</h3><div class="meta">${QS[q].route.length} pages to read next</div></a>`).join("")}</div>` : "";
+        }).join("") +
+        `<p class="mod-note start-more">Prefer to browse? See <a data-view="map">the map</a>, or <a data-view="index">every page, A–Z</a>.</p>`;
+      if (lastStartShown !== null) scroller.scrollTop = 0;
+      lastStartShown = null;
+      return;
+    }
+    const Q = QS[qid], same = qOrder().filter((q) => q !== qid && QS[q].group === Q.group);
+    const route = Q.route.map((st, i) => {
+      const pg = P[st.page], hidden = !vis(st.page);
+      return `<li class="q-step${hidden ? " hidden-adv" : ""}"><span class="pi-n">${i + 1}</span>
+        <a data-page="${st.page}" class="pi-title"><span class="dot" style="background:${col(st.page)}"></span>${esc(pg.title)}${pg.adv ? ' <span class="adv-tag">◆ Everything view</span>' : ""}</a>
+        <span class="pi-note">${st.note}</span></li>`;
+    }).join("");
+    body.innerHTML = `<a class="back" data-question="">← All questions</a>
+      <div class="p-branch q-group">${esc(Q.group)}</div>
+      <h1 class="view-title">${esc(Q.question)}</h1>
+      <div class="content q-answer">${Q.answer}</div>
+      <h2 class="section">Read next</h2>
+      <p class="view-sub">In this order. Each page opens beside this one.</p>
+      <ol class="path-list q-route">${route}</ol>
+      ${same.length ? `<h2 class="section">More in ${esc(Q.group)}</h2><div class="p-list">${same.map((q) => `<a data-question="${q}"><span class="dot" style="background:var(--accent)"></span>${esc(QS[q].question)}</a>`).join("")}</div>` : ""}`;
+    if (lastStartShown !== qid) scroller.scrollTop = 0;
+    lastStartShown = qid;
+  }
+
+  /* =====================================================================
      FAILURES: the failure ladder, bottom to top, and a store × rung matrix
      Data: rung pages carry rung, rungName, backstop; stores carry failsAt (rung ids); the build adds hits to each rung
      ===================================================================== */
@@ -1087,6 +1142,11 @@
     Object.values(DATA.flows).filter(flowVis).forEach((f) => {
       if (qHas((f.title + " " + f.summary).toLowerCase())) out.push({ type: "flow", id: f.id, score: 50 });
     });
+    Object.values(QS).forEach((Q) => {
+      const qt = Q.question.toLowerCase(), hay = qt + " " + Q.group.toLowerCase() + " " + Q.answerText.toLowerCase();
+      if (qHas(qt) || termHas.every((has) => has(qt))) out.push({ type: "question", id: Q.id, score: 70 });
+      else if (textHit(hay)) out.push({ type: "question", id: Q.id, score: 30 });
+    });
     qualIds.forEach((qid) => QUALS[qid].stages.forEach((s) => {
       const m = s.title.toLowerCase();
       if (modCode(m) === q) out.push({ type: "module", id: qid, m: s.title, score: 200 });
@@ -1101,6 +1161,7 @@
     results.innerHTML = found.map((r, i) => {
       const open = `<a class="result ${i === sel ? "sel" : ""}" data-i="${i}" href="${resultHref(r)}">`;
       if (r.type === "flow") { const f = DATA.flows[r.id]; return `${open}<div class="r-title"><span class="r-dot" style="background:var(--accent)"></span>Flow · ${esc(f.title)}</div><div class="r-sub">${esc(f.summary)}</div></a>`; }
+      if (r.type === "question") { const Q = QS[r.id]; return `${open}<div class="r-title"><span class="r-dot" style="background:var(--accent)"></span>Question · ${esc(Q.question)}</div><div class="r-sub">${esc(Q.group)} · ${Q.route.length} pages to read next</div></a>`; }
       if (r.type === "module") { const st = QUALS[r.id].stages.find((s) => s.title === r.m); return `${open}<div class="r-title"><span class="r-dot qual-dot"></span>${esc(QUALS[r.id].short)} · ${esc(r.m)}</div><div class="r-sub">Qualification module · ${st ? st.items.length : 0} pages</div></a>`; }
       const p = P[r.id];
       const sub = [p.tcodes.join(", "), p.summary].filter(Boolean).join(" — ");
@@ -1110,6 +1171,7 @@
   function resultHref(r) {
     if (r.type === "flow") return `#/flows/${r.id}`;
     if (r.type === "module") return `#/quals/${r.id}`;
+    if (r.type === "question") return `#/start/${r.id}`;
     return `#/map/p/${r.id}`;
   }
   function choose(i) {
@@ -1118,6 +1180,7 @@
     hits = new Set();
     if (r.type === "flow") go({ view: "flows", flow: r.id, page: null });
     else if (r.type === "module") { pendingModule = r.m; go({ view: "quals", qual: r.id, page: null }); }
+    else if (r.type === "question") go({ view: "start", q: r.id, page: null });
     else openPage(r.id);
   }
   input.addEventListener("input", () => {
@@ -1170,7 +1233,7 @@
     const where = a.dataset.wc;
     if (where === "map") { if (parseHash().view !== "map" || parseHash().page) go({ view: "map", flow: null, path: null, qual: null, page: null }); }
     else if (where === "flow") go({ view: "flows", flow: (a.getAttribute("href") || "").split("/")[2] || null, page: null });  // flow id comes from the link, not hard-coded
-    else go({ view: where, flow: null, path: null, qual: null, page: null });
+    else go({ view: where, flow: null, path: null, qual: null, q: null, page: null });
   });
   document.addEventListener("click", (e) => { if (e.target.closest("#wc-reopen")) showWelcome(); });
   // Keys while the guide is open: Esc closes it, Tab stays inside it, and the page's own shortcuts (/, H, Esc) wait.

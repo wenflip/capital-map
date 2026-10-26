@@ -2,14 +2,14 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage, and the Failures view shows the ladder and which rungs can hit which stores. The build also exports the map as a SQLite database. Seven flows: four written, three planned outlines. Next: P1 content (FX first). See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (no stubs), including the full failure ladder. A Start view of plain questions is the front door. The Quals tab shows coverage, and the Failures view shows the ladder and which rungs can hit which stores. The build also exports the map as a SQLite database. Seven flows: four written, three planned outlines. Next: P1 content (FX first). See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
 1. Pull the latest version (`git pull`).
 2. Double-click `index.html`. It opens in your browser — no server needed.
 
-Views: **Map**, **Flows**, **Quals**, **Cartography**, **Failures** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
+Views: **Start** (plain questions, the front door), **Map**, **Flows**, **Quals**, **Cartography**, **Failures** and **Index** (A–Z, linked from Start and the settings menu), plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
 
 ## How it's built
 
@@ -20,6 +20,7 @@ All content is Markdown:
 | `pages/` | One concept per file. Frontmatter sets its place on the map (`parent`, `order`). |
 | `flows/` | Step-by-step walk-throughs. One table whose first two columns are `Step` and `Page`; further columns are detail rows. `status: planned` marks an outline (Step and Page only, every step linked to a page), shown with a Planned tag until its detail is written. |
 | `quals/` | One qualification per file: its modules, each mapped to the pages that cover it. See *Qualifications* below. |
+| `questions/` | One plain-language question per file: a short answer, then `## Read next` with 3–5 pages in order. See *Questions* below. |
 | `jobs/` | Empty. The engine supports job paths; the tab stays hidden until there is content. |
 | `about.md`, `privacy.md` | Site pages. |
 
@@ -117,6 +118,30 @@ The Quals tab shows how much of each qualification the map covers, and the total
 **Coverage % = mapped modules ÷ in-scope modules.** Placeholders count as not mapped in the total. "Mapped" means at least one page covers the module's core idea, not the whole syllabus, so every module also shows its number of pages: a one-page module is visible as thin. When a module's pages leave a known gap, say so with a `> Partly mapped: …` note rather than leaving it counted as mapped.
 
 The build fails if a note contradicts the pages: an out-of-scope or `Not mapped yet` module that lists pages, or a `Partly mapped` module that lists none.
+
+## Questions (`questions/`)
+
+The Start view is the front door for newcomers: questions in the words people actually use, each with a short answer and an ordered route into the map.
+
+```
+---
+id: bank-safe                # matches the file name
+question: Is my money safe in the bank?
+group: Is my money safe?     # one of the groups listed in tools/build.py
+order: 1
+---
+Two to seven plain sentences. No jargon, or explain each term in the same sentence.
+
+## Read next
+- [[bank-deposits]] — one line on why to read it
+- [[deposit-insurance]] — ...
+```
+
+- **Plain:** aim for a reading age of 12 to 14. Readability is measured in the questions test, but honesty beats the score.
+- **Neutral and timeless,** like every page. Answers are country-neutral; where a rule differs by country, say so.
+- **Read every routed page first,** and make sure the answer agrees with it.
+- **The build fails** on a missing `?`, an unknown group, an answer outside 2 to 7 sentences, a broken or repeated route link, a route step without a reason, or a route shorter than 3 or longer than 5.
+- **Pages on a route** show an "Answers" link back to each question.
 
 ## Hub pages
 

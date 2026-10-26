@@ -18,11 +18,13 @@ It lays the whole system out as one connected map. Each concept has one page. Ev
 - **Not a news or price site.** For live data, see [[data-sources]].
 
 ## Ways in
+- **Start** — plain questions, such as *Is my money safe in the bank?*, each with a short answer and the pages to read next. Every answer is written to be read without a finance background, and none tells you what to buy or sell.
 - **Map** — the system as a tree. Start at [[capital-system]] and expand any branch.
 - **Flows** — money followed step by step, such as where a dollar comes from.
 - **Quals** — qualifications and free courses (CFA, FRM, CAIA and others), with each module mapped onto the pages that cover it. Placeholders list every module before it is mapped.
 - **Cartography** — every store of wealth on one chart: how embodied it is, how visible to the state, and what is most likely to kill it. Filter by tier or by kind of killer.
-- **Index and search** — every page. Press `/` to search, `H` to go home. Ctrl+click any link to open it in a new tab.
+- **Failures** — the failure ladder from the firm closest to you to the market itself, and which rungs can hit which stores of wealth.
+- **Index and search** — every page, A–Z (linked from Start and the settings menu). Press `/` to search, `H` to go home. Ctrl+click any link to open it in a new tab.
 - **Depth** — *Core* for the essentials, *Everything* to add the advanced layer (marked ◆) and the "Going deeper" sections.
 - **Welcome guide** — the same ways in, on one card. It opens on a first visit; reopen it at the foot of this page.
 

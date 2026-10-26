@@ -45,6 +45,8 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 
 ## Cross-cutting views
 
+- **Start (questions):** the front door. Plain questions grouped by worry, each with a short answer and 3 to 5 pages to read next. It takes the Index tab's slot; the Index stays at its address and is linked from Start and the settings menu.
+
 - **Flows:** seven, four written and three planned.
   - **Written:** *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one), *When a country fails* (a debt crisis climbing the failure ladder) and *How a share trade settles* (order to custody, firm by firm).
   - **Planned outlines** (steps and pages set, detail to come): *When a broker fails*, *A stablecoin run* and *QE and QT*.
@@ -96,6 +98,12 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **SQLite export (2026-10-26):** the build writes the map as a normalised SQLite database (lists become tables, ranges become two columns, junction tables for many-to-many) for SQL practice and reuse. It's committed and served, and byte-identical on an unchanged rebuild.
 - **Four ways to earn (2026-10-26):** a Foundation page sorts every return by what you supply: labour (wages), lending (interest or rent), ownership (profit), and price and risk (gains or premiums). Money with nothing supplied is a transfer. It's a third lens beside the tree (what assets are) and the Cartography (what kills them): how wealth grows. It classifies mechanisms, never assets, because one asset can earn several ways. The fourth way is split into pure price bets and being paid to carry risk, and is never called "speculation". From the owner's study notes, in our own words, credited with Adam Smith's three sources of revenue (1776); a test guards against the notes' wording. Later, maybe: an `earns:` field on stores as data.
 - **What gives a coin value (2026-10-26):** a Digital Assets cluster explains where value comes from for assets that are nobody's liability. Code can be copied, so value needs both a well-built asset (**sound money**: supply and who holds it, security, legal standing, liquidity) and a crowd (**network effects**: real users, the default choice, a momentum loop that runs both ways, a lasting community). It's judged by the weaker part, as a way of thinking, not a formula. It doesn't apply to stablecoins or wrapped tokens, which are claims. From the owner's study notes in our own words, without the notes' verdict naming one coin as the winner (it's neither timeless nor neutral). Schelling (1960), Soros (1987) and every dated case were checked against sources. Mapped to Princeton BTC7 and BTC10.
+- **Questions as the front door (2026-10-26):** the site was filed the way experts think; newcomers arrive with worries, not topics. Questions are entries linked to pages (many-to-many, like quals), shown on a Start view, in search, as "Answers" links on routed pages, and as `questions` and `question_route` in the SQLite export.
+  - **No seventh tab:** six only just fit on a 390px phone. Start takes the Index tab's slot, first in the bar. The map stays home (logo and H).
+  - **Welcome guide:** "Ask a question" is the primary option; "Compare stores of wealth" was dropped from the card (the tab remains), so the card is no taller.
+  - **Readability is a guide, not a gate:** measured with Flesch–Kincaid in the test kit; honesty wins where they conflict.
+  - **The Fine Print is folded in:** its counterintuitive points become questions, so there's one mechanism and no separate layer.
+  - **Built in three branches:** engine and the first 10 questions; about 18 questions in total; then a Start-here path with ticks, using the qualification loader, not the job ladder.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel

@@ -54,7 +54,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 :where(a) { color: var(--link); }
 /* Navigation elements are real links (so Ctrl/Cmd+click opens a new tab) but look exactly like the buttons
    they replaced. :where() keeps this at zero specificity, so every class-based rule still wins. */
-:where(a:not(.wl)[data-page], a[data-path], a[data-qual], a[data-flow], a[data-mapto], a.result) {
+:where(a:not(.wl)[data-page], a[data-path], a[data-qual], a[data-flow], a[data-mapto], a[data-question], a.result) {
   color: inherit; text-decoration: none; cursor: pointer; font: inherit; display: inline-block; box-sizing: border-box;
 }
 /* buttons centre their content vertically when stretched by a grid; the card links that replaced them do the same */
@@ -540,8 +540,8 @@ a.brand:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .about-body { max-width: 820px; }
 .sm-about { display: block; margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border); font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; }
 .sm-about:hover { text-decoration: underline; }
-.sm-privacy { display: block; margin-top: 6px; font-size: 12.5px; color: var(--text-3); text-decoration: none; }
-.sm-privacy:hover { color: var(--text-2); text-decoration: underline; }
+.sm-privacy, .sm-index { display: block; margin-top: 6px; font-size: 12.5px; color: var(--text-3); text-decoration: none; }
+.sm-privacy:hover, .sm-index:hover { color: var(--text-2); text-decoration: underline; }
 .legend span[hidden] { display: none; }
 .wc-links { display: inline-flex; gap: 14px; }
 a.about-link { color: var(--link); cursor: pointer; font-weight: 600; }
@@ -731,3 +731,24 @@ a.wc-choice.primary { border-color: color-mix(in srgb, var(--accent) 55%, var(--
 /* Flows: a planned flow is an outline (steps and pages set, detail still to come) */
 .flow-card.planned { border-style: dashed; }
 .flow-outline-note { margin: 0 0 14px; }
+
+/* Start view: plain-language questions */
+.q-card h3 { font-size: 16px; line-height: 1.35; }
+.q-group { color: var(--accent); }
+.q-answer { font-size: 17px; line-height: 1.6; max-width: 720px; }
+.q-answer p { margin: 0 0 12px; }
+.q-route .q-step { display: grid; grid-template-columns: 28px minmax(180px, 320px) 1fr; align-items: baseline; gap: 4px 10px; padding: 9px 4px; border-bottom: 1px solid var(--border); }
+.q-route .q-step .pi-n { font-size: 12px; color: var(--text-3); font-variant-numeric: tabular-nums; text-align: right; }
+.q-route .q-step .pi-title { all: unset; cursor: pointer; font-weight: 600; display: inline-flex; align-items: baseline; gap: 7px; }
+.q-route .q-step .pi-title:hover { color: var(--link); }
+.q-route .q-step .pi-title .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; transform: translateY(-1px); }
+.q-route .q-step .pi-note { font-size: 13.5px; color: var(--text-2); }
+.start-more { margin-top: 28px; }
+.start-more a { color: var(--link); cursor: pointer; }
+.chip.answer-chip { font-family: var(--font); font-weight: 600; text-decoration: none; color: var(--text); cursor: pointer; border-style: dashed; border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); }
+.chip.answer-chip:hover { border-style: solid; border-color: var(--accent); }
+@media (max-width: 640px) {
+  .q-route .q-step { grid-template-columns: 24px 1fr; }
+  .q-route .q-step .pi-note { grid-column: 2; }
+  .q-answer { font-size: 16px; }
+}
