@@ -1,6 +1,6 @@
 # The Capital Map — Scope
 
-*Status: every branch written (no stubs), including the full failure ladder. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-26.*
+*Status: every branch and every flow written (no stubs, no outlines), including the full failure ladder. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-26.*
 
 ## What it is
 
@@ -47,9 +47,9 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 
 - **Start (questions):** the front door. Plain questions grouped by worry, each with a short answer and 3 to 5 pages to read next. It takes the Index tab's slot; the Index stays at its address and is linked from Start and the settings menu.
 
-- **Flows:** seven, five written and two planned.
-  - **Written:** *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one), *When a country fails* (a debt crisis climbing the failure ladder), *How a share trade settles* (order to custody, firm by firm) and *QE and QT* (bonds swapped for reserves, and back, with real cases at each step).
-  - **Planned outlines** (steps and pages set, detail to come): *When a broker fails* and *A stablecoin run*.
+- **Flows:** seven, all written.
+  - **Written:** *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one), *When a country fails* (a debt crisis climbing the failure ladder), *How a share trade settles* (order to custody, firm by firm) *QE and QT* (bonds swapped for reserves, and back, with real cases at each step), *When a broker fails* (each protection tested in turn) and *A stablecoin run* (a bank run on a blockchain).
+  - **Outlines:** none left. The engine still supports `status: planned`, and the tests check the outline rules on a throwaway outline.
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Failures view** (`#/failures`): the twelve-rung ladder from top to bottom, each rung with its backstop and the stores it can hit, then a **store × rung matrix** with each store's own killer beside it. Store and rung pages show the same links in their panels.
 - **Regimes:** a page for now (Market Regimes).

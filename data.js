@@ -8247,46 +8247,81 @@ window.MUDMAP = {
  },
  "flows": {
   "a-stablecoin-run": {
-   "status": "planned",
+   "status": "written",
    "id": "a-stablecoin-run",
    "title": "A stablecoin run: a bank run on a blockchain",
    "summary": "Follow a stablecoin losing its dollar peg, from the first doubt to who is left holding the token.",
    "area": "When Things Fail",
    "adv": false,
    "order": 6.0,
-   "lanes": [],
-   "intro": "<p>Rung 3 of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step. A stablecoin is a private dollar promise, and it can suffer the same kind of run as a bank.</p>",
-   "outro": "",
+   "lanes": [
+    "What happens",
+    "What you hold",
+    "What can go wrong",
+    "Where it happened"
+   ],
+   "intro": "<p>Rung 3 of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step. A stablecoin is a private dollar promise, and it can suffer the same kind of run as a bank.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a stablecoin is worth what its issuer can actually pay, when you need it. Doubt about either the reserves or the timing is enough to start a run.</p>\n</blockquote>",
+   "outro": "<h2>What to notice</h2>\n<ul>\n<li><strong>Same run, new wrapper.</strong> Doubt, a discount, a rush to the exit and a fire sale of assets: the steps match <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">a bank run</a>, but with no deposit insurance and no central bank behind the token.</li>\n<li><strong>A stablecoin can be hit by a bank failure.</strong> USDC's trouble began with its own bank, rung 4, one rung above stablecoins on the ladder. Failures pass between rungs; see <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a> for the bank-and-government version.</li>\n<li><strong>Backed by what?</strong> A token backed by cash and short-term government debt can come back; one backed mainly by its own partner token has nothing to fall back on.</li>\n</ul>\n<p><em>Sources: CNBC, Stablecoin USDC breaks dollar peg after firm reveals it has $3.3 billion in SVB exposure (11 March 2023); The Block, USDC and DAI remain at about $0.90 following Circle's disclosure of funds at SVB (March 2023); Federal Reserve, Joint statement by Treasury, Federal Reserve, and FDIC (12 March 2023); Benzinga, USD Coin returns to $1 peg after nail-biting weekend (13 March 2023).</em></p>",
    "steps": [
     {
      "label": "Holders start to doubt the reserves",
      "page": "stablecoins",
-     "cells": []
+     "cells": [
+      "News about the issuer, its bank or its design makes holders ask whether a dollar is really there",
+      "A token that promises one dollar",
+      "Reserves are only as safe as what they are and where they're kept",
+      "USDC, March 2023: its issuer, Circle, said $3.3 billion of its reserves were at Silicon Valley Bank, which had just failed"
+     ]
     },
     {
      "label": "The price slips below one dollar",
      "page": "stablecoins",
-     "cells": []
+     "cells": [
+      "Sellers outnumber buyers on exchanges",
+      "A token trading at a discount",
+      "A small discount can feed on itself as more holders sell",
+      "USDC fell below 87 cents on 11 March 2023"
+     ]
     },
     {
      "label": "Holders rush to redeem or sell",
      "page": "liquidity",
-     "cells": []
+     "cells": [
+      "Those who can redeem with the issuer do; everyone else sells on the market",
+      "Whatever the market pays",
+      "Redemption may be open only to large customers, or wait for banks to open",
+      "TerraUSD, May 2022: an algorithmic stablecoin lost its peg and collapsed within days, taking its partner token with it"
+     ]
     },
     {
      "label": "The issuer sells reserve assets to pay them",
      "page": "t-bills",
-     "cells": []
+     "cells": [
+      "The issuer sells bonds or withdraws bank deposits to meet redemptions",
+      "A claim on a shrinking pool of reserves",
+      "Selling in a hurry at a loss, or deposits stuck in a failed bank",
+      "—"
+     ]
     },
     {
      "label": "Exchanges and lending protocols holding the token are hit",
      "page": "defi",
-     "cells": []
+     "cells": [
+      "Loans backed by the token are liquidated, and other tokens built on it slip too",
+      "Exposure you may not know you have",
+      "Losses reach people who never held the token directly",
+      "DAI, a stablecoin backed partly by USDC, fell as low as 88 cents the same weekend"
+     ]
     },
     {
      "label": "Tokens are frozen, redeemed in full, or left worth less",
      "page": "claims-and-liabilities",
-     "cells": []
+     "cells": [
+      "Either the reserves prove good and the peg returns, or holders share what is left",
+      "A dollar again, or a fraction of one",
+      "Rescues are not promised; the outcome depends on what is behind the token",
+      "USDC returned close to one dollar after US authorities said on 12 March 2023 that all the failed bank's depositors would be paid in full. TerraUSD never recovered"
+     ]
     }
    ]
   },
@@ -8522,41 +8557,71 @@ window.MUDMAP = {
    ]
   },
   "when-a-broker-fails": {
-   "status": "planned",
+   "status": "written",
    "id": "when-a-broker-fails",
    "title": "When a broker fails: getting your assets back",
    "summary": "Follow a failed broker from the frozen account to what you get back: segregated assets, the protection scheme, and the shortfall.",
    "area": "When Things Fail",
    "adv": false,
    "order": 5.0,
-   "lanes": [],
-   "intro": "<p>The bottom rung of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step: the firm that holds your shares fails, and each protection is tested in turn.</p>",
-   "outro": "",
+   "lanes": [
+    "What happens",
+    "What you hold",
+    "What can go wrong",
+    "Where it happened"
+   ],
+   "intro": "<p>The bottom rung of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step: the firm that holds your shares fails, and each protection is tested in turn.</p>\n<blockquote>\n<p><strong>Key rule:</strong> a broker's failure is usually survivable if your assets were kept apart from the firm's own and the records are right. The losses come where they weren't, and the cost of waiting comes either way.</p>\n</blockquote>",
+   "outro": "<h2>What to notice</h2>\n<ul>\n<li><strong>Segregation does most of the work.</strong> The scheme and the creditors' queue only matter for what was <em>not</em> kept apart. See <a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a>.</li>\n<li><strong>Time is a cost even when you're repaid in full.</strong> A frozen account can't be sold in a falling market or used for anything else.</li>\n<li><strong>Repaid in full can still mean behind.</strong> A claim fixed in dollars on the day of failure misses any later rise in the assets you held. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n</ul>\n<p><em>Sources: InvestmentNews, MF Global starts final repayments of 100% of customer claims (2014); SIPC, Madoff trustee distribution (2018); SIPC, What SIPC Protects; The Block, FTX major repayments to begin May 30 (2025).</em></p>",
    "steps": [
     {
      "label": "The broker runs into trouble",
      "page": "brokers",
-     "cells": []
+     "cells": [
+      "Trading losses, fraud or a rush of withdrawals leave the firm unable to meet what it owes",
+      "A claim on the broker: your cash, and shares held in its name for you",
+      "Trouble is often hidden until the last days",
+      "MF Global collapsed on 31 October 2011 with more than $1.6 billion of customer money missing that should have been kept apart"
+     ]
     },
     {
      "label": "Accounts are frozen and an administrator takes over",
      "page": "broker-failure",
-     "cells": []
+     "cells": [
+      "A court appoints a trustee or administrator, and customer accounts stop moving",
+      "The same claim, now frozen",
+      "You can't sell or move anything, however far markets move",
+      "Madoff's firm was revealed as a fraud on 11 December 2008, and a court-appointed trustee took over"
+     ]
     },
     {
      "label": "Segregated client assets are found and returned",
      "page": "custody",
-     "cells": []
+     "cells": [
+      "Assets held apart from the firm's own are transferred to another broker or handed back",
+      "Your shares again, if they were kept apart and the records match",
+      "Missing records, or customer assets mixed with the firm's own",
+      "—"
+     ]
     },
     {
      "label": "A protection scheme covers missing assets, up to its limit",
      "page": "broker-failure",
-     "cells": []
+     "cells": [
+      "Where customer assets are missing, the scheme pays up to its limit",
+      "A claim on the scheme",
+      "It replaces missing assets, not lost value; it has limits; many crypto platforms belong to no scheme",
+      "US: SIPC covers up to $500,000 per customer, including $250,000 of cash"
+     ]
     },
     {
      "label": "Any shortfall is claimed like any other creditor",
      "page": "claims-and-liabilities",
-     "cells": []
+     "cells": [
+      "Whatever is still missing joins the queue of the firm's creditors",
+      "A creditor's claim, paid if and when assets are recovered",
+      "Years of waiting; claims fixed at their value on the day of failure",
+      "MF Global customers were repaid in full only in 2014. FTX claims were valued in dollars at the November 2022 bankruptcy, near a market low"
+     ]
     }
    ]
   },
@@ -10733,5 +10798,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-26 11:40 UTC"
+ "built": "2026-10-26 11:50 UTC"
 };
