@@ -27,7 +27,7 @@ Forks are how open networks upgrade and how disagreements get settled. If a comm
 
 ## What goes wrong
 **Same name, different asset.** After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices:
-- A **copied coin** on the new chain is worth only what buyers there will pay.
+- A **copied coin** on the new chain is worth only what buyers there will pay. The copy gets the code, not the crowd: see [[coin-value|what gives a coin value]].
 - A **copied token** is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original.
 - **Replay risk:** without protection, a transaction signed on one chain could also be valid on the other.
 

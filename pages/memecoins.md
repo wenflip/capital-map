@@ -29,6 +29,7 @@ Memecoins are the purest test of the question "is it backed?" — they aren't, b
 > **Key rule:** a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero.
 
 ## Connects to
+- [[network-effects]] — the crowd that memecoins run on, and how its momentum loop works both ways.
 - [[what-is-money]] — memecoins do none of money's three jobs reliably.
 - [[position-sizing]] — why the size of a bet matters most when the downside is total.
 

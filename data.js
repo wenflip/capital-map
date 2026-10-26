@@ -564,10 +564,12 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "claims-and-liabilities",
+    "coin-value",
     "consensus",
     "digital-assets",
     "native-coins",
-    "privacy-and-traceability"
+    "privacy-and-traceability",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -1072,7 +1074,8 @@ window.MUDMAP = {
     "currency-failure",
     "failure-modes",
     "financial-repression",
-    "flow:when-a-country-fails"
+    "flow:when-a-country-fails",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -1537,6 +1540,7 @@ window.MUDMAP = {
     "bonds",
     "capital-system",
     "cartography-of-wealth",
+    "coin-value",
     "credit-risk",
     "custodial-crypto",
     "custody",
@@ -1620,6 +1624,83 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "failure-modes"
+   ],
+   "backlinksAdv": []
+  },
+  "coin-value": {
+   "id": "coin-value",
+   "title": "What Gives a Coin Value",
+   "short": "Coin Value",
+   "parent": "digital-assets",
+   "order": 2.5,
+   "summary": "A coin that is nobody's liability has no issuer to pay you. Its value rests on two things at once: being a well-built asset, and a crowd that wants it.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "value",
+    "network effects",
+    "sound money"
+   ],
+   "sources": [
+    "Study notes",
+    "Ethereum Classic, The DAO Hard Fork Completed (20 July 2016)",
+    "Bitcoin Cash fork (1 August 2017)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "coin-value"
+   ],
+   "branch": "digital-assets",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A bond is worth what its issuer will pay. A coin such as <a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> or a <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">memecoin</a> has no issuer: it's <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">nobody's liability</a>. So where does its value come from?</p>\n<p>Not from the code, because code is free to copy. Anyone can launch an identical chain tomorrow. What the copy can't take with it is the reason people valued the original, and that reason has two parts:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>The question</th>\n<th>Page</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>The asset</strong></td>\n<td>Is it well built: a supply no one can quietly inflate or hoard, a chain no one can seize, legal to hold, easy to trade?</td>\n<td><a class=\"wl\" href=\"#/map/p/sound-money\" data-page=\"sound-money\">Sound Money</a></td>\n</tr>\n<tr>\n<td><strong>The crowd</strong></td>\n<td>Do people use it, expect everyone else to keep using it, and stay through bad times?</td>\n<td><a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a></td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it matters</h2>\n<ul>\n<li><strong>Both parts are needed.</strong> A well-built coin that nobody uses is worth little. So is a popular coin whose supply sits with a handful of insiders ready to sell. The weaker part sets the limit: think weakest link, not average.</li>\n<li><strong>It explains why copies are worth less.</strong> Two chains can share every line of code and still be worth very different amounts.</li>\n<li><strong>It says what to look at besides the price.</strong> A price can rise for many reasons. These two parts are why a price holds, or doesn't.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>The copy test.</strong> When a chain is copied, the copy gets the same code and often the same history. It doesn't automatically get the crowd. See <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a>.</p>\n<ul>\n<li><strong>Bitcoin Cash.</strong> On 1 August 2017 a group split from Bitcoin to allow larger blocks. Both chains kept running and both kept the shared history, but most users, miners and money stayed with the original. The copy has remained a far smaller network.</li>\n<li><strong>Ethereum and Ethereum Classic.</strong> In 2016 a flaw in The DAO, a large program running on Ethereum, let an attacker drain about $50 million of ether. On 20 July 2016 Ethereum changed its own history to return the funds, and about 85% of miners went with the change. Those who refused kept the original, unchanged chain, which carried on as Ethereum Classic. The same code became two coins, and value followed the larger crowd.</li>\n</ul>\n<p><strong>What the model covers.</strong> It applies to assets that are nobody's liability: native coins and memecoins. It doesn't apply to a <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">stablecoin</a>, which is worth what its issuer will redeem it for, or a <a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">wrapped token</a>, which is worth what its custodian holds. Their value comes from a claim, so ask the claim's questions instead.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Valuing the code.</strong> Clever technology that anyone can copy isn't, by itself, a reason for a coin to hold value.</li>\n<li><strong>Reading the crowd from the price.</strong> A rising price can be a momentum loop rather than real users. See <a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a>.</li>\n<li><strong>Ignoring the weaker part.</strong> A strong crowd doesn't fix a supply held by insiders, and a perfect design doesn't create users.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a coin that nobody owes you is worth what a crowd will pay for a well-built asset. Check both parts, and judge it by the weaker one.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/sound-money\" data-page=\"sound-money\">Sound Money</a> and <a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a> — the two parts, four questions each.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — why \"nobody's liability\" means value must come from somewhere else.</li>\n<li><a class=\"wl\" href=\"#/map/p/four-ways-to-earn\" data-page=\"four-ways-to-earn\">Four Ways to Earn a Return</a> — a coin that isn't lent or staked earns only through price and risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the oldest asset that is nobody's liability, held up by the same two parts.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A developer copies a popular coin's code exactly and launches a new chain with the same rules. Why isn't the copy worth the same?</p><details><summary>Show answer</summary><p>It has the code but not the crowd. Users, exchanges and developers still expect each other to stay with the original, so the copy starts with almost no network behind it, however well it's built.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Coin A has a fixed supply and a careful design but almost no users. Coin B is hugely popular, but its founders hold 80% of the supply. Which part is each missing?</p><details><summary>Show answer</summary><p>Coin A is missing the crowd (network effects). Coin B fails the asset test (sound money), because its founders can sell into any demand. Either weakness can take a coin close to zero.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Gold fits the same model.</strong> It's scarce, durable and hard to fake (the asset), and it has been accepted by convention for thousands of years (the crowd). See <a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a>.</li>\n<li><strong>A way of thinking, not a formula.</strong> \"Value needs the asset <em>and</em> the crowd\" is the point. Neither part can be measured precisely, and multiplying scores together would give a false sense of precision.</li>\n</ul></section>",
+   "links": [
+    "bitcoin",
+    "claims-and-liabilities",
+    "forks",
+    "four-ways-to-earn",
+    "gold",
+    "memecoins",
+    "network-effects",
+    "sound-money",
+    "stablecoins",
+    "what-is-money",
+    "wrapped-tokens"
+   ],
+   "stub": false,
+   "text": "What it is A bond is worth what its issuer will pay. A coin such as bitcoin or a memecoin has no issuer: it's nobody's liability. So where does its value come from? Not from the code, because code is free to copy. Anyone can launch an identical chain tomorrow. What the copy can't take with it is the reason people valued the original, and that reason has two parts: Part The question Page The asset Is it well built: a supply no one can quietly inflate or hoard, a chain no one can seize, legal to hold, easy to trade? sound money The crowd Do people use it, expect everyone else to keep using it, and stay through bad times? network effects Why it matters Both parts are needed. A well built coin that nobody uses is worth little. So is a popular coin whose supply sits with a handful of insiders ready to sell. The weaker part sets the limit: think weakest link, not average. It explains why copies are worth less. Two chains can share every line of code and still be worth very different amounts. It says what to look at besides the price. A price can rise for many reasons. These two parts are why a price holds, or doesn't. How it works The copy test. When a chain is copied, the copy gets the same code and often the same history. It doesn't automatically get the crowd. See forks. Bitcoin Cash. On 1 August 2017 a group split from Bitcoin to allow larger blocks. Both chains kept running and both kept the shared history, but most users, miners and money stayed with the original. The copy has remained a far smaller network. Ethereum and Ethereum Classic. In 2016 a flaw in The DAO, a large program running on Ethereum, let an attacker drain about $50 million of ether. On 20 July 2016 Ethereum changed its own history to return the funds, and about 85% of miners went with the change. Those who refused kept the original, unchanged chain, which carried on as Ethereum Classic. The same code became two coins, and value followed the larger crowd. What the model covers. It applies to assets that are nobody's liability: native coins and memecoins. It doesn't apply to a stablecoin, which is worth what its issuer will redeem it for, or a wrapped token, which is worth what its custodian holds. Their value comes from a claim, so ask the claim's questions instead. What goes wrong Valuing the code. Clever technology that anyone can copy isn't, by itself, a reason for a coin to hold value. Reading the crowd from the price. A rising price can be a momentum loop rather than real users. See network effects. Ignoring the weaker part. A strong crowd doesn't fix a supply held by insiders, and a perfect design doesn't create users. Key rule: a coin that nobody owes you is worth what a crowd will pay for a well built asset. Check both parts, and judge it by the weaker one. Connects to sound money and network effects — the two parts, four questions each. claims and liabilities — why \"nobody's liability\" means value must come from somewhere else. four ways to earn — a coin that isn't lent or staked earns only through price and risk. gold — the oldest asset that is nobody's liability, held up by the same two parts. Check yourself Q: A developer copies a popular coin's code exactly and launches a new chain with the same rules. Why isn't the copy worth the same? A: It has the code but not the crowd. Users, exchanges and developers still expect each other to stay with the original, so the copy starts with almost no network behind it, however well it's built. Q: Coin A has a fixed supply and a careful design but almost no users. Coin B is hugely popular, but its founders hold 80% of the supply. Which part is each missing? A: Coin A is missing the crowd (network effects). Coin B fails the asset test (sound money), because its founders can sell into any demand. Either weakness can take a coin close to zero.",
+   "textDeep": "Going deeper Gold fits the same model. It's scarce, durable and hard to fake (the asset), and it has been accepted by convention for thousands of years (the crowd). See what is money. A way of thinking, not a formula. \"Value needs the asset and the crowd\" is the point. Neither part can be measured precisely, and multiplying scores together would give a false sense of precision.",
+   "children": [
+    "sound-money",
+    "network-effects"
+   ],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC10 — Altcoins and the cryptocurrency ecosystem"
+    }
+   ],
+   "backlinks": [
+    "digital-assets",
+    "forks",
+    "network-effects",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -2021,7 +2102,8 @@ window.MUDMAP = {
     "blockchains",
     "defi",
     "forks",
-    "smart-contract-platforms"
+    "smart-contract-platforms",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -2314,6 +2396,7 @@ window.MUDMAP = {
     "markets",
     "perpetuals",
     "privacy-and-traceability",
+    "sound-money",
     "stablecoins"
    ],
    "backlinksAdv": [
@@ -2614,7 +2697,7 @@ window.MUDMAP = {
    "short": "",
    "parent": "capital-system",
    "order": 4.0,
-   "summary": "Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, tokens, bridges, DeFi, and how to hold them.",
+   "summary": "Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, what gives a coin value, tokens, bridges, DeFi, and how to hold them.",
    "tcodes": [],
    "fiori": [],
    "tags": [
@@ -2641,7 +2724,7 @@ window.MUDMAP = {
    "branch": "digital-assets",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Digital assets</strong> are units of value recorded on a <strong>blockchain</strong>: a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it.</p>\n<p>This map covers <strong>concepts, not coins</strong>. A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here.</p>\n<h2>Why it exists</h2>\n<p>Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be <strong>nobody's liability</strong>, like gold, but moved across the world in minutes.</p>\n<p>Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch.</p>\n<h2>How it works</h2>\n<p>The branch runs from the machinery up to how you hold it:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/blockchains\" data-page=\"blockchains\">How Blockchains Work</a> — ledgers, consensus, keys and forks: the machinery underneath everything else.</li>\n<li><a class=\"wl\" href=\"#/map/p/native-coins\" data-page=\"native-coins\">Native Coins</a> — each chain's own coin, used to pay for the network: <a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> and smart-contract platforms such as Ethereum.</li>\n<li><a class=\"wl\" href=\"#/map/p/tokens\" data-page=\"tokens\">Tokens</a> — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens.</li>\n<li><a class=\"wl\" href=\"#/map/p/bridges-and-layer-2s\" data-page=\"bridges-and-layer-2s\">Bridges and Layer 2s</a> — how value moves between chains, and why that's the riskiest step.</li>\n<li><a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a> — exchanges, lending and staking run by code instead of companies.</li>\n<li><a class=\"wl\" href=\"#/map/p/holding-crypto\" data-page=\"holding-crypto\">Holding Crypto</a> — holding your own keys or letting someone hold them for you.</li>\n</ul>\n<p><strong>The two lenses this map uses fit crypto well:</strong></p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Native coin (bitcoin, ether)</th>\n<th>Token (stablecoin, bridged coin)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Whose liability is it?</td>\n<td>Nobody's</td>\n<td>An issuer's, a bridge's, or a program's</td>\n</tr>\n<tr>\n<td>What can kill it?</td>\n<td>Protocol failure, lost keys</td>\n<td>The issuer, bridge or contract failing</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Failure</th>\n<th>What it looks like</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Lost keys</strong></td>\n<td>Coins still exist on the ledger, but nobody can ever move them</td>\n</tr>\n<tr>\n<td><strong>Custodian failure</strong></td>\n<td>An exchange holding your coins collapses; you become a creditor</td>\n</tr>\n<tr>\n<td><strong>Bridge or contract hack</strong></td>\n<td>A bug lets an attacker drain the funds backing a token</td>\n</tr>\n<tr>\n<td><strong>De-peg</strong></td>\n<td>A token meant to equal one dollar trades below it</td>\n</tr>\n<tr>\n<td><strong>Same ticker, different asset</strong></td>\n<td>A copied or bridged coin carries the same name as the original but is a different thing</td>\n</tr>\n<tr>\n<td><strong>Liquidity drain</strong></td>\n<td>When system liquidity falls, the most speculative tokens fall first and hardest</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys?</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — stablecoins and wrapped coins as private promises high up the hierarchy.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — self-custody sits in Tier 2, coins held on an exchange in Tier 3.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the test that separates a native coin from a token.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why crypto has often moved with high-growth tech shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — the crypto futures that drive much of the trading.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset?</p><details><summary>Show answer</summary><p>Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can bitcoin be nobody's liability while a dollar stablecoin can't?</p><details><summary>Show answer</summary><p>Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Digital assets</strong> are units of value recorded on a <strong>blockchain</strong>: a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it.</p>\n<p>This map covers <strong>concepts, not coins</strong>. A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here.</p>\n<h2>Why it exists</h2>\n<p>Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be <strong>nobody's liability</strong>, like gold, but moved across the world in minutes.</p>\n<p>Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch.</p>\n<h2>How it works</h2>\n<p>The branch runs from the machinery up to how you hold it:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/blockchains\" data-page=\"blockchains\">How Blockchains Work</a> — ledgers, consensus, keys and forks: the machinery underneath everything else.</li>\n<li><a class=\"wl\" href=\"#/map/p/native-coins\" data-page=\"native-coins\">Native Coins</a> — each chain's own coin, used to pay for the network: <a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a> and smart-contract platforms such as Ethereum.</li>\n<li><a class=\"wl\" href=\"#/map/p/coin-value\" data-page=\"coin-value\">What Gives a Coin Value</a> — what gives a coin value when nobody owes it to you: a well-built asset (<a class=\"wl\" href=\"#/map/p/sound-money\" data-page=\"sound-money\">Sound Money</a>) and a crowd that wants it (<a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a>).</li>\n<li><a class=\"wl\" href=\"#/map/p/tokens\" data-page=\"tokens\">Tokens</a> — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens.</li>\n<li><a class=\"wl\" href=\"#/map/p/bridges-and-layer-2s\" data-page=\"bridges-and-layer-2s\">Bridges and Layer 2s</a> — how value moves between chains, and why that's the riskiest step.</li>\n<li><a class=\"wl\" href=\"#/map/p/defi\" data-page=\"defi\">DeFi: Decentralised Finance</a> — exchanges, lending and staking run by code instead of companies.</li>\n<li><a class=\"wl\" href=\"#/map/p/holding-crypto\" data-page=\"holding-crypto\">Holding Crypto</a> — holding your own keys or letting someone hold them for you.</li>\n</ul>\n<p><strong>The two lenses this map uses fit crypto well:</strong></p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Native coin (bitcoin, ether)</th>\n<th>Token (stablecoin, bridged coin)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Whose liability is it?</td>\n<td>Nobody's</td>\n<td>An issuer's, a bridge's, or a program's</td>\n</tr>\n<tr>\n<td>What can kill it?</td>\n<td>Protocol failure, lost keys</td>\n<td>The issuer, bridge or contract failing</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Failure</th>\n<th>What it looks like</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Lost keys</strong></td>\n<td>Coins still exist on the ledger, but nobody can ever move them</td>\n</tr>\n<tr>\n<td><strong>Custodian failure</strong></td>\n<td>An exchange holding your coins collapses; you become a creditor</td>\n</tr>\n<tr>\n<td><strong>Bridge or contract hack</strong></td>\n<td>A bug lets an attacker drain the funds backing a token</td>\n</tr>\n<tr>\n<td><strong>De-peg</strong></td>\n<td>A token meant to equal one dollar trades below it</td>\n</tr>\n<tr>\n<td><strong>Same ticker, different asset</strong></td>\n<td>A copied or bridged coin carries the same name as the original but is a different thing</td>\n</tr>\n<tr>\n<td><strong>Liquidity drain</strong></td>\n<td>When system liquidity falls, the most speculative tokens fall first and hardest</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys?</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — stablecoins and wrapped coins as private promises high up the hierarchy.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — self-custody sits in Tier 2, coins held on an exchange in Tier 3.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the test that separates a native coin from a token.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why crypto has often moved with high-growth tech shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — the crypto futures that drive much of the trading.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset?</p><details><summary>Show answer</summary><p>Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can bitcoin be nobody's liability while a dollar stablecoin can't?</p><details><summary>Show answer</summary><p>Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Security budgets.</strong> A public blockchain pays for its own security through new coins and fees. As new issuance shrinks over time, fees have to carry more of that cost. Whether they can is an open question for several chains.</li>\n<li><strong>Most of crypto's risk sits in the layers, not the base.</strong> Base-layer protocols have proved hard to break; most large losses have come from exchanges, bridges and smart contracts built on top.</li>\n</ul></section>",
    "links": [
     "bitcoin",
@@ -2649,20 +2732,24 @@ window.MUDMAP = {
     "bridges-and-layer-2s",
     "cartography-of-wealth",
     "claims-and-liabilities",
+    "coin-value",
     "defi",
     "hierarchy-of-money",
     "holding-crypto",
     "market-regimes",
     "native-coins",
+    "network-effects",
     "perpetuals",
+    "sound-money",
     "tokens"
    ],
    "stub": false,
-   "text": "What it is Digital assets are units of value recorded on a blockchain : a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it. This map covers concepts, not coins . A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here. Why it exists Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be nobody's liability , like gold, but moved across the world in minutes. Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch. How it works The branch runs from the machinery up to how you hold it: blockchains — ledgers, consensus, keys and forks: the machinery underneath everything else. native coins — each chain's own coin, used to pay for the network: bitcoin and smart contract platforms such as Ethereum. tokens — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens. bridges and layer 2s — how value moves between chains, and why that's the riskiest step. defi — exchanges, lending and staking run by code instead of companies. holding crypto — holding your own keys or letting someone hold them for you. The two lenses this map uses fit crypto well: Question Native coin (bitcoin, ether) Token (stablecoin, bridged coin) Whose liability is it? Nobody's An issuer's, a bridge's, or a program's What can kill it? Protocol failure, lost keys The issuer, bridge or contract failing What goes wrong Failure What it looks like Lost keys Coins still exist on the ledger, but nobody can ever move them Custodian failure An exchange holding your coins collapses; you become a creditor Bridge or contract hack A bug lets an attacker drain the funds backing a token De peg A token meant to equal one dollar trades below it Same ticker, different asset A copied or bridged coin carries the same name as the original but is a different thing Liquidity drain When system liquidity falls, the most speculative tokens fall first and hardest Key rule: for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys? Connects to hierarchy of money — stablecoins and wrapped coins as private promises high up the hierarchy. The Cartography of Wealth — self custody sits in Tier 2, coins held on an exchange in Tier 3. claims and liabilities — the test that separates a native coin from a token. market regimes — why crypto has often moved with high growth tech shares. perpetuals — the crypto futures that drive much of the trading. Check yourself Q: A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset? A: Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain. Q: Why can bitcoin be nobody's liability while a dollar stablecoin can't? A: Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.",
+   "text": "What it is Digital assets are units of value recorded on a blockchain : a shared ledger that many computers keep in agreement without a central owner. The branch covers the whole machine, from how the ledger stays honest to how people actually hold and use what's on it. This map covers concepts, not coins . A few chains appear as reference examples because they define a category. Everything else is an instance of a concept explained here. Why it exists Before blockchains, any digital money needed a trusted middleman to stop the same unit being spent twice. A blockchain replaces that middleman with rules that thousands of independent computers enforce. The result is a new kind of asset: one that can be nobody's liability , like gold, but moved across the world in minutes. Not everything on a blockchain is like that. Many tokens are promises from a company, a bridge or a program. Telling the two apart is the most important skill in this branch. How it works The branch runs from the machinery up to how you hold it: blockchains — ledgers, consensus, keys and forks: the machinery underneath everything else. native coins — each chain's own coin, used to pay for the network: bitcoin and smart contract platforms such as Ethereum. coin value — what gives a coin value when nobody owes it to you: a well built asset (sound money) and a crowd that wants it (network effects). tokens — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens. bridges and layer 2s — how value moves between chains, and why that's the riskiest step. defi — exchanges, lending and staking run by code instead of companies. holding crypto — holding your own keys or letting someone hold them for you. The two lenses this map uses fit crypto well: Question Native coin (bitcoin, ether) Token (stablecoin, bridged coin) Whose liability is it? Nobody's An issuer's, a bridge's, or a program's What can kill it? Protocol failure, lost keys The issuer, bridge or contract failing What goes wrong Failure What it looks like Lost keys Coins still exist on the ledger, but nobody can ever move them Custodian failure An exchange holding your coins collapses; you become a creditor Bridge or contract hack A bug lets an attacker drain the funds backing a token De peg A token meant to equal one dollar trades below it Same ticker, different asset A copied or bridged coin carries the same name as the original but is a different thing Liquidity drain When system liquidity falls, the most speculative tokens fall first and hardest Key rule: for anything on a blockchain, ask two questions before anything else: is it a native coin or someone's token, and who holds the keys? Connects to hierarchy of money — stablecoins and wrapped coins as private promises high up the hierarchy. The Cartography of Wealth — self custody sits in Tier 2, coins held on an exchange in Tier 3. claims and liabilities — the test that separates a native coin from a token. market regimes — why crypto has often moved with high growth tech shares. perpetuals — the crypto futures that drive much of the trading. Check yourself Q: A coin on one chain and a token with the same name on another chain both trade under the same ticker. Are they the same asset? A: Not necessarily. The token may be a bridged claim on the original, or a copy made by a fork. Each has its own killer: the original depends on its own network; a bridged token depends on the bridge; a forked copy depends on demand on the new chain. Q: Why can bitcoin be nobody's liability while a dollar stablecoin can't? A: Bitcoin is created by the network's own rules and isn't anyone's promise to pay. A dollar stablecoin is a promise by its issuer, or by a program, to be worth one dollar, so it depends on that promise being kept.",
    "textDeep": "Going deeper Security budgets. A public blockchain pays for its own security through new coins and fees. As new issuance shrinks over time, fees have to carry more of that cost. Whether they can is an open question for several chains. Most of crypto's risk sits in the layers, not the base. Base layer protocols have proved hard to break; most large losses have come from exchanges, bridges and smart contracts built on top.",
    "children": [
     "blockchains",
     "native-coins",
+    "coin-value",
     "tokens",
     "bridges-and-layer-2s",
     "defi",
@@ -3081,7 +3168,8 @@ window.MUDMAP = {
     "market-failure",
     "markets",
     "settlement",
-    "shares"
+    "shares",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -3401,14 +3489,15 @@ window.MUDMAP = {
    "branch": "digital-assets",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>fork</strong> is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too.</p>\n<h2>Why it exists</h2>\n<p>Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>What happens</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Soft fork</strong></td>\n<td>Rules get stricter; old software still accepts new blocks</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Hard fork (agreed)</strong></td>\n<td>Rules change in a way old software rejects, but nearly everyone upgrades</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Contentious hard fork</strong></td>\n<td>The community splits; both sides keep running</td>\n<td>Two chains and two coins, sharing history up to the split</td>\n</tr>\n<tr>\n<td><strong>Full-state copy</strong></td>\n<td>A new chain starts from a snapshot of an existing chain's entire state</td>\n<td>A new chain where every balance has a copy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Examples:</strong></p>\n<ul>\n<li><strong>Ethereum Classic (2016):</strong> after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic.</li>\n<li><strong>Bitcoin Cash (2017):</strong> a split from Bitcoin over how large blocks should be.</li>\n<li><strong>PulseChain (2023):</strong> launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain.</li>\n</ul>\n<h2>What goes wrong</h2>\n<p><strong>Same name, different asset.</strong> After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices:</p>\n<ul>\n<li>A <strong>copied coin</strong> on the new chain is worth only what buyers there will pay.</li>\n<li>A <strong>copied token</strong> is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original.</li>\n<li><strong>Replay risk:</strong> without protection, a transaction signed on one chain could also be valid on the other.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a> — another way the same name ends up on a different chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — what the two sides of a split each have to secure afterwards.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You held a dollar stablecoin on Ethereum before a full-state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars?</p><details><summary>Show answer</summary><p>No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>fork</strong> is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too.</p>\n<h2>Why it exists</h2>\n<p>Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Kind</th>\n<th>What happens</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Soft fork</strong></td>\n<td>Rules get stricter; old software still accepts new blocks</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Hard fork (agreed)</strong></td>\n<td>Rules change in a way old software rejects, but nearly everyone upgrades</td>\n<td>One chain, upgraded</td>\n</tr>\n<tr>\n<td><strong>Contentious hard fork</strong></td>\n<td>The community splits; both sides keep running</td>\n<td>Two chains and two coins, sharing history up to the split</td>\n</tr>\n<tr>\n<td><strong>Full-state copy</strong></td>\n<td>A new chain starts from a snapshot of an existing chain's entire state</td>\n<td>A new chain where every balance has a copy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Examples:</strong></p>\n<ul>\n<li><strong>Ethereum Classic (2016):</strong> after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic.</li>\n<li><strong>Bitcoin Cash (2017):</strong> a split from Bitcoin over how large blocks should be.</li>\n<li><strong>PulseChain (2023):</strong> launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain.</li>\n</ul>\n<h2>What goes wrong</h2>\n<p><strong>Same name, different asset.</strong> After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices:</p>\n<ul>\n<li>A <strong>copied coin</strong> on the new chain is worth only what buyers there will pay. The copy gets the code, not the crowd: see <a class=\"wl\" href=\"#/map/p/coin-value\" data-page=\"coin-value\">what gives a coin value</a>.</li>\n<li>A <strong>copied token</strong> is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original.</li>\n<li><strong>Replay risk:</strong> without protection, a transaction signed on one chain could also be valid on the other.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/wrapped-tokens\" data-page=\"wrapped-tokens\">Wrapped and Bridged Tokens</a> — another way the same name ends up on a different chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — what the two sides of a split each have to secure afterwards.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You held a dollar stablecoin on Ethereum before a full-state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars?</p><details><summary>Show answer</summary><p>No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.</p></details></div>",
    "deep": "",
    "links": [
+    "coin-value",
     "consensus",
     "wrapped-tokens"
    ],
    "stub": false,
-   "text": "What it is A fork is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too. Why it exists Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version. How it works Kind What happens Result Soft fork Rules get stricter; old software still accepts new blocks One chain, upgraded Hard fork (agreed) Rules change in a way old software rejects, but nearly everyone upgrades One chain, upgraded Contentious hard fork The community splits; both sides keep running Two chains and two coins, sharing history up to the split Full state copy A new chain starts from a snapshot of an existing chain's entire state A new chain where every balance has a copy Examples: Ethereum Classic (2016): after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic. Bitcoin Cash (2017): a split from Bitcoin over how large blocks should be. PulseChain (2023): launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain. What goes wrong Same name, different asset. After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices: A copied coin on the new chain is worth only what buyers there will pay. A copied token is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original. Replay risk: without protection, a transaction signed on one chain could also be valid on the other. Key rule: a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it. Connects to wrapped tokens — another way the same name ends up on a different chain. consensus — what the two sides of a split each have to secure afterwards. Check yourself Q: You held a dollar stablecoin on Ethereum before a full state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars? A: No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.",
+   "text": "What it is A fork is a change to a blockchain's rules, or a copy of its history onto a new chain. Because a blockchain's software is usually open source, anyone can copy it, and a whole ledger can be copied too. Why it exists Forks are how open networks upgrade and how disagreements get settled. If a community can't agree on the rules, each side can run its own version. How it works Kind What happens Result Soft fork Rules get stricter; old software still accepts new blocks One chain, upgraded Hard fork (agreed) Rules change in a way old software rejects, but nearly everyone upgrades One chain, upgraded Contentious hard fork The community splits; both sides keep running Two chains and two coins, sharing history up to the split Full state copy A new chain starts from a snapshot of an existing chain's entire state A new chain where every balance has a copy Examples: Ethereum Classic (2016): after a large theft from a smart contract called The DAO, Ethereum changed its history to reverse it. Those who opposed changing history kept the original chain, which became Ethereum Classic. Bitcoin Cash (2017): a split from Bitcoin over how large blocks should be. PulseChain (2023): launched from a snapshot of Ethereum's state, so holders of ether and Ethereum tokens found matching copies on the new chain. What goes wrong Same name, different asset. After a fork, a coin or token can exist on both chains under the same ticker. They are separate assets with separate prices: A copied coin on the new chain is worth only what buyers there will pay. The copy gets the code, not the crowd: see what gives a coin value. A copied token is not backed by its original issuer. A dollar stablecoin copied onto a fork is just a number on the new chain; the issuer only redeems the original. Replay risk: without protection, a transaction signed on one chain could also be valid on the other. Key rule: a fork creates new assets, not more of the old ones. Check which chain a coin lives on before you value it. Connects to wrapped tokens — another way the same name ends up on a different chain. consensus — what the two sides of a split each have to secure afterwards. Check yourself Q: You held a dollar stablecoin on Ethereum before a full state copy launched. You now have the same balance on the new chain too. Do you have twice as many dollars? A: No. The copy on the new chain isn't backed or redeemed by the issuer. It is a separate token, worth whatever the new chain's market will pay — possibly very little.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3424,11 +3513,16 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "blockchains",
+    "coin-value",
+    "network-effects",
     "smart-contract-platforms",
+    "sound-money",
     "stablecoins",
     "wrapped-tokens"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "sound-money"
+   ]
   },
   "foundation": {
    "id": "foundation",
@@ -3567,6 +3661,7 @@ window.MUDMAP = {
    "quals": [],
    "backlinks": [
     "claims-and-liabilities",
+    "coin-value",
     "foundation",
     "risk-and-return"
    ],
@@ -3785,6 +3880,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "coin-value",
     "collectibles",
     "commodities",
     "confiscation",
@@ -3942,12 +4038,14 @@ window.MUDMAP = {
     "gold",
     "inflation",
     "money",
+    "network-effects",
     "stablecoins",
     "what-is-money",
     "wrapped-tokens"
    ],
    "backlinksAdv": [
-    "eurodollars"
+    "eurodollars",
+    "network-effects"
    ]
   },
   "holding-crypto": {
@@ -4629,7 +4727,8 @@ window.MUDMAP = {
     "memecoins",
     "money",
     "portfolio",
-    "real-assets"
+    "real-assets",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -4941,15 +5040,16 @@ window.MUDMAP = {
    "branch": "digital-assets",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>memecoin</strong> is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best-known early example; it has no fixed supply cap.</p>\n<h2>Why it matters</h2>\n<p>Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Easy to create:</strong> anyone can launch a token in minutes, so thousands appear.</li>\n<li><strong>Price is attention:</strong> social media, celebrity mentions and listings on large exchanges drive demand.</li>\n<li><strong>Liquidity is thin:</strong> most memecoins trade in small pools, so a few large sellers can crash the price.</li>\n<li><strong>Liquidity cycles:</strong> speculative tokens tend to rise most when <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> is plentiful and fall hardest when it drains.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Rug pulls:</strong> the creators sell their large holdings or withdraw the trading pool's funds.</li>\n<li><strong>Pump and dump:</strong> coordinated buying to lift a price, followed by insiders selling.</li>\n<li><strong>Insider supply:</strong> a small group often holds most of the tokens from the start.</li>\n<li><strong>Fading interest:</strong> when attention moves on, there is nothing underneath.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — memecoins do none of money's three jobs reliably.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — why the size of a bet matters most when the downside is total.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars?</p><details><summary>Show answer</summary><p>Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>memecoin</strong> is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best-known early example; it has no fixed supply cap.</p>\n<h2>Why it matters</h2>\n<p>Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>Easy to create:</strong> anyone can launch a token in minutes, so thousands appear.</li>\n<li><strong>Price is attention:</strong> social media, celebrity mentions and listings on large exchanges drive demand.</li>\n<li><strong>Liquidity is thin:</strong> most memecoins trade in small pools, so a few large sellers can crash the price.</li>\n<li><strong>Liquidity cycles:</strong> speculative tokens tend to rise most when <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> is plentiful and fall hardest when it drains.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Rug pulls:</strong> the creators sell their large holdings or withdraw the trading pool's funds.</li>\n<li><strong>Pump and dump:</strong> coordinated buying to lift a price, followed by insiders selling.</li>\n<li><strong>Insider supply:</strong> a small group often holds most of the tokens from the start.</li>\n<li><strong>Fading interest:</strong> when attention moves on, there is nothing underneath.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a> — the crowd that memecoins run on, and how its momentum loop works both ways.</li>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — memecoins do none of money's three jobs reliably.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — why the size of a bet matters most when the downside is total.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars?</p><details><summary>Show answer</summary><p>Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.</p></details></div>",
    "deep": "",
    "links": [
     "liquidity",
+    "network-effects",
     "position-sizing",
     "what-is-money"
    ],
    "stub": false,
-   "text": "What it is A memecoin is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best known early example; it has no fixed supply cap. Why it matters Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour. How it works Easy to create: anyone can launch a token in minutes, so thousands appear. Price is attention: social media, celebrity mentions and listings on large exchanges drive demand. Liquidity is thin: most memecoins trade in small pools, so a few large sellers can crash the price. Liquidity cycles: speculative tokens tend to rise most when liquidity is plentiful and fall hardest when it drains. What goes wrong Rug pulls: the creators sell their large holdings or withdraw the trading pool's funds. Pump and dump: coordinated buying to lift a price, followed by insiders selling. Insider supply: a small group often holds most of the tokens from the start. Fading interest: when attention moves on, there is nothing underneath. Key rule: a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero. Connects to what is money — memecoins do none of money's three jobs reliably. position sizing — why the size of a bet matters most when the downside is total. Check yourself Q: A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars? A: Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.",
+   "text": "What it is A memecoin is a token built around a joke, a mascot or an online community, with no claim on anything and no cash flows. Dogecoin, created in 2013 as a joke, is the best known early example; it has no fixed supply cap. Why it matters Memecoins are the purest test of the question \"is it backed?\" — they aren't, by anything. Their price is set entirely by how many people want to hold them. That makes them a clear lens on attention, liquidity and crowd behaviour. How it works Easy to create: anyone can launch a token in minutes, so thousands appear. Price is attention: social media, celebrity mentions and listings on large exchanges drive demand. Liquidity is thin: most memecoins trade in small pools, so a few large sellers can crash the price. Liquidity cycles: speculative tokens tend to rise most when liquidity is plentiful and fall hardest when it drains. What goes wrong Rug pulls: the creators sell their large holdings or withdraw the trading pool's funds. Pump and dump: coordinated buying to lift a price, followed by insiders selling. Insider supply: a small group often holds most of the tokens from the start. Fading interest: when attention moves on, there is nothing underneath. Key rule: a memecoin's only support is other people wanting it tomorrow. Size any holding as if it could go to zero. Connects to network effects — the crowd that memecoins run on, and how its momentum loop works both ways. what is money — memecoins do none of money's three jobs reliably. position sizing — why the size of a bet matters most when the downside is total. Check yourself Q: A memecoin's quoted price is 1 dollar and you hold a million tokens. Do you have a million dollars? A: Not necessarily. If the trading pool is small, selling even a fraction would push the price down sharply. A holding is only worth what you can sell it for.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4961,7 +5061,9 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "claims-and-liabilities",
+    "coin-value",
     "common-mistakes",
+    "network-effects",
     "tokens"
    ],
    "backlinksAdv": []
@@ -5160,7 +5262,81 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "digital-assets"
+    "digital-assets",
+    "network-effects"
+   ],
+   "backlinksAdv": []
+  },
+  "network-effects": {
+   "id": "network-effects",
+   "title": "Network Effects",
+   "short": "",
+   "parent": "coin-value",
+   "order": 2.0,
+   "summary": "The crowd half of a coin's value: real users, being the default choice, a momentum loop that runs both ways, and a community that survives crashes and splits.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "network effects",
+    "community",
+    "reflexivity"
+   ],
+   "sources": [
+    "Study notes",
+    "Thomas Schelling, The Strategy of Conflict (1960)",
+    "George Soros, The Alchemy of Finance (1987)",
+    "Ethereum Classic, The DAO Hard Fork Completed (20 July 2016)",
+    "Bitcoin Cash fork (1 August 2017)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "coin-value",
+    "network-effects"
+   ],
+   "branch": "digital-assets",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>network effect</strong> is when something becomes more useful the more people use it: a phone network, a language, a currency. For a coin, it's the crowd half of <a class=\"wl\" href=\"#/map/p/coin-value\" data-page=\"coin-value\">what gives a coin value</a>, and it's why one of two identical copies can win. Four forces drive it:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>The question</th>\n<th>When it fails</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1. Real users</strong></td>\n<td>Are people using it, not just holding it and hoping?</td>\n<td>Activity that is almost all trading, with little real use</td>\n</tr>\n<tr>\n<td><strong>2. The default choice</strong></td>\n<td>Does everyone expect everyone else to keep using it?</td>\n<td>A rival becomes the expected choice and attention moves</td>\n</tr>\n<tr>\n<td><strong>3. The momentum loop</strong></td>\n<td>Do price and attention feed each other?</td>\n<td>The loop runs backwards: a falling price drives people out</td>\n</tr>\n<tr>\n<td><strong>4. A lasting community</strong></td>\n<td>Does it hold together through crashes, hacks and splits?</td>\n<td>A split divides users, developers and miners</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it matters</h2>\n<p>Code can be copied in minutes. A crowd can't. When two chains are technically alike, the network decides which one holds its value, and it changes slowly, in both directions.</p>\n<h2>How it works</h2>\n<h3>1. Real users</h3>\n<p>Using a coin means paying fees, sending payments, or running programs on its chain. Holding it in the hope of a higher price isn't use. Fees paid on the chain are one of the clearest signs of use, because they cost the user something. See <a class=\"wl\" href=\"#/map/p/native-coins\" data-page=\"native-coins\">Native Coins</a>.</p>\n<h3>2. The default choice</h3>\n<p>The economist Thomas Schelling showed in 1960 that people who can't talk to each other still coordinate on whatever option stands out to them all: a <strong>focal point</strong>. A coin can become one. People hold it partly because they expect others to, which keeps it the expected choice. A default is hard to dislodge, but it isn't permanent.</p>\n<h3>3. The momentum loop</h3>\n<p>George Soros called it <strong>reflexivity</strong> in 1987: what people believe about a price can change the very thing the price is meant to reflect. A rising coin attracts attention, then buyers, developers and businesses, which lift it further. The same loop runs in reverse. A falling price drives attention away, which removes buyers, which pushes the price down again. <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> show both directions most sharply.</p>\n<h3>4. A lasting community</h3>\n<p>Communities are tested when something breaks:</p>\n<ul>\n<li><strong>The DAO, 2016.</strong> A flaw in The DAO, a large program on Ethereum, let an attacker drain about $50 million of ether. On 20 July 2016 Ethereum changed its own history to return the funds. Those who refused kept the original chain, which became Ethereum Classic. One community became two, and most of it went with the change.</li>\n<li><strong>Bitcoin Cash, 2017.</strong> A dispute over block size ended with a split on 1 August 2017. Most of the community stayed with the original.</li>\n</ul>\n<p>A community that survives a split keeps the default; the side that leaves has to build a new one. See <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking momentum for users.</strong> A price rising on attention alone can fall just as fast when attention moves on.</li>\n<li><strong>Assuming the default is permanent.</strong> Being first gives a head start, not a guarantee.</li>\n<li><strong>Counting followers instead of users.</strong> Noise on social media isn't use on the chain.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a crowd is worth something only if it uses the coin and stays through bad times. Look for use and staying power, not just attention.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/sound-money\" data-page=\"sound-money\">Sound Money</a> — the other half: the asset itself.</li>\n<li><a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">Forks</a> — how communities split, and what each side keeps.</li>\n<li><a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — coins that run almost entirely on the crowd.</li>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — money has always worked because others accept it.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two coins have identical code. One has many users paying fees for real transactions; the other trades heavily on exchanges but is rarely used. Which has the stronger network effect?</p><details><summary>Show answer</summary><p>The first. Paying fees is costly use, which is evidence that people want the network itself. Heavy trading can be a momentum loop that reverses as soon as attention moves on.</p></details></div>\n<div class=\"qa\"><p class=\"q\">How can the momentum loop work against a coin?</p><details><summary>Show answer</summary><p>A falling price draws attention away, which removes buyers, which pushes the price down again. The loop that lifted the coin can take it down the same way.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Money has always been a network.</strong> A currency is useful mainly because others accept it, which is why dominant currencies change rarely and slowly. See <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</li>\n</ul></section>",
+   "links": [
+    "coin-value",
+    "forks",
+    "hierarchy-of-money",
+    "memecoins",
+    "native-coins",
+    "sound-money",
+    "what-is-money"
+   ],
+   "stub": false,
+   "text": "What it is A network effect is when something becomes more useful the more people use it: a phone network, a language, a currency. For a coin, it's the crowd half of what gives a coin value, and it's why one of two identical copies can win. Four forces drive it: The question When it fails 1. Real users Are people using it, not just holding it and hoping? Activity that is almost all trading, with little real use 2. The default choice Does everyone expect everyone else to keep using it? A rival becomes the expected choice and attention moves 3. The momentum loop Do price and attention feed each other? The loop runs backwards: a falling price drives people out 4. A lasting community Does it hold together through crashes, hacks and splits? A split divides users, developers and miners Why it matters Code can be copied in minutes. A crowd can't. When two chains are technically alike, the network decides which one holds its value, and it changes slowly, in both directions. How it works 1. Real users Using a coin means paying fees, sending payments, or running programs on its chain. Holding it in the hope of a higher price isn't use. Fees paid on the chain are one of the clearest signs of use, because they cost the user something. See native coins. 2. The default choice The economist Thomas Schelling showed in 1960 that people who can't talk to each other still coordinate on whatever option stands out to them all: a focal point . A coin can become one. People hold it partly because they expect others to, which keeps it the expected choice. A default is hard to dislodge, but it isn't permanent. 3. The momentum loop George Soros called it reflexivity in 1987: what people believe about a price can change the very thing the price is meant to reflect. A rising coin attracts attention, then buyers, developers and businesses, which lift it further. The same loop runs in reverse. A falling price drives attention away, which removes buyers, which pushes the price down again. memecoins show both directions most sharply. 4. A lasting community Communities are tested when something breaks: The DAO, 2016. A flaw in The DAO, a large program on Ethereum, let an attacker drain about $50 million of ether. On 20 July 2016 Ethereum changed its own history to return the funds. Those who refused kept the original chain, which became Ethereum Classic. One community became two, and most of it went with the change. Bitcoin Cash, 2017. A dispute over block size ended with a split on 1 August 2017. Most of the community stayed with the original. A community that survives a split keeps the default; the side that leaves has to build a new one. See forks. What goes wrong Mistaking momentum for users. A price rising on attention alone can fall just as fast when attention moves on. Assuming the default is permanent. Being first gives a head start, not a guarantee. Counting followers instead of users. Noise on social media isn't use on the chain. Key rule: a crowd is worth something only if it uses the coin and stays through bad times. Look for use and staying power, not just attention. Connects to sound money — the other half: the asset itself. forks — how communities split, and what each side keeps. memecoins — coins that run almost entirely on the crowd. what is money — money has always worked because others accept it. Check yourself Q: Two coins have identical code. One has many users paying fees for real transactions; the other trades heavily on exchanges but is rarely used. Which has the stronger network effect? A: The first. Paying fees is costly use, which is evidence that people want the network itself. Heavy trading can be a momentum loop that reverses as soon as attention moves on. Q: How can the momentum loop work against a coin? A: A falling price draws attention away, which removes buyers, which pushes the price down again. The loop that lifted the coin can take it down the same way.",
+   "textDeep": "Going deeper Money has always been a network. A currency is useful mainly because others accept it, which is why dominant currencies change rarely and slowly. See hierarchy of money.",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC7 — Community, politics and regulation"
+    }
+   ],
+   "backlinks": [
+    "coin-value",
+    "digital-assets",
+    "memecoins",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -5590,7 +5766,8 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
-    "blockchains"
+    "blockchains",
+    "sound-money"
    ],
    "backlinksAdv": []
   },
@@ -6629,6 +6806,79 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "sound-money": {
+   "id": "sound-money",
+   "title": "Sound Money",
+   "short": "",
+   "parent": "coin-value",
+   "order": 1.0,
+   "summary": "The asset half of a coin's value: a supply no one can quietly expand or hoard, a chain no one can seize, legal standing, and a market deep enough to trade.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "digital assets",
+    "sound money",
+    "supply",
+    "security"
+   ],
+   "sources": [
+    "Study notes",
+    "The Block, Ethereum Classic suffers another 51% attack in five days (6 August 2020)",
+    "AP via OPB, China says all crypto transactions illegal (24 September 2021)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "digital-assets",
+    "coin-value",
+    "sound-money"
+   ],
+   "branch": "digital-assets",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Sound money</strong> is money whose value can't be eroded by someone else's choice. For a coin, it's the asset half of <a class=\"wl\" href=\"#/map/p/coin-value\" data-page=\"coin-value\">what gives a coin value</a>: whether the coin is well built, whoever happens to want it. Four things decide it:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>The question</th>\n<th>When it fails</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1. Supply</strong></td>\n<td>Are the issuance rules fixed or predictable, and who holds the coins?</td>\n<td>New coins are created at will, or most of the supply sits with insiders who can sell</td>\n</tr>\n<tr>\n<td><strong>2. Security</strong></td>\n<td>Can any single party seize, censor or rewrite the chain?</td>\n<td>An attacker with most of the mining or staking power rewrites recent history</td>\n</tr>\n<tr>\n<td><strong>3. Legal standing</strong></td>\n<td>Can it be held and traded where its users live?</td>\n<td>A ban or a delisting cuts off buyers overnight</td>\n</tr>\n<tr>\n<td><strong>4. Liquidity and access</strong></td>\n<td>Can people get in and out without moving the price?</td>\n<td>A thin market, where one large sale crashes the price</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it matters</h2>\n<p>Each failure hands the coin's value to someone other than its holders: whoever can issue more, the insiders who can sell, an attacker, a government, or the last buyer standing. A sound coin is one where none of them can decide what yours is worth.</p>\n<h2>How it works</h2>\n<h3>1. Supply</h3>\n<ul>\n<li><strong>Issuance.</strong> The rules for creating new coins sit in the protocol. <a class=\"wl\" href=\"#/map/p/bitcoin\" data-page=\"bitcoin\">Bitcoin</a>, for example, allows no more than 21 million. A coin whose supply a team or a vote can raise is closer to a currency managed by its issuer.</li>\n<li><strong>Distribution.</strong> Who holds the coins matters as much as how many exist. If a few wallets hold most of the supply, they can sell into every rise. On a public chain this is visible: anyone can look up the largest holders.</li>\n</ul>\n<h3>2. Security</h3>\n<ul>\n<li><strong>The cost of an attack.</strong> A chain is secure when taking control of most of its mining or staking power costs more than an attack could gain. See <a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a>.</li>\n<li><strong>Small chains are cheaper to attack,</strong> especially if they share a mining method with a much larger chain whose miners can rent out their power. <strong>Ethereum Classic</strong> suffered majority attacks on 1 and 6 August 2020. In the first, about 807,000 ETC were spent twice, and exchanges paused deposits.</li>\n<li><strong>Neutrality.</strong> No single party should be able to block transactions it dislikes. A chain that can be censored puts its users at someone's mercy.</li>\n</ul>\n<h3>3. Legal standing</h3>\n<ul>\n<li><strong>Bans and restrictions.</strong> On 24 September 2021 China's central bank declared all crypto transactions illegal. A ban doesn't change a coin's code, but it removes buyers and businesses in that country at a stroke.</li>\n<li><strong>Delistings.</strong> When major <a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> stop trading a coin, the easiest way in and out closes, even where holding it stays legal.</li>\n</ul>\n<h3>4. Liquidity and access</h3>\n<ul>\n<li><strong>Depth.</strong> A deep market absorbs large orders with a small move in price; a thin one doesn't. See <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a>.</li>\n<li><strong>On-ramps.</strong> Most buyers arrive through exchanges and <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">custodians</a>. A coin that's hard to buy has fewer buyers, however good its design.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Trusting a supply cap without checking who holds the supply.</strong> A fixed total is no protection if a few holders can sell most of it.</li>\n<li><strong>Assuming a copy is as secure as the original.</strong> A copied chain has the same code but a fraction of the security behind it.</li>\n<li><strong>Liquidity that only exists in good times.</strong> Markets that look deep in a rally can thin out fast in a fall.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a sound coin is one where no issuer, insider, attacker or government can decide what yours is worth. Check all four before trusting any one.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a> — the other half: the crowd.</li>\n<li><a class=\"wl\" href=\"#/map/p/consensus\" data-page=\"consensus\">Consensus: Proof of Work and Proof of Stake</a> — how chains are secured, and what an attack costs.</li>\n<li><a class=\"wl\" href=\"#/map/p/privacy-and-traceability\" data-page=\"privacy-and-traceability\">Privacy and Traceability</a> — why holdings on a public chain can be inspected.</li>\n<li><a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a> — when the state restricts what you can do with money.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A coin has a hard cap of 1 billion, but five wallets belonging to its founders hold 70% of the supply. Is its supply sound?</p><details><summary>Show answer</summary><p>The cap is, but the distribution isn't. Those five wallets can sell into any demand, so the holders who bought from them carry the risk.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a small chain that uses the same mining method as a much larger one be cheap to attack?</p><details><summary>Show answer</summary><p>Because miners from the large chain can redirect, or rent out, a small fraction of their power and still control most of the small chain's. That's how Ethereum Classic was attacked twice in August 2020.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>A cap is only as firm as its community.</strong> Supply rules are code, and code can be changed by a <a class=\"wl\" href=\"#/map/p/forks\" data-page=\"forks\">fork</a>. The rules hold because enough users would refuse a chain that broke them. That's where the asset half meets the crowd half. See <a class=\"wl\" href=\"#/map/p/network-effects\" data-page=\"network-effects\">Network Effects</a>.</li>\n</ul></section>",
+   "links": [
+    "bitcoin",
+    "capital-controls",
+    "coin-value",
+    "consensus",
+    "custodial-crypto",
+    "exchanges",
+    "forks",
+    "liquidity",
+    "network-effects",
+    "privacy-and-traceability"
+   ],
+   "stub": false,
+   "text": "What it is Sound money is money whose value can't be eroded by someone else's choice. For a coin, it's the asset half of what gives a coin value: whether the coin is well built, whoever happens to want it. Four things decide it: The question When it fails 1. Supply Are the issuance rules fixed or predictable, and who holds the coins? New coins are created at will, or most of the supply sits with insiders who can sell 2. Security Can any single party seize, censor or rewrite the chain? An attacker with most of the mining or staking power rewrites recent history 3. Legal standing Can it be held and traded where its users live? A ban or a delisting cuts off buyers overnight 4. Liquidity and access Can people get in and out without moving the price? A thin market, where one large sale crashes the price Why it matters Each failure hands the coin's value to someone other than its holders: whoever can issue more, the insiders who can sell, an attacker, a government, or the last buyer standing. A sound coin is one where none of them can decide what yours is worth. How it works 1. Supply Issuance. The rules for creating new coins sit in the protocol. bitcoin, for example, allows no more than 21 million. A coin whose supply a team or a vote can raise is closer to a currency managed by its issuer. Distribution. Who holds the coins matters as much as how many exist. If a few wallets hold most of the supply, they can sell into every rise. On a public chain this is visible: anyone can look up the largest holders. 2. Security The cost of an attack. A chain is secure when taking control of most of its mining or staking power costs more than an attack could gain. See consensus. Small chains are cheaper to attack, especially if they share a mining method with a much larger chain whose miners can rent out their power. Ethereum Classic suffered majority attacks on 1 and 6 August 2020. In the first, about 807,000 ETC were spent twice, and exchanges paused deposits. Neutrality. No single party should be able to block transactions it dislikes. A chain that can be censored puts its users at someone's mercy. 3. Legal standing Bans and restrictions. On 24 September 2021 China's central bank declared all crypto transactions illegal. A ban doesn't change a coin's code, but it removes buyers and businesses in that country at a stroke. Delistings. When major exchanges stop trading a coin, the easiest way in and out closes, even where holding it stays legal. 4. Liquidity and access Depth. A deep market absorbs large orders with a small move in price; a thin one doesn't. See liquidity. On ramps. Most buyers arrive through exchanges and custodians. A coin that's hard to buy has fewer buyers, however good its design. What goes wrong Trusting a supply cap without checking who holds the supply. A fixed total is no protection if a few holders can sell most of it. Assuming a copy is as secure as the original. A copied chain has the same code but a fraction of the security behind it. Liquidity that only exists in good times. Markets that look deep in a rally can thin out fast in a fall. Key rule: a sound coin is one where no issuer, insider, attacker or government can decide what yours is worth. Check all four before trusting any one. Connects to network effects — the other half: the crowd. consensus — how chains are secured, and what an attack costs. privacy and traceability — why holdings on a public chain can be inspected. capital controls — when the state restricts what you can do with money. Check yourself Q: A coin has a hard cap of 1 billion, but five wallets belonging to its founders hold 70% of the supply. Is its supply sound? A: The cap is, but the distribution isn't. Those five wallets can sell into any demand, so the holders who bought from them carry the risk. Q: Why can a small chain that uses the same mining method as a much larger one be cheap to attack? A: Because miners from the large chain can redirect, or rent out, a small fraction of their power and still control most of the small chain's. That's how Ethereum Classic was attacked twice in August 2020.",
+   "textDeep": "Going deeper A cap is only as firm as its community. Supply rules are code, and code can be changed by a fork. The rules hold because enough users would refuse a chain that broke them. That's where the asset half meets the crowd half. See network effects.",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "princeton-bitcoin",
+     "m": "BTC7 — Community, politics and regulation"
+    }
+   ],
+   "backlinks": [
+    "coin-value",
+    "digital-assets",
+    "network-effects"
+   ],
+   "backlinksAdv": []
+  },
   "sovereign-default": {
    "id": "sovereign-default",
    "title": "Sovereign Default",
@@ -6767,6 +7017,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "central-bank-money",
     "claims-and-liabilities",
+    "coin-value",
     "common-mistakes",
     "failure-modes",
     "flow:a-stablecoin-run",
@@ -7234,10 +7485,14 @@ window.MUDMAP = {
     }
    ],
    "backlinks": [
+    "coin-value",
     "memecoins",
-    "money"
+    "money",
+    "network-effects"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "coin-value"
+   ]
   },
   "wrapped-tokens": {
    "id": "wrapped-tokens",
@@ -7301,6 +7556,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "bridges-and-layer-2s",
+    "coin-value",
     "forks",
     "stablecoins",
     "tokens"
@@ -9067,11 +9323,19 @@ window.MUDMAP = {
       {
        "page": "governance-tokens",
        "note": "Formal voting over a protocol"
+      },
+      {
+       "page": "network-effects",
+       "note": "Community, the default choice, and what survives a split"
+      },
+      {
+       "page": "sound-money",
+       "note": "Supply, security, legal standing and liquidity"
       }
      ],
      "note": "",
      "state": "mapped",
-     "pages": 2
+     "pages": 4
     },
     {
      "title": "BTC8 — Alternative mining puzzles",
@@ -9119,11 +9383,15 @@ window.MUDMAP = {
       {
        "page": "memecoins",
        "note": "Tokens with nothing behind them"
+      },
+      {
+       "page": "coin-value",
+       "note": "Why one coin holds value and its copy doesn't"
       }
      ],
      "note": "",
      "state": "mapped",
-     "pages": 4
+     "pages": 5
     },
     {
      "title": "BTC11 — Decentralised institutions",
@@ -9157,11 +9425,14 @@ window.MUDMAP = {
     "privacy-and-traceability",
     "forks",
     "governance-tokens",
+    "network-effects",
+    "sound-money",
     "smart-contract-platforms",
     "wrapped-tokens",
     "native-coins",
     "tokens",
     "memecoins",
+    "coin-value",
     "defi"
    ],
    "status": "mapped",
@@ -9200,5 +9471,5 @@ window.MUDMAP = {
   "sovereign-default",
   "market-failure"
  ],
- "built": "2026-10-26 04:46 UTC"
+ "built": "2026-10-26 05:07 UTC"
 };
