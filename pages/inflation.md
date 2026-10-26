@@ -29,7 +29,7 @@ A quick estimate is *real ≈ nominal − inflation*. The exact figure is (1 + n
 - **Money and credit growth** outpacing output. See [[central-bank-money]] and [[money-creation]].
 - **Expectations:** if people expect higher prices, they ask for higher wages and set higher prices, which helps make it happen.
 
-**The policy response.** Many central banks aim for low, stable inflation, often around 2% a year, mainly by raising or lowering interest rates.
+**The policy response.** Many central banks aim for low, stable inflation, often around 2% a year, mainly by raising or lowering interest rates. See [[monetary-policy]].
 
 ## Who wins and who loses
 | Usually loses | Usually gains or is protected |

@@ -21,7 +21,8 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 
 ## CFA1-ECON — Economics
 - [[what-is-money]] — the functions of money
-- [[central-bank-money]] — monetary policy and the central bank's tools
+- [[central-bank-money]] — the central bank's balance sheet and reserves
+- [[monetary-policy]] — policy rates, transmission, real rates and the limits of policy
 - [[inflation]] — price levels, real and nominal
 - [[cash-and-fiat]] — currencies and what gives them value
 - [[exchange-rates]] — quotes, cross rates, exchange-rate regimes and forward rates

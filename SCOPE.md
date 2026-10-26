@@ -30,7 +30,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | Group | Branch | Covers |
 |---|---|---|
 | Foundations | Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, the four ways to earn a return, time value, compounding, risk and return, inflation |
-| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, cash and fiat, currencies and exchange rates, bank deposits, bank backstops (capital and liquidity, lender of last resort, bail-in, deposit insurance, the bank–government loop), eurodollars, liquidity, money creation |
+| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, monetary policy, cash and fiat, currencies and exchange rates, bank deposits, bank backstops (capital and liquidity, lender of last resort, bail-in, deposit insurance, the bank–government loop), eurodollars, liquidity, money creation |
 | What you can own | Human & Social Capital | **Written.** Human capital, social capital |
 | What you can own | Digital Assets | **Written.** Seven clusters: how blockchains work (consensus, keys, forks, privacy and traceability), native coins (Bitcoin, smart-contract platforms), what gives a coin value (sound money, network effects), tokens (stablecoins, memecoins, governance, wrapped), bridges and layer 2s, DeFi, holding crypto (self-custody, custodial) |
 | What you can own | Real Assets | **Written.** Real estate, REITs, commodities, collectibles |

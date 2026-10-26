@@ -36,6 +36,7 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 - [[swaps]] — interest-rate, currency and credit default swaps
 
 ## MB6 — Money in the real world
+- [[monetary-policy]] — how the central bank sets the price of money, and QE and QT
 - [[hierarchy-of-money]] — the whole system in one picture
 - [[liquidity]] — how system liquidity moves markets
 - [[market-regimes]] — risk-on and risk-off as liquidity changes

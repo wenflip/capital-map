@@ -24,6 +24,7 @@ Start with the jobs money does, then work down the layers from the most final fo
 - [[hierarchy-of-money]] — why money is layered, from gold at the base to private promises at the top.
 - [[gold]] — the oldest money, and the one at the base that is nobody's liability.
 - [[central-bank-money]] — the base of the modern system: banknotes and the reserves banks hold at the central bank.
+- [[monetary-policy]] — how the central bank steers interest rates and the amount of money, and why it moves every market.
 - [[cash-and-fiat]] — government currency, why people must hold it, and its built-in bleed.
 - [[exchange-rates]] — the price of one currency in another, and what it does to anything you own abroad.
 - [[bank-deposits]] — the money most people actually hold: a bank's promise to pay.
