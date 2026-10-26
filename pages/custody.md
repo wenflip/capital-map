@@ -4,6 +4,7 @@ title: Custody
 parent: markets
 order: 3
 summary: Who actually holds the asset, and what you really own.
+sources: Uniform Commercial Code, Article 8 (security entitlements); Michigan Senate Fiscal Agency, analysis of revised UCC Article 8 (1997); National Law Review, Why does DTC need a nominee?
 ---
 ## What it is
 **Custody** is the safekeeping of assets on someone else's behalf. When you buy shares through a broker, you rarely hold anything directly. A chain of firms holds them, and what you own is a recorded claim at the end of that chain.
@@ -13,6 +14,9 @@ Modern securities are electronic entries, not paper certificates. Specialist cus
 
 ## How it works
 **The chain:** you → your broker → (often) a custodian bank → the **central securities depository**, which holds the master record. At each step, assets are usually pooled in **omnibus** accounts, with the firm's own books showing whose share is whose.
+
+
+![A chain from you, to your broker, to the central depository, to the company. Your legal claim is on your broker, not directly on the company.](assets/figures/shares-ownership-chain.svg "Simplified: there is often a custodian bank between your broker and the depository. In the US the law calls what you hold a &quot;security entitlement&quot;, a claim on your broker, and the company&#39;s register shows the depository&#39;s nominee. Details vary by country.")
 
 **What protects you:**
 - **Segregation:** customer assets should be held separately from the firm's own, so the firm's creditors can't claim them if it fails.

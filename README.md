@@ -150,6 +150,21 @@ Two to seven plain sentences. No jargon, or explain each term in the same senten
 
 A top-level branch page, once written, is a **hub**. Every hub has the sections *What it is*, *Why it exists*, *How it works*, *What goes wrong*, *Connects to* and *Check yourself* (at least two quiz questions), runs to at least 400 words, and links every child page. Links to **advanced** children go only inside its *Going deeper* section, so Core view never shows them. Quizzes go above *Going deeper*, because that section runs to the end of the page and is hidden in Core.
 
+## Figures
+
+Diagrams live in `assets/figures/` as SVG files named **`<page-id>-<name>.svg`**, after the page they belong to (`shares-ownership-chain.svg`). Embed one on a line of its own:
+
+```
+![Descriptive alt text: what the figure shows, for screen readers](assets/figures/shares-ownership-chain.svg "A short caption")
+```
+
+- **The build turns it into a captioned figure** that opens full size when tapped (on phones a figure shrinks to about 60%, so a "Tap to enlarge" hint shows there). The width and height come from the SVG's `viewBox`.
+- **The build fails** on a missing file, a file outside `assets/figures/`, a name that doesn't start with a page id, alt text under 20 characters, a missing caption, or an image that isn't on its own line.
+- **Alt text:** use the SVG's own `<desc>`, word for word. An `<img>` hides the SVG's title and description from screen readers.
+- **Facts in a figure are page facts:** they must match the page, and the page credits any source. Don't draw what the site already renders live from data (the failure ladder is the Failures tab).
+- **Style:** a white card with a light border and system fonts, so it reads as a deliberate card in dark mode (dimmed slightly there). The figures test checks that no text spills outside the drawing.
+- **Every file in `assets/figures/` must be used somewhere.**
+
 ## Link previews
 
 `assets/share.png` is the 1200×630 image shown when the site is shared. It's rendered from HTML with Playwright (the template lives with the helper tools, outside the repo). `og:url` and `og:image` in `index.html` must be absolute and match the live address: `https://thecapitalmap.pages.dev/`.

@@ -26,6 +26,8 @@ Selling shares lets a company raise money it never has to repay. A listing on a 
 - **Returns.** You earn from dividends and from changes in the share price. Some companies pay no dividend and reinvest everything; others buy back their own shares.
 - **Holding.** Today most shares are held electronically through a broker, often in the broker's name for your benefit (a **nominee** account). See [[brokers]] and [[custody]].
 
+![A chain from you, to your broker, to the central depository, to the company. Your legal claim is on your broker, not directly on the company.](assets/figures/shares-ownership-chain.svg "Who actually holds a share bought through a broker. Simplified; details vary by country. See Custody for the full chain.")
+
 ## What goes wrong
 - **The company fails.** Shares can go to zero, because shareholders are paid last. See [[claims-and-liabilities]].
 - **The market falls.** Even strong companies' shares drop in a crash. The S&P 500 lost about 57% from October 2007 to March 2009.

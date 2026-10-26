@@ -28,6 +28,7 @@ Both are generated: don't edit them by hand. They're rebuilt from scratch with r
 | `store_traits` | store × trait | (`store_id`, `trait`) |
 | `rungs` | rung on the failure ladder | `page_id` → `pages`; `number` is unique |
 | `fails_at` | store × rung that can hit it | (`store_id`, `rung_id`): the **junction table** |
+| `figures` | figure placed on a page | (`page_id`, `file`) |
 | `quals` | qualification | `id` |
 | `modules` | qualification module, with its coverage state | (`qual_id`, `code`) |
 | `module_pages` | module × page that covers it | (`qual_id`, `code`, `page_id`) |

@@ -9,6 +9,8 @@ tags: foundation, money, macro
 ## What it is
 **Inflation** is a general rise in prices across the economy, so each unit of money buys less. It is usually measured with a price index that tracks the cost of a typical basket of goods and services, such as a consumer price index.
 
+![Three households face the same price rises but spend differently. The headline basket rises 3.7%, a renter's basket 4.3%, and a homeowner who drives to work 3.1%.](assets/figures/inflation-your-basket.svg "Three fictional households facing the same price rises. Each household&#39;s rate is its own basket weighted by what it spends.")
+
 ## Why it matters
 Inflation is the killer of [[cash-and-fiat|cash]] on the [[cartography-of-wealth|Cartography of Wealth]]. It also changes how every other return should be read: a gain only counts if it beats the rise in prices.
 

@@ -14,7 +14,7 @@ Individuals can't trade directly on an exchange; only member firms can. A broker
 
 ## How it works
 - **Routing orders.** The broker sends your order to an exchange or another venue. In some markets, such as the US, brokers can be paid by trading firms to send orders to them (**payment for order flow**), which is how some apps offer "zero commission" trading.
-- **Holding assets.** Your shares are usually registered in the broker's name for your benefit, in a **nominee** or **omnibus** account. They should be kept separate from the broker's own money. See [[custody]].
+- **Holding assets.** Your shares are usually registered in the broker's name for your benefit, in a **nominee** or **omnibus** account. They should be kept separate from the broker's own money. [[custody|Custody]] draws the whole chain, from you to the company. See [[custody]].
 - **Margin accounts.** Brokers lend money against your holdings, which adds [[leverage]] and the risk of a margin call.
 - **Protection schemes.** Many countries cover customers if a broker fails and assets are missing, up to a limit. In the US, SIPC covers up to $500,000 per customer, including $250,000 of cash. None of these schemes cover a fall in prices.
 

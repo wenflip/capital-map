@@ -26,6 +26,9 @@ Page file format (pages/<id>.md):
     level: advanced              # optional — hidden in Core view (children inherit it)
 
 Links:  [[page-id]]  or  [[page-id|custom text]]
+Figure: ![alt text](assets/figures/<page-id>-<name>.svg "Caption") on a line of its own. The file must exist and its
+        name must start with the id of the page it belongs to (it may be embedded on other pages too); alt text and
+        caption are required. It renders as a captioned figure that opens full size when tapped.
 Depth:  a "## Going deeper" heading starts an advanced block that runs to the
         end of the page; it is hidden in Core view
 Quiz:   a paragraph starting **Q:** followed by one starting **A:**
@@ -108,6 +111,7 @@ contradicts the pages (an out-of-scope or "Not mapped yet" module with pages, or
 mapped" module with none).
 """
 import json
+import pathlib
 import re
 import sys
 from datetime import datetime, timezone
@@ -175,8 +179,40 @@ def parse_file(path):
     return meta, body.strip()
 
 
+IMAGE_MD = re.compile(r"!\[([^\]]*)\]\([^)]*\)")
+FIGURE_HTML = re.compile(r'<p><img alt="([^"]*)" src="([^"]*)"(?: title="([^"]*)")? ?/></p>')
+FIGURES = []   # (page or file it appears on, src, alt, caption) — for the SQLite export
+
+
+def figure(m, source_id, titles):
+    """Turn a Markdown image into a captioned figure that opens full size; validate it."""
+    alt, src, cap = m.group(1).strip(), m.group(2), (m.group(3) or "").strip()
+    path = ROOT / src
+    name = pathlib.PurePosixPath(src).name
+    if not src.startswith("assets/figures/") or not src.endswith(".svg"):
+        errors.append(f"{source_id}: figure '{src}' must be an .svg in assets/figures/")
+    elif not path.exists():
+        errors.append(f"{source_id}: figure file '{src}' does not exist")
+    elif not any(name.startswith(pid + "-") for pid in titles):
+        errors.append(f"{source_id}: figure '{name}' must be named <page-id>-<name>.svg after the page it belongs to")
+    if len(alt) < 20:
+        errors.append(f"{source_id}: figure '{name}' needs descriptive alt text")
+    if not cap:
+        errors.append(f"{source_id}: figure '{name}' needs a caption (the title in quotes)")
+    size = ""
+    if src.startswith("assets/figures/") and src.endswith(".svg") and path.exists():   # only read a real figure
+        vb = re.search(r'viewBox="0 0 ([0-9.]+) ([0-9.]+)"', path.read_text(encoding="utf-8"))
+        if vb:
+            size = f' width="{vb.group(1)}" height="{vb.group(2)}"'
+    FIGURES.append((source_id, src, alt, cap))
+    return (f'<figure class="fig"><a class="fig-link" href="{src}" target="_blank" rel="noopener" title="Open full size">'
+            f'<img src="{src}" alt="{alt}"{size} loading="lazy"></a>'
+            f'<figcaption>{cap}<span class="fig-hint"> Tap to enlarge.</span></figcaption></figure>')
+
+
 def plain_text(md_body):
-    t = WIKILINK.sub(lambda m: m.group(2) or m.group(1), md_body)
+    t = IMAGE_MD.sub(lambda m: m.group(1), md_body)
+    t = WIKILINK.sub(lambda m: m.group(2) or m.group(1), t)
     t = re.sub(r"[#*`>|_\-]+", " ", t)
     return re.sub(r"\s+", " ", t).strip()
 
@@ -217,6 +253,10 @@ def render(md_body, titles, source_id, link_sink):
     body = re.sub(r"(?m)^( {2,3})(?=(?:[-*+]|\d+\.) )", lambda m: "    " * 1, body)
     body = separate_lists(body)
     html = markdown.markdown(body, extensions=["tables", "fenced_code", "sane_lists"])
+    images = html.count("<img")
+    html, converted = FIGURE_HTML.subn(lambda m: figure(m, source_id, titles), html)
+    if converted != images:
+        errors.append(f"{source_id}: an image must sit on a line of its own, as ![alt](assets/figures/....svg \"Caption\")")
 
     # Quiz blocks: **Q:** paragraph followed by **A:** paragraph
     html = re.sub(
@@ -659,6 +699,13 @@ CREATE TABLE path_steps (          -- junction table: the pages of a path, in re
   why     TEXT NOT NULL,
   PRIMARY KEY (path_id, step)
 );
+CREATE TABLE figures (             -- figures embedded in pages (SVGs in assets/figures/)
+  page_id TEXT NOT NULL REFERENCES pages(id),
+  file    TEXT NOT NULL,
+  alt     TEXT NOT NULL,
+  caption TEXT NOT NULL,
+  PRIMARY KEY (page_id, file)
+);
 CREATE TABLE quals (
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,
@@ -721,6 +768,7 @@ def write_sqlite(pages, rung_ids, quals, flows, questions, paths):
     rows("paths", [(x, paths[x]["title"], paths[x]["summary"]) for x in sorted(paths)])
     rows("path_steps", [(x, n, it["page"], re.sub(r"<[^>]+>", "", it["note"])) for x in sorted(paths)
                         for n, it in enumerate((it for s in paths[x]["stages"] for it in s["items"]), 1)])
+    rows("figures", sorted({(s, f, a, c) for s, f, a, c in FIGURES if s in pages}))
     qids = sorted(quals, key=lambda q: quals[q]["order"])
     rows("quals", [(q, quals[q]["title"], quals[q]["short"], quals[q]["status"], quals[q]["order"]) for q in qids])
     code = lambda s: re.split(r"\s+[—–-]\s+", s["title"])[0]
