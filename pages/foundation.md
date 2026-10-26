@@ -4,7 +4,7 @@ title: Foundation
 parent: capital-system
 order: 1
 group: Foundations
-summary: The ideas everything else rests on: claims and liabilities, time value, compounding, risk and return, and inflation.
+summary: The ideas everything else rests on: claims and liabilities, the four ways to earn a return, time value, compounding, risk and return, and inflation.
 tags: foundation
 ---
 ## What it is
@@ -19,9 +19,10 @@ Most costly money mistakes aren't about picking the wrong asset. They come from 
 - forgetting that a 5% return in a year of 4% inflation is barely a gain.
 
 ## How it works
-Two pages sort the things you can own:
+Three pages sort the things you can own, and how they earn:
 - [[claims-and-liabilities]] — most financial assets are someone else's promise. Ask whose, and a promise of what.
-- [[cartography-of-wealth|The Cartography of Wealth]] — ten stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it.
+- [[cartography-of-wealth|The Cartography of Wealth]] — twelve stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it.
+- [[four-ways-to-earn]] — every return comes from labour, lending, owning, or taking price risk; anything else is a transfer.
 
 Four pages explain how value moves through time:
 - [[time-value-of-money]] — why a dollar today is worth more than a dollar later, and how to convert one into the other.

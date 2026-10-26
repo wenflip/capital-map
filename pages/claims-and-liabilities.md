@@ -30,6 +30,8 @@ Some assets are **nobody's liability**. Gold, land, bearer crypto and your own s
 | [[bitcoin]] | Nobody's | — |
 | [[memecoins]] | Nobody's | — (attention only) |
 
+Which side of a claim you hold also decides how you're paid: a creditor earns interest, an owner earns whatever profit is left. See [[four-ways-to-earn]].
+
 ## The link to visibility
 Claims have to be recorded, because both sides need proof of who owes whom. That is why claims are visible to the state. Things that are nobody's liability *can* be held privately. This is the same divide the [[cartography-of-wealth|Cartography of Wealth]] draws between legible and bearer assets.
 

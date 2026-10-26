@@ -36,6 +36,7 @@ That is a statement about averages and expectations, not a promise. Taking more 
 > **Key rule:** risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it.
 
 ## Connects to
+- [[four-ways-to-earn]] — the four ways to earn, from capped lending to open-ended ownership and price risk.
 - [[time-value-of-money]] — risk raises the discount rate.
 - [[diversification]] and [[correlation]] — reducing risk you aren't paid for.
 - [[drawdown]] — the loss you actually live through.
