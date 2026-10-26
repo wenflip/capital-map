@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 700">
+<title>Who actually holds your shares?</title>
+<desc>A chain from you, to your broker, to the central depository, to the company. Your legal claim is on your broker, not directly on the company.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0 L10 5 L0 10 z" fill="#b5521f"/>
+  </marker>
+</defs>
+<rect x="0.5" y="0.5" width="559" height="699" rx="14" fill="#ffffff" stroke="#dcd7cd" stroke-width="1"/>
+
+<!-- Title -->
+<text x="280" y="38" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" fill="#1d1b18">Who actually holds your shares?</text>
+<line x1="140" y1="48" x2="420" y2="48" stroke="#b5521f" stroke-width="2"/>
+
+<!-- You -->
+<rect x="20" y="62" width="520" height="78" rx="6" fill="#f8f7f4" stroke="#b5521f" stroke-width="2.5"/>
+<text x="280" y="90" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1d1b18">You</text>
+<text x="280" y="112" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#5a554c"><tspan x="280" dy="0">Your app shows shares</tspan><tspan x="280" dy="17">in your name</tspan></text>
+
+<!-- Left: what you think -->
+<line x1="150" y1="140" x2="150" y2="498" stroke="#b5521f" stroke-width="3.5" stroke-dasharray="9 6" opacity="0.75" marker-end="url(#arrow)"/>
+<text x="124" y="319" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#b5521f" transform="rotate(-90 124 319)">What you think you own</text>
+
+<!-- Right: what's actually there -->
+<text x="534" y="319" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1d1b18" transform="rotate(90 534 319)">What's actually there</text>
+
+<rect x="290" y="210" width="220" height="76" rx="6" fill="#f8f7f4"/>
+<text x="400" y="236" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Your broker</text>
+<text x="400" y="258" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#5a554c"><tspan x="400" dy="0">Keeps your record;</tspan><tspan x="400" dy="17">holds the shares for you</tspan></text>
+
+<rect x="290" y="356" width="220" height="76" rx="6" fill="#f8f7f4"/>
+<text x="400" y="382" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">The central depository</text>
+<text x="400" y="404" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#5a554c"><tspan x="400" dy="0">Holds the shares for</tspan><tspan x="400" dy="17">all brokers, in bulk</tspan></text>
+
+<line x1="400" y1="140" x2="400" y2="206" stroke="#b5521f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="412" y="178" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">claim on</text>
+<line x1="400" y1="286" x2="400" y2="352" stroke="#b5521f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="412" y="324" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">claim on</text>
+<line x1="400" y1="432" x2="400" y2="498" stroke="#b5521f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="412" y="470" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">claim on</text>
+
+<!-- The company -->
+<rect x="20" y="502" width="520" height="78" rx="6" fill="#f8f7f4"/>
+<text x="280" y="530" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1d1b18">The company</text>
+<text x="280" y="552" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#5a554c"><tspan x="280" dy="0">Sees the depository's</tspan><tspan x="280" dy="17">nominee, not you</tspan></text>
+
+<!-- Takeaway -->
+<text x="280" y="618" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18"><tspan x="280" dy="0">Your claim is on your broker.</tspan><tspan x="280" dy="21">The broker's claim is on the depository.</tspan></text>
+
+<!-- Footnote -->
+<text x="280" y="680" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#8a8478">Simplified. Details vary by country and account type. Not financial advice.</text>
+</svg>

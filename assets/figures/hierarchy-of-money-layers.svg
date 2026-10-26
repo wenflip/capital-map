@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640">
+  <title>Money comes in layers</title>
+  <desc>An upside-down pyramid of six layers. From the top: shares, property and crypto; bonds and T-bills; offshore and private dollars; bank deposits; central bank money; and gold at the base. Each layer is a promise to pay in the layer below.</desc>
+  <rect x="0.5" y="0.5" width="559" height="639" rx="14" fill="#ffffff" stroke="#dcd7cd" stroke-width="1"/>
+  <text x="280" y="38" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" fill="#1d1b18">Money comes in layers</text>
+  <line x1="150" y1="48" x2="410" y2="48" stroke="#b5521f" stroke-width="2"/>
+  <text x="280" y="72" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Each layer is a promise to pay in the layer below.</text>
+  <rect x="20" y="96" width="520" height="60" rx="6" fill="#fbeee6"/>
+  <text x="280" y="122" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Shares, property, crypto</text>
+  <text x="280" y="142" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Priced in money, not a promise of it</text>
+  <rect x="56" y="166" width="448" height="60" rx="6" fill="#f7e1d4"/>
+  <text x="280" y="192" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Bonds and T-bills</text>
+  <text x="280" y="212" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">A borrower's promise to pay later</text>
+  <rect x="92" y="236" width="376" height="60" rx="6" fill="#f3d5c3"/>
+  <text x="280" y="262" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Offshore and private dollars</text>
+  <text x="280" y="282" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">A foreign bank's or company's promise</text>
+  <rect x="128" y="306" width="304" height="60" rx="6" fill="#eec8b1"/>
+  <text x="280" y="332" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Bank deposits</text>
+  <text x="280" y="352" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Your bank's promise</text>
+  <rect x="164" y="376" width="232" height="60" rx="6" fill="#eabb9f"/>
+  <text x="280" y="402" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Central bank money</text>
+  <text x="280" y="422" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">The central bank's promise</text>
+  <rect x="200" y="446" width="160" height="60" rx="6" fill="#e4a885" stroke="#b5521f" stroke-width="2"/>
+  <text x="280" y="472" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Gold</text>
+  <text x="280" y="492" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Nobody's promise</text>
+  <text x="280" y="532" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#b5521f">The base: final payment</text>
+  <text x="280" y="572" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">In a crisis, people sell the top layers</text>
+  <text x="280" y="593" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">to get the bottom ones.</text>
+  <text x="280" y="622" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#8a8478">Simplified. Not financial advice.</text>
+</svg>

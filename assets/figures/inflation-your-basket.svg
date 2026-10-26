@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 610">
+  <title>Your inflation isn't the headline</title>
+  <desc>Three households face the same price rises but spend differently. The headline basket rises 3.7%, a renter's basket 4.3%, and a homeowner who drives to work 3.1%.</desc>
+  <rect x="0.5" y="0.5" width="559" height="609" rx="14" fill="#ffffff" stroke="#dcd7cd" stroke-width="1"/>
+  <text x="280" y="38" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" fill="#1d1b18">Your inflation isn't the headline</text>
+  <line x1="110" y1="48" x2="450" y2="48" stroke="#b5521f" stroke-width="2"/>
+  <text x="280" y="72" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Same price rises, different shopping baskets.</text>
+  <text x="40" y="108" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1d1b18">How much each thing went up</text>
+  <rect x="40" y="122" width="14" height="14" rx="3" fill="#b5521f"/>
+  <text x="64" y="134" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Housing</text>
+  <text x="260" y="134" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">6%</text>
+  <rect x="40" y="146" width="14" height="14" rx="3" fill="#d9824f"/>
+  <text x="64" y="158" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Food</text>
+  <text x="260" y="158" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">4%</text>
+  <rect x="40" y="170" width="14" height="14" rx="3" fill="#8a8478"/>
+  <text x="64" y="182" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Transport</text>
+  <text x="260" y="182" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">2%</text>
+  <rect x="40" y="194" width="14" height="14" rx="3" fill="#e8b48f"/>
+  <text x="64" y="206" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Energy</text>
+  <text x="260" y="206" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">5%</text>
+  <rect x="40" y="218" width="14" height="14" rx="3" fill="#dcd7cd"/>
+  <text x="64" y="230" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Everything else</text>
+  <text x="260" y="230" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">1.5%</text>
+  <text x="40" y="270" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1d1b18">Share of spending</text>
+  <text x="40" y="294" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Headline basket (CPI)</text>
+  <rect x="40" y="306" width="125" height="32" fill="#b5521f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="165" y="306" width="54" height="32" fill="#d9824f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="219" y="306" width="60" height="32" fill="#8a8478" stroke="#ffffff" stroke-width="2"/>
+  <rect x="279" y="306" width="27" height="32" fill="#e8b48f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="306" y="306" width="114" height="32" fill="#dcd7cd" stroke="#ffffff" stroke-width="2"/>
+  <text x="436" y="329" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#1d1b18">3.7%</text>
+  <text x="40" y="368" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Renter</text>
+  <rect x="40" y="380" width="171" height="32" fill="#b5521f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="211" y="380" width="68" height="32" fill="#d9824f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="279" y="380" width="31" height="32" fill="#8a8478" stroke="#ffffff" stroke-width="2"/>
+  <rect x="310" y="380" width="34" height="32" fill="#e8b48f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="344" y="380" width="76" height="32" fill="#dcd7cd" stroke="#ffffff" stroke-width="2"/>
+  <text x="436" y="403" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#b5521f">4.3%</text>
+  <text x="40" y="442" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">Homeowner who drives to work</text>
+  <rect x="40" y="454" width="76" height="32" fill="#b5521f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="116" y="454" width="61" height="32" fill="#d9824f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="177" y="454" width="91" height="32" fill="#8a8478" stroke="#ffffff" stroke-width="2"/>
+  <rect x="268" y="454" width="23" height="32" fill="#e8b48f" stroke="#ffffff" stroke-width="2"/>
+  <rect x="291" y="454" width="129" height="32" fill="#dcd7cd" stroke="#ffffff" stroke-width="2"/>
+  <text x="436" y="477" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#b5521f">3.1%</text>
+  <text x="280" y="528" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">The headline is an average basket.</text>
+  <text x="280" y="549" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Yours can be higher or lower.</text>
+  <text x="280" y="588" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#8a8478">Fictional figures for illustration. Not real data.</text>
+</svg>

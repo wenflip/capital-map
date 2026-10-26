@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 680">
+  <title>What a 1% fee really costs</title>
+  <desc>A line chart of $10,000 growing at 7% a year for 30 years. With no fee it reaches $76,123; with a 1% yearly fee it reaches $57,435. The $18,688 gap is about a quarter of the no-fee result.</desc>
+  <rect x="0.5" y="0.5" width="559" height="679" rx="14" fill="#ffffff" stroke="#dcd7cd" stroke-width="1"/>
+  <text x="280" y="38" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" fill="#1d1b18">What a 1% fee really costs</text>
+  <line x1="130" y1="48" x2="430" y2="48" stroke="#b5521f" stroke-width="2"/>
+  <text x="280" y="70" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">$10,000 invested for 30 years, growing 7% a year before fees.</text>
+  <text x="280" y="89" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Fictional example.</text>
+  <text x="70" y="130" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#b5521f">The gap: $18,688</text>
+  <text x="70" y="152" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">about a quarter of the no-fee result</text>
+  <line x1="70" y1="480" x2="430" y2="480" stroke="#ece8e1" stroke-width="1"/>
+  <line x1="70" y1="405" x2="430" y2="405" stroke="#ece8e1" stroke-width="1"/>
+  <line x1="70" y1="330" x2="430" y2="330" stroke="#ece8e1" stroke-width="1"/>
+  <line x1="70" y1="255" x2="430" y2="255" stroke="#ece8e1" stroke-width="1"/>
+  <line x1="70" y1="180" x2="430" y2="180" stroke="#ece8e1" stroke-width="1"/>
+  <text x="60" y="485" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">$0</text>
+  <text x="60" y="410" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">$20k</text>
+  <text x="60" y="335" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">$40k</text>
+  <text x="60" y="260" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">$60k</text>
+  <text x="60" y="185" text-anchor="end" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">$80k</text>
+  <text x="70" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">0</text>
+  <text x="130" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">5</text>
+  <text x="190" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">10</text>
+  <text x="250" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">15</text>
+  <text x="310" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">20</text>
+  <text x="370" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">25</text>
+  <text x="430" y="500" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#8a8478">30</text>
+  <text x="250" y="524" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#5a554c">Years</text>
+  <polygon points="70,442.5 130,427.4 190,406.2 250,376.5 310,334.9 370,276.5 430,194.5 430,264.6 370,319.1 310,359.7 250,390.1 190,412.8 130,429.8" fill="#b5521f" opacity="0.12"/>
+  <polyline points="70,442.5 130,427.4 190,406.2 250,376.5 310,334.9 370,276.5 430,194.5" fill="none" stroke="#1d1b18" stroke-width="2.5"/>
+  <polyline points="70,442.5 130,429.8 190,412.8 250,390.1 310,359.7 370,319.1 430,264.6" fill="none" stroke="#b5521f" stroke-width="2.5"/>
+  <circle cx="430" cy="194.5" r="4" fill="#1d1b18"/>
+  <circle cx="430" cy="264.6" r="4" fill="#b5521f"/>
+  <text x="446" y="190" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1d1b18">No fee</text>
+  <text x="446" y="208" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#1d1b18">$76,123</text>
+  <text x="446" y="260" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#b5521f">1% fee</text>
+  <text x="446" y="278" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#b5521f">$57,435</text>
+  <text x="280" y="572" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Fees compound too.</text>
+  <text x="280" y="593" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1b18">Small yearly charges become large final gaps.</text>
+  <text x="280" y="650" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#8a8478">Fictional figures for illustration. Not financial advice.</text>
+</svg>
