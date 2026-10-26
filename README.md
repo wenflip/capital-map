@@ -2,14 +2,14 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage. Next: the Failures view. See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage, and the Failures view shows the ladder and which rungs can hit which stores. The build also exports the map as a SQLite database. Next: P1 content (FX first). See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
 1. Pull the latest version (`git pull`).
 2. Double-click `index.html`. It opens in your browser — no server needed.
 
-Views: **Map**, **Flows**, **Quals**, **Cartography** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
+Views: **Map**, **Flows**, **Quals**, **Cartography**, **Failures** and **Index**, plus **About** and **Privacy**. Jobs exist in the engine but are hidden until there is content for them.
 
 ## How it's built
 
@@ -30,6 +30,8 @@ python3 tools/build.py
 ```
 
 The build checks the tree (exactly one root, every parent exists, no loops) and every `[[link]]`, then writes `data.js`, which `index.html` loads. Commit `data.js` along with your changes — the site is served as plain static files.
+
+The same build writes the map as a SQLite database, `data/capital-map.sqlite`, plus the same database as SQL text, `data/capital-map.sql`. Commit both too. They're byte-identical when nothing has changed, and the Failures view links to them for download. Tables, starter queries and practice questions are in `data/README.md`.
 
 Full file formats are documented at the top of `tools/build.py`.
 
@@ -53,10 +55,17 @@ traits: private, no yield, bearer, transferable
 place: 72, 24                # x inside you→outside you, y hidden→recorded; both 0–100. Plots the page on the Cartography view
 span: 36, 63                 # optional — a y range drawn as a whisker, for a store that spans tiers
 killer_kind: Theft and self-error   # the filter group for the killer; required with place
+fails_at: confiscation      # stores only — the failure-ladder rungs that can hit it (rung page ids)
+# Failure ladder (optional — only on rung pages)
+rung: 8                     # position on the ladder, 1 (closest to you) upwards; numbered with no gaps
+rung_name: Confiscation     # the rung's name on the ladder
+backstop: Courts, constitutions, compensation   # what is supposed to protect you at this rung
 ---
 ```
 
 Pages with fewer than 60 words show as dashed **stubs** on the map.
+
+**The failure ladder.** A rung is any page with `rung:`, not just a child of the When Things Fail hub: Stablecoins and When Banks Fail are rungs 3 and 4 but keep their own parents. The ladder table on the hub must match the rung fields. A store's `fails_at` lists the rungs whose page says, in *What it kills* (or the equivalent), that they can hit it. Write those links positively: a sentence such as "It doesn't touch [[gold]]" is a link, not a hit. The build fails if `fails_at` names something that isn't a rung, appears on a page that isn't a store, or if the rungs aren't numbered 1 to N.
 
 **Groups.** Every top-level branch has a `group`. The map draws each group as a cluster with a small heading, and the Index puts a heading before each group. A group is a label, not a level: it adds no page and no click. The build fails if a branch has no group, if a group's branches aren't next to each other in `order`, or if a page below the top level has one.
 

@@ -7,6 +7,9 @@ order: 6.5
 summary: The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.
 tags: money, banking, crisis
 sources: Study notes; Walter Bagehot, Lombard Street (1873); US Congressional Research Service, Iceland's Financial Crisis (RS22988, 2010); Swiss Federal Administrative Court, AT1 ruling (October 2025)
+rung: 4
+rung_name: Bank
+backstop: Capital, the central bank, deposit insurance, bail-in
 ---
 ## What it is
 A bank deposit is a promise by your bank. If the bank can't keep it, a **chain of backstops** is supposed to step in, roughly in this order:
@@ -15,7 +18,7 @@ A bank deposit is a promise by your bank. If the bank can't keep it, a **chain o
 |---|---|---|---|
 | 1 | **The bank itself** | Its own capital and liquid assets | [[bank-capital-and-liquidity]] |
 | 2 | **The central bank** | Emergency lending while the bank is only short of cash | [[lender-of-last-resort]] |
-| 3 | **The bank's investors** | Losses imposed on shareholders, bondholders and large depositors | [[bail-in]] |
+| 3 | **The bank's investors** | Losses imposed on [[shares\|shareholders]], [[bonds\|bondholders]] and large depositors | [[bail-in]] |
 | 4 | **Deposit insurance** | A fund that repays deposits up to a limit | [[deposit-insurance]] |
 | 5 | **The government** | Public money to rescue a bank, or to back the insurance fund | [[bank-sovereign-loop]] |
 

@@ -7,6 +7,9 @@ summary: Tokens meant to stay at one unit of a currency: a private dollar promis
 tags: digital assets, stablecoins, money
 killer: loss of the peg — the issuer or mechanism can't keep one token worth one dollar
 traits: someone's liability, price-stable by design, no yield to holders unless lent out
+rung: 3
+rung_name: Stablecoin issuer
+backstop: Reserves, if they're there
 ---
 ## What it is
 A **stablecoin** is a token designed to keep a steady value, usually one US dollar. It brings dollars onto blockchains, where they can move at any hour and be used by programs.
@@ -27,6 +30,7 @@ Stablecoins are the main bridge between crypto and ordinary money. In the [[hier
 - **De-peg:** if holders doubt the issuer can pay, they sell, and the price drops below one dollar. That is a run, the same as on a bank.
 - **Reserve risk:** the backing may be weaker, less liquid or less transparent than claimed.
 - **Freezes:** many reserve-backed issuers can freeze tokens at specific addresses.
+- **Who it hits:** everyone holding the token, whether on an exchange ([[custodial-crypto]]) or in their own wallet ([[self-custody]]). Holding your own keys protects you from the exchange, not from the issuer's promise.
 - **Copies on other chains:** a stablecoin copied by a fork, or bridged by a third party, is not the issuer's promise. See [[forks]] and [[wrapped-tokens]].
 
 > **Key rule:** a stablecoin is only as good as what it can be redeemed for, and who promises to redeem it.

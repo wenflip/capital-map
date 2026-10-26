@@ -11,6 +11,7 @@ traits: private if done right, may yield, heirs need keys
 place: 82, 13
 killer_kind: Theft and self-error
 sources: Chainalysis estimate of lost bitcoin (2020), via Decrypt
+fails_at: stablecoins
 ---
 ## What it is
 **Self-custody** means holding the keys to your own coins in a wallet only you control. See [[keys-and-wallets]] for how keys work.

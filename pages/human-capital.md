@@ -10,6 +10,7 @@ traits: hidden, regenerates all others, not inheritable
 place: 6, 7
 killer_kind: Personal
 sources: Gary S. Becker, Human Capital (1964); US Social Security Administration, disability facts; The Conversation, The life and death of King Coal (2015)
+fails_at: insurer-failure, sovereign-default
 ---
 ## What it is
 **Human capital** is the value of what you can do: your skills, knowledge, health, energy and judgment. Economists measure it as the present value of the income those abilities are likely to earn over your working life. The term was made popular by the economist Gary Becker in the 1960s.

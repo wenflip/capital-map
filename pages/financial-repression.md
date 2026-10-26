@@ -7,6 +7,9 @@ order: 7
 summary: How governments have reduced their debts quietly, by holding interest rates below inflation for years.
 tags: failure, inflation, interest rates, government debt
 sources: Carmen Reinhart and M. Belen Sbrancia, The Liquidation of Government Debt (BIS Working Paper 363, 2011); Federal Reserve History, The Treasury-Fed Accord
+rung: 9
+rung_name: Quiet default through inflation
+backstop: Real assets and inflation-linked bonds, partly
 ---
 ## What fails
 The **real value** of savings held as cash, deposits and government bonds. Nothing defaults. You're paid every coupon and every penny back, but in money that buys less each year. **Financial repression** is the economists' term for the policies that make this happen: keeping interest rates below inflation, and steering savers and banks into government debt.

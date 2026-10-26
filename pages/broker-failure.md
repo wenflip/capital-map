@@ -7,6 +7,9 @@ order: 1
 summary: When the firm holding your investments fails: what segregation and protection schemes cover, and what they don't.
 tags: failure, brokers, custody, fraud
 sources: InvestmentNews, MF Global starts final repayments of 100% of customer claims (2014); SIPC, Madoff trustee distribution (2018); SIPC, What SIPC Protects
+rung: 1
+rung_name: Broker, exchange or custodian
+backstop: Segregated client assets; investor protection schemes
 ---
 ## What fails
 Your **broker**, exchange or custodian: the firm that holds your shares, funds, cash or crypto on your behalf. What it promised is that your assets are yours, kept apart from its own, and returned on request. See [[brokers]] and [[custody]].

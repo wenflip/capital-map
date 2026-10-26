@@ -13,6 +13,7 @@ place: 58, 50
 span: 36, 63
 killer_kind: Inflation
 sources: Hyperinflation in the Weimar Republic; Steve Hanke, Zimbabwe hyperinflation estimates
+fails_at: capital-controls, financial-repression, currency-failure, sovereign-default
 ---
 ## What it is
 **Fiat** money is currency that a government declares legal tender and that can't be exchanged for a fixed amount of anything else. Nearly every national currency today is fiat.

@@ -7,6 +7,9 @@ order: 5
 summary: When a government limits how much money can leave the bank or the country, and how long such limits have lasted.
 tags: failure, capital controls, deposits, crisis
 sources: CNBC, Iceland ends capital controls more than eight years after 2008 crash (2017); Capital controls in Greece; Corralito (Argentina, 2001)
+rung: 7
+rung_name: Capital controls and freezes
+backstop: None: the state is the one acting
 ---
 ## What fails
 Your **access** to your own money. In a crisis a government can cap cash withdrawals, block transfers abroad, or freeze or convert deposits. The money still exists on paper, but you can't move or use it freely.

@@ -7,6 +7,9 @@ order: 6
 summary: When a state takes, freezes or nationalises assets outright, from private gold to a country's reserves.
 tags: failure, confiscation, expropriation, sanctions, nationalisation
 sources: Office of the Historian, US State Department, Mexican expropriation of foreign oil (1938); Fiji Times via Reuters, What and where are Russia's $300 billion in reserves frozen in the West?
+rung: 8
+rung_name: Confiscation
+backstop: Courts, constitutions, compensation
 ---
 ## What fails
 **Ownership itself.** A state can take an asset by law: requiring citizens to hand over gold, nationalising a company or an industry, or freezing another country's or person's assets. Unlike theft, it's done in the open, under rules the owner can't override.
@@ -28,7 +31,7 @@ sources: Office of the Historian, US State Department, Mexican expropriation of 
 - **Russia's reserves, 2022.** After the invasion of Ukraine, Western countries froze about $300 billion of the Russian central bank's reserves, roughly half of its foreign currency and gold. Even a central bank's reserves held abroad are subject to the host countries' law.
 
 ## What it kills
-Assets the state can see and reach: [[real-estate]], [[bank-deposits]], [[shares]] in strategic companies, and [[gold]] where its ownership is recorded or known. [[human-capital]] and [[social-capital]] are the hardest to confiscate, which is why the Cartography treats them as the root store.
+Assets the state can see and reach: [[real-estate]], [[bank-deposits]], [[shares]] in strategic companies, whole [[private-business|businesses]] in an industry the state nationalises, and [[gold]] where its ownership is recorded or known. [[human-capital]] and [[social-capital]] are the hardest to confiscate, which is why the Cartography treats them as the root store.
 
 > **Key rule:** every asset is held under someone's law. Know whose, and whether that law protects owners like you.
 

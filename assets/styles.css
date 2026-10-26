@@ -436,7 +436,7 @@ body.simple .path-item.hidden-adv { opacity: .55; }
   .search:focus-within input::placeholder { color: var(--text-3); }
 }
 @media (max-width: 380px) { .brand { display: none; } }
-/* Five tabs + search + settings + theme must fit on a phone: drop the logo, tighten tabs and icon buttons */
+/* Six tabs + search + settings + theme must fit on a phone (see the Failures tab rules at the end): drop the logo, tighten tabs and icon buttons */
 @media (max-width: 480px) {
   .brand { display: none; }
   .tab { padding: 5px 6px; font-size: 12.5px; }
@@ -669,3 +669,61 @@ a.wc-choice.primary { border-color: color-mix(in srgb, var(--accent) 55%, var(--
 .mod-jump.st-none { border-style: dashed; color: var(--text-3); }
 .mod-jump.st-out { color: var(--text-3); text-decoration: line-through; opacity: .75; }
 @media (max-width: 480px) { .cov-summary { padding: 14px; } .cov-title b { font-size: 22px; } }
+
+/* Failures view: the ladder (top rung first) and the store × rung matrix */
+.ladder { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.rung { display: grid; grid-template-columns: 34px minmax(0, 1fr) minmax(0, 1.1fr); gap: 4px 14px; align-items: center; padding: 10px 14px; border: 1px solid var(--border); border-left: 4px solid color-mix(in srgb, var(--accent) calc(var(--rh) * 100%), var(--border)); border-radius: var(--radius); background: var(--surface); }
+.rung-n { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font-weight: 800; font-size: 14px; color: var(--text); background: color-mix(in srgb, var(--accent) calc(var(--rh) * 55%), var(--surface-2)); }
+.rung-name { font-weight: 700; color: var(--text); text-decoration: none; }
+.rung-name:hover { color: var(--link); text-decoration: underline; }
+.rung-page { margin-left: 8px; font-size: 12.5px; color: var(--text-3); }
+.rung-bs { font-size: 13px; color: var(--text-2); margin-top: 2px; }
+.rung-hits { display: flex; flex-wrap: wrap; gap: 5px; }
+.rung-hits .none { font-size: 12.5px; color: var(--text-3); }
+.chip.store-chip, .chip.rung-chip { display: inline-flex; align-items: center; gap: 5px; text-decoration: none; color: var(--text-2); cursor: pointer; }
+.chip.store-chip:hover, .chip.rung-chip:hover { color: var(--text); border-color: var(--border-strong); }
+.chip.rung-chip b { color: var(--accent); }
+.store-chip .dot, .fm-store-link .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.fm-note { margin-bottom: 14px; }
+.fm-wrap { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.fail-matrix { border-collapse: collapse; width: 100%; font-size: 13px; }
+.fail-matrix th, .fail-matrix td { padding: 7px 6px; border-bottom: 1px solid var(--border); text-align: center; }
+.fail-matrix thead th { font-size: 12px; color: var(--text-3); font-weight: 700; white-space: nowrap; }
+.fail-matrix .fm-rung a { color: var(--text-2); text-decoration: none; display: inline-block; min-width: 18px; }
+.fail-matrix .fm-rung a:hover { color: var(--link); }
+.fail-matrix .fm-store { position: sticky; left: 0; z-index: 1; background: var(--surface); text-align: left; white-space: nowrap; padding-left: 12px; }
+.fail-matrix tbody tr:hover td, .fail-matrix tbody tr:hover th { background: var(--surface-2); }
+.fm-store-link { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; color: var(--text); text-decoration: none; cursor: pointer; }
+.fm-store-link:hover { color: var(--link); }
+.fm-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); vertical-align: middle; }
+.fail-matrix .fm-count { font-weight: 700; color: var(--text-2); }
+.fail-matrix .fm-killer { text-align: left; color: var(--text-2); min-width: 220px; }
+.fail-matrix tfoot th { text-align: left; padding-left: 12px; font-size: 12px; color: var(--text-3); position: sticky; left: 0; background: var(--surface); }
+.fail-matrix tfoot td, .fail-matrix tfoot th { border-bottom: 0; }
+.fm-key { columns: 3 200px; margin: 12px 0 0; padding: 0; list-style: none; font-size: 12.5px; color: var(--text-2); }
+.fm-key b { display: inline-block; min-width: 20px; color: var(--accent); }
+.fm-data { margin-top: 18px; }
+.cart-ladder { margin-top: 6px; }
+.cart-ladder .chips { display: inline-flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 0; }
+@media (max-width: 700px) {
+  .rung { grid-template-columns: 34px minmax(0, 1fr); }
+  .rung-hits { grid-column: 2; }
+}
+.chip.store-chip, .chip.rung-chip { font-family: var(--font); font-size: 12.5px; }
+#failures-body .view-sub a { color: var(--link); }
+/* Phone header with six tabs: a short Failures label ("Ladder") and slightly tighter tabs and icon buttons */
+@media (max-width: 480px) {
+  .tab { padding: 5px 4px; }
+  .topbar .icon-btn { width: 32px; height: 32px; }
+  .search { flex: 0 0 32px; }
+  .search input { height: 32px; }
+}
+@media (max-width: 400px) { .topbar { gap: 4px; padding: 0 6px; } .tab { padding: 5px 3px; font-size: 11.5px; } }
+@media (max-width: 350px) {
+  .tab { padding: 5px 2px; font-size: 11px; }
+  .topbar .icon-btn { width: 30px; height: 30px; }
+  .search { flex: 0 0 30px; }
+  .search input { height: 30px; }
+}
+.fm-hint { display: none; font-size: 12.5px; color: var(--text-3); margin: 0 0 6px; }
+@media (max-width: 860px) { .fm-hint { display: block; } }

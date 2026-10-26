@@ -143,7 +143,7 @@
   function parseHash() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     if (parts[0] === "paths") parts[0] = "jobs";
-    const view = ["map", "flows", "jobs", "quals", "cartography", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
+    const view = ["map", "flows", "jobs", "quals", "cartography", "failures", "index", "about", "privacy"].includes(parts[0]) ? parts[0] : "map";
     let flow = null, page = null, path = null, qual = null;
     const pi = parts.indexOf("p");
     if (pi >= 0 && parts[pi + 1] && P[parts[pi + 1]]) page = parts[pi + 1];
@@ -228,6 +228,7 @@
     if (s.view === "jobs") renderJobs(s.path);
     if (s.view === "quals") renderQuals(s.qual);
     if (s.view === "cartography") renderCart();
+    if (s.view === "failures") renderFailures();
     if (s.view === "index" && lastView !== "index") renderIndex();
     if (s.view === "about" && lastView !== "about") renderAbout();
     if (s.view === "privacy" && lastView !== "privacy") renderPrivacy();
@@ -509,7 +510,19 @@
       ${label ? `<div class="cart-tier">${esc(label)}</div>` : ""}
       ${p.killer ? `<div><b>Killer:</b> ${esc(p.killer)}</div>` : ""}
       ${p.traits.length ? `<div class="chips">${p.traits.map((t) => `<span class="chip tag">${esc(t)}</span>`).join("")}</div>` : ""}
+      ${p.place ? `<div class="cart-ladder"><b>On the <a data-view="failures">failure ladder</a>:</b> ${p.failsAt.length
+        ? `<span class="chips">${p.failsAt.map(rungChip).join("")}</span>`
+        : "no rung — its killers are personal, not institutional."}</div>` : ""}
       <div class="cart-foot">Placement on the <a data-page="cartography-of-wealth">Cartography of Wealth</a> is a judgment, not measured data.</div>
+    </div>`;
+  }
+  function rungPanel(p) {
+    if (!p.rung) return "";
+    return `<div class="cart-note rung-note">
+      <div class="cart-tier">Rung ${p.rung} of ${RUNGS.length} · ${esc(p.rungName)}</div>
+      <div><b>Backstop:</b> ${esc(p.backstop)}</div>
+      <div class="cart-ladder"><b>Can hit:</b> ${p.hits.length ? `<span class="chips">${p.hits.map(storeChip).join("")}</span>` : "no store on the Cartography chart."}</div>
+      <div class="cart-foot">See the whole <a data-view="failures">failure ladder</a>, and every store it can hit.</div>
     </div>`;
   }
   function renderPanel(id) {
@@ -529,6 +542,7 @@
       ${p.summary ? `<p class="p-summary">${esc(p.summary)}</p>` : ""}
       ${chips ? `<div class="chips">${chips}</div>` : ""}
       ${cartPanel(p)}
+      ${rungPanel(p)}
       ${p.adv && mode.simple ? `<div class="stub-note adv-note"><b>Advanced page.</b> It's hidden from the map in Core view. <button class="linkish" data-setmode="normal">Switch to Everything</button> to see it in place.</div>` : ""}
       ${rolePanel(id)}
       ${qualPanel(p)}
@@ -920,6 +934,51 @@
     if (t) { cartTier = t.dataset.ctier; renderCart(); }
     if (k) { cartKind = k.dataset.ckind; renderCart(); }
   });
+
+  /* =====================================================================
+     FAILURES: the failure ladder, bottom to top, and a store × rung matrix
+     Data: rung pages carry rung, rungName, backstop; stores carry failsAt (rung ids); the build adds hits to each rung
+     ===================================================================== */
+  const RUNGS = (DATA.rungs || []).filter((id) => P[id]);
+  const rungChip = (id) => `<a class="chip rung-chip" data-page="${id}" title="${esc(P[id].title)}"><b>${P[id].rung}</b> ${esc(P[id].rungName)}</a>`;
+  const storeChip = (id) => `<a class="chip store-chip" data-page="${id}"><span class="dot" style="background:hsl(${CART_TIER_HUE[tiersOf(P[id]).slice(-1)[0]]} 55% 42%)"></span>${esc(P[id].short || P[id].title)}</a>`;
+  function renderFailures() {
+    const N = RUNGS.length;
+    const tierMin = (p) => Math.min(...tiersOf(p).map(Number));
+    const stores = Object.values(P).filter((p) => p.place)
+      .sort((a, b) => tierMin(a) - tierMin(b) || a.failsAt.length - b.failsAt.length || a.title.localeCompare(b.title));
+    const ladder = RUNGS.slice().reverse().map((id) => {
+      const r = P[id], same = r.rungName.toLowerCase() === r.title.toLowerCase();
+      return `<li class="rung" style="--rh:${(0.18 + 0.82 * (r.rung / N)).toFixed(2)}">
+        <span class="rung-n" aria-label="Rung ${r.rung}">${r.rung}</span>
+        <div class="rung-main">
+          <a class="rung-name" data-page="${id}">${esc(r.rungName)}</a>${same ? "" : `<span class="rung-page">${esc(r.title)}</span>`}
+          <div class="rung-bs"><b>Backstop:</b> ${esc(r.backstop)}</div>
+        </div>
+        <div class="rung-hits">${r.hits.length ? r.hits.map(storeChip).join("") : '<span class="none">No store on the chart</span>'}</div>
+      </li>`;
+    }).join("");
+    const head = RUNGS.map((id) => `<th scope="col" class="fm-rung"><a data-page="${id}" title="${esc(P[id].rung + " · " + P[id].rungName)}">${P[id].rung}</a></th>`).join("");
+    const body = stores.map((s) => `<tr><th scope="row" class="fm-store">${storeChip(s.id).replace("chip store-chip", "fm-store-link")}</th>` +
+      RUNGS.map((id) => s.failsAt.includes(id)
+        ? `<td class="hit"><span class="fm-dot" role="img" aria-label="${esc(`Rung ${P[id].rung}, ${P[id].rungName}, can hit ${s.title}`)}" title="${esc(`${P[id].rung} · ${P[id].rungName}`)}"></span></td>`
+        : `<td></td>`).join("") +
+      `<td class="fm-count">${s.failsAt.length}</td><td class="fm-killer">${esc(s.killer)}</td></tr>`).join("");
+    const foot = `<tr><th scope="row">Stores hit</th>${RUNGS.map((id) => `<td class="fm-count">${P[id].hits.length}</td>`).join("")}<td></td><td></td></tr>`;
+    const key = RUNGS.map((id) => `<li><b>${P[id].rung}</b> ${esc(P[id].rungName)}</li>`).join("");
+    $("#failures-body").innerHTML = `<h1 class="view-title">When Things Fail</h1>
+      <p class="view-sub">Every store of wealth sits behind layers that can fail: a broker, a bank, a currency, a country. The ladder runs from the firm closest to you (1) to the market itself (${N}); the higher the rung, the more stores it hits at once. Each rung's page explains its backstop and where that backstop runs out. The model is explained on <a data-page="failure-modes">When Things Fail</a>.</p>
+      <h2 class="section">The ladder</h2>
+      <ol class="ladder" reversed>${ladder}</ol>
+      <h2 class="section">Which rungs can hit which stores</h2>
+      <p class="view-sub fm-note">A dot means the rung can hit that store, as each rung page's <i>What it kills</i> section describes. <b>More dots doesn't mean more risk:</b> it means the store depends on more institutions. A store with few dots has killers off the ladder, such as theft, illness or no buyer, shown in the last column. Placements are judgments, not measured data.</p>
+      <p class="fm-hint">Scroll the table sideways for every rung →</p>
+      <div class="tablewrap fm-wrap"><table class="fail-matrix">
+        <thead><tr><th scope="col" class="fm-store">Store</th>${head}<th scope="col" class="fm-count">Rungs</th><th scope="col" class="fm-killer">Its own killer</th></tr></thead>
+        <tbody>${body}</tbody><tfoot>${foot}</tfoot></table></div>
+      <ol class="fm-key" aria-label="Rung numbers">${key}</ol>
+      <p class="mod-note fm-data"><b>The data behind this view</b> is also a database you can query with SQL: <a href="data/capital-map.sqlite" download>capital-map.sqlite</a> (open it with any SQLite tool) or the same as text, <a href="data/capital-map.sql" download>capital-map.sql</a>. Tables include <code>stores</code>, <code>rungs</code> and <code>fails_at</code>, which links them.</p>`;
+  }
 
   /* =====================================================================
      ABOUT (from about.md, with live counts)

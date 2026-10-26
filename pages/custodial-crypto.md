@@ -11,6 +11,7 @@ traits: legible, counterparty risk, convenient
 place: 76, 77
 killer_kind: Counterparty
 sources: The Block, FTX major repayments to begin May 30 (2025)
+fails_at: broker-failure, stablecoins
 ---
 ## What it is
 **Custodial crypto** is crypto held for you by a firm: an exchange account, a broker, or a fund that holds coins. The firm controls the keys. What you own is the firm's promise to give you the coins.

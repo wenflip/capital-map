@@ -7,6 +7,9 @@ order: 4
 summary: When the agencies and auditors investors rely on to judge risk get it badly wrong.
 tags: failure, credit ratings, auditors, gatekeepers
 sources: US Senate Committee on Governmental Affairs, Rating the Raters: Enron and the Credit Rating Agencies (2002); Reuters via Business Standard, Moody's pays $864 million over pre-crisis ratings (2017)
+rung: 6
+rung_name: Ratings and gatekeepers
+backstop: None: they inform, they don't insure
 ---
 ## What fails
 The **gatekeepers**: credit rating agencies, auditors and others whose job is to tell investors how safe something is. They don't hold your money, so their failure doesn't take it directly. It leads you, and the rules built on their opinions, to hold more risk than you think. See [[credit-risk]].

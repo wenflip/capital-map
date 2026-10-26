@@ -11,6 +11,7 @@ traits: private, no yield, bearer, transferable
 place: 72, 24
 killer_kind: Theft and self-error
 sources: LBMA, Echoes of the '80s: gold prices and inflation then and now
+fails_at: confiscation
 ---
 ## What it is
 A metal that has been used as money for thousands of years. Physical gold is a **bearer asset**: whoever holds it owns it, and no one owes it to you. Central banks still hold large gold reserves alongside their own currencies.

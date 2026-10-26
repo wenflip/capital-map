@@ -69,6 +69,16 @@ e.g. "## L4M3 — Commercial contracting") and a page may appear under several
 modules (once per module). Pages show which modules they belong to, and search
 matches the module headings.
 
+Failure ladder (page fields, optional):
+    rung: 8                       on a rung page: its place on the ladder, 1..N with no gaps
+    rung_name: Confiscation       the rung's name on the ladder (required with rung)
+    backstop: Courts, ...         what is supposed to protect you at this rung (required with rung)
+    fails_at: confiscation, ...   on a store of wealth (a page with place): the rungs that can hit it
+The build inverts fails_at, so every rung also knows the stores it hits (a many-to-many link).
+
+SQLite export: every build also writes data/capital-map.sqlite and data/capital-map.sql (the same
+database as text), normalised into tables with foreign keys checked. See SCHEMA below and data/README.md.
+
 Coverage (qualifications only). Every module gets a state, from its pages and its "> " note:
     out      note starts "Outside this site's scope"   listed, but not counted
     none     no pages                                   in scope, not mapped yet
@@ -97,13 +107,17 @@ ABOUT = ROOT / "about.md"
 PRIVACY = ROOT / "privacy.md"
 OUT = ROOT / "data.js"
 
-LIST_KEYS = {"tcodes", "fiori", "tags", "aliases", "quals", "traits"}
+LIST_KEYS = {"tcodes", "fiori", "tags", "aliases", "quals", "traits", "fails_at"}
+DB_DIR = ROOT / "data"                      # SQLite export of the map, for querying (see data/README.md)
+DB_FILE = DB_DIR / "capital-map.sqlite"
+SQL_FILE = DB_DIR / "capital-map.sql"       # the same database as plain SQL text, so changes show in a diff
 WIKILINK = re.compile(r"\[\[([a-z0-9\-]+)(?:\\?\|([^\]]+))?\]\]")
 STUB_WORDS = 60  # pages with fewer body words are shown as stubs
 
 errors = []
 warnings = []
 ADVANCED = set()   # ids of advanced pages (filled before rendering)
+WORDS = {}         # page id -> words in the page body, basic and deeper (filled while rendering)
 DEEPER = re.compile(r"(?m)^## Going deeper\b.*$")
 
 
@@ -234,6 +248,12 @@ def load_pages():
             "place": meta.get("place", ""),
             "span": meta.get("span", ""),
             "killerKind": meta.get("killer_kind", ""),
+            # Failure ladder (optional): a rung page carries its number, name and typical backstop;
+            # a store of wealth lists the rungs that can hit it (fails_at: rung page ids)
+            "rung": meta.get("rung", ""),
+            "rungName": meta.get("rung_name", ""),
+            "backstop": meta.get("backstop", ""),
+            "failsAt": meta.get("fails_at", []),
             "_body": body,
         }
     return pages
@@ -467,6 +487,128 @@ def load_jobs(titles):
     return jobs
 
 
+SCHEMA = """
+CREATE TABLE pages (                -- one row per page on the map
+  id        TEXT PRIMARY KEY,
+  title     TEXT NOT NULL,
+  short     TEXT,                   -- label on the map, if shorter than the title
+  parent_id TEXT REFERENCES pages(id),   -- NULL only for the root
+  branch_id TEXT REFERENCES pages(id),   -- top-level branch the page sits under; NULL for the root
+  depth     INTEGER NOT NULL,       -- 0 root, 1 branch, 2+ below
+  level     TEXT NOT NULL CHECK (level IN ('basic', 'advanced')),   -- advanced is inherited from ancestors
+  summary   TEXT,
+  words     INTEGER NOT NULL        -- words in the body, Going deeper included
+);
+CREATE TABLE page_tags (
+  page_id TEXT NOT NULL REFERENCES pages(id),
+  tag     TEXT NOT NULL,
+  PRIMARY KEY (page_id, tag)
+);
+CREATE TABLE page_links (           -- [[links]] in page bodies: from_id links to to_id
+  from_id TEXT NOT NULL REFERENCES pages(id),
+  to_id   TEXT NOT NULL REFERENCES pages(id),
+  PRIMARY KEY (from_id, to_id)
+);
+CREATE TABLE stores (               -- stores of wealth on the Cartography chart (placements are judgments)
+  page_id     TEXT PRIMARY KEY REFERENCES pages(id),
+  tier_min    INTEGER NOT NULL CHECK (tier_min BETWEEN 1 AND 3),   -- 1 inside you, 2 private/bearer, 3 legible
+  tier_max    INTEGER NOT NULL CHECK (tier_max BETWEEN tier_min AND 3),
+  killer      TEXT NOT NULL,
+  killer_kind TEXT NOT NULL,
+  x           REAL NOT NULL CHECK (x BETWEEN 0 AND 100),   -- inside you (0) to outside you (100)
+  y           REAL NOT NULL CHECK (y BETWEEN 0 AND 100)    -- hidden (0) to recorded by authority (100)
+);
+CREATE TABLE store_traits (
+  store_id TEXT NOT NULL REFERENCES stores(page_id),
+  trait    TEXT NOT NULL,
+  PRIMARY KEY (store_id, trait)
+);
+CREATE TABLE rungs (                -- the failure ladder, from the firm closest to you (1) to the system itself
+  page_id  TEXT PRIMARY KEY REFERENCES pages(id),
+  number   INTEGER NOT NULL UNIQUE,
+  name     TEXT NOT NULL,
+  backstop TEXT NOT NULL            -- what is supposed to protect you at this rung
+);
+CREATE TABLE fails_at (             -- junction table: which rungs can hit which stores (many-to-many)
+  store_id TEXT NOT NULL REFERENCES stores(page_id),
+  rung_id  TEXT NOT NULL REFERENCES rungs(page_id),
+  PRIMARY KEY (store_id, rung_id)
+);
+CREATE TABLE quals (
+  id     TEXT PRIMARY KEY,
+  title  TEXT NOT NULL,
+  short  TEXT NOT NULL,
+  status TEXT NOT NULL CHECK (status IN ('mapped', 'planned')),
+  sort   REAL NOT NULL
+);
+CREATE TABLE modules (              -- qualification modules and their coverage state
+  qual_id TEXT NOT NULL REFERENCES quals(id),
+  code    TEXT NOT NULL,
+  title   TEXT NOT NULL,
+  state   TEXT NOT NULL CHECK (state IN ('mapped', 'partial', 'none', 'out')),
+  sort    INTEGER NOT NULL,
+  PRIMARY KEY (qual_id, code)
+);
+CREATE TABLE module_pages (         -- junction table: pages that cover each module
+  qual_id  TEXT NOT NULL,
+  code     TEXT NOT NULL,
+  page_id  TEXT NOT NULL REFERENCES pages(id),
+  position INTEGER NOT NULL,
+  PRIMARY KEY (qual_id, code, page_id),
+  FOREIGN KEY (qual_id, code) REFERENCES modules(qual_id, code)
+);
+"""
+
+
+def write_sqlite(pages, rung_ids, quals):
+    """Write the map as a SQLite database (and the same database as SQL text). Rebuilt from scratch every
+    time, rows inserted in a fixed order, so an unchanged map gives an unchanged file. Returns row counts."""
+    import sqlite3
+    DB_DIR.mkdir(exist_ok=True)
+    tmp = DB_DIR / "capital-map.sqlite.tmp"
+    tmp.unlink(missing_ok=True)
+    db = sqlite3.connect(tmp)
+    db.execute("PRAGMA foreign_keys = ON")
+    db.executescript(SCHEMA)
+    ids = sorted(pages)
+    rows = lambda table, data: db.executemany(f"INSERT INTO {table} VALUES ({','.join('?' * len(data[0]))})", data) if data else None
+    # tree order (root, then branches, then deeper), so every parent row exists before its children
+    rows("pages", [(i, pages[i]["title"], pages[i]["short"] or None, pages[i]["parent"] or None,
+                    pages[i]["branch"] if pages[i]["parent"] else None, len(pages[i]["path"]) - 1,
+                    "advanced" if pages[i]["adv"] else "basic", pages[i]["summary"], WORDS.get(i, 0))
+                   for i in sorted(pages, key=lambda i: (len(pages[i]["path"]), i))])
+    rows("page_tags", sorted({(i, t) for i in ids for t in pages[i]["tags"]}))
+    rows("page_links", [(i, t) for i in ids for t in pages[i]["links"] if t != i])
+    stores = [i for i in ids if pages[i]["place"]]
+    def tiers(i):
+        t = [int(x) for x in re.findall(r"[1-3]", str(pages[i]["tier"]))]
+        return min(t), max(t)
+    rows("stores", [(i, *tiers(i), pages[i]["killer"], pages[i]["killerKind"], *pages[i]["place"]) for i in stores])
+    rows("store_traits", sorted({(i, t) for i in stores for t in pages[i]["traits"]}))
+    rows("rungs", [(r, pages[r]["rung"], pages[r]["rungName"], pages[r]["backstop"]) for r in rung_ids])
+    rows("fails_at", [(i, r) for i in stores for r in pages[i]["failsAt"]])
+    qids = sorted(quals, key=lambda q: quals[q]["order"])
+    rows("quals", [(q, quals[q]["title"], quals[q]["short"], quals[q]["status"], quals[q]["order"]) for q in qids])
+    code = lambda s: re.split(r"\s+[—–-]\s+", s["title"])[0]
+    rows("modules", [(q, code(s), s["title"], s["state"], n) for q in qids for n, s in enumerate(quals[q]["stages"], 1)])
+    rows("module_pages", [(q, code(s), it["page"], n) for q in qids for s in quals[q]["stages"] for n, it in enumerate(s["items"], 1)])
+    db.commit()
+    bad = db.execute("PRAGMA foreign_key_check").fetchall()
+    if bad:
+        db.close(); tmp.unlink()
+        print("BUILD FAILED:\n  ✗ SQLite export: broken references", bad[:5]); sys.exit(1)
+    counts = {t: db.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+              for (t,) in db.execute("SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY rowid")}
+    db.execute("VACUUM")
+    sql = "\n".join(db.iterdump())
+    db.close()
+    tmp.replace(DB_FILE)
+    SQL_FILE.write_text("-- GENERATED by tools/build.py: the Capital Map as SQL. Do not edit by hand.\n"
+                        "-- Load it with:  sqlite3 capital-map.sqlite < capital-map.sql   (or open capital-map.sqlite directly)\n"
+                        + sql + "\n", encoding="utf-8")
+    return counts
+
+
 def main():
     pages = load_pages()
     titles = {p["id"]: p["title"] for p in pages.values()}
@@ -533,6 +675,42 @@ def main():
         if p["killerKind"] and not p["place"]:
             errors.append(f"{p['id']}: killer_kind is only used with place")
 
+    # Failure ladder: rungs numbered 1..N with no gaps, each with a name and a backstop;
+    # fails_at only on stores of wealth (pages on the Cartography chart), naming rungs, no repeats
+    rungs = []
+    for p in pages.values():
+        if p["rung"]:
+            try:
+                p["rung"] = int(p["rung"])
+            except ValueError:
+                errors.append(f"{p['id']}: rung must be a whole number"); p["rung"] = 0; continue
+            if not (p["rungName"] and p["backstop"]):
+                errors.append(f"{p['id']}: a rung needs rung_name and backstop")
+            rungs.append(p)
+        else:
+            p["rung"] = 0
+            if p["rungName"] or p["backstop"]:
+                errors.append(f"{p['id']}: rung_name and backstop are only used with rung")
+    rungs.sort(key=lambda p: p["rung"])
+    if [p["rung"] for p in rungs] != list(range(1, len(rungs) + 1)):
+        errors.append(f"rungs must be numbered 1 to {len(rungs)} with no gaps or repeats: {[p['rung'] for p in rungs]}")
+    rung_ids = [p["id"] for p in rungs]
+    for p in pages.values():
+        p["hits"] = []
+    for p in pages.values():
+        if p["failsAt"] and not p["place"]:
+            errors.append(f"{p['id']}: fails_at is only used on stores of wealth (pages with place)")
+        if len(set(p["failsAt"])) != len(p["failsAt"]):
+            errors.append(f"{p['id']}: fails_at lists a rung twice")
+        for r in p["failsAt"]:
+            if r not in rung_ids:
+                errors.append(f"{p['id']}: fails_at '{r}' is not a rung")
+        p["failsAt"] = sorted((r for r in set(p["failsAt"]) if r in rung_ids), key=lambda r: pages[r]["rung"])
+        for r in p["failsAt"]:
+            pages[r]["hits"].append(p["id"])
+    for p in rungs:
+        p["hits"].sort()
+
     # advanced level is inherited: anything under an advanced page is advanced too
     for p in pages.values():
         if p["level"] not in ("basic", "advanced"):
@@ -561,6 +739,7 @@ def main():
             if t != p["id"]:
                 add_backlink(t, p["id"], p["adv"] or t not in sink_b)
         words = len(plain_text(basic_md).split())
+        WORDS[p["id"]] = words + len(plain_text(deep_md).split())   # for the SQLite export only
         p["stub"] = words < STUB_WORDS and not deep_md
         p["text"] = plain_text(basic_md)[:12000]
         p["textDeep"] = plain_text(deep_md)[:12000]
@@ -627,6 +806,7 @@ def main():
         "streams": [{"id": s, "title": n} for s, n in STREAMS],
         "quals": quals,
         "coverage": total_coverage(quals),
+        "rungs": rung_ids,
         "built": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
     OUT.write_text(
@@ -634,6 +814,7 @@ def main():
         "window.MUDMAP = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n",
         encoding="utf-8",
     )
+    tables = write_sqlite(pages, rung_ids, quals)
     stubs = sum(1 for p in pages.values() if p["stub"])
     adv = len(ADVANCED); deeper = sum(1 for p in pages.values() if p["deep"])
     print(f"Built data.js: {len(pages)} pages ({len(pages) - stubs} written, {stubs} stubs), {len(flows)} flows")
@@ -651,6 +832,12 @@ def main():
     t = data["coverage"]
     print(f"  Coverage: {t['mapped']} of {t['inScope']} in-scope modules mapped ({t['pct']}%), {t['partial']} partly,"
           f" {t['none']} not yet; {t['out']} out of scope, across {t['quals']} qualifications")
+    pairs = sum(len(pages[r]["hits"]) for r in rung_ids)
+    stores = [p for p in pages.values() if p["place"]]
+    print(f"  Failure ladder: {len(rung_ids)} rungs · {pairs} store-rung links · "
+          f"{sum(1 for p in stores if not p['failsAt'])} of {len(stores)} stores on no rung")
+    print(f"  SQLite: {DB_FILE.relative_to(ROOT)} and {SQL_FILE.relative_to(ROOT)} · "
+          + ", ".join(f"{t} {n}" for t, n in tables.items()))
     for w in warnings:
         print("  !", w)
 
