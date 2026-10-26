@@ -99,12 +99,13 @@ INSERT INTO "flow_steps" VALUES('a-stablecoin-run',3,'Holders rush to redeem or 
 INSERT INTO "flow_steps" VALUES('a-stablecoin-run',4,'The issuer sells reserve assets to pay them','t-bills');
 INSERT INTO "flow_steps" VALUES('a-stablecoin-run',5,'Exchanges and lending protocols holding the token are hit','defi');
 INSERT INTO "flow_steps" VALUES('a-stablecoin-run',6,'Tokens are frozen, redeemed in full, or left worth less','claims-and-liabilities');
-INSERT INTO "flow_steps" VALUES('qe-and-qt',1,'The central bank buys government bonds with new reserves','central-bank-money');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',1,'The central bank buys government bonds with new reserves','monetary-policy');
 INSERT INTO "flow_steps" VALUES('qe-and-qt',2,'The sellers'' banks hold more reserves, and their customers more deposits','bank-deposits');
 INSERT INTO "flow_steps" VALUES('qe-and-qt',3,'Bond prices rise and yields fall','bond-pricing');
 INSERT INTO "flow_steps" VALUES('qe-and-qt',4,'Long-term rates fall and the yield curve flattens','yield-curve');
 INSERT INTO "flow_steps" VALUES('qe-and-qt',5,'Money looks for a return elsewhere, and liquidity is plentiful','liquidity');
 INSERT INTO "flow_steps" VALUES('qe-and-qt',6,'In QT, bonds mature without being replaced and reserves shrink','central-bank-money');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',7,'If reserves get scarce, short-term money markets strain','liquidity');
 CREATE TABLE flows (               -- step-by-step walk-throughs; planned = an outline still to be written
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,
@@ -118,7 +119,7 @@ INSERT INTO "flows" VALUES('when-a-country-fails','When a country fails: how a d
 INSERT INTO "flows" VALUES('how-a-trade-settles','How a share trade settles','Markets & Plumbing','written',4.0);
 INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','planned',5.0);
 INSERT INTO "flows" VALUES('a-stablecoin-run','A stablecoin run: a bank run on a blockchain','When Things Fail','planned',6.0);
-INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','Money & Liquidity','planned',7.0);
+INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','Money & Liquidity','written',7.0);
 CREATE TABLE module_pages (         -- junction table: pages that cover each module
   qual_id  TEXT NOT NULL,
   code     TEXT NOT NULL,
