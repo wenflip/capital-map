@@ -27,6 +27,7 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 
 ## CFA1-FSA — Financial Statement Analysis
 - [[financial-statements]] — the income statement, balance sheet and cash flow statement
+> Partly mapped: one page covers the three statements; ratio analysis, inventories, long-lived assets and income taxes need pages of their own (Equities).
 
 ## CFA1-CF — Corporate Finance
 - [[claims-and-liabilities]] — creditors and owners: who has a claim on a company, and in what order

@@ -39,7 +39,7 @@ The rungs run from the firm closest to you up to the system itself. The higher t
 | 11 | The country | [[sovereign-default]] | IMF lending and debt restructuring |
 | 12 | The market itself | [[market-failure]] | Central bank buying; time |
 
-The bank and stablecoin rungs link to pages elsewhere on the map, where they're covered in depth.
+The bank and stablecoin rungs link to pages elsewhere on the map, where they're covered in depth. [See the whole ladder on the Failures tab](#/failures), with every store of wealth each rung can hit.
 
 **Two patterns repeat.**
 - **Backstops are layered and linked.** Deposit insurance relies on the government; the government's bonds sit inside the banks. When a lower rung fails, it leans on the one above. See [[bank-sovereign-loop]].

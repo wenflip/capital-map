@@ -53,12 +53,12 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Failures view** (`#/failures`): the twelve-rung ladder from top to bottom, each rung with its backstop and the stores it can hit, then a **store × rung matrix** with each store's own killer beside it. Store and rung pages show the same links in their panels.
 - **Regimes:** a page for now (Market Regimes).
-- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. The tab shows **coverage**: mapped modules out of in-scope modules, per qualification and overall (51% at launch), with pages per module. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
-- **Jobs:** engine supports them; tab hidden until there is content.
+- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. The tab shows **coverage**: mapped modules out of in-scope modules, per qualification and overall (51% at launch, 48% once two thin modules were marked partly mapped), with pages per module. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
+- **Jobs:** not used. The engine supports them, but the tab stays hidden (see Decided since).
 
 ## Engine changes from The Supply Map
 
-- Rebranded shell (title, subtitle, welcome guide with four ways in: map, a flow, the Cartography chart, quals).
+- Rebranded shell (title, subtitle, welcome guide with four ways in: ask a question, explore the map, start from the beginning, study a qualification).
 - New optional page fields `tier`, `killer`, `traits`, rendered as a Cartography box.
 - Branch colours for the new branch ids.
 - T-code index hidden when no page has t-codes.
@@ -76,7 +76,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 
 ## Open questions
 
-1. **Is a Jobs view worth it here,** or is a learning path enough?
+None.
 
 ## Decided since
 
@@ -84,7 +84,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Commit identity:** all commits use the same public identity as The Supply Map. The first `SCOPE.md` commit on `main` predates this and still carries a personal address in its metadata; fixing it means rewriting `main`, which is the owner's call.
 - **Hub standard:** written top-level branches follow the hub rules in the README, checked by the hubs test suite.
 - **Access:** the site is open (no password or Zero Trust) but stays out of search engines: the `noindex` tag, `robots.txt` and `X-Robots-Tag` stay until the owner says otherwise.
-- **Branch order (done):** Foundation → Digital Assets → When Banks Fail → Fixed Income → the Cartography view → the remaining eight branches.
+- **Branch order (done):** Foundation → Digital Assets → When Banks Fail (now Bank Backstops) → Fixed Income → the Cartography view → the remaining eight branches.
 - **Geography (2026-10-25):** In Practice is written country-neutral: it explains how tax and accounts work, with a few labelled examples from large markets, and tells readers to check local rules.
 - **T-codes (2026-10-25):** dropped. They're a Supply Map feature (logistics transaction codes); the engine hides the index when no page has any.
 - **Launch gate:** settled. With every page written, the public test suite passes.
@@ -106,6 +106,11 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
   - **The beginner path (branch 3):** "Start from the beginning", 11 Core pages from what money is to the Cartography of Wealth. It uses the qualifications' loader and the existing per-page ticks (no new storage), not the job-ladder engine. The welcome guide's "Follow the money" option became "Start from the beginning"; the flow is still on the Flows tab.
   - **Built in three branches:** engine and the first 10 questions; about 18 questions in total; then a Start-here path with ticks, using the qualification loader, not the job ladder.
 - **Figures (2026-10-26):** four SVG diagrams in `assets/figures/`, embedded where they illustrate the text: the ownership chain on Custody and Shares (Brokers links to it), fee drag on Compounding, the layers of money on Hierarchy of Money, and "your basket" on Inflation. The failure-ladder figure was deleted: it duplicated the live Failures tab and 9 of its 12 backstops had drifted from the data. Convention, validation, tap-to-enlarge and dark-mode dimming are in the README. The chain's US legal terms (UCC Article 8 "security entitlement"; DTC's nominee) were checked and are credited on Custody.
+- **Housekeeping (2026-10-26):**
+  - **No Jobs view.** The beginner path and the questions already give newcomers a route; a job ladder would be a third way in with no content behind it.
+  - **When Banks Fail is now Bank Backstops** (same id, `backstops`), so it no longer clashes with the *When a bank fails* flow. The flow moved under the When Things Fail heading on the Flows tab, beside the other failure flows.
+  - **Thin modules marked Partly mapped:** CFA I Financial Statement Analysis and Princeton BTC8 (alternative mining puzzles) each had one page against a much wider module. Coverage drops, but it stays honest.
+  - The failure hub links to the Failures tab.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel

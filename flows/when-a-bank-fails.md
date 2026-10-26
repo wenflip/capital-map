@@ -1,7 +1,7 @@
 ---
 id: when-a-bank-fails
 title: When a bank fails: who stands behind your deposit
-area: Money & Liquidity
+area: When Things Fail
 order: 2
 summary: Follow a bank failure through each backstop, from the bank's own capital to the government, and see where real crises stopped.
 ---
