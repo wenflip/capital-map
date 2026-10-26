@@ -4,7 +4,7 @@ title: Digital Assets
 parent: capital-system
 order: 4
 group: What you can own
-summary: Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, tokens, bridges, DeFi, and how to hold them.
+summary: Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, what gives a coin value, tokens, bridges, DeFi, and how to hold them.
 tags: digital assets, crypto
 ---
 ## What it is
@@ -21,6 +21,7 @@ Not everything on a blockchain is like that. Many tokens are promises from a com
 The branch runs from the machinery up to how you hold it:
 - [[blockchains]] — ledgers, consensus, keys and forks: the machinery underneath everything else.
 - [[native-coins]] — each chain's own coin, used to pay for the network: [[bitcoin]] and smart-contract platforms such as Ethereum.
+- [[coin-value]] — what gives a coin value when nobody owes it to you: a well-built asset ([[sound-money]]) and a crowd that wants it ([[network-effects]]).
 - [[tokens]] — assets created by programs running on a chain: stablecoins, memecoins, governance tokens and wrapped tokens.
 - [[bridges-and-layer-2s]] — how value moves between chains, and why that's the riskiest step.
 - [[defi]] — exchanges, lending and staking run by code instead of companies.

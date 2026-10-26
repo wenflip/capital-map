@@ -36,6 +36,8 @@ A free course and textbook from Princeton University. It explains the machinery 
 ## BTC7 — Community, politics and regulation
 - [[forks]] — how disagreements split a chain
 - [[governance-tokens]] — formal voting over a protocol
+- [[network-effects]] — community, the default choice, and what survives a split
+- [[sound-money]] — supply, security, legal standing and liquidity
 
 ## BTC8 — Alternative mining puzzles
 - [[consensus]] — proof of stake as the main alternative to proof of work
@@ -49,6 +51,7 @@ A free course and textbook from Princeton University. It explains the machinery 
 - [[forks]] — copies and splits
 - [[tokens]] — assets created on top of a chain
 - [[memecoins]] — tokens with nothing behind them
+- [[coin-value]] — why one coin holds value and its copy doesn't
 
 ## BTC11 — Decentralised institutions
 - [[defi]] — financial services run by code
