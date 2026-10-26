@@ -781,11 +781,34 @@
      QUALS (qualifications: modules mapped to pages)
      ===================================================================== */
   let pendingModule = null, lastQualShown = null;
-  const mappedCount = (q) => QUALS[q].stages.filter((s) => s.items.length).length;
+  /* Coverage: built by tools/build.py. A module is mapped (pages), partly mapped (pages + a "Partly mapped" note),
+     not mapped yet (no pages) or out of scope (not counted). % = mapped / in-scope modules. */
+  const STATE_LABEL = { mapped: "Mapped", partial: "Partly mapped", none: "Not mapped yet", out: "Out of scope" };
+  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+  function covBar(c) {
+    const seg = (k) => (c[k] ? `<i class="cov-${k}" style="width:${(c[k] / c.inScope) * 100}%"></i>` : "");
+    const label = `${c.mapped} of ${c.inScope} in-scope modules mapped, ${c.partial} partly, ${c.none} not yet`;
+    return `<div class="cov-bar" role="img" aria-label="${esc(label)}">${seg("mapped")}${seg("partial")}</div>`;
+  }
+  function covText(c) {
+    return `${c.pct}% mapped · ${c.mapped} of ${plural(c.inScope, "module")}` +
+      (c.partial ? ` · ${c.partial} partly` : "") + (c.out ? ` · ${c.out} out of scope` : "");
+  }
   function qualMeta(q) {
-    const r = QUALS[q];
-    if (r.status === "planned") return `<div class="meta">${r.stages.length} modules · not mapped yet</div>`;
-    return `<div class="meta">${r.stages.length} modules · ${mappedCount(q)} mapped · ${r.pages.length} pages</div><div class="meta" data-progress="${q}">${bar(pathStats(q))}</div>`;
+    const r = QUALS[q], c = r.coverage;
+    if (r.status === "planned") return `<div class="meta">${plural(r.stages.length, "module")} · not mapped yet</div>`;
+    return `<div class="meta cov-meta">${esc(covText(c))} · ${plural(r.pages.length, "page")}</div>${covBar(c)}<div class="meta" data-progress="${q}">${bar(pathStats(q))}</div>`;
+  }
+  function covSummary() {
+    const t = DATA.coverage;
+    if (!t) return "";
+    const key = (k, n, word) => `<span class="cov-key"><i class="cov-${k}"></i>${n} ${word}</span>`;
+    return `<section class="cov-summary" aria-labelledby="cov-title">
+      <h2 class="cov-title" id="cov-title"><b>${t.pct}%</b> of in-scope modules mapped, across all ${t.quals} qualifications</h2>
+      ${covBar(t)}
+      <div class="cov-keys">${key("mapped", t.mapped, "mapped")}${key("partial", t.partial, "partly mapped")}${key("none", t.none, "not mapped yet")}<span class="cov-key cov-key-out">${t.out} out of scope, not counted</span></div>
+      <p class="cov-def"><b>What counts as mapped:</b> at least one page covers the module's core idea. That isn't the whole syllabus, so every module shows how many pages it has. Partly mapped modules don't count toward the percentage, and placeholders count as not mapped.</p>
+    </section>`;
   }
   const modId = (q, i) => `mod-${q}-${i}`;
   function renderQuals(qid) {
@@ -793,13 +816,17 @@
     if (!qid) {
       body.innerHTML = `<h1 class="view-title">Qualifications</h1>
         <p class="view-sub">Each qualification's modules, mapped to the pages that cover them — so a topic from the course can be seen in place in the system. Placeholders list every module now and are mapped as the branches are written. Ticks are saved in this browser only.</p>
+        ${covSummary()}
         <div class="flow-cards">${qualIds.map((q) => `<a class="flow-card path-card${role.id === q ? " current" : ""}" data-qual="${q}">
           <h3>${esc(QUALS[q].title)}${QUALS[q].status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h3><p>${esc(QUALS[q].summary)}</p>${qualMeta(q)}</a>`).join("")}</div>`;
       lastQualShown = null;
       return;
     }
     const r = QUALS[qid];
-    const jump = r.stages.map((s, i) => `<button class="mod-jump" data-jump="${modId(qid, i)}" title="${esc(s.title)}">${esc(modCode(s.title))}</button>`).join("");
+    const jump = r.stages.map((s, i) => `<button class="mod-jump st-${s.state}" data-jump="${modId(qid, i)}" title="${esc(s.title + " · " + STATE_LABEL[s.state] + (s.pages ? " · " + plural(s.pages, "page") : ""))}">${esc(modCode(s.title))}</button>`).join("");
+    const c = r.coverage;
+    const cov = `<div class="cov-detail"><div class="cov-meta">${esc(covText(c))} · ${plural(r.pages.length, "page")}</div>${covBar(c)}
+      <div class="cov-keys">${["mapped", "partial", "none", "out"].filter((k) => c[k]).map((k) => `<span class="cov-key${k === "out" ? " cov-key-out" : ""}">${k === "out" ? "" : `<i class="cov-${k}"></i>`}${c[k]} ${STATE_LABEL[k].toLowerCase()}</span>`).join("")}</div></div>`;
     const mods = r.stages.map((s, si) => {
       const ids = s.items.map((it) => it.page).filter(vis);
       const done = ids.filter((x) => known.has(x)).length;
@@ -815,11 +842,13 @@
       const note = s.note ? `<p class="mod-note">${s.note}</p>` : "";
       const outOfScope = /outside this site.s scope/i.test(s.note);
       if (!s.items.length) return `<h2 class="section mod-head mod-empty" id="${modId(qid, si)}">${esc(s.title)}<span class="mod-count">${outOfScope ? "Out of scope" : "Not mapped yet"}</span></h2>${note || '<p class="mod-note">No pages are mapped to this module yet.</p>'}`;
-      return `<h2 class="section mod-head" id="${modId(qid, si)}">${esc(s.title)}<span class="mod-count" data-modcount="${qid}:${si}">${done} of ${ids.length} known</span></h2>${note}<ol class="path-list">${items}</ol>`;
+      const partly = s.state === "partial" ? `<span class="mod-state">Partly mapped</span>` : "";
+      return `<h2 class="section mod-head" id="${modId(qid, si)}">${esc(s.title)}${partly}<span class="mod-pages">${plural(s.items.length, "page")}</span><span class="mod-count" data-modcount="${qid}:${si}">${done} of ${ids.length} known</span></h2>${note}<ol class="path-list">${items}</ol>`;
     }).join("");
     body.innerHTML = `<a class="back" data-qual="">← All qualifications</a>
       <h1 class="view-title">${esc(r.title)}${r.status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h1>
       <div class="content path-intro">${r.intro}</div>
+      ${cov}
       ${r.pages.length ? `<div class="path-actions">
         ${role.id === qid ? `<span class="btn ghost">Map focused on this qualification</span>` : `<button class="btn" data-setrole="${qid}">Focus the map on this qualification</button>`}
         <div class="path-progress" data-progress="${qid}">${bar(pathStats(qid))}</div>
