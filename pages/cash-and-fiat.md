@@ -34,6 +34,7 @@ Cash straddles the line on the [[cartography-of-wealth|Cartography of Wealth]]:
 - **Inflation** steadily reduces what each unit buys. After inflation, cash earning little or no interest loses value year after year. See [[inflation]].
 - **Currency crises.** When trust in a government breaks, its currency can lose most of its value quickly.
 - **Capital controls** can limit how much you withdraw or move abroad.
+- **Against other currencies,** its value moves every day, which changes what anything priced abroad costs you. See [[exchange-rates]].
 
 > **Key rule:** cash is the best tool for spending and short-term safety, and one of the worst for storing wealth over decades.
 

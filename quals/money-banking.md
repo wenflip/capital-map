@@ -27,6 +27,7 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 ## MB4 — International money and banking
 - [[eurodollars]] — the offshore dollar system
 - [[cash-and-fiat]] — currencies and exchange
+- [[exchange-rates]] — exchange-rate regimes, pegs and the forward rate
 - [[hierarchy-of-money]] — why the dollar sits near the top of the world's hierarchy
 
 ## MB5 — Banking as advance clearing: swaps and capital markets
