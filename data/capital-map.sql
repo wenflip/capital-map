@@ -117,8 +117,8 @@ INSERT INTO "flows" VALUES('where-money-comes-from','Where money comes from','Mo
 INSERT INTO "flows" VALUES('when-a-bank-fails','When a bank fails: who stands behind your deposit','When Things Fail','written',2.0);
 INSERT INTO "flows" VALUES('when-a-country-fails','When a country fails: how a debt crisis spreads','When Things Fail','written',3.0);
 INSERT INTO "flows" VALUES('how-a-trade-settles','How a share trade settles','Markets & Plumbing','written',4.0);
-INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','planned',5.0);
-INSERT INTO "flows" VALUES('a-stablecoin-run','A stablecoin run: a bank run on a blockchain','When Things Fail','planned',6.0);
+INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','written',5.0);
+INSERT INTO "flows" VALUES('a-stablecoin-run','A stablecoin run: a bank run on a blockchain','When Things Fail','written',6.0);
 INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','Money & Liquidity','written',7.0);
 CREATE TABLE module_pages (         -- junction table: pages that cover each module
   qual_id  TEXT NOT NULL,
