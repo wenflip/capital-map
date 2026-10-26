@@ -11,6 +11,7 @@ traits: legible, yields, transferable
 place: 84, 82
 killer_kind: Counterparty
 sources: ESM, What was the private sector debt restructuring of March 2012?
+fails_at: broker-failure, insurer-failure, backstops, clearing-house-failure, ratings-failure, capital-controls, financial-repression, currency-failure, sovereign-default, market-failure
 ---
 ## What it is
 A **bond** is a loan broken into tradable pieces. The borrower (the **issuer**) promises to pay interest at set times and repay the loan on a set date.

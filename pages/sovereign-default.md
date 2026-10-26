@@ -7,6 +7,9 @@ order: 9
 summary: When a government stops paying its debts in full: how often it happens, how it's resolved, and who loses.
 tags: failure, government debt, default, restructuring
 sources: Carmen Reinhart and Kenneth Rogoff, This Time Is Different (2009); ESM, What was the private sector debt restructuring of March 2012?; 1998 Russian financial crisis; Sri Lanka sovereign default
+rung: 11
+rung_name: The country
+backstop: IMF lending and debt restructuring
 ---
 ## What fails
 A **government's promise to pay** its debts on time and in full. Default can mean missed payments, a forced exchange for new bonds worth less, or a long pause. It usually comes with recession, and often with currency losses and banking trouble.

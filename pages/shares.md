@@ -10,6 +10,7 @@ traits: legible, yields or grows, transferable
 place: 90, 88
 killer_kind: Counterparty
 sources: SIPC, What SIPC Protects; S&P 500 closing levels, 9 October 2007 and 9 March 2009; Nikkei 225 closing records (1989, 2024); Jorion and Goetzmann, Global Stock Markets in the Twentieth Century (1999)
+fails_at: broker-failure, backstops, clearing-house-failure, ratings-failure, capital-controls, confiscation, sovereign-default, market-failure
 ---
 ## What it is
 A **share** (or **stock**) is one unit of ownership in a company. Owning shares in a listed company gives you:

@@ -7,6 +7,9 @@ order: 2
 summary: When the firm that promised to pay out on a policy, an annuity or a bond guarantee can't.
 tags: failure, insurance, annuities, guarantees
 sources: US Treasury, AIG final stock sale press release (2012); The Equitable Life Assurance Society; Executive Life Insurance Company; NOLHGA, How you're protected; Ambac
+rung: 2
+rung_name: Insurer or guarantor
+backstop: Reserves; guarantee schemes up to a limit
 ---
 ## What fails
 An **insurer or guarantor**: a firm that takes your money now in return for a promise to pay later. That covers life insurance, annuities that pay a pension for life, and bond insurers that guarantee other people's debts. Like a bank deposit, every policy is a [[claims-and-liabilities|claim]]: the insurer's liability, worth only what the insurer can pay.

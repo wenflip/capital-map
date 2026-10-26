@@ -11,6 +11,7 @@ traits: legible, insured up to a limit, can yield interest
 place: 66, 70
 killer_kind: Counterparty
 sources: Corralito (Argentina, 2001); NPR, Banks reopen in Greece after three weeks (2015)
+fails_at: backstops, ratings-failure, capital-controls, confiscation, financial-repression, currency-failure, sovereign-default
 ---
 ## What it is
 When you "have money in the bank", you don't own any specific cash. You hold a **claim on the bank**: its promise to pay you central bank money when you ask. A deposit is the bank's liability.

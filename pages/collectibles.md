@@ -10,6 +10,7 @@ traits: semi-private, no yield, transferable
 place: 68, 38
 killer_kind: Liquidity
 sources: NPR, Painter created million-dollar forgeries (2013); US Attorney SDNY, Rudy Kurniawan sentenced (2014)
+fails_at: market-failure
 ---
 ## What it is
 **Collectibles** are objects people buy partly for pleasure and partly as a store of value: art, watches, classic cars, rare wine and whisky, coins, stamps, gems, trading cards. Their value isn't set by income or by a formula. It's what the next buyer is willing to pay.

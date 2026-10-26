@@ -7,6 +7,9 @@ order: 3
 summary: When the central counterparty that guarantees every trade runs short: default funds, rescues, and cancelled trades.
 tags: failure, clearing, derivatives, market structure
 sources: Securities and Futures Commission (Hong Kong), background chapter 2 (1987 crash); Clarus Financial Technology, Default at Nasdaq Clearing (2018); LME Nickel
+rung: 5
+rung_name: Clearing house
+backstop: Margin and a default fund
 ---
 ## What fails
 A **clearing house** (central counterparty, or CCP) stands between every buyer and seller, so that neither has to trust the other. See [[settlement]]. If a large member defaults and its losses exceed what the clearing house holds, the guarantee behind every trade on that market is in doubt.

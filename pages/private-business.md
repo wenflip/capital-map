@@ -10,6 +10,7 @@ traits: semi-legible, highest upside, hard to sell
 place: 44, 62
 killer_kind: Concentration
 sources: US Bureau of Labor Statistics, The Economics Daily (2024): establishment survival; Carillion liquidation (January 2018) reporting
+fails_at: confiscation
 ---
 ## What it is
 A **private business** is a company whose shares aren't listed on a stock exchange. You might own one by:

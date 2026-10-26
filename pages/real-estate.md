@@ -10,6 +10,7 @@ traits: fully legible, can yield rent, transferable but fixed
 place: 95, 95
 killer_kind: State
 sources: S&P Dow Jones Indices, S&P/Case-Shiller Home Price Indices
+fails_at: insurer-failure, confiscation
 ---
 ## What it is
 **Real estate** is land and the buildings on it: the home you live in, flats you rent out, offices, shops and warehouses. Ownership is recorded in a public **title registry**, which is what makes it the most legible store of wealth on the [[cartography-of-wealth|Cartography of Wealth]].

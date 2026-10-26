@@ -7,6 +7,9 @@ order: 10
 summary: When the market itself stops: closures, forced selling, decades-long slumps, and markets that never came back.
 tags: failure, markets, closures, survivorship
 sources: Financial crisis of 1914; Philippe Jorion and William Goetzmann, Global Stock Markets in the Twentieth Century (1999), via NBER; Bank of England Quarterly Bulletin, Financial stability buy/sell tools: a gilt market case study (2023); BNN Bloomberg, Russian stocks gain in local trading after record-long shutdown (2022)
+rung: 12
+rung_name: The market itself
+backstop: Central bank buying; time
 ---
 ## What fails
 The **market**: the place where you can sell. A share or bond is only worth what someone will pay. If the exchange shuts, if a whole market is forced to sell at once, or if the system it belongs to disappears, the price on your statement stops meaning anything.
