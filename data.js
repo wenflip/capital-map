@@ -417,6 +417,7 @@ window.MUDMAP = {
     "deposit-insurance",
     "eurodollars",
     "financial-repression",
+    "flow:qe-and-qt",
     "flow:when-a-country-fails",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
@@ -698,6 +699,7 @@ window.MUDMAP = {
     "bonds",
     "duration",
     "fixed-income",
+    "flow:qe-and-qt",
     "reits",
     "valuation",
     "yield-curve"
@@ -930,7 +932,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "backlinks": [
-    "failure-modes"
+    "failure-modes",
+    "flow:when-a-broker-fails"
    ],
    "backlinksAdv": []
   },
@@ -994,6 +997,8 @@ window.MUDMAP = {
     "custody",
     "equities",
     "exchanges",
+    "flow:how-a-trade-settles",
+    "flow:when-a-broker-fails",
     "markets",
     "settlement",
     "shares"
@@ -1396,6 +1401,7 @@ window.MUDMAP = {
     "cash-and-fiat",
     "claims-and-liabilities",
     "fixed-income",
+    "flow:qe-and-qt",
     "flow:when-a-country-fails",
     "flow:where-money-comes-from",
     "hierarchy-of-money",
@@ -1534,6 +1540,8 @@ window.MUDMAP = {
     "equities",
     "failure-modes",
     "financial-statements",
+    "flow:a-stablecoin-run",
+    "flow:when-a-broker-fails",
     "foundation",
     "funds-and-etfs",
     "hierarchy-of-money",
@@ -2357,6 +2365,8 @@ window.MUDMAP = {
     "broker-failure",
     "brokers",
     "custodial-crypto",
+    "flow:how-a-trade-settles",
+    "flow:when-a-broker-fails",
     "markets",
     "settlement",
     "shares"
@@ -2471,6 +2481,7 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "digital-assets",
+    "flow:a-stablecoin-run",
     "governance-tokens",
     "smart-contract-platforms",
     "wrapped-tokens"
@@ -3061,6 +3072,7 @@ window.MUDMAP = {
     "brokers",
     "derivatives",
     "equities",
+    "flow:how-a-trade-settles",
     "market-failure",
     "markets",
     "settlement",
@@ -4527,6 +4539,8 @@ window.MUDMAP = {
     "central-bank-money",
     "collectibles",
     "exchanges",
+    "flow:a-stablecoin-run",
+    "flow:qe-and-qt",
     "market-failure",
     "market-regimes",
     "memecoins",
@@ -6210,6 +6224,7 @@ window.MUDMAP = {
     "clearing-house-failure",
     "derivatives",
     "exchanges",
+    "flow:how-a-trade-settles",
     "futures",
     "markets",
     "shares"
@@ -6309,6 +6324,7 @@ window.MUDMAP = {
     "currency-failure",
     "equities",
     "financial-repression",
+    "flow:how-a-trade-settles",
     "funds-and-etfs",
     "hierarchy-of-money",
     "market-failure",
@@ -6664,6 +6680,7 @@ window.MUDMAP = {
     "claims-and-liabilities",
     "common-mistakes",
     "failure-modes",
+    "flow:a-stablecoin-run",
     "hierarchy-of-money",
     "money",
     "t-bills",
@@ -6726,6 +6743,7 @@ window.MUDMAP = {
    "backlinks": [
     "bonds",
     "fixed-income",
+    "flow:a-stablecoin-run",
     "hierarchy-of-money",
     "liquidity",
     "money",
@@ -7252,13 +7270,182 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "fixed-income",
+    "flow:qe-and-qt",
     "market-regimes"
    ],
    "backlinksAdv": []
   }
  },
  "flows": {
+  "a-stablecoin-run": {
+   "status": "planned",
+   "id": "a-stablecoin-run",
+   "title": "A stablecoin run: a bank run on a blockchain",
+   "summary": "Follow a stablecoin losing its dollar peg, from the first doubt to who is left holding the token.",
+   "area": "When Things Fail",
+   "adv": false,
+   "order": 6.0,
+   "lanes": [],
+   "intro": "<p>Rung 3 of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step. A stablecoin is a private dollar promise, and it can suffer the same kind of run as a bank.</p>",
+   "outro": "",
+   "steps": [
+    {
+     "label": "Holders start to doubt the reserves",
+     "page": "stablecoins",
+     "cells": []
+    },
+    {
+     "label": "The price slips below one dollar",
+     "page": "stablecoins",
+     "cells": []
+    },
+    {
+     "label": "Holders rush to redeem or sell",
+     "page": "liquidity",
+     "cells": []
+    },
+    {
+     "label": "The issuer sells reserve assets to pay them",
+     "page": "t-bills",
+     "cells": []
+    },
+    {
+     "label": "Exchanges and lending protocols holding the token are hit",
+     "page": "defi",
+     "cells": []
+    },
+    {
+     "label": "Tokens are frozen, redeemed in full, or left worth less",
+     "page": "claims-and-liabilities",
+     "cells": []
+    }
+   ]
+  },
+  "how-a-trade-settles": {
+   "status": "written",
+   "id": "how-a-trade-settles",
+   "title": "How a share trade settles",
+   "summary": "Follow one share purchase from the tap on your app to the record that says you own it, and see what each firm in the chain does.",
+   "area": "Markets & Plumbing",
+   "adv": false,
+   "order": 4.0,
+   "lanes": [
+    "Who acts",
+    "What you hold",
+    "What can go wrong",
+    "Where it happened"
+   ],
+   "intro": "<p>Buying a share feels instant. Behind the tap, a chain of firms takes over: one routes the order, one matches it, one guarantees it, one moves the shares and the money, and one keeps the record. This flow follows one purchase through all of them.</p>\n<blockquote>\n<p><strong>Key rule:</strong> the trade happens in a second, but ownership takes a business day. Until settlement, what you hold is a promise that the chain will deliver.</p>\n</blockquote>",
+   "outro": "<h2>What to notice</h2>\n<ul>\n<li><strong>Most trades cancel out.</strong> The clearing house nets each firm's buys and sells, so only the differences actually move. See <a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> for a worked example.</li>\n<li><strong>You own a claim at the end of a chain,</strong> not a certificate. Each link is someone's promise to the next. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>Every firm in the chain is a rung on the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>:</strong> the broker is rung 1, the clearing house rung 5, and the market itself rung 12. A long chain is efficient, and each link is one more place it can break.</li>\n</ul>\n<p><em>Sources: SEC, Shortening the Securities Transaction Settlement Cycle (2023); DTCC, Continuous Net Settlement (NSCC as central counterparty, settlement at DTC); SEC and CFTC, Findings Regarding the Market Events of May 6, 2010; CNBC, Robinhood CEO on trading restrictions (1 February 2021); FTX Chapter 11 filing (11 November 2022).</em></p>",
+   "steps": [
+    {
+     "label": "You place a buy order",
+     "page": "brokers",
+     "cells": [
+      "You and your broker",
+      "Cash in your account: a claim on the broker",
+      "Outages and restrictions when markets are busiest",
+      "—"
+     ]
+    },
+    {
+     "label": "The order is routed and matched",
+     "page": "exchanges",
+     "cells": [
+      "Your broker, an exchange or other venue, and market makers",
+      "An order, not yet a trade",
+      "In thin or fast markets an order can fill far from the last price",
+      "US flash crash, 6 May 2010"
+     ]
+    },
+    {
+     "label": "The clearing house steps in",
+     "page": "settlement",
+     "cells": [
+      "The clearing house (for US shares, NSCC) becomes buyer to the seller and seller to the buyer",
+      "A trade the clearing house guarantees",
+      "Margin demands on brokers jump when markets swing",
+      "Robinhood, January 2021: a clearing deposit demand of about $3 billion led it to limit GameStop buying"
+     ]
+    },
+    {
+     "label": "Shares and money swap, one business day later",
+     "page": "settlement",
+     "cells": [
+      "The depository (for US shares, DTC) moves both at once",
+      "The shares, once delivery and payment have both happened",
+      "A seller fails to deliver on time",
+      "The US moved from two days (T+2) to one (T+1) on 28 May 2024"
+     ]
+    },
+    {
+     "label": "The shares are held for you",
+     "page": "custody",
+     "cells": [
+      "Your broker, often a custodian bank, and the depository",
+      "A record in your broker's books, at the end of a chain",
+      "A firm fails without keeping customer assets apart",
+      "FTX, a crypto exchange, filed for bankruptcy on 11 November 2022 with customer assets not kept apart"
+     ]
+    },
+    {
+     "label": "Dividends and votes come back down the chain",
+     "page": "shares",
+     "cells": [
+      "The company, the depository, custodians and your broker",
+      "Your share's rights, passed down the chain",
+      "Delays and lost votes in long chains",
+      "—"
+     ]
+    }
+   ]
+  },
+  "qe-and-qt": {
+   "status": "planned",
+   "id": "qe-and-qt",
+   "title": "QE and QT: when the central bank buys bonds, and stops",
+   "summary": "Follow a central bank buying government bonds with new reserves, what that does to yields and liquidity, and what happens in reverse.",
+   "area": "Money & Liquidity",
+   "adv": false,
+   "order": 7.0,
+   "lanes": [],
+   "intro": "<p><em>Where money comes from</em> starts with a central bank buying a bond. This flow follows what happens when it buys on a huge scale (quantitative easing, QE), and when it lets those bonds run off (quantitative tightening, QT).</p>",
+   "outro": "",
+   "steps": [
+    {
+     "label": "The central bank buys government bonds with new reserves",
+     "page": "central-bank-money",
+     "cells": []
+    },
+    {
+     "label": "The sellers' banks hold more reserves, and their customers more deposits",
+     "page": "bank-deposits",
+     "cells": []
+    },
+    {
+     "label": "Bond prices rise and yields fall",
+     "page": "bond-pricing",
+     "cells": []
+    },
+    {
+     "label": "Long-term rates fall and the yield curve flattens",
+     "page": "yield-curve",
+     "cells": []
+    },
+    {
+     "label": "Money looks for a return elsewhere, and liquidity is plentiful",
+     "page": "liquidity",
+     "cells": []
+    },
+    {
+     "label": "In QT, bonds mature without being replaced and reserves shrink",
+     "page": "central-bank-money",
+     "cells": []
+    }
+   ]
+  },
   "when-a-bank-fails": {
+   "status": "written",
    "id": "when-a-bank-fails",
    "title": "When a bank fails: who stands behind your deposit",
    "summary": "Follow a bank failure through each backstop, from the bank's own capital to the government, and see where real crises stopped.",
@@ -7320,7 +7507,47 @@ window.MUDMAP = {
     }
    ]
   },
+  "when-a-broker-fails": {
+   "status": "planned",
+   "id": "when-a-broker-fails",
+   "title": "When a broker fails: getting your assets back",
+   "summary": "Follow a failed broker from the frozen account to what you get back: segregated assets, the protection scheme, and the shortfall.",
+   "area": "When Things Fail",
+   "adv": false,
+   "order": 5.0,
+   "lanes": [],
+   "intro": "<p>The bottom rung of the <a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">failure ladder</a>, step by step: the firm that holds your shares fails, and each protection is tested in turn.</p>",
+   "outro": "",
+   "steps": [
+    {
+     "label": "The broker runs into trouble",
+     "page": "brokers",
+     "cells": []
+    },
+    {
+     "label": "Accounts are frozen and an administrator takes over",
+     "page": "broker-failure",
+     "cells": []
+    },
+    {
+     "label": "Segregated client assets are found and returned",
+     "page": "custody",
+     "cells": []
+    },
+    {
+     "label": "A protection scheme covers missing assets, up to its limit",
+     "page": "broker-failure",
+     "cells": []
+    },
+    {
+     "label": "Any shortfall is claimed like any other creditor",
+     "page": "claims-and-liabilities",
+     "cells": []
+    }
+   ]
+  },
   "when-a-country-fails": {
+   "status": "written",
    "id": "when-a-country-fails",
    "title": "When a country fails: how a debt crisis spreads",
    "summary": "Follow a country's debt crisis from money printing to default, and see which stores each step hits.",
@@ -7409,6 +7636,7 @@ window.MUDMAP = {
    ]
   },
   "where-money-comes-from": {
+   "status": "written",
    "id": "where-money-comes-from",
    "title": "Where money comes from",
    "summary": "From the central bank to your account: how money is created, layered and destroyed.",
@@ -8881,5 +9109,5 @@ window.MUDMAP = {
   "sovereign-default",
   "market-failure"
  ],
- "built": "2026-10-26 03:07 UTC"
+ "built": "2026-10-26 04:05 UTC"
 };

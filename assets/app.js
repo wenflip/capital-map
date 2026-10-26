@@ -629,13 +629,14 @@
       const flows = Object.values(DATA.flows).filter(flowVis).sort((a, b) => a.order - b.order);
       const areas = [];
       flows.forEach((f) => { const a = f.area || "Other"; let g = areas.find((x) => x.name === a); if (!g) areas.push(g = { name: a, items: [] }); g.items.push(f); });
-      body.innerHTML = `<h1 class="view-title">Flows</h1><p class="view-sub">Processes in the order they happen. Each step opens its page.</p>` +
+      body.innerHTML = `<h1 class="view-title">Flows</h1><p class="view-sub">Processes in the order they happen. Each step opens its page.${flows.some((f) => f.status === "planned") ? " Flows marked Planned are outlines: the steps and their pages are set, and the detail is still to be written." : ""}</p>` +
         areas.map((g) => `<h2 class="section flow-area">${esc(g.name)}</h2><div class="flow-cards">${g.items.map((f) =>
-          `<a class="flow-card${f.adv ? " adv" : ""}" data-flow="${f.id}"><h3>${esc(f.title)}</h3><p>${esc(f.summary)}</p><div class="meta">${f.steps.length} steps</div></a>`).join("")}</div>`).join("");
+          `<a class="flow-card${f.adv ? " adv" : ""}${f.status === "planned" ? " planned" : ""}" data-flow="${f.id}"><h3>${esc(f.title)}${f.status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h3><p>${esc(f.summary)}</p><div class="meta">${f.steps.length} steps${f.status === "planned" ? " · outline" : ""}</div></a>`).join("")}</div>`).join("");
       return;
     }
     const f = DATA.flows[fid], n = f.steps.length;
-    let grid = `<div class="lane-label head"></div>` + f.steps.map((s, i) => `<div class="step-head${i === n - 1 ? " last" : ""}">
+    const labels = f.lanes.length > 0;   // an outline (planned flow) has no detail rows, so no label column
+    let grid = (labels ? `<div class="lane-label head"></div>` : "") + f.steps.map((s, i) => `<div class="step-head${i === n - 1 ? " last" : ""}">
         ${s.page && vis(s.page)
           ? `<a class="step-card linked" data-flow="${fid}" data-page="${s.page}" style="border-top:3px solid ${col(s.page)}">`
           : `<button class="step-card${s.page ? " linked" : ""}" disabled>`}
@@ -645,10 +646,11 @@
       grid += `<div class="lane-label">${esc(lbl)}</div>` + f.steps.map((s) => `<div class="cell ${mono ? "mono" : ""}">${cellHtml(s.cells[li])}</div>`).join("");
     });
     body.innerHTML = `<button class="back" data-view="flows">← All flows</button>
-      <h1 class="view-title">${esc(f.title)}</h1>
+      <h1 class="view-title">${esc(f.title)}${f.status === "planned" ? ' <span class="planned-tag">Planned</span>' : ""}</h1>
+      ${f.status === "planned" ? `<p class="mod-note flow-outline-note"><b>An outline.</b> The steps and the pages they open are set; who acts, what can break and real cases are still to be written. Each step already opens its page.</p>` : ""}
       <div class="flow-intro content">${f.intro}</div>
       <div class="lanes-hint" hidden>Scroll sideways for more steps →</div>
-      <div class="lanes-wrap"><div class="lanes"><div class="lane-grid" style="grid-template-columns: 130px repeat(${n}, auto)">${grid}</div></div></div>
+      <div class="lanes-wrap"><div class="lanes"><div class="lane-grid" style="grid-template-columns: ${labels ? "130px " : ""}repeat(${n}, auto)">${grid}</div></div></div>
       <div class="flow-intro content">${f.outro}</div>`;
     const lanesEl = $(".lanes", body), wrap = $(".lanes-wrap", body), hint = $(".lanes-hint", body);
     const update = () => {
@@ -989,7 +991,8 @@
     const all = Object.values(P), core = all.filter((p) => !p.adv).length;
     const stats = [
       [all.length, "pages", `${core} core · ${all.length - core} advanced`],
-      [Object.keys(DATA.flows).length, "flows", "processes end to end"],
+      (() => { const fl = Object.values(DATA.flows), pl = fl.filter((f) => f.status === "planned").length;
+        return [fl.length, "flows", pl ? `${fl.length - pl} written · ${pl} planned` : "processes end to end"]; })(),
       // Jobs are hidden while there are none; show the Cartography stores instead
       Object.keys(ROLES).length ? [Object.keys(ROLES).length, "jobs", `${Object.keys(LEVELS).length} levels · ${STREAMS.length} streams`]
         : [all.filter((p) => p.place).length, "stores of wealth", "plotted on the Cartography chart"],
