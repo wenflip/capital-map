@@ -18,7 +18,7 @@ Banks need a shared, final way to settle with each other. When your bank pays an
 
 ## How it works
 - **Creation.** The central bank creates reserves when it buys assets (usually government [[bonds]]) or lends to banks. It removes them when it sells assets or loans are repaid.
-- **Policy rates.** The central bank sets the interest rate it pays on reserves and steers the rate banks charge each other for overnight loans. That rate ripples out into other interest rates.
+- **Policy rates.** The central bank sets the interest rate it pays on reserves and steers the rate banks charge each other for overnight loans. That rate ripples out into other interest rates. See [[monetary-policy]].
 - **Balance sheet size.** Large asset purchases ("quantitative easing") expand reserves; letting assets run off ("quantitative tightening") shrinks them. This feeds directly into [[liquidity]].
 
 ## What goes wrong

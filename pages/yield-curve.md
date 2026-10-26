@@ -23,7 +23,7 @@ Long-term yields reflect two things:
 | **Flat** | Similar yields at all lengths | Uncertainty; a turning point |
 | **Inverted** | Short yields above long yields | Markets expect rates to fall, often because they expect a slowdown |
 
-**The short end** is anchored by the central bank's policy rate. **The long end** is set by the market, and by central banks when they buy or sell long-dated bonds. See [[central-bank-money]].
+**The short end** is anchored by the central bank's policy rate. **The long end** is set by the market, and by central banks when they buy or sell long-dated bonds. See [[monetary-policy]] and [[central-bank-money]].
 
 ## What goes wrong
 - **Reading it as a forecast.** In the United States, an inverted curve has often come before recessions, but not every time, and the delay has varied widely. It's a signal, not a schedule.
