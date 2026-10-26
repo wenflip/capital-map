@@ -6891,7 +6891,9 @@ window.MUDMAP = {
     {
      "title": "CAIA1-ETH — Professional Standards and Ethics",
      "items": [],
-     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct.",
+     "state": "out",
+     "pages": 0
     },
     {
      "title": "CAIA1-INTRO — Introduction to Alternative Investments",
@@ -6913,7 +6915,9 @@ window.MUDMAP = {
        "note": "What illiquid assets cost, and pay"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     },
     {
      "title": "CAIA1-RA — Real Assets including Commodities",
@@ -6939,12 +6943,16 @@ window.MUDMAP = {
        "note": "Art, wine and other thin markets"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 5
     },
     {
      "title": "CAIA1-HF — Hedge Funds",
      "items": [],
-     "note": "Not mapped yet: the map has no page on hedge funds. The Leverage, Options and Sharpe Ratio pages cover some of the tools they use."
+     "note": "Not mapped yet: the map has no page on hedge funds. The Leverage, Options and Sharpe Ratio pages cover some of the tools they use.",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CAIA1-PE — Private Equity",
@@ -6962,12 +6970,16 @@ window.MUDMAP = {
        "note": "Borrowing in buyouts"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "CAIA1-SP — Structured Products",
      "items": [],
-     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks."
+     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks.",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CAIA1-RMPM — Risk Management and Portfolio Management",
@@ -6997,7 +7009,9 @@ window.MUDMAP = {
        "note": "The mix across classes"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 6
     }
    ],
    "pages": [
@@ -7020,7 +7034,16 @@ window.MUDMAP = {
     "sharpe-ratio",
     "asset-allocation"
    ],
-   "status": "mapped"
+   "status": "mapped",
+   "coverage": {
+    "mapped": 4,
+    "partial": 0,
+    "none": 2,
+    "out": 1,
+    "modules": 7,
+    "inScope": 6,
+    "pct": 67
+   }
   },
   "caia-l2": {
    "id": "caia-l2",
@@ -7040,12 +7063,16 @@ window.MUDMAP = {
     {
      "title": "CAIA2-ETH — Professional Standards and Ethics",
      "items": [],
-     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct.",
+     "state": "out",
+     "pages": 0
     },
     {
      "title": "CAIA2-CIT — Current and Integrated Topics",
      "items": [],
-     "note": "Not mapped yet: current topics change each year, so they aren't mapped to fixed pages."
+     "note": "Not mapped yet: current topics change each year, so they aren't mapped to fixed pages.",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CAIA2-AA — Asset Allocation and Institutional Investors",
@@ -7067,7 +7094,9 @@ window.MUDMAP = {
        "note": "Spreading across risks"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     },
     {
      "title": "CAIA2-PE — Private Equity",
@@ -7081,7 +7110,9 @@ window.MUDMAP = {
        "note": "How private stakes are priced"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "CAIA2-RA — Real Assets",
@@ -7099,7 +7130,9 @@ window.MUDMAP = {
        "note": "The branch as a whole"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "CAIA2-COM — Commodities",
@@ -7113,17 +7146,23 @@ window.MUDMAP = {
        "note": "Margin and marking to market"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "CAIA2-HF — Hedge Funds and Managed Futures",
      "items": [],
-     "note": "Not mapped yet: the map has no page on hedge funds or managed futures. The Futures and Leverage pages cover the tools."
+     "note": "Not mapped yet: the map has no page on hedge funds or managed futures. The Futures and Leverage pages cover the tools.",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CAIA2-SP — Structured Products",
      "items": [],
-     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks."
+     "note": "Not mapped yet: the map has no page on structured products. The Options page and the Credit Risk and Ratings page cover the building blocks.",
+     "state": "none",
+     "pages": 0
     }
    ],
    "pages": [
@@ -7139,7 +7178,16 @@ window.MUDMAP = {
     "commodities",
     "futures"
    ],
-   "status": "mapped"
+   "status": "mapped",
+   "coverage": {
+    "mapped": 4,
+    "partial": 0,
+    "none": 3,
+    "out": 1,
+    "modules": 8,
+    "inScope": 7,
+    "pct": 57
+   }
   },
   "cfa-l1": {
    "id": "cfa-l1",
@@ -7159,7 +7207,9 @@ window.MUDMAP = {
     {
      "title": "CFA1-ETH — Ethical and Professional Standards",
      "items": [],
-     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct.",
+     "state": "out",
+     "pages": 0
     },
     {
      "title": "CFA1-QM — Quantitative Methods",
@@ -7185,7 +7235,9 @@ window.MUDMAP = {
        "note": "How two assets move together"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 5
     },
     {
      "title": "CFA1-ECON — Economics",
@@ -7207,7 +7259,9 @@ window.MUDMAP = {
        "note": "Currencies and what gives them value"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     },
     {
      "title": "CFA1-FSA — Financial Statement Analysis",
@@ -7217,7 +7271,9 @@ window.MUDMAP = {
        "note": "The income statement, balance sheet and cash flow statement"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 1
     },
     {
      "title": "CFA1-CF — Corporate Finance",
@@ -7235,7 +7291,9 @@ window.MUDMAP = {
        "note": "Equity as the residual claim"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "CFA1-EQ — Equities",
@@ -7269,7 +7327,9 @@ window.MUDMAP = {
        "note": "Estimating what a share is worth"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 7
     },
     {
      "title": "CFA1-FI — Fixed Income",
@@ -7307,7 +7367,9 @@ window.MUDMAP = {
        "note": "Interest-rate sensitivity"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 8
     },
     {
      "title": "CFA1-DRM — Derivatives and Risk Management",
@@ -7325,7 +7387,9 @@ window.MUDMAP = {
        "note": "How derivatives magnify exposure"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "CFA1-ALT — Alternative Investments",
@@ -7363,7 +7427,9 @@ window.MUDMAP = {
        "note": "Holding digital assets through exchanges and funds"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 8
     },
     {
      "title": "CFA1-PC — Portfolio Construction",
@@ -7393,7 +7459,9 @@ window.MUDMAP = {
        "note": "Return per unit of risk"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 6
     }
    ],
    "pages": [
@@ -7439,7 +7507,16 @@ window.MUDMAP = {
     "rebalancing",
     "sharpe-ratio"
    ],
-   "status": "mapped"
+   "status": "mapped",
+   "coverage": {
+    "mapped": 9,
+    "partial": 0,
+    "none": 0,
+    "out": 1,
+    "modules": 10,
+    "inScope": 9,
+    "pct": 100
+   }
   },
   "cfa-l2": {
    "id": "cfa-l2",
@@ -7460,56 +7537,85 @@ window.MUDMAP = {
     {
      "title": "CFA2-ETH — Ethical and Professional Standards",
      "items": [],
-     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct.",
+     "state": "out",
+     "pages": 0
     },
     {
      "title": "CFA2-QM — Quantitative Methods",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-ECON — Economics",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-FSA — Financial Statement Analysis",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-CF — Corporate Finance",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-EQ — Equities",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-FI — Fixed Income",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-DRM — Derivatives and Risk Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-ALT — Alternative Investments",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA2-PC — Portfolio Construction",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     }
    ],
    "pages": [],
-   "status": "planned"
+   "status": "planned",
+   "coverage": {
+    "mapped": 0,
+    "partial": 0,
+    "none": 9,
+    "out": 1,
+    "modules": 10,
+    "inScope": 9,
+    "pct": 0
+   }
   },
   "cfa-l3": {
    "id": "cfa-l3",
@@ -7530,36 +7636,57 @@ window.MUDMAP = {
     {
      "title": "CFA3-ETH — Ethical and Professional Standards",
      "items": [],
-     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct."
+     "note": "Outside this site's scope: the map covers how the money machine works, not professional conduct.",
+     "state": "out",
+     "pages": 0
     },
     {
      "title": "CFA3-AA — Asset Allocation",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA3-PC — Portfolio Construction",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA3-PERF — Performance Measurement",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA3-DRM — Derivatives and Risk Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "CFA3-PM — Portfolio Management pathway",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     }
    ],
    "pages": [],
-   "status": "planned"
+   "status": "planned",
+   "coverage": {
+    "mapped": 0,
+    "partial": 0,
+    "none": 5,
+    "out": 1,
+    "modules": 6,
+    "inScope": 5,
+    "pct": 0
+   }
   },
   "frm-1": {
    "id": "frm-1",
@@ -7580,26 +7707,43 @@ window.MUDMAP = {
     {
      "title": "FRM1-FRM — Foundations of Risk Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM1-QA — Quantitative Analysis",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM1-FMP — Financial Markets and Products",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM1-VRM — Valuation and Risk Models",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     }
    ],
    "pages": [],
-   "status": "planned"
+   "status": "planned",
+   "coverage": {
+    "mapped": 0,
+    "partial": 0,
+    "none": 4,
+    "out": 0,
+    "modules": 4,
+    "inScope": 4,
+    "pct": 0
+   }
   },
   "frm-2": {
    "id": "frm-2",
@@ -7620,36 +7764,57 @@ window.MUDMAP = {
     {
      "title": "FRM2-MR — Market Risk Measurement and Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM2-CR — Credit Risk Measurement and Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM2-OR — Operational Risk and Resilience",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM2-LTR — Liquidity and Treasury Risk Measurement and Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM2-RMIM — Risk Management and Investment Management",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     },
     {
      "title": "FRM2-CI — Current Issues in Financial Markets",
      "items": [],
-     "note": ""
+     "note": "",
+     "state": "none",
+     "pages": 0
     }
    ],
    "pages": [],
-   "status": "planned"
+   "status": "planned",
+   "coverage": {
+    "mapped": 0,
+    "partial": 0,
+    "none": 6,
+    "out": 0,
+    "modules": 6,
+    "inScope": 6,
+    "pct": 0
+   }
   },
   "money-banking": {
    "id": "money-banking",
@@ -7682,7 +7847,9 @@ window.MUDMAP = {
        "note": "The layers of money, from the base to private promises"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "MB2 — Banking as a clearing system",
@@ -7712,7 +7879,9 @@ window.MUDMAP = {
        "note": "The central bank as the backstop for the clearing system"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 6
     },
     {
      "title": "MB3 — Banking as market making",
@@ -7722,7 +7891,9 @@ window.MUDMAP = {
        "note": "Market liquidity: dealers absorbing imbalances for a price"
       }
      ],
-     "note": "Partly mapped: dealers and market making need a page of their own (Markets &amp; Plumbing)."
+     "note": "Partly mapped: dealers and market making need a page of their own (Markets &amp; Plumbing).",
+     "state": "partial",
+     "pages": 1
     },
     {
      "title": "MB4 — International money and banking",
@@ -7740,7 +7911,9 @@ window.MUDMAP = {
        "note": "Why the dollar sits near the top of the world's hierarchy"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     },
     {
      "title": "MB5 — Banking as advance clearing: swaps and capital markets",
@@ -7754,7 +7927,9 @@ window.MUDMAP = {
        "note": "Forward commitments"
       }
      ],
-     "note": "Partly mapped: interest-rate and credit-default swaps need pages of their own (Derivatives)."
+     "note": "Partly mapped: interest-rate and credit-default swaps need pages of their own (Derivatives).",
+     "state": "partial",
+     "pages": 2
     },
     {
      "title": "MB6 — Money in the real world",
@@ -7776,7 +7951,9 @@ window.MUDMAP = {
        "note": "What stands behind each layer when one fails"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     }
    ],
    "pages": [
@@ -7795,7 +7972,16 @@ window.MUDMAP = {
     "market-regimes",
     "backstops"
    ],
-   "status": "mapped"
+   "status": "mapped",
+   "coverage": {
+    "mapped": 4,
+    "partial": 2,
+    "none": 0,
+    "out": 0,
+    "modules": 6,
+    "inScope": 6,
+    "pct": 67
+   }
   },
   "princeton-bitcoin": {
    "id": "princeton-bitcoin",
@@ -7824,7 +8010,9 @@ window.MUDMAP = {
        "note": "A hash-linked ledger"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC2 — How Bitcoin achieves decentralisation",
@@ -7838,7 +8026,9 @@ window.MUDMAP = {
        "note": "Nodes checking the same rules"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC3 — Mechanics of Bitcoin",
@@ -7852,7 +8042,9 @@ window.MUDMAP = {
        "note": "Transactions and blocks"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC4 — How to store and use bitcoins",
@@ -7874,7 +8066,9 @@ window.MUDMAP = {
        "note": "Exchanges as custodians, and how they fail"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     },
     {
      "title": "BTC5 — Bitcoin mining",
@@ -7888,7 +8082,9 @@ window.MUDMAP = {
        "note": "Mining rewards and the security budget"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC6 — Bitcoin and anonymity",
@@ -7902,7 +8098,9 @@ window.MUDMAP = {
        "note": "Fresh addresses and why reuse links payments"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC7 — Community, politics and regulation",
@@ -7916,7 +8114,9 @@ window.MUDMAP = {
        "note": "Formal voting over a protocol"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC8 — Alternative mining puzzles",
@@ -7926,7 +8126,9 @@ window.MUDMAP = {
        "note": "Proof of stake as the main alternative to proof of work"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 1
     },
     {
      "title": "BTC9 — Bitcoin as a platform",
@@ -7940,7 +8142,9 @@ window.MUDMAP = {
        "note": "Bitcoin used on other chains"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 2
     },
     {
      "title": "BTC10 — Altcoins and the cryptocurrency ecosystem",
@@ -7962,7 +8166,9 @@ window.MUDMAP = {
        "note": "Tokens with nothing behind them"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 4
     },
     {
      "title": "BTC11 — Decentralised institutions",
@@ -7980,7 +8186,9 @@ window.MUDMAP = {
        "note": "Where those institutions live"
       }
      ],
-     "note": ""
+     "note": "",
+     "state": "mapped",
+     "pages": 3
     }
    ],
    "pages": [
@@ -8001,8 +8209,27 @@ window.MUDMAP = {
     "memecoins",
     "defi"
    ],
-   "status": "mapped"
+   "status": "mapped",
+   "coverage": {
+    "mapped": 11,
+    "partial": 0,
+    "none": 0,
+    "out": 0,
+    "modules": 11,
+    "inScope": 11,
+    "pct": 100
+   }
   }
  },
- "built": "2026-10-25 16:38 UTC"
+ "coverage": {
+  "mapped": 32,
+  "partial": 2,
+  "none": 29,
+  "out": 5,
+  "modules": 68,
+  "inScope": 63,
+  "pct": 51,
+  "quals": 9
+ },
+ "built": "2026-10-26 01:48 UTC"
 };

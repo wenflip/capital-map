@@ -2,7 +2,7 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: every branch is written (no stubs), including the full failure ladder. Next: the Failures view. See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage. Next: the Failures view. See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
@@ -93,6 +93,21 @@ Intro paragraph.
 - **Every module stays on the page**, mapped or not, so the whole syllabus is visible. An empty module shows *Not mapped yet*, or *Out of scope* when its note starts "Outside this site's scope".
 - A **placeholder** (`status: planned`) lists its modules with no pages. Remove the `status` line once the first page is mapped. The build fails if a mapped qualification has no pages, or a planned one has some.
 - Module names follow each body's published outline, in our own words for notes. Check the outline when it changes (CFA renamed several topics from February 2027).
+
+### Coverage
+
+The Quals tab shows how much of each qualification the map covers, and the total across all of them. The build gives every module one of four states, from its pages and its note:
+
+| State | Rule | Counted? |
+|---|---|---|
+| **Mapped** | lists pages, and no "Partly mapped" note | yes |
+| **Partly mapped** | lists pages, and its note starts `Partly mapped:` | shown, but not in the % |
+| **Not mapped yet** | no pages | yes, as not mapped |
+| **Out of scope** | its note starts `Outside this site's scope` | no |
+
+**Coverage % = mapped modules ÷ in-scope modules.** Placeholders count as not mapped in the total. "Mapped" means at least one page covers the module's core idea, not the whole syllabus, so every module also shows its number of pages: a one-page module is visible as thin. When a module's pages leave a known gap, say so with a `> Partly mapped: …` note rather than leaving it counted as mapped.
+
+The build fails if a note contradicts the pages: an out-of-scope or `Not mapped yet` module that lists pages, or a `Partly mapped` module that lists none.
 
 ## Hub pages
 

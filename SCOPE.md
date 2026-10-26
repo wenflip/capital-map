@@ -1,6 +1,6 @@
 # The Capital Map — Scope
 
-*Status: every branch written (no stubs), including the full failure ladder. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-25.*
+*Status: every branch written (no stubs), including the full failure ladder. Live (open, unlisted: no password, search engines blocked). Last updated 2026-10-26.*
 
 ## What it is
 
@@ -48,7 +48,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Flows:** built. *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one) and *When a country fails* (a debt crisis climbing the failure ladder).
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Regimes:** a page for now (Market Regimes).
-- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
+- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. The tab shows **coverage**: mapped modules out of in-scope modules, per qualification and overall (51% at launch), with pages per module. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
 - **Jobs:** engine supports them; tab hidden until there is content.
 
 ## Engine changes from The Supply Map
@@ -64,6 +64,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - Search fixes: hyphenated queries match page text, and keep the whole-phrase bonus. **Both worth back-porting to The Supply Map.**
 - About shows a Cartography count instead of an empty jobs tile; the Index says "all written" once there are no stubs.
 - **Search ranking (2026-10-25):** matches are weighted by where the words appear (title, then summary and tags, then how often in the body); the tree-depth bonus is only a tie-break. **Worth back-porting to The Supply Map.**
+- **Quals coverage (2026-10-26):** the build gives each qualification module a state (mapped, partly mapped, not mapped yet, out of scope), fails on a note that contradicts the pages, and writes per-qualification and overall coverage to `data.js`. The Quals tab shows a summary, a bar on each card, and pages per module.
 - Storage prefix stays `mudmap:` so the shared test suites run unchanged (different site, different browser storage, no clash).
 
 ## Open questions
@@ -84,6 +85,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Neutrality (2026-10-25):** every store of wealth shows how it has failed in history, so the site doesn't read as favouring any one store.
 - **Testing (2026-10-25):** 80/20. Content-only branches run their own suite plus a smoke set at desktop width; engine or layout changes run everything at all widths. Suites run in parallel.
 - **Outside sources (2026-10-25):** ideas from paid or copyrighted material can be used only in our own words, structure and names, with public cases, credited as `Study notes`. The source's wording, images and named metrics are never used; `test_backstops` guards the bank-failure material.
+- **Coverage, defined honestly (2026-10-26):** coverage % = mapped modules ÷ in-scope modules. Out-of-scope modules aren't counted; partly mapped modules are shown but not counted; placeholders count as not mapped. "Mapped" means at least one page covers the module's core idea, so pages per module are shown beside it to keep thin modules visible.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel

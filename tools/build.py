@@ -68,6 +68,17 @@ Qualification file format (quals/<id>.md) — the same as a role file, but each
 e.g. "## L4M3 — Commercial contracting") and a page may appear under several
 modules (once per module). Pages show which modules they belong to, and search
 matches the module headings.
+
+Coverage (qualifications only). Every module gets a state, from its pages and its "> " note:
+    out      note starts "Outside this site's scope"   listed, but not counted
+    none     no pages                                   in scope, not mapped yet
+    partial  pages, and note starts "Partly mapped"     counted separately, not in the %
+    mapped   pages, and no "Partly mapped" note
+Coverage % = mapped modules / in-scope modules (everything except "out"). "Mapped" means at least
+one page covers the module's core idea, not that the pages cover its whole syllabus; the number
+of pages per module is shown next to it so thin modules stay visible. The build fails if a note
+contradicts the pages (an out-of-scope or "Not mapped yet" module with pages, or a "Partly
+mapped" module with none).
 """
 import json
 import re
@@ -342,7 +353,50 @@ def load_roles(titles, folder=JOBS_DIR, kind="job", repeat_ok=False):
             errors.append(f"{kind} {rid}: has pages, so it isn't planned")
         if not stages:
             errors.append(f"{kind} {rid}: no modules")
+        if repeat_ok:
+            roles[rid]["coverage"] = qual_coverage(rid, stages)
     return roles
+
+
+COVERAGE_STATES = ("mapped", "partial", "none", "out")
+
+
+def module_state(rid, s):
+    """One qualification module's coverage state, from its pages and its note (see the docstring)."""
+    note = re.sub(r"<[^>]+>", "", s["note"]).strip().lower()
+    has = bool(s["items"])
+    if note.startswith("outside this site"):
+        if has:
+            errors.append(f"qual {rid}: '{s['title']}' is marked out of scope but lists pages")
+        return "out"
+    if note.startswith("partly mapped"):
+        if not has:
+            errors.append(f"qual {rid}: '{s['title']}' says Partly mapped but lists no pages")
+        return "partial" if has else "none"
+    if note.startswith("not mapped yet") and has:
+        errors.append(f"qual {rid}: '{s['title']}' says Not mapped yet but lists pages")
+    return "mapped" if has else "none"
+
+
+def qual_coverage(rid, stages):
+    """Counts per state, in-scope total, pages and the coverage %; also sets each module's state and page count."""
+    c = {k: 0 for k in COVERAGE_STATES}
+    for s in stages:
+        s["state"] = module_state(rid, s)
+        s["pages"] = len(s["items"])
+        c[s["state"]] += 1
+    c["modules"] = len(stages)
+    c["inScope"] = len(stages) - c["out"]
+    c["pct"] = round(100 * c["mapped"] / c["inScope"]) if c["inScope"] else 0
+    return c
+
+
+def total_coverage(quals):
+    """Overall coverage across every qualification, placeholders included (they count as not mapped)."""
+    t = {k: sum(q["coverage"][k] for q in quals.values()) for k in (*COVERAGE_STATES, "modules", "inScope")}
+    t["pct"] = round(100 * t["mapped"] / t["inScope"]) if t["inScope"] else 0
+    t["quals"] = len(quals)
+    return t
 
 
 LEVELS = {1: "Entry", 2: "Operational", 3: "Specialist", 4: "Coordinator / Analyst", 5: "Manager", 6: "Director", 7: "Executive"}
@@ -572,6 +626,7 @@ def main():
         "levels": LEVELS,
         "streams": [{"id": s, "title": n} for s, n in STREAMS],
         "quals": quals,
+        "coverage": total_coverage(quals),
         "built": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
     OUT.write_text(
@@ -589,7 +644,13 @@ def main():
         print(f"  Job L{r['level']} {r['short']}: {len(r['pages'])} pages ({core} core, {new} new at this level)")
     for q in sorted(quals.values(), key=lambda q: q["order"]):
         core = sum(1 for x in q["pages"] if x not in ADVANCED)
-        print(f"  Qual {q['short']}: {len(q['pages'])} pages across {len(q['stages'])} modules ({core} core)")
+        c = q["coverage"]
+        print(f"  Qual {q['short']}: {len(q['pages'])} pages across {len(q['stages'])} modules ({core} core)"
+              f" · coverage {c['mapped']}/{c['inScope']} in scope = {c['pct']}%"
+              + (f", {c['partial']} partly" if c["partial"] else "") + (f", {c['out']} out of scope" if c["out"] else ""))
+    t = data["coverage"]
+    print(f"  Coverage: {t['mapped']} of {t['inScope']} in-scope modules mapped ({t['pct']}%), {t['partial']} partly,"
+          f" {t['none']} not yet; {t['out']} out of scope, across {t['quals']} qualifications")
     for w in warnings:
         print("  !", w)
 
