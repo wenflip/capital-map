@@ -1,7 +1,7 @@
 ---
 id: backstops
-title: When Banks Fail
-short: When banks fail
+title: Bank Backstops
+short: Bank backstops
 parent: money
 order: 6.5
 summary: The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.

@@ -67,7 +67,7 @@ backstop: Courts, constitutions, compensation   # what is supposed to protect yo
 
 Pages with fewer than 60 words show as dashed **stubs** on the map.
 
-**The failure ladder.** A rung is any page with `rung:`, not just a child of the When Things Fail hub: Stablecoins and When Banks Fail are rungs 3 and 4 but keep their own parents. The ladder table on the hub must match the rung fields. A store's `fails_at` lists the rungs whose page says, in *What it kills* (or the equivalent), that they can hit it. Write those links positively: a sentence such as "It doesn't touch [[gold]]" is a link, not a hit. The build fails if `fails_at` names something that isn't a rung, appears on a page that isn't a store, or if the rungs aren't numbered 1 to N.
+**The failure ladder.** A rung is any page with `rung:`, not just a child of the When Things Fail hub: Stablecoins and Bank Backstops are rungs 3 and 4 but keep their own parents. The ladder table on the hub must match the rung fields. A store's `fails_at` lists the rungs whose page says, in *What it kills* (or the equivalent), that they can hit it. Write those links positively: a sentence such as "It doesn't touch [[gold]]" is a link, not a hit. The build fails if `fails_at` names something that isn't a rung, appears on a page that isn't a store, or if the rungs aren't numbered 1 to N.
 
 **Groups.** Every top-level branch has a `group`. The map draws each group as a cluster with a small heading, and the Index puts a heading before each group. A group is a label, not a level: it adds no page and no click. The build fails if a branch has no group, if a group's branches aren't next to each other in `order`, or if a page below the top level has one.
 

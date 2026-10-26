@@ -113,7 +113,7 @@ CREATE TABLE flows (               -- step-by-step walk-throughs; planned = an o
   sort   REAL NOT NULL
 );
 INSERT INTO "flows" VALUES('where-money-comes-from','Where money comes from','Money & Liquidity','written',1.0);
-INSERT INTO "flows" VALUES('when-a-bank-fails','When a bank fails: who stands behind your deposit','Money & Liquidity','written',2.0);
+INSERT INTO "flows" VALUES('when-a-bank-fails','When a bank fails: who stands behind your deposit','When Things Fail','written',2.0);
 INSERT INTO "flows" VALUES('when-a-country-fails','When a country fails: how a debt crisis spreads','When Things Fail','written',3.0);
 INSERT INTO "flows" VALUES('how-a-trade-settles','How a share trade settles','Markets & Plumbing','written',4.0);
 INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','planned',5.0);
@@ -260,7 +260,7 @@ CREATE TABLE modules (              -- qualification modules and their coverage 
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-ETH','CFA1-ETH — Ethical and Professional Standards','out',1);
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-QM','CFA1-QM — Quantitative Methods','mapped',2);
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-ECON','CFA1-ECON — Economics','mapped',3);
-INSERT INTO "modules" VALUES('cfa-l1','CFA1-FSA','CFA1-FSA — Financial Statement Analysis','mapped',4);
+INSERT INTO "modules" VALUES('cfa-l1','CFA1-FSA','CFA1-FSA — Financial Statement Analysis','partial',4);
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-CF','CFA1-CF — Corporate Finance','mapped',5);
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-EQ','CFA1-EQ — Equities','mapped',6);
 INSERT INTO "modules" VALUES('cfa-l1','CFA1-FI','CFA1-FI — Fixed Income','mapped',7);
@@ -321,7 +321,7 @@ INSERT INTO "modules" VALUES('princeton-bitcoin','BTC4','BTC4 — How to store a
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC5','BTC5 — Bitcoin mining','mapped',5);
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC6','BTC6 — Bitcoin and anonymity','mapped',6);
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC7','BTC7 — Community, politics and regulation','mapped',7);
-INSERT INTO "modules" VALUES('princeton-bitcoin','BTC8','BTC8 — Alternative mining puzzles','mapped',8);
+INSERT INTO "modules" VALUES('princeton-bitcoin','BTC8','BTC8 — Alternative mining puzzles','partial',8);
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC9','BTC9 — Bitcoin as a platform','mapped',9);
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC10','BTC10 — Altcoins and the cryptocurrency ecosystem','mapped',10);
 INSERT INTO "modules" VALUES('princeton-bitcoin','BTC11','BTC11 — Decentralised institutions','mapped',11);
@@ -1210,7 +1210,7 @@ INSERT INTO "pages" VALUES('capital-system','Capital System',NULL,NULL,NULL,0,'b
 INSERT INTO "pages" VALUES('derivatives','Derivatives',NULL,'capital-system','derivatives',1,'basic','Contracts whose value depends on something else: futures, options, perpetuals and leverage.',536);
 INSERT INTO "pages" VALUES('digital-assets','Digital Assets',NULL,'capital-system','digital-assets',1,'basic','Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, what gives a coin value, tokens, bridges, DeFi, and how to hold them.',747);
 INSERT INTO "pages" VALUES('equities','Equities',NULL,'capital-system','equities',1,'basic','Owning a share of a business: listed shares, indices, funds and private stakes.',636);
-INSERT INTO "pages" VALUES('failure-modes','When Things Fail','When Things Fail','capital-system','failure-modes',1,'basic','The failure ladder: every layer between you and your wealth, what is meant to protect you, and where that protection runs out.',768);
+INSERT INTO "pages" VALUES('failure-modes','When Things Fail','When Things Fail','capital-system','failure-modes',1,'basic','The failure ladder: every layer between you and your wealth, what is meant to protect you, and where that protection runs out.',786);
 INSERT INTO "pages" VALUES('fixed-income','Fixed Income',NULL,'capital-system','fixed-income',1,'basic','Lending money for a promised return: T-bills, bonds, how they''re priced, what moves them, and what can make them fail.',613);
 INSERT INTO "pages" VALUES('foundation','Foundation',NULL,'capital-system','foundation',1,'basic','The ideas everything else rests on: claims and liabilities, the four ways to earn a return, time value, compounding, risk and return, and inflation.',708);
 INSERT INTO "pages" VALUES('markets','Markets & Plumbing','Markets & Plumbing','capital-system','markets',1,'basic','Where and how assets change hands: exchanges, brokers, custody and settlement.',542);
@@ -1222,8 +1222,8 @@ INSERT INTO "pages" VALUES('practice','In Practice',NULL,'capital-system','pract
 INSERT INTO "pages" VALUES('real-assets','Real Assets',NULL,'capital-system','real-assets',1,'basic','Physical things with value of their own: property, commodities and collectibles.',724);
 INSERT INTO "pages" VALUES('account-types','Account Types',NULL,'practice','practice',2,'basic','Ordinary, tax-advantaged and retirement accounts.',401);
 INSERT INTO "pages" VALUES('asset-allocation','Asset Allocation',NULL,'portfolio','portfolio',2,'basic','How much goes into each kind of asset.',433);
-INSERT INTO "pages" VALUES('backstops','When Banks Fail','When banks fail','money','money',2,'basic','The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.',692);
-INSERT INTO "pages" VALUES('bank-deposits','Bank Deposits',NULL,'money','money',2,'basic','The money most people actually hold: not cash in a vault, but a bank''s promise to pay you on demand.',394);
+INSERT INTO "pages" VALUES('backstops','Bank Backstops','Bank backstops','money','money',2,'basic','The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.',692);
+INSERT INTO "pages" VALUES('bank-deposits','Bank Deposits',NULL,'money','money',2,'basic','The money most people actually hold: not cash in a vault, but a bank''s promise to pay you on demand.',392);
 INSERT INTO "pages" VALUES('blockchains','How Blockchains Work','How blockchains work','digital-assets','digital-assets',2,'basic','A shared ledger kept in agreement by many computers: the machinery under every digital asset.',346);
 INSERT INTO "pages" VALUES('bond-pricing','Bond Prices and Yields','Prices and yields','fixed-income','fixed-income',2,'basic','Why bond prices fall when interest rates rise, what "yield" means, and why longer bonds move more.',449);
 INSERT INTO "pages" VALUES('bonds','Bonds',NULL,'fixed-income','fixed-income',2,'basic','A loan you can trade: fixed payments from a government or company, and your money back at the end.',433);

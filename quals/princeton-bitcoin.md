@@ -41,6 +41,7 @@ A free course and textbook from Princeton University. It explains the machinery 
 
 ## BTC8 — Alternative mining puzzles
 - [[consensus]] — proof of stake as the main alternative to proof of work
+> Partly mapped: proof of stake is covered; memory-hard puzzles, useful-work puzzles and proof of storage are not (Digital Assets).
 
 ## BTC9 — Bitcoin as a platform
 - [[smart-contract-platforms]] — programs on a ledger
