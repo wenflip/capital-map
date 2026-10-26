@@ -45,6 +45,68 @@ INSERT INTO "fails_at" VALUES('shares','capital-controls');
 INSERT INTO "fails_at" VALUES('shares','confiscation');
 INSERT INTO "fails_at" VALUES('shares','sovereign-default');
 INSERT INTO "fails_at" VALUES('shares','market-failure');
+CREATE TABLE flow_steps (          -- each step of a flow, and the page it opens
+  flow_id TEXT NOT NULL REFERENCES flows(id),
+  step    INTEGER NOT NULL,         -- 1, 2, 3 ... in the order they happen
+  label   TEXT NOT NULL,
+  page_id TEXT REFERENCES pages(id),   -- NULL if the step opens no page
+  PRIMARY KEY (flow_id, step)
+);
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',1,'Central bank buys a bond','central-bank-money');
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',2,'Bank lends to a borrower','money-creation');
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',3,'Borrower pays you','bank-deposits');
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',4,'Your bank settles with theirs','central-bank-money');
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',5,'You withdraw notes','cash-and-fiat');
+INSERT INTO "flow_steps" VALUES('where-money-comes-from',6,'Loan is repaid','money-creation');
+INSERT INTO "flow_steps" VALUES('when-a-bank-fails',1,'The bank takes losses or faces a run','bank-capital-and-liquidity');
+INSERT INTO "flow_steps" VALUES('when-a-bank-fails',2,'The central bank lends','lender-of-last-resort');
+INSERT INTO "flow_steps" VALUES('when-a-bank-fails',3,'Losses go to the bank''s investors','bail-in');
+INSERT INTO "flow_steps" VALUES('when-a-bank-fails',4,'Insured deposits are repaid','deposit-insurance');
+INSERT INTO "flow_steps" VALUES('when-a-bank-fails',5,'The government steps in','bank-sovereign-loop');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',1,'Deficits are funded by the central bank','central-bank-money');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',2,'Inflation rises while interest rates are held below it','financial-repression');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',3,'Money tries to leave; controls go up','capital-controls');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',4,'Deposits are frozen or converted','bank-deposits');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',5,'The currency collapses or is redenominated','currency-failure');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',6,'The government defaults or restructures','sovereign-default');
+INSERT INTO "flow_steps" VALUES('when-a-country-fails',7,'Banks holding government bonds fail','bank-sovereign-loop');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',1,'You place a buy order','brokers');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',2,'The order is routed and matched','exchanges');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',3,'The clearing house steps in','settlement');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',4,'Shares and money swap, one business day later','settlement');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',5,'The shares are held for you','custody');
+INSERT INTO "flow_steps" VALUES('how-a-trade-settles',6,'Dividends and votes come back down the chain','shares');
+INSERT INTO "flow_steps" VALUES('when-a-broker-fails',1,'The broker runs into trouble','brokers');
+INSERT INTO "flow_steps" VALUES('when-a-broker-fails',2,'Accounts are frozen and an administrator takes over','broker-failure');
+INSERT INTO "flow_steps" VALUES('when-a-broker-fails',3,'Segregated client assets are found and returned','custody');
+INSERT INTO "flow_steps" VALUES('when-a-broker-fails',4,'A protection scheme covers missing assets, up to its limit','broker-failure');
+INSERT INTO "flow_steps" VALUES('when-a-broker-fails',5,'Any shortfall is claimed like any other creditor','claims-and-liabilities');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',1,'Holders start to doubt the reserves','stablecoins');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',2,'The price slips below one dollar','stablecoins');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',3,'Holders rush to redeem or sell','liquidity');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',4,'The issuer sells reserve assets to pay them','t-bills');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',5,'Exchanges and lending protocols holding the token are hit','defi');
+INSERT INTO "flow_steps" VALUES('a-stablecoin-run',6,'Tokens are frozen, redeemed in full, or left worth less','claims-and-liabilities');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',1,'The central bank buys government bonds with new reserves','central-bank-money');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',2,'The sellers'' banks hold more reserves, and their customers more deposits','bank-deposits');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',3,'Bond prices rise and yields fall','bond-pricing');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',4,'Long-term rates fall and the yield curve flattens','yield-curve');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',5,'Money looks for a return elsewhere, and liquidity is plentiful','liquidity');
+INSERT INTO "flow_steps" VALUES('qe-and-qt',6,'In QT, bonds mature without being replaced and reserves shrink','central-bank-money');
+CREATE TABLE flows (               -- step-by-step walk-throughs; planned = an outline still to be written
+  id     TEXT PRIMARY KEY,
+  title  TEXT NOT NULL,
+  area   TEXT NOT NULL,              -- the heading it sits under on the Flows tab
+  status TEXT NOT NULL CHECK (status IN ('written', 'planned')),
+  sort   REAL NOT NULL
+);
+INSERT INTO "flows" VALUES('where-money-comes-from','Where money comes from','Money & Liquidity','written',1.0);
+INSERT INTO "flows" VALUES('when-a-bank-fails','When a bank fails: who stands behind your deposit','Money & Liquidity','written',2.0);
+INSERT INTO "flows" VALUES('when-a-country-fails','When a country fails: how a debt crisis spreads','When Things Fail','written',3.0);
+INSERT INTO "flows" VALUES('how-a-trade-settles','How a share trade settles','Markets & Plumbing','written',4.0);
+INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','planned',5.0);
+INSERT INTO "flows" VALUES('a-stablecoin-run','A stablecoin run: a bank run on a blockchain','When Things Fail','planned',6.0);
+INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','Money & Liquidity','planned',7.0);
 CREATE TABLE module_pages (         -- junction table: pages that cover each module
   qual_id  TEXT NOT NULL,
   code     TEXT NOT NULL,

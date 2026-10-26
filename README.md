@@ -2,7 +2,7 @@
 
 A free, independent reference to money, markets and assets: one connected map of cash, bonds, shares, real estate, gold and crypto, plus the skills and relationships that sit underneath them. Sibling of **The Supply Map**, and built on the same engine.
 
-Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage, and the Failures view shows the ladder and which rungs can hit which stores. The build also exports the map as a SQLite database. Next: P1 content (FX first). See `SCOPE.md` for decisions and open questions.
+Status: every branch is written (no stubs), including the full failure ladder. The Quals tab shows coverage, and the Failures view shows the ladder and which rungs can hit which stores. The build also exports the map as a SQLite database. Seven flows: four written, three planned outlines. Next: P1 content (FX first). See `SCOPE.md` for decisions and open questions.
 
 ## How to view it
 
@@ -18,7 +18,7 @@ All content is Markdown:
 | Folder | What goes in it |
 |---|---|
 | `pages/` | One concept per file. Frontmatter sets its place on the map (`parent`, `order`). |
-| `flows/` | Step-by-step walk-throughs. One table whose first two columns are `Step` and `Page`. |
+| `flows/` | Step-by-step walk-throughs. One table whose first two columns are `Step` and `Page`; further columns are detail rows. `status: planned` marks an outline (Step and Page only, every step linked to a page), shown with a Planned tag until its detail is written. |
 | `quals/` | One qualification per file: its modules, each mapped to the pages that cover it. See *Qualifications* below. |
 | `jobs/` | Empty. The engine supports job paths; the tab stays hidden until there is content. |
 | `about.md`, `privacy.md` | Site pages. |

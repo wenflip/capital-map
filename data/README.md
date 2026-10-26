@@ -31,12 +31,14 @@ Both are generated: don't edit them by hand. They're rebuilt from scratch with r
 | `quals` | qualification | `id` |
 | `modules` | qualification module, with its coverage state | (`qual_id`, `code`) |
 | `module_pages` | module × page that covers it | (`qual_id`, `code`, `page_id`) |
+| `flows` | flow, with its heading and status (`written` or `planned`) | `id` |
+| `flow_steps` | step of a flow, and the page it opens | (`flow_id`, `step`); `page_id` → `pages` |
 
 Three design choices are worth noticing:
 
 - **Lists become tables.** Tags, traits and links aren't comma-separated text inside a row. Each value gets its own row, so it can be counted, joined and filtered. This is *first normal form*.
 - **Ranges become two columns.** A store that spans tiers ("2-3" on the page) has `tier_min` 2 and `tier_max` 3, so `WHERE tier_max = 3` just works.
-- **Many-to-many needs a junction table.** One store can be hit by many rungs, and one rung can hit many stores. Neither table can hold the other's ids in a single column, so `fails_at` holds the pairs. `module_pages` does the same for qualifications and pages.
+- **Many-to-many needs a junction table.** One store can be hit by many rungs, and one rung can hit many stores. Neither table can hold the other's ids in a single column, so `fails_at` holds the pairs. `module_pages` does the same for qualifications and pages, and `flow_steps` for flows and pages.
 
 Foreign keys are checked when the database is built, so every id in a junction table is real.
 
@@ -111,6 +113,7 @@ ORDER BY q.sort;
 5. Which rung pages are *not* children of the When Things Fail hub? (Join `rungs` to `pages` and look at `parent_id`.)
 6. Which pages appear in more than one qualification?
 7. Which in-scope modules have exactly one page? These are the thin ones the Quals tab warns about.
+8. Which pages are opened by steps in more than one flow? (Count distinct `flow_id` per `page_id` in `flow_steps`.)
 
 ## The logistics parallel
 

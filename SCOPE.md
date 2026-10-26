@@ -45,7 +45,9 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 
 ## Cross-cutting views
 
-- **Flows:** built. *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one) and *When a country fails* (a debt crisis climbing the failure ladder).
+- **Flows:** seven, four written and three planned.
+  - **Written:** *Where money comes from* (money created layer by layer), *When a bank fails* (the backstops tested one by one), *When a country fails* (a debt crisis climbing the failure ladder) and *How a share trade settles* (order to custody, firm by firm).
+  - **Planned outlines** (steps and pages set, detail to come): *When a broker fails*, *A stablecoin run* and *QE and QT*.
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Failures view** (`#/failures`): the twelve-rung ladder from top to bottom, each rung with its backstop and the stores it can hit, then a **store × rung matrix** with each store's own killer beside it. Store and rung pages show the same links in their panels.
 - **Regimes:** a page for now (Market Regimes).
@@ -67,6 +69,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Search ranking (2026-10-25):** matches are weighted by where the words appear (title, then summary and tags, then how often in the body); the tree-depth bonus is only a tie-break. **Worth back-porting to The Supply Map.**
 - **Quals coverage (2026-10-26):** the build gives each qualification module a state (mapped, partly mapped, not mapped yet, out of scope), fails on a note that contradicts the pages, and writes per-qualification and overall coverage to `data.js`. The Quals tab shows a summary, a bar on each card, and pages per module.
 - **Failures view and SQLite export (2026-10-26):** new page fields `rung`, `rung_name`, `backstop` and `fails_at`, validated by the build; a Failures tab ("Ladder" on phones, with tighter phone tabs so six still fit); the build writes `data/capital-map.sqlite` and `.sql` with foreign keys checked.
+- **Planned flows (2026-10-26):** flows take `status: planned` for an outline. The build checks that an outline has no detail columns and links every step, and that a written flow has at least one detail column. Planned flows show a Planned tag and an outline note, and drop the empty label column. About counts written and planned flows. Flows are exported as `flows` and `flow_steps`.
 - Storage prefix stays `mudmap:` so the shared test suites run unchanged (different site, different browser storage, no clash).
 
 ## Open questions
@@ -89,6 +92,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Outside sources (2026-10-25):** ideas from paid or copyrighted material can be used only in our own words, structure and names, with public cases, credited as `Study notes`. The source's wording, images and named metrics are never used; `test_backstops` guards the bank-failure material.
 - **Coverage, defined honestly (2026-10-26):** coverage % = mapped modules ÷ in-scope modules. Out-of-scope modules aren't counted; partly mapped modules are shown but not counted; placeholders count as not mapped. "Mapped" means at least one page covers the module's core idea, so pages per module are shown beside it to keep thin modules visible.
 - **Failure ladder as data (2026-10-26):** rungs are explicit (`rung:` on the page), not "children of the hub", because two rungs live elsewhere on the tree. Store × rung is many-to-many, stored once as `fails_at` on each store and inverted by the build. Every link is grounded in the rung page's own text; three pages gained a sentence to make that true (Stablecoins, When Banks Fail, Confiscation). The view says plainly that more rungs means more institutions, not more risk, and shows each store's own killer beside its row.
+- **Outline flows, not empty placeholders (2026-10-26):** a placeholder flow lists its real steps, each opening an existing page, so it's useful before it's written; an empty card would show nothing. Same idea as planned qualifications listing every module. A step linking a normal process never opens a failure page (the trade flow's clearing step opens Settlement, not Clearing House Failure).
 - **SQLite export (2026-10-26):** the build writes the map as a normalised SQLite database (lists become tables, ranges become two columns, junction tables for many-to-many) for SQL practice and reuse. It's committed and served, and byte-identical on an unchanged rebuild.
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 

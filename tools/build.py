@@ -30,6 +30,12 @@ Depth:  a "## Going deeper" heading starts an advanced block that runs to the
         end of the page; it is hidden in Core view
 Quiz:   a paragraph starting **Q:** followed by one starting **A:**
 
+Flow file format (flows/<id>.md): frontmatter (id, title, area, order, summary, optional level and
+status), intro text, one table whose first two columns are Step and Page, then outro text. Every further
+column is a detail lane in the flow view. status: planned marks an OUTLINE: Step | Page only, every step
+linked to a page, shown with a Planned tag until its detail columns are written. A written flow (the
+default) needs at least one detail column.
+
 Job file format (jobs/<id>.md) — one job on the job ladder, with its
 learning path in priority tiers:
 
@@ -296,7 +302,19 @@ def load_flows(titles):
             i += 1
         outro = lines[i:]
         sink = set()
+        status = meta.get("status", "written")
+        if status not in ("written", "planned"):
+            errors.append(f"flow {fid}: status must be written or planned")
+        # a planned flow is an outline: Step and Page only, every step linked to a page.
+        # a written flow has at least one detail column (lane).
+        if status == "planned" and lanes:
+            errors.append(f"flow {fid}: a planned flow is an outline (Step | Page only); remove its detail columns or the status")
+        if status != "planned" and not lanes:
+            errors.append(f"flow {fid}: a written flow needs at least one detail column after Step | Page (or status: planned)")
+        if status == "planned" and any(not st["page"] for st in steps):
+            errors.append(f"flow {fid}: every step of an outline must link a page")
         flows[fid] = {
+            "status": status,
             "id": fid,
             "title": meta.get("title", fid),
             "summary": meta.get("summary", ""),
@@ -534,6 +552,20 @@ CREATE TABLE fails_at (             -- junction table: which rungs can hit which
   rung_id  TEXT NOT NULL REFERENCES rungs(page_id),
   PRIMARY KEY (store_id, rung_id)
 );
+CREATE TABLE flows (               -- step-by-step walk-throughs; planned = an outline still to be written
+  id     TEXT PRIMARY KEY,
+  title  TEXT NOT NULL,
+  area   TEXT NOT NULL,              -- the heading it sits under on the Flows tab
+  status TEXT NOT NULL CHECK (status IN ('written', 'planned')),
+  sort   REAL NOT NULL
+);
+CREATE TABLE flow_steps (          -- each step of a flow, and the page it opens
+  flow_id TEXT NOT NULL REFERENCES flows(id),
+  step    INTEGER NOT NULL,         -- 1, 2, 3 ... in the order they happen
+  label   TEXT NOT NULL,
+  page_id TEXT REFERENCES pages(id),   -- NULL if the step opens no page
+  PRIMARY KEY (flow_id, step)
+);
 CREATE TABLE quals (
   id     TEXT PRIMARY KEY,
   title  TEXT NOT NULL,
@@ -560,7 +592,7 @@ CREATE TABLE module_pages (         -- junction table: pages that cover each mod
 """
 
 
-def write_sqlite(pages, rung_ids, quals):
+def write_sqlite(pages, rung_ids, quals, flows):
     """Write the map as a SQLite database (and the same database as SQL text). Rebuilt from scratch every
     time, rows inserted in a fixed order, so an unchanged map gives an unchanged file. Returns row counts."""
     import sqlite3
@@ -587,6 +619,9 @@ def write_sqlite(pages, rung_ids, quals):
     rows("store_traits", sorted({(i, t) for i in stores for t in pages[i]["traits"]}))
     rows("rungs", [(r, pages[r]["rung"], pages[r]["rungName"], pages[r]["backstop"]) for r in rung_ids])
     rows("fails_at", [(i, r) for i in stores for r in pages[i]["failsAt"]])
+    fids = sorted(flows, key=lambda f: (flows[f]["order"], f))
+    rows("flows", [(f, flows[f]["title"], flows[f]["area"], flows[f]["status"], flows[f]["order"]) for f in fids])
+    rows("flow_steps", [(f, n, st["label"], st["page"]) for f in fids for n, st in enumerate(flows[f]["steps"], 1)])
     qids = sorted(quals, key=lambda q: quals[q]["order"])
     rows("quals", [(q, quals[q]["title"], quals[q]["short"], quals[q]["status"], quals[q]["order"]) for q in qids])
     code = lambda s: re.split(r"\s+[—–-]\s+", s["title"])[0]
@@ -814,10 +849,12 @@ def main():
         "window.MUDMAP = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n",
         encoding="utf-8",
     )
-    tables = write_sqlite(pages, rung_ids, quals)
+    tables = write_sqlite(pages, rung_ids, quals, flows)
     stubs = sum(1 for p in pages.values() if p["stub"])
     adv = len(ADVANCED); deeper = sum(1 for p in pages.values() if p["deep"])
-    print(f"Built data.js: {len(pages)} pages ({len(pages) - stubs} written, {stubs} stubs), {len(flows)} flows")
+    planned = sum(1 for f in flows.values() if f["status"] == "planned")
+    print(f"Built data.js: {len(pages)} pages ({len(pages) - stubs} written, {stubs} stubs), "
+          f"{len(flows)} flows ({len(flows) - planned} written, {planned} planned)")
     print(f"  Core: {len(pages) - adv} pages · Everything adds {adv} advanced pages and {deeper} 'Going deeper' blocks")
     for r in sorted(roles.values(), key=lambda r: r["order"]):
         core = sum(1 for x in r["pages"] if x not in ADVANCED)
