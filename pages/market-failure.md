@@ -15,7 +15,7 @@ backstop: Central bank buying; time
 The **market**: the place where you can sell. A share or bond is only worth what someone will pay. If the exchange shuts, if a whole market is forced to sell at once, or if the system it belongs to disappears, the price on your statement stops meaning anything.
 
 ## The backstop
-- **Central banks** can buy assets to stop a fire sale. See [[lender-of-last-resort]].
+- **Central banks** can buy assets to stop a fire sale, standing in for dealers who are already full. See [[lender-of-last-resort]] and [[market-making]].
 - **Circuit breakers and closures** pause trading to stop panic. See [[exchanges]].
 - **Time.** Most markets that fell have eventually recovered, though sometimes over decades.
 

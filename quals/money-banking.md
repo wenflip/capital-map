@@ -21,8 +21,8 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 - [[lender-of-last-resort]] — the central bank as the backstop for the clearing system
 
 ## MB3 — Banking as market making
+- [[market-making]] — dealers, inventory and the price of immediacy
 - [[liquidity]] — market liquidity: dealers absorbing imbalances for a price
-> Partly mapped: dealers and market making need a page of their own (Markets & Plumbing).
 
 ## MB4 — International money and banking
 - [[eurodollars]] — the offshore dollar system

@@ -16,6 +16,7 @@ Most of the time this plumbing is invisible, which is the point: it lets million
 
 ## How it works
 - [[exchanges]] — where buy and sell orders meet, and how prices are set.
+- [[market-making]] — the dealers who stand ready to buy and sell, and why liquidity vanishes when they step back.
 - [[brokers]] — the firm that takes your orders and holds your account.
 - [[settlement]] — how a trade becomes final, and the clearing house that guarantees it.
 - [[custody]] — who actually holds the asset, and what you really own.

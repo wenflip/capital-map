@@ -39,7 +39,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | Putting it together | Derivatives | **Written.** Futures, options, swaps, perpetuals, leverage |
 | Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, rebalancing, market regimes |
 | Putting it together | When Things Fail | **Written.** The failure ladder hub and ten rungs: broker, insurer, clearing house, ratings, capital controls, confiscation, financial repression, currency, sovereign default, the market itself. The bank and stablecoin rungs link to Backstops and Stablecoins |
-| How it runs | Markets & Plumbing | **Written.** Exchanges, brokers, custody, settlement |
+| How it runs | Markets & Plumbing | **Written.** Exchanges, dealers and market making, brokers, custody, settlement |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
 
@@ -53,7 +53,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - **Cartography of Wealth:** the model page in Foundation, plus a dedicated **Cartography view** (`#/cartography`): the twelve stores on a two-axis chart, filterable by tier and by kind of killer.
 - **Failures view** (`#/failures`): the twelve-rung ladder from top to bottom, each rung with its backstop and the stores it can hit, then a **store × rung matrix** with each store's own killer beside it. Store and rung pages show the same links in their panels.
 - **Regimes:** a page for now (Market Regimes).
-- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. The tab shows **coverage**: mapped modules out of in-scope modules, per qualification and overall (51% at launch; 48% once two thin modules were marked partly mapped; 49% once Swaps fully mapped Money & Banking MB5), with pages per module. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
+- **Quals:** live. Nine on the page from the start: CFA Levels I, II and III (core plus the Portfolio Management pathway), Mehrling's *Economics of Money and Banking*, FRM Parts I and II, CAIA Levels I and II, and Princeton's *Bitcoin and Cryptocurrency Technologies*. CFA I, Money & Banking, CAIA I, CAIA II and Princeton are mapped; CFA II, CFA III and FRM I–II are placeholders. Ethics modules are listed but out of scope. The tab shows **coverage**: mapped modules out of in-scope modules, per qualification and overall (51% at launch; 48% once two thin modules were marked partly mapped; 49% once Swaps fully mapped Money & Banking MB5; 51% once Dealers and Market Making completed Money & Banking), with pages per module. Left out on purpose: CMT (charting only), CFP (advice and planning), CIPM (too narrow), the CFA Level III Private Wealth and Private Markets pathways.
 - **Jobs:** not used. The engine supports them, but the tab stays hidden (see Decided since).
 
 ## Engine changes from The Supply Map
