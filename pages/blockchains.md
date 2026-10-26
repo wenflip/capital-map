@@ -18,6 +18,7 @@ Three ideas explain almost everything:
 - [[consensus]] — how thousands of strangers agree on one history, and what it costs to cheat.
 - [[keys-and-wallets]] — what you actually own: a secret key that lets you move coins recorded on the ledger.
 - [[forks]] — what happens when the rules change, or someone copies the whole ledger onto a new chain.
+- [[privacy-and-traceability]] — why a public ledger is pseudonymous, not anonymous, and how coins get linked back to people.
 
 | Part | What it does |
 |---|---|

@@ -11,7 +11,7 @@ It lays the whole system out as one connected map. Each concept has one page. Ev
 ## What it is
 - **One system, several lenses.** The tree sorts things by what they *are*. The [[cartography-of-wealth]] sorts stores of wealth by what can *kill* them. Flows show how money *moves*. All three point at the same pages.
 - **Concepts, not tips.** Each page explains what something is, why it exists, how it works and what goes wrong.
-- **Built to last.** Pages avoid prices, dates and forecasts, so they don't go out of date.
+- **Built to last.** Pages avoid live prices and forecasts. Dated figures are history, such as a crash or a rule change, credited to their source.
 
 ## What it isn't
 - **Not financial advice.** Nothing here tells you what to buy, sell or hold. It explains how things work so you can judge for yourself.
