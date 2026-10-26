@@ -64,6 +64,8 @@
   const QUALS = DATA.quals || {};
   const QS = DATA.questions || {};           // plain-language questions (the Start view)
   const QGROUPS = DATA.questionGroups || [];
+  const SPATHS = DATA.paths || {};          // beginner reading paths (the Start view)
+  const spathPages = (id) => SPATHS[id].stages.flatMap((s) => s.items.map((it) => it.page));
   const FOCUS = Object.assign({}, ROLES, QUALS);   // focus can be a job role or a qualification
   const isQual = (id) => !!QUALS[id];
   const roleIds = Object.keys(ROLES).sort((a, b) => ROLES[a].level - ROLES[b].level || ROLES[a].order - ROLES[b].order);
@@ -152,7 +154,7 @@
     if (view === "flows" && parts[1] && parts[1] !== "p" && DATA.flows[parts[1]]) flow = parts[1];
     if (view === "jobs" && parts[1] && parts[1] !== "p" && ROLES[parts[1]]) path = parts[1];
     if (view === "quals" && parts[1] && parts[1] !== "p" && QUALS[parts[1]]) qual = parts[1];
-    if (view === "start" && parts[1] && parts[1] !== "p" && QS[parts[1]]) q = parts[1];
+    if (view === "start" && parts[1] && parts[1] !== "p" && (QS[parts[1]] || SPATHS[parts[1]])) q = parts[1];   // a question or a beginner path
     return { view, flow, page, path, qual, q };
   }
   function go(next, replace) {
@@ -598,6 +600,8 @@
     $$(`[data-known="${CSS.escape(c.dataset.known)}"]`).forEach((x) => { x.checked = c.checked; });
     if (parseHash().view === "map") drawMap();
     updatePathProgress();
+    updateStartProgress();
+    if (parseHash().view === "start" && SPATHS[parseHash().q] && !c.closest("#panel")) { const sc = $("#start-view .scroll"), y = sc.scrollTop; renderStart(parseHash().q); sc.scrollTop = y; }
     if (parseHash().view === "jobs" && !c.closest("#panel")) { const sc = $("#jobs-view .scroll"), y = sc.scrollTop; rerenderJobs(); sc.scrollTop = y; }
     updateModuleCounts();
   });
@@ -957,12 +961,46 @@
      ===================================================================== */
   const qOrder = () => Object.keys(QS).sort((a, b) => QGROUPS.indexOf(QS[a].group) - QGROUPS.indexOf(QS[b].group) || QS[a].order - QS[b].order || a.localeCompare(b));
   let lastStartShown = undefined;
+  const spathStats = (id) => { const ids = spathPages(id).filter(vis); return { total: ids.length, done: ids.filter((x) => known.has(x)).length }; };
+  function updateStartProgress() { $$("[data-sprogress]").forEach((el) => { el.innerHTML = bar(spathStats(el.dataset.sprogress)); }); }
+  function spathCard(id) {
+    const x = SPATHS[id];
+    return `<a class="flow-card spath-card" data-question="${id}"><h3>${esc(x.title)}</h3><p>${esc(x.summary)}</p><div class="meta" data-sprogress="${id}">${bar(spathStats(id))}</div></a>`;
+  }
+  function renderSpath(id) {
+    const x = SPATHS[id], items = x.stages.flatMap((s) => s.items);
+    const next = items.find((it) => vis(it.page) && !known.has(it.page));
+    const list = items.map((it, i) => {
+      const pg = P[it.page];
+      return `<li class="path-item${known.has(it.page) ? " is-known" : ""}">
+        <input type="checkbox" data-known="${it.page}" ${known.has(it.page) ? "checked" : ""} aria-label="I've read ${esc(pg.title)}">
+        <span class="pi-n">${i + 1}</span>
+        <a data-page="${it.page}" class="pi-title"><span class="dot" style="background:${col(it.page)}"></span>${esc(pg.title)}</a>
+        <span class="pi-note">${it.note}</span></li>`;
+    }).join("");
+    return `<a class="back" data-question="">← Start</a>
+      <h1 class="view-title">${esc(x.title)}</h1>
+      <div class="content path-intro">${x.intro}</div>
+      <div class="path-actions">
+        ${next ? `<a class="btn primary" data-page="${next.page}">${items.some((it) => known.has(it.page)) ? "Continue" : "Start"}: ${esc(P[next.page].title)} →</a>` : `<span class="btn ghost">✓ You've ticked every page on this path</span>`}
+        <div class="path-progress" data-sprogress="${id}">${bar(spathStats(id))}</div>
+      </div>
+      <ol class="path-list spath-list">${list}</ol>
+      <p class="mod-note start-more">Finished? Try <a data-question="">a question</a>, or explore <a data-view="map">the map</a>.</p>`;
+  }
   function renderStart(qid) {
     const body = $("#start-body"), scroller = body.parentElement;
+    if (qid && SPATHS[qid]) {
+      body.innerHTML = renderSpath(qid);
+      if (lastStartShown !== qid) scroller.scrollTop = 0;
+      lastStartShown = qid;
+      return;
+    }
     if (!qid) {
       const ids = qOrder();
       body.innerHTML = `<h1 class="view-title">Start here</h1>
         <p class="view-sub">Bring the question you came with. Each answer is short and plain, and points to the pages that explain it properly. Nothing here tells you what to buy or sell.</p>` +
+        (Object.keys(SPATHS).length ? `<h2 class="section flow-area">New to all of this?</h2><div class="flow-cards">${Object.keys(SPATHS).sort((a, b) => SPATHS[a].order - SPATHS[b].order).map(spathCard).join("")}</div>` : "") +
         QGROUPS.map((g) => {
           const qs = ids.filter((q) => QS[q].group === g);
           return qs.length ? `<h2 class="section flow-area">${esc(g)}</h2><div class="flow-cards q-cards">${qs.map((q) =>
@@ -1232,6 +1270,7 @@
     hideWelcome();
     const where = a.dataset.wc;
     if (where === "map") { if (parseHash().view !== "map" || parseHash().page) go({ view: "map", flow: null, path: null, qual: null, page: null }); }
+    else if (where === "path") go({ view: "start", q: (a.getAttribute("href") || "").split("/")[2] || null, page: null, flow: null, path: null, qual: null });
     else if (where === "flow") go({ view: "flows", flow: (a.getAttribute("href") || "").split("/")[2] || null, page: null });  // flow id comes from the link, not hard-coded
     else go({ view: where, flow: null, path: null, qual: null, q: null, page: null });
   });
