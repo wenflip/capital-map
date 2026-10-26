@@ -720,7 +720,9 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
-   "answers": [],
+   "answers": [
+    "bond-what"
+   ],
    "backlinks": [
     "bonds",
     "duration",
@@ -813,7 +815,9 @@ window.MUDMAP = {
      "m": "MB5 — Banking as advance clearing: swaps and capital markets"
     }
    ],
-   "answers": [],
+   "answers": [
+    "bond-what"
+   ],
    "backlinks": [
     "backstops",
     "bank-sovereign-loop",
@@ -1023,7 +1027,8 @@ window.MUDMAP = {
     }
    ],
    "answers": [
-    "broker-bust"
+    "broker-bust",
+    "own-shares"
    ],
    "backlinks": [
     "account-types",
@@ -1102,7 +1107,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "answers": [
-    "country-broke"
+    "country-broke",
+    "gov-take"
    ],
    "backlinks": [
     "currency-failure",
@@ -1249,7 +1255,11 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "answers": [],
+   "answers": [
+    "spread-out",
+    "gov-take",
+    "wipe-out"
+   ],
    "backlinks": [
     "asset-allocation",
     "backstops",
@@ -1364,7 +1374,8 @@ window.MUDMAP = {
    ],
    "answers": [
     "cash-safe",
-    "prices-rise"
+    "prices-rise",
+    "my-inflation"
    ],
    "backlinks": [
     "bank-deposits",
@@ -1581,7 +1592,9 @@ window.MUDMAP = {
      "m": "MB1 — The money view and balance sheets"
     }
    ],
-   "answers": [],
+   "answers": [
+    "own-shares"
+   ],
    "backlinks": [
     "bonds",
     "capital-system",
@@ -1744,6 +1757,7 @@ window.MUDMAP = {
     }
    ],
    "answers": [
+    "gold-why",
     "bitcoin-worth"
    ],
    "backlinks": [
@@ -1947,7 +1961,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "answers": [
-    "fees-cost"
+    "fees-cost",
+    "leverage-why"
    ],
    "backlinks": [
     "account-types",
@@ -2010,7 +2025,8 @@ window.MUDMAP = {
    ],
    "answers": [
     "save-or-invest",
-    "fees-cost"
+    "fees-cost",
+    "index-fund"
    ],
    "backlinks": [
     "financial-repression",
@@ -2090,7 +2106,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "answers": [],
+   "answers": [
+    "gov-take"
+   ],
    "backlinks": [
     "failure-modes"
    ],
@@ -2228,7 +2246,9 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
-   "answers": [],
+   "answers": [
+    "spread-out"
+   ],
    "backlinks": [
     "cartography-of-wealth",
     "credit-risk",
@@ -2297,7 +2317,9 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
-   "answers": [],
+   "answers": [
+    "bond-what"
+   ],
    "backlinks": [
     "bonds",
     "derivatives",
@@ -2519,7 +2541,8 @@ window.MUDMAP = {
    "jobs": [],
    "quals": [],
    "answers": [
-    "broker-bust"
+    "broker-bust",
+    "own-shares"
    ],
    "backlinks": [
     "broker-failure",
@@ -2905,7 +2928,11 @@ window.MUDMAP = {
      "m": "CAIA2-AA — Asset Allocation and Institutional Investors"
     }
    ],
-   "answers": [],
+   "answers": [
+    "index-fund",
+    "spread-out",
+    "wipe-out"
+   ],
    "backlinks": [
     "asset-allocation",
     "cartography-of-wealth",
@@ -2979,7 +3006,9 @@ window.MUDMAP = {
      "m": "CAIA1-RMPM — Risk Management and Portfolio Management"
     }
    ],
-   "answers": [],
+   "answers": [
+    "leverage-why"
+   ],
    "backlinks": [
     "bitcoin",
     "charting",
@@ -3335,7 +3364,10 @@ window.MUDMAP = {
    ],
    "jobs": [],
    "quals": [],
-   "answers": [],
+   "answers": [
+    "spread-out",
+    "wipe-out"
+   ],
    "backlinks": [],
    "backlinksAdv": []
   },
@@ -3819,7 +3851,8 @@ window.MUDMAP = {
     }
    ],
    "answers": [
-    "fees-cost"
+    "fees-cost",
+    "index-fund"
    ],
    "backlinks": [
     "broker-failure",
@@ -3974,7 +4007,10 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "answers": [],
+   "answers": [
+    "gold-why",
+    "gov-take"
+   ],
    "backlinks": [
     "bitcoin",
     "broker-failure",
@@ -4130,7 +4166,8 @@ window.MUDMAP = {
     }
    ],
    "answers": [
-    "money-from"
+    "money-from",
+    "gold-why"
    ],
    "backlinks": [
     "backstops",
@@ -4274,7 +4311,9 @@ window.MUDMAP = {
    "children": [],
    "jobs": [],
    "quals": [],
-   "answers": [],
+   "answers": [
+    "wipe-out"
+   ],
    "backlinks": [
     "account-types",
     "asset-allocation",
@@ -4339,7 +4378,9 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "answers": [],
+   "answers": [
+    "index-fund"
+   ],
    "backlinks": [
     "diversification",
     "equities",
@@ -4398,7 +4439,9 @@ window.MUDMAP = {
      "m": "CFA1-FI — Fixed Income"
     }
    ],
-   "answers": [],
+   "answers": [
+    "my-inflation"
+   ],
    "backlinks": [
     "bonds",
     "financial-repression",
@@ -4467,7 +4510,9 @@ window.MUDMAP = {
    ],
    "answers": [
     "cash-safe",
-    "prices-rise"
+    "gold-why",
+    "prices-rise",
+    "my-inflation"
    ],
    "backlinks": [
     "bonds",
@@ -4748,7 +4793,9 @@ window.MUDMAP = {
      "m": "CAIA1-PE — Private Equity"
     }
    ],
-   "answers": [],
+   "answers": [
+    "leverage-why"
+   ],
    "backlinks": [
     "brokers",
     "commodities",
@@ -6728,7 +6775,9 @@ window.MUDMAP = {
      "m": "CFA1-EQ — Equities"
     }
    ],
-   "answers": [],
+   "answers": [
+    "own-shares"
+   ],
    "backlinks": [
     "backstops",
     "broker-failure",
@@ -7243,7 +7292,8 @@ window.MUDMAP = {
     }
    ],
    "answers": [
-    "cash-safe"
+    "cash-safe",
+    "bond-what"
    ],
    "backlinks": [
     "bonds",
@@ -9699,6 +9749,32 @@ window.MUDMAP = {
     }
    ]
   },
+  "bond-what": {
+   "id": "bond-what",
+   "question": "What is a bond, and why would anyone lend to a government?",
+   "group": "How investing works",
+   "order": 3.0,
+   "answer": "<p>A bond is a loan you can buy and sell. You lend money to a government or a company, it pays you interest along the way, and it pays the money back on a set date. A government that borrows in its own currency can always create money to pay, so its bonds are usually seen as among the safest promises there are. The catch is that if interest rates rise, older bonds that pay less are worth less if you sell early. Rising prices can also shrink what your money buys when it comes back.</p>",
+   "answerText": "A bond is a loan you can buy and sell. You lend money to a government or a company, it pays you interest along the way, and it pays the money back on a set date. A government that borrows in its own currency can always create money to pay, so its bonds are usually seen as among the safest promises there are. The catch is that if interest rates rise, older bonds that pay less are worth less if you sell early. Rising prices can also shrink what your money buys when it comes back.",
+   "route": [
+    {
+     "page": "bonds",
+     "note": "How a bond works, and whose promise it is"
+    },
+    {
+     "page": "t-bills",
+     "note": "The shortest government loans, the closest thing to cash"
+    },
+    {
+     "page": "bond-pricing",
+     "note": "Why bond prices fall when interest rates rise"
+    },
+    {
+     "page": "credit-risk",
+     "note": "What happens when a borrower can't pay"
+    }
+   ]
+  },
   "broker-bust": {
    "id": "broker-bust",
    "question": "What happens to my shares if my broker goes bust?",
@@ -9795,6 +9871,106 @@ window.MUDMAP = {
     }
    ]
   },
+  "gold-why": {
+   "id": "gold-why",
+   "question": "Why do people buy gold?",
+   "group": "How money works",
+   "order": 2.0,
+   "answer": "<p>Gold has been used as money for thousands of years. Nobody owes it to you, so it can't go bust the way a bank or a company can. People buy it to hold something outside the banking system, to store value over long periods, or because they worry about rising prices or a crisis. The trade-offs are real: it pays no income, it can lose value for decades, and physical gold can be stolen. After its 1980 high, it took until 2008 to pass that price again.</p>",
+   "answerText": "Gold has been used as money for thousands of years. Nobody owes it to you, so it can't go bust the way a bank or a company can. People buy it to hold something outside the banking system, to store value over long periods, or because they worry about rising prices or a crisis. The trade offs are real: it pays no income, it can lose value for decades, and physical gold can be stolen. After its 1980 high, it took until 2008 to pass that price again.",
+   "route": [
+    {
+     "page": "gold",
+     "note": "How gold works as money, how you can hold it, and how it has failed"
+    },
+    {
+     "page": "hierarchy-of-money",
+     "note": "Why gold sits at the base of the layers of money"
+    },
+    {
+     "page": "inflation",
+     "note": "The rising prices people often buy gold to guard against"
+    },
+    {
+     "page": "coin-value",
+     "note": "What gives value to anything nobody owes you"
+    }
+   ]
+  },
+  "gov-take": {
+   "id": "gov-take",
+   "question": "Can the government take my money or gold?",
+   "group": "When things go wrong",
+   "order": 2.0,
+   "answer": "<p>It has happened, and it can again. Governments have ordered people to hand in gold, as the US did in 1933, frozen bank accounts, limited how much money can leave the country, and taken over whole companies. This is rare in stable countries, but common across history. Things the state can see and reach, like bank accounts, property and shares in your name, are the easiest to take. That is one reason people spread what they own across different kinds of assets and places.</p>",
+   "answerText": "It has happened, and it can again. Governments have ordered people to hand in gold, as the US did in 1933, frozen bank accounts, limited how much money can leave the country, and taken over whole companies. This is rare in stable countries, but common across history. Things the state can see and reach, like bank accounts, property and shares in your name, are the easiest to take. That is one reason people spread what they own across different kinds of assets and places.",
+   "route": [
+    {
+     "page": "confiscation",
+     "note": "When a state takes or freezes assets, with real cases"
+    },
+    {
+     "page": "capital-controls",
+     "note": "Limits on moving money, and how long they last"
+    },
+    {
+     "page": "gold",
+     "note": "Why gold has been a target, and how holding it differs"
+    },
+    {
+     "page": "cartography-of-wealth",
+     "note": "Which kinds of wealth the state can see, and which it can't"
+    }
+   ]
+  },
+  "index-fund": {
+   "id": "index-fund",
+   "question": "What's an index fund, and why do people recommend them?",
+   "group": "How investing works",
+   "order": 4.0,
+   "answer": "<p>An index fund buys every company on a list, such as the biggest companies in a market, instead of picking a few. Because no one is paid to choose, it is usually cheap. People recommend them for two reasons. Low fees leave more of the return for you. And in long-running comparisons of US funds, most that tried to beat an index did not manage it once their higher fees were paid. The trade-off is that you get the whole market, falls included, with no chance of beating it.</p>",
+   "answerText": "An index fund buys every company on a list, such as the biggest companies in a market, instead of picking a few. Because no one is paid to choose, it is usually cheap. People recommend them for two reasons. Low fees leave more of the return for you. And in long running comparisons of US funds, most that tried to beat an index did not manage it once their higher fees were paid. The trade off is that you get the whole market, falls included, with no chance of beating it.",
+   "route": [
+    {
+     "page": "indices",
+     "note": "What an index is, and what it holds"
+    },
+    {
+     "page": "funds-and-etfs",
+     "note": "Index funds against funds that pick, and what each charges"
+    },
+    {
+     "page": "compounding",
+     "note": "Why a lower fee matters so much over decades"
+    },
+    {
+     "page": "diversification",
+     "note": "What owning many companies does, and doesn't, protect against"
+    }
+   ]
+  },
+  "leverage-why": {
+   "id": "leverage-why",
+   "question": "What does \"leverage\" mean, and why does it wipe people out?",
+   "group": "When things go wrong",
+   "order": 3.0,
+   "answer": "<p>Leverage means investing with borrowed money. It makes gains bigger, and losses bigger too. With twice your own money invested, a 50% fall wipes you out; with ten times, a 10% fall does. Lenders usually sell your investments before that point, often at the worst moment, so you can't wait for prices to recover. That is why falls that other investors sit through can end a borrowed position completely.</p>",
+   "answerText": "Leverage means investing with borrowed money. It makes gains bigger, and losses bigger too. With twice your own money invested, a 50% fall wipes you out; with ten times, a 10% fall does. Lenders usually sell your investments before that point, often at the worst moment, so you can't wait for prices to recover. That is why falls that other investors sit through can end a borrowed position completely.",
+   "route": [
+    {
+     "page": "leverage",
+     "note": "How borrowing multiplies gains and losses, with the arithmetic"
+    },
+    {
+     "page": "drawdown",
+     "note": "The falls every investment goes through, and how deep they get"
+    },
+    {
+     "page": "common-mistakes",
+     "note": "The errors that cost the most"
+    }
+   ]
+  },
   "money-from": {
    "id": "money-from",
    "question": "Where does money actually come from?",
@@ -9818,6 +9994,54 @@ window.MUDMAP = {
     {
      "page": "hierarchy-of-money",
      "note": "How the layers of money stack up"
+    }
+   ]
+  },
+  "my-inflation": {
+   "id": "my-inflation",
+   "question": "Is the official inflation rate the same as my own?",
+   "group": "Why do prices rise?",
+   "order": 2.0,
+   "answer": "<p>Not exactly. The official rate tracks the cost of a typical basket of goods and services, averaged across many households. Your own spending is different. If you spend more than average on rent, fuel or food, your costs can rise faster or slower than the official number. The official rate is a useful guide to the whole economy, but your own inflation depends on what you buy.</p>",
+   "answerText": "Not exactly. The official rate tracks the cost of a typical basket of goods and services, averaged across many households. Your own spending is different. If you spend more than average on rent, fuel or food, your costs can rise faster or slower than the official number. The official rate is a useful guide to the whole economy, but your own inflation depends on what you buy.",
+   "route": [
+    {
+     "page": "inflation",
+     "note": "How inflation is measured, and who wins and loses"
+    },
+    {
+     "page": "cash-and-fiat",
+     "note": "Why savings in cash fall behind when prices rise"
+    },
+    {
+     "page": "inflation-linked-bonds",
+     "note": "Bonds whose payments rise with the official rate"
+    }
+   ]
+  },
+  "own-shares": {
+   "id": "own-shares",
+   "question": "Do I really own the shares in my account?",
+   "group": "Is my money safe?",
+   "order": 4.0,
+   "answer": "<p>Yes, but usually not directly. Your shares are normally held in your broker's name, or by a firm it uses, on your behalf, and the broker's records show which ones are yours. This is the normal way shares are held. It works well as long as each firm keeps customers' shares apart from its own. What you own is a claim at the end of a chain of firms, so it is worth knowing how your broker holds them.</p>",
+   "answerText": "Yes, but usually not directly. Your shares are normally held in your broker's name, or by a firm it uses, on your behalf, and the broker's records show which ones are yours. This is the normal way shares are held. It works well as long as each firm keeps customers' shares apart from its own. What you own is a claim at the end of a chain of firms, so it is worth knowing how your broker holds them.",
+   "route": [
+    {
+     "page": "shares",
+     "note": "What owning a share gives you"
+    },
+    {
+     "page": "custody",
+     "note": "The chain of firms that holds your shares for you"
+    },
+    {
+     "page": "brokers",
+     "note": "How your broker holds your account, and what protects it"
+    },
+    {
+     "page": "claims-and-liabilities",
+     "note": "Why so much of what you own is someone else's promise"
     }
    ]
   },
@@ -9873,6 +10097,32 @@ window.MUDMAP = {
     }
    ]
   },
+  "spread-out": {
+   "id": "spread-out",
+   "question": "Why does spreading my money around matter, and when does it fail?",
+   "group": "How investing works",
+   "order": 5.0,
+   "answer": "<p>Spreading your money means one bad event can't take all of it. It works when the things you own fail for different reasons: a bank failure, a fall in shares and a rise in prices don't usually hit everything at once. It fails when they fall together. In a crisis, many things that normally move apart can suddenly drop at the same time. So it helps to count what could hurt each thing you own, not just how many things you own.</p>",
+   "answerText": "Spreading your money means one bad event can't take all of it. It works when the things you own fail for different reasons: a bank failure, a fall in shares and a rise in prices don't usually hit everything at once. It fails when they fall together. In a crisis, many things that normally move apart can suddenly drop at the same time. So it helps to count what could hurt each thing you own, not just how many things you own.",
+   "route": [
+    {
+     "page": "diversification",
+     "note": "Spreading across things that fail for different reasons"
+    },
+    {
+     "page": "correlation",
+     "note": "How closely things move together, and why that rises in a crisis"
+    },
+    {
+     "page": "cartography-of-wealth",
+     "note": "What is most likely to kill each kind of wealth"
+    },
+    {
+     "page": "failure-modes",
+     "note": "The layers that can fail, and which ones your holdings share"
+    }
+   ]
+  },
   "stablecoin-safe": {
    "id": "stablecoin-safe",
    "question": "Is a stablecoin as safe as a dollar in the bank?",
@@ -9894,6 +10144,32 @@ window.MUDMAP = {
      "note": "Holding crypto through an exchange, and what you really own"
     }
    ]
+  },
+  "wipe-out": {
+   "id": "wipe-out",
+   "question": "What could wipe out my savings?",
+   "group": "When things go wrong",
+   "order": 4.0,
+   "answer": "<p>There is no single answer, because it depends on what you own. Every kind of wealth has something that can kill it: theft for gold, a failed firm for money held with it, rising prices for cash, illness for your ability to earn. The real danger is having everything exposed to the same one. A spread across things that fail for different reasons is much harder to wipe out than any single choice.</p>",
+   "answerText": "There is no single answer, because it depends on what you own. Every kind of wealth has something that can kill it: theft for gold, a failed firm for money held with it, rising prices for cash, illness for your ability to earn. The real danger is having everything exposed to the same one. A spread across things that fail for different reasons is much harder to wipe out than any single choice.",
+   "route": [
+    {
+     "page": "cartography-of-wealth",
+     "note": "What is most likely to kill each kind of wealth"
+    },
+    {
+     "page": "diversification",
+     "note": "Spreading across things that fail for different reasons"
+    },
+    {
+     "page": "failure-modes",
+     "note": "The layers between you and your wealth, and where protection runs out"
+    },
+    {
+     "page": "human-capital",
+     "note": "Your ability to earn, the wealth most people overlook"
+    }
+   ]
   }
  },
  "questionGroups": [
@@ -9904,5 +10180,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-26 09:02 UTC"
+ "built": "2026-10-26 09:13 UTC"
 };
