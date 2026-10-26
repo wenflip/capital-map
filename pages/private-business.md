@@ -9,7 +9,7 @@ killer: concentration and management — one decision or key-person event ends i
 traits: semi-legible, highest upside, hard to sell
 place: 44, 62
 killer_kind: Concentration
-sources: US Bureau of Labor Statistics, The Economics Daily (2024): establishment survival
+sources: US Bureau of Labor Statistics, The Economics Daily (2024): establishment survival; Carillion liquidation (January 2018) reporting
 ---
 ## What it is
 A **private business** is a company whose shares aren't listed on a stock exchange. You might own one by:
@@ -48,6 +48,11 @@ A **private business** is a company whose shares aren't listed on a stock exchan
 - [[valuation]] — how buyers put a price on it.
 - [[human-capital]] and [[social-capital]] — what most small businesses are made of.
 - [[leverage]] — how private equity boosts its returns, and its risks.
+
+## How it has failed
+- **Most don't last.** Of US business locations opened in March 2013, only 34.7% were still operating ten years later.
+- **A big customer fails.** When the UK construction company Carillion went into liquidation in January 2018, around 30,000 suppliers were owed about £1 billion. Small firms that depended on it lost their main customer and their unpaid invoices together.
+- **The owner leaves.** Many small businesses can't be sold because much of their value walks out of the door with the owner.
 
 ## Check yourself
 

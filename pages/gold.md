@@ -10,6 +10,7 @@ killer: physical theft — the simplest attack on a bearer asset
 traits: private, no yield, bearer, transferable
 place: 72, 24
 killer_kind: Theft and self-error
+sources: LBMA, Echoes of the '80s: gold prices and inflation then and now
 ---
 ## What it is
 A metal that has been used as money for thousands of years. Physical gold is a **bearer asset**: whoever holds it owns it, and no one owes it to you. Central banks still hold large gold reserves alongside their own currencies.
@@ -32,7 +33,7 @@ Physical gold sits in **Tier 2** of the [[cartography-of-wealth|Cartography of W
 
 ## What goes wrong
 - **Theft.** A bearer asset has no recourse desk.
-- **Confiscation.** In 1933 the United States required citizens to hand in most private gold holdings.
+- **Confiscation.** Governments have seized private gold before; see below.
 - **No yield.** Gold pays nothing while you hold it, and storage costs money.
 - **Long flat periods.** Gold has gone many years without rising in real terms.
 
@@ -41,3 +42,14 @@ Physical gold sits in **Tier 2** of the [[cartography-of-wealth|Cartography of W
 ## Related
 - As an industrial and traded commodity, see [[commodities]].
 - For its place in the layers of money, see [[hierarchy-of-money]].
+
+## How it has failed
+- **Confiscation, 1933.** A US executive order (6102) required citizens to hand in most gold coins, bullion and certificates to the Federal Reserve at a fixed price. The dollar was then devalued against gold, so those who complied lost out.
+- **A long wait, 1980–2008.** Gold briefly hit $850 an ounce in January 1980 and didn't pass that level again until 2008. Adjusted for inflation, it didn't set a new high until 2025.
+- **No income while you wait.** Through those decades gold paid nothing, while bonds and shares paid interest and dividends.
+
+## Check yourself
+
+**Q:** Gold is nobody's liability, so it can't default. Name two ways holders have still lost out.
+
+**A:** For example: it was confiscated in the United States in 1933, and it took from 1980 to 2008 to regain its nominal price peak, paying no income along the way.

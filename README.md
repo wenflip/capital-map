@@ -19,7 +19,8 @@ All content is Markdown:
 |---|---|
 | `pages/` | One concept per file. Frontmatter sets its place on the map (`parent`, `order`). |
 | `flows/` | Step-by-step walk-throughs. One table whose first two columns are `Step` and `Page`. |
-| `jobs/`, `quals/` | Empty for now. |
+| `quals/` | One qualification per file: its modules, each mapped to the pages that cover it. See *Qualifications* below. |
+| `jobs/` | Empty. The engine supports job paths; the tab stays hidden until there is content. |
 | `about.md`, `privacy.md` | Site pages. |
 
 After any change, rebuild the data file:

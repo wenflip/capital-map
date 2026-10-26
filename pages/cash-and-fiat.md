@@ -12,6 +12,7 @@ traits: spans private and legible, negative real yield
 place: 58, 50
 span: 36, 63
 killer_kind: Inflation
+sources: Hyperinflation in the Weimar Republic; Steve Hanke, Zimbabwe hyperinflation estimates
 ---
 ## What it is
 **Fiat** money is currency that a government declares legal tender and that can't be exchanged for a fixed amount of anything else. Nearly every national currency today is fiat.
@@ -34,6 +35,12 @@ Cash straddles the line on the [[cartography-of-wealth|Cartography of Wealth]]:
 - **Capital controls** can limit how much you withdraw or move abroad.
 
 > **Key rule:** cash is the best tool for spending and short-term safety, and one of the worst for storing wealth over decades.
+
+## How it has failed
+- **Germany, 1923.** In the Weimar hyperinflation, prices rose so fast that by November 1923 one US dollar bought about 4.2 trillion marks. Savings held in marks were wiped out.
+- **Zimbabwe, 2008.** Inflation peaked at an estimated tens of billions of percent a month. The country abandoned its own currency in 2009.
+- **Venezuela, 2008–21.** The bolívar was redenominated three times, removing three, then five, then six zeros.
+- **The slow version.** Even in stable countries, moderate inflation compounds: a currency can lose most of its buying power over a lifetime without a crisis.
 
 ## Check yourself
 

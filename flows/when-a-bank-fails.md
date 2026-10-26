@@ -13,7 +13,7 @@ summary: Follow a bank failure through each backstop, from the bank's own capita
 |---|---|---|---|---|
 | The bank takes losses or faces a run | [[bank-capital-and-liquidity]] | The bank's own capital and liquid assets | Losses bigger than its capital; a run faster than it can raise cash | Silicon Valley Bank, 2023: bond losses and a run in a day |
 | The central bank lends | [[lender-of-last-resort]] | Emergency loans while the bank is only short of cash | The bank is insolvent, not just short of cash | — |
-| Losses go to the bank's investors | [[bail-in]] | Shareholders, then bondholders, then large depositors | A bail-in big enough to reach deposits | Credit Suisse, 2023: riskiest bonds written to zero |
+| Losses go to the bank's investors | [[bail-in]] | Shareholders, then bondholders, then large depositors | A bail-in big enough to reach deposits | Credit Suisse, 2023: riskiest bonds written to zero (later ruled unlawful by a Swiss court; under appeal) |
 | Insured deposits are repaid | [[deposit-insurance]] | The deposit insurance fund, up to the limit | Many failures at once; deposits above the limit | Cyprus, 2013: insured deposits safe, large deposits hit |
 | The government steps in | [[bank-sovereign-loop]] | Public money, and the government standing behind the fund | A banking system bigger than the state; a state that can't borrow | Iceland, 2008: too big to rescue · Lebanon, from 2019: deposits frozen |
 

@@ -47,6 +47,11 @@ A 20% deposit turns a 10% price move into a 50% move on your money. That is befo
 - [[real-assets]] — the branch this sits in.
 - [[credit-risk]] — mortgages are the largest loans most banks make.
 
+## How it has failed
+- **Japan after 1990.** When Japan's property bubble burst in the early 1990s, commercial land prices in its big cities kept falling until the mid-2000s.
+- **The US, 2006–12.** House prices fell by roughly a quarter to a third nationally, and millions of homes were lost to foreclosure.
+- **The state's claim never stops.** Property taxes are due every year whatever the market does, and land can be compulsorily purchased, rezoned or seized, because it can't be moved.
+
 ## Check yourself
 
 **Q:** With a 25% deposit, roughly what happens to your equity if the property's price falls 25%?

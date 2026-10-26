@@ -9,7 +9,7 @@ killer: death or incapacity — it can't be transferred, so it ends with you
 traits: hidden, regenerates all others, not inheritable
 place: 6, 7
 killer_kind: Personal
-sources: Gary S. Becker, Human Capital (1964)
+sources: Gary S. Becker, Human Capital (1964); US Social Security Administration, disability facts; The Conversation, The life and death of King Coal (2015)
 ---
 ## What it is
 **Human capital** is the value of what you can do: your skills, knowledge, health, energy and judgment. Economists measure it as the present value of the income those abilities are likely to earn over your working life. The term was made popular by the economist Gary Becker in the 1960s.
@@ -35,6 +35,11 @@ sources: Gary S. Becker, Human Capital (1964)
 - [[social-capital]] — the other half of tier 1.
 - [[time-value-of-money]] — future earnings are worth less today the further away they are.
 - [[diversification]] — invest away from the risks your job already carries.
+
+## How it has failed
+- **Disability.** The US Social Security Administration estimates that more than one in four 20-year-olds will become disabled before reaching retirement age.
+- **Skills made obsolete.** Whole occupations, such as typesetters and switchboard operators, have largely disappeared as technology changed; workers had to retrain or lose income.
+- **One-industry towns.** Britain's coal industry employed nearly 1.1 million people in 1913; its last deep mine, Kellingley, closed in December 2015. When a region's main industry closes, skills built for it can lose much of their value at once.
 
 ## Check yourself
 

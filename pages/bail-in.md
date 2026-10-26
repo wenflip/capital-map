@@ -6,6 +6,7 @@ parent: backstops
 order: 3
 summary: Rescuing a failing bank with its own investors' and large depositors' money instead of taxpayers', in a set order.
 tags: money, banking, resolution
+sources: Swiss Federal Administrative Court, AT1 ruling (October 2025), via JURIST; Legal500, Federal Supreme Court to review FINMA write-off (March 2026)
 ---
 ## What it is
 A **bail-out** rescues a bank with public money. A **bail-in** rescues it by imposing the losses on the bank's own investors and creditors: their claims are written down or turned into shares until the bank has enough capital again.
@@ -29,7 +30,7 @@ The exact order varies by country and by the bank's own legal terms.
 
 **Real cases:**
 - **Cyprus, 2013.** At Bank of Cyprus, 47.5% of large deposits above the €100,000 insured limit were turned into shares; at the second large bank, uninsured depositors bore most of the losses. Insured deposits were protected.
-- **Credit Suisse, 2023.** In a government-arranged takeover by UBS, about 16 billion Swiss francs of the bank's riskiest bonds were written to zero, while shareholders still received something — a controversial break with the usual order.
+- **Credit Suisse, 2023.** In a government-arranged takeover by UBS, about 16 billion Swiss francs of the bank's riskiest bonds (AT1 bonds) were written to zero, while shareholders still received UBS shares — a controversial break with the usual order. In October 2025 Switzerland's Federal Administrative Court ruled that the write-off lacked a sufficient legal basis. The regulator and UBS appealed to the Federal Supreme Court, and as of early 2026 the bonds stayed written down while the appeal ran. A rule that looks clear on paper can still be tested in court for years.
 
 ## What goes wrong
 - **Large depositors are creditors**, not owners of cash in a vault. Above the insurance limit, a deposit can be bailed in.

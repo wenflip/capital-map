@@ -4,7 +4,7 @@ title: The Cartography of Wealth
 short: Cartography of Wealth
 parent: foundation
 order: 2
-summary: Ten stores of wealth mapped by how embodied in you they are and how visible to the state, and the one thing most likely to kill each.
+summary: Twelve stores of wealth mapped by how embodied in you they are and how visible to the state, and the one thing most likely to kill each.
 tags: model, risk
 sources: Study notes
 ---
@@ -25,7 +25,7 @@ Each store gets one **killer**: the single failure most likely to send it to zer
 | **2 · Private / bearer** | The state | Theft and your own mistakes, with no one to call |
 | **3 · Legible / state-visible** | Theft, via courts, police and insurance | The state itself |
 
-## The ten stores
+## The twelve stores
 
 | # | Store | Tier | Killer |
 |---|---|---|---|
@@ -35,10 +35,12 @@ Each store gets one **killer**: the single failure most likely to send it to zer
 | 4 | [[self-custody\|Self-custodied crypto]] | 2 | Key loss and protocol failure |
 | 5 | [[collectibles]] | 2 | Illiquidity and subjective value |
 | 6 | [[cash-and-fiat]] | 2–3 | Inflation |
-| 7 | [[bonds]] | 3 | Counterparty default |
-| 8 | [[shares\|Public equity]] | 3 | Custodian and market risk |
-| 9 | [[private-business]] | 3 | Concentration and management |
-| 10 | [[real-estate]] | 3 | Immobility |
+| 7 | [[bank-deposits]] | 3 | Bank failure |
+| 8 | [[custodial-crypto]] | 3 | The custodian failing |
+| 9 | [[bonds]] | 3 | Counterparty default |
+| 10 | [[shares\|Public equity]] | 3 | Custodian and market risk |
+| 11 | [[private-business]] | 3 | Concentration and management |
+| 12 | [[real-estate]] | 3 | Immobility |
 
 Pages for these stores carry their tier and killer in a box under the title. [See all of them on one chart](#/cartography), filterable by tier and by kind of killer.
 
