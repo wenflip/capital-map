@@ -133,7 +133,7 @@
     e.stopPropagation();
     const b = e.target.closest("[data-mode]"); if (b) setMode(b.dataset.mode === "simple");
     const r = e.target.closest("[data-role]"); if (r) setRole(r.dataset.role || null);
-    if (e.target.closest(".sm-about, .sm-privacy")) settingsMenu.hidden = true;   // the link navigates itself; just close the menu
+    if (e.target.closest(".sm-about, .sm-privacy, .sm-index")) settingsMenu.hidden = true;   // the link navigates itself; just close the menu
   });
   const mappedQuals = qualIds.filter((q) => QUALS[q].pages.length);   // planned placeholders can't be a focus
   $("#qual-seg").innerHTML = `<button data-role="">None</button>` + mappedQuals.map((q) => `<button data-role="${q}">${esc(QUALS[q].short)}</button>`).join("");
