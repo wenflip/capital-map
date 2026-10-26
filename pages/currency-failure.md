@@ -18,7 +18,7 @@ The **currency itself**. People stop trusting it to hold value, so they spend it
 A central bank that issues its own currency can always pay its own bills by creating more of it. Central banks have at times run for years with **negative equity**, owing more than they own on paper, and kept operating; the Bank for International Settlements notes this can be fully consistent with keeping trust in money. So a currency doesn't fail like a company, through bankruptcy. It fails when people **stop accepting it**, usually because the government has financed itself by printing far beyond what the economy can absorb.
 
 ## The backstop
-For individuals, the backstops are holdings outside that currency: other currencies, [[real-assets]], [[gold]], and businesses that earn in stronger money. Governments sometimes end a hyperinflation by tying their currency to another, introducing a new currency, or adopting another country's.
+For individuals, the backstops are holdings outside that currency: other currencies, [[real-assets]], [[gold]], and businesses that earn in stronger money. Governments sometimes end a hyperinflation by tying their currency to another (a peg; see [[exchange-rates]]), introducing a new currency, or adopting another country's.
 
 ## Where the backstop runs out
 - **Your income and debts are in the failing currency,** so moving savings doesn't protect your job or your rent.

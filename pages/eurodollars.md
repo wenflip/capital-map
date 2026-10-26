@@ -14,7 +14,7 @@ A eurodollar is a **promise by a foreign bank** to pay dollars. Such banks usual
 
 ## Why it matters
 - **Huge dollar debts outside the US.** Companies and governments around the world borrow in dollars. They must earn or buy dollars to repay, which is a large source of global demand for the currency.
-- **Dollar shortages.** In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US.
+- **Dollar shortages.** In a crisis, everyone owing dollars scrambles for them at once, and the dollar tends to rise even when the crisis started in the US. See [[exchange-rates]].
 - **Swap lines.** The US central bank can lend dollars to other central banks in emergencies, which then lend them on to their banks.
 
 ## Where it sits

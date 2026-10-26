@@ -25,6 +25,7 @@ Start with the jobs money does, then work down the layers from the most final fo
 - [[gold]] — the oldest money, and the one at the base that is nobody's liability.
 - [[central-bank-money]] — the base of the modern system: banknotes and the reserves banks hold at the central bank.
 - [[cash-and-fiat]] — government currency, why people must hold it, and its built-in bleed.
+- [[exchange-rates]] — the price of one currency in another, and what it does to anything you own abroad.
 - [[bank-deposits]] — the money most people actually hold: a bank's promise to pay.
 - [[backstops]] — what stands behind that promise when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.
 - [[liquidity]] — how much money is available to flow into assets, and how analysts track it.

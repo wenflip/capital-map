@@ -24,6 +24,7 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 - [[central-bank-money]] — monetary policy and the central bank's tools
 - [[inflation]] — price levels, real and nominal
 - [[cash-and-fiat]] — currencies and what gives them value
+- [[exchange-rates]] — quotes, cross rates, exchange-rate regimes and forward rates
 
 ## CFA1-FSA — Financial Statement Analysis
 - [[financial-statements]] — the income statement, balance sheet and cash flow statement
