@@ -8881,5 +8881,5 @@ window.MUDMAP = {
   "sovereign-default",
   "market-failure"
  ],
- "built": "2026-10-26 02:58 UTC"
+ "built": "2026-10-26 03:07 UTC"
 };

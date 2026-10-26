@@ -518,7 +518,7 @@
   }
   function rungPanel(p) {
     if (!p.rung) return "";
-    return `<div class="cart-note rung-note">
+    return `<div class="rung-note">
       <div class="cart-tier">Rung ${p.rung} of ${RUNGS.length} · ${esc(p.rungName)}</div>
       <div><b>Backstop:</b> ${esc(p.backstop)}</div>
       <div class="cart-ladder"><b>Can hit:</b> ${p.hits.length ? `<span class="chips">${p.hits.map(storeChip).join("")}</span>` : "no store on the Cartography chart."}</div>
