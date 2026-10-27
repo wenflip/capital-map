@@ -11,12 +11,15 @@ tags: mental models, thinking, decisions, consequences, second-order
 Second-order thinking is the habit of asking what happens after the first consequence. Most choices produce an immediate effect and then further effects that can reinforce, reverse or outweigh the first one.
 
 ## Why it matters
-The first effect is often the only one people notice. A tax cut raises spending this year. A price cut gains customers this month. A rule change stops the behaviour it targets. The later effects — higher interest rates, lower margins, new ways around the rule — arrive later and are easier to miss. Decisions that look good on the first effect can look different once the chain is followed.
+The first effect is often the only one people notice. A price cut wins customers. A new rule stops the behaviour it targets. The later effects, such as thinner margins or new ways around the rule, arrive later and are easier to miss. Decisions that look good on the first effect can look different once the chain is followed.
 
 ## How it works
 Start with the direct result, then ask “and then what?” at least once or twice. The second effect may be the opposite of the first. A subsidy that makes something cheaper can increase demand until the extra demand raises the price again. A safety rule that reduces one risk can create another if people take more risk elsewhere. The chain does not have to be long. One or two steps are often enough to change the judgement.
 
-**Worked example (fictional figures):** a firm cuts prices by 10% and expects volume to rise 15%. Revenue rises 3.5% (0.9 × 1.15 = 1.035). If the extra volume also raises unit costs by 5%, the net effect on profit can turn negative even though revenue rose.
+**Worked example (fictional figures):** a firm sells 1,000,000 a year and its costs are 800,000, so profit is 200,000. It cuts prices by 10% and volume rises 15%.
+- Revenue: 1,000,000 × 0.9 × 1.15 = **1,035,000**, up 3.5%. The first effect looks good.
+- Costs grow with volume, and the rush also pushes the cost of each unit up 5%: 800,000 × 1.15 × 1.05 = **966,000**.
+- Profit: 1,035,000 − 966,000 = **69,000**, about **65.5%** less than before, even though revenue rose.
 
 ## What goes wrong
 - **Stopping at the first effect.** The immediate gain is counted and the later cost is ignored.
@@ -29,6 +32,7 @@ Start with the direct result, then ask “and then what?” at least once or twi
 - [[opportunity-cost]] — the next effect is often the thing you give up.
 - [[how-markets-move]] — markets often price later effects before the first ones finish.
 - [[risk-and-return]] — the later effects change the balance of what can be gained and lost.
+- [[priced-in]] — markets often move on the expected second effect, not the first.
 
 ## Check yourself
 
@@ -36,6 +40,6 @@ Start with the direct result, then ask “and then what?” at least once or twi
 
 **A:** Whether the lower price reduces supply or increases demand enough to create shortages, queues or a black market that make the good less available for some people.
 
-**Q:** An investor sells a falling share to “stop the loss”. What later effect might matter?
+**Q:** An investor sells a falling share to “stop the loss”. What later effects are worth thinking through, whichever way they decide?
 
-**A:** Whether the sale locks in a loss that would have been temporary, and whether the money is then moved into something that performs worse.
+**A:** What the sale costs in fees and tax, where the money goes next, and whether the reason for owning the share has changed or only its price. The first effect (no further loss on that share) isn't the whole story either way.

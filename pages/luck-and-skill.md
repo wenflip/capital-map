@@ -16,7 +16,12 @@ People judge decisions by their outcomes. A fund that beat the market is called 
 ## How it works
 Ask whether the same process would be expected to produce similar results if repeated. In a coin toss the process has no skill; any streak is luck. In a market the process can have skill, but the outcome of any single period is still heavily influenced by chance. The longer the period and the more independent trials, the more the results reflect the process. Variance around the expected result is large when the edge is small. A skilled process can still lose for years. An unskilled process can still win for years.
 
-**Worked example (fictional figures):** a process has a 52% chance of a positive year and equal up and down moves. Over 10 years the chance of at least 6 positive years is high even without skill, and the chance of a long losing streak remains material. Ten years is often not enough to separate a small edge from luck.
+**Worked example (fictional figures):** compare three managers over 10 years, counting the years each beats the market.
+- With no skill at all (a 50% chance each year), the chance of beating the market in at least 6 of 10 years is about **37.7%**.
+- With a small edge (52% a year), it's about **42.7%**.
+- With a clear edge (55% a year), it's about **50.4%**.
+
+The gap between no skill and a small edge is only about 5 percentage points. Ten years of results is often not enough to tell them apart.
 
 ## What goes wrong
 - **Judging by the latest result.** One good or bad period is treated as proof of skill or its absence.

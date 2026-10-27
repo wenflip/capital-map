@@ -2105,7 +2105,7 @@ window.MUDMAP = {
    "branch": "practice",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces behind the moves that trigger these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces behind the moves that trigger these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n<li><a class=\"wl\" href=\"#/map/p/luck-and-skill\" data-page=\"luck-and-skill\">Luck and Skill</a> — a good result does not prove the decision was skilled.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
    "deep": "",
    "links": [
     "account-types",
@@ -2113,6 +2113,7 @@ window.MUDMAP = {
     "funds-and-etfs",
     "how-markets-move",
     "leverage",
+    "luck-and-skill",
     "measure",
     "memecoins",
     "portfolio",
@@ -2120,7 +2121,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. how markets move — the forces behind the moves that trigger these mistakes. stablecoins and memecoins — areas where high yield promises and scams are common. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
+   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. how markets move — the forces behind the moves that trigger these mistakes. stablecoins and memecoins — areas where high yield promises and scams are common. luck and skill — a good result does not prove the decision was skilled. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2131,8 +2132,10 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "account-types",
+    "edge",
     "how-markets-move",
     "how-to-think",
+    "luck-and-skill",
     "practice"
    ],
    "backlinksAdv": [
@@ -2203,6 +2206,7 @@ window.MUDMAP = {
     "funds-and-etfs",
     "inflation",
     "measure",
+    "opportunity-cost",
     "personal-capital",
     "practice",
     "returns",
@@ -3410,6 +3414,66 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "edge": {
+   "id": "edge",
+   "title": "Edge",
+   "short": "Edge",
+   "parent": "how-to-think",
+   "order": 3.0,
+   "summary": "A genuine, measurable advantage that makes the expected outcome better than the odds or the market price imply.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "mental models",
+    "thinking",
+    "decisions",
+    "advantage",
+    "edge"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-to-think",
+    "edge"
+   ],
+   "branch": "how-to-think",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>An edge is a reason, grounded in evidence, why your expected result should be better than the average result for that activity. In a game it is a positive expected value after costs. In markets it is information, skill, cost or access that others do not have, or do not use, that improves your odds relative to the price.</p>\n<h2>Why it matters</h2>\n<p>Without an edge the average participant loses to costs, to the house, or to better-informed counterparties. Committing capital or time on the assumption that you will be above average, without a clear reason, is a bet on luck. Recognising whether an edge exists, and how large and durable it is, separates activities worth pursuing from those that are not.</p>\n<h2>How it works</h2>\n<p>An edge must be measurable or at least estimable before costs. In blackjack, card counting can create an edge: betting more when the cards left in the deck favour the player. In markets common sources are lower costs, better information that is not already in the price, a longer time horizon than most participants, or a structural advantage such as not being forced to sell (see <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>). The edge is reduced by fees, taxes, slippage and the fact that others may copy it. A small edge that is real and repeatable is usually more valuable than a large edge that is rare or fragile.</p>\n<p><strong>Worked example (fictional figures):</strong> a strategy wins 55% of the time and loses 45%, with equal gains and losses. Before costs the expected value per bet is 0.55 × 1 − 0.45 × 1 = <strong>0.1</strong>. If each bet costs 0.02 in fees, the edge falls to 0.1 − 0.02 = <strong>0.08</strong>. At costs of 0.1 or more a bet, it is gone, however often the strategy wins.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Confusing a good outcome with an edge.</strong> A profit does not prove an edge existed; luck produces profits too.</li>\n<li><strong>Ignoring costs.</strong> An edge that exists before fees and taxes may vanish after them.</li>\n<li><strong>Assuming the edge lasts.</strong> Others notice and copy successful approaches until the advantage shrinks.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> only commit meaningful capital or time when you can state the edge and why it should survive costs.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/luck-and-skill\" data-page=\"luck-and-skill\">Luck and Skill</a> — an edge is the skill or information component that can be separated from luck.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — the size of the edge helps decide how much to risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — acting without an edge is a common source of poor results.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund has outperformed for five years. Does that prove it has an edge?</p><details><summary>Show answer</summary><p>No. Five years can be luck. An edge would require a reason, visible in advance, why the process should continue to produce better-than-average results after costs.</p></details></div>\n<div class=\"qa\"><p class=\"q\">You expect a company to miss its profit forecast. Is that an edge?</p><details><summary>Show answer</summary><p>Only if your view rests on something the market hasn't already priced in, and the advantage survives the costs of acting on it. A view that everyone shares is already in the price. See <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</p></details></div>",
+   "deep": "",
+   "links": [
+    "common-mistakes",
+    "forced-sellers",
+    "luck-and-skill",
+    "position-sizing",
+    "priced-in"
+   ],
+   "stub": false,
+   "text": "What it is An edge is a reason, grounded in evidence, why your expected result should be better than the average result for that activity. In a game it is a positive expected value after costs. In markets it is information, skill, cost or access that others do not have, or do not use, that improves your odds relative to the price. Why it matters Without an edge the average participant loses to costs, to the house, or to better informed counterparties. Committing capital or time on the assumption that you will be above average, without a clear reason, is a bet on luck. Recognising whether an edge exists, and how large and durable it is, separates activities worth pursuing from those that are not. How it works An edge must be measurable or at least estimable before costs. In blackjack, card counting can create an edge: betting more when the cards left in the deck favour the player. In markets common sources are lower costs, better information that is not already in the price, a longer time horizon than most participants, or a structural advantage such as not being forced to sell (see forced sellers). The edge is reduced by fees, taxes, slippage and the fact that others may copy it. A small edge that is real and repeatable is usually more valuable than a large edge that is rare or fragile. Worked example (fictional figures): a strategy wins 55% of the time and loses 45%, with equal gains and losses. Before costs the expected value per bet is 0.55 × 1 − 0.45 × 1 = 0.1 . If each bet costs 0.02 in fees, the edge falls to 0.1 − 0.02 = 0.08 . At costs of 0.1 or more a bet, it is gone, however often the strategy wins. What goes wrong Confusing a good outcome with an edge. A profit does not prove an edge existed; luck produces profits too. Ignoring costs. An edge that exists before fees and taxes may vanish after them. Assuming the edge lasts. Others notice and copy successful approaches until the advantage shrinks. Key rule: only commit meaningful capital or time when you can state the edge and why it should survive costs. Connects to luck and skill — an edge is the skill or information component that can be separated from luck. position sizing — the size of the edge helps decide how much to risk. common mistakes — acting without an edge is a common source of poor results. Check yourself Q: A fund has outperformed for five years. Does that prove it has an edge? A: No. Five years can be luck. An edge would require a reason, visible in advance, why the process should continue to produce better than average results after costs. Q: You expect a company to miss its profit forecast. Is that an edge? A: Only if your view rests on something the market hasn't already priced in, and the advantage survives the costs of acting on it. A view that everyone shares is already in the price. See priced in.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "how-to-think",
+    "luck-and-skill",
+    "risk-and-return"
+   ],
+   "backlinksAdv": []
+  },
   "equities": {
    "id": "equities",
    "title": "Equities",
@@ -4201,6 +4265,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "edge",
     "fear-gauges",
     "flows-and-fundamentals",
     "how-markets-move",
@@ -4971,7 +5036,8 @@ window.MUDMAP = {
    "backlinks": [
     "capital-system",
     "common-mistakes",
-    "how-to-think"
+    "how-to-think",
+    "second-order-thinking"
    ],
    "backlinksAdv": []
   },
@@ -5012,19 +5078,28 @@ window.MUDMAP = {
    "branch": "how-to-think",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called <strong>mental models</strong>, that apply to almost every money decision, whatever the asset.</p>\n<p>The ideas fall into three groups:</p>\n<ul>\n<li><strong>Decisions:</strong> looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong.</li>\n<li><strong>Incentives and systems:</strong> people respond to what they're rewarded for, and some costs fall on people who never chose them.</li>\n<li><strong>Thinking with numbers:</strong> an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise-looking figure can be built on guesswork.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map.</p>\n<h2>How it works</h2>\n<p>Each idea here is a question to ask, not a formula to apply:</p>\n<ul>\n<li><strong>And then what?</strong> Most choices have effects that arrive later, and some of those reverse the first effect.</li>\n<li><strong>Compared with what?</strong> Every use of money is also a choice not to use it some other way.</li>\n<li><strong>Why would I know better?</strong> If there's no clear reason you have an advantage, assume you don't.</li>\n<li><strong>Skill, or luck?</strong> A good result from a bad decision, or a bad result from a good one, is common over short periods.</li>\n<li><strong>Over what time?</strong> The right answer often changes with how long you can wait.</li>\n<li><strong>What if I'm wrong?</strong> A choice that only works if every estimate is right leaves no room for error.</li>\n<li><strong>Who gains?</strong> Incentives explain much of what people sell, recommend and report.</li>\n<li><strong>What does the whole spread look like?</strong> An average, a percentage or a single figure rarely tells the full story.</li>\n</ul>\n<p>These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Using a model to confirm what you already believe.</strong> Any of these ideas can be bent to justify a decision already made.</li>\n<li><strong>Applying one model to everything.</strong> Each tool fits some problems and misleads on others. That's why there are several.</li>\n<li><strong>Thinking without facts.</strong> Good reasoning on bad information still goes wrong. Check the numbers first, then think about them.</li>\n<li><strong>Over-thinking small choices.</strong> Careful thought is worth most where a mistake would be large or hard to undo.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before any important money decision, ask what happens next, what you give up, and what happens if you're wrong.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors these ways of thinking help avoid.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — what you can win against what you can lose.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off every decision sits on.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces that test this thinking in practice.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the numbers these tools help you read.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill?</p><details><summary>Show answer</summary><p>Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about.</p></details></div>\n<div class=\"qa\"><p class=\"q\">You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice?</p><details><summary>Show answer</summary><p>That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called <strong>mental models</strong>, that apply to almost every money decision, whatever the asset.</p>\n<p>The ideas fall into three groups:</p>\n<ul>\n<li><strong>Decisions:</strong> looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong.</li>\n<li><strong>Incentives and systems:</strong> people respond to what they're rewarded for, and some costs fall on people who never chose them.</li>\n<li><strong>Thinking with numbers:</strong> an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise-looking figure can be built on guesswork.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map.</p>\n<h2>How it works</h2>\n<p>Each idea here is a question to ask, not a formula to apply:</p>\n<ul>\n<li><strong>And then what?</strong> Most choices have effects that arrive later, and some of those reverse the first effect.</li>\n<li><strong>Compared with what?</strong> Every use of money is also a choice not to use it some other way.</li>\n<li><strong>Why would I know better?</strong> If there's no clear reason you have an advantage, assume you don't.</li>\n<li><strong>Skill, or luck?</strong> A good result from a bad decision, or a bad result from a good one, is common over short periods.</li>\n<li><strong>Over what time?</strong> The right answer often changes with how long you can wait.</li>\n<li><strong>What if I'm wrong?</strong> A choice that only works if every estimate is right leaves no room for error.</li>\n<li><strong>Who gains?</strong> Incentives explain much of what people sell, recommend and report.</li>\n<li><strong>What does the whole spread look like?</strong> An average, a percentage or a single figure rarely tells the full story.</li>\n</ul>\n<p><strong>The pages</strong></p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/second-order-thinking\" data-page=\"second-order-thinking\">Second-Order Thinking</a> — looking past the first effect to what happens next.</li>\n<li><a class=\"wl\" href=\"#/map/p/opportunity-cost\" data-page=\"opportunity-cost\">Opportunity Cost</a> — the value of the next-best alternative you give up.</li>\n<li><a class=\"wl\" href=\"#/map/p/edge\" data-page=\"edge\">Edge</a> — a genuine, measurable advantage before and after costs.</li>\n<li><a class=\"wl\" href=\"#/map/p/luck-and-skill\" data-page=\"luck-and-skill\">Luck and Skill</a> — separating results that come from a repeatable process from chance.</li>\n</ul>\n<p>These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Using a model to confirm what you already believe.</strong> Any of these ideas can be bent to justify a decision already made.</li>\n<li><strong>Applying one model to everything.</strong> Each tool fits some problems and misleads on others. That's why there are several.</li>\n<li><strong>Thinking without facts.</strong> Good reasoning on bad information still goes wrong. Check the numbers first, then think about them.</li>\n<li><strong>Over-thinking small choices.</strong> Careful thought is worth most where a mistake would be large or hard to undo.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before any important money decision, ask what happens next, what you give up, and what happens if you're wrong.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors these ways of thinking help avoid.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — what you can win against what you can lose.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off every decision sits on.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces that test this thinking in practice.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the numbers these tools help you read.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill?</p><details><summary>Show answer</summary><p>Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about.</p></details></div>\n<div class=\"qa\"><p class=\"q\">You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice?</p><details><summary>Show answer</summary><p>That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Inversion:</strong> instead of asking how to succeed, ask what would guarantee failure, then avoid it.</li>\n<li><strong>Base rates:</strong> before judging a single case, ask how often things like it usually work out.</li>\n<li><strong>Circle of competence:</strong> knowing where your knowledge ends matters as much as what you know.</li>\n</ul></section>",
    "links": [
     "asymmetry",
     "common-mistakes",
+    "edge",
     "how-markets-move",
+    "luck-and-skill",
     "measure",
-    "risk-and-return"
+    "opportunity-cost",
+    "risk-and-return",
+    "second-order-thinking"
    ],
    "stub": false,
-   "text": "What it is The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called mental models , that apply to almost every money decision, whatever the asset. The ideas fall into three groups: Decisions: looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong. Incentives and systems: people respond to what they're rewarded for, and some costs fall on people who never chose them. Thinking with numbers: an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise looking figure can be built on guesswork. Why it exists Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map. How it works Each idea here is a question to ask, not a formula to apply: And then what? Most choices have effects that arrive later, and some of those reverse the first effect. Compared with what? Every use of money is also a choice not to use it some other way. Why would I know better? If there's no clear reason you have an advantage, assume you don't. Skill, or luck? A good result from a bad decision, or a bad result from a good one, is common over short periods. Over what time? The right answer often changes with how long you can wait. What if I'm wrong? A choice that only works if every estimate is right leaves no room for error. Who gains? Incentives explain much of what people sell, recommend and report. What does the whole spread look like? An average, a percentage or a single figure rarely tells the full story. These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade. What goes wrong Using a model to confirm what you already believe. Any of these ideas can be bent to justify a decision already made. Applying one model to everything. Each tool fits some problems and misleads on others. That's why there are several. Thinking without facts. Good reasoning on bad information still goes wrong. Check the numbers first, then think about them. Over thinking small choices. Careful thought is worth most where a mistake would be large or hard to undo. Key rule: before any important money decision, ask what happens next, what you give up, and what happens if you're wrong. Connects to common mistakes — the errors these ways of thinking help avoid. asymmetry — what you can win against what you can lose. risk and return — the trade off every decision sits on. how markets move — the forces that test this thinking in practice. measure — the numbers these tools help you read. Check yourself Q: A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill? A: Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about. Q: You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice? A: That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.",
+   "text": "What it is The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called mental models , that apply to almost every money decision, whatever the asset. The ideas fall into three groups: Decisions: looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong. Incentives and systems: people respond to what they're rewarded for, and some costs fall on people who never chose them. Thinking with numbers: an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise looking figure can be built on guesswork. Why it exists Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map. How it works Each idea here is a question to ask, not a formula to apply: And then what? Most choices have effects that arrive later, and some of those reverse the first effect. Compared with what? Every use of money is also a choice not to use it some other way. Why would I know better? If there's no clear reason you have an advantage, assume you don't. Skill, or luck? A good result from a bad decision, or a bad result from a good one, is common over short periods. Over what time? The right answer often changes with how long you can wait. What if I'm wrong? A choice that only works if every estimate is right leaves no room for error. Who gains? Incentives explain much of what people sell, recommend and report. What does the whole spread look like? An average, a percentage or a single figure rarely tells the full story. The pages second order thinking — looking past the first effect to what happens next. opportunity cost — the value of the next best alternative you give up. edge — a genuine, measurable advantage before and after costs. luck and skill — separating results that come from a repeatable process from chance. These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade. What goes wrong Using a model to confirm what you already believe. Any of these ideas can be bent to justify a decision already made. Applying one model to everything. Each tool fits some problems and misleads on others. That's why there are several. Thinking without facts. Good reasoning on bad information still goes wrong. Check the numbers first, then think about them. Over thinking small choices. Careful thought is worth most where a mistake would be large or hard to undo. Key rule: before any important money decision, ask what happens next, what you give up, and what happens if you're wrong. Connects to common mistakes — the errors these ways of thinking help avoid. asymmetry — what you can win against what you can lose. risk and return — the trade off every decision sits on. how markets move — the forces that test this thinking in practice. measure — the numbers these tools help you read. Check yourself Q: A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill? A: Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about. Q: You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice? A: That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.",
    "textDeep": "Going deeper Inversion: instead of asking how to succeed, ask what would guarantee failure, then avoid it. Base rates: before judging a single case, ask how often things like it usually work out. Circle of competence: knowing where your knowledge ends matters as much as what you know.",
-   "children": [],
+   "children": [
+    "second-order-thinking",
+    "opportunity-cost",
+    "edge",
+    "luck-and-skill"
+   ],
    "jobs": [],
    "quals": [],
    "answers": [],
@@ -5316,6 +5391,7 @@ window.MUDMAP = {
     "measure",
     "monetary-policy",
     "money-you-hold",
+    "opportunity-cost",
     "real-assets",
     "returns",
     "t-bills",
@@ -5706,6 +5782,66 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "luck-and-skill": {
+   "id": "luck-and-skill",
+   "title": "Luck and Skill",
+   "short": "Luck and Skill",
+   "parent": "how-to-think",
+   "order": 4.0,
+   "summary": "Distinguishing results that come from a repeatable process from results that come from chance.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "mental models",
+    "thinking",
+    "decisions",
+    "luck",
+    "skill",
+    "process"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-to-think",
+    "luck-and-skill"
+   ],
+   "branch": "how-to-think",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Luck is the part of an outcome that is not explained by a repeatable process. Skill is the part that is. In activities with a large role for chance, good results can come from bad decisions and bad results from good ones, especially over short periods. Separating the two requires looking at the process and at enough outcomes, not at a single result.</p>\n<h2>Why it matters</h2>\n<p>People judge decisions by their outcomes. A fund that beat the market is called skilled. A trade that lost money is called a mistake. When luck is large, this confuses the quality of the decision with the quality of the result. Over many trials the process matters more. Over few trials the result is a poor guide.</p>\n<h2>How it works</h2>\n<p>Ask whether the same process would be expected to produce similar results if repeated. In a coin toss the process has no skill; any streak is luck. In a market the process can have skill, but the outcome of any single period is still heavily influenced by chance. The longer the period and the more independent trials, the more the results reflect the process. Variance around the expected result is large when the edge is small. A skilled process can still lose for years. An unskilled process can still win for years.</p>\n<p><strong>Worked example (fictional figures):</strong> compare three managers over 10 years, counting the years each beats the market.</p>\n<ul>\n<li>With no skill at all (a 50% chance each year), the chance of beating the market in at least 6 of 10 years is about <strong>37.7%</strong>.</li>\n<li>With a small edge (52% a year), it's about <strong>42.7%</strong>.</li>\n<li>With a clear edge (55% a year), it's about <strong>50.4%</strong>.</li>\n</ul>\n<p>The gap between no skill and a small edge is only about 5 percentage points. Ten years of results is often not enough to tell them apart.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Judging by the latest result.</strong> One good or bad period is treated as proof of skill or its absence.</li>\n<li><strong>Ignoring the base rate.</strong> Many participants will show good results by chance. The ones who did are the ones that are noticed.</li>\n<li><strong>Changing the process after a loss.</strong> A sound process can produce losses. Abandoning it because of a short-term result replaces a known process with an unknown one.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> judge the process by whether it would be expected to work if repeated, not by whether the last outcome was good.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/edge\" data-page=\"edge\">Edge</a> — skill is the repeatable advantage; luck is the rest.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — treating recent winners as skilled is a frequent error.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — high variance makes luck dominate short-term results.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — enough observations are needed before results say much about the process.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two managers have the same ten-year record. One followed a written process; the other changed approach after every loss. Which result is more informative?</p><details><summary>Show answer</summary><p>The one with the consistent process. The same record from an inconsistent process is harder to attribute to skill rather than a sequence of lucky or unlucky choices.</p></details></div>\n<div class=\"qa\"><p class=\"q\">A strategy loses money for three years then gains it back. What does that show about skill?</p><details><summary>Show answer</summary><p>Little by itself. Three years can be a normal drawdown for a skilled process or the start of failure for an unskilled one. The process and a longer record are needed.</p></details></div>",
+   "deep": "",
+   "links": [
+    "common-mistakes",
+    "edge",
+    "measure",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Luck is the part of an outcome that is not explained by a repeatable process. Skill is the part that is. In activities with a large role for chance, good results can come from bad decisions and bad results from good ones, especially over short periods. Separating the two requires looking at the process and at enough outcomes, not at a single result. Why it matters People judge decisions by their outcomes. A fund that beat the market is called skilled. A trade that lost money is called a mistake. When luck is large, this confuses the quality of the decision with the quality of the result. Over many trials the process matters more. Over few trials the result is a poor guide. How it works Ask whether the same process would be expected to produce similar results if repeated. In a coin toss the process has no skill; any streak is luck. In a market the process can have skill, but the outcome of any single period is still heavily influenced by chance. The longer the period and the more independent trials, the more the results reflect the process. Variance around the expected result is large when the edge is small. A skilled process can still lose for years. An unskilled process can still win for years. Worked example (fictional figures): compare three managers over 10 years, counting the years each beats the market. With no skill at all (a 50% chance each year), the chance of beating the market in at least 6 of 10 years is about 37.7% . With a small edge (52% a year), it's about 42.7% . With a clear edge (55% a year), it's about 50.4% . The gap between no skill and a small edge is only about 5 percentage points. Ten years of results is often not enough to tell them apart. What goes wrong Judging by the latest result. One good or bad period is treated as proof of skill or its absence. Ignoring the base rate. Many participants will show good results by chance. The ones who did are the ones that are noticed. Changing the process after a loss. A sound process can produce losses. Abandoning it because of a short term result replaces a known process with an unknown one. Key rule: judge the process by whether it would be expected to work if repeated, not by whether the last outcome was good. Connects to edge — skill is the repeatable advantage; luck is the rest. common mistakes — treating recent winners as skilled is a frequent error. volatility — high variance makes luck dominate short term results. measure — enough observations are needed before results say much about the process. Check yourself Q: Two managers have the same ten year record. One followed a written process; the other changed approach after every loss. Which result is more informative? A: The one with the consistent process. The same record from an inconsistent process is harder to attribute to skill rather than a sequence of lucky or unlucky choices. Q: A strategy loses money for three years then gains it back. What does that show about skill? A: Little by itself. Three years can be a normal drawdown for a skilled process or the start of failure for an unskilled one. The process and a longer record are needed.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "common-mistakes",
+    "edge",
+    "how-to-think"
+   ],
+   "backlinksAdv": []
+  },
   "market-failure": {
    "id": "market-failure",
    "title": "Market Failure",
@@ -6066,6 +6202,7 @@ window.MUDMAP = {
     "capital-system",
     "common-mistakes",
     "how-to-think",
+    "luck-and-skill",
     "returns",
     "volatility"
    ],
@@ -6590,6 +6727,65 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "opportunity-cost": {
+   "id": "opportunity-cost",
+   "title": "Opportunity Cost",
+   "short": "Opportunity Cost",
+   "parent": "how-to-think",
+   "order": 2.0,
+   "summary": "The value of the next-best alternative you give up when you choose one use of money or time over another.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "mental models",
+    "thinking",
+    "decisions",
+    "cost",
+    "trade-off"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-to-think",
+    "opportunity-cost"
+   ],
+   "branch": "how-to-think",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Opportunity cost is what you forgo by choosing one option instead of the next-best one. It is not the money you spend. It is the return or benefit you could have had from the alternative you did not take.</p>\n<h2>Why it matters</h2>\n<p>Every use of money or time is also a decision not to use it another way. Cash held for safety earns nothing and loses purchasing power to inflation. Time spent on one project is time not spent on another. Ignoring the alternative makes a choice look cheaper or safer than it is. Including it shows the full price.</p>\n<h2>How it works</h2>\n<p>Identify the realistic next-best use of the same resource. Compare the expected outcome of your choice with the expected outcome of that alternative, over the same period and after costs. The difference is the opportunity cost. It applies to capital, to time, and to attention. It does not require a perfect forecast; a rough estimate of the alternative is enough to change many decisions.</p>\n<p><strong>Worked example (fictional figures):</strong> you hold 10,000 in a non-interest account for a year. Safe savings pay 4%. The opportunity cost is 10,000 × 0.04 = <strong>400</strong>. Separately, if inflation is 3%, the idle cash also buys about 3% less by the end of the year. The cash may still be the right choice, but the cost is no longer invisible.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Counting only out-of-pocket costs.</strong> The money you do not spend is not free if it could have earned a return.</li>\n<li><strong>Using an unrealistic alternative.</strong> The opportunity cost is the next-best realistic option, not the best possible outcome in hindsight.</li>\n<li><strong>Ignoring it for “safety”.</strong> Holding cash or waiting has a measurable cost even when the alternative is uncertain.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> every choice has a cost equal to the value of the best realistic alternative you did not take.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the cost of waiting is a form of opportunity cost.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — small annual opportunity costs compound into large differences.</li>\n<li><a class=\"wl\" href=\"#/map/p/second-order-thinking\" data-page=\"second-order-thinking\">Second-Order Thinking</a> — the alternative is often the second-order effect of the choice.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — inflation raises the opportunity cost of holding cash.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You keep a large cash balance “just in case”. What is the opportunity cost of that decision?</p><details><summary>Show answer</summary><p>What the same money could have earned in its best realistic alternative, such as an interest-paying account, over the time you hold it, allowing for any extra risk or inconvenience that alternative brings.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Two projects take the same capital. One is expected to return 6% and the other 9%. What is the opportunity cost of choosing the first?</p><details><summary>Show answer</summary><p>Roughly 3 percentage points a year, the difference between the two expected returns, assuming both are realistic options with similar risk.</p></details></div>",
+   "deep": "",
+   "links": [
+    "compounding",
+    "inflation",
+    "second-order-thinking",
+    "time-value-of-money"
+   ],
+   "stub": false,
+   "text": "What it is Opportunity cost is what you forgo by choosing one option instead of the next best one. It is not the money you spend. It is the return or benefit you could have had from the alternative you did not take. Why it matters Every use of money or time is also a decision not to use it another way. Cash held for safety earns nothing and loses purchasing power to inflation. Time spent on one project is time not spent on another. Ignoring the alternative makes a choice look cheaper or safer than it is. Including it shows the full price. How it works Identify the realistic next best use of the same resource. Compare the expected outcome of your choice with the expected outcome of that alternative, over the same period and after costs. The difference is the opportunity cost. It applies to capital, to time, and to attention. It does not require a perfect forecast; a rough estimate of the alternative is enough to change many decisions. Worked example (fictional figures): you hold 10,000 in a non interest account for a year. Safe savings pay 4%. The opportunity cost is 10,000 × 0.04 = 400 . Separately, if inflation is 3%, the idle cash also buys about 3% less by the end of the year. The cash may still be the right choice, but the cost is no longer invisible. What goes wrong Counting only out of pocket costs. The money you do not spend is not free if it could have earned a return. Using an unrealistic alternative. The opportunity cost is the next best realistic option, not the best possible outcome in hindsight. Ignoring it for “safety”. Holding cash or waiting has a measurable cost even when the alternative is uncertain. Key rule: every choice has a cost equal to the value of the best realistic alternative you did not take. Connects to time value of money — the cost of waiting is a form of opportunity cost. compounding — small annual opportunity costs compound into large differences. second order thinking — the alternative is often the second order effect of the choice. inflation — inflation raises the opportunity cost of holding cash. Check yourself Q: You keep a large cash balance “just in case”. What is the opportunity cost of that decision? A: What the same money could have earned in its best realistic alternative, such as an interest paying account, over the time you hold it, allowing for any extra risk or inconvenience that alternative brings. Q: Two projects take the same capital. One is expected to return 6% and the other 9%. What is the opportunity cost of choosing the first? A: Roughly 3 percentage points a year, the difference between the two expected returns, assuming both are realistic options with similar risk.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "how-to-think",
+    "second-order-thinking",
+    "time-value-of-money"
+   ],
+   "backlinksAdv": []
+  },
   "options": {
    "id": "options",
    "title": "Options",
@@ -6894,6 +7090,7 @@ window.MUDMAP = {
     "asymmetry",
     "common-mistakes",
     "drawdown",
+    "edge",
     "measure",
     "memecoins",
     "portfolio",
@@ -7021,8 +7218,10 @@ window.MUDMAP = {
    "backlinks": [
     "business-cycle",
     "earnings-season",
+    "edge",
     "flows-and-fundamentals",
     "how-markets-move",
+    "second-order-thinking",
     "valuation"
    ],
    "backlinksAdv": []
@@ -7727,13 +7926,14 @@ window.MUDMAP = {
    "branch": "foundation",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Return</strong> is what an investment gains or loses. <strong>Risk</strong> is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are.</p>\n<h2>Why it exists</h2>\n<p>People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the <strong>risk premium</strong>.</p>\n<p>That is a statement about averages and expectations, not a promise. Taking more risk raises the <em>range</em> of outcomes, including the bad ones.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>The safe benchmark.</strong> Short-term government debt such as <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> is usually treated as the near risk-free rate. Everything else is judged against it.</li>\n<li><strong>Measuring the spread.</strong> The most common measure is <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>: how widely returns swing around their average. It is useful, but it isn't the whole story.</li>\n<li><strong>Two kinds of risk:</strong><ul>\n<li><em>Specific risk</em> belongs to one company or asset (a failed product, a fraud). It can be reduced by <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a>.</li>\n<li><em>Market-wide risk</em> hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded.</li>\n</ul>\n</li>\n<li><strong>Losses and gains aren't symmetrical.</strong></li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Fall</th>\n<th>Gain needed to get back to the start</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>−20%</td>\n<td>+25%</td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>+100%</td>\n</tr>\n<tr>\n<td>−80%</td>\n<td>+400%</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking a smooth ride for safety.</strong> An asset that rarely moves can still fail completely. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> names each store's killer for this reason.</li>\n<li><strong>Reaching for return</strong> without asking what extra risk comes with it.</li>\n<li><strong>Holding one big position</strong>, so a single failure decides everything. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/four-ways-to-earn\" data-page=\"four-ways-to-earn\">Four Ways to Earn a Return</a> — the four ways to earn, from capped lending to open-ended ownership and price risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — risk raises the discount rate.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — reducing risk you aren't paid for.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the loss you actually live through.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An investment rises 50% in year one and falls 50% in year two. What is the total result?</p><details><summary>Show answer</summary><p>A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why isn't company-specific risk usually rewarded with a higher expected return?</p><details><summary>Show answer</summary><p>Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Return</strong> is what an investment gains or loses. <strong>Risk</strong> is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are.</p>\n<h2>Why it exists</h2>\n<p>People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the <strong>risk premium</strong>.</p>\n<p>That is a statement about averages and expectations, not a promise. Taking more risk raises the <em>range</em> of outcomes, including the bad ones.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>The safe benchmark.</strong> Short-term government debt such as <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> is usually treated as the near risk-free rate. Everything else is judged against it.</li>\n<li><strong>Measuring the spread.</strong> The most common measure is <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>: how widely returns swing around their average. It is useful, but it isn't the whole story.</li>\n<li><strong>Two kinds of risk:</strong><ul>\n<li><em>Specific risk</em> belongs to one company or asset (a failed product, a fraud). It can be reduced by <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a>.</li>\n<li><em>Market-wide risk</em> hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded.</li>\n</ul>\n</li>\n<li><strong>Losses and gains aren't symmetrical.</strong></li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Fall</th>\n<th>Gain needed to get back to the start</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>−20%</td>\n<td>+25%</td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>+100%</td>\n</tr>\n<tr>\n<td>−80%</td>\n<td>+400%</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking a smooth ride for safety.</strong> An asset that rarely moves can still fail completely. The <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a> names each store's killer for this reason.</li>\n<li><strong>Reaching for return</strong> without asking what extra risk comes with it.</li>\n<li><strong>Holding one big position</strong>, so a single failure decides everything. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/four-ways-to-earn\" data-page=\"four-ways-to-earn\">Four Ways to Earn a Return</a> — the four ways to earn, from capped lending to open-ended ownership and price risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — risk raises the discount rate.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — reducing risk you aren't paid for.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the loss you actually live through.</li>\n<li><a class=\"wl\" href=\"#/map/p/edge\" data-page=\"edge\">Edge</a> — whether there is a reason the expected result should beat the average after costs.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">An investment rises 50% in year one and falls 50% in year two. What is the total result?</p><details><summary>Show answer</summary><p>A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why isn't company-specific risk usually rewarded with a higher expected return?</p><details><summary>Show answer</summary><p>Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Volatility drag.</strong> When returns vary, the compound (geometric) average return is lower than the simple (arithmetic) average. The bigger the swings, the bigger the gap. This is why two investments with the same average yearly return can end with very different wealth, and why reducing large losses can raise long-run growth.</li>\n<li><strong>Risk is a property of the whole portfolio.</strong> What matters is how an asset moves alongside everything else you own, not how risky it is alone. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n</ul></section>",
    "links": [
     "cartography-of-wealth",
     "correlation",
     "diversification",
     "drawdown",
+    "edge",
     "four-ways-to-earn",
     "position-sizing",
     "t-bills",
@@ -7741,7 +7941,7 @@ window.MUDMAP = {
     "volatility"
    ],
    "stub": false,
-   "text": "What it is Return is what an investment gains or loses. Risk is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are. Why it exists People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the risk premium . That is a statement about averages and expectations, not a promise. Taking more risk raises the range of outcomes, including the bad ones. How it works The safe benchmark. Short term government debt such as t bills is usually treated as the near risk free rate. Everything else is judged against it. Measuring the spread. The most common measure is volatility: how widely returns swing around their average. It is useful, but it isn't the whole story. Two kinds of risk: Specific risk belongs to one company or asset (a failed product, a fraud). It can be reduced by diversification. Market wide risk hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded. Losses and gains aren't symmetrical. Fall Gain needed to get back to the start −20% +25% −50% +100% −80% +400% What goes wrong Mistaking a smooth ride for safety. An asset that rarely moves can still fail completely. The Cartography of Wealth names each store's killer for this reason. Reaching for return without asking what extra risk comes with it. Holding one big position , so a single failure decides everything. See position sizing. Key rule: risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it. Connects to four ways to earn — the four ways to earn, from capped lending to open ended ownership and price risk. time value of money — risk raises the discount rate. diversification and correlation — reducing risk you aren't paid for. drawdown — the loss you actually live through. Check yourself Q: An investment rises 50% in year one and falls 50% in year two. What is the total result? A: A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative. Q: Why isn't company specific risk usually rewarded with a higher expected return? A: Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.",
+   "text": "What it is Return is what an investment gains or loses. Risk is the uncertainty around that result: how wide the range of possible outcomes is, and how bad the worst ones are. Why it exists People need to be paid to accept uncertainty. If a risky asset offered the same expected return as a safe one, nobody would hold the risky one. So, on average and over long periods, riskier assets have to offer higher expected returns. The extra return over a safe asset is called the risk premium . That is a statement about averages and expectations, not a promise. Taking more risk raises the range of outcomes, including the bad ones. How it works The safe benchmark. Short term government debt such as t bills is usually treated as the near risk free rate. Everything else is judged against it. Measuring the spread. The most common measure is volatility: how widely returns swing around their average. It is useful, but it isn't the whole story. Two kinds of risk: Specific risk belongs to one company or asset (a failed product, a fraud). It can be reduced by diversification. Market wide risk hits almost everything at once (a recession, a liquidity squeeze). It can't be diversified away, which is why it is the risk that tends to be rewarded. Losses and gains aren't symmetrical. Fall Gain needed to get back to the start −20% +25% −50% +100% −80% +400% What goes wrong Mistaking a smooth ride for safety. An asset that rarely moves can still fail completely. The Cartography of Wealth names each store's killer for this reason. Reaching for return without asking what extra risk comes with it. Holding one big position , so a single failure decides everything. See position sizing. Key rule: risk is not how much a price wobbles — it is the chance of a loss you can't recover from. Volatility is one clue to it. Connects to four ways to earn — the four ways to earn, from capped lending to open ended ownership and price risk. time value of money — risk raises the discount rate. diversification and correlation — reducing risk you aren't paid for. drawdown — the loss you actually live through. edge — whether there is a reason the expected result should beat the average after costs. Check yourself Q: An investment rises 50% in year one and falls 50% in year two. What is the total result? A: A loss of 25%. 100 becomes 150, then 75. The average of the two yearly returns is 0%, but the result is negative. Q: Why isn't company specific risk usually rewarded with a higher expected return? A: Because it can be removed cheaply by holding many companies. Investors aren't paid for a risk they don't need to carry.",
    "textDeep": "Going deeper Volatility drag. When returns vary, the compound (geometric) average return is lower than the simple (arithmetic) average. The bigger the swings, the bigger the gap. This is why two investments with the same average yearly return can end with very different wealth, and why reducing large losses can raise long run growth. Risk is a property of the whole portfolio. What matters is how an asset moves alongside everything else you own, not how risky it is alone. See correlation.",
    "children": [],
    "jobs": [],
@@ -7768,12 +7968,71 @@ window.MUDMAP = {
     "measure",
     "personal-capital",
     "portfolio",
+    "second-order-thinking",
     "sharpe-ratio",
     "time-value-of-money"
    ],
    "backlinksAdv": [
     "sharpe-ratio"
    ]
+  },
+  "second-order-thinking": {
+   "id": "second-order-thinking",
+   "title": "Second-Order Thinking",
+   "short": "Second-Order Thinking",
+   "parent": "how-to-think",
+   "order": 1.0,
+   "summary": "Looking past the immediate effect of a choice to what happens next, and what happens after that.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "mental models",
+    "thinking",
+    "decisions",
+    "consequences",
+    "second-order"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-to-think",
+    "second-order-thinking"
+   ],
+   "branch": "how-to-think",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Second-order thinking is the habit of asking what happens after the first consequence. Most choices produce an immediate effect and then further effects that can reinforce, reverse or outweigh the first one.</p>\n<h2>Why it matters</h2>\n<p>The first effect is often the only one people notice. A price cut wins customers. A new rule stops the behaviour it targets. The later effects, such as thinner margins or new ways around the rule, arrive later and are easier to miss. Decisions that look good on the first effect can look different once the chain is followed.</p>\n<h2>How it works</h2>\n<p>Start with the direct result, then ask “and then what?” at least once or twice. The second effect may be the opposite of the first. A subsidy that makes something cheaper can increase demand until the extra demand raises the price again. A safety rule that reduces one risk can create another if people take more risk elsewhere. The chain does not have to be long. One or two steps are often enough to change the judgement.</p>\n<p><strong>Worked example (fictional figures):</strong> a firm sells 1,000,000 a year and its costs are 800,000, so profit is 200,000. It cuts prices by 10% and volume rises 15%.</p>\n<ul>\n<li>Revenue: 1,000,000 × 0.9 × 1.15 = <strong>1,035,000</strong>, up 3.5%. The first effect looks good.</li>\n<li>Costs grow with volume, and the rush also pushes the cost of each unit up 5%: 800,000 × 1.15 × 1.05 = <strong>966,000</strong>.</li>\n<li>Profit: 1,035,000 − 966,000 = <strong>69,000</strong>, about <strong>65.5%</strong> less than before, even though revenue rose.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Stopping at the first effect.</strong> The immediate gain is counted and the later cost is ignored.</li>\n<li><strong>Inventing long chains without evidence.</strong> Second-order thinking is useful when the next step is plausible and checkable, not when it becomes pure speculation.</li>\n<li><strong>Treating every second-order effect as certain.</strong> Later effects are often smaller or more uncertain than the first. The point is to notice them, not to pretend they are precise.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before deciding, ask what happens next and whether that next effect reverses or outweighs the first one.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/opportunity-cost\" data-page=\"opportunity-cost\">Opportunity Cost</a> — the next effect is often the thing you give up.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — markets often price later effects before the first ones finish.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the later effects change the balance of what can be gained and lost.</li>\n<li><a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a> — markets often move on the expected second effect, not the first.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A government caps the price of a widely used good to make it more affordable. What second-order question should be asked?</p><details><summary>Show answer</summary><p>Whether the lower price reduces supply or increases demand enough to create shortages, queues or a black market that make the good less available for some people.</p></details></div>\n<div class=\"qa\"><p class=\"q\">An investor sells a falling share to “stop the loss”. What later effects are worth thinking through, whichever way they decide?</p><details><summary>Show answer</summary><p>What the sale costs in fees and tax, where the money goes next, and whether the reason for owning the share has changed or only its price. The first effect (no further loss on that share) isn't the whole story either way.</p></details></div>",
+   "deep": "",
+   "links": [
+    "how-markets-move",
+    "opportunity-cost",
+    "priced-in",
+    "risk-and-return"
+   ],
+   "stub": false,
+   "text": "What it is Second order thinking is the habit of asking what happens after the first consequence. Most choices produce an immediate effect and then further effects that can reinforce, reverse or outweigh the first one. Why it matters The first effect is often the only one people notice. A price cut wins customers. A new rule stops the behaviour it targets. The later effects, such as thinner margins or new ways around the rule, arrive later and are easier to miss. Decisions that look good on the first effect can look different once the chain is followed. How it works Start with the direct result, then ask “and then what?” at least once or twice. The second effect may be the opposite of the first. A subsidy that makes something cheaper can increase demand until the extra demand raises the price again. A safety rule that reduces one risk can create another if people take more risk elsewhere. The chain does not have to be long. One or two steps are often enough to change the judgement. Worked example (fictional figures): a firm sells 1,000,000 a year and its costs are 800,000, so profit is 200,000. It cuts prices by 10% and volume rises 15%. Revenue: 1,000,000 × 0.9 × 1.15 = 1,035,000 , up 3.5%. The first effect looks good. Costs grow with volume, and the rush also pushes the cost of each unit up 5%: 800,000 × 1.15 × 1.05 = 966,000 . Profit: 1,035,000 − 966,000 = 69,000 , about 65.5% less than before, even though revenue rose. What goes wrong Stopping at the first effect. The immediate gain is counted and the later cost is ignored. Inventing long chains without evidence. Second order thinking is useful when the next step is plausible and checkable, not when it becomes pure speculation. Treating every second order effect as certain. Later effects are often smaller or more uncertain than the first. The point is to notice them, not to pretend they are precise. Key rule: before deciding, ask what happens next and whether that next effect reverses or outweighs the first one. Connects to opportunity cost — the next effect is often the thing you give up. how markets move — markets often price later effects before the first ones finish. risk and return — the later effects change the balance of what can be gained and lost. priced in — markets often move on the expected second effect, not the first. Check yourself Q: A government caps the price of a widely used good to make it more affordable. What second order question should be asked? A: Whether the lower price reduces supply or increases demand enough to create shortages, queues or a black market that make the good less available for some people. Q: An investor sells a falling share to “stop the loss”. What later effects are worth thinking through, whichever way they decide? A: What the sale costs in fees and tax, where the money goes next, and whether the reason for owning the share has changed or only its price. The first effect (no further loss on that share) isn't the whole story either way.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "how-to-think",
+    "opportunity-cost"
+   ],
+   "backlinksAdv": []
   },
   "self-custody": {
    "id": "self-custody",
@@ -8849,18 +9108,19 @@ window.MUDMAP = {
    "branch": "foundation",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The idea that money available <strong>now</strong> is worth more than the same amount <strong>later</strong>. Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between.</p>\n<h2>Why it exists</h2>\n<p>Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time.</p>\n<h2>How it works</h2>\n<p>Two conversions, using an interest rate <em>r</em> per period and <em>n</em> periods:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Conversion</th>\n<th>Formula</th>\n<th>Question it answers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Future value</strong></td>\n<td>FV = PV × (1 + r)ⁿ</td>\n<td>What will this sum grow to?</td>\n</tr>\n<tr>\n<td><strong>Present value</strong></td>\n<td>PV = FV ÷ (1 + r)ⁿ</td>\n<td>What is a future sum worth today?</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Worked example (fictional figures):</strong> at 5% a year,</p>\n<ul>\n<li>1,000 today grows to about <strong>1,628.89</strong> in 10 years;</li>\n<li>1,000 received in 10 years is worth about <strong>613.91</strong> today.</li>\n</ul>\n<p>The rate used to bring future money back to today is the <strong>discount rate</strong>. It is made of two parts:</p>\n<ul>\n<li>the reward for <strong>waiting</strong>: roughly, the rate on the safest available asset, which already includes the inflation people expect;</li>\n<li>the reward for <strong>risk</strong>: the less certain the payment, the higher the rate and the lower the present value. See <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Adding amounts from different years</strong> as if they were the same money.</li>\n<li><strong>Using the wrong rate.</strong> A safe promise and a risky one should not be discounted at the same rate.</li>\n<li><strong>Forgetting inflation.</strong> A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> move every amount to the same date before you compare, add or subtract.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — the future-value formula is compounding.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — prices are present values of expected future cash.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — the usual stand-in for the reward for waiting.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today?</p><details><summary>Show answer</summary><p>The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>The idea that money available <strong>now</strong> is worth more than the same amount <strong>later</strong>. Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between.</p>\n<h2>Why it exists</h2>\n<p>Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time.</p>\n<h2>How it works</h2>\n<p>Two conversions, using an interest rate <em>r</em> per period and <em>n</em> periods:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Conversion</th>\n<th>Formula</th>\n<th>Question it answers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Future value</strong></td>\n<td>FV = PV × (1 + r)ⁿ</td>\n<td>What will this sum grow to?</td>\n</tr>\n<tr>\n<td><strong>Present value</strong></td>\n<td>PV = FV ÷ (1 + r)ⁿ</td>\n<td>What is a future sum worth today?</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Worked example (fictional figures):</strong> at 5% a year,</p>\n<ul>\n<li>1,000 today grows to about <strong>1,628.89</strong> in 10 years;</li>\n<li>1,000 received in 10 years is worth about <strong>613.91</strong> today.</li>\n</ul>\n<p>The rate used to bring future money back to today is the <strong>discount rate</strong>. It is made of two parts:</p>\n<ul>\n<li>the reward for <strong>waiting</strong>: roughly, the rate on the safest available asset, which already includes the inflation people expect;</li>\n<li>the reward for <strong>risk</strong>: the less certain the payment, the higher the rate and the lower the present value. See <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Adding amounts from different years</strong> as if they were the same money.</li>\n<li><strong>Using the wrong rate.</strong> A safe promise and a risky one should not be discounted at the same rate.</li>\n<li><strong>Forgetting inflation.</strong> A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> move every amount to the same date before you compare, add or subtract.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — the future-value formula is compounding.</li>\n<li><a class=\"wl\" href=\"#/map/p/opportunity-cost\" data-page=\"opportunity-cost\">Opportunity Cost</a> — the cost of using money one way instead of another.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — prices are present values of expected future cash.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — the usual stand-in for the reward for waiting.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today?</p><details><summary>Show answer</summary><p>The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.</p></details></div>",
    "deep": "",
    "links": [
     "bonds",
     "compounding",
     "inflation",
+    "opportunity-cost",
     "risk-and-return",
     "t-bills",
     "valuation"
    ],
    "stub": false,
-   "text": "What it is The idea that money available now is worth more than the same amount later . Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between. Why it exists Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time. How it works Two conversions, using an interest rate r per period and n periods: Conversion Formula Question it answers Future value FV = PV × (1 + r)ⁿ What will this sum grow to? Present value PV = FV ÷ (1 + r)ⁿ What is a future sum worth today? Worked example (fictional figures): at 5% a year, 1,000 today grows to about 1,628.89 in 10 years; 1,000 received in 10 years is worth about 613.91 today. The rate used to bring future money back to today is the discount rate . It is made of two parts: the reward for waiting : roughly, the rate on the safest available asset, which already includes the inflation people expect; the reward for risk : the less certain the payment, the higher the rate and the lower the present value. See risk and return. What goes wrong Adding amounts from different years as if they were the same money. Using the wrong rate. A safe promise and a risky one should not be discounted at the same rate. Forgetting inflation. A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See inflation. Key rule: move every amount to the same date before you compare, add or subtract. Connects to compounding — the future value formula is compounding. bonds and valuation — prices are present values of expected future cash. t bills — the usual stand in for the reward for waiting. Check yourself Q: A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today? A: The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.",
+   "text": "What it is The idea that money available now is worth more than the same amount later . Money now can be invested and earn a return, it is certain while future money isn't, and prices may rise in between. Why it exists Every financial decision trades money at one time for money at another: saving, borrowing, buying a bond, buying a business. To compare them you need to move all the amounts to the same point in time. How it works Two conversions, using an interest rate r per period and n periods: Conversion Formula Question it answers Future value FV = PV × (1 + r)ⁿ What will this sum grow to? Present value PV = FV ÷ (1 + r)ⁿ What is a future sum worth today? Worked example (fictional figures): at 5% a year, 1,000 today grows to about 1,628.89 in 10 years; 1,000 received in 10 years is worth about 613.91 today. The rate used to bring future money back to today is the discount rate . It is made of two parts: the reward for waiting : roughly, the rate on the safest available asset, which already includes the inflation people expect; the reward for risk : the less certain the payment, the higher the rate and the lower the present value. See risk and return. What goes wrong Adding amounts from different years as if they were the same money. Using the wrong rate. A safe promise and a risky one should not be discounted at the same rate. Forgetting inflation. A nominal rate discounts nominal amounts; a real rate discounts amounts in today's prices. Mixing the two gives nonsense. See inflation. Key rule: move every amount to the same date before you compare, add or subtract. Connects to compounding — the future value formula is compounding. opportunity cost — the cost of using money one way instead of another. bonds and valuation — prices are present values of expected future cash. t bills — the usual stand in for the reward for waiting. Check yourself Q: A friend offers you 1,100 in one year instead of 1,000 today. Safe savings pay 5%. Which is worth more today? A: The 1,100 next year. At 5% its present value is about 1,047.62, which is more than 1,000 — assuming the friend is as reliable as the savings account. If not, a higher discount rate could flip the answer.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -8884,6 +9144,7 @@ window.MUDMAP = {
     "human-capital",
     "inflation",
     "monetary-policy",
+    "opportunity-cost",
     "personal-capital",
     "returns",
     "risk-and-return",
@@ -9096,6 +9357,7 @@ window.MUDMAP = {
     "drawdown",
     "fear-gauges",
     "foundation",
+    "luck-and-skill",
     "measure",
     "options",
     "portfolio",
@@ -11881,5 +12143,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-27 07:51 UTC"
+ "built": "2026-10-27 10:06 UTC"
 };

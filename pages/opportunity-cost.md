@@ -16,7 +16,7 @@ Every use of money or time is also a decision not to use it another way. Cash he
 ## How it works
 Identify the realistic next-best use of the same resource. Compare the expected outcome of your choice with the expected outcome of that alternative, over the same period and after costs. The difference is the opportunity cost. It applies to capital, to time, and to attention. It does not require a perfect forecast; a rough estimate of the alternative is enough to change many decisions.
 
-**Worked example (fictional figures):** you hold 10,000 in a non-interest account for a year. Safe savings pay 4%. The opportunity cost is about 400 (10,000 × 0.04). If inflation is 3%, the purchasing-power cost is higher still. The cash may still be the right choice, but the cost is no longer invisible.
+**Worked example (fictional figures):** you hold 10,000 in a non-interest account for a year. Safe savings pay 4%. The opportunity cost is 10,000 × 0.04 = **400**. Separately, if inflation is 3%, the idle cash also buys about 3% less by the end of the year. The cash may still be the right choice, but the cost is no longer invisible.
 
 ## What goes wrong
 - **Counting only out-of-pocket costs.** The money you do not spend is not free if it could have earned a return.
@@ -35,8 +35,8 @@ Identify the realistic next-best use of the same resource. Compare the expected 
 
 **Q:** You keep a large cash balance “just in case”. What is the opportunity cost of that decision?
 
-**A:** The return the cash could have earned in a safer or more liquid alternative, minus any extra risk or inconvenience of that alternative, over the period you hold the cash.
+**A:** What the same money could have earned in its best realistic alternative, such as an interest-paying account, over the time you hold it, allowing for any extra risk or inconvenience that alternative brings.
 
 **Q:** Two projects take the same capital. One is expected to return 6% and the other 9%. What is the opportunity cost of choosing the first?
 
-**A:** Roughly 3 percentage points a year, the difference between the two expected returns, assuming both are realistic options.
+**A:** Roughly 3 percentage points a year, the difference between the two expected returns, assuming both are realistic options with similar risk.
