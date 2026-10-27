@@ -34,6 +34,7 @@ Volatility is the most common way to put a number on risk. It is used to compare
 - [[correlation]] — the other input to a portfolio's volatility.
 - [[fear-gauges]] — the volatility the market expects, priced from options.
 - [[measure]] — the branch this sits in.
+- [[averages-and-distributions]] — the spread that an average can hide.
 
 ## Check yourself
 
