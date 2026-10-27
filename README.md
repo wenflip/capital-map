@@ -75,7 +75,7 @@ Pages with fewer than 60 words show as dashed **stubs** on the map.
 
 - **Timeless.** No prices, dates of current events or forecasts.
 - **Neutral.** Explain how things work; never tell the reader what to buy or sell.
-- **One page per concept.** Link with `[[page-id]]` or `[[page-id|custom text]]`.
+- **One page per concept.** Link with `[[page-id]]` or `[[page-id|custom text]]`. Ids are lower-case letters, digits and hyphens. The build fails on a link to a page that doesn't exist, on anything in double brackets that isn't a valid link (`[[sequence risk]]`, `[[Enough]]`), and on stray `[[` or `]]`.
 - **Placement on the Cartography of Wealth is a judgment** and is labelled as one on every page that carries it.
 
 ## Qualifications (`quals/`)

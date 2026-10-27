@@ -13146,5 +13146,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-27 10:56 UTC"
+ "built": "2026-10-27 11:10 UTC"
 };
