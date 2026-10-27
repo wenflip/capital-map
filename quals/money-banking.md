@@ -15,6 +15,7 @@ A free online course by Perry Mehrling, taught as a sequence of themes rather th
 ## MB2 — Banking as a clearing system
 - [[bank-deposits]] — banks as payment systems that must settle every day
 - [[central-bank-money]] — final settlement in reserves
+- [[repo-market]] — secured overnight funding: the money market behind dealers
 - [[money-creation]] — how lending creates deposits
 - [[eurodollars]] — the payment system extended offshore
 - [[liquidity]] — when settlement pressure becomes a squeeze

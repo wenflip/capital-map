@@ -32,7 +32,7 @@ This is a rule of thumb used by market analysts, not an official measure.
 ## What moves it
 - Asset purchases and run-offs by the central bank. See [[central-bank-money]].
 - Government tax receipts and spending, which move cash in and out of the TGA.
-- Money funds shifting between the reverse repo facility and other short-term assets such as [[t-bills]].
+- Money funds shifting between the reverse repo facility and other short-term assets such as [[t-bills]]. See [[repo-market]].
 
 > **Key rule:** liquidity explains a lot of what moves across many assets at once, but not why any single asset is worth what it is.
 

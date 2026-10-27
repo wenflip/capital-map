@@ -35,6 +35,7 @@ The branches sit in four groups, shown as clusters on the map.
 
 **How it runs** — the machinery, the scorecard and the practicalities.
 - [[markets]] — exchanges, dealers, brokers, custody and settlement.
+- [[how-markets-move]] — the cycles, expectations and forced flows behind price moves.
 - [[measure]] — returns, drawdown and volatility.
 - [[practice]] — tax, accounts, common mistakes, data and charting.
 

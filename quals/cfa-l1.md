@@ -24,6 +24,8 @@ Many mapped pages are still stubs: those rows are the to-do list for the branche
 - [[central-bank-money]] — the central bank's balance sheet and reserves
 - [[monetary-policy]] — policy rates, transmission, real rates and the limits of policy
 - [[inflation]] — price levels, real and nominal
+- [[business-cycle]] — the stages of the business cycle
+- [[credit-cycle]] — credit conditions over the cycle
 - [[cash-and-fiat]] — currencies and what gives them value
 - [[exchange-rates]] — quotes, cross rates, exchange-rate regimes and forward rates
 

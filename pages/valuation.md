@@ -34,7 +34,7 @@ A high P/E means the market expects strong growth; a low one means it expects li
 
 ## What goes wrong
 - **Garbage in, garbage out.** A valuation built on optimistic growth gives an optimistic answer.
-- **Cheap for a reason.** A low P/E can mean the company's earnings are about to fall.
+- **Cheap for a reason.** A low P/E can mean the company's earnings are about to fall. Prices reflect what's expected; see [[priced-in]].
 - **Comparing unlike things.** Ratios only work across similar companies, in similar conditions.
 - **Rates change everything.** When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See [[bond-pricing]].
 

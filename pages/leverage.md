@@ -28,7 +28,7 @@ At 2×, a 50% fall wipes you out. At 3×, a fall of about **33.3%** does. At 10�
 ## What goes wrong
 - **Forced selling.** Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you.
 - **Losses beyond your money.** With some loans and derivatives, you can owe more than you put in.
-- **Cascades.** When many leveraged holders are forced to sell at once, their sales push prices down and force more sales.
+- **Cascades.** When many leveraged holders are forced to sell at once, their sales push prices down and force more sales. See [[forced-sellers]].
 - **Hidden leverage** inside funds, products and companies you own.
 
 > **Key rule:** leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before.

@@ -40,6 +40,7 @@ Indices are also **rebalanced**: companies are added or removed on a set schedul
 
 ## Connects to
 - [[funds-and-etfs]] — how people actually invest in an index.
+- [[flows-and-fundamentals]] — why joining or leaving an index moves a price.
 - [[diversification]] — what an index gives you, and where concentration takes it back.
 - [[returns]] — price return against total return.
 

@@ -31,7 +31,7 @@ The buyer's loss is capped at 5; the gain grows with the price. The **seller** h
 ## What goes wrong
 - **Time decay.** An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless.
 - **Sellers' hidden risk.** Selling options pays a small, steady income and can then lose heavily in a sharp move.
-- **Paying for fear.** In a panic, insurance gets expensive just when people want it most.
+- **Paying for fear.** In a panic, insurance gets expensive just when people want it most. See [[fear-gauges]] and [[asymmetry]].
 
 > **Key rule:** an option buyer risks the premium; an option seller risks the move. Know which side you're on.
 

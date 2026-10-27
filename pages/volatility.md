@@ -32,6 +32,7 @@ Volatility is the most common way to put a number on risk. It is used to compare
 ## Connects to
 - [[drawdown]] — the worst stretch, where volatility is the everyday swing.
 - [[correlation]] — the other input to a portfolio's volatility.
+- [[fear-gauges]] — the volatility the market expects, priced from options.
 - [[measure]] — the branch this sits in.
 
 ## Check yourself

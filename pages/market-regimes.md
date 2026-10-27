@@ -40,6 +40,7 @@ The bottom-right corner, falling growth with rising inflation, is the one many p
 - [[yield-curve]] — often watched as a sign of a coming slowdown.
 - [[inflation]] and [[central-bank-money]] — the main drivers.
 - [[real-assets]] — what tends to hold up when inflation rises.
+- [[business-cycle]] and [[credit-cycle]] — the rhythms that move markets between regimes.
 
 ## Check yourself
 
