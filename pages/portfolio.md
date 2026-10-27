@@ -23,7 +23,6 @@ Nobody knows which asset will do best next year. Putting everything into the bes
 - [[position-sizing]] — how much to put in any one holding so that being wrong is survivable.
 - [[asymmetry]] — what you can win against what you can lose, and why a high win rate can still lose money.
 - [[risk-of-ruin]] — the chance that losses end the ability to continue.
-- [[kelly-criterion]] — the fraction of capital that maximises long-run growth when the edge is known.
 - [[rebalancing]] — bringing the mix back to target as prices move.
 - [[market-regimes]] — why the same mix behaves very differently in different conditions.
 
@@ -59,5 +58,6 @@ Nobody knows which asset will do best next year. Putting everything into the bes
 **A:** Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.
 
 ## Going deeper
+- [[kelly-criterion]] — the fraction of capital that maximises long-run growth when the edge is known, and why most people bet less.
 - **Modern portfolio theory.** Harry Markowitz showed in 1952 that investors should choose portfolios, not single assets, by the balance of expected return and risk of the whole. For any level of risk there is a mix with the highest expected return; the set of those mixes is called the **efficient frontier**.
 - **Its limits.** The theory needs estimates of returns, volatilities and correlations, and those estimates are unstable. Small changes in the inputs can produce very different "optimal" portfolios, which is why many investors use simple, robust mixes instead.

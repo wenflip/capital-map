@@ -7,10 +7,10 @@ order: 4.7
 level: advanced
 summary: A formula for the fraction of capital to risk when there is a known edge, balancing growth against the chance of large losses.
 tags: portfolio, kelly, position sizing, edge, advanced
-sources: Kelly (1956)
+sources: J. L. Kelly Jr., A New Interpretation of Information Rate (Bell System Technical Journal, July 1956)
 ---
 ## What it is
-The Kelly criterion gives the fraction of capital that maximises the expected long-run growth rate when the probabilities and payoffs are known. It is the size that grows capital fastest if the edge is correctly estimated and the activity can be repeated many times. Betting more than this fraction raises the chance of large losses; betting less grows capital more slowly.
+The Kelly criterion, set out by the engineer J. L. Kelly Jr. in 1956, gives the fraction of capital that maximises the expected long-run growth rate when the probabilities and payoffs are known. It is the size that grows capital fastest if the edge is correctly estimated and the activity can be repeated many times. Betting more than this fraction raises the chance of large losses; betting less grows capital more slowly.
 
 ## Why it matters
 Position size determines both the growth rate and the risk of ruin. An edge that is real can still destroy capital if too much is risked on each trial. The criterion makes the trade-off explicit: the optimal fraction depends on the size of the edge and the odds.
@@ -22,7 +22,11 @@ f* = p − (1 − p) / b
 
 The fraction is the edge divided by the odds. When the edge is small, the fraction is small. When the payoff is larger, a higher fraction can be justified. In practice many users bet a fraction of the Kelly amount (half-Kelly or less) because estimates of *p* and *b* are uncertain and because full Kelly produces large swings.
 
-**Worked example (fictional figures):** a bet wins 55% of the time (*p* = 0.55) and pays even money (*b* = 1). The Kelly fraction is 0.55 − (1 − 0.55) / 1 = **0.10**, or 10% of capital. Half-Kelly would be 5%. Betting the full 10% maximises expected growth if the probabilities are exact; estimating them too high leads to over-betting and higher chance of large drawdowns.
+**Worked example (fictional figures):** a bet wins 55% of the time (*p* = 0.55) and pays even money (*b* = 1). The Kelly fraction is 0.55 − (1 − 0.55) / 1 = **0.10**, or 10% of capital. Half-Kelly would be 5%. Betting the full 10% maximises expected growth if the probabilities are exact. On the same bet:
+- **Half-Kelly (5%)** keeps about **75%** of the full Kelly growth rate, with much smaller swings.
+- **Double Kelly (20%)** has a long-run growth rate slightly **below zero**: capital shrinks over time, even though every bet has an edge.
+
+Over-betting is far more costly than under-betting.
 
 ## What goes wrong
 - **Using an overstated edge.** If the true probability is lower than assumed, the calculated fraction is too large and the chance of ruin rises.

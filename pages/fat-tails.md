@@ -16,7 +16,11 @@ Models and rules of thumb built on normal distributions understate the chance of
 ## How it works
 In a normal distribution the chance of a move larger than three standard deviations is very small. In distributions with fat tails that chance is higher, and the chance of even larger moves declines more slowly. Financial returns commonly show this pattern: most days are ordinary, but the largest daily moves account for a disproportionate share of total variation. Measures that assume normality, such as simple volatility, therefore understate the risk of extremes.
 
-**Worked example (fictional figures):** under a normal assumption a daily move larger than 4% has a chance of about 0.3%. In a fat-tailed series the same threshold is crossed on 2% of days. Over 250 trading days the expected number of such moves rises from 0.75 to 5. The extremes are no longer rare enough to ignore.
+**Worked example (fictional figures):** an asset's typical daily move (standard deviation) is 1%, so a 3% move is three standard deviations.
+- **Under a normal distribution,** a move that size happens on about **0.27%** of days: 250 × 0.0027 ≈ **0.7** days in a 250-day trading year.
+- **In a fat-tailed series,** the same move happens on 2% of days: 250 × 0.02 = **5** days a year, about seven times as often.
+
+The extremes are no longer rare enough to ignore.
 
 ## What goes wrong
 - **Using normal-based risk limits.** A limit set at three standard deviations can be breached far more often than the model suggests.

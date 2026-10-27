@@ -16,7 +16,7 @@ A strategy can have a positive expected return and still carry a material chance
 ## How it works
 Ruin depends on the size of the edge, the size of the typical loss, and how much capital is risked each time. Larger bets raise the chance that a run of losses exhausts capital before the edge can recover it. The same edge that is safe at small size can produce ruin at large size. Anything that forces an exit — margin calls, redemptions, spending needs — turns a temporary loss into ruin.
 
-**Worked example (fictional figures):** a process wins 55% of bets and loses 45%, with equal sized wins and losses. Betting 1% of capital each time, a long losing streak is survivable. Betting 20% each time, a streak of five losses reduces capital to 0.8^5 = **0.327** of the start. Further losses or a forced exit can end the activity even though the edge remains positive.
+**Worked example (fictional figures):** a process wins 55% of bets and loses 45%, with equal sized wins and losses. Betting 1% of capital each time, five losses in a row leave 0.99 × 0.99 × 0.99 × 0.99 × 0.99 ≈ **0.951** of the start: a scratch. Betting 20% each time, the same five losses leave 0.8 × 0.8 × 0.8 × 0.8 × 0.8 ≈ **0.328**: two-thirds gone. Further losses or a forced exit can end the activity even though the edge remains positive.
 
 ## What goes wrong
 - **Focusing only on expected return.** A positive expectation does not protect against a sequence that ends the game.

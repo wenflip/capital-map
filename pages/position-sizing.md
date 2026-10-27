@@ -43,10 +43,12 @@ If the price falls to the exit point, the loss is 500, and the portfolio can abs
 - [[diversification]] — sizing is diversification at the level of each holding.
 - [[volatility]] — the input for risk-based sizing.
 - [[rebalancing]] — how oversized positions are trimmed.
-- [[kelly-criterion]] — a formula for the fraction that maximises growth when the edge is known.
 
 ## Check yourself
 
 **Q:** A holding falls 50%. What gain does it need to get back to where it started?
 
 **A:** 100%. Half of the original is left, so it has to double to recover.
+
+## Going deeper
+- [[kelly-criterion]] — a formula for the fraction of capital that maximises long-run growth when the edge is known, and why betting more than it is costly.
