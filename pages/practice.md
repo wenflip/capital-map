@@ -18,6 +18,7 @@ Two people can own the same fund and end up with very different amounts. The dif
 ## How it works
 - [[tax]] — how gains and income are taxed, and why the timing of tax changes the maths.
 - [[account-types]] — ordinary, tax-advantaged and retirement accounts.
+- [[withdrawal-rates]] — historical research on how much can be taken each year without exhausting a portfolio.
 - [[common-mistakes]] — the errors that cost the most, and how to avoid them.
 - [[data-sources]] — where reliable price, economic and on-chain data comes from, and how to check it.
 - [[charting]] — reading price charts, and what they can't tell you.

@@ -46,6 +46,7 @@ One percentage point a year costs 18,688, about a quarter of the final value. Se
 - [[shares]] — what most equity funds hold.
 - [[diversification]] — the main reason funds exist.
 - [[reits]] — a listed fund-like company that holds property.
+- [[active-management]] — the arithmetic that constrains the average active result after costs.
 
 ## Check yourself
 

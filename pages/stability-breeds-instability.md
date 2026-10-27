@@ -40,6 +40,7 @@ It explains a pattern that otherwise looks strange: the biggest crashes tend to 
 - [[leverage]] — how borrowing turns a fall into a wipe-out.
 - [[fear-gauges]] — low readings can mean complacency, not safety.
 - [[market-failure]] — what the far end of the process looks like.
+- [[booms-and-busts]] — the stages that can follow a long period of calm and easy credit.
 
 ## Check yourself
 

@@ -35,6 +35,7 @@ The same asset is risky on a one-year view, and fairly dependable on a twenty-ye
 - [[drawdown]] — the loss you must be able to sit through for the horizon to hold.
 - [[forced-sellers]] — anything that forces a sale shortens the horizon.
 - [[compounding]] — the longer the horizon, the more compounding can matter.
+- [[withdrawal-rates]] — research on spending rates that must last for a chosen horizon.
 
 ## Check yourself
 

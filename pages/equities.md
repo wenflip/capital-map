@@ -19,6 +19,7 @@ Over long periods, shares have usually returned more than bonds or cash. That ex
 - [[shares]] — what owning one share means: votes, dividends, and where you stand if the company fails.
 - [[indices]] — baskets that track a market, and how their weighting changes what they measure.
 - [[funds-and-etfs]] — pooled ways to own many shares at once, and why fees matter so much.
+- [[active-management]] — why the average active investor trails the market after costs.
 - [[financial-statements]] — the three reports that show what a company earns, owns and owes.
 - [[valuation]] — turning those reports into an estimate of what a share is worth.
 - [[private-business]] — owning a company that isn't listed: your own firm or a private stake.
