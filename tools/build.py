@@ -237,7 +237,24 @@ def separate_lists(md):
     return "\n".join(out)
 
 
+ANY_LINK = re.compile(r"\[\[([^\]\n]*)\]\]")
+CODE_SPAN = re.compile(r"(?s)```.*?```|`[^`\n]*`")
+
+
+def check_link_syntax(md_body, source_id):
+    """Flag anything written as a link that WIKILINK won't match (e.g. [[sequence risk]] or [[Some-Page]]).
+    Without this, such text renders as raw brackets on the live page and nothing complains. Code is ignored."""
+    text = CODE_SPAN.sub("", md_body)
+    for m in ANY_LINK.finditer(text):
+        if not WIKILINK.fullmatch(m.group(0)):
+            errors.append(f"{source_id}: malformed link {m.group(0)} (ids are lower-case letters, digits and hyphens: [[page-id]] or [[page-id|text]])")
+    leftover = ANY_LINK.sub("", text)
+    if "[[" in leftover or "]]" in leftover:
+        errors.append(f"{source_id}: unclosed or stray [[ / ]] brackets")
+
+
 def render(md_body, titles, source_id, link_sink):
+    check_link_syntax(md_body, source_id)
     def repl(m):
         target, label = m.group(1), m.group(2)
         if target not in titles:
@@ -344,6 +361,7 @@ def load_flows(titles):
             if len(cells) != len(header):
                 errors.append(f"flow {fid}: row {len(steps) + 1} has {len(cells)} cells, header has {len(header)}")
                 cells = (cells + [""] * len(header))[: len(header)]
+            check_link_syntax(" ".join(cells).replace("\\|", "|"), f"flow {fid} row {len(steps) + 1}")
             step = {"label": cells[0], "page": None, "cells": [plain(c) for c in cells[2:]]}
             m = WIKILINK.search(cells[1])
             if m:
