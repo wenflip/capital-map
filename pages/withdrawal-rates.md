@@ -6,7 +6,7 @@ parent: practice
 order: 2.5
 summary: Research on how much can be taken from a portfolio each year without exhausting it, based mainly on US historical data.
 tags: practice, withdrawal, retirement, spending
-sources: Bengen (1994)
+sources: William P. Bengen, Determining Withdrawal Rates Using Historical Data (Journal of Financial Planning, 1994)
 ---
 ## What it is
 A withdrawal rate is the percentage of a portfolio’s starting value taken out each year, often adjusted for inflation. Research has examined which rates would have survived historical sequences of returns without the portfolio reaching zero before a chosen horizon.
@@ -15,7 +15,7 @@ A withdrawal rate is the percentage of a portfolio’s starting value taken out 
 Spending more than the portfolio can support leads to exhaustion. Spending less leaves capital unused. The research provides a historical benchmark, not a guarantee. Results depend on the asset mix, the fees, the horizon and the sequence of returns that actually occurs.
 
 ## How it works
-William Bengen’s 1994 study in the *Journal of Financial Planning* examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence.
+William Bengen’s 1994 study in the *Journal of Financial Planning* examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested; in none of them did it run out in under 33 years. His figures came from US shares and intermediate-term US government bonds. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence.
 
 **Worked example (fictional figures):** a portfolio of 1,000,000. A 4% initial withdrawal is 40,000 in the first year. If inflation is 3%, the second-year withdrawal is 40,000 × 1.03 = **41,200**. Whether the portfolio survives depends on the returns that follow, not on the percentage alone.
 
@@ -29,7 +29,7 @@ William Bengen’s 1994 study in the *Journal of Financial Planning* examined US
 ## Connects to
 - [[time-horizons]] — the period the withdrawals must last.
 - [[drawdown]] — early losses reduce the capital from which later withdrawals are taken.
-- [[sequence risk]] — the order of returns matters as much as the average.
+- [[averages-and-distributions]] — the order of returns matters, not only their average.
 - [[inflation]] — withdrawals that rise with prices require the portfolio to keep pace.
 
 ## Check yourself

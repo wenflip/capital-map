@@ -1284,6 +1284,7 @@ INSERT INTO "page_links" VALUES('volatility','sharpe-ratio');
 INSERT INTO "page_links" VALUES('what-is-money','claims-and-liabilities');
 INSERT INTO "page_links" VALUES('what-is-money','hierarchy-of-money');
 INSERT INTO "page_links" VALUES('what-is-money','inflation');
+INSERT INTO "page_links" VALUES('withdrawal-rates','averages-and-distributions');
 INSERT INTO "page_links" VALUES('withdrawal-rates','drawdown');
 INSERT INTO "page_links" VALUES('withdrawal-rates','inflation');
 INSERT INTO "page_links" VALUES('withdrawal-rates','time-horizons');
@@ -1723,7 +1724,7 @@ INSERT INTO "pages" VALUES('practice','In Practice',NULL,'capital-system','pract
 INSERT INTO "pages" VALUES('real-assets','Real Assets',NULL,'capital-system','real-assets',1,'basic','Physical things with value of their own: property, commodities and collectibles.',728);
 INSERT INTO "pages" VALUES('absolute-and-relative-risk','Absolute and Relative Risk','Absolute and Relative Risk','how-to-think','how-to-think',2,'basic','A large relative change can still be a tiny absolute chance, and the absolute number is what matters for the decision.',410);
 INSERT INTO "pages" VALUES('account-types','Account Types',NULL,'practice','practice',2,'basic','Ordinary, tax-advantaged and retirement accounts.',401);
-INSERT INTO "pages" VALUES('active-management','The Arithmetic of Active Management','Active Management','equities','equities',2,'basic','Before costs, the average active investor must match the market; after costs, the average must trail it.',462);
+INSERT INTO "pages" VALUES('active-management','The Arithmetic of Active Management','Active Management','equities','equities',2,'basic','Before costs, the average active investor must match the market; after costs, the average must trail it.',586);
 INSERT INTO "pages" VALUES('asset-allocation','Asset Allocation',NULL,'portfolio','portfolio',2,'basic','How much goes into each kind of asset.',433);
 INSERT INTO "pages" VALUES('asymmetry','Asymmetry','Asymmetry','portfolio','portfolio',2,'basic','The shape of what you can win against what you can lose, and why being right most of the time can still lose money.',501);
 INSERT INTO "pages" VALUES('averages-and-distributions','Averages and Distributions','Averages and Distributions','how-to-think','how-to-think',2,'basic','An average can hide the spread of outcomes, and one extreme value can move the average without changing the typical case.',491);
@@ -1732,7 +1733,7 @@ INSERT INTO "pages" VALUES('bank-deposits','Bank Deposits',NULL,'money-you-hold'
 INSERT INTO "pages" VALUES('blockchains','How Blockchains Work','How blockchains work','digital-assets','digital-assets',2,'basic','A shared ledger kept in agreement by many computers: the machinery under every digital asset.',346);
 INSERT INTO "pages" VALUES('bond-pricing','Bond Prices and Yields','Prices and yields','fixed-income','fixed-income',2,'basic','Why bond prices fall when interest rates rise, what "yield" means, and why longer bonds move more.',449);
 INSERT INTO "pages" VALUES('bonds','Bonds',NULL,'fixed-income','fixed-income',2,'basic','A loan you can trade: fixed payments from a government or company, and your money back at the end.',433);
-INSERT INTO "pages" VALUES('booms-and-busts','Booms and Busts','Booms and Busts','how-markets-move','how-markets-move',2,'basic','The recurring stages through which asset prices can rise far above, and then fall back toward, estimates of value.',505);
+INSERT INTO "pages" VALUES('booms-and-busts','Booms and Busts','Booms and Busts','how-markets-move','how-markets-move',2,'basic','The recurring stages through which asset prices can rise far above, and then fall back toward, estimates of value.',541);
 INSERT INTO "pages" VALUES('bridges-and-layer-2s','Bridges and Layer 2s',NULL,'digital-assets','digital-assets',2,'basic','How value moves between chains and onto faster networks built on top, and why bridges have been crypto''s weakest link.',394);
 INSERT INTO "pages" VALUES('broker-failure','Broker and Custodian Failure','Broker Failure','failure-modes','failure-modes',2,'basic','When the firm holding your investments fails: what segregation and protection schemes cover, and what they don''t.',444);
 INSERT INTO "pages" VALUES('brokers','Brokers',NULL,'markets','markets',2,'basic','The firm that places your orders and holds your account.',373);
@@ -1826,7 +1827,7 @@ INSERT INTO "pages" VALUES('tokens','Tokens',NULL,'digital-assets','digital-asse
 INSERT INTO "pages" VALUES('valuation','Valuation',NULL,'equities','equities',2,'basic','Working out what a business is worth from what it will earn.',466);
 INSERT INTO "pages" VALUES('volatility','Volatility',NULL,'measure','measure',2,'basic','How widely prices swing.',433);
 INSERT INTO "pages" VALUES('what-is-money','What Money Is',NULL,'money','money',2,'basic','Money does three jobs: you pay with it, you keep score in it, and you store value in it. Few things do all three well.',255);
-INSERT INTO "pages" VALUES('withdrawal-rates','Withdrawal Rates','Withdrawal Rates','practice','practice',2,'basic','Research on how much can be taken from a portfolio each year without exhausting it, based mainly on US historical data.',450);
+INSERT INTO "pages" VALUES('withdrawal-rates','Withdrawal Rates','Withdrawal Rates','practice','practice',2,'basic','Research on how much can be taken from a portfolio each year without exhausting it, based mainly on US historical data.',474);
 INSERT INTO "pages" VALUES('yield-curve','The Yield Curve',NULL,'fixed-income','fixed-income',2,'basic','Interest rates across different loan lengths, and what its shape says about expected rates and the economy.',344);
 INSERT INTO "pages" VALUES('bail-in','Bail-in and the Creditor Ladder','Bail-in','backstops','money-you-hold',3,'basic','Rescuing a failing bank with its own investors'' and large depositors'' money instead of taxpayers'', in a set order.',440);
 INSERT INTO "pages" VALUES('bank-capital-and-liquidity','Bank Capital and Liquidity',NULL,'backstops','money-you-hold',3,'basic','The bank''s own defences: capital to absorb losses, and liquid assets to pay depositors who want their money now.',455);

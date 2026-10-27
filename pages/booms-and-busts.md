@@ -6,10 +6,10 @@ parent: how-markets-move
 order: 10
 summary: The recurring stages through which asset prices can rise far above, and then fall back toward, estimates of value.
 tags: markets, cycles, mania, bubbles
-sources: Kindleberger (1978); Garber (2000)
+sources: Charles P. Kindleberger, Manias, Panics, and Crashes (1978); Peter M. Garber, Famous First Bubbles (MIT Press, 2000)
 ---
 ## What it is
-Booms and busts are episodes in which prices rise well above, and later fall back toward or below, levels that can be justified by cash flows or replacement cost. The pattern is often described in stages: displacement, boom, euphoria, profit-taking and panic. Not every rise follows the full sequence, and historians disagree about the scale of some famous cases.
+Booms and busts are episodes in which prices rise well above, and later fall back toward or below, levels that can be justified by cash flows or replacement cost. The pattern is often described in stages: displacement, boom, euphoria, profit-taking and panic, a sequence the economic historian Charles Kindleberger set out in 1978. Not every rise follows the full sequence, and historians disagree about the scale of some famous cases.
 
 ## Why it matters
 Large deviations from value change the returns available to those who buy at different points. Understanding the stages does not predict the turning point. It does show why prices can detach from fundamentals for a time and why the subsequent fall can be rapid once selling begins.
@@ -17,12 +17,12 @@ Large deviations from value change the returns available to those who buy at dif
 ## How it works
 A displacement — a new technology, a change in policy, or easy credit — starts the rise. Rising prices attract more buyers, some of whom buy because prices are rising. Credit expands. At some point selling by early holders or a tightening of credit reverses the move. The fall is often faster than the rise because leveraged positions are forced to sell. The same stages have been identified in many markets; the assets and the triggers differ.
 
-**Worked example (fictional figures):** an asset rises from 100 to 400 over three years, then falls to 120 in six months. An investor who bought at 150 and sold at 350 gained. An investor who bought at 350 and held through the fall lost most of the gain. The stages do not identify which investor will be which.
+**Worked example (fictional figures):** an asset rises from 100 to 400 over three years, then falls to 120 in six months. An investor who bought at 150 and sold at 350 more than doubled their money: 350 ÷ 150 ≈ **2.33** times. One who bought at 350 and held lost about two-thirds: (120 − 350) ÷ 350 ≈ **−66%**. The stages do not identify which investor will be which.
 
 ## What goes wrong
 - **Treating every rise as a boom that must bust.** Prices can rise for fundamental reasons and stay higher.
 - **Assuming the stages give a timing signal.** The length of each stage varies; euphoria can last longer than expected.
-- **Using disputed historical cases as precise precedents.** The Dutch tulip episode of the 1630s is often cited, but historians dispute its economic scale; it is safer to say it is “said to be” an early mania than to treat the popular account as settled fact.
+- **Using disputed historical cases as precise precedents.** The Dutch tulip episode of the 1630s is often cited, but economists and historians dispute its scale (Peter Garber argued in 2000 that the popular account is exaggerated); it is safer to say it is “said to be” an early mania than to treat the popular account as settled fact.
 
 > **Key rule:** prices can rise far above, and fall far below, estimates of value; the stages describe the path, not the date of the turn.
 
