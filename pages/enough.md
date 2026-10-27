@@ -8,7 +8,7 @@ summary: Once a target is reached, extra expected return adds little to the goal
 tags: practice, enough, goals, risk
 ---
 ## What it is
-Enough is the point at which further increases in expected wealth add little to the purpose the capital is meant to serve, while further risk can still reduce the capital below what that purpose requires. It is a comparison between the marginal benefit of more and the marginal cost of the risk needed to seek it.
+**Enough** is the point where more expected wealth adds little to the goal the money is for, while more risk can still leave less than that goal needs. It compares what a bit more would add with what the risk of chasing it could take away.
 
 ## Why it matters
 Capital is accumulated for a reason — spending, independence, a bequest, or another goal. Once the amount required for that reason is in hand, the value of additional expected return declines relative to the value of protecting what is already there. The decision is not about how much anyone ought to want. It is about whether the next unit of risk still improves the chance of meeting the stated goal.
@@ -16,7 +16,7 @@ Capital is accumulated for a reason — spending, independence, a bequest, or an
 ## How it works
 State the amount the goal requires and the period over which it must be available. Then compare two uses of the capital: one that keeps the amount near the target with lower variation, and one that offers a higher expected value but a material chance of falling below the target. If the higher-expected-value path can leave the goal unmet while the lower-variation path meets it, the extra expected return does not compensate for the risk relative to that goal.
 
-**Worked example (fictional figures):** the goal requires 500,000 and that amount is already held. Mix A keeps the capital between 470,000 and 530,000. Mix B has an expected value of 550,000 but a realistic range of 300,000 to 600,000. The extra 50,000 of expected value (550,000 − 500,000) does not restore the goal if the outcome is 300,000. Relative to a goal of 500,000, the downside of Mix B breaks the target while the upside adds little once the target is already met.
+**Worked example (fictional figures):** the goal requires 500,000 and that amount is already held. Mix A keeps the capital between 470,000 and 530,000. Mix B has an expected value of 550,000 but a realistic range of 300,000 to 600,000. Mix B adds an expected 550,000 − 500,000 = **50,000** above the goal, but its low end leaves 500,000 − 300,000 = **200,000** short of it. Mix A's worst case is 500,000 − 470,000 = **30,000** short. Relative to a goal of 500,000, the downside of Mix B breaks the target while the upside adds little once the target is already met.
 
 ## What goes wrong
 - **Treating “enough” as a moral claim.** The page describes a calculation about a stated goal, not a judgement about how much is right to want.
