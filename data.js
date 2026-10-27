@@ -196,6 +196,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "how-markets-move",
+    "how-to-think",
     "options",
     "portfolio",
     "short-selling"
@@ -1298,7 +1299,7 @@ window.MUDMAP = {
    "branch": "capital-system",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — how the money system works: its layers, central banks, interest rates and exchange rates.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a> — banknotes, bank deposits and gold: the money people actually keep.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n<li><a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">When Things Fail</a> — the failure ladder: what fails, what protects you, and where that protection runs out.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, dealers, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the cycles, expectations and forced flows behind price moves.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
+   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — how the money system works: its layers, central banks, interest rates and exchange rates.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a> — banknotes, bank deposits and gold: the money people actually keep.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n<li><a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">When Things Fail</a> — the failure ladder: what fails, what protects you, and where that protection runs out.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, dealers, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the cycles, expectations and forced flows behind price moves.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-to-think\" data-page=\"how-to-think\">How to Think</a> — the thinking tools that apply across the whole map.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
    "deep": "",
    "links": [
     "cartography-of-wealth",
@@ -1310,6 +1311,7 @@ window.MUDMAP = {
     "fixed-income",
     "foundation",
     "how-markets-move",
+    "how-to-think",
     "market-regimes",
     "markets",
     "measure",
@@ -1321,7 +1323,7 @@ window.MUDMAP = {
     "real-assets"
    ],
    "stub": false,
-   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — how the money system works: its layers, central banks, interest rates and exchange rates. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. money you hold — banknotes, bank deposits and gold: the money people actually keep. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. failure modes — the failure ladder: what fails, what protects you, and where that protection runs out. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, dealers, brokers, custody and settlement. how markets move — the cycles, expectations and forced flows behind price moves. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
+   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — how the money system works: its layers, central banks, interest rates and exchange rates. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. money you hold — banknotes, bank deposits and gold: the money people actually keep. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. failure modes — the failure ladder: what fails, what protects you, and where that protection runs out. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, dealers, brokers, custody and settlement. how markets move — the cycles, expectations and forced flows behind price moves. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. how to think — the thinking tools that apply across the whole map. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
    "textDeep": "",
    "children": [
     "foundation",
@@ -1338,7 +1340,8 @@ window.MUDMAP = {
     "markets",
     "how-markets-move",
     "measure",
-    "practice"
+    "practice",
+    "how-to-think"
    ],
    "jobs": [],
    "quals": [],
@@ -2129,6 +2132,7 @@ window.MUDMAP = {
    "backlinks": [
     "account-types",
     "how-markets-move",
+    "how-to-think",
     "practice"
    ],
    "backlinksAdv": [
@@ -4966,7 +4970,66 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "capital-system",
-    "common-mistakes"
+    "common-mistakes",
+    "how-to-think"
+   ],
+   "backlinksAdv": []
+  },
+  "how-to-think": {
+   "id": "how-to-think",
+   "title": "How to Think",
+   "short": "How to Think",
+   "parent": "capital-system",
+   "order": 13.0,
+   "summary": "The thinking tools that cut across every part of the map: looking past the first effect, weighing what you give up, telling luck from skill, and reading numbers without being fooled.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "mental models",
+    "thinking",
+    "decisions",
+    "judgement",
+    "reasoning",
+    "numbers"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "How it runs",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-to-think"
+   ],
+   "branch": "how-to-think",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called <strong>mental models</strong>, that apply to almost every money decision, whatever the asset.</p>\n<p>The ideas fall into three groups:</p>\n<ul>\n<li><strong>Decisions:</strong> looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong.</li>\n<li><strong>Incentives and systems:</strong> people respond to what they're rewarded for, and some costs fall on people who never chose them.</li>\n<li><strong>Thinking with numbers:</strong> an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise-looking figure can be built on guesswork.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map.</p>\n<h2>How it works</h2>\n<p>Each idea here is a question to ask, not a formula to apply:</p>\n<ul>\n<li><strong>And then what?</strong> Most choices have effects that arrive later, and some of those reverse the first effect.</li>\n<li><strong>Compared with what?</strong> Every use of money is also a choice not to use it some other way.</li>\n<li><strong>Why would I know better?</strong> If there's no clear reason you have an advantage, assume you don't.</li>\n<li><strong>Skill, or luck?</strong> A good result from a bad decision, or a bad result from a good one, is common over short periods.</li>\n<li><strong>Over what time?</strong> The right answer often changes with how long you can wait.</li>\n<li><strong>What if I'm wrong?</strong> A choice that only works if every estimate is right leaves no room for error.</li>\n<li><strong>Who gains?</strong> Incentives explain much of what people sell, recommend and report.</li>\n<li><strong>What does the whole spread look like?</strong> An average, a percentage or a single figure rarely tells the full story.</li>\n</ul>\n<p>These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Using a model to confirm what you already believe.</strong> Any of these ideas can be bent to justify a decision already made.</li>\n<li><strong>Applying one model to everything.</strong> Each tool fits some problems and misleads on others. That's why there are several.</li>\n<li><strong>Thinking without facts.</strong> Good reasoning on bad information still goes wrong. Check the numbers first, then think about them.</li>\n<li><strong>Over-thinking small choices.</strong> Careful thought is worth most where a mistake would be large or hard to undo.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before any important money decision, ask what happens next, what you give up, and what happens if you're wrong.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors these ways of thinking help avoid.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — what you can win against what you can lose.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off every decision sits on.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces that test this thinking in practice.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the numbers these tools help you read.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill?</p><details><summary>Show answer</summary><p>Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about.</p></details></div>\n<div class=\"qa\"><p class=\"q\">You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice?</p><details><summary>Show answer</summary><p>That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Inversion:</strong> instead of asking how to succeed, ask what would guarantee failure, then avoid it.</li>\n<li><strong>Base rates:</strong> before judging a single case, ask how often things like it usually work out.</li>\n<li><strong>Circle of competence:</strong> knowing where your knowledge ends matters as much as what you know.</li>\n</ul></section>",
+   "links": [
+    "asymmetry",
+    "common-mistakes",
+    "how-markets-move",
+    "measure",
+    "risk-and-return"
+   ],
+   "stub": false,
+   "text": "What it is The rest of the map explains what things are and how the system works. This branch is about the thinking you bring to it. It gathers a small set of ideas, often called mental models , that apply to almost every money decision, whatever the asset. The ideas fall into three groups: Decisions: looking past the first consequence to the next one, counting what you give up as well as what you get, asking whether you have a real advantage, telling luck from skill, matching choices to how long you can wait, and leaving room for being wrong. Incentives and systems: people respond to what they're rewarded for, and some costs fall on people who never chose them. Thinking with numbers: an average can hide what matters, \"twice the risk\" can mean almost nothing, and a precise looking figure can be built on guesswork. Why it exists Most costly money mistakes aren't caused by missing facts. They come from how the facts are weighed: chasing a recent winner, ignoring a cost because it's invisible, trusting a number because it has a decimal point. Professionals learn these habits of mind through training and through losses. This branch sets them out plainly, so anyone can use them on any page of the map. How it works Each idea here is a question to ask, not a formula to apply: And then what? Most choices have effects that arrive later, and some of those reverse the first effect. Compared with what? Every use of money is also a choice not to use it some other way. Why would I know better? If there's no clear reason you have an advantage, assume you don't. Skill, or luck? A good result from a bad decision, or a bad result from a good one, is common over short periods. Over what time? The right answer often changes with how long you can wait. What if I'm wrong? A choice that only works if every estimate is right leaves no room for error. Who gains? Incentives explain much of what people sell, recommend and report. What does the whole spread look like? An average, a percentage or a single figure rarely tells the full story. These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade. What goes wrong Using a model to confirm what you already believe. Any of these ideas can be bent to justify a decision already made. Applying one model to everything. Each tool fits some problems and misleads on others. That's why there are several. Thinking without facts. Good reasoning on bad information still goes wrong. Check the numbers first, then think about them. Over thinking small choices. Careful thought is worth most where a mistake would be large or hard to undo. Key rule: before any important money decision, ask what happens next, what you give up, and what happens if you're wrong. Connects to common mistakes — the errors these ways of thinking help avoid. asymmetry — what you can win against what you can lose. risk and return — the trade off every decision sits on. how markets move — the forces that test this thinking in practice. measure — the numbers these tools help you read. Check yourself Q: A fund has beaten the market for three years in a row. What question from this branch should you ask before treating that as proof of skill? A: Whether it could be luck. Over a few years, many funds will beat the market by chance alone, and the ones that did are the ones you hear about. Q: You keep money in a current account paying no interest \"to be safe\". What does the idea of opportunity cost add to that choice? A: That safety has a price: what the money could have earned elsewhere, and what inflation takes from it each year. That may still be the right choice, but it isn't free.",
+   "textDeep": "Going deeper Inversion: instead of asking how to succeed, ask what would guarantee failure, then avoid it. Base rates: before judging a single case, ask how often things like it usually work out. Circle of competence: knowing where your knowledge ends matters as much as what you know.",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "capital-system"
    ],
    "backlinksAdv": []
   },
@@ -6002,6 +6065,7 @@ window.MUDMAP = {
    "backlinks": [
     "capital-system",
     "common-mistakes",
+    "how-to-think",
     "returns",
     "volatility"
    ],
@@ -7700,6 +7764,7 @@ window.MUDMAP = {
     "equities",
     "foundation",
     "four-ways-to-earn",
+    "how-to-think",
     "measure",
     "personal-capital",
     "portfolio",
@@ -11816,5 +11881,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-27 05:44 UTC"
+ "built": "2026-10-27 07:51 UTC"
 };

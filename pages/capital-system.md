@@ -38,5 +38,6 @@ The branches sit in four groups, shown as clusters on the map.
 - [[how-markets-move]] — the cycles, expectations and forced flows behind price moves.
 - [[measure]] — returns, drawdown and volatility.
 - [[practice]] — tax, accounts, common mistakes, data and charting.
+- [[how-to-think]] — the thinking tools that apply across the whole map.
 
 > **Key rule:** this is a reference, not advice. It explains how things work so you can judge for yourself.

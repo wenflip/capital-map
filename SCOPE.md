@@ -23,7 +23,7 @@ Education only. Not financial advice.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
 
-## Top-level branches (v5: fifteen branches in four groups)
+## Top-level branches (v6: sixteen branches in four groups)
 
 Groups are labels drawn as clusters on the map, not a tree level (decided 2026-10-25). Inside *What you can own*, branches run from inside you to fully on the record, following the Cartography of Wealth.
 
@@ -44,6 +44,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | How it runs | How Markets Move | **Written.** The forces behind price moves: the business cycle, the credit cycle, stability breeds instability, priced in, earnings season, fear gauges, flows and fundamentals, forced sellers, short selling |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
+| How it runs | How to Think | **Written.** The hub: thinking tools that cut across the map, in three clusters (decisions; incentives and systems; thinking with numbers). Pages arrive in batches |
 
 ## Cross-cutting views
 
@@ -122,6 +123,11 @@ None.
   - **Explain, never signal:** every page describes a mechanism with a reason behind it, never a trading rule. The hub's key rule says so outright.
   - **Later candidates** for the branch: calendar rhythms (central bank days, options expiry, index rebalancing, quarter-end), behaviour (herding, loss aversion), sector rotation, long debt cycles, booms and busts, volatility clustering, fat tails, liquidity and sequence risk, shadow banking, collateral and haircuts, who's on the other side, price ratios, and a margin-call spiral flow.
   - Map colour hue 10, chosen by measured contrast (white label 5.9:1 light, 6.2:1 dark).
+- **How to Think (2026-10-27):** a 16th branch, last in *How it runs*, for the mental models that cut across every page. It's placed last because it's the most abstract: it's easier to use once the rest of the map is familiar. Three clusters: **decisions** (second-order thinking, opportunity cost, edge, luck versus skill, time horizons, margin of safety), **incentives and systems** (incentives, externalities and the commons) and **thinking with numbers** (averages and distributions, absolute and relative risk, false precision).
+  - **Written with a second AI.** Grok drafts the pages on this branch; Claude reviews them against the house rules, verifies every dated fact from the source links in the PR, runs the tests and the privacy scan, and approves before the owner merges.
+  - **Ideas, not a book's stories.** The ideas are standard; the pages use public, checkable cases and our own words, not anecdotes or branded terms from any one book.
+  - **Related pages in other branches:** risk of ruin and the Kelly criterion (Portfolio & Risk), the arithmetic of active management (Equities), fat tails (Measure), booms and busts (How Markets Move), and withdrawal rates, fraud warning signs and "enough" (In Practice).
+  - Map colour hue 280, chosen by measured contrast (white label 7.3:1 light, 5.4:1 dark).
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel
