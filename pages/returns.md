@@ -40,6 +40,7 @@ Volatility drags the compound return below the simple average. The bigger the sw
 - [[measure]] — the branch this sits in.
 - [[time-value-of-money]] — the same maths in reverse.
 - [[volatility]] — what causes the gap between average and compound returns.
+- [[false-precision]] — extra decimal places do not make an uncertain return more accurate.
 
 ## Check yourself
 

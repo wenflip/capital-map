@@ -39,6 +39,9 @@ Each idea here is a question to ask, not a formula to apply:
 - [[margin-of-safety]] — leaving room for the estimate of value to be wrong.
 - [[incentives]] — people respond to what they are rewarded for.
 - [[externalities]] — costs that fall on people who did not choose the activity.
+- [[averages-and-distributions]] — an average can hide the spread and the typical case.
+- [[absolute-and-relative-risk]] — a large relative change can still be a tiny absolute chance.
+- [[false-precision]] — extra digits do not add accuracy the data do not support.
 
 These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.
 
