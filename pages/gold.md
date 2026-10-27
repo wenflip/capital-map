@@ -1,8 +1,8 @@
 ---
 id: gold
 title: Gold
-parent: money
-order: 3
+parent: money-you-hold
+order: 4
 summary: The oldest money and the one asset at the base of the hierarchy that is nobody's liability.
 tags: gold, precious metals, money
 tier: 2

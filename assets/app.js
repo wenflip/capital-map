@@ -28,7 +28,7 @@
   if (welcomeOnLoad && freshVisitor) store.set("mode", "simple");
 
   /* ---------- Branch colours ---------- */
-  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120, "failure-modes": 0 };
+  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "money-you-hold": 320, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120, "failure-modes": 0 };
   const branchIds = P[ROOT].children;
   const fallbackHues = [215, 268, 20, 152, 42, 192, 338, 240, 88, 0, 300];
   function hue(id) {
@@ -384,7 +384,9 @@
     // centre if it fits, otherwise pin to the left / top edge so the root is visible
     const x = bw * k <= w - pad * 2 ? (w - bw * k) / 2 - b.minX * k : pad - b.minX * k;
     const rootY = layout.nodes[ROOT].y;
-    const y = bh * k <= h - pad * 2 - 40 ? (h - 40 - bh * k) / 2 - b.minY * k : h / 2 - rootY * k;
+    // too tall: pin to the top (first branch visible, read downwards) if the root still shows; otherwise centre on the root
+    const yTop = pad - b.minY * k, rootShowsAtTop = rootY * k + yTop <= h - pad - 40;
+    const y = bh * k <= h - pad * 2 - 40 ? (h - 40 - bh * k) / 2 - b.minY * k : rootShowsAtTop ? yTop : h / 2 - rootY * k;
     const target = { k, x, y };
     tween(target, animate);
   }

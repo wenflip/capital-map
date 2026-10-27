@@ -1,8 +1,8 @@
 ---
 id: bank-deposits
 title: Bank Deposits
-parent: money
-order: 6
+parent: money-you-hold
+order: 2
 summary: The money most people actually hold: not cash in a vault, but a bank's promise to pay you on demand.
 tags: money, banking
 tier: 3

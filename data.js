@@ -139,8 +139,8 @@ window.MUDMAP = {
    "id": "backstops",
    "title": "Bank Backstops",
    "short": "Bank backstops",
-   "parent": "money",
-   "order": 6.5,
+   "parent": "money-you-hold",
+   "order": 3.0,
    "summary": "The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.",
    "tcodes": [],
    "fiori": [],
@@ -169,10 +169,10 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [
     "bank-deposits",
     "bonds",
@@ -216,7 +216,8 @@ window.MUDMAP = {
    "backlinks": [
     "bank-deposits",
     "failure-modes",
-    "money"
+    "money",
+    "money-you-hold"
    ],
    "backlinksAdv": []
   },
@@ -252,11 +253,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops",
     "bail-in"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>A <strong>bail-out</strong> rescues a bank with public money. A <strong>bail-in</strong> rescues it by imposing the losses on the bank's own investors and creditors: their claims are written down or turned into shares until the bank has enough capital again.</p>\n<h2>Why it exists</h2>\n<p>After the 2008 crisis, many governments decided taxpayers shouldn't keep rescuing banks. Resolution laws — in the European Union, the United Kingdom, Canada and elsewhere — now set out how a failing bank's own creditors absorb the losses first.</p>\n<h2>How it works</h2>\n<p>Losses move up a <strong>creditor ladder</strong>. Each rung is wiped out before the next is touched:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Order</th>\n<th>Who takes the loss</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Shareholders</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Holders of the bank's riskiest bonds, issued to be written off in a crisis</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Other junior bondholders</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Senior bondholders and other unsecured creditors</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Large deposits above the insurance limit (in many systems, those of individuals and small firms rank ahead of those of big companies)</td>\n</tr>\n<tr>\n<td>—</td>\n<td><strong>Insured deposits are protected</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>The exact order varies by country and by the bank's own legal terms.</p>\n<p><strong>Real cases:</strong></p>\n<ul>\n<li><strong>Cyprus, 2013.</strong> At Bank of Cyprus, 47.5% of large deposits above the €100,000 insured limit were turned into shares; at the second large bank, uninsured depositors bore most of the losses. Insured deposits were protected.</li>\n<li><strong>Credit Suisse, 2023.</strong> In a government-arranged takeover by UBS, about 16 billion Swiss francs of the bank's riskiest bonds (AT1 bonds) were written to zero, while shareholders still received UBS shares — a controversial break with the usual order. In October 2025 Switzerland's Federal Administrative Court ruled that the write-off lacked a sufficient legal basis. The regulator and UBS appealed to the Federal Supreme Court, and as of early 2026 the bonds stayed written down while the appeal ran. A rule that looks clear on paper can still be tested in court for years.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Large depositors are creditors</strong>, not owners of cash in a vault. Above the insurance limit, a deposit can be bailed in.</li>\n<li><strong>The order can be changed</strong> by law or by the bond's own terms, as Credit Suisse bondholders found.</li>\n<li><strong>Contagion.</strong> Fear of bail-in can trigger the very run it is meant to prevent.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> above the insurance limit, a deposit is an unsecured loan to the bank, and in a failure it can be turned into shares or written down.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In a bail-in, who should take losses before large depositors?</p><details><summary>Show answer</summary><p>Shareholders first, then holders of the bank's riskiest bonds, then other bondholders and unsecured creditors. Large deposits come near the end, and insured deposits are protected.</p></details></div>",
@@ -308,11 +309,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops",
     "bank-capital-and-liquidity"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>A bank has two separate defences, and failing at either one can bring it down:</p>\n<ul>\n<li><strong>Capital</strong> — the owners' money in the bank (equity). It absorbs losses before depositors lose anything. Too little capital and the bank is <strong>insolvent</strong>: it owes more than it owns.</li>\n<li><strong>Liquidity</strong> — assets that can be turned into cash quickly without big losses. Too little liquidity and the bank is <strong>illiquid</strong>: solvent on paper, but unable to pay everyone who asks today.</li>\n</ul>\n<h2>Why it matters</h2>\n<p>Banks fund long-term, hard-to-sell loans with deposits that can leave at any moment. That mismatch is what makes banking useful, and what makes runs possible. Capital and liquidity are how a bank survives bad loans and nervous depositors.</p>\n<h2>How it works</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Measure</th>\n<th>What it compares</th>\n<th>What it tells you</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Capital ratio</strong></td>\n<td>Capital against the bank's assets, usually weighted by how risky they are</td>\n<td>How big a loss the bank can take before depositors are at risk</td>\n</tr>\n<tr>\n<td><strong>Leverage ratio</strong></td>\n<td>Capital against total assets, with no risk weighting</td>\n<td>A simple check that can't be gamed with low risk weights</td>\n</tr>\n<tr>\n<td><strong>Liquidity coverage</strong></td>\n<td>Liquid assets against the cash that could flow out in a 30-day stress</td>\n<td>Whether the bank can survive a month-long run</td>\n</tr>\n<tr>\n<td><strong>Loan-to-deposit ratio</strong></td>\n<td>Loans against deposits</td>\n<td>How much of the deposit base is tied up in loans</td>\n</tr>\n</tbody>\n</table></div>\n<p>These rules come from the international <strong>Basel</strong> standards, which most major economies apply in their own versions.</p>\n<p><strong>Worked example (fictional figures):</strong> a bank has assets of 1,000 and capital of 50, so its simple leverage ratio is 5%. If loans worth 60 go bad, the losses exceed its capital, and depositors' money is no longer fully covered.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Losses hidden by accounting.</strong> Bonds a bank says it will hold to maturity don't have to be marked at market prices, so losses on them can stay out of sight until the bank is forced to sell. This was central to Silicon Valley Bank's collapse in 2023.</li>\n<li><strong>Fast runs.</strong> Online banking and social media let depositors leave in hours, faster than rules built around 30 days assume.</li>\n<li><strong>Concentrated depositors.</strong> A bank whose deposits come from a few large, connected customers can lose them all at once.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a bank fails in one of two ways — it runs out of capital (insolvent) or runs out of cash (illiquid). Check both.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank owns more than it owes, but can't pay all the depositors asking for money today. Is it insolvent or illiquid?</p><details><summary>Show answer</summary><p>Illiquid. It has enough value in total, but not enough cash right now. This is the situation a central bank's emergency lending is designed for. See <a class=\"wl\" href=\"#/map/p/lender-of-last-resort\" data-page=\"lender-of-last-resort\">Lender of Last Resort</a>.</p></details></div>",
@@ -343,8 +344,8 @@ window.MUDMAP = {
    "id": "bank-deposits",
    "title": "Bank Deposits",
    "short": "",
-   "parent": "money",
-   "order": 6.0,
+   "parent": "money-you-hold",
+   "order": 2.0,
    "summary": "The money most people actually hold: not cash in a vault, but a bank's promise to pay you on demand.",
    "tcodes": [],
    "fiori": [],
@@ -385,10 +386,10 @@ window.MUDMAP = {
    ],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "bank-deposits"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>When you \"have money in the bank\", you don't own any specific cash. You hold a <strong>claim on the bank</strong>: its promise to pay you central bank money when you ask. A deposit is the bank's liability.</p>\n<h2>Why it exists</h2>\n<p>Deposits are cheap to move and easy to use, and they let the bank lend. Most of the money in an economy is bank deposits, not notes, and most of it was created by bank lending.</p>\n<h2>How it's protected</h2>\n<ul>\n<li><strong>Deposit insurance.</strong> Many countries guarantee deposits up to a set limit per person per bank. Above the limit, you are an ordinary creditor of the bank.</li>\n<li><strong>Regulation.</strong> Banks must hold capital and liquid assets against their deposits.</li>\n<li><strong>The central bank</strong> lends to sound banks in a panic, so deposits can be paid out.</li>\n</ul>\n<p>The full chain, and how each link can break, is on <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">Bank Backstops</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Bank runs.</strong> If many depositors want their money at once, a bank can't pay them all from the cash it holds.</li>\n<li><strong>Bail-ins.</strong> In some resolution regimes, large uninsured deposits can be converted into shares or written down to rescue a failing bank.</li>\n<li><strong>Freezes and capital controls.</strong> In a crisis, withdrawals can be limited.</li>\n<li><strong>Inflation</strong>, as with all <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">cash</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a deposit is a loan to your bank. Below the insurance limit, the state stands behind it; above it, the bank does.</p>\n</blockquote>\n<h2>How it has failed</h2>\n<ul>\n<li><strong>US bank holiday, 1933.</strong> After a wave of runs, every US bank was closed for about a week while the government decided which could reopen.</li>\n<li><strong>Argentina, 2001.</strong> From December 2001 the <em>corralito</em> capped cash withdrawals at 250 pesos a week. Dollar deposits were then converted into pesos at 1.4 to the dollar, while the market rate soon reached about 4.</li>\n<li><strong>Cyprus, 2013.</strong> Large deposits above the insured limit were converted into bank shares or lost. See <a class=\"wl\" href=\"#/map/p/bail-in\" data-page=\"bail-in\">Bail-in and the Creditor Ladder</a>.</li>\n<li><strong>Greece, 2015.</strong> Banks closed for three weeks and cash withdrawals were capped at €60 a day.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do bank runs move money <em>down</em> the hierarchy of money?</p><details><summary>Show answer</summary><p>Depositors swap a bank's promise (a deposit) for central bank money (notes) or for deposits at a bank they trust more. See <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</p></details></div>",
@@ -438,6 +439,7 @@ window.MUDMAP = {
     "four-ways-to-earn",
     "hierarchy-of-money",
     "money",
+    "money-you-hold",
     "ratings-failure",
     "sovereign-default",
     "stablecoins"
@@ -476,11 +478,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops",
     "bank-sovereign-loop"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>The final backstop behind a banking system is its <strong>government</strong>. But banks also hold large amounts of that same government's debt. This two-way dependence is often called the <strong>bank–government loop</strong>, or, in a crisis, the \"doom loop\".</p>\n<h2>Why it matters</h2>\n<p>When the loop runs the wrong way, trouble at one end feeds the other:</p>\n<ol>\n<li>Banks make losses, so the government promises to rescue them.</li>\n<li>The promise adds to government debt, so its bonds fall in value.</li>\n<li>Banks holding those bonds make further losses.</li>\n<li>The government looks weaker still, and so on.</li>\n</ol>\n<h2>How it works</h2>\n<p>Two things decide whether a government can be the last link:</p>\n<ul>\n<li><strong>The size of the banking system against the economy.</strong> A banking system several times larger than the country's annual output can be too big to rescue, as Iceland found in 2008.</li>\n<li><strong>The government's own borrowing power.</strong> A government that borrows in its own currency, with a central bank behind it, can usually raise money in a crisis. One that can't — because it shares a currency, or borrows in someone else's, or has already lost markets' trust — may be unable to. Cyprus in 2013 and Lebanon from 2019 are examples.</li>\n</ul>\n<p>The euro area's debt crisis from 2010 is the textbook case: weak banks and weak governments in several countries pulled each other down until European institutions stepped in.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>\"Safe\" government bonds aren't safe from this.</strong> Banks are allowed to treat their own government's debt as very low risk, which concentrates the loop.</li>\n<li><strong>Rescues move the problem</strong>, from bank balance sheets to public ones.</li>\n<li><strong>When the government can't help</strong>, depositors can face frozen accounts or capital controls, as in Lebanon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the government is the last link only if it is bigger and stronger than its banks. Check the size of the banking system against the economy, and whether the government can borrow in its own currency.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — government debt, and why its value matters to banks.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — why borrowing in your own currency matters.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — capital controls and currency crises.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can a government that borrows in its own currency usually stand behind its banks more credibly than one that can't?</p><details><summary>Show answer</summary><p>Because its own central bank can create the currency its debts are owed in, so it can always raise money in that currency — though doing so can bring inflation. A government without that option can simply run out of money.</p></details></div>",
@@ -1120,6 +1122,7 @@ window.MUDMAP = {
     "failure-modes",
     "financial-repression",
     "flow:when-a-country-fails",
+    "money-you-hold",
     "sound-money"
    ],
    "backlinksAdv": []
@@ -1155,7 +1158,7 @@ window.MUDMAP = {
    "branch": "capital-system",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">Money &amp; Liquidity</a> — what money is, and its hierarchy from gold to bank deposits.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
+   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — how the money system works: its layers, central banks, interest rates and exchange rates.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a> — banknotes, bank deposits and gold: the money people actually keep.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
    "deep": "",
    "links": [
     "cartography-of-wealth",
@@ -1169,19 +1172,21 @@ window.MUDMAP = {
     "markets",
     "measure",
     "money",
+    "money-you-hold",
     "personal-capital",
     "portfolio",
     "practice",
     "real-assets"
    ],
    "stub": false,
-   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — what money is, and its hierarchy from gold to bank deposits. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, brokers, custody and settlement. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
+   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — how the money system works: its layers, central banks, interest rates and exchange rates. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. money you hold — banknotes, bank deposits and gold: the money people actually keep. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, brokers, custody and settlement. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
    "textDeep": "",
    "children": [
     "foundation",
     "money",
     "personal-capital",
     "digital-assets",
+    "money-you-hold",
     "real-assets",
     "fixed-income",
     "equities",
@@ -1287,6 +1292,7 @@ window.MUDMAP = {
     "inflation",
     "markets",
     "money",
+    "money-you-hold",
     "personal-capital",
     "portfolio",
     "privacy-and-traceability",
@@ -1305,8 +1311,8 @@ window.MUDMAP = {
    "id": "cash-and-fiat",
    "title": "Cash and Fiat Currency",
    "short": "Cash & Fiat",
-   "parent": "money",
-   "order": 5.0,
+   "parent": "money-you-hold",
+   "order": 1.0,
    "summary": "Government-issued money that can't be redeemed for anything, valued because taxes, debts and prices are written in it.",
    "tcodes": [],
    "fiori": [],
@@ -1347,10 +1353,10 @@ window.MUDMAP = {
    ],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "cash-and-fiat"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p><strong>Fiat</strong> money is currency that a government declares legal tender and that can't be exchanged for a fixed amount of anything else. Nearly every national currency today is fiat.</p>\n<h2>Why people hold it</h2>\n<p>Fiat isn't \"backed\" by a commodity, but it isn't backed by nothing either. Its demand comes from:</p>\n<ul>\n<li><strong>Taxes.</strong> The state requires taxes to be paid in its own currency.</li>\n<li><strong>Debts.</strong> Loans, mortgages and contracts are written in it, so borrowers must get it to repay.</li>\n<li><strong>Prices and wages.</strong> It is the unit everyone keeps score in.</li>\n<li><strong>The central bank and the banking system</strong> standing behind it. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a>.</li>\n</ul>\n<h2>Two different \"cash\" holdings</h2>\n<p>Cash straddles the line on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>:</p>\n<ul>\n<li><strong>Physical notes</strong> are bearer and private (<strong>Tier 2</strong>), but exposed to theft and loss.</li>\n<li><strong>Money in the bank</strong> is a <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">bank deposit</a>: recorded, legible and protected by the state (<strong>Tier 3</strong>), but exposed to bank failure, freezes and capital controls.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Inflation</strong> steadily reduces what each unit buys. After inflation, cash earning little or no interest loses value year after year. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>Currency crises.</strong> When trust in a government breaks, its currency can lose most of its value quickly.</li>\n<li><strong>Capital controls</strong> can limit how much you withdraw or move abroad.</li>\n<li><strong>Against other currencies,</strong> its value moves every day, which changes what anything priced abroad costs you. See <a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> cash is the best tool for spending and short-term safety, and one of the worst for storing wealth over decades.</p>\n</blockquote>\n<h2>How it has failed</h2>\n<ul>\n<li><strong>Germany, 1923.</strong> In the Weimar hyperinflation, prices rose so fast that by November 1923 one US dollar bought about 4.2 trillion marks. Savings held in marks were wiped out.</li>\n<li><strong>Zimbabwe, 2008.</strong> Inflation peaked at an estimated tens of billions of percent a month. The country abandoned its own currency in 2009.</li>\n<li><strong>Venezuela, 2008–21.</strong> The bolívar was redenominated three times, removing three, then five, then six zeros.</li>\n<li><strong>The slow version.</strong> Even in stable countries, moderate inflation compounds: a currency can lose most of its buying power over a lifetime without a crisis.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why isn't the US dollar in the same position as a memecoin, when neither is backed by anything?</p><details><summary>Show answer</summary><p>Because the dollar has forced demand (taxes, debts and global trade are written in it) and a central bank behind it. A memecoin has none of these. See <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</p></details></div>",
@@ -1394,6 +1400,7 @@ window.MUDMAP = {
     "flow:where-money-comes-from",
     "inflation",
     "money",
+    "money-you-hold",
     "privacy-and-traceability",
     "sovereign-default"
    ],
@@ -2721,11 +2728,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops",
     "deposit-insurance"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p><strong>Deposit insurance</strong> is a scheme that repays depositors, up to a limit per person per bank, if their bank fails. Most countries have one, usually run by a public agency and funded by fees charged to banks.</p>\n<h2>Why it exists</h2>\n<p>If depositors fear losing their money, they run at the first rumour, and even healthy banks can fail. Insurance removes the reason for small depositors to run.</p>\n<h2>How it works</h2>\n<ul>\n<li><strong>A limit.</strong> Deposits up to a set amount per depositor per bank are covered; anything above is not.</li>\n<li><strong>A fund.</strong> Banks pay regular fees into a fund that pays out when a bank fails.</li>\n<li><strong>The fund is small compared with what it covers.</strong> It typically holds only a small percentage of insured deposits. That is enough for occasional failures, not for many large banks at once.</li>\n<li><strong>A government backstop.</strong> In most systems the government stands behind the fund, which is what makes the promise credible in a crisis.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Deposits above the limit</strong> are exposed. Businesses and wealthy savers often hold much more than the limit in one bank.</li>\n<li><strong>Systemic crises</strong> can exceed the fund many times over, so the guarantee is only as good as the government behind it.</li>\n<li><strong>Moral hazard.</strong> Insured depositors have little reason to watch how their bank takes risks, and banks may take more because of it.</li>\n<li><strong>Discretion.</strong> Governments sometimes protect deposits above the limit, as the United States did in 2023, but that is decided case by case, not promised.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> know the limit and stay under it per bank — and remember that the fund behind it depends on the government behind that.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — what the insurance covers.</li>\n<li><a class=\"wl\" href=\"#/map/p/bail-in\" data-page=\"bail-in\">Bail-in and the Creditor Ladder</a> — what can happen to deposits above the limit.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why do economists describe a deposit insurance fund as built for single failures, not for crises?</p><details><summary>Show answer</summary><p>Because it holds only a small fraction of the deposits it covers. One bank failing is affordable; many large ones failing together would empty it, leaving the government to make good the promise.</p></details></div>",
@@ -3244,10 +3251,12 @@ window.MUDMAP = {
     "hierarchy-of-money",
     "lender-of-last-resort",
     "money",
+    "money-you-hold",
     "swaps"
    ],
    "backlinksAdv": [
-    "money"
+    "money",
+    "money-you-hold"
    ]
   },
   "exchange-rates": {
@@ -3482,7 +3491,9 @@ window.MUDMAP = {
     "spread-out",
     "wipe-out"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "money-you-hold"
+   ],
    "backlinksAdv": []
   },
   "financial-repression": {
@@ -3796,7 +3807,7 @@ window.MUDMAP = {
    "branch": "foundation",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The handful of ideas that every other branch of the map uses. They don't depend on any particular asset. A bond, a house and a Bitcoin are all judged with the same tools: who owes what, what money is worth over time, how returns build up, how wide the range of outcomes is, and what rising prices do to it all.</p>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't about picking the wrong asset. They come from misreading one of these basics:</p>\n<ul>\n<li>treating a promise as if it were the thing itself;</li>\n<li>comparing money today with money in ten years as if they were equal;</li>\n<li>underestimating what small differences in return or fees do over decades;</li>\n<li>confusing a smooth ride with a safe one;</li>\n<li>forgetting that a 5% return in a year of 4% inflation is barely a gain.</li>\n</ul>\n<h2>How it works</h2>\n<p>Three pages sort the things you can own, and how they earn:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — most financial assets are someone else's promise. Ask whose, and a promise of what.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — twelve stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it.</li>\n<li><a class=\"wl\" href=\"#/map/p/four-ways-to-earn\" data-page=\"four-ways-to-earn\">Four Ways to Earn a Return</a> — every return comes from labour, lending, owning, or taking price risk; anything else is a transfer.</li>\n</ul>\n<p>Four pages explain how value moves through time:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — why a dollar today is worth more than a dollar later, and how to convert one into the other.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — returns earning returns: why time matters more than timing, and why fees matter more than they look.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the general rise in prices, and the difference between a nominal return and a real one.</li>\n</ul>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Mistake</th>\n<th>What it looks like</th>\n<th>The fix</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Ignoring whose promise it is</td>\n<td>\"Money in the bank is safe, full stop\"</td>\n<td>Ask who owes it and what happens if they can't pay</td>\n</tr>\n<tr>\n<td>Adding up money from different years</td>\n<td>\"I paid 200,000 and sold for 300,000, so I made 100,000\"</td>\n<td>Discount or adjust for inflation before comparing</td>\n</tr>\n<tr>\n<td>Underrating small percentages</td>\n<td>\"A 1% fee is nothing\"</td>\n<td>Compound it over the holding period</td>\n</tr>\n<tr>\n<td>Treating low volatility as low risk</td>\n<td>\"It never moves, so it can't fail\"</td>\n<td>Look for the killer, not just the wobble</td>\n</tr>\n<tr>\n<td>Quoting nominal returns</td>\n<td>\"Cash paid 4% this year\"</td>\n<td>Subtract inflation to get the real return</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> compare like with like. Money at different times, in different units or with different risks isn't the same money until you adjust for it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">Money &amp; Liquidity</a> — what the unit of account itself is, and why it loses value.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — where time value is applied to real cash flows.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — how risk is combined across assets.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> and <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — how results and risk are measured.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investments both return 7% a year. One charges a 1% annual fee, the other 0.2%. Why does the gap matter more over 30 years than over 1 year?</p><details><summary>Show answer</summary><p>Because the fee comes out every year, and each year's lost money would itself have earned returns. Over one year the gap is under 1% of the balance; over 30 years it compounds into a much larger share of the final value. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Your savings earned 3% last year while prices rose 5%. Did your wealth grow?</p><details><summary>Show answer</summary><p>In dollars, yes; in what those dollars can buy, no. The real return was about −2%, so your purchasing power fell. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>The handful of ideas that every other branch of the map uses. They don't depend on any particular asset. A bond, a house and a Bitcoin are all judged with the same tools: who owes what, what money is worth over time, how returns build up, how wide the range of outcomes is, and what rising prices do to it all.</p>\n<h2>Why it exists</h2>\n<p>Most costly money mistakes aren't about picking the wrong asset. They come from misreading one of these basics:</p>\n<ul>\n<li>treating a promise as if it were the thing itself;</li>\n<li>comparing money today with money in ten years as if they were equal;</li>\n<li>underestimating what small differences in return or fees do over decades;</li>\n<li>confusing a smooth ride with a safe one;</li>\n<li>forgetting that a 5% return in a year of 4% inflation is barely a gain.</li>\n</ul>\n<h2>How it works</h2>\n<p>Three pages sort the things you can own, and how they earn:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — most financial assets are someone else's promise. Ask whose, and a promise of what.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — twelve stores of wealth, sorted by how embodied in you and how visible to the state they are, each with the one thing most likely to kill it.</li>\n<li><a class=\"wl\" href=\"#/map/p/four-ways-to-earn\" data-page=\"four-ways-to-earn\">Four Ways to Earn a Return</a> — every return comes from labour, lending, owning, or taking price risk; anything else is a transfer.</li>\n</ul>\n<p>Four pages explain how value moves through time:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — why a dollar today is worth more than a dollar later, and how to convert one into the other.</li>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — returns earning returns: why time matters more than timing, and why fees matter more than they look.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — why higher expected returns come with a wider spread of outcomes, and why losses hurt more than gains help.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — the general rise in prices, and the difference between a nominal return and a real one.</li>\n</ul>\n<h2>What goes wrong</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Mistake</th>\n<th>What it looks like</th>\n<th>The fix</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Ignoring whose promise it is</td>\n<td>\"Money in the bank is safe, full stop\"</td>\n<td>Ask who owes it and what happens if they can't pay</td>\n</tr>\n<tr>\n<td>Adding up money from different years</td>\n<td>\"I paid 200,000 and sold for 300,000, so I made 100,000\"</td>\n<td>Discount or adjust for inflation before comparing</td>\n</tr>\n<tr>\n<td>Underrating small percentages</td>\n<td>\"A 1% fee is nothing\"</td>\n<td>Compound it over the holding period</td>\n</tr>\n<tr>\n<td>Treating low volatility as low risk</td>\n<td>\"It never moves, so it can't fail\"</td>\n<td>Look for the killer, not just the wobble</td>\n</tr>\n<tr>\n<td>Quoting nominal returns</td>\n<td>\"Cash paid 4% this year\"</td>\n<td>Subtract inflation to get the real return</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote>\n<p><strong>Key rule:</strong> compare like with like. Money at different times, in different units or with different risks isn't the same money until you adjust for it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — what the unit of account itself is, and why it loses value.</li>\n<li><a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> and <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — where time value is applied to real cash flows.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — how risk is combined across assets.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> and <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — how results and risk are measured.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investments both return 7% a year. One charges a 1% annual fee, the other 0.2%. Why does the gap matter more over 30 years than over 1 year?</p><details><summary>Show answer</summary><p>Because the fee comes out every year, and each year's lost money would itself have earned returns. Over one year the gap is under 1% of the balance; over 30 years it compounds into a much larger share of the final value. See <a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Your savings earned 3% last year while prices rose 5%. Did your wealth grow?</p><details><summary>Show answer</summary><p>In dollars, yes; in what those dollars can buy, no. The real return was about −2%, so your purchasing power fell. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Every valuation is time value plus risk.</strong> A price is the future cash an asset is expected to pay, discounted at a rate that reflects both waiting and uncertainty. The pages on <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> and <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> are the two halves of that rate.</li>\n<li><strong>Losses and gains aren't symmetrical.</strong> A fall of 50% needs a rise of 100% to recover. This is why the spread of outcomes, not just the average, decides long-run results; see the advanced section on <a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a>.</li>\n</ul></section>",
    "links": [
     "bonds",
@@ -4068,8 +4079,8 @@ window.MUDMAP = {
    "id": "gold",
    "title": "Gold",
    "short": "",
-   "parent": "money",
-   "order": 3.0,
+   "parent": "money-you-hold",
+   "order": 4.0,
    "summary": "The oldest money and the one asset at the base of the hierarchy that is nobody's liability.",
    "tcodes": [],
    "fiori": [],
@@ -4105,10 +4116,10 @@ window.MUDMAP = {
    ],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "gold"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>A metal that has been used as money for thousands of years. Physical gold is a <strong>bearer asset</strong>: whoever holds it owns it, and no one owes it to you. Central banks still hold large gold reserves alongside their own currencies.</p>\n<h2>Why it exists as money</h2>\n<ul>\n<li><strong>Scarce and hard to produce.</strong> New supply each year is small next to the existing stock.</li>\n<li><strong>Durable and uniform.</strong> It doesn't rot or rust, and one ounce is the same as another.</li>\n<li><strong>Nobody's liability.</strong> It can't default, and it doesn't depend on any issuer staying solvent.</li>\n</ul>\n<h2>How you can hold it</h2>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Form</th>\n<th>What you own</th>\n<th>Whose risk?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Coins or bars in your possession</td>\n<td>The metal</td>\n<td>Yours: theft, loss, storage</td>\n</tr>\n<tr>\n<td>Allocated vault storage</td>\n<td>Specific bars held for you</td>\n<td>The vault operator's honesty and safety</td>\n</tr>\n<tr>\n<td>Gold ETF or fund</td>\n<td>Shares in a fund that holds gold</td>\n<td>The fund and your broker: this is a claim, not the metal</td>\n</tr>\n<tr>\n<td>Gold futures</td>\n<td>A contract</td>\n<td>The exchange and your counterparty</td>\n</tr>\n</tbody>\n</table></div>\n<p>Physical gold sits in <strong>Tier 2</strong> of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: private and beyond easy reach of the state, but exposed to theft and your own mistakes. Paper forms (ETFs, futures) are claims and sit with other legible assets in <strong>Tier 3</strong>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Theft.</strong> A bearer asset has no recourse desk.</li>\n<li><strong>Confiscation.</strong> Governments have seized private gold before; see below.</li>\n<li><strong>No yield.</strong> Gold pays nothing while you hold it, and storage costs money.</li>\n<li><strong>Long flat periods.</strong> Gold has gone many years without rising in real terms.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> \"gold\" on a broker statement and gold in a safe are different assets with different killers.</p>\n</blockquote>\n<h2>Related</h2>\n<ul>\n<li>As an industrial and traded commodity, see <a class=\"wl\" href=\"#/map/p/commodities\" data-page=\"commodities\">Commodities</a>.</li>\n<li>For its place in the layers of money, see <a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a>.</li>\n</ul>\n<h2>How it has failed</h2>\n<ul>\n<li><strong>Confiscation, 1933.</strong> A US executive order (6102) required citizens to hand in most gold coins, bullion and certificates to the Federal Reserve at a fixed price. The dollar was then devalued against gold, so those who complied lost out.</li>\n<li><strong>A long wait, 1980–2008.</strong> Gold briefly hit $850 an ounce in January 1980 and didn't pass that level again until 2008. Adjusted for inflation, it didn't set a new high until 2025.</li>\n<li><strong>No income while you wait.</strong> Through those decades gold paid nothing, while bonds and shares paid interest and dividends.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Gold is nobody's liability, so it can't default. Name two ways holders have still lost out.</p><details><summary>Show answer</summary><p>For example: it was confiscated in the United States in 1933, and it took from 1980 to 2008 to regain its nominal price peak, paying no income along the way.</p></details></div>",
@@ -4145,6 +4156,7 @@ window.MUDMAP = {
     "four-ways-to-earn",
     "hierarchy-of-money",
     "money",
+    "money-you-hold",
     "real-assets"
    ],
    "backlinksAdv": []
@@ -4648,6 +4660,7 @@ window.MUDMAP = {
     "market-regimes",
     "measure",
     "monetary-policy",
+    "money-you-hold",
     "real-assets",
     "returns",
     "t-bills",
@@ -4824,11 +4837,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "backstops",
     "lender-of-last-resort"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": false,
    "html": "<h2>What it is</h2>\n<p>A central bank acts as <strong>lender of last resort</strong> when it lends to banks that can't borrow anywhere else during a panic. Because it creates its own currency, it can't run out of it.</p>\n<h2>Why it exists</h2>\n<p>A run can sink a bank that is fundamentally sound, simply because its loans can't be sold fast enough. Emergency lending turns those loans into cash so depositors can be paid, and the panic burns out.</p>\n<h2>How it works</h2>\n<p>The classic rule comes from the economist Walter Bagehot in 1873. In a panic the central bank should:</p>\n<ul>\n<li><strong>lend freely</strong>, so nobody doubts cash is available;</li>\n<li><strong>against good collateral</strong>, so it only lends to banks that are solvent;</li>\n<li><strong>at a penalty rate</strong>, so banks don't use it in normal times.</li>\n</ul>\n<p>Modern central banks run standing facilities on these lines, and in big crises also lend to other central banks through <strong>swap lines</strong>. See <a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Telling illiquid from insolvent</strong> is hard in a crisis. Lending to a bank that is actually insolvent just delays the loss and may move it to the public.</li>\n<li><strong>Stigma.</strong> Banks may avoid borrowing in case markets take it as a sign of trouble.</li>\n<li><strong>Foreign-currency debts.</strong> A central bank can create only its own currency; banks owing dollars elsewhere depend on the US central bank's swap lines.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the central bank can cure a shortage of cash, not a shortage of capital.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — what the central bank lends.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — the difference between illiquid and insolvent.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why does the classic rule say to lend at a penalty rate?</p><details><summary>Show answer</summary><p>So that banks use the central bank only in a real emergency, not as a cheap everyday source of funding.</p></details></div>",
@@ -5564,11 +5577,11 @@ window.MUDMAP = {
    "failsAt": [],
    "path": [
     "capital-system",
-    "money",
+    "money-you-hold",
     "bank-deposits",
     "money-creation"
    ],
-   "branch": "money",
+   "branch": "money-you-hold",
    "hits": [],
    "adv": true,
    "html": "<h2>What it is</h2>\n<p>The common picture is that banks take in deposits and lend them out. In practice it mostly works the other way round: <strong>when a bank makes a loan, it creates a new deposit</strong> in the borrower's account. Money is created by the stroke of a pen.</p>\n<p>The Bank of England set this out plainly in a widely cited bulletin, <em>Money creation in the modern economy</em>.</p>\n<h2>How it works</h2>\n<ol>\n<li>A bank approves a loan of 100.</li>\n<li>It records a new asset (the loan) and a new liability (a deposit of 100 in the borrower's account).</li>\n<li>The borrower spends the deposit, which moves to other banks, but it still exists as a deposit somewhere.</li>\n<li>When the loan is repaid, the deposit is destroyed.</li>\n</ol>\n<h2>What limits it</h2>\n<ul>\n<li><strong>Demand for loans</strong> from creditworthy borrowers.</li>\n<li><strong>Profitability:</strong> the bank must earn more on the loan than it pays to fund it.</li>\n<li><strong>Regulation:</strong> capital and liquidity rules.</li>\n<li><strong>Central bank policy rates</strong>, which set the cost of funding.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> lending creates deposits, and repaying loans destroys them. Credit booms expand the money supply; credit busts shrink it.</p>\n</blockquote>",
@@ -5600,18 +5613,90 @@ window.MUDMAP = {
     "money"
    ]
   },
-  "money": {
-   "id": "money",
-   "title": "Money & Liquidity",
-   "short": "Money & Liquidity",
+  "money-you-hold": {
+   "id": "money-you-hold",
+   "title": "Money You Hold",
+   "short": "Money You Hold",
    "parent": "capital-system",
-   "order": 2.0,
-   "summary": "What money is, why some money ranks above other money, and how the amount of it in the system moves markets.",
+   "order": 4.5,
+   "summary": "The money people actually keep, as spending money and savings: banknotes, bank deposits and gold, whose promise each one is, and what can take it away.",
    "tcodes": [],
    "fiori": [],
    "tags": [
     "money",
-    "liquidity"
+    "cash",
+    "savings",
+    "deposits",
+    "gold"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "What you can own",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "money-you-hold"
+   ],
+   "branch": "money-you-hold",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The money you keep for spending, for emergencies and for safety. It comes in three main forms, and each is a different kind of promise:</p>\n<ul>\n<li><strong>Banknotes</strong>, the cash in your wallet: a promise by the central bank, held by you directly.</li>\n<li><strong>Bank deposits</strong>, the money \"in the bank\": a promise by your bank to pay you on demand.</li>\n<li><strong>Gold</strong>, held as coins or bars: nobody's promise at all, just a metal people have treated as money for thousands of years.</li>\n</ul>\n<p>How these forms are created, ranked and priced is covered in <a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a>. This branch is about holding them.</p>\n<h2>Why it exists</h2>\n<p>Everyone holds some money, even people who own nothing else. It pays the bills, covers a shock without selling anything in a hurry, and waits for an opportunity. Most of the time the three forms feel the same: a number you can spend. They behave very differently when something goes wrong, and that difference is what this branch is for.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — government currency, why people must hold it, and its built-in bleed from inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the money most people actually hold: a loan you have made to your bank.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">Bank Backstops</a> — what stands behind a deposit when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the oldest money, at the base of the hierarchy because it is nobody's liability.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Banknotes</th>\n<th>Bank deposits</th>\n<th>Gold</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Whose promise</strong></td>\n<td>The central bank's</td>\n<td>Your bank's</td>\n<td>Nobody's</td>\n</tr>\n<tr>\n<td><strong>What protects it</strong></td>\n<td>You, physically</td>\n<td>Deposit insurance, up to a limit</td>\n<td>You, or a vault</td>\n</tr>\n<tr>\n<td><strong>Main risk</strong></td>\n<td>Inflation; theft</td>\n<td>Bank failure above the limit; freezes</td>\n<td>Price swings; theft</td>\n</tr>\n<tr>\n<td><strong>Earns anything?</strong></td>\n<td>No</td>\n<td>Usually some interest</td>\n<td>No</td>\n</tr>\n</tbody>\n</table></div>\n<p>Private dollar tokens sit beside these as a fourth form: see <a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> in Digital Assets. They are promises by a private issuer, with no central bank or deposit insurance behind them.</p>\n<p>On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, notes and gold are bearer assets you hold yourself, while deposits are on the record, protected by the state and exposed to it. The branch runs from cash in hand to the deposit system, then to gold, which sits outside it.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Inflation.</strong> Cash and most deposits lose buying power every year that prices rise faster than the interest they earn. Over decades the loss is large. See <a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a>.</li>\n<li><strong>Bank failure.</strong> A deposit above the insurance limit is an unsecured loan to a failing bank. See <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">Bank Backstops</a>.</li>\n<li><strong>Controls and freezes.</strong> In a crisis, governments can limit withdrawals or transfers abroad. See <a class=\"wl\" href=\"#/map/p/capital-controls\" data-page=\"capital-controls\">Capital Controls and Freezes</a>.</li>\n<li><strong>Theft and loss.</strong> Notes and gold held at home have no backstop at all if they are stolen.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> \"money in the bank\" and \"money in your hand\" are different promises from different issuers. Know which one you hold, and what protects it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — the system these forms belong to: the hierarchy, central banks, monetary policy, exchange rates.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> — the step just beyond cash: short loans to a government.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> — private dollar promises on a blockchain.</li>\n<li><a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">When Things Fail</a> — bank failure is rung 4 of the failure ladder; currency failure is rung 10.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold some banknotes, a bank deposit and a gold coin. Which of the three is nobody's liability, and what does that protect it from?</p><details><summary>Show answer</summary><p>The gold coin. Because no one promised to pay it, no one's failure can wipe it out. That doesn't protect it from theft or from its price falling.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can two people both \"have money in the bank\" and yet face very different risks?</p><details><summary>Show answer</summary><p>Because the risk depends on the bank, and on how much each person holds there. A deposit within the insurance limit at a sound bank is far safer than a large deposit, well above the limit, at a weak one.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a> — dollar deposits at banks outside the United States, which sit above ordinary deposits in the hierarchy and usually have no central bank behind them.</li>\n<li><strong>Money market funds</strong> hold short-term government and bank debt and are often used like deposits, but they are funds, not deposits, and are usually not covered by deposit insurance.</li>\n</ul></section>",
+   "links": [
+    "backstops",
+    "bank-deposits",
+    "capital-controls",
+    "cartography-of-wealth",
+    "cash-and-fiat",
+    "eurodollars",
+    "failure-modes",
+    "gold",
+    "inflation",
+    "money",
+    "stablecoins",
+    "t-bills"
+   ],
+   "stub": false,
+   "text": "What it is The money you keep for spending, for emergencies and for safety. It comes in three main forms, and each is a different kind of promise: Banknotes , the cash in your wallet: a promise by the central bank, held by you directly. Bank deposits , the money \"in the bank\": a promise by your bank to pay you on demand. Gold , held as coins or bars: nobody's promise at all, just a metal people have treated as money for thousands of years. How these forms are created, ranked and priced is covered in How Money Works. This branch is about holding them. Why it exists Everyone holds some money, even people who own nothing else. It pays the bills, covers a shock without selling anything in a hurry, and waits for an opportunity. Most of the time the three forms feel the same: a number you can spend. They behave very differently when something goes wrong, and that difference is what this branch is for. How it works cash and fiat — government currency, why people must hold it, and its built in bleed from inflation. bank deposits — the money most people actually hold: a loan you have made to your bank. backstops — what stands behind a deposit when a bank fails: capital, the central bank, bail in, deposit insurance and the government. gold — the oldest money, at the base of the hierarchy because it is nobody's liability. Banknotes Bank deposits Gold Whose promise The central bank's Your bank's Nobody's What protects it You, physically Deposit insurance, up to a limit You, or a vault Main risk Inflation; theft Bank failure above the limit; freezes Price swings; theft Earns anything? No Usually some interest No Private dollar tokens sit beside these as a fourth form: see stablecoins in Digital Assets. They are promises by a private issuer, with no central bank or deposit insurance behind them. On the Cartography of Wealth, notes and gold are bearer assets you hold yourself, while deposits are on the record, protected by the state and exposed to it. The branch runs from cash in hand to the deposit system, then to gold, which sits outside it. What goes wrong Inflation. Cash and most deposits lose buying power every year that prices rise faster than the interest they earn. Over decades the loss is large. See inflation. Bank failure. A deposit above the insurance limit is an unsecured loan to a failing bank. See backstops. Controls and freezes. In a crisis, governments can limit withdrawals or transfers abroad. See capital controls. Theft and loss. Notes and gold held at home have no backstop at all if they are stolen. Key rule: \"money in the bank\" and \"money in your hand\" are different promises from different issuers. Know which one you hold, and what protects it. Connects to How Money Works — the system these forms belong to: the hierarchy, central banks, monetary policy, exchange rates. t bills — the step just beyond cash: short loans to a government. stablecoins — private dollar promises on a blockchain. When Things Fail — bank failure is rung 4 of the failure ladder; currency failure is rung 10. Check yourself Q: You hold some banknotes, a bank deposit and a gold coin. Which of the three is nobody's liability, and what does that protect it from? A: The gold coin. Because no one promised to pay it, no one's failure can wipe it out. That doesn't protect it from theft or from its price falling. Q: Why can two people both \"have money in the bank\" and yet face very different risks? A: Because the risk depends on the bank, and on how much each person holds there. A deposit within the insurance limit at a sound bank is far safer than a large deposit, well above the limit, at a weak one.",
+   "textDeep": "Going deeper eurodollars — dollar deposits at banks outside the United States, which sit above ordinary deposits in the hierarchy and usually have no central bank behind them. Money market funds hold short term government and bank debt and are often used like deposits, but they are funds, not deposits, and are usually not covered by deposit insurance.",
+   "children": [
+    "cash-and-fiat",
+    "bank-deposits",
+    "backstops",
+    "gold"
+   ],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "capital-system",
+    "money"
+   ],
+   "backlinksAdv": []
+  },
+  "money": {
+   "id": "money",
+   "title": "How Money Works",
+   "short": "How Money Works",
+   "parent": "capital-system",
+   "order": 2.0,
+   "summary": "How the money system works: what money is, why some money ranks above other money, who creates it and sets its price, and how the amount of it moves markets.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "money",
+    "liquidity",
+    "central bank",
+    "monetary system"
    ],
    "sources": [],
    "level": "basic",
@@ -5633,7 +5718,7 @@ window.MUDMAP = {
    "branch": "money",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it.</p>\n<p>This branch covers two linked ideas:</p>\n<ul>\n<li><strong>Money:</strong> what it is, and why it comes in layers, each one a promise to pay in the layer below.</li>\n<li><strong>Liquidity:</strong> how much money is moving through the financial system at any time, and why prices across many markets follow it.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid.</p>\n<h2>How it works</h2>\n<p>Start with the jobs money does, then work down the layers from the most final form to the most fragile:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — the three jobs money does, and why few things do all three well.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — why money is layered, from gold at the base to private promises at the top.</li>\n<li><a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a> — the oldest money, and the one at the base that is nobody's liability.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the base of the modern system: banknotes and the reserves banks hold at the central bank.</li>\n<li><a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a> — how the central bank steers interest rates and the amount of money, and why it moves every market.</li>\n<li><a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a> — government currency, why people must hold it, and its built-in bleed.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a> — the price of one currency in another, and what it does to anything you own abroad.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> — the money most people actually hold: a bank's promise to pay.</li>\n<li><a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">Bank Backstops</a> — what stands behind that promise when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — how much money is available to flow into assets, and how analysts track it.</li>\n</ul>\n<p>Then follow one dollar from creation to your account in the flow <em>Where money comes from</em>, and follow a bank failure through each backstop in <em>When a bank fails</em>.</p>\n<h2>What goes wrong</h2>\n<p>Each layer fails in its own way:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Typical failure</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Gold</td>\n<td>Theft, confiscation, long periods with no real gain</td>\n</tr>\n<tr>\n<td>Central bank money and cash</td>\n<td>Inflation; in the worst cases, a currency crisis</td>\n</tr>\n<tr>\n<td>Bank deposits</td>\n<td>Bank runs, freezes, losses above the insurance limit</td>\n</tr>\n<tr>\n<td>Private and offshore dollars</td>\n<td>De-pegs and dollar shortages when the issuer or bank can't pay</td>\n</tr>\n</tbody>\n</table></div>\n<p>When trust drops, money moves <strong>down</strong> the hierarchy towards the base. That move is what a bank run, a stablecoin de-peg and a \"dash for cash\" have in common.</p>\n<blockquote>\n<p><strong>Key rule:</strong> always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the question that sorts every form of money.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — where cash, deposits and gold sit by risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> — private dollar promises, which live under <a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a>.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the securities layer just above money.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why liquidity changes how whole groups of assets behave.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank deposit and a banknote both say \"one dollar\". What is the difference between them?</p><details><summary>Show answer</summary><p>A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do panics push money <em>down</em> the hierarchy rather than up?</p><details><summary>Show answer</summary><p>Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it.</p>\n<p>This branch is about the machinery, and covers two linked ideas:</p>\n<ul>\n<li><strong>Money:</strong> what it is, and why it comes in layers, each one a promise to pay in the layer below.</li>\n<li><strong>Liquidity:</strong> how much money is moving through the financial system at any time, and why prices across many markets follow it.</li>\n</ul>\n<p>The forms of money people actually keep (banknotes, bank deposits and gold) have their own branch, <a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a>, with the other things you can own.</p>\n<h2>Why it exists</h2>\n<p>Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid.</p>\n<h2>How it works</h2>\n<p>Start with the jobs money does and how it is layered, then follow who creates it, who sets its price, and how it moves:</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/what-is-money\" data-page=\"what-is-money\">What Money Is</a> — the three jobs money does, and why few things do all three well.</li>\n<li><a class=\"wl\" href=\"#/map/p/hierarchy-of-money\" data-page=\"hierarchy-of-money\">The Hierarchy of Money</a> — why money is layered, from gold at the base to private promises at the top.</li>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the base of the modern system: banknotes and the reserves banks hold at the central bank.</li>\n<li><a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a> — how the central bank steers interest rates and the amount of money, and why it moves every market.</li>\n<li><a class=\"wl\" href=\"#/map/p/exchange-rates\" data-page=\"exchange-rates\">Currencies and Exchange Rates</a> — the price of one currency in another, and what it does to anything you own abroad.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — how much money is available to flow into assets, and how analysts track it.</li>\n</ul>\n<p>The layers themselves, as you hold them, are in <a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a>: <a class=\"wl\" href=\"#/map/p/cash-and-fiat\" data-page=\"cash-and-fiat\">Cash and Fiat Currency</a>, <a class=\"wl\" href=\"#/map/p/bank-deposits\" data-page=\"bank-deposits\">Bank Deposits</a> and the <a class=\"wl\" href=\"#/map/p/backstops\" data-page=\"backstops\">Bank Backstops</a> behind them, and <a class=\"wl\" href=\"#/map/p/gold\" data-page=\"gold\">Gold</a>.</p>\n<p>Then follow one dollar from creation to your account in the flow <em>Where money comes from</em>, and follow a bank failure through each backstop in <em>When a bank fails</em>.</p>\n<h2>What goes wrong</h2>\n<p>Each layer fails in its own way:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Typical failure</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Gold</td>\n<td>Theft, confiscation, long periods with no real gain</td>\n</tr>\n<tr>\n<td>Central bank money and cash</td>\n<td>Inflation; in the worst cases, a currency crisis</td>\n</tr>\n<tr>\n<td>Bank deposits</td>\n<td>Bank runs, freezes, losses above the insurance limit</td>\n</tr>\n<tr>\n<td>Private and offshore dollars</td>\n<td>De-pegs and dollar shortages when the issuer or bank can't pay</td>\n</tr>\n</tbody>\n</table></div>\n<p>When trust drops, money moves <strong>down</strong> the hierarchy towards the base. That move is what a bank run, a stablecoin de-peg and a \"dash for cash\" have in common.</p>\n<blockquote>\n<p><strong>Key rule:</strong> always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the question that sorts every form of money.</li>\n<li><a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">The Cartography of Wealth</a> — where cash, deposits and gold sit by risk.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> — private dollar promises, which live under <a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a>.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the securities layer just above money.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why liquidity changes how whole groups of assets behave.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bank deposit and a banknote both say \"one dollar\". What is the difference between them?</p><details><summary>Show answer</summary><p>A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do panics push money <em>down</em> the hierarchy rather than up?</p><details><summary>Show answer</summary><p>Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/eurodollars\" data-page=\"eurodollars\" data-adv=\"1\">Eurodollars</a> — dollars created and owed by banks outside the United States, usually without a direct central bank backstop. Much of the world's dollar system runs here.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-creation\" data-page=\"money-creation\" data-adv=\"1\">How Banks Create Money</a> — how bank lending creates new deposits, and repayment destroys them.</li>\n<li>The hierarchy changes over time. Gold was the formal base of the system until the early 1970s; since then central bank money has been the base for most purposes.</li>\n</ul></section>",
    "links": [
     "backstops",
@@ -5652,23 +5737,20 @@ window.MUDMAP = {
     "market-regimes",
     "monetary-policy",
     "money-creation",
+    "money-you-hold",
     "stablecoins",
     "t-bills",
     "what-is-money"
    ],
    "stub": false,
-   "text": "What it is The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it. This branch covers two linked ideas: Money: what it is, and why it comes in layers, each one a promise to pay in the layer below. Liquidity: how much money is moving through the financial system at any time, and why prices across many markets follow it. Why it exists Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid. How it works Start with the jobs money does, then work down the layers from the most final form to the most fragile: what is money — the three jobs money does, and why few things do all three well. hierarchy of money — why money is layered, from gold at the base to private promises at the top. gold — the oldest money, and the one at the base that is nobody's liability. central bank money — the base of the modern system: banknotes and the reserves banks hold at the central bank. monetary policy — how the central bank steers interest rates and the amount of money, and why it moves every market. cash and fiat — government currency, why people must hold it, and its built in bleed. exchange rates — the price of one currency in another, and what it does to anything you own abroad. bank deposits — the money most people actually hold: a bank's promise to pay. backstops — what stands behind that promise when a bank fails: capital, the central bank, bail in, deposit insurance and the government. liquidity — how much money is available to flow into assets, and how analysts track it. Then follow one dollar from creation to your account in the flow Where money comes from , and follow a bank failure through each backstop in When a bank fails . What goes wrong Each layer fails in its own way: Layer Typical failure Gold Theft, confiscation, long periods with no real gain Central bank money and cash Inflation; in the worst cases, a currency crisis Bank deposits Bank runs, freezes, losses above the insurance limit Private and offshore dollars De pegs and dollar shortages when the issuer or bank can't pay When trust drops, money moves down the hierarchy towards the base. That move is what a bank run, a stablecoin de peg and a \"dash for cash\" have in common. Key rule: always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail. Connects to claims and liabilities — the question that sorts every form of money. The Cartography of Wealth — where cash, deposits and gold sit by risk. stablecoins — private dollar promises, which live under digital assets. t bills and bonds — the securities layer just above money. market regimes — why liquidity changes how whole groups of assets behave. Check yourself Q: A bank deposit and a banknote both say \"one dollar\". What is the difference between them? A: A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not. Q: Why do panics push money down the hierarchy rather than up? A: Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.",
+   "text": "What it is The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it. This branch is about the machinery, and covers two linked ideas: Money: what it is, and why it comes in layers, each one a promise to pay in the layer below. Liquidity: how much money is moving through the financial system at any time, and why prices across many markets follow it. The forms of money people actually keep (banknotes, bank deposits and gold) have their own branch, Money You Hold, with the other things you can own. Why it exists Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be \"a dollar\", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid. How it works Start with the jobs money does and how it is layered, then follow who creates it, who sets its price, and how it moves: what is money — the three jobs money does, and why few things do all three well. hierarchy of money — why money is layered, from gold at the base to private promises at the top. central bank money — the base of the modern system: banknotes and the reserves banks hold at the central bank. monetary policy — how the central bank steers interest rates and the amount of money, and why it moves every market. exchange rates — the price of one currency in another, and what it does to anything you own abroad. liquidity — how much money is available to flow into assets, and how analysts track it. The layers themselves, as you hold them, are in Money You Hold: cash and fiat, bank deposits and the backstops behind them, and gold. Then follow one dollar from creation to your account in the flow Where money comes from , and follow a bank failure through each backstop in When a bank fails . What goes wrong Each layer fails in its own way: Layer Typical failure Gold Theft, confiscation, long periods with no real gain Central bank money and cash Inflation; in the worst cases, a currency crisis Bank deposits Bank runs, freezes, losses above the insurance limit Private and offshore dollars De pegs and dollar shortages when the issuer or bank can't pay When trust drops, money moves down the hierarchy towards the base. That move is what a bank run, a stablecoin de peg and a \"dash for cash\" have in common. Key rule: always ask whose promise you are holding. The further a form of money sits from the base, the more ways it can fail. Connects to claims and liabilities — the question that sorts every form of money. The Cartography of Wealth — where cash, deposits and gold sit by risk. stablecoins — private dollar promises, which live under digital assets. t bills and bonds — the securities layer just above money. market regimes — why liquidity changes how whole groups of assets behave. Check yourself Q: A bank deposit and a banknote both say \"one dollar\". What is the difference between them? A: A banknote is the central bank's liability. A deposit is your bank's liability: a promise to pay you central bank money. If the bank fails, the deposit is at risk above the insurance limit; the note is not. Q: Why do panics push money down the hierarchy rather than up? A: Because people sell promises they doubt (upper layers) to get money that depends on fewer parties staying solvent (lower layers). The base is the safest place to wait.",
    "textDeep": "Going deeper eurodollars — dollars created and owed by banks outside the United States, usually without a direct central bank backstop. Much of the world's dollar system runs here. money creation — how bank lending creates new deposits, and repayment destroys them. The hierarchy changes over time. Gold was the formal base of the system until the early 1970s; since then central bank money has been the base for most purposes.",
    "children": [
     "what-is-money",
     "hierarchy-of-money",
-    "gold",
     "central-bank-money",
     "monetary-policy",
-    "cash-and-fiat",
     "exchange-rates",
-    "bank-deposits",
-    "backstops",
     "eurodollars",
     "liquidity"
    ],
@@ -5677,7 +5759,8 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "capital-system",
-    "foundation"
+    "foundation",
+    "money-you-hold"
    ],
    "backlinksAdv": []
   },
@@ -7537,6 +7620,7 @@ window.MUDMAP = {
     "flow:a-stablecoin-run",
     "hierarchy-of-money",
     "money",
+    "money-you-hold",
     "t-bills",
     "tokens"
    ],
@@ -7693,6 +7777,7 @@ window.MUDMAP = {
     "liquidity",
     "monetary-policy",
     "money",
+    "money-you-hold",
     "risk-and-return",
     "sharpe-ratio",
     "stablecoins",
@@ -10798,5 +10883,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-26 11:50 UTC"
+ "built": "2026-10-27 02:39 UTC"
 };
