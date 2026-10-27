@@ -35,6 +35,7 @@ Volatility is the most common way to put a number on risk. It is used to compare
 - [[fear-gauges]] — the volatility the market expects, priced from options.
 - [[measure]] — the branch this sits in.
 - [[averages-and-distributions]] — the spread that an average can hide.
+- [[fat-tails]] — why extremes occur more often than volatility alone suggests.
 
 ## Check yourself
 
