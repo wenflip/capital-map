@@ -20,6 +20,7 @@ Most of the time this plumbing is invisible, which is the point: it lets million
 - [[brokers]] — the firm that takes your orders and holds your account.
 - [[settlement]] — how a trade becomes final, and the clearing house that guarantees it.
 - [[custody]] — who actually holds the asset, and what you really own.
+- [[repo-market]] — the overnight borrowing against safe bonds that funds much of the system.
 
 | Step | Who | What can go wrong |
 |---|---|---|

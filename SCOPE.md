@@ -23,7 +23,7 @@ Education only. Not financial advice.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
 
-## Top-level branches (v4: fourteen branches in four groups)
+## Top-level branches (v5: fifteen branches in four groups)
 
 Groups are labels drawn as clusters on the map, not a tree level (decided 2026-10-25). Inside *What you can own*, branches run from inside you to fully on the record, following the Cartography of Wealth.
 
@@ -38,9 +38,10 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 | What you can own | Fixed Income | **Written.** T-bills, bonds, prices and yields, the yield curve, credit risk, inflation-linked bonds, duration |
 | What you can own | Equities | **Written.** Shares, indices, funds and ETFs, financial statements, valuation, private business |
 | Putting it together | Derivatives | **Written.** Futures, options, swaps, perpetuals, leverage |
-| Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, rebalancing, market regimes |
+| Putting it together | Portfolio & Risk | **Written.** Diversification, correlation, allocation, sizing, asymmetry, rebalancing, market regimes |
 | Putting it together | When Things Fail | **Written.** The failure ladder hub and ten rungs: broker, insurer, clearing house, ratings, capital controls, confiscation, financial repression, currency, sovereign default, the market itself. The bank and stablecoin rungs link to Backstops and Stablecoins |
-| How it runs | Markets & Plumbing | **Written.** Exchanges, dealers and market making, brokers, custody, settlement |
+| How it runs | Markets & Plumbing | **Written.** Exchanges, dealers and market making, brokers, custody, settlement, the repo market |
+| How it runs | How Markets Move | **Written.** The forces behind price moves: the business cycle, the credit cycle, stability breeds instability, priced in, earnings season, fear gauges, flows and fundamentals, forced sellers, short selling |
 | How it runs | Measure | **Written.** Returns, drawdown, volatility, Sharpe ratio |
 | How it runs | In Practice | **Written.** Tax, account types, common mistakes, data sources, charting (Tools folded in) |
 
@@ -117,6 +118,10 @@ None.
   - Stablecoins stay in Digital Assets, linked from the new hub.
   - **Placement follows the group's rule** (inside you → bearer → on the record): banknotes and gold are bearer (tier 2) and deposits are on the record (tier 3), so the branch sits at about 2.5, after Digital Assets (2) and beside Real Assets (2.5). It was first placed straight after Human & Social; the groups test caught that this broke the rule.
   - The new branch's map colour (hue 320) was chosen by measured contrast: white label text at 6.1:1 in light mode, against 2.4:1 for the first candidate (a yellow-green).
+- **How Markets Move (2026-10-27):** a 15th branch in *How it runs*, after Markets & Plumbing. It gathers what professionals use daily and almost nobody else is taught, in three families: cycles, expectations and flows. The first nine pages are the business cycle, the credit cycle, stability breeds instability (Minsky), priced in, earnings season, fear gauges, flows and fundamentals, forced sellers, and short selling. Two close relatives sit where they belong: the repo market in Markets & Plumbing, and asymmetry in Portfolio & Risk.
+  - **Explain, never signal:** every page describes a mechanism with a reason behind it, never a trading rule. The hub's key rule says so outright.
+  - **Later candidates** for the branch: calendar rhythms (central bank days, options expiry, index rebalancing, quarter-end), behaviour (herding, loss aversion), sector rotation, long debt cycles, booms and busts, volatility clustering, fat tails, liquidity and sequence risk, shadow banking, collateral and haircuts, who's on the other side, price ratios, and a margin-call spiral flow.
+  - Map colour hue 10, chosen by measured contrast (white label 5.9:1 light, 6.2:1 dark).
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel

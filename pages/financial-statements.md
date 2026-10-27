@@ -52,6 +52,7 @@ The same split appears in [[claims-and-liabilities]]: creditors first, owners ta
 - [[valuation]] — turning these numbers into a value for the shares.
 - [[claims-and-liabilities]] — the balance sheet from the creditors' side.
 - [[credit-risk]] — how lenders use the same reports.
+- [[earnings-season]] — when the reports arrive, and how prices react.
 
 ## Check yourself
 

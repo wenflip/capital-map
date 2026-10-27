@@ -135,6 +135,73 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "asymmetry": {
+   "id": "asymmetry",
+   "title": "Asymmetry",
+   "short": "Asymmetry",
+   "parent": "portfolio",
+   "order": 4.5,
+   "summary": "The shape of what you can win against what you can lose, and why being right most of the time can still lose money.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "asymmetry",
+    "payoff",
+    "risk",
+    "convexity",
+    "tail risk",
+    "expected value"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "portfolio",
+    "asymmetry"
+   ],
+   "branch": "portfolio",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Asymmetry</strong> is the shape of a bet: how big the possible gain is compared with the possible loss, and how often each happens. Two positions with the same average return can feel and end completely differently, depending on that shape.</p>\n<ul>\n<li><strong>Positive asymmetry:</strong> small, limited losses and occasional large gains. Buying an option is an example: the most you can lose is what you paid. See <a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a>.</li>\n<li><strong>Negative asymmetry:</strong> small, steady gains and occasional large losses. Selling insurance, or selling options, works like this. The saying for it is \"picking up pennies in front of a steamroller\".</li>\n</ul>\n<h2>Why it matters</h2>\n<p>People judge strategies by how often they win. But how much you win or lose each time matters as much as how often. A strategy that wins nine times in ten can still lose money, and the nine wins make it feel safe right up to the tenth.</p>\n<h2>How it works</h2>\n<p><strong>Fictional example: two strategies over ten rounds.</strong></p>\n<ul>\n<li><strong>Strategy A</strong> gains 1 nine times and loses 12 once. Average per round: 0.9 × 1 − 0.1 × 12 = <strong>−0.3</strong>. It wins 90% of the time and still loses money.</li>\n<li><strong>Strategy B</strong> loses 1 nine times and gains 15 once. Average per round: −0.9 × 1 + 0.1 × 15 = <strong>+0.6</strong>. It loses 90% of the time and still makes money.</li>\n</ul>\n<p><strong>Losses are asymmetric too.</strong> A 50% loss needs a 100% gain to get back to where you started. Big losses cost more than equal-sized gains repay. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<p><strong>Where negative asymmetry hides.</strong></p>\n<ul>\n<li><strong>Leverage:</strong> steady returns until a fall large enough to wipe you out. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n<li><strong>High yields:</strong> extra income that's really payment for a rare large loss. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</li>\n<li><strong>Short positions:</strong> a capped gain and an open-ended loss. See <a class=\"wl\" href=\"#/map/p/short-selling\" data-page=\"short-selling\">Short Selling and Squeezes</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Judging by the win rate.</strong> A long run of small wins says nothing about the size of the loss that hasn't happened yet.</li>\n<li><strong>Short histories.</strong> Negative-asymmetry strategies look best in exactly the records too short to include their bad year. See <a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a>.</li>\n<li><strong>Paying too much for positive asymmetry.</strong> Protection has a price, and constant small losses add up.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> for any position, ask how much you can lose, how often, and whether you'd survive it, before asking how often it wins.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — keeping any one loss survivable.</li>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off asymmetry reshapes.</li>\n<li><a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> — the price of protection against the rare large move.</li>\n<li><a class=\"wl\" href=\"#/map/p/insurer-failure\" data-page=\"insurer-failure\">Insurer and Guarantor Failure</a> — what happens to a business that sells protection and meets the big loss.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A strategy gains 2 with a 70% chance and loses 6 with a 30% chance. What is its average result per round?</p><details><summary>Show answer</summary><p>0.7 × 2 − 0.3 × 6 = 1.4 − 1.8 = <strong>−0.4</strong>. It wins most of the time and still loses on average.</p></details></div>",
+   "deep": "",
+   "links": [
+    "credit-risk",
+    "drawdown",
+    "fear-gauges",
+    "insurer-failure",
+    "leverage",
+    "options",
+    "position-sizing",
+    "risk-and-return",
+    "short-selling",
+    "stability-breeds-instability"
+   ],
+   "stub": false,
+   "text": "What it is Asymmetry is the shape of a bet: how big the possible gain is compared with the possible loss, and how often each happens. Two positions with the same average return can feel and end completely differently, depending on that shape. Positive asymmetry: small, limited losses and occasional large gains. Buying an option is an example: the most you can lose is what you paid. See options. Negative asymmetry: small, steady gains and occasional large losses. Selling insurance, or selling options, works like this. The saying for it is \"picking up pennies in front of a steamroller\". Why it matters People judge strategies by how often they win. But how much you win or lose each time matters as much as how often. A strategy that wins nine times in ten can still lose money, and the nine wins make it feel safe right up to the tenth. How it works Fictional example: two strategies over ten rounds. Strategy A gains 1 nine times and loses 12 once. Average per round: 0.9 × 1 − 0.1 × 12 = −0.3 . It wins 90% of the time and still loses money. Strategy B loses 1 nine times and gains 15 once. Average per round: −0.9 × 1 + 0.1 × 15 = +0.6 . It loses 90% of the time and still makes money. Losses are asymmetric too. A 50% loss needs a 100% gain to get back to where you started. Big losses cost more than equal sized gains repay. See drawdown. Where negative asymmetry hides. Leverage: steady returns until a fall large enough to wipe you out. See leverage. High yields: extra income that's really payment for a rare large loss. See credit risk. Short positions: a capped gain and an open ended loss. See short selling. What goes wrong Judging by the win rate. A long run of small wins says nothing about the size of the loss that hasn't happened yet. Short histories. Negative asymmetry strategies look best in exactly the records too short to include their bad year. See stability breeds instability. Paying too much for positive asymmetry. Protection has a price, and constant small losses add up. Key rule: for any position, ask how much you can lose, how often, and whether you'd survive it, before asking how often it wins. Connects to position sizing — keeping any one loss survivable. risk and return — the trade off asymmetry reshapes. fear gauges — the price of protection against the rare large move. insurer failure — what happens to a business that sells protection and meets the big loss. Check yourself Q: A strategy gains 2 with a 70% chance and loses 6 with a 30% chance. What is its average result per round? A: 0.7 × 2 − 0.3 × 6 = 1.4 − 1.8 = −0.4 . It wins most of the time and still loses on average.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "how-markets-move",
+    "options",
+    "portfolio",
+    "short-selling"
+   ],
+   "backlinksAdv": []
+  },
   "backstops": {
    "id": "backstops",
    "title": "Bank Backstops",
@@ -330,6 +397,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "backstops",
+    "credit-cycle",
     "duration",
     "fixed-income",
     "flow:when-a-bank-fails",
@@ -845,6 +913,7 @@ window.MUDMAP = {
     "monetary-policy",
     "money",
     "ratings-failure",
+    "repo-market",
     "sovereign-default",
     "swaps",
     "time-value-of-money"
@@ -1047,7 +1116,78 @@ window.MUDMAP = {
     "market-making",
     "markets",
     "settlement",
-    "shares"
+    "shares",
+    "short-selling"
+   ],
+   "backlinksAdv": []
+  },
+  "business-cycle": {
+   "id": "business-cycle",
+   "title": "The Business Cycle",
+   "short": "Business Cycle",
+   "parent": "how-markets-move",
+   "order": 1.0,
+   "summary": "The economy's repeating rise and fall, from expansion through recession to recovery, and why markets usually turn before the economy does.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "business cycle",
+    "recession",
+    "expansion",
+    "economy",
+    "cycles"
+   ],
+   "sources": [
+    "National Bureau of Economic Research, Business Cycle Dating Committee announcements"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "business-cycle"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The <strong>business cycle</strong> is the economy's habit of growing for a while, stalling, shrinking, and then growing again. It isn't regular like a clock: some expansions run for a decade, some recessions last a couple of months. But the stages repeat:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Stage</th>\n<th>What happens in the economy</th>\n<th>What tends to happen in markets</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Expansion</strong></td>\n<td>Hiring, rising spending and profits, easy borrowing</td>\n<td>Shares and riskier debt tend to do well</td>\n</tr>\n<tr>\n<td><strong>Late cycle</strong></td>\n<td>Spare capacity runs out, prices and wages rise, central banks raise rates</td>\n<td>Gains narrow; bonds may fall as rates rise</td>\n</tr>\n<tr>\n<td><strong>Recession</strong></td>\n<td>Spending falls, job losses, more defaults</td>\n<td>Shares and riskier debt tend to fall; central banks cut rates</td>\n</tr>\n<tr>\n<td><strong>Recovery</strong></td>\n<td>Spending picks up from a low base</td>\n<td>Markets often rise strongly, usually before the data improves</td>\n</tr>\n</tbody>\n</table></div>\n<p>\"Tend to\" matters: these are patterns, not rules, and every cycle has its own shape.</p>\n<h2>Why it matters</h2>\n<p>Jobs, profits, defaults, interest rates and asset prices all move with the cycle. A large part of what happens in markets in any year traces back to where the economy is in it, and to where investors think it is going next.</p>\n<h2>How it works</h2>\n<p><strong>Markets look ahead.</strong> Prices reflect what investors expect, not what has already happened. So share markets often fall before a recession is announced, and often bottom while the news is still bad. See <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</p>\n<p><strong>Dating a recession.</strong> A common rule of thumb calls two quarters in a row of falling output a recession. Official dating bodies use a wider set of measures and announce their dates long afterwards. In the US, the National Bureau of Economic Research dated the financial-crisis recession from <strong>December 2007 to June 2009</strong>, and the pandemic recession from <strong>February to April 2020</strong>.</p>\n<p><strong>Credit and policy drive the turns.</strong> Easy borrowing feeds expansions and tight borrowing ends them. See <a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a> and <a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Calling it in real time.</strong> The official verdict comes months late. By then markets have usually moved.</li>\n<li><strong>\"This time is different.\"</strong> Long expansions convince people that recessions are over. See <a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a>.</li>\n<li><strong>Expecting a timetable.</strong> Cycles differ in length and depth; averages from the past say little about the next one.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the cycle explains why the same asset can be a good or bad holding in different years. Build for every stage, rather than betting on the next turn.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — growth and inflation as the two dials behind each stage.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a> — the lending wave that usually turns first.</li>\n<li><a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — a gauge many people watch for a coming slowdown.</li>\n<li><a class=\"wl\" href=\"#/map/p/human-capital\" data-page=\"human-capital\">Human Capital</a> — your job and income are exposed to the cycle too.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The US recession dated by the NBER ran from December 2007 to June 2009. How long did it last?</p><details><summary>Show answer</summary><p>18 months, counting from the peak month to the trough month.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can share prices rise while the economy is still in recession?</p><details><summary>Show answer</summary><p>Because prices are set by expectations of future profits. When investors start to expect a recovery, they buy before the data shows one, so markets often turn up before the economy does.</p></details></div>",
+   "deep": "",
+   "links": [
+    "credit-cycle",
+    "human-capital",
+    "market-regimes",
+    "monetary-policy",
+    "priced-in",
+    "stability-breeds-instability",
+    "yield-curve"
+   ],
+   "stub": false,
+   "text": "What it is The business cycle is the economy's habit of growing for a while, stalling, shrinking, and then growing again. It isn't regular like a clock: some expansions run for a decade, some recessions last a couple of months. But the stages repeat: Stage What happens in the economy What tends to happen in markets Expansion Hiring, rising spending and profits, easy borrowing Shares and riskier debt tend to do well Late cycle Spare capacity runs out, prices and wages rise, central banks raise rates Gains narrow; bonds may fall as rates rise Recession Spending falls, job losses, more defaults Shares and riskier debt tend to fall; central banks cut rates Recovery Spending picks up from a low base Markets often rise strongly, usually before the data improves \"Tend to\" matters: these are patterns, not rules, and every cycle has its own shape. Why it matters Jobs, profits, defaults, interest rates and asset prices all move with the cycle. A large part of what happens in markets in any year traces back to where the economy is in it, and to where investors think it is going next. How it works Markets look ahead. Prices reflect what investors expect, not what has already happened. So share markets often fall before a recession is announced, and often bottom while the news is still bad. See priced in. Dating a recession. A common rule of thumb calls two quarters in a row of falling output a recession. Official dating bodies use a wider set of measures and announce their dates long afterwards. In the US, the National Bureau of Economic Research dated the financial crisis recession from December 2007 to June 2009 , and the pandemic recession from February to April 2020 . Credit and policy drive the turns. Easy borrowing feeds expansions and tight borrowing ends them. See credit cycle and monetary policy. What goes wrong Calling it in real time. The official verdict comes months late. By then markets have usually moved. \"This time is different.\" Long expansions convince people that recessions are over. See stability breeds instability. Expecting a timetable. Cycles differ in length and depth; averages from the past say little about the next one. Key rule: the cycle explains why the same asset can be a good or bad holding in different years. Build for every stage, rather than betting on the next turn. Connects to market regimes — growth and inflation as the two dials behind each stage. credit cycle — the lending wave that usually turns first. yield curve — a gauge many people watch for a coming slowdown. human capital — your job and income are exposed to the cycle too. Check yourself Q: The US recession dated by the NBER ran from December 2007 to June 2009. How long did it last? A: 18 months, counting from the peak month to the trough month. Q: Why can share prices rise while the economy is still in recession? A: Because prices are set by expectations of future profits. When investors start to expect a recovery, they buy before the data shows one, so markets often turn up before the economy does.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    }
+   ],
+   "answers": [],
+   "backlinks": [
+    "credit-cycle",
+    "how-markets-move",
+    "market-regimes",
+    "priced-in"
    ],
    "backlinksAdv": []
   },
@@ -1158,7 +1298,7 @@ window.MUDMAP = {
    "branch": "capital-system",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — how the money system works: its layers, central banks, interest rates and exchange rates.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a> — banknotes, bank deposits and gold: the money people actually keep.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n<li><a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">When Things Fail</a> — the failure ladder: what fails, what protects you, and where that protection runs out.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, dealers, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
+   "html": "<h2>What it is</h2>\n<p>The <strong>capital system</strong> is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree.</p>\n<h2>How the map is organised</h2>\n<ul>\n<li><strong>The tree is organised by what things are.</strong> Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches.</li>\n<li><strong>One question sorts money and claims:</strong> <em>whose liability is it, and what is it a claim on?</em> See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</li>\n<li><strong>One model sorts stores of wealth by risk:</strong> the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it.</li>\n<li><strong>How things trade right now</strong> (for example, crypto moving like high-growth tech shares) is a separate question. It changes with conditions, so it lives under <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> rather than shaping the tree.</li>\n</ul>\n<h2>The branches</h2>\n<p>The branches sit in four groups, shown as clusters on the map.</p>\n<p><strong>Foundations</strong> — the ideas and the money everything else is built on.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/foundation\" data-page=\"foundation\">Foundation</a> — claims, time value, compounding, risk and inflation.</li>\n<li><a class=\"wl\" href=\"#/map/p/money\" data-page=\"money\">How Money Works</a> — how the money system works: its layers, central banks, interest rates and exchange rates.</li>\n</ul>\n<p><strong>What you can own</strong> — in order from inside you to fully on the record, following the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills, health, reputation and network.</li>\n<li><a class=\"wl\" href=\"#/map/p/digital-assets\" data-page=\"digital-assets\">Digital Assets</a> — bearer tokens on public ledgers.</li>\n<li><a class=\"wl\" href=\"#/map/p/money-you-hold\" data-page=\"money-you-hold\">Money You Hold</a> — banknotes, bank deposits and gold: the money people actually keep.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — property, commodities and collectibles.</li>\n<li><a class=\"wl\" href=\"#/map/p/fixed-income\" data-page=\"fixed-income\">Fixed Income</a> — lending for a promised return.</li>\n<li><a class=\"wl\" href=\"#/map/p/equities\" data-page=\"equities\">Equities</a> — owning a share of a business.</li>\n</ul>\n<p><strong>Putting it together</strong> — using and combining what you own.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/derivatives\" data-page=\"derivatives\">Derivatives</a> — contracts on other assets, and leverage.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — combining assets so that no single failure clears the board.</li>\n<li><a class=\"wl\" href=\"#/map/p/failure-modes\" data-page=\"failure-modes\">When Things Fail</a> — the failure ladder: what fails, what protects you, and where that protection runs out.</li>\n</ul>\n<p><strong>How it runs</strong> — the machinery, the scorecard and the practicalities.</p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/markets\" data-page=\"markets\">Markets &amp; Plumbing</a> — exchanges, dealers, brokers, custody and settlement.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the cycles, expectations and forced flows behind price moves.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — returns, drawdown and volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/practice\" data-page=\"practice\">In Practice</a> — tax, accounts, common mistakes, data and charting.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> this is a reference, not advice. It explains how things work so you can judge for yourself.</p>\n</blockquote>",
    "deep": "",
    "links": [
     "cartography-of-wealth",
@@ -1169,6 +1309,7 @@ window.MUDMAP = {
     "failure-modes",
     "fixed-income",
     "foundation",
+    "how-markets-move",
     "market-regimes",
     "markets",
     "measure",
@@ -1180,7 +1321,7 @@ window.MUDMAP = {
     "real-assets"
    ],
    "stub": false,
-   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — how the money system works: its layers, central banks, interest rates and exchange rates. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. money you hold — banknotes, bank deposits and gold: the money people actually keep. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. failure modes — the failure ladder: what fails, what protects you, and where that protection runs out. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, dealers, brokers, custody and settlement. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
+   "text": "What it is The capital system is every way wealth can be stored, moved and grown: money, debts, ownership stakes, physical things, digital tokens, and the skills and relationships inside you. This map lays them out as one connected tree. How the map is organised The tree is organised by what things are. Each branch is a kind of asset or a body of ideas. A page lives in one place on the tree and links to everything else it touches. One question sorts money and claims: whose liability is it, and what is it a claim on? See claims and liabilities. One model sorts stores of wealth by risk: the Cartography of Wealth, which maps each store by how embodied in you it is and how visible it is to the state, and names the one thing most likely to kill it. How things trade right now (for example, crypto moving like high growth tech shares) is a separate question. It changes with conditions, so it lives under market regimes rather than shaping the tree. The branches The branches sit in four groups, shown as clusters on the map. Foundations — the ideas and the money everything else is built on. foundation — claims, time value, compounding, risk and inflation. money — how the money system works: its layers, central banks, interest rates and exchange rates. What you can own — in order from inside you to fully on the record, following the Cartography of Wealth. personal capital — skills, health, reputation and network. digital assets — bearer tokens on public ledgers. money you hold — banknotes, bank deposits and gold: the money people actually keep. real assets — property, commodities and collectibles. fixed income — lending for a promised return. equities — owning a share of a business. Putting it together — using and combining what you own. derivatives — contracts on other assets, and leverage. portfolio — combining assets so that no single failure clears the board. failure modes — the failure ladder: what fails, what protects you, and where that protection runs out. How it runs — the machinery, the scorecard and the practicalities. markets — exchanges, dealers, brokers, custody and settlement. how markets move — the cycles, expectations and forced flows behind price moves. measure — returns, drawdown and volatility. practice — tax, accounts, common mistakes, data and charting. Key rule: this is a reference, not advice. It explains how things work so you can judge for yourself.",
    "textDeep": "",
    "children": [
     "foundation",
@@ -1195,6 +1336,7 @@ window.MUDMAP = {
     "portfolio",
     "failure-modes",
     "markets",
+    "how-markets-move",
     "measure",
     "practice"
    ],
@@ -1488,6 +1630,7 @@ window.MUDMAP = {
     "market-regimes",
     "monetary-policy",
     "money",
+    "repo-market",
     "yield-curve"
    ],
    "backlinksAdv": []
@@ -1959,12 +2102,13 @@ window.MUDMAP = {
    "branch": "practice",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces behind the moves that trigger these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
    "deep": "",
    "links": [
     "account-types",
     "drawdown",
     "funds-and-etfs",
+    "how-markets-move",
     "leverage",
     "measure",
     "memecoins",
@@ -1973,7 +2117,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. stablecoins and memecoins — areas where high yield promises and scams are common. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
+   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. how markets move — the forces behind the moves that trigger these mistakes. stablecoins and memecoins — areas where high yield promises and scams are common. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -1984,9 +2128,12 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "account-types",
+    "how-markets-move",
     "practice"
    ],
-   "backlinksAdv": []
+   "backlinksAdv": [
+    "how-markets-move"
+   ]
   },
   "compounding": {
    "id": "compounding",
@@ -2272,11 +2419,87 @@ window.MUDMAP = {
     "credit-risk",
     "diversification",
     "failure-modes",
+    "forced-sellers",
     "foundation",
+    "how-markets-move",
     "market-regimes",
     "portfolio",
     "risk-and-return",
     "volatility"
+   ],
+   "backlinksAdv": []
+  },
+  "credit-cycle": {
+   "id": "credit-cycle",
+   "title": "The Credit Cycle",
+   "short": "Credit Cycle",
+   "parent": "how-markets-move",
+   "order": 2.0,
+   "summary": "Lending loosens in good times and tightens in bad ones, in waves that usually turn before the economy does.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "credit cycle",
+    "lending",
+    "borrowing",
+    "credit spreads",
+    "defaults",
+    "cycles"
+   ],
+   "sources": [
+    "Federal Reserve, Senior Loan Officer Opinion Survey on Bank Lending Practices"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "credit-cycle"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The <strong>credit cycle</strong> is the rise and fall in how easy it is to borrow. In some years lenders compete to lend, ask for little security and charge thin margins over safe rates. In others they pull back, ask for more, and charge more, or don't lend at all.</p>\n<p>Because most spending on homes, businesses and investments is borrowed, the credit cycle drives much of the <a class=\"wl\" href=\"#/map/p/business-cycle\" data-page=\"business-cycle\">The Business Cycle</a>, and usually turns first.</p>\n<h2>Why it matters</h2>\n<p>New loans create new money and new spending. See <a class=\"wl\" href=\"#/map/p/money-creation\" data-page=\"money-creation\" data-adv=\"1\">How Banks Create Money</a>. When lending grows, prices of the things bought with credit (houses, companies, shares) tend to rise. When it shrinks, the same assets lose the buyers they relied on, just as defaults rise.</p>\n<h2>How it works</h2>\n<p><strong>The loosening loop.</strong> Rising prices make the security behind loans look safe. Lenders relax their standards, more people borrow, and the extra buying pushes prices up further.</p>\n<p><strong>The tightening loop.</strong> Defaults rise, so lenders tighten. Less credit means less spending, which brings more defaults. The same loop that inflated prices now deflates them.</p>\n<p><strong>Fictional example: how much room a borrower has.</strong> A home costs 300,000.</p>\n<ul>\n<li>With a 95% loan, the borrower owes 285,000. If the price falls 10% to 270,000, the loan is 15,000 <em>more</em> than the home is worth.</li>\n<li>With an 80% loan, the borrower owes 240,000. After the same fall there is still 30,000 of the borrower's own money in the home.</li>\n</ul>\n<p>Late in a credit boom, the 95% loans are the common ones, so a modest fall leaves many borrowers owing more than they own.</p>\n<p><strong>How people watch it.</strong></p>\n<ul>\n<li><strong>Lending surveys.</strong> In the US, the central bank asks senior loan officers every quarter whether they have tightened or eased their standards, and whether demand for loans is rising or falling.</li>\n<li><strong>Credit spreads,</strong> the extra interest risky borrowers pay over safe ones, which widen as lenders grow nervous. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> and <a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a>.</li>\n<li><strong>Default rates,</strong> which rise late, after the damage is done.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Easy credit hides weak borrowers.</strong> When anyone can refinance, no one looks like a bad risk.</li>\n<li><strong>Tightening hits everyone at once.</strong> Borrowers who planned to roll their debts over find the door shut at the same moment.</li>\n<li><strong>Lending against rising prices.</strong> Loans secured on assets whose price was lifted by the loans themselves are safe only while the boom lasts.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the best time to borrow is the most dangerous time to be over-borrowed. Ask what happens to your loan if lending tightens just when you need to refinance.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a> — why the loosening phase goes too far.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — what the borrowing does to gains and losses.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — the lenders' own limits.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — the asset most tied to the credit cycle.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A home worth 200,000 is bought with a 90% loan. Its price then falls 15%. How much more is owed than the home is worth?</p><details><summary>Show answer</summary><p>The loan is 180,000 and the home is now worth 170,000, so the borrower owes <strong>10,000</strong> more than the home is worth.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bank-capital-and-liquidity",
+    "business-cycle",
+    "credit-risk",
+    "fear-gauges",
+    "leverage",
+    "money-creation",
+    "real-estate",
+    "stability-breeds-instability"
+   ],
+   "stub": false,
+   "text": "What it is The credit cycle is the rise and fall in how easy it is to borrow. In some years lenders compete to lend, ask for little security and charge thin margins over safe rates. In others they pull back, ask for more, and charge more, or don't lend at all. Because most spending on homes, businesses and investments is borrowed, the credit cycle drives much of the business cycle, and usually turns first. Why it matters New loans create new money and new spending. See money creation. When lending grows, prices of the things bought with credit (houses, companies, shares) tend to rise. When it shrinks, the same assets lose the buyers they relied on, just as defaults rise. How it works The loosening loop. Rising prices make the security behind loans look safe. Lenders relax their standards, more people borrow, and the extra buying pushes prices up further. The tightening loop. Defaults rise, so lenders tighten. Less credit means less spending, which brings more defaults. The same loop that inflated prices now deflates them. Fictional example: how much room a borrower has. A home costs 300,000. With a 95% loan, the borrower owes 285,000. If the price falls 10% to 270,000, the loan is 15,000 more than the home is worth. With an 80% loan, the borrower owes 240,000. After the same fall there is still 30,000 of the borrower's own money in the home. Late in a credit boom, the 95% loans are the common ones, so a modest fall leaves many borrowers owing more than they own. How people watch it. Lending surveys. In the US, the central bank asks senior loan officers every quarter whether they have tightened or eased their standards, and whether demand for loans is rising or falling. Credit spreads, the extra interest risky borrowers pay over safe ones, which widen as lenders grow nervous. See credit risk and fear gauges. Default rates, which rise late, after the damage is done. What goes wrong Easy credit hides weak borrowers. When anyone can refinance, no one looks like a bad risk. Tightening hits everyone at once. Borrowers who planned to roll their debts over find the door shut at the same moment. Lending against rising prices. Loans secured on assets whose price was lifted by the loans themselves are safe only while the boom lasts. Key rule: the best time to borrow is the most dangerous time to be over borrowed. Ask what happens to your loan if lending tightens just when you need to refinance. Connects to stability breeds instability — why the loosening phase goes too far. leverage — what the borrowing does to gains and losses. bank capital and liquidity — the lenders' own limits. real estate — the asset most tied to the credit cycle. Check yourself Q: A home worth 200,000 is bought with a 90% loan. Its price then falls 15%. How much more is owed than the home is worth? A: The loan is 180,000 and the home is now worth 170,000, so the borrower owes 10,000 more than the home is worth.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "cfa-l1",
+     "m": "CFA1-ECON — Economics"
+    }
+   ],
+   "answers": [],
+   "backlinks": [
+    "business-cycle",
+    "credit-risk",
+    "fear-gauges",
+    "how-markets-move",
+    "market-regimes",
+    "stability-breeds-instability"
    ],
    "backlinksAdv": []
   },
@@ -2315,7 +2538,7 @@ window.MUDMAP = {
    "branch": "fixed-income",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Credit risk</strong> is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's.</p>\n<h2>Why it matters</h2>\n<p>Credit risk is the killer for <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise.</p>\n<h2>How it works</h2>\n<p><strong>Ratings.</strong> Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards.</p>\n<ul>\n<li><strong>Investment grade:</strong> BBB− (Baa3) and above.</li>\n<li><strong>High yield</strong> (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling.</li>\n</ul>\n<p><strong>Spreads.</strong> The <strong>credit spread</strong> is the extra yield over a comparable government bond.</p>\n<p><strong>Worked example (fictional figures):</strong> a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written <strong>200 basis points</strong> (one basis point is 0.01%).</p>\n<p><strong>Recovery.</strong> Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Ratings lag.</strong> Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.</li>\n<li><strong>Spreads jump together.</strong> In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Protection can fail too.</strong> A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n<li><strong>Governments can default too</strong>, especially on debt in a currency they can't create. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> extra yield is payment for extra risk. Ask what the spread is paying you to worry about.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests?</p><details><summary>Show answer</summary><p>Because it crosses from investment grade to high yield. Funds that may hold only investment-grade bonds may have to sell, all at once.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Credit risk</strong> is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's.</p>\n<h2>Why it matters</h2>\n<p>Credit risk is the killer for <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> on the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise.</p>\n<h2>How it works</h2>\n<p><strong>Ratings.</strong> Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards.</p>\n<ul>\n<li><strong>Investment grade:</strong> BBB− (Baa3) and above.</li>\n<li><strong>High yield</strong> (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling.</li>\n</ul>\n<p><strong>Spreads.</strong> The <strong>credit spread</strong> is the extra yield over a comparable government bond.</p>\n<p><strong>Worked example (fictional figures):</strong> a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written <strong>200 basis points</strong> (one basis point is 0.01%).</p>\n<p><strong>Recovery.</strong> Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Ratings lag.</strong> Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted.</li>\n<li><strong>Spreads jump together.</strong> In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> and <a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a>.</li>\n<li><strong>Protection can fail too.</strong> A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n<li><strong>Governments can default too</strong>, especially on debt in a currency they can't create. See <a class=\"wl\" href=\"#/map/p/bank-sovereign-loop\" data-page=\"bank-sovereign-loop\">The Bank–Government Loop</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> extra yield is payment for extra risk. Ask what the spread is paying you to worry about.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests?</p><details><summary>Show answer</summary><p>Because it crosses from investment grade to high yield. Funds that may hold only investment-grade bonds may have to sell, all at once.</p></details></div>",
    "deep": "",
    "links": [
     "bank-sovereign-loop",
@@ -2323,10 +2546,11 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "claims-and-liabilities",
     "correlation",
+    "credit-cycle",
     "swaps"
    ],
    "stub": false,
-   "text": "What it is Credit risk is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's. Why it matters Credit risk is the killer for bonds on the Cartography of Wealth: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise. How it works Ratings. Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards. Investment grade: BBB− (Baa3) and above. High yield (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling. Spreads. The credit spread is the extra yield over a comparable government bond. Worked example (fictional figures): a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written 200 basis points (one basis point is 0.01%). Recovery. Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See claims and liabilities. What goes wrong Ratings lag. Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted. Spreads jump together. In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See correlation. Protection can fail too. A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See swaps. Governments can default too , especially on debt in a currency they can't create. See bank sovereign loop. Key rule: extra yield is payment for extra risk. Ask what the spread is paying you to worry about. Check yourself Q: A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests? A: Because it crosses from investment grade to high yield. Funds that may hold only investment grade bonds may have to sell, all at once.",
+   "text": "What it is Credit risk is the risk that a borrower misses payments or doesn't repay in full. It's the reason a company's bond pays more than its government's. Why it matters Credit risk is the killer for bonds on the Cartography of Wealth: a bond is someone else's promise to pay. The higher a bond's yield compared with government debt, the more doubt the market has about that promise. How it works Ratings. Rating agencies grade borrowers with letter scales, from the strongest (AAA, or Aaa on one agency's scale) downwards. Investment grade: BBB− (Baa3) and above. High yield (or \"junk\"): below that. Many funds aren't allowed to hold it, so a downgrade across the line can force selling. Spreads. The credit spread is the extra yield over a comparable government bond. Worked example (fictional figures): a company bond yields 6.5% when a government bond of the same maturity yields 4.5%. The spread is 2 percentage points, usually written 200 basis points (one basis point is 0.01%). Recovery. Default rarely means getting nothing back. Bondholders recover part of their money through a restructuring or bankruptcy; how much depends on the company's assets and where the bond sits in the queue of creditors. See claims and liabilities. What goes wrong Ratings lag. Agencies often downgrade after markets have already lost confidence. Before 2008, many bonds built from risky mortgages were rated AAA and later defaulted. Spreads jump together. In a crisis, spreads widen for almost all risky borrowers at once, so diversifying across companies helps less than it seems. See correlation and credit cycle. Protection can fail too. A credit default swap pays out if a borrower defaults, but only if the seller of the protection can still pay. See swaps. Governments can default too , especially on debt in a currency they can't create. See bank sovereign loop. Key rule: extra yield is payment for extra risk. Ask what the spread is paying you to worry about. Check yourself Q: A bond is downgraded from BBB− to BB+. Why might its price fall more than the small step suggests? A: Because it crosses from investment grade to high yield. Funds that may hold only investment grade bonds may have to sell, all at once.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2340,10 +2564,14 @@ window.MUDMAP = {
     "bond-what"
    ],
    "backlinks": [
+    "asymmetry",
     "bonds",
+    "credit-cycle",
     "derivatives",
+    "fear-gauges",
     "financial-statements",
     "fixed-income",
+    "forced-sellers",
     "ratings-failure",
     "real-estate",
     "settlement",
@@ -3041,6 +3269,7 @@ window.MUDMAP = {
     "leverage-why"
    ],
    "backlinks": [
+    "asymmetry",
     "bitcoin",
     "charting",
     "common-mistakes",
@@ -3114,6 +3343,68 @@ window.MUDMAP = {
    "backlinksAdv": [
     "fixed-income"
    ]
+  },
+  "earnings-season": {
+   "id": "earnings-season",
+   "title": "Earnings Season",
+   "short": "Earnings Season",
+   "parent": "how-markets-move",
+   "order": 5.0,
+   "summary": "The weeks after each reporting period when listed companies publish their results, and expectations are tested one company at a time.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "earnings",
+    "earnings season",
+    "results",
+    "guidance",
+    "quarterly reports",
+    "consensus"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "earnings-season"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Listed companies must publish their results regularly. In many markets that means every quarter; in others every half year. Because most companies share the same reporting periods, their results arrive in a cluster over a few weeks. That cluster is <strong>earnings season</strong>, and it brings one of the busiest, jumpiest stretches of the market's year.</p>\n<h2>Why it matters</h2>\n<p>Results are where expectations meet reality. A share price is a bet on future profits; each report is a check on that bet. Prices often move more in the day after results than in the rest of the quarter. See <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</p>\n<h2>How it works</h2>\n<p><strong>What's in a report.</strong> Sales, costs and profit for the period, often given as <strong>earnings per share</strong>, plus the balance sheet and cash flow. See <a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a>.</p>\n<p><strong>Guidance often matters more than results.</strong> Many companies also say what they expect next: sales, profit, spending. Because prices look ahead, a strong past quarter with weak guidance can send the price down.</p>\n<p><strong>Beats and misses.</strong> Results are compared with the consensus of analysts' forecasts.</p>\n<p><strong>Fictional example.</strong> The consensus expects 1.20 per share. The company reports 1.25: a \"beat\" of 0.05, about <strong>4.2%</strong> above forecast. Whether the price rises depends on what else is in the report, and on whether investors had quietly expected more than the published forecast.</p>\n<p><strong>Reports land outside trading hours.</strong> Many companies publish before the market opens or after it closes. So prices often <strong>gap</strong>: they open far from where they closed, with no trading in between. See <a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Reading too much into one quarter.</strong> A single report is a small window on a long-lived business.</li>\n<li><strong>Short-termism.</strong> Pressure to hit each quarter's number can push companies to cut useful spending, or to manage expectations so results land just above them.</li>\n<li><strong>Orders filled far from the last price.</strong> A gap at the open can fill an order to sell at a much worse price than the last close.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a report moves the price by how it compares with expectations, and by what it says about the future, more than by the past numbers themselves.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a> — what the report contains.</li>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — how profit expectations become a price.</li>\n<li><a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> — why a few large companies reporting can move a whole market.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — the claim the report is about.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The consensus is 0.80 per share. A company reports 0.76. By how much did it miss, as a share of the forecast?</p><details><summary>Show answer</summary><p>It missed by 0.04, which is <strong>5%</strong> of 0.80.</p></details></div>",
+   "deep": "",
+   "links": [
+    "exchanges",
+    "financial-statements",
+    "indices",
+    "priced-in",
+    "shares",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is Listed companies must publish their results regularly. In many markets that means every quarter; in others every half year. Because most companies share the same reporting periods, their results arrive in a cluster over a few weeks. That cluster is earnings season , and it brings one of the busiest, jumpiest stretches of the market's year. Why it matters Results are where expectations meet reality. A share price is a bet on future profits; each report is a check on that bet. Prices often move more in the day after results than in the rest of the quarter. See priced in. How it works What's in a report. Sales, costs and profit for the period, often given as earnings per share , plus the balance sheet and cash flow. See financial statements. Guidance often matters more than results. Many companies also say what they expect next: sales, profit, spending. Because prices look ahead, a strong past quarter with weak guidance can send the price down. Beats and misses. Results are compared with the consensus of analysts' forecasts. Fictional example. The consensus expects 1.20 per share. The company reports 1.25: a \"beat\" of 0.05, about 4.2% above forecast. Whether the price rises depends on what else is in the report, and on whether investors had quietly expected more than the published forecast. Reports land outside trading hours. Many companies publish before the market opens or after it closes. So prices often gap : they open far from where they closed, with no trading in between. See exchanges. What goes wrong Reading too much into one quarter. A single report is a small window on a long lived business. Short termism. Pressure to hit each quarter's number can push companies to cut useful spending, or to manage expectations so results land just above them. Orders filled far from the last price. A gap at the open can fill an order to sell at a much worse price than the last close. Key rule: a report moves the price by how it compares with expectations, and by what it says about the future, more than by the past numbers themselves. Connects to financial statements — what the report contains. valuation — how profit expectations become a price. indices — why a few large companies reporting can move a whole market. shares — the claim the report is about. Check yourself Q: The consensus is 0.80 per share. A company reports 0.76. By how much did it miss, as a share of the forecast? A: It missed by 0.04, which is 5% of 0.80.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "financial-statements",
+    "how-markets-move",
+    "priced-in"
+   ],
+   "backlinksAdv": []
   },
   "equities": {
    "id": "equities",
@@ -3401,6 +3692,7 @@ window.MUDMAP = {
    "backlinks": [
     "brokers",
     "derivatives",
+    "earnings-season",
     "equities",
     "flow:how-a-trade-settles",
     "market-failure",
@@ -3495,6 +3787,76 @@ window.MUDMAP = {
    "backlinks": [
     "capital-system",
     "money-you-hold"
+   ],
+   "backlinksAdv": []
+  },
+  "fear-gauges": {
+   "id": "fear-gauges",
+   "title": "Fear Gauges",
+   "short": "Fear Gauges",
+   "parent": "how-markets-move",
+   "order": 6.0,
+   "summary": "How markets measure their own nerves, through the expected volatility priced into options and the extra interest risky borrowers must pay.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "vix",
+    "volatility index",
+    "fear gauge",
+    "credit spreads",
+    "risk-off",
+    "expectations"
+   ],
+   "sources": [
+    "Cboe, VIX Index methodology",
+    "CNBC, Wall Street's fear gauge hits highest level ever (16 March 2020)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "fear-gauges"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>fear gauge</strong> is a price that rises when investors are nervous. Two are watched most:</p>\n<ul>\n<li><strong>Expected volatility,</strong> worked out from the prices of options. When people pay more for protection against big moves, it rises. In the US, the best-known measure is the <strong>VIX</strong>.</li>\n<li><strong>Credit spreads,</strong> the extra interest that riskier borrowers pay over safe government borrowing. When lenders worry about defaults, spreads widen. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</li>\n</ul>\n<h2>Why it matters</h2>\n<p>Price charts show what has happened. Fear gauges show what investors are paying to protect against what might happen next. They are one of the clearest windows into the market's mood, and into whether it has shifted from risk-on to risk-off. See <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a>.</p>\n<h2>How it works</h2>\n<p><strong>The VIX, as an example.</strong> Cboe first published the VIX in 1993. It measures the market's expectation of how much the S&amp;P 500, a US share index, will move over the next 30 days, worked out from the prices of options on that index. See <a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a>.</p>\n<ul>\n<li>In calm markets it tends to sit low; in panics it jumps.</li>\n<li>It closed at a record <strong>82.69 on 16 March 2020</strong>, above its previous peak of 80.74 in November 2008.</li>\n<li>Other markets have similar measures built the same way.</li>\n</ul>\n<p><strong>Reading the number.</strong> The VIX is an expected yearly range. A common rough conversion to a daily move divides by about 16. Fictional example: a reading of 32 means traders expect daily moves of roughly 32 ÷ 16 = <strong>2%</strong>. A reading of 16 suggests about 1% a day. It's a rule of thumb, not a forecast.</p>\n<p><strong>Credit spreads tell the same story in the debt market.</strong> When spreads widen quickly, lenders are demanding more to take risk, and borrowing gets harder for everyone. See <a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>A gauge isn't a forecast.</strong> It shows how nervous investors are now, not what will happen.</li>\n<li><strong>High readings don't reliably mark the bottom.</strong> They often come near the worst of a fall, but fear can stay high for months.</li>\n<li><strong>Low readings can mean complacency.</strong> Long periods of calm encourage borrowing and crowded positions. See <a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> fear gauges measure the price of protection. When protection is cheap, that is the time people forget they need it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — what the gauges are measuring.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — the contracts the VIX is built from.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — what credit spreads price.</li>\n<li><a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a> — what often sits behind a spike.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Using the rough rule, what daily move does a VIX reading of 48 suggest?</p><details><summary>Show answer</summary><p>About 48 ÷ 16 = <strong>3%</strong> a day, up or down.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a very low fear gauge be a warning rather than a comfort?</p><details><summary>Show answer</summary><p>Because calm encourages people to borrow more and protect less. When something finally goes wrong, more of them are caught unprepared at once.</p></details></div>",
+   "deep": "",
+   "links": [
+    "credit-cycle",
+    "credit-risk",
+    "forced-sellers",
+    "market-regimes",
+    "options",
+    "stability-breeds-instability",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is A fear gauge is a price that rises when investors are nervous. Two are watched most: Expected volatility, worked out from the prices of options. When people pay more for protection against big moves, it rises. In the US, the best known measure is the VIX . Credit spreads, the extra interest that riskier borrowers pay over safe government borrowing. When lenders worry about defaults, spreads widen. See credit risk. Why it matters Price charts show what has happened. Fear gauges show what investors are paying to protect against what might happen next. They are one of the clearest windows into the market's mood, and into whether it has shifted from risk on to risk off. See market regimes. How it works The VIX, as an example. Cboe first published the VIX in 1993. It measures the market's expectation of how much the S&P 500, a US share index, will move over the next 30 days, worked out from the prices of options on that index. See options. In calm markets it tends to sit low; in panics it jumps. It closed at a record 82.69 on 16 March 2020 , above its previous peak of 80.74 in November 2008. Other markets have similar measures built the same way. Reading the number. The VIX is an expected yearly range. A common rough conversion to a daily move divides by about 16. Fictional example: a reading of 32 means traders expect daily moves of roughly 32 ÷ 16 = 2% . A reading of 16 suggests about 1% a day. It's a rule of thumb, not a forecast. Credit spreads tell the same story in the debt market. When spreads widen quickly, lenders are demanding more to take risk, and borrowing gets harder for everyone. See credit cycle. What goes wrong A gauge isn't a forecast. It shows how nervous investors are now, not what will happen. High readings don't reliably mark the bottom. They often come near the worst of a fall, but fear can stay high for months. Low readings can mean complacency. Long periods of calm encourage borrowing and crowded positions. See stability breeds instability. Key rule: fear gauges measure the price of protection. When protection is cheap, that is the time people forget they need it. Connects to volatility — what the gauges are measuring. options — the contracts the VIX is built from. credit risk — what credit spreads price. forced sellers — what often sits behind a spike. Check yourself Q: Using the rough rule, what daily move does a VIX reading of 48 suggest? A: About 48 ÷ 16 = 3% a day, up or down. Q: Why can a very low fear gauge be a warning rather than a comfort? A: Because calm encourages people to borrow more and protect less. When something finally goes wrong, more of them are caught unprepared at once.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "asymmetry",
+    "credit-cycle",
+    "how-markets-move",
+    "options",
+    "priced-in",
+    "stability-breeds-instability",
+    "volatility"
    ],
    "backlinksAdv": []
   },
@@ -3608,15 +3970,16 @@ window.MUDMAP = {
    "branch": "equities",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Financial statements</strong> are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent <strong>auditor</strong>. There are three, and each answers a different question:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Statement</th>\n<th>Question it answers</th>\n<th>Covers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Income statement</strong></td>\n<td>Did it make a profit?</td>\n<td>A period, such as a year</td>\n</tr>\n<tr>\n<td><strong>Balance sheet</strong></td>\n<td>What does it own and owe?</td>\n<td>One date</td>\n</tr>\n<tr>\n<td><strong>Cash flow statement</strong></td>\n<td>Where did the cash actually go?</td>\n<td>A period</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it exists</h2>\n<p>Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a>.</p>\n<h2>How it works</h2>\n<p><strong>One fictional company, three views.</strong></p>\n<p><strong>Income statement (the year):</strong> revenue 500,000, minus the cost of the goods sold 300,000, gives <strong>gross profit</strong> of 200,000. Minus running costs of 120,000 gives <strong>operating profit</strong> of 80,000. Minus interest of 10,000 and tax of 14,000 leaves <strong>net profit</strong> of 56,000, a net margin of 11.2%.</p>\n<p><strong>Balance sheet (year end):</strong> the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' <strong>equity</strong> is 150,000. A balance sheet always balances:</p>\n<blockquote>\n<p><strong>Assets = Liabilities + Equity</strong></p>\n</blockquote>\n<p>The same split appears in <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>: creditors first, owners take what's left. Its short-term assets of 120,000 cover short-term debts of 80,000 by 1.5 times (the <strong>current ratio</strong>).</p>\n<p><strong>Cash flow statement (the year):</strong> the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is <strong>−4,000</strong>. Profitable on paper, short of cash in the bank.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Amount</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Net profit</td>\n<td>56,000</td>\n</tr>\n<tr>\n<td>Add depreciation</td>\n<td>+10,000</td>\n</tr>\n<tr>\n<td>More stock held</td>\n<td>−40,000</td>\n</tr>\n<tr>\n<td>More owed by customers</td>\n<td>−30,000</td>\n</tr>\n<tr>\n<td><strong>Cash from operations</strong></td>\n<td><strong>−4,000</strong></td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Profit isn't cash.</strong> Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money.</li>\n<li><strong>Judgment in the numbers.</strong> Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched.</li>\n<li><strong>Debt hidden in plain sight.</strong> Leases, guarantees and pension promises can be large; read the notes, not only the headline figures.</li>\n<li><strong>Fraud.</strong> Audits reduce it but can't rule it out.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> read all three together. Profit that never turns into cash is a warning sign.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — turning these numbers into a value for the shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the balance sheet from the creditors' side.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — how lenders use the same reports.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company reports a record profit, but its cash from operations is negative. Name two possible reasons.</p><details><summary>Show answer</summary><p>It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Financial statements</strong> are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent <strong>auditor</strong>. There are three, and each answers a different question:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Statement</th>\n<th>Question it answers</th>\n<th>Covers</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Income statement</strong></td>\n<td>Did it make a profit?</td>\n<td>A period, such as a year</td>\n</tr>\n<tr>\n<td><strong>Balance sheet</strong></td>\n<td>What does it own and owe?</td>\n<td>One date</td>\n</tr>\n<tr>\n<td><strong>Cash flow statement</strong></td>\n<td>Where did the cash actually go?</td>\n<td>A period</td>\n</tr>\n</tbody>\n</table></div>\n<h2>Why it exists</h2>\n<p>Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a>.</p>\n<h2>How it works</h2>\n<p><strong>One fictional company, three views.</strong></p>\n<p><strong>Income statement (the year):</strong> revenue 500,000, minus the cost of the goods sold 300,000, gives <strong>gross profit</strong> of 200,000. Minus running costs of 120,000 gives <strong>operating profit</strong> of 80,000. Minus interest of 10,000 and tax of 14,000 leaves <strong>net profit</strong> of 56,000, a net margin of 11.2%.</p>\n<p><strong>Balance sheet (year end):</strong> the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' <strong>equity</strong> is 150,000. A balance sheet always balances:</p>\n<blockquote>\n<p><strong>Assets = Liabilities + Equity</strong></p>\n</blockquote>\n<p>The same split appears in <a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a>: creditors first, owners take what's left. Its short-term assets of 120,000 cover short-term debts of 80,000 by 1.5 times (the <strong>current ratio</strong>).</p>\n<p><strong>Cash flow statement (the year):</strong> the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is <strong>−4,000</strong>. Profitable on paper, short of cash in the bank.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Amount</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Net profit</td>\n<td>56,000</td>\n</tr>\n<tr>\n<td>Add depreciation</td>\n<td>+10,000</td>\n</tr>\n<tr>\n<td>More stock held</td>\n<td>−40,000</td>\n</tr>\n<tr>\n<td>More owed by customers</td>\n<td>−30,000</td>\n</tr>\n<tr>\n<td><strong>Cash from operations</strong></td>\n<td><strong>−4,000</strong></td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Profit isn't cash.</strong> Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money.</li>\n<li><strong>Judgment in the numbers.</strong> Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched.</li>\n<li><strong>Debt hidden in plain sight.</strong> Leases, guarantees and pension promises can be large; read the notes, not only the headline figures.</li>\n<li><strong>Fraud.</strong> Audits reduce it but can't rule it out.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> read all three together. Profit that never turns into cash is a warning sign.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — turning these numbers into a value for the shares.</li>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — the balance sheet from the creditors' side.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a> — how lenders use the same reports.</li>\n<li><a class=\"wl\" href=\"#/map/p/earnings-season\" data-page=\"earnings-season\">Earnings Season</a> — when the reports arrive, and how prices react.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company reports a record profit, but its cash from operations is negative. Name two possible reasons.</p><details><summary>Show answer</summary><p>It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.</p></details></div>",
    "deep": "",
    "links": [
     "claims-and-liabilities",
     "credit-risk",
+    "earnings-season",
     "valuation"
    ],
    "stub": false,
-   "text": "What it is Financial statements are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent auditor . There are three, and each answers a different question: Statement Question it answers Covers Income statement Did it make a profit? A period, such as a year Balance sheet What does it own and owe? One date Cash flow statement Where did the cash actually go? A period Why it exists Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of valuation. How it works One fictional company, three views. Income statement (the year): revenue 500,000, minus the cost of the goods sold 300,000, gives gross profit of 200,000. Minus running costs of 120,000 gives operating profit of 80,000. Minus interest of 10,000 and tax of 14,000 leaves net profit of 56,000, a net margin of 11.2%. Balance sheet (year end): the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' equity is 150,000. A balance sheet always balances: Assets = Liabilities + Equity The same split appears in claims and liabilities: creditors first, owners take what's left. Its short term assets of 120,000 cover short term debts of 80,000 by 1.5 times (the current ratio ). Cash flow statement (the year): the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is −4,000 . Profitable on paper, short of cash in the bank. Amount Net profit 56,000 Add depreciation +10,000 More stock held −40,000 More owed by customers −30,000 Cash from operations −4,000 What goes wrong Profit isn't cash. Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money. Judgment in the numbers. Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched. Debt hidden in plain sight. Leases, guarantees and pension promises can be large; read the notes, not only the headline figures. Fraud. Audits reduce it but can't rule it out. Key rule: read all three together. Profit that never turns into cash is a warning sign. Connects to valuation — turning these numbers into a value for the shares. claims and liabilities — the balance sheet from the creditors' side. credit risk — how lenders use the same reports. Check yourself Q: A company reports a record profit, but its cash from operations is negative. Name two possible reasons. A: It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.",
+   "text": "What it is Financial statements are the reports a company publishes to show how it is doing. Listed companies must publish them regularly, checked by an independent auditor . There are three, and each answers a different question: Statement Question it answers Covers Income statement Did it make a profit? A period, such as a year Balance sheet What does it own and owe? One date Cash flow statement Where did the cash actually go? A period Why it exists Shareholders and lenders can't see inside a company. Standard reports, prepared under accounting rules (IFRS in most countries; US GAAP in the United States), let outsiders compare companies and judge whether they are earning, borrowing and spending sensibly. They are the raw material of valuation. How it works One fictional company, three views. Income statement (the year): revenue 500,000, minus the cost of the goods sold 300,000, gives gross profit of 200,000. Minus running costs of 120,000 gives operating profit of 80,000. Minus interest of 10,000 and tax of 14,000 leaves net profit of 56,000, a net margin of 11.2%. Balance sheet (year end): the company owns assets of 400,000. It owes 250,000 (liabilities), so the owners' equity is 150,000. A balance sheet always balances: Assets = Liabilities + Equity The same split appears in claims and liabilities: creditors first, owners take what's left. Its short term assets of 120,000 cover short term debts of 80,000 by 1.5 times (the current ratio ). Cash flow statement (the year): the company made 56,000 of profit, but it spent 40,000 building up stock and customers owe it 30,000 more than last year. Adding back 10,000 of depreciation (a cost that isn't cash), its cash from operations is −4,000 . Profitable on paper, short of cash in the bank. Amount Net profit 56,000 Add depreciation +10,000 More stock held −40,000 More owed by customers −30,000 Cash from operations −4,000 What goes wrong Profit isn't cash. Companies fail when they run out of cash, not when they run out of profit. Growing stock and unpaid customer bills soak up money. Judgment in the numbers. Depreciation, stock values and when to count a sale all involve estimates, and estimates can be stretched. Debt hidden in plain sight. Leases, guarantees and pension promises can be large; read the notes, not only the headline figures. Fraud. Audits reduce it but can't rule it out. Key rule: read all three together. Profit that never turns into cash is a warning sign. Connects to valuation — turning these numbers into a value for the shares. claims and liabilities — the balance sheet from the creditors' side. credit risk — how lenders use the same reports. earnings season — when the reports arrive, and how prices react. Check yourself Q: A company reports a record profit, but its cash from operations is negative. Name two possible reasons. A: It may be building up stock faster than it sells it, or selling on credit to customers who haven't paid yet. Both count as sales in profit but tie up cash.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -3628,6 +3991,7 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "earnings-season",
     "equities",
     "valuation"
    ],
@@ -3702,6 +4066,144 @@ window.MUDMAP = {
    "backlinks": [
     "asset-allocation",
     "capital-system"
+   ],
+   "backlinksAdv": []
+  },
+  "flows-and-fundamentals": {
+   "id": "flows-and-fundamentals",
+   "title": "Flows and Fundamentals",
+   "short": "Flows vs Fundamentals",
+   "parent": "how-markets-move",
+   "order": 7.0,
+   "summary": "What an asset is worth and who needs to buy or sell it at a given moment are two different things, and in the short run the second often wins.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "flows",
+    "fundamentals",
+    "index inclusion",
+    "passive investing",
+    "buybacks",
+    "rebalancing"
+   ],
+   "sources": [
+    "CNBC, Tesla stock jumps on news company is joining S&P 500 (16 November 2020)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "flows-and-fundamentals"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Two different forces set a price:</p>\n<ul>\n<li><strong>Fundamentals:</strong> what an asset is worth, judged by the income it can produce over its life. See <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a>.</li>\n<li><strong>Flows:</strong> the money that has to go in or out at a given moment, whatever the asset is worth.</li>\n</ul>\n<p>Over many years, fundamentals tend to win. Over days and months, flows often do.</p>\n<h2>Why it matters</h2>\n<p>A lot of buying and selling has nothing to do with anyone's view of value. Index funds buy what's in the index. Pension funds rebalance on set dates. Companies buy back their own shares. Funds sell when their investors ask for their money back. Knowing where the flows come from explains moves that the news can't.</p>\n<h2>How it works</h2>\n<p><strong>Where big flows come from.</strong></p>\n<ul>\n<li><strong>Index changes.</strong> When a company joins a major index, funds that track the index must buy it, and those dropping out must be sold. See <a class=\"wl\" href=\"#/map/p/indices\" data-page=\"indices\">Indices</a> and <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</li>\n<li><strong>Rebalancing.</strong> Funds with fixed mixes sell what has risen and buy what has fallen to get back to target, often at month or quarter end. See <a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a>.</li>\n<li><strong>Buybacks.</strong> Companies buying their own shares are a steady buyer that doesn't care about the day's price.</li>\n<li><strong>Investors arriving or leaving.</strong> Money pouring into or out of a type of fund has to be invested or raised, whatever the prices.</li>\n</ul>\n<p><strong>A real case.</strong> When it was announced on 16 November 2020 that Tesla would join the S&amp;P 500, its shares rose more than 13% in trading after the market closed. Funds tracking the index would have to buy the stock when it joined, before trading on 21 December 2020.</p>\n<p><strong>Fictional example: how big a flow can be.</strong> A company has 200 million worth of shares that are freely traded. Joining an index means tracking funds must buy 50 million worth. That's <strong>25%</strong> of all the shares available to buy, all wanted at once.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Mistaking a flow for a verdict.</strong> A price pushed up by forced buying hasn't been judged more valuable. When the flow stops, the price can drift back.</li>\n<li><strong>Flows reverse.</strong> Money that rushed in can rush out for the same mechanical reasons. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</li>\n<li><strong>Crowding.</strong> When many funds follow the same rules, they all trade the same way at the same time.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> before reading a price move as news about value, ask who had to buy or sell, and whether they'll have to do it again.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a> — known flows get anticipated too.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a> — the dealers who absorb flows, for a price.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — the system-wide money behind the biggest flows.</li>\n<li><a class=\"wl\" href=\"#/map/p/short-selling\" data-page=\"short-selling\">Short Selling and Squeezes</a> — positioning that can turn into a flow.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company has 400 million of freely traded shares. Index funds must buy 60 million worth. What share of the tradable shares is that?</p><details><summary>Show answer</summary><p>60 ÷ 400 = <strong>15%</strong> of the shares available to buy.</p></details></div>",
+   "deep": "",
+   "links": [
+    "forced-sellers",
+    "funds-and-etfs",
+    "indices",
+    "liquidity",
+    "market-making",
+    "priced-in",
+    "rebalancing",
+    "short-selling",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is Two different forces set a price: Fundamentals: what an asset is worth, judged by the income it can produce over its life. See valuation. Flows: the money that has to go in or out at a given moment, whatever the asset is worth. Over many years, fundamentals tend to win. Over days and months, flows often do. Why it matters A lot of buying and selling has nothing to do with anyone's view of value. Index funds buy what's in the index. Pension funds rebalance on set dates. Companies buy back their own shares. Funds sell when their investors ask for their money back. Knowing where the flows come from explains moves that the news can't. How it works Where big flows come from. Index changes. When a company joins a major index, funds that track the index must buy it, and those dropping out must be sold. See indices and funds and etfs. Rebalancing. Funds with fixed mixes sell what has risen and buy what has fallen to get back to target, often at month or quarter end. See rebalancing. Buybacks. Companies buying their own shares are a steady buyer that doesn't care about the day's price. Investors arriving or leaving. Money pouring into or out of a type of fund has to be invested or raised, whatever the prices. A real case. When it was announced on 16 November 2020 that Tesla would join the S&P 500, its shares rose more than 13% in trading after the market closed. Funds tracking the index would have to buy the stock when it joined, before trading on 21 December 2020. Fictional example: how big a flow can be. A company has 200 million worth of shares that are freely traded. Joining an index means tracking funds must buy 50 million worth. That's 25% of all the shares available to buy, all wanted at once. What goes wrong Mistaking a flow for a verdict. A price pushed up by forced buying hasn't been judged more valuable. When the flow stops, the price can drift back. Flows reverse. Money that rushed in can rush out for the same mechanical reasons. See forced sellers. Crowding. When many funds follow the same rules, they all trade the same way at the same time. Key rule: before reading a price move as news about value, ask who had to buy or sell, and whether they'll have to do it again. Connects to priced in — known flows get anticipated too. market making — the dealers who absorb flows, for a price. liquidity — the system wide money behind the biggest flows. short selling — positioning that can turn into a flow. Check yourself Q: A company has 400 million of freely traded shares. Index funds must buy 60 million worth. What share of the tradable shares is that? A: 60 ÷ 400 = 15% of the shares available to buy.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "how-markets-move",
+    "indices",
+    "short-selling"
+   ],
+   "backlinksAdv": []
+  },
+  "forced-sellers": {
+   "id": "forced-sellers",
+   "title": "Forced Sellers",
+   "short": "Forced Sellers",
+   "parent": "how-markets-move",
+   "order": 8.0,
+   "summary": "Margin calls, fund redemptions and rules make some holders sell whatever the price, which is how good assets end up sold at bad prices.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "forced selling",
+    "margin call",
+    "redemptions",
+    "liquidation",
+    "collateral",
+    "fire sale"
+   ],
+   "sources": [
+    "ESMA, Leverage and derivatives: the case of Archegos",
+    "Bank of England, Bank of England announces gilt market operation (28 September 2022)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "forced-sellers"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>forced seller</strong> sells not because they think the price is right, but because they have no choice. Their lender, their investors or their rules demand cash or a smaller position, now.</p>\n<h2>Why it matters</h2>\n<p>Forced selling ignores value. A forced seller takes whatever price the market offers, so prices can fall far below what the asset is worth, and stay there until the forced selling ends. On the other side of every forced sale is a buyer who can wait.</p>\n<h2>How it works</h2>\n<p><strong>The main sources.</strong></p>\n<ul>\n<li><strong>Margin calls.</strong> Borrowers who used their holdings as security must add cash or sell when prices fall. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n<li><strong>Collateral calls.</strong> Derivative positions demand more security when prices move against them. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n<li><strong>Redemptions.</strong> When investors pull money from a fund, the fund must sell holdings to pay them, often the easiest ones to sell rather than the worst.</li>\n<li><strong>Rules.</strong> A fund that may only hold investment-grade bonds must sell a bond that's downgraded below that line. See <a class=\"wl\" href=\"#/map/p/credit-risk\" data-page=\"credit-risk\">Credit Risk and Ratings</a>.</li>\n</ul>\n<p><strong>The spiral.</strong> Forced selling pushes prices down, which triggers more margin and collateral calls, which forces more selling. Each round makes the next one bigger.</p>\n<p><strong>Fictional example: when the call comes.</strong> You buy 100,000 of shares with 50,000 of your own money and 50,000 borrowed. The lender requires your own money to stay at least 30% of the position.</p>\n<ul>\n<li>If the shares fall to 70,000, your equity is 70,000 − 50,000 = 20,000, which is about <strong>28.6%</strong> of the position. That's below 30%: margin call.</li>\n<li>The call comes when the position falls below about 71,429, a fall of about <strong>28.6%</strong>.</li>\n</ul>\n<p><strong>Real cases.</strong></p>\n<ul>\n<li><strong>Archegos, March 2021.</strong> A family office that had borrowed heavily through several banks couldn't meet margin calls. The banks sold its positions, with losses of more than $10 billion. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</li>\n<li><strong>UK pension funds, September 2022.</strong> Funds using borrowed hedges faced collateral calls as UK government bond prices fell, and sold bonds to raise cash, pushing prices down further. On 28 September 2022 the Bank of England stepped in to buy long-dated bonds. See <a class=\"wl\" href=\"#/map/p/market-failure\" data-page=\"market-failure\">Market Failure</a>.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Being the forced seller.</strong> Leverage, too little cash and promises to repay on demand all take away the choice to wait.</li>\n<li><strong>Fire sales spread.</strong> Forced sellers sell what they can, not what they want, so unrelated assets fall too. See <a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a>.</li>\n<li><strong>Rules all trigger together.</strong> When many holders follow the same limits, one downgrade or one price level sets off everyone at once.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> the most important question about any position is not \"will it go up?\" but \"could anything force me to sell it at the bottom?\"</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — the main reason people get forced out.</li>\n<li><a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a> — how the borrowing builds up.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a> — the dealers who absorb the selling, until they're full.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what you have when you aren't forced.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You hold 80,000 of shares, bought with 40,000 of your own money and 40,000 borrowed. The shares fall 25%. What is your equity now, and what share of the position is it?</p><details><summary>Show answer</summary><p>The position is worth 60,000, so your equity is 60,000 − 40,000 = <strong>20,000</strong>, which is a third (about <strong>33.3%</strong>) of the position.</p></details></div>",
+   "deep": "",
+   "links": [
+    "correlation",
+    "credit-risk",
+    "leverage",
+    "liquidity",
+    "market-failure",
+    "market-making",
+    "stability-breeds-instability",
+    "swaps"
+   ],
+   "stub": false,
+   "text": "What it is A forced seller sells not because they think the price is right, but because they have no choice. Their lender, their investors or their rules demand cash or a smaller position, now. Why it matters Forced selling ignores value. A forced seller takes whatever price the market offers, so prices can fall far below what the asset is worth, and stay there until the forced selling ends. On the other side of every forced sale is a buyer who can wait. How it works The main sources. Margin calls. Borrowers who used their holdings as security must add cash or sell when prices fall. See leverage. Collateral calls. Derivative positions demand more security when prices move against them. See swaps. Redemptions. When investors pull money from a fund, the fund must sell holdings to pay them, often the easiest ones to sell rather than the worst. Rules. A fund that may only hold investment grade bonds must sell a bond that's downgraded below that line. See credit risk. The spiral. Forced selling pushes prices down, which triggers more margin and collateral calls, which forces more selling. Each round makes the next one bigger. Fictional example: when the call comes. You buy 100,000 of shares with 50,000 of your own money and 50,000 borrowed. The lender requires your own money to stay at least 30% of the position. If the shares fall to 70,000, your equity is 70,000 − 50,000 = 20,000, which is about 28.6% of the position. That's below 30%: margin call. The call comes when the position falls below about 71,429, a fall of about 28.6% . Real cases. Archegos, March 2021. A family office that had borrowed heavily through several banks couldn't meet margin calls. The banks sold its positions, with losses of more than $10 billion. See swaps. UK pension funds, September 2022. Funds using borrowed hedges faced collateral calls as UK government bond prices fell, and sold bonds to raise cash, pushing prices down further. On 28 September 2022 the Bank of England stepped in to buy long dated bonds. See market failure. What goes wrong Being the forced seller. Leverage, too little cash and promises to repay on demand all take away the choice to wait. Fire sales spread. Forced sellers sell what they can, not what they want, so unrelated assets fall too. See correlation. Rules all trigger together. When many holders follow the same limits, one downgrade or one price level sets off everyone at once. Key rule: the most important question about any position is not \"will it go up?\" but \"could anything force me to sell it at the bottom?\" Connects to leverage — the main reason people get forced out. stability breeds instability — how the borrowing builds up. market making — the dealers who absorb the selling, until they're full. liquidity — what you have when you aren't forced. Check yourself Q: You hold 80,000 of shares, bought with 40,000 of your own money and 40,000 borrowed. The shares fall 25%. What is your equity now, and what share of the position is it? A: The position is worth 60,000, so your equity is 60,000 − 40,000 = 20,000 , which is a third (about 33.3% ) of the position.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "fear-gauges",
+    "flows-and-fundamentals",
+    "how-markets-move",
+    "leverage",
+    "repo-market",
+    "short-selling",
+    "stability-breeds-instability"
    ],
    "backlinksAdv": []
   },
@@ -3987,6 +4489,7 @@ window.MUDMAP = {
     "common-mistakes",
     "diversification",
     "equities",
+    "flows-and-fundamentals",
     "indices",
     "market-failure",
     "practice",
@@ -4070,6 +4573,7 @@ window.MUDMAP = {
     "leverage",
     "options",
     "perpetuals",
+    "priced-in",
     "real-assets",
     "swaps"
    ],
@@ -4384,6 +4888,88 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "how-markets-move": {
+   "id": "how-markets-move",
+   "title": "How Markets Move",
+   "short": "How Markets Move",
+   "parent": "capital-system",
+   "order": 10.5,
+   "summary": "The rhythms and forces behind price moves that professionals use every day and almost nobody else is taught: cycles, expectations, and who has to buy or sell.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "markets",
+    "cycles",
+    "expectations",
+    "flows",
+    "market moves",
+    "patterns"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "How it runs",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Prices don't move at random, and they don't move only on news. Underneath the daily noise are a few forces that repeat. People who work in markets learn them early. Most people never hear of them, and are left wondering why prices fell on good news, or why a sound asset was dumped at a terrible price.</p>\n<p>This branch gathers those forces into three families:</p>\n<ul>\n<li><strong>Cycles:</strong> the slow rhythms of the economy and of credit, and why calm periods plant the seeds of the next storm.</li>\n<li><strong>Expectations:</strong> prices move on surprises against what was already expected, not on the news itself.</li>\n<li><strong>Flows:</strong> who <em>has</em> to buy or sell at a given moment, whatever the asset is worth.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>The rest of the map explains what things are: a bond, a share, a deposit, a coin. This branch explains how their prices behave together, over time. Knowing it won't let anyone predict next week. It does explain much of what looks like madness, and it shows where the dangerous moments tend to be.</p>\n<h2>How it works</h2>\n<p><strong>Cycles</strong></p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/business-cycle\" data-page=\"business-cycle\">The Business Cycle</a> — expansion, peak, recession and recovery, and why markets turn before the economy does.</li>\n<li><a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a> — lending loosening and tightening in waves, usually ahead of the economy.</li>\n<li><a class=\"wl\" href=\"#/map/p/stability-breeds-instability\" data-page=\"stability-breeds-instability\">Stability Breeds Instability</a> — why long calm periods build the borrowing that makes the next crash worse.</li>\n</ul>\n<p><strong>Expectations</strong></p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a> — prices move on the gap between what happens and what was expected.</li>\n<li><a class=\"wl\" href=\"#/map/p/earnings-season\" data-page=\"earnings-season\">Earnings Season</a> — the reporting rhythm when those gaps show up company by company.</li>\n<li><a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> — how markets measure their own nerves, through volatility and credit spreads.</li>\n</ul>\n<p><strong>Flows</strong></p>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/flows-and-fundamentals\" data-page=\"flows-and-fundamentals\">Flows and Fundamentals</a> — the difference between what something is worth and who needs to trade it.</li>\n<li><a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a> — margin calls, redemptions and rules that make people sell at the worst price.</li>\n<li><a class=\"wl\" href=\"#/map/p/short-selling\" data-page=\"short-selling\">Short Selling and Squeezes</a> — betting on a fall, and what happens when the bets are crowded.</li>\n</ul>\n<p>Two close relatives live elsewhere on the map: the <a class=\"wl\" href=\"#/map/p/repo-market\" data-page=\"repo-market\">The Repo Market</a>, the overnight borrowing that funds much of the trading, under Markets &amp; Plumbing; and <a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a>, the shape of what you can win against what you can lose, under Portfolio &amp; Risk.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Seeing patterns that aren't there.</strong> Markets are noisy. A pattern found by searching enough charts will look convincing and then fail. The forces here are mechanisms with a reason behind them, not chart shapes.</li>\n<li><strong>Mistaking a mechanism for a timetable.</strong> Knowing that cycles turn doesn't tell you when. Cycles vary in length, and the official dates arrive long after the turn.</li>\n<li><strong>Forgetting that everyone else knows too.</strong> When a pattern becomes famous, people act on it early, and it weakens or changes. See <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> these forces explain how prices behave. They don't predict them. Use them to understand a move, and to avoid being the one forced to act at the worst moment, not as signals to trade on.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — risk-on and risk-off, the moods these forces swing between.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> and <a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a> — the money conditions that drive the cycles.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — the amplifier behind forced selling.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a> — the dealers whose balance sheets absorb, or refuse, the flows.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — why everything moves together when the forces line up.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company reports record profits and its share price falls. Name a reason this can happen.</p><details><summary>Show answer</summary><p>The market expected even more. Prices move on the gap between results and expectations, so a record that falls short of what was priced in can still send the price down. See <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a perfectly sound asset be sold at a very low price?</p><details><summary>Show answer</summary><p>Because its owner had to sell, perhaps to meet a margin call or pay back fund investors, and couldn't wait for a better buyer. Forced selling ignores what an asset is worth. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</p></details></div>",
+   "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Calendar rhythms</strong> beyond earnings: central bank meeting days, the data calendar, options expiry dates and index rebalancing all bring predictable bursts of trading.</li>\n<li><strong>Behaviour:</strong> herding, fear of missing out and loss aversion explain why the same mistakes repeat across generations. See <a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a>.</li>\n<li><strong>Sector rotation:</strong> different kinds of business tend to lead at different stages of the <a class=\"wl\" href=\"#/map/p/business-cycle\" data-page=\"business-cycle\">The Business Cycle</a>, a pattern that is loose and often broken.</li>\n</ul></section>",
+   "links": [
+    "asymmetry",
+    "business-cycle",
+    "common-mistakes",
+    "correlation",
+    "credit-cycle",
+    "earnings-season",
+    "fear-gauges",
+    "flows-and-fundamentals",
+    "forced-sellers",
+    "leverage",
+    "liquidity",
+    "market-making",
+    "market-regimes",
+    "monetary-policy",
+    "priced-in",
+    "repo-market",
+    "short-selling",
+    "stability-breeds-instability"
+   ],
+   "stub": false,
+   "text": "What it is Prices don't move at random, and they don't move only on news. Underneath the daily noise are a few forces that repeat. People who work in markets learn them early. Most people never hear of them, and are left wondering why prices fell on good news, or why a sound asset was dumped at a terrible price. This branch gathers those forces into three families: Cycles: the slow rhythms of the economy and of credit, and why calm periods plant the seeds of the next storm. Expectations: prices move on surprises against what was already expected, not on the news itself. Flows: who has to buy or sell at a given moment, whatever the asset is worth. Why it exists The rest of the map explains what things are: a bond, a share, a deposit, a coin. This branch explains how their prices behave together, over time. Knowing it won't let anyone predict next week. It does explain much of what looks like madness, and it shows where the dangerous moments tend to be. How it works Cycles business cycle — expansion, peak, recession and recovery, and why markets turn before the economy does. credit cycle — lending loosening and tightening in waves, usually ahead of the economy. stability breeds instability — why long calm periods build the borrowing that makes the next crash worse. Expectations priced in — prices move on the gap between what happens and what was expected. earnings season — the reporting rhythm when those gaps show up company by company. fear gauges — how markets measure their own nerves, through volatility and credit spreads. Flows flows and fundamentals — the difference between what something is worth and who needs to trade it. forced sellers — margin calls, redemptions and rules that make people sell at the worst price. short selling — betting on a fall, and what happens when the bets are crowded. Two close relatives live elsewhere on the map: the repo market, the overnight borrowing that funds much of the trading, under Markets & Plumbing; and asymmetry, the shape of what you can win against what you can lose, under Portfolio & Risk. What goes wrong Seeing patterns that aren't there. Markets are noisy. A pattern found by searching enough charts will look convincing and then fail. The forces here are mechanisms with a reason behind them, not chart shapes. Mistaking a mechanism for a timetable. Knowing that cycles turn doesn't tell you when. Cycles vary in length, and the official dates arrive long after the turn. Forgetting that everyone else knows too. When a pattern becomes famous, people act on it early, and it weakens or changes. See priced in. Key rule: these forces explain how prices behave. They don't predict them. Use them to understand a move, and to avoid being the one forced to act at the worst moment, not as signals to trade on. Connects to market regimes — risk on and risk off, the moods these forces swing between. liquidity and monetary policy — the money conditions that drive the cycles. leverage — the amplifier behind forced selling. market making — the dealers whose balance sheets absorb, or refuse, the flows. correlation — why everything moves together when the forces line up. Check yourself Q: A company reports record profits and its share price falls. Name a reason this can happen. A: The market expected even more. Prices move on the gap between results and expectations, so a record that falls short of what was priced in can still send the price down. See priced in. Q: Why can a perfectly sound asset be sold at a very low price? A: Because its owner had to sell, perhaps to meet a margin call or pay back fund investors, and couldn't wait for a better buyer. Forced selling ignores what an asset is worth. See forced sellers.",
+   "textDeep": "Going deeper Calendar rhythms beyond earnings: central bank meeting days, the data calendar, options expiry dates and index rebalancing all bring predictable bursts of trading. Behaviour: herding, fear of missing out and loss aversion explain why the same mistakes repeat across generations. See common mistakes. Sector rotation: different kinds of business tend to lead at different stages of the business cycle, a pattern that is loose and often broken.",
+   "children": [
+    "business-cycle",
+    "credit-cycle",
+    "stability-breeds-instability",
+    "priced-in",
+    "earnings-season",
+    "fear-gauges",
+    "flows-and-fundamentals",
+    "forced-sellers",
+    "short-selling"
+   ],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "capital-system",
+    "common-mistakes"
+   ],
+   "backlinksAdv": []
+  },
   "human-capital": {
    "id": "human-capital",
    "title": "Human Capital",
@@ -4449,6 +5035,7 @@ window.MUDMAP = {
    "backlinks": [
     "account-types",
     "asset-allocation",
+    "business-cycle",
     "cartography-of-wealth",
     "confiscation",
     "currency-failure",
@@ -4492,15 +5079,16 @@ window.MUDMAP = {
    "branch": "equities",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>An <strong>index</strong> is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&amp;P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>To measure a market</strong> in one number, the way a thermometer measures a room.</li>\n<li><strong>As a benchmark</strong> for judging whether a fund manager beat the market.</li>\n<li><strong>As a recipe</strong> for index funds, which hold the same shares in the same proportions.</li>\n</ul>\n<h2>How it works</h2>\n<p>What an index measures depends on how it <strong>weights</strong> its companies. Fictional example with three companies:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Company</th>\n<th>Share price</th>\n<th>Shares issued</th>\n<th>Market value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>100</td>\n<td>10m</td>\n<td>1,000m</td>\n</tr>\n<tr>\n<td>B</td>\n<td>50</td>\n<td>40m</td>\n<td>2,000m</td>\n</tr>\n<tr>\n<td>C</td>\n<td>20</td>\n<td>50m</td>\n<td>1,000m</td>\n</tr>\n</tbody>\n</table></div>\n<p>Now company A's share price rises 10% and nothing else changes. How much does the index rise?</p>\n<ul>\n<li><strong>Market-value weighted</strong> (most indices, such as the S&amp;P 500): A is 25% of the total, so the index rises <strong>2.50%</strong>.</li>\n<li><strong>Price weighted</strong> (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises <strong>5.88%</strong>.</li>\n<li><strong>Equal weighted:</strong> each company counts the same, so the index rises <strong>3.33%</strong>.</li>\n</ul>\n<p>Same market, same move, three different answers. The weighting decides what the index rewards.</p>\n<p>Indices are also <strong>rebalanced</strong>: companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Concentration.</strong> In a market-value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies.</li>\n<li><strong>Price vs total return.</strong> Most quoted index levels leave out dividends. A <strong>total return</strong> index adds them back, and over decades the gap is large.</li>\n<li><strong>Hidden choices.</strong> Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\".</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — how people actually invest in an index.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — what an index gives you, and where concentration takes it back.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — price return against total return.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In a market-value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m?</p><details><summary>Show answer</summary><p>The 2,000m company, ten times as much. Each company counts in proportion to its market value.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>An <strong>index</strong> is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&amp;P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>To measure a market</strong> in one number, the way a thermometer measures a room.</li>\n<li><strong>As a benchmark</strong> for judging whether a fund manager beat the market.</li>\n<li><strong>As a recipe</strong> for index funds, which hold the same shares in the same proportions.</li>\n</ul>\n<h2>How it works</h2>\n<p>What an index measures depends on how it <strong>weights</strong> its companies. Fictional example with three companies:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Company</th>\n<th>Share price</th>\n<th>Shares issued</th>\n<th>Market value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>100</td>\n<td>10m</td>\n<td>1,000m</td>\n</tr>\n<tr>\n<td>B</td>\n<td>50</td>\n<td>40m</td>\n<td>2,000m</td>\n</tr>\n<tr>\n<td>C</td>\n<td>20</td>\n<td>50m</td>\n<td>1,000m</td>\n</tr>\n</tbody>\n</table></div>\n<p>Now company A's share price rises 10% and nothing else changes. How much does the index rise?</p>\n<ul>\n<li><strong>Market-value weighted</strong> (most indices, such as the S&amp;P 500): A is 25% of the total, so the index rises <strong>2.50%</strong>.</li>\n<li><strong>Price weighted</strong> (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises <strong>5.88%</strong>.</li>\n<li><strong>Equal weighted:</strong> each company counts the same, so the index rises <strong>3.33%</strong>.</li>\n</ul>\n<p>Same market, same move, three different answers. The weighting decides what the index rewards.</p>\n<p>Indices are also <strong>rebalanced</strong>: companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Concentration.</strong> In a market-value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies.</li>\n<li><strong>Price vs total return.</strong> Most quoted index levels leave out dividends. A <strong>total return</strong> index adds them back, and over decades the gap is large.</li>\n<li><strong>Hidden choices.</strong> Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\".</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — how people actually invest in an index.</li>\n<li><a class=\"wl\" href=\"#/map/p/flows-and-fundamentals\" data-page=\"flows-and-fundamentals\">Flows and Fundamentals</a> — why joining or leaving an index moves a price.</li>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — what an index gives you, and where concentration takes it back.</li>\n<li><a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a> — price return against total return.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">In a market-value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m?</p><details><summary>Show answer</summary><p>The 2,000m company, ten times as much. Each company counts in proportion to its market value.</p></details></div>",
    "deep": "",
    "links": [
     "diversification",
+    "flows-and-fundamentals",
     "funds-and-etfs",
     "returns"
    ],
    "stub": false,
-   "text": "What it is An index is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See funds and etfs. Why it exists To measure a market in one number, the way a thermometer measures a room. As a benchmark for judging whether a fund manager beat the market. As a recipe for index funds, which hold the same shares in the same proportions. How it works What an index measures depends on how it weights its companies. Fictional example with three companies: Company Share price Shares issued Market value A 100 10m 1,000m B 50 40m 2,000m C 20 50m 1,000m Now company A's share price rises 10% and nothing else changes. How much does the index rise? Market value weighted (most indices, such as the S&P 500): A is 25% of the total, so the index rises 2.50% . Price weighted (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises 5.88% . Equal weighted: each company counts the same, so the index rises 3.33% . Same market, same move, three different answers. The weighting decides what the index rewards. Indices are also rebalanced : companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold. What goes wrong Concentration. In a market value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies. Price vs total return. Most quoted index levels leave out dividends. A total return index adds them back, and over decades the gap is large. Hidden choices. Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things. Key rule: an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\". Connects to funds and etfs — how people actually invest in an index. diversification — what an index gives you, and where concentration takes it back. returns — price return against total return. Check yourself Q: In a market value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m? A: The 2,000m company, ten times as much. Each company counts in proportion to its market value.",
+   "text": "What it is An index is a number that tracks the value of a basket of shares, such as the largest companies in a country. The S&P 500 tracks about 500 large US companies; the FTSE 100 tracks the 100 largest on the London Stock Exchange. An index is a measuring tool. You can't buy an index itself, only a fund that copies it. See funds and etfs. Why it exists To measure a market in one number, the way a thermometer measures a room. As a benchmark for judging whether a fund manager beat the market. As a recipe for index funds, which hold the same shares in the same proportions. How it works What an index measures depends on how it weights its companies. Fictional example with three companies: Company Share price Shares issued Market value A 100 10m 1,000m B 50 40m 2,000m C 20 50m 1,000m Now company A's share price rises 10% and nothing else changes. How much does the index rise? Market value weighted (most indices, such as the S&P 500): A is 25% of the total, so the index rises 2.50% . Price weighted (the Dow Jones Industrial Average): A's price is 100 of the 170 total, so the index rises 5.88% . Equal weighted: each company counts the same, so the index rises 3.33% . Same market, same move, three different answers. The weighting decides what the index rewards. Indices are also rebalanced : companies are added or removed on a set schedule by rules, for example when they grow or shrink past a size threshold. What goes wrong Concentration. In a market value index, the largest companies dominate. A handful of giants can drive most of the index's return, so \"the whole market\" can mean a few companies. Price vs total return. Most quoted index levels leave out dividends. A total return index adds them back, and over decades the gap is large. Hidden choices. Every index is a set of rules about what to include. Two \"world\" indices can hold quite different things. Key rule: an index is a set of rules, not the market itself. Check what it holds and how it weights before you treat it as \"the market\". Connects to funds and etfs — how people actually invest in an index. flows and fundamentals — why joining or leaving an index moves a price. diversification — what an index gives you, and where concentration takes it back. returns — price return against total return. Check yourself Q: In a market value weighted index, which company's 10% rise moves the index more: a company worth 2,000m or one worth 200m? A: The 2,000m company, ten times as much. Each company counts in proportion to its market value.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4515,7 +5103,9 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "diversification",
+    "earnings-season",
     "equities",
+    "flows-and-fundamentals",
     "funds-and-etfs",
     "shares"
    ],
@@ -4733,6 +5323,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "asymmetry",
     "failure-modes",
     "ratings-failure"
    ],
@@ -4906,18 +5497,19 @@ window.MUDMAP = {
    "branch": "derivatives",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Leverage</strong> means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike.</p>\n<h2>Why people use it</h2>\n<ul>\n<li><strong>Bigger returns on limited money,</strong> such as buying a house with a mortgage.</li>\n<li><strong>Efficiency.</strong> A hedge or exposure can be set up without tying up the full value.</li>\n<li><strong>Low-risk assets made to earn more.</strong> Some strategies borrow to scale up steady positions. See <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is <strong>2×</strong> leverage.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Share price move</th>\n<th>Position</th>\n<th>Owed</th>\n<th>Your equity</th>\n<th>Change on your money</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Start</td>\n<td>20,000</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>—</td>\n</tr>\n<tr>\n<td>+25%</td>\n<td>25,000</td>\n<td>10,000</td>\n<td>15,000</td>\n<td><strong>+50%</strong></td>\n</tr>\n<tr>\n<td>−25%</td>\n<td>15,000</td>\n<td>10,000</td>\n<td>5,000</td>\n<td><strong>−50%</strong></td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>0</td>\n<td><strong>−100%</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>At 2×, a 50% fall wipes you out. At 3×, a fall of about <strong>33.3%</strong> does. At 10×, just <strong>10%</strong>. Interest on the loan is extra, and lenders usually close the position (a <strong>margin call</strong> or <strong>liquidation</strong>) before your equity reaches zero.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Forced selling.</strong> Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you.</li>\n<li><strong>Losses beyond your money.</strong> With some loans and derivatives, you can owe more than you put in.</li>\n<li><strong>Cascades.</strong> When many leveraged holders are forced to sell at once, their sales push prices down and force more sales.</li>\n<li><strong>Hidden leverage</strong> inside funds, products and companies you own.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — the leverage most households use.</li>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> and <a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — leverage built into the contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — what leverage magnifies.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — banks are leveraged too.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">With 4× leverage, roughly what fall in the asset wipes out your money?</p><details><summary>Show answer</summary><p>25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Leverage</strong> means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike.</p>\n<h2>Why people use it</h2>\n<ul>\n<li><strong>Bigger returns on limited money,</strong> such as buying a house with a mortgage.</li>\n<li><strong>Efficiency.</strong> A hedge or exposure can be set up without tying up the full value.</li>\n<li><strong>Low-risk assets made to earn more.</strong> Some strategies borrow to scale up steady positions. See <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is <strong>2×</strong> leverage.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Share price move</th>\n<th>Position</th>\n<th>Owed</th>\n<th>Your equity</th>\n<th>Change on your money</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Start</td>\n<td>20,000</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>—</td>\n</tr>\n<tr>\n<td>+25%</td>\n<td>25,000</td>\n<td>10,000</td>\n<td>15,000</td>\n<td><strong>+50%</strong></td>\n</tr>\n<tr>\n<td>−25%</td>\n<td>15,000</td>\n<td>10,000</td>\n<td>5,000</td>\n<td><strong>−50%</strong></td>\n</tr>\n<tr>\n<td>−50%</td>\n<td>10,000</td>\n<td>10,000</td>\n<td>0</td>\n<td><strong>−100%</strong></td>\n</tr>\n</tbody>\n</table></div>\n<p>At 2×, a 50% fall wipes you out. At 3×, a fall of about <strong>33.3%</strong> does. At 10×, just <strong>10%</strong>. Interest on the loan is extra, and lenders usually close the position (a <strong>margin call</strong> or <strong>liquidation</strong>) before your equity reaches zero.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Forced selling.</strong> Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you.</li>\n<li><strong>Losses beyond your money.</strong> With some loans and derivatives, you can owe more than you put in.</li>\n<li><strong>Cascades.</strong> When many leveraged holders are forced to sell at once, their sales push prices down and force more sales. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</li>\n<li><strong>Hidden leverage</strong> inside funds, products and companies you own.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/real-estate\" data-page=\"real-estate\">Real Estate</a> — the leverage most households use.</li>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> and <a class=\"wl\" href=\"#/map/p/perpetuals\" data-page=\"perpetuals\" data-adv=\"1\">Perpetual Futures</a> — leverage built into the contract.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — what leverage magnifies.</li>\n<li><a class=\"wl\" href=\"#/map/p/bank-capital-and-liquidity\" data-page=\"bank-capital-and-liquidity\">Bank Capital and Liquidity</a> — banks are leveraged too.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">With 4× leverage, roughly what fall in the asset wipes out your money?</p><details><summary>Show answer</summary><p>25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.</p></details></div>",
    "deep": "",
    "links": [
     "bank-capital-and-liquidity",
     "drawdown",
+    "forced-sellers",
     "futures",
     "perpetuals",
     "real-estate",
     "sharpe-ratio"
    ],
    "stub": false,
-   "text": "What it is Leverage means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike. Why people use it Bigger returns on limited money, such as buying a house with a mortgage. Efficiency. A hedge or exposure can be set up without tying up the full value. Low risk assets made to earn more. Some strategies borrow to scale up steady positions. See sharpe ratio. How it works Fictional example: you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is 2× leverage. Share price move Position Owed Your equity Change on your money Start 20,000 10,000 10,000 — +25% 25,000 10,000 15,000 +50% −25% 15,000 10,000 5,000 −50% −50% 10,000 10,000 0 −100% At 2×, a 50% fall wipes you out. At 3×, a fall of about 33.3% does. At 10×, just 10% . Interest on the loan is extra, and lenders usually close the position (a margin call or liquidation ) before your equity reaches zero. What goes wrong Forced selling. Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you. Losses beyond your money. With some loans and derivatives, you can owe more than you put in. Cascades. When many leveraged holders are forced to sell at once, their sales push prices down and force more sales. Hidden leverage inside funds, products and companies you own. Key rule: leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before. Connects to real estate — the leverage most households use. futures and perpetuals — leverage built into the contract. drawdown — what leverage magnifies. bank capital and liquidity — banks are leveraged too. Check yourself Q: With 4× leverage, roughly what fall in the asset wipes out your money? A: 25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.",
+   "text": "What it is Leverage means controlling a position larger than your own money, by borrowing or by using derivatives that need only a deposit. It multiplies gains and losses alike. Why people use it Bigger returns on limited money, such as buying a house with a mortgage. Efficiency. A hedge or exposure can be set up without tying up the full value. Low risk assets made to earn more. Some strategies borrow to scale up steady positions. See sharpe ratio. How it works Fictional example: you have 10,000 and borrow another 10,000 to buy 20,000 of shares. That is 2× leverage. Share price move Position Owed Your equity Change on your money Start 20,000 10,000 10,000 — +25% 25,000 10,000 15,000 +50% −25% 15,000 10,000 5,000 −50% −50% 10,000 10,000 0 −100% At 2×, a 50% fall wipes you out. At 3×, a fall of about 33.3% does. At 10×, just 10% . Interest on the loan is extra, and lenders usually close the position (a margin call or liquidation ) before your equity reaches zero. What goes wrong Forced selling. Leverage takes away the option to wait. A fall you could have sat through becomes a permanent loss when the lender sells for you. Losses beyond your money. With some loans and derivatives, you can owe more than you put in. Cascades. When many leveraged holders are forced to sell at once, their sales push prices down and force more sales. See forced sellers. Hidden leverage inside funds, products and companies you own. Key rule: leverage turns volatility into survival risk. Ask what fall would wipe you out, and whether that fall has happened before. Connects to real estate — the leverage most households use. futures and perpetuals — leverage built into the contract. drawdown — what leverage magnifies. bank capital and liquidity — banks are leveraged too. Check yourself Q: With 4× leverage, roughly what fall in the asset wipes out your money? A: 25%. You control four times your money, so a 25% fall on the position equals 100% of your equity.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -4935,19 +5527,26 @@ window.MUDMAP = {
     "leverage-why"
    ],
    "backlinks": [
+    "asymmetry",
     "brokers",
     "commodities",
     "common-mistakes",
+    "credit-cycle",
     "defi",
     "derivatives",
     "drawdown",
+    "forced-sellers",
     "futures",
+    "how-markets-move",
     "perpetuals",
     "portfolio",
     "position-sizing",
     "private-business",
     "real-estate",
+    "repo-market",
     "sharpe-ratio",
+    "short-selling",
+    "stability-breeds-instability",
     "swaps"
    ],
    "backlinksAdv": [
@@ -4990,15 +5589,16 @@ window.MUDMAP = {
    "branch": "money",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>\"Liquidity\" has two meanings in finance:</p>\n<ol>\n<li><strong>Market liquidity:</strong> how easily you can buy or sell an asset without moving its price.</li>\n<li><strong>System liquidity:</strong> how much money is available in the financial system to buy assets.</li>\n</ol>\n<p>This page is about the second. It is driven mainly by central banks and governments.</p>\n<h2>Why it matters</h2>\n<p>When more money is chasing the same assets, prices tend to rise, especially for riskier assets such as growth shares and crypto. When money drains out of the system, the riskiest assets usually fall first and hardest. This is a big part of why crypto has often moved with high-growth tech shares. See <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a>.</p>\n<h2>How it is measured</h2>\n<p>A common market proxy for US dollar liquidity, often called <strong>net liquidity</strong>:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>What it is</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Central bank balance sheet</td>\n<td>Assets bought with newly created reserves</td>\n<td>Bigger = more money in the system</td>\n</tr>\n<tr>\n<td>Treasury General Account (TGA)</td>\n<td>The government's cash account at the central bank</td>\n<td>Money parked here is out of the system</td>\n</tr>\n<tr>\n<td>Reverse repo facility</td>\n<td>Cash that money market funds and other eligible firms park at the central bank overnight</td>\n<td>Money parked here is out of the system</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Net liquidity ≈ balance sheet − TGA − reverse repo</strong></p>\n<p>This is a rule of thumb used by market analysts, not an official measure.</p>\n<h2>What moves it</h2>\n<ul>\n<li>Asset purchases and run-offs by the central bank. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a>.</li>\n<li>Government tax receipts and spending, which move cash in and out of the TGA.</li>\n<li>Money funds shifting between the reverse repo facility and other short-term assets such as <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> liquidity explains a lot of what moves across many assets at once, but not why any single asset is worth what it is.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The government collects a large tax payment and its TGA balance rises. What happens to net liquidity?</p><details><summary>Show answer</summary><p>It falls. Money moves out of bank deposits into the government's account at the central bank, where it is out of the system.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>\"Liquidity\" has two meanings in finance:</p>\n<ol>\n<li><strong>Market liquidity:</strong> how easily you can buy or sell an asset without moving its price.</li>\n<li><strong>System liquidity:</strong> how much money is available in the financial system to buy assets.</li>\n</ol>\n<p>This page is about the second. It is driven mainly by central banks and governments.</p>\n<h2>Why it matters</h2>\n<p>When more money is chasing the same assets, prices tend to rise, especially for riskier assets such as growth shares and crypto. When money drains out of the system, the riskiest assets usually fall first and hardest. This is a big part of why crypto has often moved with high-growth tech shares. See <a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a>.</p>\n<h2>How it is measured</h2>\n<p>A common market proxy for US dollar liquidity, often called <strong>net liquidity</strong>:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Part</th>\n<th>What it is</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Central bank balance sheet</td>\n<td>Assets bought with newly created reserves</td>\n<td>Bigger = more money in the system</td>\n</tr>\n<tr>\n<td>Treasury General Account (TGA)</td>\n<td>The government's cash account at the central bank</td>\n<td>Money parked here is out of the system</td>\n</tr>\n<tr>\n<td>Reverse repo facility</td>\n<td>Cash that money market funds and other eligible firms park at the central bank overnight</td>\n<td>Money parked here is out of the system</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Net liquidity ≈ balance sheet − TGA − reverse repo</strong></p>\n<p>This is a rule of thumb used by market analysts, not an official measure.</p>\n<h2>What moves it</h2>\n<ul>\n<li>Asset purchases and run-offs by the central bank. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a>.</li>\n<li>Government tax receipts and spending, which move cash in and out of the TGA.</li>\n<li>Money funds shifting between the reverse repo facility and other short-term assets such as <a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a>. See <a class=\"wl\" href=\"#/map/p/repo-market\" data-page=\"repo-market\">The Repo Market</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> liquidity explains a lot of what moves across many assets at once, but not why any single asset is worth what it is.</p>\n</blockquote>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The government collects a large tax payment and its TGA balance rises. What happens to net liquidity?</p><details><summary>Show answer</summary><p>It falls. Money moves out of bank deposits into the government's account at the central bank, where it is out of the system.</p></details></div>",
    "deep": "",
    "links": [
     "central-bank-money",
     "market-regimes",
+    "repo-market",
     "t-bills"
    ],
    "stub": false,
-   "text": "What it is \"Liquidity\" has two meanings in finance: 1. Market liquidity: how easily you can buy or sell an asset without moving its price. 2. System liquidity: how much money is available in the financial system to buy assets. This page is about the second. It is driven mainly by central banks and governments. Why it matters When more money is chasing the same assets, prices tend to rise, especially for riskier assets such as growth shares and crypto. When money drains out of the system, the riskiest assets usually fall first and hardest. This is a big part of why crypto has often moved with high growth tech shares. See market regimes. How it is measured A common market proxy for US dollar liquidity, often called net liquidity : Part What it is Effect Central bank balance sheet Assets bought with newly created reserves Bigger = more money in the system Treasury General Account (TGA) The government's cash account at the central bank Money parked here is out of the system Reverse repo facility Cash that money market funds and other eligible firms park at the central bank overnight Money parked here is out of the system Net liquidity ≈ balance sheet − TGA − reverse repo This is a rule of thumb used by market analysts, not an official measure. What moves it Asset purchases and run offs by the central bank. See central bank money. Government tax receipts and spending, which move cash in and out of the TGA. Money funds shifting between the reverse repo facility and other short term assets such as t bills. Key rule: liquidity explains a lot of what moves across many assets at once, but not why any single asset is worth what it is. Check yourself Q: The government collects a large tax payment and its TGA balance rises. What happens to net liquidity? A: It falls. Money moves out of bank deposits into the government's account at the central bank, where it is out of the system.",
+   "text": "What it is \"Liquidity\" has two meanings in finance: 1. Market liquidity: how easily you can buy or sell an asset without moving its price. 2. System liquidity: how much money is available in the financial system to buy assets. This page is about the second. It is driven mainly by central banks and governments. Why it matters When more money is chasing the same assets, prices tend to rise, especially for riskier assets such as growth shares and crypto. When money drains out of the system, the riskiest assets usually fall first and hardest. This is a big part of why crypto has often moved with high growth tech shares. See market regimes. How it is measured A common market proxy for US dollar liquidity, often called net liquidity : Part What it is Effect Central bank balance sheet Assets bought with newly created reserves Bigger = more money in the system Treasury General Account (TGA) The government's cash account at the central bank Money parked here is out of the system Reverse repo facility Cash that money market funds and other eligible firms park at the central bank overnight Money parked here is out of the system Net liquidity ≈ balance sheet − TGA − reverse repo This is a rule of thumb used by market analysts, not an official measure. What moves it Asset purchases and run offs by the central bank. See central bank money. Government tax receipts and spending, which move cash in and out of the TGA. Money funds shifting between the reverse repo facility and other short term assets such as t bills. See repo market. Key rule: liquidity explains a lot of what moves across many assets at once, but not why any single asset is worth what it is. Check yourself Q: The government collects a large tax payment and its TGA balance rises. What happens to net liquidity? A: It falls. Money moves out of bank deposits into the government's account at the central bank, where it is out of the system.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -5027,6 +5627,9 @@ window.MUDMAP = {
     "exchanges",
     "flow:a-stablecoin-run",
     "flow:qe-and-qt",
+    "flows-and-fundamentals",
+    "forced-sellers",
+    "how-markets-move",
     "market-failure",
     "market-making",
     "market-regimes",
@@ -5035,6 +5638,7 @@ window.MUDMAP = {
     "money",
     "portfolio",
     "real-assets",
+    "repo-market",
     "sound-money"
    ],
    "backlinksAdv": []
@@ -5105,7 +5709,9 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "failure-modes",
-    "market-making"
+    "forced-sellers",
+    "market-making",
+    "stability-breeds-instability"
    ],
    "backlinksAdv": []
   },
@@ -5178,8 +5784,12 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "exchanges",
+    "flows-and-fundamentals",
+    "forced-sellers",
+    "how-markets-move",
     "market-failure",
-    "markets"
+    "markets",
+    "repo-market"
    ],
    "backlinksAdv": []
   },
@@ -5216,18 +5826,20 @@ window.MUDMAP = {
    "branch": "portfolio",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>market regime</strong> is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change.</p>\n<h2>Why it matters</h2>\n<p>Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives.</p>\n<h2>How it works</h2>\n<p><strong>Risk-on and risk-off.</strong> The simplest split:</p>\n<ul>\n<li><strong>Risk-on:</strong> money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together.</li>\n<li><strong>Risk-off:</strong> fear dominates, investors sell risky assets and buy safe ones (cash, short-term government debt), and many risky assets fall together.</li>\n</ul>\n<p><strong>Liquidity drives the switch.</strong> When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> and <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a>.</p>\n<p><strong>Growth and inflation.</strong> A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling?</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Inflation falling</th>\n<th>Inflation rising</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Growth rising</strong></td>\n<td>Usually good for shares</td>\n<td>Often good for commodities and real assets</td>\n</tr>\n<tr>\n<td><strong>Growth falling</strong></td>\n<td>Often good for government bonds</td>\n<td>Hard for shares and bonds alike</td>\n</tr>\n</tbody>\n</table></div>\n<p>The bottom-right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Assuming the last regime will last.</strong> A portfolio built on decades of falling interest rates can struggle when rates rise.</li>\n<li><strong>Trying to time every switch.</strong> Regimes are clearer in hindsight; frequent switching costs money and is often late.</li>\n<li><strong>One-regime portfolios.</strong> A mix that only works when inflation is low is a single bet on inflation.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> you don't need to predict the next regime. Hold a mix that can survive each of them.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the relationships that change between regimes.</li>\n<li><a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — often watched as a sign of a coming slowdown.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> and <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the main drivers.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — what tends to hold up when inflation rises.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can shares and government bonds fall together when inflation rises?</p><details><summary>Show answer</summary><p>Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>market regime</strong> is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change.</p>\n<h2>Why it matters</h2>\n<p>Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives.</p>\n<h2>How it works</h2>\n<p><strong>Risk-on and risk-off.</strong> The simplest split:</p>\n<ul>\n<li><strong>Risk-on:</strong> money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together.</li>\n<li><strong>Risk-off:</strong> fear dominates, investors sell risky assets and buy safe ones (cash, short-term government debt), and many risky assets fall together.</li>\n</ul>\n<p><strong>Liquidity drives the switch.</strong> When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> and <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a>.</p>\n<p><strong>Growth and inflation.</strong> A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling?</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Inflation falling</th>\n<th>Inflation rising</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Growth rising</strong></td>\n<td>Usually good for shares</td>\n<td>Often good for commodities and real assets</td>\n</tr>\n<tr>\n<td><strong>Growth falling</strong></td>\n<td>Often good for government bonds</td>\n<td>Hard for shares and bonds alike</td>\n</tr>\n</tbody>\n</table></div>\n<p>The bottom-right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Assuming the last regime will last.</strong> A portfolio built on decades of falling interest rates can struggle when rates rise.</li>\n<li><strong>Trying to time every switch.</strong> Regimes are clearer in hindsight; frequent switching costs money and is often late.</li>\n<li><strong>One-regime portfolios.</strong> A mix that only works when inflation is low is a single bet on inflation.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> you don't need to predict the next regime. Hold a mix that can survive each of them.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the relationships that change between regimes.</li>\n<li><a class=\"wl\" href=\"#/map/p/yield-curve\" data-page=\"yield-curve\">The Yield Curve</a> — often watched as a sign of a coming slowdown.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> and <a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the main drivers.</li>\n<li><a class=\"wl\" href=\"#/map/p/real-assets\" data-page=\"real-assets\">Real Assets</a> — what tends to hold up when inflation rises.</li>\n<li><a class=\"wl\" href=\"#/map/p/business-cycle\" data-page=\"business-cycle\">The Business Cycle</a> and <a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a> — the rhythms that move markets between regimes.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can shares and government bonds fall together when inflation rises?</p><details><summary>Show answer</summary><p>Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.</p></details></div>",
    "deep": "",
    "links": [
+    "business-cycle",
     "central-bank-money",
     "correlation",
+    "credit-cycle",
     "inflation",
     "liquidity",
     "real-assets",
     "yield-curve"
    ],
    "stub": false,
-   "text": "What it is A market regime is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change. Why it matters Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives. How it works Risk on and risk off. The simplest split: Risk on: money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together. Risk off: fear dominates, investors sell risky assets and buy safe ones (cash, short term government debt), and many risky assets fall together. Liquidity drives the switch. When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See central bank money and liquidity. Growth and inflation. A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling? Inflation falling Inflation rising Growth rising Usually good for shares Often good for commodities and real assets Growth falling Often good for government bonds Hard for shares and bonds alike The bottom right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together. What goes wrong Assuming the last regime will last. A portfolio built on decades of falling interest rates can struggle when rates rise. Trying to time every switch. Regimes are clearer in hindsight; frequent switching costs money and is often late. One regime portfolios. A mix that only works when inflation is low is a single bet on inflation. Key rule: you don't need to predict the next regime. Hold a mix that can survive each of them. Connects to correlation — the relationships that change between regimes. yield curve — often watched as a sign of a coming slowdown. inflation and central bank money — the main drivers. real assets — what tends to hold up when inflation rises. Check yourself Q: Why can shares and government bonds fall together when inflation rises? A: Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.",
+   "text": "What it is A market regime is a period in which the economy and markets behave in a recognisable way, and assets respond to the same few forces. The same portfolio can feel safe in one regime and dangerous in the next, because the relationships between assets change. Why it matters Correlations, volatility and returns measured in one regime can mislead in another. Recognising which conditions you're in, and which you're not prepared for, is part of building a portfolio that survives. How it works Risk on and risk off. The simplest split: Risk on: money is easy to borrow, investors are confident, and shares, credit, crypto and other risky assets tend to rise together. Risk off: fear dominates, investors sell risky assets and buy safe ones (cash, short term government debt), and many risky assets fall together. Liquidity drives the switch. When central banks cut rates or buy assets, and credit is easy, there's more money looking for returns. When they raise rates or shrink their balance sheets, that money pulls back. See central bank money and liquidity. Growth and inflation. A common way to map regimes uses two questions: is growth rising or falling, and is inflation rising or falling? Inflation falling Inflation rising Growth rising Usually good for shares Often good for commodities and real assets Growth falling Often good for government bonds Hard for shares and bonds alike The bottom right corner, falling growth with rising inflation, is the one many portfolios are least ready for. 2022 came close to it: inflation surged, rates rose fast, and US shares and bonds fell together. What goes wrong Assuming the last regime will last. A portfolio built on decades of falling interest rates can struggle when rates rise. Trying to time every switch. Regimes are clearer in hindsight; frequent switching costs money and is often late. One regime portfolios. A mix that only works when inflation is low is a single bet on inflation. Key rule: you don't need to predict the next regime. Hold a mix that can survive each of them. Connects to correlation — the relationships that change between regimes. yield curve — often watched as a sign of a coming slowdown. inflation and central bank money — the main drivers. real assets — what tends to hold up when inflation rises. business cycle and credit cycle — the rhythms that move markets between regimes. Check yourself Q: Why can shares and government bonds fall together when inflation rises? A: Because rising inflation pushes interest rates up. Higher rates lower bond prices directly, and they also lower the value of companies' future profits, so shares fall too.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -5243,11 +5855,14 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "business-cycle",
     "capital-system",
     "charting",
     "correlation",
     "digital-assets",
     "drawdown",
+    "fear-gauges",
+    "how-markets-move",
     "liquidity",
     "monetary-policy",
     "money",
@@ -5288,7 +5903,7 @@ window.MUDMAP = {
    "branch": "markets",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Markets &amp; Plumbing</strong> covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a <strong>broker</strong> to an <strong>exchange</strong>, where it meets another order; the trade is <strong>settled</strong> when money and asset swap; and from then on the asset sits with a <strong>custodian</strong> on your behalf.</p>\n<h2>Why it exists</h2>\n<p>Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where buy and sell orders meet, and how prices are set.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a> — the dealers who stand ready to buy and sell, and why liquidity vanishes when they step back.</li>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — the firm that takes your orders and holds your account.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — how a trade becomes final, and the clearing house that guarantees it.</li>\n<li><a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — who actually holds the asset, and what you really own.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Step</th>\n<th>Who</th>\n<th>What can go wrong</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Order</td>\n<td>You → broker</td>\n<td>Poor prices, outages, restrictions</td>\n</tr>\n<tr>\n<td>Trade</td>\n<td>Exchange</td>\n<td>Thin markets, sudden crashes</td>\n</tr>\n<tr>\n<td>Settlement</td>\n<td>Clearing house</td>\n<td>Delays, failed deliveries</td>\n</tr>\n<tr>\n<td>Holding</td>\n<td>Custodian</td>\n<td>Misuse or loss of customer assets</td>\n</tr>\n</tbody>\n</table></div>\n<p>On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Intermediary failure.</strong> When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>Trading halts and restrictions.</strong> In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced.</li>\n<li><strong>Flash crashes.</strong> On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — what you own at the end of the chain is usually a claim.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the assets that travel along it.</li>\n<li><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — the crypto way of skipping most of the chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/deposit-insurance\" data-page=\"deposit-insurance\">Deposit Insurance</a> — the bank-account version of investor protection.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your shares are held through a broker. Name two links in the chain other than the broker.</p><details><summary>Show answer</summary><p>For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a broker restrict trading in a share even when the exchange is open?</p><details><summary>Show answer</summary><p>Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Markets &amp; Plumbing</strong> covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a <strong>broker</strong> to an <strong>exchange</strong>, where it meets another order; the trade is <strong>settled</strong> when money and asset swap; and from then on the asset sits with a <strong>custodian</strong> on your behalf.</p>\n<h2>Why it exists</h2>\n<p>Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/exchanges\" data-page=\"exchanges\">Exchanges</a> — where buy and sell orders meet, and how prices are set.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a> — the dealers who stand ready to buy and sell, and why liquidity vanishes when they step back.</li>\n<li><a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a> — the firm that takes your orders and holds your account.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — how a trade becomes final, and the clearing house that guarantees it.</li>\n<li><a class=\"wl\" href=\"#/map/p/custody\" data-page=\"custody\">Custody</a> — who actually holds the asset, and what you really own.</li>\n<li><a class=\"wl\" href=\"#/map/p/repo-market\" data-page=\"repo-market\">The Repo Market</a> — the overnight borrowing against safe bonds that funds much of the system.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Step</th>\n<th>Who</th>\n<th>What can go wrong</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Order</td>\n<td>You → broker</td>\n<td>Poor prices, outages, restrictions</td>\n</tr>\n<tr>\n<td>Trade</td>\n<td>Exchange</td>\n<td>Thin markets, sudden crashes</td>\n</tr>\n<tr>\n<td>Settlement</td>\n<td>Clearing house</td>\n<td>Delays, failed deliveries</td>\n</tr>\n<tr>\n<td>Holding</td>\n<td>Custodian</td>\n<td>Misuse or loss of customer assets</td>\n</tr>\n</tbody>\n</table></div>\n<p>On the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Intermediary failure.</strong> When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See <a class=\"wl\" href=\"#/map/p/custodial-crypto\" data-page=\"custodial-crypto\">Custodial Crypto</a>.</li>\n<li><strong>Trading halts and restrictions.</strong> In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced.</li>\n<li><strong>Flash crashes.</strong> On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/claims-and-liabilities\" data-page=\"claims-and-liabilities\">Claims and Liabilities</a> — what you own at the end of the chain is usually a claim.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the assets that travel along it.</li>\n<li><a class=\"wl\" href=\"#/map/p/self-custody\" data-page=\"self-custody\">Self-Custody</a> — the crypto way of skipping most of the chain.</li>\n<li><a class=\"wl\" href=\"#/map/p/deposit-insurance\" data-page=\"deposit-insurance\">Deposit Insurance</a> — the bank-account version of investor protection.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Your shares are held through a broker. Name two links in the chain other than the broker.</p><details><summary>Show answer</summary><p>For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a broker restrict trading in a share even when the exchange is open?</p><details><summary>Show answer</summary><p>Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Central securities depositories</strong> hold the master record of who owns which securities, usually in electronic form; brokers and custodians hold their customers' shares through accounts there.</li>\n<li><strong>Dark pools</strong> are private trading venues where large orders are matched without being shown publicly first.</li>\n</ul></section>",
    "links": [
     "bonds",
@@ -5300,19 +5915,21 @@ window.MUDMAP = {
     "deposit-insurance",
     "exchanges",
     "market-making",
+    "repo-market",
     "self-custody",
     "settlement",
     "shares"
    ],
    "stub": false,
-   "text": "What it is Markets & Plumbing covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a broker to an exchange , where it meets another order; the trade is settled when money and asset swap; and from then on the asset sits with a custodian on your behalf. Why it exists Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain. How it works exchanges — where buy and sell orders meet, and how prices are set. market making — the dealers who stand ready to buy and sell, and why liquidity vanishes when they step back. brokers — the firm that takes your orders and holds your account. settlement — how a trade becomes final, and the clearing house that guarantees it. custody — who actually holds the asset, and what you really own. Step Who What can go wrong Order You → broker Poor prices, outages, restrictions Trade Exchange Thin markets, sudden crashes Settlement Clearing house Delays, failed deliveries Holding Custodian Misuse or loss of customer assets On the Cartography of Wealth, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on. What goes wrong Intermediary failure. When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See custodial crypto. Trading halts and restrictions. In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced. Flash crashes. On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon. Key rule: every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails. Connects to claims and liabilities — what you own at the end of the chain is usually a claim. shares and bonds — the assets that travel along it. self custody — the crypto way of skipping most of the chain. deposit insurance — the bank account version of investor protection. Check yourself Q: Your shares are held through a broker. Name two links in the chain other than the broker. A: For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership. Q: Why can a broker restrict trading in a share even when the exchange is open? A: Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.",
+   "text": "What it is Markets & Plumbing covers how assets actually change hands, and who holds them afterwards. Every trade runs along the same chain: an order goes through a broker to an exchange , where it meets another order; the trade is settled when money and asset swap; and from then on the asset sits with a custodian on your behalf. Why it exists Most of the time this plumbing is invisible, which is the point: it lets millions of strangers trade safely without knowing or trusting each other. It matters when it breaks. Many of the worst losses in finance came not from a bad investment but from a broker, custodian or counterparty failing in the middle of the chain. How it works exchanges — where buy and sell orders meet, and how prices are set. market making — the dealers who stand ready to buy and sell, and why liquidity vanishes when they step back. brokers — the firm that takes your orders and holds your account. settlement — how a trade becomes final, and the clearing house that guarantees it. custody — who actually holds the asset, and what you really own. repo market — the overnight borrowing against safe bonds that funds much of the system. Step Who What can go wrong Order You → broker Poor prices, outages, restrictions Trade Exchange Thin markets, sudden crashes Settlement Clearing house Delays, failed deliveries Holding Custodian Misuse or loss of customer assets On the Cartography of Wealth, this chain is why tier 3 assets are \"legible\": each step keeps a record, and each step is an intermediary you depend on. What goes wrong Intermediary failure. When a firm in the chain fails, customers find out how well their assets were kept apart. FTX is the crypto example. See custodial crypto. Trading halts and restrictions. In January 2021 the US broker Robinhood limited buying of GameStop shares after its clearing house demanded a deposit of about $3 billion, later reduced. Flash crashes. On 6 May 2010 the Dow Jones index fell about 9%, most of it within minutes, then recovered much of the loss the same afternoon. Key rule: every asset you don't hold yourself sits at the end of a chain of firms. Know the chain, and how your assets are protected if one link fails. Connects to claims and liabilities — what you own at the end of the chain is usually a claim. shares and bonds — the assets that travel along it. self custody — the crypto way of skipping most of the chain. deposit insurance — the bank account version of investor protection. Check yourself Q: Your shares are held through a broker. Name two links in the chain other than the broker. A: For example, the exchange where the trade happened and the clearing house that settled it. A custodian bank or central securities depository holds the record of ownership. Q: Why can a broker restrict trading in a share even when the exchange is open? A: Because the broker has to post collateral with the clearing house for its customers' trades. If that requirement jumps, the broker may limit trading until it can meet it.",
    "textDeep": "Going deeper Central securities depositories hold the master record of who owns which securities, usually in electronic form; brokers and custodians hold their customers' shares through accounts there. Dark pools are private trading venues where large orders are matched without being shown publicly first.",
    "children": [
     "exchanges",
     "market-making",
     "brokers",
     "custody",
-    "settlement"
+    "settlement",
+    "repo-market"
    ],
    "jobs": [],
    "quals": [],
@@ -5540,11 +6157,15 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "business-cycle",
     "central-bank-money",
     "flow:qe-and-qt",
+    "how-markets-move",
     "inflation",
     "market-making",
     "money",
+    "priced-in",
+    "repo-market",
     "yield-curve"
    ],
    "backlinksAdv": []
@@ -5603,6 +6224,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "bank-deposits",
+    "credit-cycle",
     "flow:where-money-comes-from",
     "inflation",
     "market-making",
@@ -5935,15 +6557,17 @@ window.MUDMAP = {
    "branch": "derivatives",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>An <strong>option</strong> gives its buyer the right, but not the duty, to buy or sell something at a set price (the <strong>strike</strong>) on or before a set date. The buyer pays the seller a price for that right, called the <strong>premium</strong>.</p>\n<ul>\n<li>A <strong>call</strong> is the right to buy.</li>\n<li>A <strong>put</strong> is the right to sell.</li>\n</ul>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Insurance.</strong> A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike.</li>\n<li><strong>Limited-loss bets.</strong> A call lets you profit from a rise while risking only the premium.</li>\n<li><strong>Income.</strong> Sellers collect premiums in return for taking on the risk.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example: a call option</strong> with a strike of 100, bought for a premium of 5.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Price at expiry</th>\n<th>Exercise?</th>\n<th>Profit or loss for the buyer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>90</td>\n<td>No, buying at 100 would be worse</td>\n<td>−5 (the premium)</td>\n</tr>\n<tr>\n<td>105</td>\n<td>Yes</td>\n<td>0 (break-even)</td>\n</tr>\n<tr>\n<td>120</td>\n<td>Yes</td>\n<td>+15</td>\n</tr>\n</tbody>\n</table></div>\n<p>The buyer's loss is capped at 5; the gain grows with the price. The <strong>seller</strong> has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises.</p>\n<p><strong>What sets the premium:</strong> how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (<a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>). More expected movement means a higher premium.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Time decay.</strong> An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless.</li>\n<li><strong>Sellers' hidden risk.</strong> Selling options pays a small, steady income and can then lose heavily in a sharp move.</li>\n<li><strong>Paying for fear.</strong> In a panic, insurance gets expensive just when people want it most.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an option buyer risks the premium; an option seller risks the move. Know which side you're on.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — the contract with obligations on both sides.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the main driver of an option's price.</li>\n<li><a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — why option-selling strategies can look safer than they are.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium?</p><details><summary>Show answer</summary><p>45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>An <strong>option</strong> gives its buyer the right, but not the duty, to buy or sell something at a set price (the <strong>strike</strong>) on or before a set date. The buyer pays the seller a price for that right, called the <strong>premium</strong>.</p>\n<ul>\n<li>A <strong>call</strong> is the right to buy.</li>\n<li>A <strong>put</strong> is the right to sell.</li>\n</ul>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Insurance.</strong> A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike.</li>\n<li><strong>Limited-loss bets.</strong> A call lets you profit from a rise while risking only the premium.</li>\n<li><strong>Income.</strong> Sellers collect premiums in return for taking on the risk.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example: a call option</strong> with a strike of 100, bought for a premium of 5.</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Price at expiry</th>\n<th>Exercise?</th>\n<th>Profit or loss for the buyer</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>90</td>\n<td>No, buying at 100 would be worse</td>\n<td>−5 (the premium)</td>\n</tr>\n<tr>\n<td>105</td>\n<td>Yes</td>\n<td>0 (break-even)</td>\n</tr>\n<tr>\n<td>120</td>\n<td>Yes</td>\n<td>+15</td>\n</tr>\n</tbody>\n</table></div>\n<p>The buyer's loss is capped at 5; the gain grows with the price. The <strong>seller</strong> has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises.</p>\n<p><strong>What sets the premium:</strong> how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (<a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>). More expected movement means a higher premium.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Time decay.</strong> An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless.</li>\n<li><strong>Sellers' hidden risk.</strong> Selling options pays a small, steady income and can then lose heavily in a sharp move.</li>\n<li><strong>Paying for fear.</strong> In a panic, insurance gets expensive just when people want it most. See <a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> and <a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> an option buyer risks the premium; an option seller risks the move. Know which side you're on.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> — the contract with obligations on both sides.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — the main driver of an option's price.</li>\n<li><a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — why option-selling strategies can look safer than they are.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium?</p><details><summary>Show answer</summary><p>45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.</p></details></div>",
    "deep": "",
    "links": [
+    "asymmetry",
+    "fear-gauges",
     "futures",
     "sharpe-ratio",
     "volatility"
    ],
    "stub": false,
-   "text": "What it is An option gives its buyer the right, but not the duty, to buy or sell something at a set price (the strike ) on or before a set date. The buyer pays the seller a price for that right, called the premium . A call is the right to buy. A put is the right to sell. Why it exists Insurance. A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike. Limited loss bets. A call lets you profit from a rise while risking only the premium. Income. Sellers collect premiums in return for taking on the risk. How it works Fictional example: a call option with a strike of 100, bought for a premium of 5. Price at expiry Exercise? Profit or loss for the buyer 90 No, buying at 100 would be worse −5 (the premium) 105 Yes 0 (break even) 120 Yes +15 The buyer's loss is capped at 5; the gain grows with the price. The seller has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises. What sets the premium: how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (volatility). More expected movement means a higher premium. What goes wrong Time decay. An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless. Sellers' hidden risk. Selling options pays a small, steady income and can then lose heavily in a sharp move. Paying for fear. In a panic, insurance gets expensive just when people want it most. Key rule: an option buyer risks the premium; an option seller risks the move. Know which side you're on. Connects to futures — the contract with obligations on both sides. volatility — the main driver of an option's price. sharpe ratio — why option selling strategies can look safer than they are. Check yourself Q: You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium? A: 45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.",
+   "text": "What it is An option gives its buyer the right, but not the duty, to buy or sell something at a set price (the strike ) on or before a set date. The buyer pays the seller a price for that right, called the premium . A call is the right to buy. A put is the right to sell. Why it exists Insurance. A put works like insurance on something you own: if the price falls below the strike, you can still sell at the strike. Limited loss bets. A call lets you profit from a rise while risking only the premium. Income. Sellers collect premiums in return for taking on the risk. How it works Fictional example: a call option with a strike of 100, bought for a premium of 5. Price at expiry Exercise? Profit or loss for the buyer 90 No, buying at 100 would be worse −5 (the premium) 105 Yes 0 (break even) 120 Yes +15 The buyer's loss is capped at 5; the gain grows with the price. The seller has the opposite position: their best case is keeping the 5, and their loss grows the further the price rises. What sets the premium: how far the current price is from the strike, how long until expiry, interest rates and, above all, how much the price is expected to swing (volatility). More expected movement means a higher premium. What goes wrong Time decay. An option loses value as expiry nears if the price doesn't move. Most bought options expire worthless. Sellers' hidden risk. Selling options pays a small, steady income and can then lose heavily in a sharp move. Paying for fear. In a panic, insurance gets expensive just when people want it most. See fear gauges and asymmetry. Key rule: an option buyer risks the premium; an option seller risks the move. Know which side you're on. Connects to futures — the contract with obligations on both sides. volatility — the main driver of an option's price. sharpe ratio — why option selling strategies can look safer than they are. Check yourself Q: You own a share at 50 and buy a put with a strike of 45 for a premium of 2. The share falls to 30. What is the lowest your position can be worth, per share, before counting the premium? A: 45. The put lets you sell at 45 however far the price falls. After the 2 premium, your worst outcome is 43.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -5955,10 +6579,13 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "asymmetry",
     "clearing-house-failure",
     "derivatives",
+    "fear-gauges",
     "four-ways-to-earn",
-    "futures"
+    "futures",
+    "short-selling"
    ],
    "backlinksAdv": []
   },
@@ -6111,10 +6738,11 @@ window.MUDMAP = {
    "branch": "portfolio",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A <strong>portfolio</strong> is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\"</p>\n<p>The main idea of this branch is the one at the centre of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: <strong>the enemy is correlation, not risk.</strong> Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once.</p>\n<h2>Why it exists</h2>\n<p>Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — spreading across assets that don't fail together, and the risk that can't be spread away.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the number that measures how closely two assets move, and why it rises in a crisis.</li>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — how much to put in any one holding so that being wrong is survivable.</li>\n<li><a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a> — bringing the mix back to target as prices move.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why the same mix behaves very differently in different conditions.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Page</th>\n<th>Rule of thumb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What should I own?</td>\n<td>Asset allocation</td>\n<td>Match the mix to when you need the money</td>\n</tr>\n<tr>\n<td>How much of each?</td>\n<td>Position sizing</td>\n<td>No single loss you can't recover from</td>\n</tr>\n<tr>\n<td>Do they fail together?</td>\n<td>Correlation</td>\n<td>Check what happens in a crisis, not on average</td>\n</tr>\n<tr>\n<td>What now prices have moved?</td>\n<td>Rebalancing</td>\n<td>Sell some of what rose, buy some of what fell</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>False diversification.</strong> Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy.</li>\n<li><strong>Correlations jump in a crisis.</strong> Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall.</li>\n<li><strong>Concentration by accident.</strong> A winning holding grows until it dominates, unless you rebalance.</li>\n<li><strong>Too much leverage.</strong> Borrowing turns a survivable fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> judge every holding by what it does to the whole, and ask what single event could hit everything you own.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off a portfolio is built around.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>, <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> and <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — how a portfolio's risk is measured.</li>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — your job and skills are part of your portfolio too.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what lets you hold on, or forces you to sell, in a crash.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own shares in five different banks in one country. Are you diversified?</p><details><summary>Show answer</summary><p>Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does a portfolio of two volatile assets sometimes swing less than either asset on its own?</p><details><summary>Show answer</summary><p>Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A <strong>portfolio</strong> is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\"</p>\n<p>The main idea of this branch is the one at the centre of the <a class=\"wl\" href=\"#/map/p/cartography-of-wealth\" data-page=\"cartography-of-wealth\">Cartography of Wealth</a>: <strong>the enemy is correlation, not risk.</strong> Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once.</p>\n<h2>Why it exists</h2>\n<p>Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> — spreading across assets that don't fail together, and the risk that can't be spread away.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the number that measures how closely two assets move, and why it rises in a crisis.</li>\n<li><a class=\"wl\" href=\"#/map/p/asset-allocation\" data-page=\"asset-allocation\">Asset Allocation</a> — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour.</li>\n<li><a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a> — how much to put in any one holding so that being wrong is survivable.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — what you can win against what you can lose, and why a high win rate can still lose money.</li>\n<li><a class=\"wl\" href=\"#/map/p/rebalancing\" data-page=\"rebalancing\">Rebalancing</a> — bringing the mix back to target as prices move.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-regimes\" data-page=\"market-regimes\">Market Regimes</a> — why the same mix behaves very differently in different conditions.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Question</th>\n<th>Page</th>\n<th>Rule of thumb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What should I own?</td>\n<td>Asset allocation</td>\n<td>Match the mix to when you need the money</td>\n</tr>\n<tr>\n<td>How much of each?</td>\n<td>Position sizing</td>\n<td>No single loss you can't recover from</td>\n</tr>\n<tr>\n<td>Do they fail together?</td>\n<td>Correlation</td>\n<td>Check what happens in a crisis, not on average</td>\n</tr>\n<tr>\n<td>What now prices have moved?</td>\n<td>Rebalancing</td>\n<td>Sell some of what rose, buy some of what fell</td>\n</tr>\n</tbody>\n</table></div>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>False diversification.</strong> Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy.</li>\n<li><strong>Correlations jump in a crisis.</strong> Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall.</li>\n<li><strong>Concentration by accident.</strong> A winning holding grows until it dominates, unless you rebalance.</li>\n<li><strong>Too much leverage.</strong> Borrowing turns a survivable fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> judge every holding by what it does to the whole, and ask what single event could hit everything you own.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-and-return\" data-page=\"risk-and-return\">Risk and Return</a> — the trade-off a portfolio is built around.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>, <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> and <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a> — how a portfolio's risk is measured.</li>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — your job and skills are part of your portfolio too.</li>\n<li><a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> — what lets you hold on, or forces you to sell, in a crash.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You own shares in five different banks in one country. Are you diversified?</p><details><summary>Show answer</summary><p>Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why does a portfolio of two volatile assets sometimes swing less than either asset on its own?</p><details><summary>Show answer</summary><p>Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Modern portfolio theory.</strong> Harry Markowitz showed in 1952 that investors should choose portfolios, not single assets, by the balance of expected return and risk of the whole. For any level of risk there is a mix with the highest expected return; the set of those mixes is called the <strong>efficient frontier</strong>.</li>\n<li><strong>Its limits.</strong> The theory needs estimates of returns, volatilities and correlations, and those estimates are unstable. Small changes in the inputs can produce very different \"optimal\" portfolios, which is why many investors use simple, robust mixes instead.</li>\n</ul></section>",
    "links": [
     "asset-allocation",
+    "asymmetry",
     "cartography-of-wealth",
     "correlation",
     "diversification",
@@ -6130,13 +6758,14 @@ window.MUDMAP = {
     "volatility"
    ],
    "stub": false,
-   "text": "What it is A portfolio is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\" The main idea of this branch is the one at the centre of the Cartography of Wealth: the enemy is correlation, not risk. Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once. Why it exists Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch. How it works diversification — spreading across assets that don't fail together, and the risk that can't be spread away. correlation — the number that measures how closely two assets move, and why it rises in a crisis. asset allocation — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour. position sizing — how much to put in any one holding so that being wrong is survivable. rebalancing — bringing the mix back to target as prices move. market regimes — why the same mix behaves very differently in different conditions. Question Page Rule of thumb What should I own? Asset allocation Match the mix to when you need the money How much of each? Position sizing No single loss you can't recover from Do they fail together? Correlation Check what happens in a crisis, not on average What now prices have moved? Rebalancing Sell some of what rose, buy some of what fell What goes wrong False diversification. Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy. Correlations jump in a crisis. Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall. Concentration by accident. A winning holding grows until it dominates, unless you rebalance. Too much leverage. Borrowing turns a survivable fall into a forced sale. See leverage. Key rule: judge every holding by what it does to the whole, and ask what single event could hit everything you own. Connects to risk and return — the trade off a portfolio is built around. volatility, drawdown and sharpe ratio — how a portfolio's risk is measured. personal capital — your job and skills are part of your portfolio too. liquidity — what lets you hold on, or forces you to sell, in a crash. Check yourself Q: You own shares in five different banks in one country. Are you diversified? A: Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together. Q: Why does a portfolio of two volatile assets sometimes swing less than either asset on its own? A: Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.",
+   "text": "What it is A portfolio is everything you hold, looked at together. Portfolio thinking asks a different question from picking investments: not \"is this asset good?\" but \"what does this asset do to the whole?\" The main idea of this branch is the one at the centre of the Cartography of Wealth: the enemy is correlation, not risk. Every store of wealth has something that can kill it. A portfolio survives when no single killer can hit everything at once. Why it exists Nobody knows which asset will do best next year. Putting everything into the best guess means one wrong guess can be fatal. Combining assets that fail for different reasons gives a steadier result than any one of them alone, often with little loss of return. This is the closest thing finance has to a free lunch. How it works diversification — spreading across assets that don't fail together, and the risk that can't be spread away. correlation — the number that measures how closely two assets move, and why it rises in a crisis. asset allocation — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour. position sizing — how much to put in any one holding so that being wrong is survivable. asymmetry — what you can win against what you can lose, and why a high win rate can still lose money. rebalancing — bringing the mix back to target as prices move. market regimes — why the same mix behaves very differently in different conditions. Question Page Rule of thumb What should I own? Asset allocation Match the mix to when you need the money How much of each? Position sizing No single loss you can't recover from Do they fail together? Correlation Check what happens in a crisis, not on average What now prices have moved? Rebalancing Sell some of what rose, buy some of what fell What goes wrong False diversification. Ten technology funds are one bet. So are shares, property and a job that all depend on the same local economy. Correlations jump in a crisis. Assets that moved independently in calm years can all fall together when everyone sells at once. In 2022, US shares fell about 18% and US bonds about 13% in the same year, a rare tandem fall. Concentration by accident. A winning holding grows until it dominates, unless you rebalance. Too much leverage. Borrowing turns a survivable fall into a forced sale. See leverage. Key rule: judge every holding by what it does to the whole, and ask what single event could hit everything you own. Connects to risk and return — the trade off a portfolio is built around. volatility, drawdown and sharpe ratio — how a portfolio's risk is measured. personal capital — your job and skills are part of your portfolio too. liquidity — what lets you hold on, or forces you to sell, in a crash. Check yourself Q: You own shares in five different banks in one country. Are you diversified? A: Only a little. They are different companies but share the same risks: the same economy, interest rates and regulator. A banking crisis would likely hit all five together. Q: Why does a portfolio of two volatile assets sometimes swing less than either asset on its own? A: Because when the assets don't move perfectly together, one's falls are partly offset by the other's rises. The lower their correlation, the more the swings cancel out.",
    "textDeep": "Going deeper Modern portfolio theory. Harry Markowitz showed in 1952 that investors should choose portfolios, not single assets, by the balance of expected return and risk of the whole. For any level of risk there is a mix with the highest expected return; the set of those mixes is called the efficient frontier . Its limits. The theory needs estimates of returns, volatilities and correlations, and those estimates are unstable. Small changes in the inputs can produce very different \"optimal\" portfolios, which is why many investors use simple, robust mixes instead.",
    "children": [
     "diversification",
     "correlation",
     "asset-allocation",
     "position-sizing",
+    "asymmetry",
     "rebalancing",
     "market-regimes"
    ],
@@ -6198,6 +6827,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "asymmetry",
     "common-mistakes",
     "drawdown",
     "measure",
@@ -6267,6 +6897,69 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "capital-system"
+   ],
+   "backlinksAdv": []
+  },
+  "priced-in": {
+   "id": "priced-in",
+   "title": "Priced In",
+   "short": "Priced In",
+   "parent": "how-markets-move",
+   "order": 4.0,
+   "summary": "Prices already reflect what people expect, so they move on surprises, which is why good news can make a price fall.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "priced in",
+    "expectations",
+    "surprise",
+    "buy the rumour sell the news",
+    "consensus"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "priced-in"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>When people say something is <strong>priced in</strong>, they mean the market already expected it, so the current price already reflects it. A price is a running bet on the future. By the time the news arrives, much of it has usually been bet on already.</p>\n<p>So prices don't move on whether news is good or bad. They move on whether it is <strong>better or worse than expected</strong>.</p>\n<h2>Why it matters</h2>\n<p>It explains the most confusing thing newcomers see: a company reports record profits and its shares fall; a central bank cuts rates and markets drop; a country announces a recession and shares rise. In each case the news was compared with what was already expected, and fell short or beat it.</p>\n<h2>How it works</h2>\n<p><strong>Expectations are measurable.</strong> Analysts publish forecasts, and the average forecast (the <strong>consensus</strong>) is what results are judged against. For interest rates, prices in the futures market show what traders expect the central bank to do. See <a class=\"wl\" href=\"#/map/p/futures\" data-page=\"futures\">Futures</a> and <a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a>.</p>\n<p><strong>Fictional example.</strong> A company's shares trade at 50. The market expects profit of 2.00 per share and values the company at 25 times its profit: 25 × 2.00 = 50.</p>\n<ul>\n<li>The company reports 1.80, and the market lowers its expectations to match. At the same multiple: 25 × 1.80 = <strong>45</strong>, a <strong>10%</strong> fall, even though the company made a healthy profit.</li>\n<li>If it had reported 2.20 and expectations rose to match: 25 × 2.20 = 55, a 10% rise.</li>\n</ul>\n<p>See <a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> for where the multiple comes from.</p>\n<p><strong>\"Buy the rumour, sell the news.\"</strong> Traders buy while good news is expected, pushing the price up. When the news finally arrives, there is no surprise left and no one new to buy, so the price can fall even though the news was good.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Reacting to headlines.</strong> By the time news reaches the public, professional traders have usually acted on it.</li>\n<li><strong>Crowded expectations.</strong> When everyone expects the same thing, the risk is in the surprise nobody prepared for.</li>\n<li><strong>Changing the yardstick.</strong> Expectations shift as news arrives, so a \"beat\" in the morning can look like a miss by the afternoon.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> don't ask \"is this news good?\" Ask \"was it better or worse than what was already expected?\"</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/earnings-season\" data-page=\"earnings-season\">Earnings Season</a> — where expectations are tested company by company.</li>\n<li><a class=\"wl\" href=\"#/map/p/business-cycle\" data-page=\"business-cycle\">The Business Cycle</a> — why markets turn before the economy.</li>\n<li><a class=\"wl\" href=\"#/map/p/valuation\" data-page=\"valuation\">Valuation</a> — how expectations become a price.</li>\n<li><a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> — expectations of how much prices will move.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A company's shares trade at 15 times expected profit of 4.00 per share. It reports 4.40, and the market raises its expectations to match while keeping the same multiple. What is the new price, and the change?</p><details><summary>Show answer</summary><p>15 × 4.00 = 60 before; 15 × 4.40 = <strong>66</strong> after, a rise of <strong>10%</strong>.</p></details></div>\n<div class=\"qa\"><p class=\"q\">A central bank cuts interest rates and shares fall the same day. How can that happen?</p><details><summary>Show answer</summary><p>The market may have expected a bigger cut, or read the cut as a sign the central bank sees trouble ahead. The price moved on the gap between the decision and what was priced in.</p></details></div>",
+   "deep": "",
+   "links": [
+    "business-cycle",
+    "earnings-season",
+    "fear-gauges",
+    "futures",
+    "monetary-policy",
+    "valuation"
+   ],
+   "stub": false,
+   "text": "What it is When people say something is priced in , they mean the market already expected it, so the current price already reflects it. A price is a running bet on the future. By the time the news arrives, much of it has usually been bet on already. So prices don't move on whether news is good or bad. They move on whether it is better or worse than expected . Why it matters It explains the most confusing thing newcomers see: a company reports record profits and its shares fall; a central bank cuts rates and markets drop; a country announces a recession and shares rise. In each case the news was compared with what was already expected, and fell short or beat it. How it works Expectations are measurable. Analysts publish forecasts, and the average forecast (the consensus ) is what results are judged against. For interest rates, prices in the futures market show what traders expect the central bank to do. See futures and monetary policy. Fictional example. A company's shares trade at 50. The market expects profit of 2.00 per share and values the company at 25 times its profit: 25 × 2.00 = 50. The company reports 1.80, and the market lowers its expectations to match. At the same multiple: 25 × 1.80 = 45 , a 10% fall, even though the company made a healthy profit. If it had reported 2.20 and expectations rose to match: 25 × 2.20 = 55, a 10% rise. See valuation for where the multiple comes from. \"Buy the rumour, sell the news.\" Traders buy while good news is expected, pushing the price up. When the news finally arrives, there is no surprise left and no one new to buy, so the price can fall even though the news was good. What goes wrong Reacting to headlines. By the time news reaches the public, professional traders have usually acted on it. Crowded expectations. When everyone expects the same thing, the risk is in the surprise nobody prepared for. Changing the yardstick. Expectations shift as news arrives, so a \"beat\" in the morning can look like a miss by the afternoon. Key rule: don't ask \"is this news good?\" Ask \"was it better or worse than what was already expected?\" Connects to earnings season — where expectations are tested company by company. business cycle — why markets turn before the economy. valuation — how expectations become a price. fear gauges — expectations of how much prices will move. Check yourself Q: A company's shares trade at 15 times expected profit of 4.00 per share. It reports 4.40, and the market raises its expectations to match while keeping the same multiple. What is the new price, and the change? A: 15 × 4.00 = 60 before; 15 × 4.40 = 66 after, a rise of 10% . Q: A central bank cuts interest rates and shares fall the same day. How can that happen? A: The market may have expected a bigger cut, or read the cut as a sign the central bank sees trouble ahead. The price moved on the gap between the decision and what was priced in.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "business-cycle",
+    "earnings-season",
+    "flows-and-fundamentals",
+    "how-markets-move",
+    "valuation"
    ],
    "backlinksAdv": []
   },
@@ -6651,6 +7344,7 @@ window.MUDMAP = {
     "cartography-of-wealth",
     "claims-and-liabilities",
     "confiscation",
+    "credit-cycle",
     "currency-failure",
     "financial-repression",
     "four-ways-to-earn",
@@ -6719,6 +7413,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "asset-allocation",
+    "flows-and-fundamentals",
     "portfolio",
     "position-sizing",
     "tax"
@@ -6792,6 +7487,81 @@ window.MUDMAP = {
     "funds-and-etfs",
     "real-assets",
     "real-estate"
+   ],
+   "backlinksAdv": []
+  },
+  "repo-market": {
+   "id": "repo-market",
+   "title": "The Repo Market",
+   "short": "Repo Market",
+   "parent": "markets",
+   "order": 5.0,
+   "summary": "The overnight borrowing against safe bonds that funds much of the financial system, and why a small change in its terms can force huge sales.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "repo",
+    "repurchase agreement",
+    "haircut",
+    "collateral",
+    "sofr",
+    "funding",
+    "plumbing"
+   ],
+   "sources": [
+    "Federal Reserve Bank of New York, Secured Overnight Financing Rate",
+    "Federal Reserve Bank of Richmond, Econ Focus (Q4 2019)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "markets",
+    "repo-market"
+   ],
+   "branch": "markets",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>A <strong>repo</strong>, short for repurchase agreement, is a loan dressed as a sale. One side sells a security, usually a government bond, and agrees to buy it back the next day, or after a few days, at a slightly higher price. The bond is the security for the loan; the price difference is the interest.</p>\n<p>The <strong>repo market</strong> is where these deals happen, in huge volume, every day. Dealers, banks, money market funds, hedge funds and central banks all use it.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Cheap, safe borrowing.</strong> Lending against government bonds is close to risk-free, so it's the cheapest way to borrow cash overnight.</li>\n<li><strong>A home for spare cash.</strong> Funds with cash to park can lend it overnight with a bond as security.</li>\n<li><strong>Funding the market.</strong> Dealers pay for the bonds they hold by borrowing against them here. See <a class=\"wl\" href=\"#/map/p/market-making\" data-page=\"market-making\">Dealers and Market Making</a>.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>The haircut.</strong> Lenders don't lend the full value of the bond. The gap is the <strong>haircut</strong>, and the borrower has to fund it with their own money.</p>\n<p><strong>Fictional example.</strong> A bond is worth 1,000,000.</p>\n<ul>\n<li>With a 2% haircut, you can borrow 980,000 against it and need only <strong>20,000</strong> of your own money. That's control of a position <strong>50 times</strong> your own money.</li>\n<li>If lenders raise the haircut to 10%, you can borrow only 900,000. You now need <strong>100,000</strong> of your own: you must find another <strong>80,000</strong> overnight, or sell.</li>\n</ul>\n<p>That is why repo is both the system's lubricant and one of its weak points. When lenders get nervous, they raise haircuts or stop lending, and borrowers who relied on rolling their loans every night must sell at once. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</p>\n<p><strong>A benchmark rate.</strong> In the US, the main overnight benchmark, SOFR, is the New York Fed's measure of the cost of borrowing cash overnight against Treasury securities. It is built from repo trades. See <a class=\"wl\" href=\"#/map/p/swaps\" data-page=\"swaps\">Swaps</a>.</p>\n<p><strong>When it strains.</strong> On 17 September 2019, the US overnight repo rate averaged 5.25% for the day, against 2.1% paid on bank reserves. Cash for lending had become scarce. See <a class=\"wl\" href=\"#/map/p/liquidity\" data-page=\"liquidity\">Liquidity</a> and the <em>QE and QT</em> flow.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Overnight funding for long positions.</strong> Borrowing for one day to hold assets for months only works while lenders keep rolling the loan.</li>\n<li><strong>Haircuts jump in a crisis,</strong> exactly when borrowers can least find the extra cash.</li>\n<li><strong>Hidden leverage.</strong> Small haircuts allow large positions built on very little of anyone's own money. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> repo turns safe bonds into cash overnight. That works until the lender stops lending, and then everyone who relied on it has to sell the same bonds at once.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/central-bank-money\" data-page=\"central-bank-money\">Central Bank Money</a> — the reserves that ultimately settle repo trades.</li>\n<li><a class=\"wl\" href=\"#/map/p/monetary-policy\" data-page=\"monetary-policy\">Monetary Policy</a> — central banks lend and borrow in repo to steer short-term rates.</li>\n<li><a class=\"wl\" href=\"#/map/p/t-bills\" data-page=\"t-bills\">Treasury Bills</a> and <a class=\"wl\" href=\"#/map/p/bonds\" data-page=\"bonds\">Bonds</a> — the securities used as collateral.</li>\n<li><a class=\"wl\" href=\"#/map/p/settlement\" data-page=\"settlement\">Settlement</a> — the plumbing the trades run on.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A bond worth 500,000 carries a 4% haircut. How much can you borrow, and how much of your own money is needed?</p><details><summary>Show answer</summary><p>You can borrow <strong>480,000</strong>, so you need <strong>20,000</strong> of your own money.</p></details></div>",
+   "deep": "",
+   "links": [
+    "bonds",
+    "central-bank-money",
+    "forced-sellers",
+    "leverage",
+    "liquidity",
+    "market-making",
+    "monetary-policy",
+    "settlement",
+    "swaps",
+    "t-bills"
+   ],
+   "stub": false,
+   "text": "What it is A repo , short for repurchase agreement, is a loan dressed as a sale. One side sells a security, usually a government bond, and agrees to buy it back the next day, or after a few days, at a slightly higher price. The bond is the security for the loan; the price difference is the interest. The repo market is where these deals happen, in huge volume, every day. Dealers, banks, money market funds, hedge funds and central banks all use it. Why it exists Cheap, safe borrowing. Lending against government bonds is close to risk free, so it's the cheapest way to borrow cash overnight. A home for spare cash. Funds with cash to park can lend it overnight with a bond as security. Funding the market. Dealers pay for the bonds they hold by borrowing against them here. See market making. How it works The haircut. Lenders don't lend the full value of the bond. The gap is the haircut , and the borrower has to fund it with their own money. Fictional example. A bond is worth 1,000,000. With a 2% haircut, you can borrow 980,000 against it and need only 20,000 of your own money. That's control of a position 50 times your own money. If lenders raise the haircut to 10%, you can borrow only 900,000. You now need 100,000 of your own: you must find another 80,000 overnight, or sell. That is why repo is both the system's lubricant and one of its weak points. When lenders get nervous, they raise haircuts or stop lending, and borrowers who relied on rolling their loans every night must sell at once. See forced sellers. A benchmark rate. In the US, the main overnight benchmark, SOFR, is the New York Fed's measure of the cost of borrowing cash overnight against Treasury securities. It is built from repo trades. See swaps. When it strains. On 17 September 2019, the US overnight repo rate averaged 5.25% for the day, against 2.1% paid on bank reserves. Cash for lending had become scarce. See liquidity and the QE and QT flow. What goes wrong Overnight funding for long positions. Borrowing for one day to hold assets for months only works while lenders keep rolling the loan. Haircuts jump in a crisis, exactly when borrowers can least find the extra cash. Hidden leverage. Small haircuts allow large positions built on very little of anyone's own money. See leverage. Key rule: repo turns safe bonds into cash overnight. That works until the lender stops lending, and then everyone who relied on it has to sell the same bonds at once. Connects to central bank money — the reserves that ultimately settle repo trades. monetary policy — central banks lend and borrow in repo to steer short term rates. t bills and bonds — the securities used as collateral. settlement — the plumbing the trades run on. Check yourself Q: A bond worth 500,000 carries a 4% haircut. How much can you borrow, and how much of your own money is needed? A: You can borrow 480,000 , so you need 20,000 of your own money.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [
+    {
+     "q": "money-banking",
+     "m": "MB2 — Banking as a clearing system"
+    }
+   ],
+   "answers": [],
+   "backlinks": [
+    "how-markets-move",
+    "liquidity",
+    "markets"
    ],
    "backlinksAdv": []
   },
@@ -6925,6 +7695,7 @@ window.MUDMAP = {
     "save-or-invest"
    ],
    "backlinks": [
+    "asymmetry",
     "compounding",
     "equities",
     "foundation",
@@ -7078,6 +7849,7 @@ window.MUDMAP = {
     "flow:how-a-trade-settles",
     "futures",
     "markets",
+    "repo-market",
     "shares",
     "swaps"
    ],
@@ -7177,6 +7949,7 @@ window.MUDMAP = {
     "clearing-house-failure",
     "confiscation",
     "currency-failure",
+    "earnings-season",
     "equities",
     "financial-repression",
     "flow:how-a-trade-settles",
@@ -7260,6 +8033,69 @@ window.MUDMAP = {
    "backlinksAdv": [
     "measure"
    ]
+  },
+  "short-selling": {
+   "id": "short-selling",
+   "title": "Short Selling and Squeezes",
+   "short": "Short Selling",
+   "parent": "how-markets-move",
+   "order": 9.0,
+   "summary": "Borrowing shares to sell them, hoping to buy them back cheaper, why markets allow it, and what happens when too many people bet the same way.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "short selling",
+    "shorting",
+    "short squeeze",
+    "short interest",
+    "gamestop"
+   ],
+   "sources": [
+    "SEC Staff Report on Equity and Options Market Structure Conditions in Early 2021 (October 2021)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "short-selling"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p><strong>Short selling</strong> is betting that a price will fall. The short seller borrows shares, sells them, and later buys them back to return to the lender. If the price has fallen, they keep the difference. If it has risen, they pay it.</p>\n<p><strong>A short squeeze</strong> is what can happen when a heavily shorted price rises: short sellers rush to buy back to limit their losses, and their buying pushes the price higher still.</p>\n<h2>Why it exists</h2>\n<ul>\n<li><strong>Price discovery.</strong> Without short sellers, only optimists' views would reach the price.</li>\n<li><strong>Hedging.</strong> A fund can protect against a fall in a market or sector it is exposed to.</li>\n<li><strong>Scrutiny.</strong> Short sellers have strong reasons to dig for overvalued companies, accounting problems and fraud.</li>\n</ul>\n<h2>How it works</h2>\n<p><strong>Fictional example.</strong> You borrow 100 shares and sell them at 40, receiving 4,000.</p>\n<ul>\n<li>The price falls to 30. You buy them back for 3,000 and return them: a gain of <strong>1,000</strong>, before the fee for borrowing them.</li>\n<li>The price rises to 60 instead. Buying back costs 6,000: a loss of <strong>2,000</strong>.</li>\n</ul>\n<p><strong>The losses are unlimited.</strong> A share can fall at most to zero, so a buyer's loss is capped. A price can rise without limit, so a short seller's loss isn't.</p>\n<p><strong>Short interest</strong> is the number of shares sold short, often shown as a share of the stock that is freely traded. High short interest means many people are betting the same way, and all of them will one day have to buy.</p>\n<p><strong>A real case: GameStop, January 2021.</strong> The US regulator's staff later reported that short interest in GameStop reached about 123% of its freely traded shares that month. The price rose more than 1,600% between closes on 11 and 27 January, and touched $483 on 28 January. The same report found that buying by short sellers covering their positions was a small part of the buying: enthusiasm from other buyers, not the squeeze itself, sustained most of the rise. Some brokers restricted buying during the frenzy. See <a class=\"wl\" href=\"#/map/p/brokers\" data-page=\"brokers\">Brokers</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Being right too early.</strong> A short seller can be right about a company and still be forced out by a rising price before it falls. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</li>\n<li><strong>Crowding.</strong> When many shorts pile into the same stock, the exit is narrow.</li>\n<li><strong>Simple stories.</strong> \"It was a short squeeze\" was the popular explanation for GameStop; the regulator's staff found a more mixed picture.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a short seller's loss has no ceiling. That's why crowded shorts can produce the most violent rises in the market.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/flows-and-fundamentals\" data-page=\"flows-and-fundamentals\">Flows and Fundamentals</a> — when short positions turn into buying.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — short positions are held with borrowed shares and collateral.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — the capped gain and open-ended loss of a short.</li>\n<li><a class=\"wl\" href=\"#/map/p/options\" data-page=\"options\">Options</a> — another way to bet on a fall, with the loss capped.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">You short 200 shares at 25. The price rises to 32 and you buy them back. What is your loss, before fees?</p><details><summary>Show answer</summary><p>You sold for 5,000 and bought back for 6,400, a loss of <strong>1,400</strong>.</p></details></div>",
+   "deep": "",
+   "links": [
+    "asymmetry",
+    "brokers",
+    "flows-and-fundamentals",
+    "forced-sellers",
+    "leverage",
+    "options"
+   ],
+   "stub": false,
+   "text": "What it is Short selling is betting that a price will fall. The short seller borrows shares, sells them, and later buys them back to return to the lender. If the price has fallen, they keep the difference. If it has risen, they pay it. A short squeeze is what can happen when a heavily shorted price rises: short sellers rush to buy back to limit their losses, and their buying pushes the price higher still. Why it exists Price discovery. Without short sellers, only optimists' views would reach the price. Hedging. A fund can protect against a fall in a market or sector it is exposed to. Scrutiny. Short sellers have strong reasons to dig for overvalued companies, accounting problems and fraud. How it works Fictional example. You borrow 100 shares and sell them at 40, receiving 4,000. The price falls to 30. You buy them back for 3,000 and return them: a gain of 1,000 , before the fee for borrowing them. The price rises to 60 instead. Buying back costs 6,000: a loss of 2,000 . The losses are unlimited. A share can fall at most to zero, so a buyer's loss is capped. A price can rise without limit, so a short seller's loss isn't. Short interest is the number of shares sold short, often shown as a share of the stock that is freely traded. High short interest means many people are betting the same way, and all of them will one day have to buy. A real case: GameStop, January 2021. The US regulator's staff later reported that short interest in GameStop reached about 123% of its freely traded shares that month. The price rose more than 1,600% between closes on 11 and 27 January, and touched $483 on 28 January. The same report found that buying by short sellers covering their positions was a small part of the buying: enthusiasm from other buyers, not the squeeze itself, sustained most of the rise. Some brokers restricted buying during the frenzy. See brokers. What goes wrong Being right too early. A short seller can be right about a company and still be forced out by a rising price before it falls. See forced sellers. Crowding. When many shorts pile into the same stock, the exit is narrow. Simple stories. \"It was a short squeeze\" was the popular explanation for GameStop; the regulator's staff found a more mixed picture. Key rule: a short seller's loss has no ceiling. That's why crowded shorts can produce the most violent rises in the market. Connects to flows and fundamentals — when short positions turn into buying. leverage — short positions are held with borrowed shares and collateral. asymmetry — the capped gain and open ended loss of a short. options — another way to bet on a fall, with the loss capped. Check yourself Q: You short 200 shares at 25. The price rises to 32 and you buy them back. What is your loss, before fees? A: You sold for 5,000 and bought back for 6,400, a loss of 1,400 .",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "asymmetry",
+    "flows-and-fundamentals",
+    "how-markets-move"
+   ],
+   "backlinksAdv": []
   },
   "smart-contract-platforms": {
    "id": "smart-contract-platforms",
@@ -7546,6 +8382,73 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "stability-breeds-instability": {
+   "id": "stability-breeds-instability",
+   "title": "Stability Breeds Instability",
+   "short": "Stability Breeds Instability",
+   "parent": "how-markets-move",
+   "order": 3.0,
+   "summary": "Hyman Minsky's idea that long calm periods encourage riskier borrowing, so the calm itself builds the next crisis.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "minsky",
+    "financial instability",
+    "leverage",
+    "calm",
+    "crisis",
+    "cycles"
+   ],
+   "sources": [
+    "Hyman P. Minsky, The Financial Instability Hypothesis (Levy Economics Institute Working Paper No. 74, May 1992)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "how-markets-move",
+    "stability-breeds-instability"
+   ],
+   "branch": "how-markets-move",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>The economist Hyman Minsky argued that a financial system doesn't just get hit by crises from outside. It walks into them. In a long stretch of good times, borrowers and lenders grow confident, borrow more, and take on debts that only work if the good times continue. The calm makes the system fragile. He set this out as the <strong>financial instability hypothesis</strong> in 1992.</p>\n<h2>Why it matters</h2>\n<p>It explains a pattern that otherwise looks strange: the biggest crashes tend to follow the longest, calmest booms, not the bumpy periods. And it warns that the moment risk feels lowest can be the moment it is highest.</p>\n<h2>How it works</h2>\n<p><strong>Three kinds of borrower.</strong> Minsky sorted borrowers by how they pay their debts. In plain terms:</p>\n<ul>\n<li><strong>Safe borrowers</strong> earn enough to pay both the interest and the debt itself.</li>\n<li><strong>Rollover borrowers</strong> earn enough for the interest, but need to borrow again to repay the debt when it falls due.</li>\n<li><strong>Bet-on-prices borrowers</strong> can't even cover the interest. They rely on the asset they bought rising in price.</li>\n</ul>\n<p><strong>The drift.</strong> In a long calm, lenders relax and prices rise, so the mix shifts from the first kind towards the second and third. Nothing breaks while prices rise and credit flows.</p>\n<p><strong>The turn.</strong> Then something small changes: rates rise, or one lender gets nervous. The third kind must sell, which pushes prices down, which turns the second kind into the third. The point where this tips is often called a <strong>Minsky moment</strong>.</p>\n<p><strong>Fictional example.</strong> Three borrowers each owe 100,000 at 6% interest, so each owes 6,000 a year in interest. One has 15,000 a year spare, one has 6,000, and one has 3,000.</p>\n<ul>\n<li>At 6%, the first pays the interest and 9,000 off the debt; the second just covers the interest; the third falls 3,000 short and relies on prices rising.</li>\n<li>If the rate rises to 8%, interest becomes 8,000. Now the second borrower is 2,000 short too.</li>\n</ul>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Calm read as safety.</strong> Risk measures built on recent history say risk is low exactly when borrowing is building. See <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a>.</li>\n<li><strong>Everyone tips together.</strong> The borrowers are linked through the same prices and lenders, so the fall spreads. See <a class=\"wl\" href=\"#/map/p/forced-sellers\" data-page=\"forced-sellers\">Forced Sellers</a>.</li>\n<li><strong>Rescues reset the clock.</strong> Each rescue shows that crises can be survived, which can encourage the next round of borrowing.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a long calm is not evidence of safety. Ask who has borrowed against the calm continuing, and what happens to them if it ends.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/credit-cycle\" data-page=\"credit-cycle\">The Credit Cycle</a> — the lending wave Minsky describes.</li>\n<li><a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a> — how borrowing turns a fall into a wipe-out.</li>\n<li><a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> — low readings can mean complacency, not safety.</li>\n<li><a class=\"wl\" href=\"#/map/p/market-failure\" data-page=\"market-failure\">Market Failure</a> — what the far end of the process looks like.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A borrower owes 100,000 and has 7,000 a year to spend on interest. At what interest rate do they stop covering it?</p><details><summary>Show answer</summary><p>Above <strong>7%</strong>: 7% of 100,000 is 7,000 a year. Any higher rate turns them from a rollover borrower into one betting on prices.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why can a long period of low volatility make a crash worse?</p><details><summary>Show answer</summary><p>Because calm encourages people to borrow more and hold riskier positions, and risk models built on the calm allow it. When prices finally move, more people are forced to sell at once.</p></details></div>",
+   "deep": "",
+   "links": [
+    "credit-cycle",
+    "fear-gauges",
+    "forced-sellers",
+    "leverage",
+    "market-failure",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is The economist Hyman Minsky argued that a financial system doesn't just get hit by crises from outside. It walks into them. In a long stretch of good times, borrowers and lenders grow confident, borrow more, and take on debts that only work if the good times continue. The calm makes the system fragile. He set this out as the financial instability hypothesis in 1992. Why it matters It explains a pattern that otherwise looks strange: the biggest crashes tend to follow the longest, calmest booms, not the bumpy periods. And it warns that the moment risk feels lowest can be the moment it is highest. How it works Three kinds of borrower. Minsky sorted borrowers by how they pay their debts. In plain terms: Safe borrowers earn enough to pay both the interest and the debt itself. Rollover borrowers earn enough for the interest, but need to borrow again to repay the debt when it falls due. Bet on prices borrowers can't even cover the interest. They rely on the asset they bought rising in price. The drift. In a long calm, lenders relax and prices rise, so the mix shifts from the first kind towards the second and third. Nothing breaks while prices rise and credit flows. The turn. Then something small changes: rates rise, or one lender gets nervous. The third kind must sell, which pushes prices down, which turns the second kind into the third. The point where this tips is often called a Minsky moment . Fictional example. Three borrowers each owe 100,000 at 6% interest, so each owes 6,000 a year in interest. One has 15,000 a year spare, one has 6,000, and one has 3,000. At 6%, the first pays the interest and 9,000 off the debt; the second just covers the interest; the third falls 3,000 short and relies on prices rising. If the rate rises to 8%, interest becomes 8,000. Now the second borrower is 2,000 short too. What goes wrong Calm read as safety. Risk measures built on recent history say risk is low exactly when borrowing is building. See volatility. Everyone tips together. The borrowers are linked through the same prices and lenders, so the fall spreads. See forced sellers. Rescues reset the clock. Each rescue shows that crises can be survived, which can encourage the next round of borrowing. Key rule: a long calm is not evidence of safety. Ask who has borrowed against the calm continuing, and what happens to them if it ends. Connects to credit cycle — the lending wave Minsky describes. leverage — how borrowing turns a fall into a wipe out. fear gauges — low readings can mean complacency, not safety. market failure — what the far end of the process looks like. Check yourself Q: A borrower owes 100,000 and has 7,000 a year to spend on interest. At what interest rate do they stop covering it? A: Above 7% : 7% of 100,000 is 7,000 a year. Any higher rate turns them from a rollover borrower into one betting on prices. Q: Why can a long period of low volatility make a crash worse? A: Because calm encourages people to borrow more and hold riskier positions, and risk models built on the calm allow it. When prices finally move, more people are forced to sell at once.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "asymmetry",
+    "business-cycle",
+    "credit-cycle",
+    "fear-gauges",
+    "forced-sellers",
+    "how-markets-move"
+   ],
+   "backlinksAdv": []
+  },
   "stablecoins": {
    "id": "stablecoins",
    "title": "Stablecoins",
@@ -7709,7 +8612,9 @@ window.MUDMAP = {
     "derivatives",
     "eurodollars",
     "exchange-rates",
-    "market-making"
+    "forced-sellers",
+    "market-making",
+    "repo-market"
    ],
    "backlinksAdv": [
     "eurodollars",
@@ -7782,6 +8687,7 @@ window.MUDMAP = {
     "monetary-policy",
     "money",
     "money-you-hold",
+    "repo-market",
     "risk-and-return",
     "sharpe-ratio",
     "stablecoins",
@@ -8019,16 +8925,17 @@ window.MUDMAP = {
    "branch": "equities",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Valuation</strong> is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches:</p>\n<ul>\n<li><strong>Intrinsic:</strong> value the cash the business will pay out in future, brought back to today. See <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a>.</li>\n<li><strong>Relative:</strong> compare the price with similar companies, using ratios such as price to earnings.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which.</p>\n<h2>How it works</h2>\n<p><strong>Intrinsic: the dividend growth model.</strong> If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is:</p>\n<blockquote>\n<p><strong>Value = next dividend ÷ (required return − growth)</strong> = 2.00 ÷ (0.08 − 0.03) = <strong>40.00</strong></p>\n</blockquote>\n<p>Small changes to the assumptions move the answer a lot:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Required return</th>\n<th>Growth</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>8%</td>\n<td>3%</td>\n<td>40.00</td>\n</tr>\n<tr>\n<td>8%</td>\n<td>4%</td>\n<td>50.00</td>\n</tr>\n<tr>\n<td>9%</td>\n<td>3%</td>\n<td>33.33</td>\n</tr>\n</tbody>\n</table></div>\n<p>One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a <strong>discounted cash flow</strong> (DCF) model.</p>\n<p><strong>Relative: price to earnings.</strong> If the share trades at 40 and the company earned 2.50 per share last year, its <strong>P/E ratio</strong> is 16: you pay 16 times one year's earnings. Flip it over and the <strong>earnings yield</strong> is 6.25%, which you can compare with bond yields.</p>\n<p>A high P/E means the market expects strong growth; a low one means it expects little, or sees risk.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Garbage in, garbage out.</strong> A valuation built on optimistic growth gives an optimistic answer.</li>\n<li><strong>Cheap for a reason.</strong> A low P/E can mean the company's earnings are about to fall.</li>\n<li><strong>Comparing unlike things.</strong> Ratios only work across similar companies, in similar conditions.</li>\n<li><strong>Rates change everything.</strong> When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a> — where the inputs come from.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the maths underneath intrinsic value.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what's being valued.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%?</p><details><summary>Show answer</summary><p>3.00 ÷ (0.08 − 0.02) = 50.00.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Valuation</strong> is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches:</p>\n<ul>\n<li><strong>Intrinsic:</strong> value the cash the business will pay out in future, brought back to today. See <a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a>.</li>\n<li><strong>Relative:</strong> compare the price with similar companies, using ratios such as price to earnings.</li>\n</ul>\n<h2>Why it exists</h2>\n<p>Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which.</p>\n<h2>How it works</h2>\n<p><strong>Intrinsic: the dividend growth model.</strong> If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is:</p>\n<blockquote>\n<p><strong>Value = next dividend ÷ (required return − growth)</strong> = 2.00 ÷ (0.08 − 0.03) = <strong>40.00</strong></p>\n</blockquote>\n<p>Small changes to the assumptions move the answer a lot:</p>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Required return</th>\n<th>Growth</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>8%</td>\n<td>3%</td>\n<td>40.00</td>\n</tr>\n<tr>\n<td>8%</td>\n<td>4%</td>\n<td>50.00</td>\n</tr>\n<tr>\n<td>9%</td>\n<td>3%</td>\n<td>33.33</td>\n</tr>\n</tbody>\n</table></div>\n<p>One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a <strong>discounted cash flow</strong> (DCF) model.</p>\n<p><strong>Relative: price to earnings.</strong> If the share trades at 40 and the company earned 2.50 per share last year, its <strong>P/E ratio</strong> is 16: you pay 16 times one year's earnings. Flip it over and the <strong>earnings yield</strong> is 6.25%, which you can compare with bond yields.</p>\n<p>A high P/E means the market expects strong growth; a low one means it expects little, or sees risk.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Garbage in, garbage out.</strong> A valuation built on optimistic growth gives an optimistic answer.</li>\n<li><strong>Cheap for a reason.</strong> A low P/E can mean the company's earnings are about to fall. Prices reflect what's expected; see <a class=\"wl\" href=\"#/map/p/priced-in\" data-page=\"priced-in\">Priced In</a>.</li>\n<li><strong>Comparing unlike things.</strong> Ratios only work across similar companies, in similar conditions.</li>\n<li><strong>Rates change everything.</strong> When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See <a class=\"wl\" href=\"#/map/p/bond-pricing\" data-page=\"bond-pricing\">Bond Prices and Yields</a>.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/financial-statements\" data-page=\"financial-statements\">Financial Statements</a> — where the inputs come from.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-value-of-money\" data-page=\"time-value-of-money\">Time Value of Money</a> — the maths underneath intrinsic value.</li>\n<li><a class=\"wl\" href=\"#/map/p/shares\" data-page=\"shares\">Shares</a> — what's being valued.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%?</p><details><summary>Show answer</summary><p>3.00 ÷ (0.08 − 0.02) = 50.00.</p></details></div>",
    "deep": "",
    "links": [
     "bond-pricing",
     "financial-statements",
+    "priced-in",
     "shares",
     "time-value-of-money"
    ],
    "stub": false,
-   "text": "What it is Valuation is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches: Intrinsic: value the cash the business will pay out in future, brought back to today. See time value of money. Relative: compare the price with similar companies, using ratios such as price to earnings. Why it exists Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which. How it works Intrinsic: the dividend growth model. If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is: Value = next dividend ÷ (required return − growth) = 2.00 ÷ (0.08 − 0.03) = 40.00 Small changes to the assumptions move the answer a lot: Required return Growth Value 8% 3% 40.00 8% 4% 50.00 9% 3% 33.33 One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a discounted cash flow (DCF) model. Relative: price to earnings. If the share trades at 40 and the company earned 2.50 per share last year, its P/E ratio is 16: you pay 16 times one year's earnings. Flip it over and the earnings yield is 6.25%, which you can compare with bond yields. A high P/E means the market expects strong growth; a low one means it expects little, or sees risk. What goes wrong Garbage in, garbage out. A valuation built on optimistic growth gives an optimistic answer. Cheap for a reason. A low P/E can mean the company's earnings are about to fall. Comparing unlike things. Ratios only work across similar companies, in similar conditions. Rates change everything. When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See bond pricing. Key rule: a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change. Connects to financial statements — where the inputs come from. time value of money — the maths underneath intrinsic value. shares — what's being valued. Check yourself Q: Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%? A: 3.00 ÷ (0.08 − 0.02) = 50.00.",
+   "text": "What it is Valuation is estimating what a share or a whole business is worth, so you can compare it with the price. There are two broad approaches: Intrinsic: value the cash the business will pay out in future, brought back to today. See time value of money. Relative: compare the price with similar companies, using ratios such as price to earnings. Why it exists Price is what you pay; value is what you get. A wonderful company bought at too high a price can still be a poor investment, and a dull one bought cheaply can be a good one. Valuation is how investors decide which is which. How it works Intrinsic: the dividend growth model. If a share is expected to pay a dividend of 2.00 next year, growing 3% a year forever, and investors want an 8% return, its value is: Value = next dividend ÷ (required return − growth) = 2.00 ÷ (0.08 − 0.03) = 40.00 Small changes to the assumptions move the answer a lot: Required return Growth Value 8% 3% 40.00 8% 4% 50.00 9% 3% 33.33 One percentage point of growth adds a quarter to the value. The formula is only as good as its guesses. Analysts use the same idea with a company's free cash flow instead of dividends; this is called a discounted cash flow (DCF) model. Relative: price to earnings. If the share trades at 40 and the company earned 2.50 per share last year, its P/E ratio is 16: you pay 16 times one year's earnings. Flip it over and the earnings yield is 6.25%, which you can compare with bond yields. A high P/E means the market expects strong growth; a low one means it expects little, or sees risk. What goes wrong Garbage in, garbage out. A valuation built on optimistic growth gives an optimistic answer. Cheap for a reason. A low P/E can mean the company's earnings are about to fall. Prices reflect what's expected; see priced in. Comparing unlike things. Ratios only work across similar companies, in similar conditions. Rates change everything. When interest rates rise, investors demand higher returns, and the value of distant future cash falls. See bond pricing. Key rule: a valuation is a set of assumptions with a number at the end. Test how much the answer moves when the assumptions change. Connects to financial statements — where the inputs come from. time value of money — the maths underneath intrinsic value. shares — what's being valued. Check yourself Q: Using the model above, what is a share worth if next year's dividend is 3.00, growth is 2% and the required return is 8%? A: 3.00 ÷ (0.08 − 0.02) = 50.00.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -8048,9 +8955,12 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "earnings-season",
     "equities",
     "financial-statements",
+    "flows-and-fundamentals",
     "foundation",
+    "priced-in",
     "private-business",
     "shares",
     "time-value-of-money"
@@ -8088,18 +8998,19 @@ window.MUDMAP = {
    "branch": "measure",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>Volatility</strong> measures how widely an investment's returns swing around their average. It is usually given as the <strong>standard deviation</strong> of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more.</p>\n<h2>Why it matters</h2>\n<p>Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and the <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</p>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> five yearly returns of 10%, −5%, 15%, 0% and 5%.</p>\n<ul>\n<li>The average is <strong>5%</strong>.</li>\n<li>Each year's distance from the average: +5, −10, +10, −5 and 0.</li>\n<li>Square them, add them up (250), divide by one less than the number of years (4) and take the square root: <strong>7.91%</strong>.</li>\n</ul>\n<p><strong>Reading it.</strong> If returns were roughly bell-shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%.</p>\n<p><strong>Scaling it.</strong> Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = <strong>15.87%</strong> a year, using about 252 trading days.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Returns aren't bell-shaped.</strong> Real markets have more extreme days than the bell curve predicts, the so-called <strong>fat tails</strong>. Crashes happen more often than volatility alone suggests.</li>\n<li><strong>Gains count as risk too.</strong> Volatility treats a sharp rise the same as a sharp fall.</li>\n<li><strong>Smooth isn't safe.</strong> Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall.</li>\n<li><strong>It changes.</strong> Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> use volatility to compare and size, but never as the whole of risk. Check the drawdowns too.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the worst stretch, where volatility is the everyday swing.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the other input to a portfolio's volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the branch this sits in.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time?</p><details><summary>Show answer</summary><p>Fund B. Bigger swings drag the compound return further below the average return. See <a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a>.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>Volatility</strong> measures how widely an investment's returns swing around their average. It is usually given as the <strong>standard deviation</strong> of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more.</p>\n<h2>Why it matters</h2>\n<p>Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as <a class=\"wl\" href=\"#/map/p/diversification\" data-page=\"diversification\">Diversification</a> and the <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</p>\n<h2>How it works</h2>\n<p><strong>Fictional example:</strong> five yearly returns of 10%, −5%, 15%, 0% and 5%.</p>\n<ul>\n<li>The average is <strong>5%</strong>.</li>\n<li>Each year's distance from the average: +5, −10, +10, −5 and 0.</li>\n<li>Square them, add them up (250), divide by one less than the number of years (4) and take the square root: <strong>7.91%</strong>.</li>\n</ul>\n<p><strong>Reading it.</strong> If returns were roughly bell-shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%.</p>\n<p><strong>Scaling it.</strong> Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = <strong>15.87%</strong> a year, using about 252 trading days.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Returns aren't bell-shaped.</strong> Real markets have more extreme days than the bell curve predicts, the so-called <strong>fat tails</strong>. Crashes happen more often than volatility alone suggests.</li>\n<li><strong>Gains count as risk too.</strong> Volatility treats a sharp rise the same as a sharp fall.</li>\n<li><strong>Smooth isn't safe.</strong> Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall.</li>\n<li><strong>It changes.</strong> Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> use volatility to compare and size, but never as the whole of risk. Check the drawdowns too.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — the worst stretch, where volatility is the everyday swing.</li>\n<li><a class=\"wl\" href=\"#/map/p/correlation\" data-page=\"correlation\">Correlation</a> — the other input to a portfolio's volatility.</li>\n<li><a class=\"wl\" href=\"#/map/p/fear-gauges\" data-page=\"fear-gauges\">Fear Gauges</a> — the volatility the market expects, priced from options.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — the branch this sits in.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time?</p><details><summary>Show answer</summary><p>Fund B. Bigger swings drag the compound return further below the average return. See <a class=\"wl\" href=\"#/map/p/returns\" data-page=\"returns\">Returns</a>.</p></details></div>",
    "deep": "",
    "links": [
     "correlation",
     "diversification",
     "drawdown",
+    "fear-gauges",
     "measure",
     "returns",
     "sharpe-ratio"
    ],
    "stub": false,
-   "text": "What it is Volatility measures how widely an investment's returns swing around their average. It is usually given as the standard deviation of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more. Why it matters Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as diversification and the sharpe ratio. How it works Fictional example: five yearly returns of 10%, −5%, 15%, 0% and 5%. The average is 5% . Each year's distance from the average: +5, −10, +10, −5 and 0. Square them, add them up (250), divide by one less than the number of years (4) and take the square root: 7.91% . Reading it. If returns were roughly bell shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%. Scaling it. Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = 15.87% a year, using about 252 trading days. What goes wrong Returns aren't bell shaped. Real markets have more extreme days than the bell curve predicts, the so called fat tails . Crashes happen more often than volatility alone suggests. Gains count as risk too. Volatility treats a sharp rise the same as a sharp fall. Smooth isn't safe. Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall. It changes. Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date. Key rule: use volatility to compare and size, but never as the whole of risk. Check the drawdowns too. Connects to drawdown — the worst stretch, where volatility is the everyday swing. correlation — the other input to a portfolio's volatility. measure — the branch this sits in. Check yourself Q: Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time? A: Fund B. Bigger swings drag the compound return further below the average return. See returns.",
+   "text": "What it is Volatility measures how widely an investment's returns swing around their average. It is usually given as the standard deviation of returns per year. A government bond fund might have volatility of a few percent; a broad share index around 15–20%; a single small company or a crypto asset far more. Why it matters Volatility is the most common way to put a number on risk. It is used to compare investments, to size positions, and as the risk input in portfolio maths such as diversification and the sharpe ratio. How it works Fictional example: five yearly returns of 10%, −5%, 15%, 0% and 5%. The average is 5% . Each year's distance from the average: +5, −10, +10, −5 and 0. Square them, add them up (250), divide by one less than the number of years (4) and take the square root: 7.91% . Reading it. If returns were roughly bell shaped, about two years in three would land within one standard deviation of the average: here, between about −3% and +13%. Scaling it. Volatility grows with the square root of time. A daily volatility of 1% is about 1% × √252 = 15.87% a year, using about 252 trading days. What goes wrong Returns aren't bell shaped. Real markets have more extreme days than the bell curve predicts, the so called fat tails . Crashes happen more often than volatility alone suggests. Gains count as risk too. Volatility treats a sharp rise the same as a sharp fall. Smooth isn't safe. Assets that are valued rarely, like private property or private businesses, show low volatility because their prices barely update, not because they can't fall. It changes. Volatility clusters: calm periods are followed by calm, and storms by storms. A figure from a calm decade can be badly out of date. Key rule: use volatility to compare and size, but never as the whole of risk. Check the drawdowns too. Connects to drawdown — the worst stretch, where volatility is the everyday swing. correlation — the other input to a portfolio's volatility. fear gauges — the volatility the market expects, priced from options. measure — the branch this sits in. Check yourself Q: Two funds have the same average return. Fund A has 5% volatility and fund B has 20%. Which will usually have the lower compound return over time? A: Fund B. Bigger swings drag the compound return further below the average return. See returns.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -8118,6 +9029,7 @@ window.MUDMAP = {
     "charting",
     "correlation",
     "drawdown",
+    "fear-gauges",
     "foundation",
     "measure",
     "options",
@@ -8125,7 +9037,8 @@ window.MUDMAP = {
     "position-sizing",
     "returns",
     "risk-and-return",
-    "sharpe-ratio"
+    "sharpe-ratio",
+    "stability-breeds-instability"
    ],
    "backlinksAdv": [
     "sharpe-ratio"
@@ -8325,6 +9238,7 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "business-cycle",
     "fixed-income",
     "flow:qe-and-qt",
     "market-regimes",
@@ -9291,6 +10205,14 @@ window.MUDMAP = {
        "note": "Price levels, real and nominal"
       },
       {
+       "page": "business-cycle",
+       "note": "The stages of the business cycle"
+      },
+      {
+       "page": "credit-cycle",
+       "note": "Credit conditions over the cycle"
+      },
+      {
        "page": "cash-and-fiat",
        "note": "Currencies and what gives them value"
       },
@@ -9301,7 +10223,7 @@ window.MUDMAP = {
      ],
      "note": "",
      "state": "mapped",
-     "pages": 6
+     "pages": 8
     },
     {
      "title": "CFA1-FSA — Financial Statement Analysis",
@@ -9518,6 +10440,8 @@ window.MUDMAP = {
     "central-bank-money",
     "monetary-policy",
     "inflation",
+    "business-cycle",
+    "credit-cycle",
     "cash-and-fiat",
     "exchange-rates",
     "financial-statements",
@@ -9910,6 +10834,10 @@ window.MUDMAP = {
        "note": "Final settlement in reserves"
       },
       {
+       "page": "repo-market",
+       "note": "Secured overnight funding: the money market behind dealers"
+      },
+      {
        "page": "money-creation",
        "note": "How lending creates deposits"
       },
@@ -9928,7 +10856,7 @@ window.MUDMAP = {
      ],
      "note": "",
      "state": "mapped",
-     "pages": 6
+     "pages": 7
     },
     {
      "title": "MB3 — Banking as market making",
@@ -10025,6 +10953,7 @@ window.MUDMAP = {
     "hierarchy-of-money",
     "bank-deposits",
     "central-bank-money",
+    "repo-market",
     "money-creation",
     "eurodollars",
     "liquidity",
@@ -10887,5 +11816,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-27 02:50 UTC"
+ "built": "2026-10-27 05:44 UTC"
 };

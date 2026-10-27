@@ -21,6 +21,7 @@ Nobody knows which asset will do best next year. Putting everything into the bes
 - [[correlation]] — the number that measures how closely two assets move, and why it rises in a crisis.
 - [[asset-allocation]] — the mix across shares, bonds, cash and real assets, which drives most of a portfolio's behaviour.
 - [[position-sizing]] — how much to put in any one holding so that being wrong is survivable.
+- [[asymmetry]] — what you can win against what you can lose, and why a high win rate can still lose money.
 - [[rebalancing]] — bringing the mix back to target as prices move.
 - [[market-regimes]] — why the same mix behaves very differently in different conditions.
 
