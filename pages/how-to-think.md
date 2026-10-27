@@ -30,6 +30,12 @@ Each idea here is a question to ask, not a formula to apply:
 - **Who gains?** Incentives explain much of what people sell, recommend and report.
 - **What does the whole spread look like?** An average, a percentage or a single figure rarely tells the full story.
 
+**The pages**
+- [[second-order-thinking]] — looking past the first effect to what happens next.
+- [[opportunity-cost]] — the value of the next-best alternative you give up.
+- [[edge]] — a genuine, measurable advantage before and after costs.
+- [[luck-and-skill]] — separating results that come from a repeatable process from chance.
+
 These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.
 
 ## What goes wrong
