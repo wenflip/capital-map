@@ -30,6 +30,7 @@ Ask who gains and who loses if the action is taken, and how large and certain th
 - [[second-order-thinking]] — incentives shape the later effects of a rule or product.
 - [[edge]] — an incentive misalignment can be a source of edge for those who notice it.
 - [[how-markets-move]] — flows often follow the incentives of the largest participants.
+- [[externalities]] — when the person deciding doesn't bear the full cost.
 
 ## Check yourself
 
@@ -37,6 +38,6 @@ Ask who gains and who loses if the action is taken, and how large and certain th
 
 **A:** Whether the recommendation would be the same if the firm earned nothing from the companies it covers. The incentive does not prove the view is wrong, but it changes how much weight to give it.
 
-**Q:** A bonus is paid on this year's profit. What behaviour does that reward?
+**Q:** A bonus is paid on a single year's profit. What behaviour does that reward?
 
-**A:** Actions that raise this year's profit, even if they reduce profit in later years or increase risk that appears later.
+**A:** Actions that raise that year's profit, even if they reduce profit in later years or create risks that only show up later.

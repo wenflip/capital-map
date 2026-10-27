@@ -38,6 +38,7 @@ The common thread: decisions made on feelings in the moment. Fear sells at the b
 - [[portfolio]] — the plan that protects you from these mistakes.
 - [[measure]] — how to see whether you're making them.
 - [[how-markets-move]] — the forces behind the moves that trigger these mistakes.
+- [[incentives]] — who gains from the advice or product in front of you.
 - [[stablecoins]] and [[memecoins]] — areas where high-yield promises and scams are common.
 - [[luck-and-skill]] — a good result does not prove the decision was skilled.
 

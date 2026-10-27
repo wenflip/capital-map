@@ -14,9 +14,11 @@ An externality is a cost or benefit that falls on someone who did not choose the
 Decisions that look rational for one person can produce worse outcomes for the group. A firm that saves a small amount by not cleaning up can impose a larger cost on others. Many people using a shared resource a little more than is sustainable can exhaust it. The gap between private and total cost explains behaviour that would otherwise look short-sighted.
 
 ## How it works
-Identify who receives the benefit and who bears the cost. If they are not the same, the decision-maker does not face the full consequence. In a commons the benefit of one more use is private while the cost of depletion is shared, so each user has an incentive to use more. Solutions that work change the incentives: making the user bear more of the cost, limiting access, or assigning clear ownership.
+Identify who receives the benefit and who bears the cost. If they are not the same, the decision-maker does not face the full consequence. In a commons the benefit of one more use is private while the cost of depletion is shared, so each user has an incentive to use more. Solutions that work change the incentives: making the user bear more of the cost, limiting access, assigning clear ownership, or shared rules that the users themselves agree and enforce.
 
-**Worked example (fictional figures):** each of 100 users takes an extra unit from a shared resource. The private gain per user is 2. The shared cost of depletion is 300, or 3 per user. Each user still gains by taking the extra unit (2 > 0), but the group loses 100 (100 × 2 − 300 = −100).
+**Worked example (fictional figures):** 100 users share a resource. Each extra unit taken is worth 2 to the user who takes it, and wears the resource down by 3, a cost shared by all 100 users.
+- **One user's view:** they gain 2 and bear only a hundredth of the 3: 2 − 0.03 = **1.97**. Taking the extra unit looks clearly worth it.
+- **The group's view:** if all 100 do the same, they gain 100 × 2 = 200 and lose 100 × 3 = 300: 200 − 300 = **−100**. Everyone is worse off.
 
 ## What goes wrong
 - **Counting only private costs.** The decision looks cheap because the larger cost falls elsewhere.

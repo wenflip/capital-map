@@ -16,7 +16,7 @@ Estimates of value are uncertain. Cash flows, growth and discount rates can all 
 ## How it works
 Estimate value using cautious assumptions. Then require the price to be sufficiently below that estimate before acting. The required gap depends on how uncertain the estimate is and how severe the loss would be if you are wrong. The margin does not guarantee a good outcome. It only raises the chance that ordinary errors in the estimate do not turn the decision into a loss.
 
-**Worked example (fictional figures):** a conservative estimate of value is 100. You require a 30% margin, so you will pay at most 70. If the true value turns out to be 85 (15% below your estimate), you still paid less than it was worth. If you had paid 100, the same error would have produced a loss.
+**Worked example (fictional figures):** a conservative estimate of value is 100. You require a 30% margin, so you will pay at most 70. If the true value turns out to be 85 (15% below your estimate), paying 70 still leaves 85 − 70 = **15** of value. Paying the full 100 would have meant 85 − 100 = **−15**: the same error, now a loss.
 
 ## What goes wrong
 - **Using an optimistic estimate.** The margin is only as good as the conservatism of the starting value.

@@ -16,7 +16,12 @@ Results that look bad over a short period can be normal over a long one, and the
 ## How it works
 State the period you can actually wait. Then ask what range of outcomes is normal for that period, not for a shorter or longer one. Short horizons make luck larger relative to any edge. Long horizons let compounding and mean reversion matter more, but only if you can stay invested through the intervening losses. Forced sales shorten the horizon whether you intended it or not.
 
-**Worked example (fictional figures):** an asset has an expected annual return of 7% and a standard deviation of 15%. Over one year the chance of a loss is material. Over twenty years the chance of a loss falls, but the path still includes years that are negative. The horizon determines which of those facts matters for the decision.
+**Worked example (fictional figures):** an asset averages 7% a year, with a typical yearly swing (standard deviation) of 15%. Treat each year as independent, with a normal spread of outcomes.
+- **Over one year,** the chance of a loss is about **32%**.
+- **Over twenty years,** the chance that the *average* year is a loss falls to about **1.8%**.
+- **Yet over those same twenty years,** at least one losing year is close to certain: over **99%**.
+
+The same asset is risky on a one-year view, and fairly dependable on a twenty-year view, but only for someone who can sit through the bad years along the way.
 
 ## What goes wrong
 - **Using a short-term result to judge a long-term choice.** One bad year is treated as proof the process failed.
