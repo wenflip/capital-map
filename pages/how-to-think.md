@@ -35,6 +35,10 @@ Each idea here is a question to ask, not a formula to apply:
 - [[opportunity-cost]] — the value of the next-best alternative you give up.
 - [[edge]] — a genuine, measurable advantage before and after costs.
 - [[luck-and-skill]] — separating results that come from a repeatable process from chance.
+- [[time-horizons]] — matching the choice to how long you can actually wait.
+- [[margin-of-safety]] — leaving room for the estimate of value to be wrong.
+- [[incentives]] — people respond to what they are rewarded for.
+- [[externalities]] — costs that fall on people who did not choose the activity.
 
 These questions are tools for judging the rest of the map. They never point to a particular asset or a particular trade.
 
