@@ -39,6 +39,7 @@ People judge strategies by how often they win. But how much you win or lose each
 - [[risk-and-return]] — the trade-off asymmetry reshapes.
 - [[fear-gauges]] — the price of protection against the rare large move.
 - [[insurer-failure]] — what happens to a business that sells protection and meets the big loss.
+- [[risk-of-ruin]] — when the downside is large enough to end the activity.
 
 ## Check yourself
 

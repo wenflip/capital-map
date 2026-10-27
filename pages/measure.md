@@ -16,6 +16,7 @@ Two investments that both end up 50% higher can be very different things to own.
 - [[returns]] — what you made: total return, after inflation, and per year.
 - [[drawdown]] — the fall from a peak, and how long it takes to recover.
 - [[volatility]] — how widely returns swing around their average.
+- [[fat-tails]] — extremes that occur more often than a normal distribution predicts.
 - [[absolute-and-relative-risk]] — turning relative statements back into absolute chances.
 
 | Measure | Question it answers | Good for | Blind spot |
