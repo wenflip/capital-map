@@ -5,7 +5,7 @@ short: Money & Banking
 order: 4
 summary: A free university course on the money system as a payment system: balance sheets, clearing, dealers and the hierarchy of money. It fills the plumbing gap the CFA leaves.
 ---
-A free online course by Perry Mehrling, taught as a sequence of themes rather than an exam syllabus. Its central idea — that money is layered, and that every layer is a promise to pay in the one below — is the backbone of this map's [[money|Money & Liquidity]] branch. The module titles below group the course's weekly themes; the pages are our own notes, not course material.
+A free online course by Perry Mehrling, taught as a sequence of themes rather than an exam syllabus. Its central idea — that money is layered, and that every layer is a promise to pay in the one below — is the backbone of this map's [[money|How Money Works]] branch. The module titles below group the course's weekly themes; the pages are our own notes, not course material.
 
 ## MB1 — The money view and balance sheets
 - [[what-is-money]] — money as the infrastructure of a market economy

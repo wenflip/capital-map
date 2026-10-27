@@ -1,7 +1,7 @@
 ---
 id: qe-and-qt
 title: QE and QT: when the central bank buys bonds, and stops
-area: Money & Liquidity
+area: How Money Works
 order: 7
 summary: Follow a central bank buying government bonds with new reserves (quantitative easing), what that does to yields and liquidity, and what happens in reverse (quantitative tightening).
 ---

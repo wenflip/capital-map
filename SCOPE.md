@@ -18,7 +18,7 @@ Education only. Not financial advice.
    - *Structure* is what an asset **is**: whose liability, and a claim on what. It is stable.
    - *Behaviour* is how it **trades right now** (e.g. "crypto trades like high-beta tech"). It changes with the liquidity regime, so it lives in a cross-cutting place (the Market Regimes page for now), not the tree.
 4. **Organising question for money:** "whose liability is it, and what is it a claim on?" Not "backed vs unbacked". References: Perry Mehrling's *hierarchy of money*; John Exter's *inverted pyramid*.
-5. **One primary parent per page, plus `[[links]]` for everything else.** For example, gold's home is in Money & Liquidity and it is linked from Commodities. This is the same model the Supply Map already uses.
+5. **One primary parent per page, plus `[[links]]` for everything else.** For example, gold's home is in Money You Hold and it is linked from Commodities. This is the same model the Supply Map already uses.
 6. **Spine: Option A1 (decided 2026-10-25).** Asset-class spine for the tree, because in investing the *objects* differ far more than the *process* does. The process lives in **Flows**.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
@@ -64,7 +64,7 @@ Groups are labels drawn as clusters on the map, not a tree level (decided 2026-1
 - Branch colours for the new branch ids.
 - T-code index hidden when no page has t-codes.
 - Bug fix: the welcome guide's flow link was hard-coded to `p2p`; it now reads the flow from the link. **Worth back-porting to The Supply Map.**
-- First-visit branch (`FIRST_VISIT_OPEN`) opens Money & Liquidity.
+- First-visit branch (`FIRST_VISIT_OPEN`) opens How Money Works (id `money`; it was called Money & Liquidity until 2026-10-27).
 - New link-preview image (`assets/share.png`, 1200×630), rendered from an HTML template kept with the helper tools.
 - **Cartography view** and the `place`, `span`, `killer_kind` fields, validated by the build.
 - Search fixes: hyphenated queries match page text, and keep the whole-phrase bonus. **Both worth back-porting to The Supply Map.**

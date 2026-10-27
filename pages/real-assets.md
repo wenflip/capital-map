@@ -13,7 +13,7 @@ summary: Physical things with value of their own: property, commodities and coll
 - [[commodities]] — oil, grain and metals, traded in bulk.
 - [[collectibles]] — art, watches, wine and other objects valued by what a buyer will pay.
 
-[[gold]] is a real asset too, but it lives on the Money branch because of its long history as money.
+[[gold]] is a real asset too, but it lives in [[money-you-hold|Money You Hold]] because people have kept it as money for thousands of years.
 
 ## Why it exists
 People hold real assets for three reasons:
