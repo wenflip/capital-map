@@ -31,9 +31,10 @@ The branches sit in four groups, shown as clusters on the map.
 **Putting it together** — using and combining what you own.
 - [[derivatives]] — contracts on other assets, and leverage.
 - [[portfolio]] — combining assets so that no single failure clears the board.
+- [[failure-modes]] — the failure ladder: what fails, what protects you, and where that protection runs out.
 
 **How it runs** — the machinery, the scorecard and the practicalities.
-- [[markets]] — exchanges, brokers, custody and settlement.
+- [[markets]] — exchanges, dealers, brokers, custody and settlement.
 - [[measure]] — returns, drawdown and volatility.
 - [[practice]] — tax, accounts, common mistakes, data and charting.
 

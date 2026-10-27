@@ -113,13 +113,13 @@ CREATE TABLE flows (               -- step-by-step walk-throughs; planned = an o
   status TEXT NOT NULL CHECK (status IN ('written', 'planned')),
   sort   REAL NOT NULL
 );
-INSERT INTO "flows" VALUES('where-money-comes-from','Where money comes from','Money & Liquidity','written',1.0);
+INSERT INTO "flows" VALUES('where-money-comes-from','Where money comes from','How Money Works','written',1.0);
 INSERT INTO "flows" VALUES('when-a-bank-fails','When a bank fails: who stands behind your deposit','When Things Fail','written',2.0);
 INSERT INTO "flows" VALUES('when-a-country-fails','When a country fails: how a debt crisis spreads','When Things Fail','written',3.0);
 INSERT INTO "flows" VALUES('how-a-trade-settles','How a share trade settles','Markets & Plumbing','written',4.0);
 INSERT INTO "flows" VALUES('when-a-broker-fails','When a broker fails: getting your assets back','When Things Fail','written',5.0);
 INSERT INTO "flows" VALUES('a-stablecoin-run','A stablecoin run: a bank run on a blockchain','When Things Fail','written',6.0);
-INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','Money & Liquidity','written',7.0);
+INSERT INTO "flows" VALUES('qe-and-qt','QE and QT: when the central bank buys bonds, and stops','How Money Works','written',7.0);
 CREATE TABLE module_pages (         -- junction table: pages that cover each module
   qual_id  TEXT NOT NULL,
   code     TEXT NOT NULL,
@@ -413,6 +413,7 @@ INSERT INTO "page_links" VALUES('capital-system','claims-and-liabilities');
 INSERT INTO "page_links" VALUES('capital-system','derivatives');
 INSERT INTO "page_links" VALUES('capital-system','digital-assets');
 INSERT INTO "page_links" VALUES('capital-system','equities');
+INSERT INTO "page_links" VALUES('capital-system','failure-modes');
 INSERT INTO "page_links" VALUES('capital-system','fixed-income');
 INSERT INTO "page_links" VALUES('capital-system','foundation');
 INSERT INTO "page_links" VALUES('capital-system','market-regimes');
@@ -938,6 +939,7 @@ INSERT INTO "page_links" VALUES('real-assets','futures');
 INSERT INTO "page_links" VALUES('real-assets','gold');
 INSERT INTO "page_links" VALUES('real-assets','inflation');
 INSERT INTO "page_links" VALUES('real-assets','liquidity');
+INSERT INTO "page_links" VALUES('real-assets','money-you-hold');
 INSERT INTO "page_links" VALUES('real-assets','real-estate');
 INSERT INTO "page_links" VALUES('real-assets','reits');
 INSERT INTO "page_links" VALUES('real-estate','cartography-of-wealth');
@@ -1318,7 +1320,7 @@ CREATE TABLE pages (                -- one row per page on the map
   summary   TEXT,
   words     INTEGER NOT NULL        -- words in the body, Going deeper included
 );
-INSERT INTO "pages" VALUES('capital-system','Capital System',NULL,NULL,NULL,0,'basic','The whole map: money at the base, claims and real assets built on top, and the tools for combining them.',382);
+INSERT INTO "pages" VALUES('capital-system','Capital System',NULL,NULL,NULL,0,'basic','The whole map: money at the base, claims and real assets built on top, and the tools for combining them.',400);
 INSERT INTO "pages" VALUES('derivatives','Derivatives',NULL,'capital-system','derivatives',1,'basic','Contracts whose value depends on something else: futures, options, perpetuals and leverage.',535);
 INSERT INTO "pages" VALUES('digital-assets','Digital Assets',NULL,'capital-system','digital-assets',1,'basic','Bearer assets and promises recorded on public ledgers: how blockchains work, native coins, what gives a coin value, tokens, bridges, DeFi, and how to hold them.',747);
 INSERT INTO "pages" VALUES('equities','Equities',NULL,'capital-system','equities',1,'basic','Owning a share of a business: listed shares, indices, funds and private stakes.',636);
@@ -1332,7 +1334,7 @@ INSERT INTO "pages" VALUES('money-you-hold','Money You Hold','Money You Hold','c
 INSERT INTO "pages" VALUES('personal-capital','Human & Social Capital','Human & Social','capital-system','personal-capital',1,'basic','The wealth you carry inside you: skills, health, reputation and network.',709);
 INSERT INTO "pages" VALUES('portfolio','Portfolio & Risk','Portfolio & Risk','capital-system','portfolio',1,'basic','Combining assets so that no single failure clears the board.',652);
 INSERT INTO "pages" VALUES('practice','In Practice',NULL,'capital-system','practice',1,'basic','Tax, account types, common mistakes, and the data and charting tools used in practice.',504);
-INSERT INTO "pages" VALUES('real-assets','Real Assets',NULL,'capital-system','real-assets',1,'basic','Physical things with value of their own: property, commodities and collectibles.',724);
+INSERT INTO "pages" VALUES('real-assets','Real Assets',NULL,'capital-system','real-assets',1,'basic','Physical things with value of their own: property, commodities and collectibles.',728);
 INSERT INTO "pages" VALUES('account-types','Account Types',NULL,'practice','practice',2,'basic','Ordinary, tax-advantaged and retirement accounts.',401);
 INSERT INTO "pages" VALUES('asset-allocation','Asset Allocation',NULL,'portfolio','portfolio',2,'basic','How much goes into each kind of asset.',433);
 INSERT INTO "pages" VALUES('backstops','Bank Backstops','Bank backstops','money-you-hold','money-you-hold',2,'basic','The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.',692);

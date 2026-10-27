@@ -1,7 +1,7 @@
 ---
 id: where-money-comes-from
 title: Where money comes from
-area: Money & Liquidity
+area: How Money Works
 order: 1
 summary: From the central bank to your account: how money is created, layered and destroyed.
 ---
