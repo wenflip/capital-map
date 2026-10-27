@@ -24,6 +24,7 @@ The rest of the map explains what things are: a bond, a share, a deposit, a coin
 - [[business-cycle]] — expansion, peak, recession and recovery, and why markets turn before the economy does.
 - [[credit-cycle]] — lending loosening and tightening in waves, usually ahead of the economy.
 - [[stability-breeds-instability]] — why long calm periods build the borrowing that makes the next crash worse.
+- [[booms-and-busts]] — the stages through which prices can rise far above, and fall back toward, estimates of value.
 
 **Expectations**
 - [[priced-in]] — prices move on the gap between what happens and what was expected.
