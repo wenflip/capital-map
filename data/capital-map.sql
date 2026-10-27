@@ -368,6 +368,7 @@ INSERT INTO "page_links" VALUES('asymmetry','short-selling');
 INSERT INTO "page_links" VALUES('asymmetry','stability-breeds-instability');
 INSERT INTO "page_links" VALUES('averages-and-distributions','luck-and-skill');
 INSERT INTO "page_links" VALUES('averages-and-distributions','measure');
+INSERT INTO "page_links" VALUES('averages-and-distributions','returns');
 INSERT INTO "page_links" VALUES('averages-and-distributions','risk-and-return');
 INSERT INTO "page_links" VALUES('averages-and-distributions','volatility');
 INSERT INTO "page_links" VALUES('backstops','bail-in');
@@ -1664,7 +1665,7 @@ INSERT INTO "pages" VALUES('absolute-and-relative-risk','Absolute and Relative R
 INSERT INTO "pages" VALUES('account-types','Account Types',NULL,'practice','practice',2,'basic','Ordinary, tax-advantaged and retirement accounts.',401);
 INSERT INTO "pages" VALUES('asset-allocation','Asset Allocation',NULL,'portfolio','portfolio',2,'basic','How much goes into each kind of asset.',433);
 INSERT INTO "pages" VALUES('asymmetry','Asymmetry','Asymmetry','portfolio','portfolio',2,'basic','The shape of what you can win against what you can lose, and why being right most of the time can still lose money.',487);
-INSERT INTO "pages" VALUES('averages-and-distributions','Averages and Distributions','Averages and Distributions','how-to-think','how-to-think',2,'basic','An average can hide the spread of outcomes, and one extreme value can move the average without changing the typical case.',460);
+INSERT INTO "pages" VALUES('averages-and-distributions','Averages and Distributions','Averages and Distributions','how-to-think','how-to-think',2,'basic','An average can hide the spread of outcomes, and one extreme value can move the average without changing the typical case.',491);
 INSERT INTO "pages" VALUES('backstops','Bank Backstops','Bank backstops','money-you-hold','money-you-hold',2,'basic','The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.',692);
 INSERT INTO "pages" VALUES('bank-deposits','Bank Deposits',NULL,'money-you-hold','money-you-hold',2,'basic','The money most people actually hold: not cash in a vault, but a bank''s promise to pay you on demand.',392);
 INSERT INTO "pages" VALUES('blockchains','How Blockchains Work','How blockchains work','digital-assets','digital-assets',2,'basic','A shared ledger kept in agreement by many computers: the machinery under every digital asset.',346);

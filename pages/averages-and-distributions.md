@@ -35,7 +35,7 @@ Ask what the average is made of. Is it pulled by a few large outcomes, or is it 
 
 **Q:** The average return of a strategy is 10% a year. In half the years it loses 20% and in half it gains 40%. Is 10% a good description of a typical year?
 
-**A:** No. A typical year is either −20% or +40%. The 10% average is the result of those two outcomes (0.5 × −20 + 0.5 × 40 = 10), not a result that occurs often.
+**A:** No. A typical year is either −20% or +40%. The 10% average is the result of those two outcomes (0.5 × −20 + 0.5 × 40 = 10), not a result that occurs often. Worse, it isn't what your money earns: one bad year and one good year turn 1 into 0.8 × 1.4 = **1.12**, about **5.8%** a year, not 10%. See [[returns]].
 
 **Q:** Adding one very large observation raises the mean but not the median. What does that tell you?
 
