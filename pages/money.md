@@ -1,35 +1,35 @@
 ---
 id: money
-title: Money & Liquidity
-short: Money & Liquidity
+title: How Money Works
+short: How Money Works
 parent: capital-system
 order: 2
 group: Foundations
-summary: What money is, why some money ranks above other money, and how the amount of it in the system moves markets.
-tags: money, liquidity
+summary: How the money system works: what money is, why some money ranks above other money, who creates it and sets its price, and how the amount of it moves markets.
+tags: money, liquidity, central bank, monetary system
 ---
 ## What it is
 The base layer of the whole system. Every other asset is priced in money, borrowed in money and sold for money, so how money works shapes everything above it.
 
-This branch covers two linked ideas:
+This branch is about the machinery, and covers two linked ideas:
 - **Money:** what it is, and why it comes in layers, each one a promise to pay in the layer below.
 - **Liquidity:** how much money is moving through the financial system at any time, and why prices across many markets follow it.
+
+The forms of money people actually keep (banknotes, bank deposits and gold) have their own branch, [[money-you-hold|Money You Hold]], with the other things you can own.
 
 ## Why it exists
 Without a shared way to pay and keep score, every trade would need a direct swap of goods. Money solves that, but not all money is equal. A banknote, a bank deposit and a stablecoin can all be "a dollar", yet they are different promises from different issuers. In calm markets the differences are invisible. In a crisis they decide who gets paid.
 
 ## How it works
-Start with the jobs money does, then work down the layers from the most final form to the most fragile:
+Start with the jobs money does and how it is layered, then follow who creates it, who sets its price, and how it moves:
 - [[what-is-money]] — the three jobs money does, and why few things do all three well.
 - [[hierarchy-of-money]] — why money is layered, from gold at the base to private promises at the top.
-- [[gold]] — the oldest money, and the one at the base that is nobody's liability.
 - [[central-bank-money]] — the base of the modern system: banknotes and the reserves banks hold at the central bank.
 - [[monetary-policy]] — how the central bank steers interest rates and the amount of money, and why it moves every market.
-- [[cash-and-fiat]] — government currency, why people must hold it, and its built-in bleed.
 - [[exchange-rates]] — the price of one currency in another, and what it does to anything you own abroad.
-- [[bank-deposits]] — the money most people actually hold: a bank's promise to pay.
-- [[backstops]] — what stands behind that promise when a bank fails: capital, the central bank, bail-in, deposit insurance and the government.
 - [[liquidity]] — how much money is available to flow into assets, and how analysts track it.
+
+The layers themselves, as you hold them, are in [[money-you-hold|Money You Hold]]: [[cash-and-fiat]], [[bank-deposits]] and the [[backstops]] behind them, and [[gold]].
 
 Then follow one dollar from creation to your account in the flow *Where money comes from*, and follow a bank failure through each backstop in *When a bank fails*.
 

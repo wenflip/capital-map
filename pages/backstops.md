@@ -2,8 +2,8 @@
 id: backstops
 title: Bank Backstops
 short: Bank backstops
-parent: money
-order: 6.5
+parent: money-you-hold
+order: 3
 summary: The chain of protection behind a bank deposit — the bank, deposit insurance, the central bank, the government — and how each link can break.
 tags: money, banking, crisis
 sources: Study notes; Walter Bagehot, Lombard Street (1873); US Congressional Research Service, Iceland's Financial Crisis (RS22988, 2010); Swiss Federal Administrative Court, AT1 ruling (October 2025)

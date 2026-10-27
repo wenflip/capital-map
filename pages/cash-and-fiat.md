@@ -2,8 +2,8 @@
 id: cash-and-fiat
 title: Cash and Fiat Currency
 short: Cash & Fiat
-parent: money
-order: 5
+parent: money-you-hold
+order: 1
 summary: Government-issued money that can't be redeemed for anything, valued because taxes, debts and prices are written in it.
 tags: money, cash, fiat
 tier: 2-3

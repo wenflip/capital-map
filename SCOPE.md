@@ -23,15 +23,16 @@ Education only. Not financial advice.
 7. **The Cartography of Wealth is the headline lens and a data layer.** Every store of wealth carries `tier`, `killer` and `traits` in its frontmatter, shown in a box on its page. Placements are labelled as judgments. It sits alongside the conventional framing, not as the site's voice.
 8. **Human & Social Capital is a top-level branch.** Standard asset-class trees leave it out; the Cartography treats it as the root store.
 
-## Top-level branches (v3: thirteen branches in four groups)
+## Top-level branches (v4: fourteen branches in four groups)
 
 Groups are labels drawn as clusters on the map, not a tree level (decided 2026-10-25). Inside *What you can own*, branches run from inside you to fully on the record, following the Cartography of Wealth.
 
 | Group | Branch | Covers |
 |---|---|---|
 | Foundations | Foundation | **Written.** Claims and liabilities, the Cartography of Wealth, the four ways to earn a return, time value, compounding, risk and return, inflation |
-| Foundations | Money & Liquidity | **Written.** What money is, the hierarchy, gold, central bank money, monetary policy, cash and fiat, currencies and exchange rates, bank deposits, bank backstops (capital and liquidity, lender of last resort, bail-in, deposit insurance, the bank–government loop), eurodollars, liquidity, money creation |
+| Foundations | How Money Works | **Written.** The machinery: what money is, the hierarchy, central bank money, monetary policy, currencies and exchange rates, eurodollars, liquidity |
 | What you can own | Human & Social Capital | **Written.** Human capital, social capital |
+| What you can own | Money You Hold | **Written.** The money people keep: cash and fiat, bank deposits, bank backstops (capital and liquidity, lender of last resort, bail-in, deposit insurance, the bank–government loop), gold |
 | What you can own | Digital Assets | **Written.** Seven clusters: how blockchains work (consensus, keys, forks, privacy and traceability), native coins (Bitcoin, smart-contract platforms), what gives a coin value (sound money, network effects), tokens (stablecoins, memecoins, governance, wrapped), bridges and layer 2s, DeFi, holding crypto (self-custody, custodial) |
 | What you can own | Real Assets | **Written.** Real estate, REITs, commodities, collectibles |
 | What you can own | Fixed Income | **Written.** T-bills, bonds, prices and yields, the yield curve, credit risk, inflation-linked bonds, duration |
@@ -111,6 +112,11 @@ None.
   - **When Banks Fail is now Bank Backstops** (same id, `backstops`), so it no longer clashes with the *When a bank fails* flow. The flow moved under the When Things Fail heading on the Flows tab, beside the other failure flows.
   - **Thin modules marked Partly mapped:** CFA I Financial Statement Analysis and Princeton BTC8 (alternative mining puzzles) each had one page against a much wider module. Coverage drops, but it stays honest.
   - The failure hub links to the Failures tab.
+- **Money You Hold (2026-10-27):** a 14th branch in *What you can own*, between Digital Assets and Real Assets. The heading "What you can own" left out the money people hold most, so cash and fiat, bank deposits (with Bank Backstops) and gold moved there from the old Money & Liquidity branch. That branch is now **How Money Works** (same id, `money`): the machinery, not the holdings.
+  - Gold sits with the money you hold because people keep it as money and it is nobody's liability; Commodities still links to it.
+  - Stablecoins stay in Digital Assets, linked from the new hub.
+  - **Placement follows the group's rule** (inside you → bearer → on the record): banknotes and gold are bearer (tier 2) and deposits are on the record (tier 3), so the branch sits at about 2.5, after Digital Assets (2) and beside Real Assets (2.5). It was first placed straight after Human & Social; the groups test caught that this broke the rule.
+  - The new branch's map colour (hue 320) was chosen by measured contrast: white label text at 6.1:1 in light mode, against 2.4:1 for the first candidate (a yellow-green).
 - **Concepts, not coins (2026-10-25):** the map explains kinds of digital asset, not individual chains. Bitcoin and Ethereum appear because they define a category; other chains appear only as examples inside concept pages (e.g. PulseChain on Forks).
 
 ## Logistics parallel

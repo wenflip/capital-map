@@ -18,11 +18,12 @@ The branches sit in four groups, shown as clusters on the map.
 
 **Foundations** — the ideas and the money everything else is built on.
 - [[foundation]] — claims, time value, compounding, risk and inflation.
-- [[money]] — what money is, and its hierarchy from gold to bank deposits.
+- [[money]] — how the money system works: its layers, central banks, interest rates and exchange rates.
 
 **What you can own** — in order from inside you to fully on the record, following the [[cartography-of-wealth|Cartography of Wealth]].
 - [[personal-capital]] — skills, health, reputation and network.
 - [[digital-assets]] — bearer tokens on public ledgers.
+- [[money-you-hold]] — banknotes, bank deposits and gold: the money people actually keep.
 - [[real-assets]] — property, commodities and collectibles.
 - [[fixed-income]] — lending for a promised return.
 - [[equities]] — owning a share of a business.
