@@ -39,6 +39,7 @@ The common thread: decisions made on feelings in the moment. Fear sells at the b
 - [[measure]] — how to see whether you're making them.
 - [[how-markets-move]] — the forces behind the moves that trigger these mistakes.
 - [[stablecoins]] and [[memecoins]] — areas where high-yield promises and scams are common.
+- [[luck-and-skill]] — a good result does not prove the decision was skilled.
 
 ## Check yourself
 

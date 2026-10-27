@@ -37,6 +37,7 @@ The rate used to bring future money back to today is the **discount rate**. It i
 
 ## Connects to
 - [[compounding]] — the future-value formula is compounding.
+- [[opportunity-cost]] — the cost of using money one way instead of another.
 - [[bonds]] and [[valuation]] — prices are present values of expected future cash.
 - [[t-bills]] — the usual stand-in for the reward for waiting.
 

@@ -40,6 +40,7 @@ That is a statement about averages and expectations, not a promise. Taking more 
 - [[time-value-of-money]] — risk raises the discount rate.
 - [[diversification]] and [[correlation]] — reducing risk you aren't paid for.
 - [[drawdown]] — the loss you actually live through.
+- [[edge]] — whether there is a reason the expected result should beat the average after costs.
 
 ## Check yourself
 

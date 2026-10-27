@@ -28,7 +28,7 @@
   if (welcomeOnLoad && freshVisitor) store.set("mode", "simple");
 
   /* ---------- Branch colours ---------- */
-  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "money-you-hold": 320, "how-markets-move": 10, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120, "failure-modes": 0 };
+  const HUES = { foundation: 215, "personal-capital": 20, money: 42, "money-you-hold": 320, "how-markets-move": 10, "how-to-think": 280, "fixed-income": 192, equities: 152, "real-assets": 88, "digital-assets": 268, derivatives: 338, portfolio: 300, markets: 172, measure: 240, practice: 120, "failure-modes": 0 };
   const branchIds = P[ROOT].children;
   const fallbackHues = [215, 268, 20, 152, 42, 192, 338, 240, 88, 0, 300];
   function hue(id) {
