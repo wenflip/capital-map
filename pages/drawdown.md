@@ -39,6 +39,7 @@ The maximum drawdown is **−25%**, from 120 to 90. The portfolio was **underwat
 - [[volatility]] — the everyday swings, where drawdown is the worst stretch.
 - [[asset-allocation]] — the main lever for controlling drawdowns.
 - [[market-regimes]] — when the deepest drawdowns tend to happen.
+- [[time-horizons]] — the period you must be able to wait through the loss.
 
 ## Check yourself
 

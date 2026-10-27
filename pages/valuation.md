@@ -44,6 +44,7 @@ A high P/E means the market expects strong growth; a low one means it expects li
 - [[financial-statements]] — where the inputs come from.
 - [[time-value-of-money]] — the maths underneath intrinsic value.
 - [[shares]] — what's being valued.
+- [[margin-of-safety]] — the gap between price and a cautious estimate of value.
 
 ## Check yourself
 
