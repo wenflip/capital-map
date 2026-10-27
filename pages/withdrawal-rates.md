@@ -31,6 +31,7 @@ William Bengen’s 1994 study in the *Journal of Financial Planning* examined US
 - [[drawdown]] — early losses reduce the capital from which later withdrawals are taken.
 - [[averages-and-distributions]] — the order of returns matters, not only their average.
 - [[inflation]] — withdrawals that rise with prices require the portfolio to keep pace.
+- [[enough]] — whether further risk still helps once the capital for a spending goal is in hand.
 
 ## Check yourself
 

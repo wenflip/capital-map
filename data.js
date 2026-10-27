@@ -316,6 +316,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "enough",
     "how-markets-move",
     "how-to-think",
     "options",
@@ -1289,7 +1290,8 @@ window.MUDMAP = {
    ],
    "backlinks": [
     "failure-modes",
-    "flow:when-a-broker-fails"
+    "flow:when-a-broker-fails",
+    "fraud-warning-signs"
    ],
    "backlinksAdv": []
   },
@@ -2350,11 +2352,12 @@ window.MUDMAP = {
    "branch": "practice",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces behind the moves that trigger these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/incentives\" data-page=\"incentives\">Incentives</a> — who gains from the advice or product in front of you.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n<li><a class=\"wl\" href=\"#/map/p/luck-and-skill\" data-page=\"luck-and-skill\">Luck and Skill</a> — a good result does not prove the decision was skilled.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk.</p>\n<h2>Why it matters</h2>\n<p>Avoiding a big mistake usually does more for long-term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See <a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a>.</p>\n<h2>How it works</h2>\n<p><strong>1. Buying high, selling low.</strong> People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales.</p>\n<p><strong>2. Paying too much.</strong> High fund fees, frequent trading and hidden charges compound against you every year. See <a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a>.</p>\n<p><strong>3. Concentration.</strong> Too much in one company, one sector, your employer, or one coin. See <a class=\"wl\" href=\"#/map/p/position-sizing\" data-page=\"position-sizing\">Position Sizing</a>.</p>\n<p><strong>4. Leverage you can't survive.</strong> Borrowing turns a temporary fall into a forced sale. See <a class=\"wl\" href=\"#/map/p/leverage\" data-page=\"leverage\">Leverage</a>.</p>\n<p><strong>5. No emergency fund.</strong> Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers.</p>\n<p><strong>6. Chasing yields and promises.</strong> A return far above what safe assets pay is a sign of risk, or of fraud.</p>\n<p><strong>7. Scams.</strong> Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs.</p>\n<p><strong>8. Ignoring free money and tax breaks,</strong> such as an employer's matched contribution. See <a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a>.</p>\n<h2>What goes wrong</h2>\n<p>The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows.</p>\n<blockquote>\n<p><strong>Key rule:</strong> set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan that protects you from these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/measure\" data-page=\"measure\">Measure</a> — how to see whether you're making them.</li>\n<li><a class=\"wl\" href=\"#/map/p/how-markets-move\" data-page=\"how-markets-move\">How Markets Move</a> — the forces behind the moves that trigger these mistakes.</li>\n<li><a class=\"wl\" href=\"#/map/p/incentives\" data-page=\"incentives\">Incentives</a> — who gains from the advice or product in front of you.</li>\n<li><a class=\"wl\" href=\"#/map/p/stablecoins\" data-page=\"stablecoins\">Stablecoins</a> and <a class=\"wl\" href=\"#/map/p/memecoins\" data-page=\"memecoins\">Memecoins</a> — areas where high-yield promises and scams are common.</li>\n<li><a class=\"wl\" href=\"#/map/p/luck-and-skill\" data-page=\"luck-and-skill\">Luck and Skill</a> — a good result does not prove the decision was skilled.</li>\n<li><a class=\"wl\" href=\"#/map/p/fraud-warning-signs\" data-page=\"fraud-warning-signs\">Fraud Warning Signs</a> — patterns that appear when reported results are not what they seem.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Why can investors earn less than the funds they own?</p><details><summary>Show answer</summary><p>Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.</p></details></div>",
    "deep": "",
    "links": [
     "account-types",
     "drawdown",
+    "fraud-warning-signs",
     "funds-and-etfs",
     "how-markets-move",
     "incentives",
@@ -2367,7 +2370,7 @@ window.MUDMAP = {
     "stablecoins"
    ],
    "stub": false,
-   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. how markets move — the forces behind the moves that trigger these mistakes. incentives — who gains from the advice or product in front of you. stablecoins and memecoins — areas where high yield promises and scams are common. luck and skill — a good result does not prove the decision was skilled. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
+   "text": "What it is A short list of the errors that cost ordinary investors the most. Most of them aren't about choosing the wrong asset. They're about behaviour, costs and risk. Why it matters Avoiding a big mistake usually does more for long term results than finding a great investment. Losses compound too: a 50% loss needs a 100% gain to recover. See drawdown. How it works 1. Buying high, selling low. People pile in after a rise and sell after a fall. Morningstar estimates that over the ten years to 2023 the average dollar invested in US funds earned 1.1% a year less than the funds themselves, about 6.3% a year against 7.4%, because of mistimed purchases and sales. 2. Paying too much. High fund fees, frequent trading and hidden charges compound against you every year. See funds and etfs. 3. Concentration. Too much in one company, one sector, your employer, or one coin. See position sizing. 4. Leverage you can't survive. Borrowing turns a temporary fall into a forced sale. See leverage. 5. No emergency fund. Without cash set aside, an unexpected bill forces you to sell investments at whatever price the market offers. 6. Chasing yields and promises. A return far above what safe assets pay is a sign of risk, or of fraud. 7. Scams. Guaranteed returns, pressure to act fast, payment in crypto or by transfer to a stranger, and \"recovery\" services that charge to get back money already lost are common warning signs. 8. Ignoring free money and tax breaks, such as an employer's matched contribution. See account types. What goes wrong The common thread: decisions made on feelings in the moment. Fear sells at the bottom; excitement buys at the top; overconfidence concentrates and borrows. Key rule: set your rules in calm times (how much to save, what mix, when to rebalance) and follow them when you feel least like it. Connects to portfolio — the plan that protects you from these mistakes. measure — how to see whether you're making them. how markets move — the forces behind the moves that trigger these mistakes. incentives — who gains from the advice or product in front of you. stablecoins and memecoins — areas where high yield promises and scams are common. luck and skill — a good result does not prove the decision was skilled. fraud warning signs — patterns that appear when reported results are not what they seem. Check yourself Q: Why can investors earn less than the funds they own? A: Because they move money in and out at the wrong times: adding after strong performance and pulling out after falls. The fund's return assumes you held it the whole time.",
    "textDeep": "",
    "children": [],
    "jobs": [],
@@ -2381,6 +2384,7 @@ window.MUDMAP = {
     "active-management",
     "edge",
     "externalities",
+    "fraud-warning-signs",
     "how-markets-move",
     "how-to-think",
     "incentives",
@@ -3725,6 +3729,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "active-management",
+    "fraud-warning-signs",
     "how-to-think",
     "incentives",
     "kelly-criterion",
@@ -3735,6 +3740,66 @@ window.MUDMAP = {
    "backlinksAdv": [
     "kelly-criterion"
    ]
+  },
+  "enough": {
+   "id": "enough",
+   "title": "Enough",
+   "short": "Enough",
+   "parent": "practice",
+   "order": 6.0,
+   "summary": "Once a target is reached, extra expected return adds little to the goal while extra risk can still take the target away.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "practice",
+    "enough",
+    "goals",
+    "risk"
+   ],
+   "sources": [],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "practice",
+    "enough"
+   ],
+   "branch": "practice",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Enough is the point at which further increases in expected wealth add little to the purpose the capital is meant to serve, while further risk can still reduce the capital below what that purpose requires. It is a comparison between the marginal benefit of more and the marginal cost of the risk needed to seek it.</p>\n<h2>Why it matters</h2>\n<p>Capital is accumulated for a reason — spending, independence, a bequest, or another goal. Once the amount required for that reason is in hand, the value of additional expected return declines relative to the value of protecting what is already there. The decision is not about how much anyone ought to want. It is about whether the next unit of risk still improves the chance of meeting the stated goal.</p>\n<h2>How it works</h2>\n<p>State the amount the goal requires and the period over which it must be available. Then compare two uses of the capital: one that keeps the amount near the target with lower variation, and one that offers a higher expected value but a material chance of falling below the target. If the higher-expected-value path can leave the goal unmet while the lower-variation path meets it, the extra expected return does not compensate for the risk relative to that goal.</p>\n<p><strong>Worked example (fictional figures):</strong> the goal requires 500,000 and that amount is already held. Mix A keeps the capital between 470,000 and 530,000. Mix B has an expected value of 550,000 but a realistic range of 300,000 to 600,000. The extra 50,000 of expected value (550,000 − 500,000) does not restore the goal if the outcome is 300,000. Relative to a goal of 500,000, the downside of Mix B breaks the target while the upside adds little once the target is already met.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Treating “enough” as a moral claim.</strong> The page describes a calculation about a stated goal, not a judgement about how much is right to want.</li>\n<li><strong>Ignoring that goals can change.</strong> A larger later goal can make additional capital useful again.</li>\n<li><strong>Assuming the lower-risk mix has no risk.</strong> Inflation, longevity or spending shocks can still reduce real resources even in a stable nominal mix.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> once the capital required for a stated goal is in hand, ask whether extra expected return still improves the chance of meeting that goal or mainly adds the chance of missing it.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/risk-of-ruin\" data-page=\"risk-of-ruin\">Risk of Ruin</a> — the chance that further risk ends the ability to meet the goal.</li>\n<li><a class=\"wl\" href=\"#/map/p/asymmetry\" data-page=\"asymmetry\">Asymmetry</a> — upside that adds little once the target is reached, versus downside that breaks it.</li>\n<li><a class=\"wl\" href=\"#/map/p/time-horizons\" data-page=\"time-horizons\">Time Horizons</a> — the period the capital must remain available.</li>\n<li><a class=\"wl\" href=\"#/map/p/opportunity-cost\" data-page=\"opportunity-cost\">Opportunity Cost</a> — the return given up by reducing risk once the goal is met.</li>\n<li><a class=\"wl\" href=\"#/map/p/margin-of-safety\" data-page=\"margin-of-safety\">Margin of Safety</a> — keeping a buffer above the minimum the goal requires.</li>\n<li><a class=\"wl\" href=\"#/map/p/withdrawal-rates\" data-page=\"withdrawal-rates\">Withdrawal Rates</a> — spending plans that depend on the capital remaining intact.</li>\n<li><a class=\"wl\" href=\"#/map/p/personal-capital\" data-page=\"personal-capital\">Human &amp; Social Capital</a> — skills and earnings that can change how much financial capital is required.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">The goal needs 400,000 and 400,000 is already held. A riskier mix offers an expected 480,000 but can fall to 250,000. Relative to the goal, what does the riskier mix add?</p><details><summary>Show answer</summary><p>An expected 80,000 above the goal, and a realistic chance of 150,000 below it. If 400,000 is what the goal requires, the downside breaks the goal while the upside is surplus.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why is this not advice about how much to want?</p><details><summary>Show answer</summary><p>The calculation starts from a goal the person has already stated. It asks only whether further risk improves the chance of meeting that goal. It does not say what the goal should be.</p></details></div>",
+   "deep": "",
+   "links": [
+    "asymmetry",
+    "margin-of-safety",
+    "opportunity-cost",
+    "personal-capital",
+    "risk-of-ruin",
+    "time-horizons",
+    "withdrawal-rates"
+   ],
+   "stub": false,
+   "text": "What it is Enough is the point at which further increases in expected wealth add little to the purpose the capital is meant to serve, while further risk can still reduce the capital below what that purpose requires. It is a comparison between the marginal benefit of more and the marginal cost of the risk needed to seek it. Why it matters Capital is accumulated for a reason — spending, independence, a bequest, or another goal. Once the amount required for that reason is in hand, the value of additional expected return declines relative to the value of protecting what is already there. The decision is not about how much anyone ought to want. It is about whether the next unit of risk still improves the chance of meeting the stated goal. How it works State the amount the goal requires and the period over which it must be available. Then compare two uses of the capital: one that keeps the amount near the target with lower variation, and one that offers a higher expected value but a material chance of falling below the target. If the higher expected value path can leave the goal unmet while the lower variation path meets it, the extra expected return does not compensate for the risk relative to that goal. Worked example (fictional figures): the goal requires 500,000 and that amount is already held. Mix A keeps the capital between 470,000 and 530,000. Mix B has an expected value of 550,000 but a realistic range of 300,000 to 600,000. The extra 50,000 of expected value (550,000 − 500,000) does not restore the goal if the outcome is 300,000. Relative to a goal of 500,000, the downside of Mix B breaks the target while the upside adds little once the target is already met. What goes wrong Treating “enough” as a moral claim. The page describes a calculation about a stated goal, not a judgement about how much is right to want. Ignoring that goals can change. A larger later goal can make additional capital useful again. Assuming the lower risk mix has no risk. Inflation, longevity or spending shocks can still reduce real resources even in a stable nominal mix. Key rule: once the capital required for a stated goal is in hand, ask whether extra expected return still improves the chance of meeting that goal or mainly adds the chance of missing it. Connects to risk of ruin — the chance that further risk ends the ability to meet the goal. asymmetry — upside that adds little once the target is reached, versus downside that breaks it. time horizons — the period the capital must remain available. opportunity cost — the return given up by reducing risk once the goal is met. margin of safety — keeping a buffer above the minimum the goal requires. withdrawal rates — spending plans that depend on the capital remaining intact. personal capital — skills and earnings that can change how much financial capital is required. Check yourself Q: The goal needs 400,000 and 400,000 is already held. A riskier mix offers an expected 480,000 but can fall to 250,000. Relative to the goal, what does the riskier mix add? A: An expected 80,000 above the goal, and a realistic chance of 150,000 below it. If 400,000 is what the goal requires, the downside breaks the goal while the upside is surplus. Q: Why is this not advice about how much to want? A: The calculation starts from a goal the person has already stated. It asks only whether further risk improves the chance of meeting that goal. It does not say what the goal should be.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "practice",
+    "withdrawal-rates"
+   ],
+   "backlinksAdv": []
   },
   "equities": {
    "id": "equities",
@@ -4935,6 +5000,68 @@ window.MUDMAP = {
    ],
    "backlinksAdv": []
   },
+  "fraud-warning-signs": {
+   "id": "fraud-warning-signs",
+   "title": "Fraud Warning Signs",
+   "short": "Fraud Warning Signs",
+   "parent": "practice",
+   "order": 3.5,
+   "summary": "Recurring patterns in investment fraud: returns that are too smooth or too high for the method, secrecy, pressure, weak custody and a Ponzi structure.",
+   "tcodes": [],
+   "fiori": [],
+   "tags": [
+    "practice",
+    "fraud",
+    "warning signs",
+    "custody"
+   ],
+   "sources": [
+    "SEC, Madoff (2008)",
+    "SIPC, Madoff trustee distribution (2018)"
+   ],
+   "level": "basic",
+   "group": "",
+   "tier": "",
+   "killer": "",
+   "traits": [],
+   "place": null,
+   "span": null,
+   "killerKind": "",
+   "rung": 0,
+   "rungName": "",
+   "backstop": "",
+   "failsAt": [],
+   "path": [
+    "capital-system",
+    "practice",
+    "fraud-warning-signs"
+   ],
+   "branch": "practice",
+   "hits": [],
+   "adv": false,
+   "html": "<h2>What it is</h2>\n<p>Fraud warning signs are patterns that appear repeatedly when investment returns are fabricated or when new money is used to pay earlier investors. They are not a complete list, and none of them proves fraud on its own. Together they raise the chance that the reported results are not what they seem.</p>\n<h2>Why it matters</h2>\n<p>Once money is handed over, recovering it is slow and incomplete. Recognising the patterns before the transfer is cheaper than relying on later legal remedies. The same patterns have appeared in many cases; the assets and the stories change.</p>\n<h2>How it works</h2>\n<p>Common patterns include:</p>\n<ul>\n<li>Returns that never show a losing month, or that move in a narrow band month after month.</li>\n<li>Returns that are high relative to the risk the stated method should involve.</li>\n<li>A strategy that cannot be explained or independently verified.</li>\n<li>Pressure to decide quickly, or an offer of “exclusive” access.</li>\n<li>No independent custodian — the manager holds the assets.</li>\n<li>A small or unknown auditor.</li>\n<li>Difficulty withdrawing money.</li>\n<li>Payments to existing investors that depend on money from new investors.</li>\n</ul>\n<p><strong>Worked example (fictional figures):</strong> a fund reports a gain of 1% every month and never a loss. Over twelve months that is 1.01^12 ≈ <strong>1.1268</strong>, or about 12.7%. The level is high but not impossible. The absence of any losing month is the stronger signal. Real strategies that target that return normally show variation; a path with zero variation is difficult to produce without either extraordinary skill or fabricated numbers. See <a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> and <a class=\"wl\" href=\"#/map/p/sharpe-ratio\" data-page=\"sharpe-ratio\" data-adv=\"1\">Sharpe Ratio</a>.</p>\n<p>The Madoff case (2008) showed several of these patterns at once: reported results that were both high and unusually smooth, a strategy that was hard to reconcile with the volumes claimed, and assets that turned out not to be held as stated. By 2018 the trustee had recovered about $13.3 billion. See <a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a>.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Treating one smooth year as proof.</strong> Short periods can be quiet by chance.</li>\n<li><strong>Assuming a well-known name removes the risk.</strong> Reputation has not prevented large frauds.</li>\n<li><strong>Focusing only on the return level.</strong> The smoothness and the custody arrangements are often more informative than the headline percentage.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> if you cannot see who holds the money and why the returns are what they are, do not hand it over.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/broker-failure\" data-page=\"broker-failure\">Broker and Custodian Failure</a> — what happens when the firm holding the assets fails or the assets were never there.</li>\n<li><a class=\"wl\" href=\"#/map/p/incentives\" data-page=\"incentives\">Incentives</a> — structures that reward raising new money rather than earning returns.</li>\n<li><a class=\"wl\" href=\"#/map/p/edge\" data-page=\"edge\">Edge</a> — a claimed edge that cannot be examined is not an edge you can rely on.</li>\n<li><a class=\"wl\" href=\"#/map/p/volatility\" data-page=\"volatility\">Volatility</a> — real strategies normally show variation; its absence is a signal.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — chasing reported results without checking custody or method.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A strategy reports 10% a year with almost no monthly variation. Why is the lack of variation more informative than the 10%?</p><details><summary>Show answer</summary><p>Many legitimate strategies can produce 10% in some periods. Very few can produce it with almost no losing months, because real markets and real methods generate variation. The smoothness is harder to fake by chance than the level.</p></details></div>\n<div class=\"qa\"><p class=\"q\">The manager says the assets are held at a well-known bank, but statements come only from the manager. What is missing?</p><details><summary>Show answer</summary><p>Independent confirmation from the custodian. Statements prepared by the manager do not show that the assets exist outside the manager’s control.</p></details></div>",
+   "deep": "",
+   "links": [
+    "broker-failure",
+    "common-mistakes",
+    "edge",
+    "incentives",
+    "sharpe-ratio",
+    "volatility"
+   ],
+   "stub": false,
+   "text": "What it is Fraud warning signs are patterns that appear repeatedly when investment returns are fabricated or when new money is used to pay earlier investors. They are not a complete list, and none of them proves fraud on its own. Together they raise the chance that the reported results are not what they seem. Why it matters Once money is handed over, recovering it is slow and incomplete. Recognising the patterns before the transfer is cheaper than relying on later legal remedies. The same patterns have appeared in many cases; the assets and the stories change. How it works Common patterns include: Returns that never show a losing month, or that move in a narrow band month after month. Returns that are high relative to the risk the stated method should involve. A strategy that cannot be explained or independently verified. Pressure to decide quickly, or an offer of “exclusive” access. No independent custodian — the manager holds the assets. A small or unknown auditor. Difficulty withdrawing money. Payments to existing investors that depend on money from new investors. Worked example (fictional figures): a fund reports a gain of 1% every month and never a loss. Over twelve months that is 1.01^12 ≈ 1.1268 , or about 12.7%. The level is high but not impossible. The absence of any losing month is the stronger signal. Real strategies that target that return normally show variation; a path with zero variation is difficult to produce without either extraordinary skill or fabricated numbers. See volatility and sharpe ratio. The Madoff case (2008) showed several of these patterns at once: reported results that were both high and unusually smooth, a strategy that was hard to reconcile with the volumes claimed, and assets that turned out not to be held as stated. By 2018 the trustee had recovered about $13.3 billion. See broker failure. What goes wrong Treating one smooth year as proof. Short periods can be quiet by chance. Assuming a well known name removes the risk. Reputation has not prevented large frauds. Focusing only on the return level. The smoothness and the custody arrangements are often more informative than the headline percentage. Key rule: if you cannot see who holds the money and why the returns are what they are, do not hand it over. Connects to broker failure — what happens when the firm holding the assets fails or the assets were never there. incentives — structures that reward raising new money rather than earning returns. edge — a claimed edge that cannot be examined is not an edge you can rely on. volatility — real strategies normally show variation; its absence is a signal. common mistakes — chasing reported results without checking custody or method. Check yourself Q: A strategy reports 10% a year with almost no monthly variation. Why is the lack of variation more informative than the 10%? A: Many legitimate strategies can produce 10% in some periods. Very few can produce it with almost no losing months, because real markets and real methods generate variation. The smoothness is harder to fake by chance than the level. Q: The manager says the assets are held at a well known bank, but statements come only from the manager. What is missing? A: Independent confirmation from the custodian. Statements prepared by the manager do not show that the assets exist outside the manager’s control.",
+   "textDeep": "",
+   "children": [],
+   "jobs": [],
+   "quals": [],
+   "answers": [],
+   "backlinks": [
+    "common-mistakes",
+    "practice"
+   ],
+   "backlinksAdv": []
+  },
   "funds-and-etfs": {
    "id": "funds-and-etfs",
    "title": "Funds and ETFs",
@@ -5701,6 +5828,7 @@ window.MUDMAP = {
    "backlinks": [
     "common-mistakes",
     "externalities",
+    "fraud-warning-signs",
     "how-to-think"
    ],
    "backlinksAdv": []
@@ -6483,6 +6611,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "enough",
     "how-to-think",
     "valuation"
    ],
@@ -7433,6 +7562,7 @@ window.MUDMAP = {
    "quals": [],
    "answers": [],
    "backlinks": [
+    "enough",
     "how-to-think",
     "second-order-thinking",
     "time-value-of-money"
@@ -7613,6 +7743,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "capital-system",
+    "enough",
     "portfolio",
     "private-business"
    ],
@@ -7793,7 +7924,7 @@ window.MUDMAP = {
    "branch": "practice",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p><strong>In Practice</strong> is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most.</p>\n<p>None of it is glamorous. Much of it matters more to your final result than which asset you pick.</p>\n<h2>Why it exists</h2>\n<p>Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax-advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/tax\" data-page=\"tax\">Tax</a> — how gains and income are taxed, and why the timing of tax changes the maths.</li>\n<li><a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a> — ordinary, tax-advantaged and retirement accounts.</li>\n<li><a class=\"wl\" href=\"#/map/p/withdrawal-rates\" data-page=\"withdrawal-rates\">Withdrawal Rates</a> — historical research on how much can be taken each year without exhausting a portfolio.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors that cost the most, and how to avoid them.</li>\n<li><a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a> — where reliable price, economic and on-chain data comes from, and how to check it.</li>\n<li><a class=\"wl\" href=\"#/map/p/charting\" data-page=\"charting\">Charting</a> — reading price charts, and what they can't tell you.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Lever</th>\n<th>Typical effect</th>\n<th>Can you control it?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Fees</strong></td>\n<td>Taken every year, compounding</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td><strong>Tax</strong></td>\n<td>Reduced or delayed by the right account</td>\n<td>Largely</td>\n</tr>\n<tr>\n<td><strong>Behaviour</strong></td>\n<td>Buying high and selling low</td>\n<td>Yes, with rules set in advance</td>\n</tr>\n<tr>\n<td><strong>Market returns</strong></td>\n<td>The biggest swing, year to year</td>\n<td>No</td>\n</tr>\n</tbody>\n</table></div>\n<p>The pattern is the same throughout: control what you can, because what you can't control is large.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Tax and fees ignored</strong> until they've compounded for decades.</li>\n<li><strong>Bad timing.</strong> Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times.</li>\n<li><strong>Bad data,</strong> leading to confident decisions on wrong numbers.</li>\n<li><strong>Patterns in noise.</strong> Charts make random movements look meaningful.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — why small yearly costs become large.</li>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — where fees bite hardest.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan these practical choices protect.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts.</p><details><summary>Show answer</summary><p>For example: one held it in a tax-advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do fees matter more than they look?</p><details><summary>Show answer</summary><p>Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p><strong>In Practice</strong> is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most.</p>\n<p>None of it is glamorous. Much of it matters more to your final result than which asset you pick.</p>\n<h2>Why it exists</h2>\n<p>Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax-advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here.</p>\n<h2>How it works</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/tax\" data-page=\"tax\">Tax</a> — how gains and income are taxed, and why the timing of tax changes the maths.</li>\n<li><a class=\"wl\" href=\"#/map/p/account-types\" data-page=\"account-types\">Account Types</a> — ordinary, tax-advantaged and retirement accounts.</li>\n<li><a class=\"wl\" href=\"#/map/p/withdrawal-rates\" data-page=\"withdrawal-rates\">Withdrawal Rates</a> — historical research on how much can be taken each year without exhausting a portfolio.</li>\n<li><a class=\"wl\" href=\"#/map/p/common-mistakes\" data-page=\"common-mistakes\">Common Mistakes</a> — the errors that cost the most, and how to avoid them.</li>\n<li><a class=\"wl\" href=\"#/map/p/fraud-warning-signs\" data-page=\"fraud-warning-signs\">Fraud Warning Signs</a> — patterns that appear when returns are fabricated or new money pays old investors.</li>\n<li><a class=\"wl\" href=\"#/map/p/data-sources\" data-page=\"data-sources\">Data Sources</a> — where reliable price, economic and on-chain data comes from, and how to check it.</li>\n<li><a class=\"wl\" href=\"#/map/p/charting\" data-page=\"charting\">Charting</a> — reading price charts, and what they can't tell you.</li>\n<li><a class=\"wl\" href=\"#/map/p/enough\" data-page=\"enough\">Enough</a> — once a stated goal is funded, whether extra risk still improves the chance of meeting it.</li>\n</ul>\n<div class=\"tablewrap\"><table>\n<thead>\n<tr>\n<th>Lever</th>\n<th>Typical effect</th>\n<th>Can you control it?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Fees</strong></td>\n<td>Taken every year, compounding</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td><strong>Tax</strong></td>\n<td>Reduced or delayed by the right account</td>\n<td>Largely</td>\n</tr>\n<tr>\n<td><strong>Behaviour</strong></td>\n<td>Buying high and selling low</td>\n<td>Yes, with rules set in advance</td>\n</tr>\n<tr>\n<td><strong>Market returns</strong></td>\n<td>The biggest swing, year to year</td>\n<td>No</td>\n</tr>\n</tbody>\n</table></div>\n<p>The pattern is the same throughout: control what you can, because what you can't control is large.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Tax and fees ignored</strong> until they've compounded for decades.</li>\n<li><strong>Bad timing.</strong> Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times.</li>\n<li><strong>Bad data,</strong> leading to confident decisions on wrong numbers.</li>\n<li><strong>Patterns in noise.</strong> Charts make random movements look meaningful.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/compounding\" data-page=\"compounding\">Compounding</a> — why small yearly costs become large.</li>\n<li><a class=\"wl\" href=\"#/map/p/funds-and-etfs\" data-page=\"funds-and-etfs\">Funds and ETFs</a> — where fees bite hardest.</li>\n<li><a class=\"wl\" href=\"#/map/p/portfolio\" data-page=\"portfolio\">Portfolio &amp; Risk</a> — the plan these practical choices protect.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts.</p><details><summary>Show answer</summary><p>For example: one held it in a tax-advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do fees matter more than they look?</p><details><summary>Show answer</summary><p>Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.</p></details></div>",
    "deep": "<section class=\"deeper\"><div class=\"deeper-tag\">Advanced layer</div><h2>Going deeper</h2>\n<ul>\n<li><strong>Rules over predictions.</strong> Simple written rules (how much to save, what mix to hold, when to rebalance) protect against your own reactions in a crisis better than forecasts do.</li>\n<li><strong>Records.</strong> Keeping a record of purchases, sales and costs makes tax, rebalancing and honest performance tracking far easier.</li>\n</ul></section>",
    "links": [
     "account-types",
@@ -7801,21 +7932,25 @@ window.MUDMAP = {
     "common-mistakes",
     "compounding",
     "data-sources",
+    "enough",
+    "fraud-warning-signs",
     "funds-and-etfs",
     "portfolio",
     "tax",
     "withdrawal-rates"
    ],
    "stub": false,
-   "text": "What it is In Practice is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most. None of it is glamorous. Much of it matters more to your final result than which asset you pick. Why it exists Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here. How it works tax — how gains and income are taxed, and why the timing of tax changes the maths. account types — ordinary, tax advantaged and retirement accounts. withdrawal rates — historical research on how much can be taken each year without exhausting a portfolio. common mistakes — the errors that cost the most, and how to avoid them. data sources — where reliable price, economic and on chain data comes from, and how to check it. charting — reading price charts, and what they can't tell you. Lever Typical effect Can you control it? Fees Taken every year, compounding Yes Tax Reduced or delayed by the right account Largely Behaviour Buying high and selling low Yes, with rules set in advance Market returns The biggest swing, year to year No The pattern is the same throughout: control what you can, because what you can't control is large. What goes wrong Tax and fees ignored until they've compounded for decades. Bad timing. Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times. Bad data, leading to confident decisions on wrong numbers. Patterns in noise. Charts make random movements look meaningful. Key rule: fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners. Connects to compounding — why small yearly costs become large. funds and etfs — where fees bite hardest. portfolio — the plan these practical choices protect. Check yourself Q: Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts. A: For example: one held it in a tax advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices. Q: Why do fees matter more than they look? A: Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.",
+   "text": "What it is In Practice is where the rest of the map meets real life: the accounts you hold investments in, the tax you pay on them, the data you base decisions on, the charts you look at, and the mistakes that cost ordinary investors the most. None of it is glamorous. Much of it matters more to your final result than which asset you pick. Why it exists Two people can own the same fund and end up with very different amounts. The difference comes from things in this branch: one held it in a tax advantaged account, paid lower fees, and didn't sell in a panic. The other did the opposite. Good decisions elsewhere on the map can be undone here. How it works tax — how gains and income are taxed, and why the timing of tax changes the maths. account types — ordinary, tax advantaged and retirement accounts. withdrawal rates — historical research on how much can be taken each year without exhausting a portfolio. common mistakes — the errors that cost the most, and how to avoid them. fraud warning signs — patterns that appear when returns are fabricated or new money pays old investors. data sources — where reliable price, economic and on chain data comes from, and how to check it. charting — reading price charts, and what they can't tell you. enough — once a stated goal is funded, whether extra risk still improves the chance of meeting it. Lever Typical effect Can you control it? Fees Taken every year, compounding Yes Tax Reduced or delayed by the right account Largely Behaviour Buying high and selling low Yes, with rules set in advance Market returns The biggest swing, year to year No The pattern is the same throughout: control what you can, because what you can't control is large. What goes wrong Tax and fees ignored until they've compounded for decades. Bad timing. Morningstar estimates that over the ten years to 2023, the average dollar in US funds earned 1.1% a year less than the funds themselves, because investors bought and sold at the wrong times. Bad data, leading to confident decisions on wrong numbers. Patterns in noise. Charts make random movements look meaningful. Key rule: fees, tax and behaviour are the parts of your return you control. Get those right before you try to pick winners. Connects to compounding — why small yearly costs become large. funds and etfs — where fees bite hardest. portfolio — the plan these practical choices protect. Check yourself Q: Two investors own the same fund for twenty years. Name three reasons they might end with very different amounts. A: For example: one held it in a tax advantaged account; one paid higher platform fees; one sold during a crash and bought back later at higher prices. Q: Why do fees matter more than they look? A: Because they are taken every year and compound against you. A 1% yearly fee can take around a quarter of the final value over thirty years.",
    "textDeep": "Going deeper Rules over predictions. Simple written rules (how much to save, what mix to hold, when to rebalance) protect against your own reactions in a crisis better than forecasts do. Records. Keeping a record of purchases, sales and costs makes tax, rebalancing and honest performance tracking far easier.",
    "children": [
     "tax",
     "account-types",
     "withdrawal-rates",
     "common-mistakes",
+    "fraud-warning-signs",
     "data-sources",
-    "charting"
+    "charting",
+    "enough"
    ],
    "jobs": [],
    "quals": [],
@@ -8698,6 +8833,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "asymmetry",
+    "enough",
     "fat-tails",
     "kelly-criterion",
     "portfolio"
@@ -9081,6 +9217,7 @@ window.MUDMAP = {
    ],
    "answers": [],
    "backlinks": [
+    "fraud-warning-signs",
     "leverage",
     "measure",
     "options",
@@ -9864,6 +10001,7 @@ window.MUDMAP = {
    "answers": [],
    "backlinks": [
     "drawdown",
+    "enough",
     "how-to-think",
     "withdrawal-rates"
    ],
@@ -10158,6 +10296,7 @@ window.MUDMAP = {
     "fat-tails",
     "fear-gauges",
     "foundation",
+    "fraud-warning-signs",
     "kelly-criterion",
     "luck-and-skill",
     "measure",
@@ -10281,22 +10420,24 @@ window.MUDMAP = {
    "branch": "practice",
    "hits": [],
    "adv": false,
-   "html": "<h2>What it is</h2>\n<p>A withdrawal rate is the percentage of a portfolio’s starting value taken out each year, often adjusted for inflation. Research has examined which rates would have survived historical sequences of returns without the portfolio reaching zero before a chosen horizon.</p>\n<h2>Why it matters</h2>\n<p>Spending more than the portfolio can support leads to exhaustion. Spending less leaves capital unused. The research provides a historical benchmark, not a guarantee. Results depend on the asset mix, the fees, the horizon and the sequence of returns that actually occurs.</p>\n<h2>How it works</h2>\n<p>William Bengen’s 1994 study in the <em>Journal of Financial Planning</em> examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested; in none of them did it run out in under 33 years. His figures came from US shares and intermediate-term US government bonds. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence.</p>\n<p><strong>Worked example (fictional figures):</strong> a portfolio of 1,000,000. A 4% initial withdrawal is 40,000 in the first year. If inflation is 3%, the second-year withdrawal is 40,000 × 1.03 = <strong>41,200</strong>. Whether the portfolio survives depends on the returns that follow, not on the percentage alone.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Treating a historical finding as a promise.</strong> Future returns, inflation and longevity can differ from the periods studied.</li>\n<li><strong>Ignoring fees and taxes.</strong> Costs reduce the amount that can be withdrawn for the same survival probability.</li>\n<li><strong>Applying a US equity-bond result to other markets or mixes without adjustment.</strong> The arithmetic changes when the expected returns or the volatility differ.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> historical withdrawal research describes what survived past US sequences; it does not prescribe what any person should withdraw.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-horizons\" data-page=\"time-horizons\">Time Horizons</a> — the period the withdrawals must last.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — early losses reduce the capital from which later withdrawals are taken.</li>\n<li><a class=\"wl\" href=\"#/map/p/averages-and-distributions\" data-page=\"averages-and-distributions\">Averages and Distributions</a> — the order of returns matters, not only their average.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — withdrawals that rise with prices require the portfolio to keep pace.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A study finds that 4% survived 30 years in past US data. What does that not tell you?</p><details><summary>Show answer</summary><p>Whether 4% will survive the next 30 years, in a different market, with different fees, or for a different horizon.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do early losses matter more than later ones for a withdrawal plan?</p><details><summary>Show answer</summary><p>Because withdrawals continue while capital is reduced, so a smaller base must support the same spending. Later gains have less capital left to compound.</p></details></div>",
+   "html": "<h2>What it is</h2>\n<p>A withdrawal rate is the percentage of a portfolio’s starting value taken out each year, often adjusted for inflation. Research has examined which rates would have survived historical sequences of returns without the portfolio reaching zero before a chosen horizon.</p>\n<h2>Why it matters</h2>\n<p>Spending more than the portfolio can support leads to exhaustion. Spending less leaves capital unused. The research provides a historical benchmark, not a guarantee. Results depend on the asset mix, the fees, the horizon and the sequence of returns that actually occurs.</p>\n<h2>How it works</h2>\n<p>William Bengen’s 1994 study in the <em>Journal of Financial Planning</em> examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested; in none of them did it run out in under 33 years. His figures came from US shares and intermediate-term US government bonds. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence.</p>\n<p><strong>Worked example (fictional figures):</strong> a portfolio of 1,000,000. A 4% initial withdrawal is 40,000 in the first year. If inflation is 3%, the second-year withdrawal is 40,000 × 1.03 = <strong>41,200</strong>. Whether the portfolio survives depends on the returns that follow, not on the percentage alone.</p>\n<h2>What goes wrong</h2>\n<ul>\n<li><strong>Treating a historical finding as a promise.</strong> Future returns, inflation and longevity can differ from the periods studied.</li>\n<li><strong>Ignoring fees and taxes.</strong> Costs reduce the amount that can be withdrawn for the same survival probability.</li>\n<li><strong>Applying a US equity-bond result to other markets or mixes without adjustment.</strong> The arithmetic changes when the expected returns or the volatility differ.</li>\n</ul>\n<blockquote>\n<p><strong>Key rule:</strong> historical withdrawal research describes what survived past US sequences; it does not prescribe what any person should withdraw.</p>\n</blockquote>\n<h2>Connects to</h2>\n<ul>\n<li><a class=\"wl\" href=\"#/map/p/time-horizons\" data-page=\"time-horizons\">Time Horizons</a> — the period the withdrawals must last.</li>\n<li><a class=\"wl\" href=\"#/map/p/drawdown\" data-page=\"drawdown\">Drawdown</a> — early losses reduce the capital from which later withdrawals are taken.</li>\n<li><a class=\"wl\" href=\"#/map/p/averages-and-distributions\" data-page=\"averages-and-distributions\">Averages and Distributions</a> — the order of returns matters, not only their average.</li>\n<li><a class=\"wl\" href=\"#/map/p/inflation\" data-page=\"inflation\">Inflation</a> — withdrawals that rise with prices require the portfolio to keep pace.</li>\n<li><a class=\"wl\" href=\"#/map/p/enough\" data-page=\"enough\">Enough</a> — whether further risk still helps once the capital for a spending goal is in hand.</li>\n</ul>\n<h2>Check yourself</h2>\n<div class=\"qa\"><p class=\"q\">A study finds that 4% survived 30 years in past US data. What does that not tell you?</p><details><summary>Show answer</summary><p>Whether 4% will survive the next 30 years, in a different market, with different fees, or for a different horizon.</p></details></div>\n<div class=\"qa\"><p class=\"q\">Why do early losses matter more than later ones for a withdrawal plan?</p><details><summary>Show answer</summary><p>Because withdrawals continue while capital is reduced, so a smaller base must support the same spending. Later gains have less capital left to compound.</p></details></div>",
    "deep": "",
    "links": [
     "averages-and-distributions",
     "drawdown",
+    "enough",
     "inflation",
     "time-horizons"
    ],
    "stub": false,
-   "text": "What it is A withdrawal rate is the percentage of a portfolio’s starting value taken out each year, often adjusted for inflation. Research has examined which rates would have survived historical sequences of returns without the portfolio reaching zero before a chosen horizon. Why it matters Spending more than the portfolio can support leads to exhaustion. Spending less leaves capital unused. The research provides a historical benchmark, not a guarantee. Results depend on the asset mix, the fees, the horizon and the sequence of returns that actually occurs. How it works William Bengen’s 1994 study in the Journal of Financial Planning examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested; in none of them did it run out in under 33 years. His figures came from US shares and intermediate term US government bonds. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence. Worked example (fictional figures): a portfolio of 1,000,000. A 4% initial withdrawal is 40,000 in the first year. If inflation is 3%, the second year withdrawal is 40,000 × 1.03 = 41,200 . Whether the portfolio survives depends on the returns that follow, not on the percentage alone. What goes wrong Treating a historical finding as a promise. Future returns, inflation and longevity can differ from the periods studied. Ignoring fees and taxes. Costs reduce the amount that can be withdrawn for the same survival probability. Applying a US equity bond result to other markets or mixes without adjustment. The arithmetic changes when the expected returns or the volatility differ. Key rule: historical withdrawal research describes what survived past US sequences; it does not prescribe what any person should withdraw. Connects to time horizons — the period the withdrawals must last. drawdown — early losses reduce the capital from which later withdrawals are taken. averages and distributions — the order of returns matters, not only their average. inflation — withdrawals that rise with prices require the portfolio to keep pace. Check yourself Q: A study finds that 4% survived 30 years in past US data. What does that not tell you? A: Whether 4% will survive the next 30 years, in a different market, with different fees, or for a different horizon. Q: Why do early losses matter more than later ones for a withdrawal plan? A: Because withdrawals continue while capital is reduced, so a smaller base must support the same spending. Later gains have less capital left to compound.",
+   "text": "What it is A withdrawal rate is the percentage of a portfolio’s starting value taken out each year, often adjusted for inflation. Research has examined which rates would have survived historical sequences of returns without the portfolio reaching zero before a chosen horizon. Why it matters Spending more than the portfolio can support leads to exhaustion. Spending less leaves capital unused. The research provides a historical benchmark, not a guarantee. Results depend on the asset mix, the fees, the horizon and the sequence of returns that actually occurs. How it works William Bengen’s 1994 study in the Journal of Financial Planning examined US stock and bond returns and concluded that an initial withdrawal of about 4% of the portfolio, thereafter adjusted for inflation, would have lasted at least 30 years in the historical periods he tested; in none of them did it run out in under 33 years. His figures came from US shares and intermediate term US government bonds. Later work has varied the mix, the horizon and the data set. The figure is sensitive to the starting valuation, to fees, and to whether the early years contain large losses. It is a finding about US history over particular periods, not a rule that applies to every market or every future sequence. Worked example (fictional figures): a portfolio of 1,000,000. A 4% initial withdrawal is 40,000 in the first year. If inflation is 3%, the second year withdrawal is 40,000 × 1.03 = 41,200 . Whether the portfolio survives depends on the returns that follow, not on the percentage alone. What goes wrong Treating a historical finding as a promise. Future returns, inflation and longevity can differ from the periods studied. Ignoring fees and taxes. Costs reduce the amount that can be withdrawn for the same survival probability. Applying a US equity bond result to other markets or mixes without adjustment. The arithmetic changes when the expected returns or the volatility differ. Key rule: historical withdrawal research describes what survived past US sequences; it does not prescribe what any person should withdraw. Connects to time horizons — the period the withdrawals must last. drawdown — early losses reduce the capital from which later withdrawals are taken. averages and distributions — the order of returns matters, not only their average. inflation — withdrawals that rise with prices require the portfolio to keep pace. enough — whether further risk still helps once the capital for a spending goal is in hand. Check yourself Q: A study finds that 4% survived 30 years in past US data. What does that not tell you? A: Whether 4% will survive the next 30 years, in a different market, with different fees, or for a different horizon. Q: Why do early losses matter more than later ones for a withdrawal plan? A: Because withdrawals continue while capital is reduced, so a smaller base must support the same spending. Later gains have less capital left to compound.",
    "textDeep": "",
    "children": [],
    "jobs": [],
    "quals": [],
    "answers": [],
    "backlinks": [
+    "enough",
     "practice",
     "time-horizons"
    ],
@@ -13005,5 +13146,5 @@ window.MUDMAP = {
   "Crypto",
   "When things go wrong"
  ],
- "built": "2026-10-27 10:43 UTC"
+ "built": "2026-10-27 10:50 UTC"
 };

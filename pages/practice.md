@@ -20,8 +20,10 @@ Two people can own the same fund and end up with very different amounts. The dif
 - [[account-types]] — ordinary, tax-advantaged and retirement accounts.
 - [[withdrawal-rates]] — historical research on how much can be taken each year without exhausting a portfolio.
 - [[common-mistakes]] — the errors that cost the most, and how to avoid them.
+- [[fraud-warning-signs]] — patterns that appear when returns are fabricated or new money pays old investors.
 - [[data-sources]] — where reliable price, economic and on-chain data comes from, and how to check it.
 - [[charting]] — reading price charts, and what they can't tell you.
+- [[enough]] — once a stated goal is funded, whether extra risk still improves the chance of meeting it.
 
 | Lever | Typical effect | Can you control it? |
 |---|---|---|
