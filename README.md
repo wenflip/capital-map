@@ -186,7 +186,7 @@ Money, markets and assets only. No personal, career or employer details, and no 
 
 ## Tests
 
-The browser test suites are kept **outside** this repo, with the privacy scan, which must never be committed. They run through one runner with an 80/20 rule:
+The browser test suites live in [`tests/`](tests/README.md), so a change and its tests travel in the same PR. The privacy scan stays **outside** this repo and is never committed. The suites run through one runner (`tests/run_tests.py`) with an 80/20 rule:
 
 - **Content-only changes** (pages, flows, qualifications, docs): the branch's own suites plus a smoke set, desktop width only — a couple of minutes.
 - **Engine or layout changes** (`assets/`, `tools/`, `index.html`, `_headers`, `robots.txt`): every suite at all three screen widths.
